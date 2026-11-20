@@ -4,6 +4,8 @@
 
 项目于同日建立本地 Git 仓库并关联 `G-LittleSun/MIAGuard`。提交范围、模型和数据的本地备份范围以及同步方式见 [Git 版本管理与同步](GIT_WORKFLOW_ZH.md)。
 
+查找某个源码、脚本、配置、Schema 或测试文件的用途时，使用[代码文件索引](CODE_FILE_INDEX_ZH.md)，其中的链接可直接进入对应文件。
+
 ## 工程目录
 
 ```text

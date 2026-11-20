@@ -10,7 +10,9 @@
 - [实验协议 v1.1](DEFENSE_EXPERIMENT_PROTOCOL_ZH.md)
 - [研究建议](DEFENSE_DEVELOPMENT_EXPERIMENT_RECOMMENDATIONS_ZH.md)与[文献综述](ACCESS_CONTROL_DEFENSE_LITERATURE_REVIEW_ZH.md)：背景来源；执行细节以以上规格/计划/协议及修订记录为准。
 
-**2026-11-17 当前恢复点为 T10-D。** 下一轮[主配对](../data/defense_v1_runs/next-goal-paired-20261117-01/run_manifest.json)188/188、[正常IA格式对照](../data/defense_v1_runs/next-goal-ia-style-20261117-01/run_manifest.json)16/16、[受控替代证据](../data/defense_v1_runs/next-goal-alternate-20261117-01/run_manifest.json)2/2和[真实机制消融](../data/defense_v1_runs/next-goal-ablation-20261117-01/run_manifest.json)32/32完成。正常对照中候选使V2原本正确的2题失去证据，按预设规则保留V2；相关回归93 passed。详见 L258–L269。真人gold、正式校准和终测仍待验收。
+**2026-11-20 当前恢复点为 T10-D。** 四类各 40 目标的 B0/V2 开发配对完成 480/480，48 题正常效用完成 96/96，困难正常题已补评。工程目录、代码文件索引和 Git 入口已建立。后续结合已记录的漏检、正常任务退化及早期交付继续开发，并推进独立来源、人工 gold 与攻击校准。[实验结果汇总](EXPERIMENT_RESULTS_ZH.md) · [工程目录](PROJECT_STRUCTURE_ZH.md) · [逐文件索引](CODE_FILE_INDEX_ZH.md)
+
+**2026-11-17 历史检查点。** 下一轮[主配对](../data/defense_v1_runs/next-goal-paired-20261117-01/run_manifest.json)188/188、[正常IA格式对照](../data/defense_v1_runs/next-goal-ia-style-20261117-01/run_manifest.json)16/16、[受控替代证据](../data/defense_v1_runs/next-goal-alternate-20261117-01/run_manifest.json)2/2和[真实机制消融](../data/defense_v1_runs/next-goal-ablation-20261117-01/run_manifest.json)32/32完成。正常对照中候选使V2原本正确的2题失去证据，按预设规则保留V2；相关回归93 passed。详见 L258–L269。
 
 **当前阶段：T10-A 数据基础、T10-B 两轮模型预审及 T10-C 的 D-dev 会话设计选择已完成；T10 整体仍 IN_PROGRESS，数据复用验收、跨分区来源审计和人工 gold 尚未完成。T11 指标工程预研进行中；G0/G1 已通过。next_task=T10-D（IN_PROGRESS）：在新固定的开发集上研究风险识别漏检、正常题误触发和多轮早期交付，并补独立来源、人工审核和攻击校准。** [数据复用规则](DEFENSE_DATA_REUSE_ZH.md)与[选择清单](../reports/defense_v1/T10/legacy_reuse_selection_20261104.json)固定最新 v2 bank/split；v1 Judge/E00 保留原身份。v2 train 可用于条件满足后的 engineering_only 联调；字段盘点不是逐条验收，旧 validation/test 不作新终测。D-dev 选定 28 个两轮基础会话与两个共用来源的三轮诊断；正式长度/规模未冻结，正式防御效果实验未启动。
 
@@ -1784,3 +1786,10 @@ A–E 为 T10 的内部步骤，完整操作、计划文件和验收写在[主�
 
 - 执行 `git commit -q -m "Initialize MIAGuard research framework and experiment archive"`，首次提交为 `9a74ec0`。执行 `git -c credential.interactive=never push --set-upstream origin main` 成功，GitHub 建立 main 分支，本地跟踪 origin/main。
 - 执行 `git fsck --full` 通过，3 个已被后续暂存内容替代的未引用 blob 属本地暂存过程。已写入 [Git 版本管理与同步](GIT_WORKFLOW_ZH.md)，记录提交范围及模型、原始数据、索引的本地备份范围，项目状态已同步。后续按 Git 历史记录代码变更，研究任务仍为 T10-D。
+
+### L316 — 2026-11-20 — NEW_SESSION_NAVIGATION_REVIEW
+
+- 用户要求确认新会话能否快速理解目录、文件用途、开发与实验进度。执行 `git status -sb` 确认本地起点干净，读取根 README、AGENTS、文档索引、工程目录、版本表与进度首页。发现关键入口齐全，逐文件用途缺索引，部分首页恢复说明仍停在 11 月 17 日。
+- 执行 `python -B -X utf8 -`，从实际文件和 AST 建立[代码文件索引](CODE_FILE_INDEX_ZH.md)。覆盖 84 个源码、61 个 Python 命令入口、4 个 PowerShell 脚本、43 个配置、8 个 Schema、76 个测试文件及 96 个实验专用脚本。索引同时列出包的顶层入口、实际测试导入与源码自述。
+- 已更新根 README、AGENTS、工程目录、文档索引、文档总目录、当前恢复摘要和版本表的接手说明，保留原实验身份与历史记录。文档导航的验收以索引覆盖、链接、源码符号和原始运行清单核对。研究阶段仍为 T10-D。
+- 用 `python -B -X utf8 -` 核验 372 个代码、脚本、配置、Schema 与测试文件均被索引覆盖，386 个索引链接存在，六个接手入口关联到索引。重新核对四类 480 次和正常效用 96 次原始归档，与摘要吻合。本轮仅更新文档，未重跑模型或全量测试。

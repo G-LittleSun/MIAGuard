@@ -1,5 +1,7 @@
 # MIAGuard 当前开发状态
 
+2026-11-20 已核对新会话导航，补齐[代码文件索引](CODE_FILE_INDEX_ZH.md)，更新 AGENTS 与进度首页的当前恢复摘要。项目目录和代码职责见[工程目录](PROJECT_STRUCTURE_ZH.md)，开发下一步继续从 T10-D 接续。
+
 2026-11-20 已建立 `main` 分支并成功同步到 `G-LittleSun/MIAGuard`，首次提交为 `9a74ec0`。Git 的提交范围、同步与回滚操作见[版本管理说明](GIT_WORKFLOW_ZH.md)。
 
 2026-11-20 完成工程入口整理，已清理可核实的 pytest 临时产物和一份空测试日志。回收站核验及两处读取受限的目录见整理记录。[工程目录与整理记录](PROJECT_STRUCTURE_ZH.md)

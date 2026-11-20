@@ -11,6 +11,7 @@
 | 文档 | 路径 | 性质 | 内容与用途 |
 |---|---|---|---|
 | [MIAGuard 工程目录与整理记录](PROJECT_STRUCTURE_ZH.md) | `PROJECT_STRUCTURE_ZH.md` | 当前入口 | 目录用途、代码调用关系、常用命令、整理清单与恢复方式 |
+| [MIAGuard 代码文件索引](CODE_FILE_INDEX_ZH.md) | `CODE_FILE_INDEX_ZH.md` | 当前入口 | 源码、命令脚本、配置、Schema、测试与实验专用脚本的逐文件用途 |
 | [MIAGuard Git 版本管理与同步](GIT_WORKFLOW_ZH.md) | `GIT_WORKFLOW_ZH.md` | 维护入口 | Git 跟踪范围、同步、回滚及本地数据恢复 |
 | [MIAGuard 当前版本总表](CURRENT_VERSIONS_ZH.md) | `CURRENT_VERSIONS_ZH.md` | 当前入口 | 数据、模型、代码和实验版本总表 |
 | [MIAGuard 数据与正式产物目录](DATA_CATALOG_ZH.md) | `DATA_CATALOG_ZH.md` | 当前入口 | 数据集、划分与产物入口 |

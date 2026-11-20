@@ -2,6 +2,8 @@
 
 MIAGuard 用于本地 RAG 成员推理风险与访问控制研究。[工程目录与整理记录](docs/PROJECT_STRUCTURE_ZH.md)提供目录树、代码调用关系、运行入口和整理前后的路径。
 
+按具体文件查找源码、命令脚本、配置、Schema、测试及实验专用脚本时，使用[代码文件索引](docs/CODE_FILE_INDEX_ZH.md)。
+
 项目代码和文档通过 GitHub 记录版本，日常提交、同步与回滚见 [Git 版本管理与同步](docs/GIT_WORKFLOW_ZH.md)。本地模型、原始数据和索引的管理范围见根目录 `.gitignore`。
 
 - 新成员先看[当前开发状态](docs/PROJECT_STATUS_ZH.md)、[数据目录](docs/DATA_CATALOG_ZH.md)和[实验索引](docs/EXPERIMENT_INDEX_ZH.md)。开发任务、规格与下一步见[防御进度台账](docs/DEFENSE_PROGRESS_ZH.md)。
