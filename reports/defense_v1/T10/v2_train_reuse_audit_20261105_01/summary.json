@@ -1,0 +1,67 @@
+{
+  "status": "complete_structural_audit_semantic_review_pending",
+  "bank_id": "ag_news_queries_v2",
+  "split_id": "ag_news_threshold_v2",
+  "partition": "train",
+  "documents": 60,
+  "queries": 4579,
+  "action_counts": {
+    "needs_annotation": 1304,
+    "reuse_content_after_adapter": 2975,
+    "needs_rewrite": 300
+  },
+  "by_attack_type": {
+    "benign": {
+      "needs_annotation": 1304
+    },
+    "direct_rag_mia": {
+      "reuse_content_after_adapter": 300
+    },
+    "ia": {
+      "reuse_content_after_adapter": 2375
+    },
+    "masked_mia": {
+      "needs_rewrite": 300
+    },
+    "s2_mia": {
+      "reuse_content_after_adapter": 300
+    }
+  },
+  "issue_counts": {
+    "normal_answerability_answer_evidence_and_review_missing": 1304,
+    "ia_open_question_with_categorical_answer_review": 206,
+    "ia_source_ground_truth_and_probe_semantics_pending_review": 2375,
+    "masked_answer_visible_in_remaining_passage": 130,
+    "masked_json_output_instruction_missing": 300,
+    "s2_adapter_must_supply_original_target_text_and_embedding_identity": 300,
+    "masked_duplicate_answer_values": 35
+  },
+  "document_identity_issue_count": 0,
+  "session_planner": {
+    "status": "passed",
+    "sessions": 970,
+    "turn_count_distribution": {
+      "5": 699,
+      "4": 271
+    },
+    "session_attack_counts": {
+      "direct_rag_mia": 60,
+      "ia": 494,
+      "masked_mia": 60,
+      "s2_mia": 60,
+      "benign": 296
+    },
+    "semantic_progression_verified": false
+  },
+  "semantic_review_complete": false,
+  "human_gold_complete": false,
+  "formal_effect_eligible": false,
+  "classification_scope": "Engineering content-reuse triage only; no row is accepted as formal gold or ready for current benchmark without an adapter.",
+  "limits": [
+    "All proposed actions are based on explicit structural tests; mechanisms, normal evidence and semantic quality require further review.",
+    "Membership labels are compared only to validate original-index identity; not used to choose queries or estimate effectiveness.",
+    "IA open-question flags are review candidates, not automatic correctness or attack-success judgments.",
+    "Session grouping tests layout/coverage only, not natural conversation or historical trace compatibility.",
+    "Masked baseline uses multiple numbered masks; this audit does not silently convert it to new single-mask templates."
+  ]
+}

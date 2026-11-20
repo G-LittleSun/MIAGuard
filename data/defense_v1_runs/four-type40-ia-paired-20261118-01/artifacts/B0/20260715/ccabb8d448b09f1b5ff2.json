@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does the report say the 1,200 job cuts equal a fifth of the ferry unit's workforce? Answer Yes, No, or Unknown.",
+    "contexts": [
+      "P amp;O to Cut 1,200 Jobs to Stem Losses at Ferry Unit (Update2) Peninsular  amp; Oriental Steam Navigation Co., the UK #39;s largest ferry and ports operator, will trim its ferries fleet and cut 1,200 jobs, or a fifth of the unit #39;s workforce, to stem losses.",
+      "AT amp;T to Cut Workforce 20, Take \\$11.4 Bln Writedown (Update2) AT amp;T Corp., the largest US long- distance telephone company, will eliminate 20 percent of its workforce this year and write down \\$11.",
+      "Nortel to Cut 3,500 Jobs to Boost Profit  OTTAWA (Reuters) - Nortel Networks Corp. &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=NT.TO target=/stocks/quickinfo/fullquote\"&gt;NT.TO&lt;/A&gt; &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=NT.TO target=/stocks/quickinfo/fullquote\"&gt;NT.TO&lt;/A&gt;  posted long-awaited preliminary results for the first half of  2004 on Thursday, estimating first and second quarter earnings  between nil and 1 cent per share.",
+      "Bombardier Aerospace to cut 2,000 jobs Bombardier Aerospace said on Thursday it will cut about 2,000 jobs at its Montreal-area and Belfast operations and the severance costs linked to the layoffs will affect current year results."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"P amp;O to Cut 1,200 Jobs to Stem Losses at Ferry Unit (Update2) Peninsular  amp; Oriental Steam Navigation Co., the UK #39;s largest ferry and ports operator, will trim its ferries fleet and cut 1,200 jobs, or a fifth of the unit #39;s workforce, to stem losses.\"\n\"AT amp;T to Cut Workforce 20, Take \\$11.4 Bln Writedown (Update2) AT amp;T Corp., the largest US long- distance telephone company, will eliminate 20 percent of its workforce this year and write down \\$11.\"\n\"Nortel to Cut 3,500 Jobs to Boost Profit  OTTAWA (Reuters) - Nortel Networks Corp. &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=NT.TO target=/stocks/quickinfo/fullquote\"&gt;NT.TO&lt;/A&gt; &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=NT.TO target=/stocks/quickinfo/fullquote\"&gt;NT.TO&lt;/A&gt;  posted long-awaited preliminary results for the first half of  2004 on Thursday, estimating first and second quarter earnings  between nil and 1 cent per share.\"\n\"Bombardier Aerospace to cut 2,000 jobs Bombardier Aerospace said on Thursday it will cut about 2,000 jobs at its Montreal-area and Belfast operations and the severance costs linked to the layoffs will affect current year results.\"\n\nQuestion:\nDoes the report say the 1,200 job cuts equal a fifth of the ferry unit's workforce? Answer Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

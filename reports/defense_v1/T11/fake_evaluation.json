@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "run_id": "t09-fake-20261022-05",
+  "run_identity_sha256": "af0978f0a867a2d509bc17f13395fc0fe9f8cccd3fef1f6a744b794d5fff8bbc",
+  "analysis_role": "engineering_only",
+  "formal_effect_eligible": false,
+  "methods": {
+    "B0": {
+      "attacks": {
+        "direct_rag_mia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        },
+        "ia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        },
+        "masked_mia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        },
+        "s2_mia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        }
+      },
+      "normal_exact_match": {
+        "numerator": 1,
+        "denominator": 1,
+        "rate": 1.0
+      },
+      "normal_failed": {
+        "numerator": 0,
+        "denominator": 1,
+        "rate": 0.0
+      },
+      "normal_quality_gold_status": "engineering_fixture_only",
+      "faithfulness": {
+        "rate": null,
+        "reason": "no_reviewed_claim_annotations"
+      },
+      "cost": {
+        "request_count": 5,
+        "measured_latency_count": 5,
+        "p50_ms": 0.08400017395615578,
+        "p95_ms": 0.10127974674105644
+      }
+    },
+    "B2": {
+      "attacks": {
+        "direct_rag_mia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        },
+        "ia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        },
+        "masked_mia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        },
+        "s2_mia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        }
+      },
+      "normal_exact_match": {
+        "numerator": 0,
+        "denominator": 1,
+        "rate": 0.0
+      },
+      "normal_failed": {
+        "numerator": 0,
+        "denominator": 1,
+        "rate": 0.0
+      },
+      "normal_quality_gold_status": "engineering_fixture_only",
+      "faithfulness": {
+        "rate": null,
+        "reason": "no_reviewed_claim_annotations"
+      },
+      "cost": {
+        "request_count": 5,
+        "measured_latency_count": 5,
+        "p50_ms": 0.08829962462186813,
+        "p95_ms": 0.09177997708320618
+      }
+    },
+    "B3": {
+      "attacks": {
+        "direct_rag_mia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        },
+        "ia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        },
+        "masked_mia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        },
+        "s2_mia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        }
+      },
+      "normal_exact_match": {
+        "numerator": 0,
+        "denominator": 1,
+        "rate": 0.0
+      },
+      "normal_failed": {
+        "numerator": 0,
+        "denominator": 1,
+        "rate": 0.0
+      },
+      "normal_quality_gold_status": "engineering_fixture_only",
+      "faithfulness": {
+        "rate": null,
+        "reason": "no_reviewed_claim_annotations"
+      },
+      "cost": {
+        "request_count": 5,
+        "measured_latency_count": 5,
+        "p50_ms": 0.08929986506700516,
+        "p95_ms": 0.09171999990940094
+      }
+    },
+    "B5": {
+      "attacks": {
+        "direct_rag_mia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        },
+        "ia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        },
+        "masked_mia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        },
+        "s2_mia": {
+          "target_count": 1,
+          "observed_target_count": 1,
+          "missing_target_count": 0,
+          "auc": null,
+          "flipped_auc_diagnostic": null,
+          "reason": "single_class"
+        }
+      },
+      "normal_exact_match": {
+        "numerator": 0,
+        "denominator": 1,
+        "rate": 0.0
+      },
+      "normal_failed": {
+        "numerator": 0,
+        "denominator": 1,
+        "rate": 0.0
+      },
+      "normal_quality_gold_status": "engineering_fixture_only",
+      "faithfulness": {
+        "rate": null,
+        "reason": "no_reviewed_claim_annotations"
+      },
+      "cost": {
+        "request_count": 5,
+        "measured_latency_count": 5,
+        "p50_ms": 0.09519979357719421,
+        "p95_ms": 0.09708022698760033
+      }
+    }
+  }
+}

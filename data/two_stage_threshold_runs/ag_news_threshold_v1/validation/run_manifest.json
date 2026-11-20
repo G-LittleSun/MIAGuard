@@ -1,0 +1,106 @@
+{
+  "identity": {
+    "attack_config": {
+      "base_url": "http://127.0.0.1:11434",
+      "direct_rag_mia_max_tokens": 12,
+      "direct_rag_mia_threshold": 0.5,
+      "direct_rag_mia_threshold_source": "fixed_config_no_shadow",
+      "embedding_backend": "sentence_transformers",
+      "embedding_batch_size": 10,
+      "embedding_model": "EmbeddingModel/sentence-transformers/all_minilm_l6_v2",
+      "generation_backend": "transformers",
+      "generation_load_mode": "int8",
+      "generation_model": "LLM/mistralai/mistral-7b-instruct-v0-2",
+      "ia_generation_max_tokens": 128,
+      "ia_threshold": 0.5,
+      "ia_threshold_source": "fixed_config_no_shadow",
+      "ia_unknown_penalty": 0.1,
+      "keep_alive": "10m",
+      "mask_count": 5,
+      "masked_max_tokens": 128,
+      "masked_threshold": 0.2,
+      "masked_threshold_source": "ag_news_calibration_100_per_class",
+      "questions_per_document": 1,
+      "s2_mia_max_tokens": 80,
+      "s2_mia_prefix_words": 10,
+      "s2_mia_threshold": 0.915322333574295,
+      "s2_mia_threshold_source": "ag_news_calibration_100_per_class",
+      "seed": 20260715,
+      "timeout_seconds": 300,
+      "top_k": 4
+    },
+    "gateway_config": {
+      "aggregation_method": "dynamic_window_coverage",
+      "attack_detection_threshold": null,
+      "l2_attack_actions": {},
+      "level_thresholds": [
+        0.2,
+        0.4,
+        0.65,
+        0.85
+      ],
+      "min_session_queries": 3,
+      "mode": "observe",
+      "policy_version": "two_stage_policy_v2_supervised_threshold",
+      "query_critical_threshold": 0.85,
+      "query_weight": 0.4,
+      "restrict_context_chars": 240,
+      "session_critical_threshold": 0.85,
+      "session_evaluation_interval": 1,
+      "session_timeout_seconds": 1800,
+      "session_weight": 0.6,
+      "window_size": 5
+    },
+    "partition": "validation",
+    "pattern_library_version": "1.5.0",
+    "query_bank": {
+      "bank_id": "ag_news_queries_v1",
+      "dataset_id": "ag_news",
+      "queries_sha256": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1"
+    },
+    "schema_version": 1,
+    "scorer_config": {
+      "manifest_path": "D:\\Project\\MIAGuard\\attack_pattern_library\\manifest.yaml",
+      "max_retries": 1,
+      "prompt_version": "direct_v3_anchored",
+      "query_max_tokens": 96,
+      "query_pattern_ids": [
+        "direct_rag_mia",
+        "s2_mia",
+        "masked_mia",
+        "ia"
+      ],
+      "session_max_tokens": 128,
+      "session_pattern_ids": [
+        "direct_rag_mia",
+        "s2_mia",
+        "masked_mia",
+        "ia"
+      ],
+      "strong_threshold": 0.7,
+      "weak_threshold": 0.4
+    },
+    "session_planning": {
+      "accepted_queries_only": true,
+      "grouping_fields": [
+        "partition",
+        "doc_id",
+        "traffic_type",
+        "attack_type"
+      ],
+      "minimum_turns": 3,
+      "target_turns": 5,
+      "version": "all_accepted_balanced_sessions_v1"
+    },
+    "source_run_id": "20260717-ag-news-four-medium",
+    "split_id": "ag_news_threshold_v1",
+    "split_manifest_sha256": "9323c4f66206b169c44f90096cb931147f2e2d186e1584a17cc06af5ff13a7f0",
+    "split_query_bank": {
+      "bank_id": "ag_news_queries_v1",
+      "dataset_id": "ag_news",
+      "queries_sha256": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1"
+    }
+  },
+  "identity_sha256": "bf689a278b168ba3efad7254cf2170e537f73628204f2f5a5ee9317bb04fb769",
+  "schema_version": 1
+}

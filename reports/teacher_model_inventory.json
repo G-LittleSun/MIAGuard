@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-07-16T03:32:38.038146+00:00",
+  "models": {
+    "embedding": {
+      "repo_id": "sentence-transformers/all-MiniLM-L6-v2",
+      "local_dir": "D:\\Project\\MIAGuard\\EmbeddingModel\\sentence-transformers\\all_minilm_l6_v2",
+      "status": "complete",
+      "missing": [],
+      "size_bytes": 182521049
+    },
+    "llama3_8b": {
+      "repo_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "local_dir": "D:\\Project\\MIAGuard\\LLM\\meta-llama\\meta-llama-3-8b-instruct",
+      "status": "incomplete",
+      "reason": "missing model.safetensors.index.json"
+    },
+    "mistral_7b": {
+      "repo_id": "mistralai/Mistral-7B-Instruct-v0.2",
+      "local_dir": "D:\\Project\\MIAGuard\\LLM\\mistralai\\mistral-7b-instruct-v0-2",
+      "status": "incomplete",
+      "shards": 3,
+      "missing": [
+        "model-00001-of-00003.safetensors",
+        "model-00002-of-00003.safetensors",
+        "model-00003-of-00003.safetensors"
+      ],
+      "invalid": [],
+      "size_bytes": 0,
+      "expected_size_bytes": 14483464192
+    },
+    "glm4_9b": {
+      "repo_id": "zai-org/glm-4-9b-chat-hf",
+      "local_dir": "D:\\Project\\MIAGuard\\LLM\\glm-4-9b-chat",
+      "status": "incomplete",
+      "shards": 4,
+      "missing": [
+        "model-00001-of-00004.safetensors",
+        "model-00002-of-00004.safetensors",
+        "model-00003-of-00004.safetensors",
+        "model-00004-of-00004.safetensors"
+      ],
+      "invalid": [],
+      "size_bytes": 0,
+      "expected_size_bytes": 18799902720
+    },
+    "phi4_14b": {
+      "repo_id": "microsoft/phi-4",
+      "local_dir": "D:\\Project\\MIAGuard\\LLM\\phi-4",
+      "status": "incomplete",
+      "shards": 6,
+      "missing": [
+        "model-00001-of-00006.safetensors",
+        "model-00002-of-00006.safetensors",
+        "model-00003-of-00006.safetensors",
+        "model-00004-of-00006.safetensors",
+        "model-00005-of-00006.safetensors",
+        "model-00006-of-00006.safetensors"
+      ],
+      "invalid": [],
+      "size_bytes": 0,
+      "expected_size_bytes": 29319014400
+    },
+    "qwen2_5_14b_1m": {
+      "repo_id": "Qwen/Qwen2.5-14B-Instruct-1M",
+      "local_dir": "D:\\Project\\MIAGuard\\LLM\\Qwen2.5-14B-Instruct-1M",
+      "status": "incomplete",
+      "shards": 8,
+      "missing": [
+        "model-00001-of-00008.safetensors",
+        "model-00002-of-00008.safetensors",
+        "model-00003-of-00008.safetensors",
+        "model-00004-of-00008.safetensors",
+        "model-00005-of-00008.safetensors",
+        "model-00006-of-00008.safetensors",
+        "model-00007-of-00008.safetensors",
+        "model-00008-of-00008.safetensors"
+      ],
+      "invalid": [],
+      "size_bytes": 0,
+      "expected_size_bytes": 29540067328
+    }
+  }
+}

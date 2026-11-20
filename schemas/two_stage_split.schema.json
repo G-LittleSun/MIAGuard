@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "split_id", "created_at", "source_run_id", "dataset_id", "grouping_unit", "current_development_scope", "label_semantics", "partitions"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "split_id": {"type": "string", "minLength": 1},
+    "created_at": {"type": "string", "minLength": 1},
+    "source_run_id": {"type": "string", "minLength": 1},
+    "dataset_id": {"type": "string", "minLength": 1},
+    "grouping_unit": {"const": "target_document"},
+    "current_development_scope": {"type": "string"},
+    "label_semantics": {
+      "type": "object",
+      "required": ["traffic_origin", "observable_intent", "session_label"],
+      "additionalProperties": false,
+      "properties": {
+        "traffic_origin": {"type": "string"},
+        "observable_intent": {"type": "string"},
+        "session_label": {"type": "string"}
+      }
+    },
+    "partitions": {
+      "type": "object",
+      "required": ["development", "validation", "test"],
+      "additionalProperties": false,
+      "properties": {
+        "development": {"$ref": "#/$defs/partition"},
+        "validation": {"$ref": "#/$defs/partition"},
+        "test": {"$ref": "#/$defs/partition"}
+      }
+    }
+  },
+  "$defs": {
+    "partition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["member_doc_ids", "nonmember_doc_ids", "member_count", "nonmember_count"],
+      "properties": {
+        "member_doc_ids": {"type": "array", "items": {"type": "string"}},
+        "nonmember_doc_ids": {"type": "array", "items": {"type": "string"}},
+        "member_count": {"type": "integer", "minimum": 1},
+        "nonmember_count": {"type": "integer", "minimum": 1}
+      }
+    }
+  }
+}

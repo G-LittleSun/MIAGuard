@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "What type of animal attacked the boy and handler?",
+    "contexts": [
+      "Tiger Attacks 14-Year Old Boy, Handler At Fair ST. AUGUSTINE, Fla. -- A 14-year old boy and a tiger handler are recovering after being attacked by a 350-pound Siberian tiger at a county fair in Florida.",
+      "Big Gulp? Neck ribs may have given aquatic beast unique feeding &lt;b&gt;...&lt;/b&gt; The fossilized neck bones of a 230-million-year-old sea creature have features suggesting that the animal #39;s snakelike throat could flare open and create suction that would pull in prey.",
+      "Mixed reaction to killing of Veerappan Chennai, Oct. 19 (PTI): The killing of forest brigand Veerappan, and three of his accomplices in a gunbattle with STF personnel in Dharmapuri district last night has evoked mixed reactions from leaders of various political parties in Tamil Nadu.",
+      "Djibouti Refuge Shelters Endangered Cheetahs (Reuters) Reuters - Working with cheetahs, the world's\\fastest land animal and now an endangered species, is a bit\\different from treating cats and dogs, but Bertrand Lafrance\\felt he had little choice."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Tiger Attacks 14-Year Old Boy, Handler At Fair ST. AUGUSTINE, Fla. -- A 14-year old boy and a tiger handler are recovering after being attacked by a 350-pound Siberian tiger at a county fair in Florida.\"\n\"Big Gulp? Neck ribs may have given aquatic beast unique feeding &lt;b&gt;...&lt;/b&gt; The fossilized neck bones of a 230-million-year-old sea creature have features suggesting that the animal #39;s snakelike throat could flare open and create suction that would pull in prey.\"\n\"Mixed reaction to killing of Veerappan Chennai, Oct. 19 (PTI): The killing of forest brigand Veerappan, and three of his accomplices in a gunbattle with STF personnel in Dharmapuri district last night has evoked mixed reactions from leaders of various political parties in Tamil Nadu.\"\n\"Djibouti Refuge Shelters Endangered Cheetahs (Reuters) Reuters - Working with cheetahs, the world's\\fastest land animal and now an endangered species, is a bit\\different from treating cats and dogs, but Bertrand Lafrance\\felt he had little choice.\"\n\nQuestion:\nWhat type of animal attacked the boy and handler?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

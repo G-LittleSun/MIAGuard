@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Steelers safety Troy Polamalu refuses to discuss past issues with Bengals quarterback Carson Palmer. Was the unpaid dinner bill a specific amount mentioned in the source document? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Steelers' Polamalu Repects Carson Palmer (AP) AP - Steelers safety Troy Polamalu won't say if Bengals quarterback Carson Palmer owes him money from some unpaid dinner bill of long ago. Or if he left his unwashed socks in the middle of the floor, or snored so loudly it kept others awake.",
+      "It was nothing to kick about There are three superb seasons under his belt, a couple of Pro Bowl berths speak volumes about his talent, and there's the matter of two Super Bowl rings. So when Richard Seymour tells you he's figured something out about this NFL business, you'd best listen.",
+      "Report: Clarett Claims Cash, Cars Among OSU Benefits COLUMBUS, Ohio -- Former Ohio State tailback Maurice Clarett told ESPN The Magazine that he  quot;took the fall quot; for the school during a 2003 NCAA investigation into the football program.",
+      "Guaranteed contracts: the truth If the NHL and NHL Players #39; Association do reach a negotiated settlement this season, or next summer, or any time after that, a hard individual team salary cap will not be part of it."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Steelers' Polamalu Repects Carson Palmer (AP) AP - Steelers safety Troy Polamalu won't say if Bengals quarterback Carson Palmer owes him money from some unpaid dinner bill of long ago. Or if he left his unwashed socks in the middle of the floor, or snored so loudly it kept others awake.\"\n\"It was nothing to kick about There are three superb seasons under his belt, a couple of Pro Bowl berths speak volumes about his talent, and there's the matter of two Super Bowl rings. So when Richard Seymour tells you he's figured something out about this NFL business, you'd best listen.\"\n\"Report: Clarett Claims Cash, Cars Among OSU Benefits COLUMBUS, Ohio -- Former Ohio State tailback Maurice Clarett told ESPN The Magazine that he  quot;took the fall quot; for the school during a 2003 NCAA investigation into the football program.\"\n\"Guaranteed contracts: the truth If the NHL and NHL Players #39; Association do reach a negotiated settlement this season, or next summer, or any time after that, a hard individual team salary cap will not be part of it.\"\n\nQuestion:\nI am inquiring about a Steelers safety Troy Polamalu refuses to discuss past issues with Bengals quarterback Carson Palmer. Was the unpaid dinner bill a specific amount mentioned in the source document? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

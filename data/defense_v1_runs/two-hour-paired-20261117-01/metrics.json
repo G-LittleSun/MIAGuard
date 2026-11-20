@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-two-hour-paired",
+  "run_id": "two-hour-paired-20261117-01",
+  "identity_sha256": "1f52c230733c77d866cf0acc27dd939f425d01d89b8e2347dd31514d74b1bd05",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 123,
+  "completed": 123,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 29,
+  "method_count": 3,
+  "attack_target_count": 11,
+  "benign_request_count": 42
+}

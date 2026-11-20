@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"Concorde crash  #39;due to US firm #39; A French legal inquiry into the July 2000 Concorde crash near Paris has placed much of the blame on the American carrier, Continental Airlines.\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "Concorde crash  #39;due to US firm #39; A French legal inquiry into the July 2000 Concorde crash near Paris has placed much of the blame on the American carrier, Continental Airlines.",
+      "Iraq Blames US-Led Forces for Army Massacre Iraq #39;s US-backed government said on Tuesday that  quot;major neglect quot; by its American-led allies led to a massacre of 49 army recruits at the weekend.",
+      "Lenders and U.S. Tighten Screws on Struggling Airlines The federal government, banks and aircraft lenders are putting the clamps on airlines, particularly those operating under bankruptcy protection.",
+      "US, Europe play blame game over sliding dollar Europe and the United States kept up a war of words over the sliding US dollar at a G20 meeting of rich and developing nations, blaming each other for the currency #39;s fall and avoiding new steps or rhetoric to halt it."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Concorde crash  #39;due to US firm #39; A French legal inquiry into the July 2000 Concorde crash near Paris has placed much of the blame on the American carrier, Continental Airlines.\"\n\"Iraq Blames US-Led Forces for Army Massacre Iraq #39;s US-backed government said on Tuesday that  quot;major neglect quot; by its American-led allies led to a massacre of 49 army recruits at the weekend.\"\n\"Lenders and U.S. Tighten Screws on Struggling Airlines The federal government, banks and aircraft lenders are putting the clamps on airlines, particularly those operating under bankruptcy protection.\"\n\"US, Europe play blame game over sliding dollar Europe and the United States kept up a war of words over the sliding US dollar at a G20 meeting of rich and developing nations, blaming each other for the currency #39;s fall and avoiding new steps or rhetoric to halt it.\"\n\nQuestion:\nDoes this: \"Concorde crash  #39;due to US firm #39; A French legal inquiry into the July 2000 Concorde crash near Paris has placed much of the blame on the American carrier, Continental Airlines.\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

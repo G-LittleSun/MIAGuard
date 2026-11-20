@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "source_id": "ag_news_teacher_00000050",
+  "e00_requests": 10,
+  "e00_sessions": 2,
+  "historical_target_file_in_candidate_manifest": true,
+  "source_text_sha256": "51b1e19cbec5538eb4d6429b29c60e1afab3c9b2f9a5168028d94f1cb4b46650",
+  "comparison": {
+    "documents.jsonl": {
+      "rows": 3600,
+      "same_id": 0,
+      "same_normalized_full_text": 0,
+      "simhash_hamming_le_3": 0
+    },
+    "background_members.jsonl": {
+      "rows": 900,
+      "same_id": 0,
+      "same_normalized_full_text": 0,
+      "simhash_hamming_le_3": 0
+    }
+  },
+  "input_sha256": {
+    "reports/defense_v1/T05/observe_spec.json": "a0256d5bba7e759280558f929fd61e5000656002fb0e05a69ad2cee47f287b14",
+    "data/defense_v1_runs/e00-observe-20261022-01/experiment_spec.json": "d2171a72a4138da23c0479c49378a604755143d1829983d43650822842a70185",
+    "data/defense_v1_runs/e00-observe-20261022-01/run_manifest.json": "ae8bceb59f264e5ac69d1c9481e069cf5be0981c38b7039f3d1995d7f8cddb40",
+    "data/defense_v1_runs/e00-observe-20261022-01/requests.jsonl": "121e49cf6477c4f5404af84a545457927ab8fb72d28a933e73672e69712d3338",
+    "data/runs/20260717-ag-news-four-medium/ag_news/target_docs.jsonl": "f7f604ce3acde220998ab2bd93186441119ba0074ae2e7fdf8fcdcde79f11eb1",
+    "data/defense_datasets/defense_access_v1_candidate06/manifest.json": "359ed9f4b375a8a1f5a644f1c6815150f09f6ffdce86c3bc4e3fec3271498f27",
+    "data/defense_datasets/defense_access_v1_candidate06/documents.jsonl": "6b97aa1e7c31973011c6062d86d37e8d5d9c03a93b58fe75d8e2b4bae839a9d0",
+    "data/defense_datasets/defense_access_v1_candidate06/background_members.jsonl": "b67ee469aa4ef6d1729f04a9b720833eef4e946dfb704990c5ee005f71c0b08b"
+  },
+  "limitations": [
+    "Only the source ID named by E00 session keys was checked; other development prompts may expose other sources.",
+    "Full-text SimHash and exact ID cannot prove absence of fragment or event/semantic overlap.",
+    "Candidate content was compared mechanically; no partition-level content, membership labels, attack outcomes, or effect data are reported.",
+    "E00 requests were not independently audited for indirect or undocumented sources."
+  ]
+}

@@ -1,0 +1,11 @@
+schema_version: 1
+attack_pattern_library:
+  manifest: attack_pattern_library/manifest.yaml
+  routing_mode: all
+  max_candidates: 2
+judge:
+  recent_turns: 5
+  retrieved_snippet_chars: 400
+  router_max_tokens: 64
+  judge_max_tokens: 160
+  max_retries: 1

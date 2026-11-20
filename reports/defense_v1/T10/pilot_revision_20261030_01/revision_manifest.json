@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "revision_id": "pilot_revision_20261030_01",
+  "partition": "D-dev",
+  "status": "pending_second_review",
+  "formal_effect_eligible": false,
+  "normal_rows": 70,
+  "attack_rows": 16,
+  "normal_derivation": {
+    "external_llm_rewrites": 60,
+    "new_cross_document_drafts": 10
+  },
+  "attack_derivation": {
+    "external_llm_accept": 10,
+    "external_llm_rewrites_as_is": 5,
+    "codex_adjusted_mask_rewrite": 1
+  },
+  "new_cross_document_pair_doc_ids": [
+    [
+      "ag_news_teacher_00005627",
+      "ag_news_teacher_00005258"
+    ],
+    [
+      "ag_news_teacher_00007675",
+      "ag_news_teacher_00007155"
+    ]
+  ],
+  "answer_status": "suggestions_only_not_formal_gold",
+  "reviewer_kind_for_new_cross_document_drafts": "codex_agent",
+  "source_review_run_id": "pilot_deepseek_20261029_01",
+  "source_candidate_manifest_sha256": "359ed9f4b375a8a1f5a644f1c6815150f09f6ffdce86c3bc4e3fec3271498f27",
+  "source_review_manifest_sha256": "ecff526d2baba881b9fce54501f8b38eb43c367ad2f4e5d0113b191a91d8dfdb",
+  "cross_document_suggestions_sha256": "5d4bcc1abcdeb209623f2acab6317cd06f441ae6be3eaab1bff1dfad86835e36",
+  "files_sha256": {
+    "review_packet_d_dev_normal.jsonl": "081408c421016823af93c635a2d4a33c7831270d9fe46ce838a424e2755157c1",
+    "review_packet_d_dev_normal_evidence.jsonl": "2446d46b15106d10c64f3854a51e8c19469871a80c56100e631d1f4c0a4d3cdf",
+    "review_packet_d_dev_attack.jsonl": "21e09046343372c9f2c967cd77926c695a155c3d847b929049ea7e48dd4d39c4"
+  },
+  "replay_eligible": false,
+  "replay_blockers": [
+    "Two revised Masked queries changed the missing word; candidate06 attack_labels.jsonl still has the old answers.",
+    "Ten cross-document rows use new source pairs; candidate06 normal_tasks.jsonl still references the old evidence.",
+    "All revised reference answers are model suggestions pending independent review."
+  ],
+  "mask_override": {
+    "request_id": "r_1f9d323024df6bef5ff05a7e",
+    "external_suggestion": "64",
+    "revised_suggestion": "sparkling",
+    "reason": "src/miaguard/masked_mia.py proxy prompt excludes numbers; sparkling is alphabetic and unique in the passage"
+  }
+}

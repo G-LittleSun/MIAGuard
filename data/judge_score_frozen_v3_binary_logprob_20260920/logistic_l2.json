@@ -1,0 +1,24 @@
+{
+  "coefficient": [
+    0.12467715894312009,
+    0.1792509147102471
+  ],
+  "feature_order": [
+    "x1",
+    "x2_observed"
+  ],
+  "head": "logprob",
+  "intercept": -0.10300497867119779,
+  "model": "logistic_l2",
+  "schema_version": 1,
+  "thresholds": {
+    "0.01": {
+      "threshold": 0.4798231627374044
+    },
+    "0.05": {
+      "threshold": 0.4798231627374044
+    }
+  },
+  "train_documents": 60,
+  "train_rows": 2107
+}

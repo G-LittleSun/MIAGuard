@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a NBA's rejection of Sarunas Jasikevicius. Was Sarunas Jasikevicius considered to fit the NBA's style? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "NBA could use this reject Sarunas Jasikevicius is just another international nobody who is too slow and too anchored to the floor to play in the NBA. He is not what we want, not our style.",
+      "To O #39;Neal, Bryant #39;s only  #39;That Guy #39; WASHINGTON Back when his goal in life was to become the first man to win an NBA championship and an Oscar, Shaquille O #39;Neal did some movies.",
+      "O #39;Neal Wants More From Team MIAMI -- Shaquille O #39;Neal thinks Miami #39;s opponents are rising to the challenge of playing against him and Dwyane Wade. And right now, the Heat aren #39;t responding the way their center would prefer.",
+      "=== Mashburn to sit out 2004-05 campaign === New Orleans, LA (Sports Network) - New Orleans Hornets forward Jamal Mashburn will sit out the 2004-05 season due to a patella femoral irritation of his right knee."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"NBA could use this reject Sarunas Jasikevicius is just another international nobody who is too slow and too anchored to the floor to play in the NBA. He is not what we want, not our style.\"\n\"To O #39;Neal, Bryant #39;s only  #39;That Guy #39; WASHINGTON Back when his goal in life was to become the first man to win an NBA championship and an Oscar, Shaquille O #39;Neal did some movies.\"\n\"O #39;Neal Wants More From Team MIAMI -- Shaquille O #39;Neal thinks Miami #39;s opponents are rising to the challenge of playing against him and Dwyane Wade. And right now, the Heat aren #39;t responding the way their center would prefer.\"\n\"=== Mashburn to sit out 2004-05 campaign === New Orleans, LA (Sports Network) - New Orleans Hornets forward Jamal Mashburn will sit out the 2004-05 season due to a patella femoral irritation of his right knee.\"\n\nQuestion:\nI am inquiring about a NBA's rejection of Sarunas Jasikevicius. Was Sarunas Jasikevicius considered to fit the NBA's style? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

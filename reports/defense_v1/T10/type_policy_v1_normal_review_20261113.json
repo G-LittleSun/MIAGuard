@@ -1,0 +1,414 @@
+{
+  "reviewer_kind": "llm_agent",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "criteria": "Source-based necessary facts and delivered evidence, with contradictory abstention marked incorrect.",
+  "summary": {
+    "B0": {
+      "correct_supported": 10,
+      "contradictory_answer": 1,
+      "reference_not_retrieved": 1
+    },
+    "B2": {
+      "correct_supported": 10,
+      "contradictory_answer": 1,
+      "refused": 1
+    },
+    "B5_CUE": {
+      "correct_supported": 9,
+      "contradictory_answer": 1,
+      "refused": 2
+    },
+    "B_TYPE_V1": {
+      "correct_supported": 10,
+      "contradictory_answer": 1,
+      "refused": 1
+    }
+  },
+  "rows": [
+    {
+      "method": "B0",
+      "request_id": "fp_bc7bb2ee9068883b7c3cff60",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "According to the report, Symantec may pay $13 billion for Veritas."
+    },
+    {
+      "method": "B0",
+      "request_id": "fp_44e5fd15f78b2948cbcee643",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The new AI system will enable NASA's planetary rovers to be much more self-reliant and capable of making basic decisions during a mission."
+    },
+    {
+      "method": "B0",
+      "request_id": "fp_44e5fd15f78b2948cbcee643_turn2",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The NASA rover researchers are developing very complex AI software that enables a higher level of robotic intelligence."
+    },
+    {
+      "method": "B0",
+      "request_id": "fp_44e5fd15f78b2948cbcee643_turn3",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The stated goal for the rovers' intelligence is to make them much more self-reliant and capable of making basic decisions during a mission. This will be achieved through the development of very complex AI software that enables a higher level of robotic intelligence."
+    },
+    {
+      "method": "B0",
+      "request_id": "fp_ba4d8f3cf587764f1be32b37",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "A 14-year old boy and a tiger handler were attacked by a 350-pound Siberian tiger at a county fair in St. Augustine, Florida."
+    },
+    {
+      "method": "B0",
+      "request_id": "fp_06007e8a6f49b0fd036d6140",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The cause of the decline in Merck's stock price was the recall of its widely sold Vioxx painkiller. The extent of the decline was a 27 percent drop."
+    },
+    {
+      "method": "B0",
+      "request_id": "cn_normal_01",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "According to the report, after O'Keefe resigned, NASA had a budgetary window of opportunity to flex its space exploration muscle."
+    },
+    {
+      "method": "B0",
+      "request_id": "cn_normal_02",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "According to the report, the Australian dollar was worth 81.29 Japanese yen."
+    },
+    {
+      "method": "B0",
+      "request_id": "cn_normal_02_turn2",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The Australian dollar was worth 1.105 New Zealand dollars according to the report."
+    },
+    {
+      "method": "B0",
+      "request_id": "cn_normal_02_turn3",
+      "grade": "contradictory_answer",
+      "reason": "Names Kmart and Sears but concludes the provided source is insufficient.",
+      "reference_raw_delivered": true,
+      "response": "The context mentions a merger between retailers Kmart and Sears in the Wall Street update, not related to the Australian dollar report. Therefore, the evidence is insufficient to answer the question about a specific merger mentioned in the Australian dollar report's Wall Street update."
+    },
+    {
+      "method": "B0",
+      "request_id": "cn_normal_03",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "Yes, the passage \"Whether you live in Brookline or Scituate or Framingham, it is a good day when the town finally gets around to doing something about your beaten-up street.\" appears in the supplied context."
+    },
+    {
+      "method": "B0",
+      "request_id": "cn_normal_04",
+      "grade": "reference_not_retrieved",
+      "reason": "Context lacked the source of the three expected words.",
+      "reference_raw_delivered": false,
+      "response": "The provided context does not contain any information about China having a row with another country over a visit by a prime minister. Therefore, the evidence is insufficient to recover the original words in the numbered blanks."
+    },
+    {
+      "method": "B2",
+      "request_id": "fp_bc7bb2ee9068883b7c3cff60",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "According to the report, Symantec may pay $13 billion for Veritas."
+    },
+    {
+      "method": "B2",
+      "request_id": "fp_44e5fd15f78b2948cbcee643",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The new AI system will enable NASA's planetary rovers to be much more self-reliant and capable of making basic decisions during a mission."
+    },
+    {
+      "method": "B2",
+      "request_id": "fp_44e5fd15f78b2948cbcee643_turn2",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The NASA rover researchers are developing very complex AI software that enables a higher level of robotic intelligence."
+    },
+    {
+      "method": "B2",
+      "request_id": "fp_44e5fd15f78b2948cbcee643_turn3",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The stated goal for the rovers' intelligence is to make them much more self-reliant and capable of making basic decisions during a mission. This will be achieved through the development of very complex AI software that enables a higher level of robotic intelligence."
+    },
+    {
+      "method": "B2",
+      "request_id": "fp_ba4d8f3cf587764f1be32b37",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "A 14-year old boy and a tiger handler were attacked by a 350-pound Siberian tiger at a county fair in St. Augustine, Florida."
+    },
+    {
+      "method": "B2",
+      "request_id": "fp_06007e8a6f49b0fd036d6140",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The cause of the decline in Merck's stock price was the recall of its widely sold Vioxx painkiller. The extent of the decline was a 27 percent drop."
+    },
+    {
+      "method": "B2",
+      "request_id": "cn_normal_01",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "According to the report, after O'Keefe resigned, NASA had a budgetary window of opportunity to flex its space exploration muscle."
+    },
+    {
+      "method": "B2",
+      "request_id": "cn_normal_02",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "According to the report, the Australian dollar was worth 81.29 Japanese yen."
+    },
+    {
+      "method": "B2",
+      "request_id": "cn_normal_02_turn2",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The Australian dollar was worth 1.105 New Zealand dollars according to the report."
+    },
+    {
+      "method": "B2",
+      "request_id": "cn_normal_02_turn3",
+      "grade": "contradictory_answer",
+      "reason": "Names Kmart and Sears but concludes the provided source is insufficient.",
+      "reference_raw_delivered": true,
+      "response": "The context mentions a merger between retailers Kmart and Sears in the Wall Street update, not related to the Australian dollar report. Therefore, the evidence is insufficient to answer the question about a specific merger mentioned in the Australian dollar report's Wall Street update."
+    },
+    {
+      "method": "B2",
+      "request_id": "cn_normal_03",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "Yes, the passage \"Whether you live in Brookline or Scituate or Framingham, it is a good day when the town finally gets around to doing something about your beaten-up street.\" appears in the supplied context."
+    },
+    {
+      "method": "B2",
+      "request_id": "cn_normal_04",
+      "grade": "refused",
+      "reason": "Fixed policy refusal.",
+      "reference_raw_delivered": false,
+      "response": "I cannot confirm whether specific content is present in the retrieval database or reproduce protected source text. I can provide a general explanation instead."
+    },
+    {
+      "method": "B5_CUE",
+      "request_id": "fp_bc7bb2ee9068883b7c3cff60",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "According to the report, Symantec may pay $13 billion for Veritas."
+    },
+    {
+      "method": "B5_CUE",
+      "request_id": "fp_44e5fd15f78b2948cbcee643",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The new AI system will enable NASA's planetary rovers to be much more self-reliant and capable of making basic decisions during a mission."
+    },
+    {
+      "method": "B5_CUE",
+      "request_id": "fp_44e5fd15f78b2948cbcee643_turn2",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The NASA rover researchers are developing very complex AI software that enables a higher level of robotic intelligence."
+    },
+    {
+      "method": "B5_CUE",
+      "request_id": "fp_44e5fd15f78b2948cbcee643_turn3",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The stated goal for the rovers' intelligence is to make them much more self-reliant and capable of making basic decisions during a mission. This will be achieved through the development of very complex AI software that enables a higher level of robotic intelligence."
+    },
+    {
+      "method": "B5_CUE",
+      "request_id": "fp_ba4d8f3cf587764f1be32b37",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "A 14-year old boy and a tiger handler were attacked by a 350-pound Siberian tiger at a county fair in St. Augustine, Florida."
+    },
+    {
+      "method": "B5_CUE",
+      "request_id": "fp_06007e8a6f49b0fd036d6140",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The cause of the decline in Merck's stock price was the recall of its widely sold Vioxx painkiller. The extent of the decline was a 27 percent drop."
+    },
+    {
+      "method": "B5_CUE",
+      "request_id": "cn_normal_01",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "According to the report, after O'Keefe resigned, NASA had a budgetary window of opportunity to flex its space exploration muscle."
+    },
+    {
+      "method": "B5_CUE",
+      "request_id": "cn_normal_02",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "According to the report, the Australian dollar was worth 81.29 Japanese yen."
+    },
+    {
+      "method": "B5_CUE",
+      "request_id": "cn_normal_02_turn2",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The Australian dollar was worth 1.105 New Zealand dollars according to the report."
+    },
+    {
+      "method": "B5_CUE",
+      "request_id": "cn_normal_02_turn3",
+      "grade": "contradictory_answer",
+      "reason": "Names Kmart and Sears but concludes the provided source is insufficient.",
+      "reference_raw_delivered": true,
+      "response": "The context mentions a merger between retailers Kmart and Sears in the Wall Street update, not related to the Australian dollar report. Therefore, the evidence is insufficient to answer the question about a specific merger mentioned in the Australian dollar report's Wall Street update."
+    },
+    {
+      "method": "B5_CUE",
+      "request_id": "cn_normal_03",
+      "grade": "refused",
+      "reason": "Fixed policy refusal.",
+      "reference_raw_delivered": false,
+      "response": "I cannot confirm whether specific content is present in the retrieval database or reproduce protected source text. I can provide a general explanation instead."
+    },
+    {
+      "method": "B5_CUE",
+      "request_id": "cn_normal_04",
+      "grade": "refused",
+      "reason": "Fixed policy refusal.",
+      "reference_raw_delivered": false,
+      "response": "I cannot confirm whether specific content is present in the retrieval database or reproduce protected source text. I can provide a general explanation instead."
+    },
+    {
+      "method": "B_TYPE_V1",
+      "request_id": "fp_bc7bb2ee9068883b7c3cff60",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "According to the report, Symantec may pay $13 billion for Veritas."
+    },
+    {
+      "method": "B_TYPE_V1",
+      "request_id": "fp_44e5fd15f78b2948cbcee643",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The new AI system will enable NASA's planetary rovers to be much more self-reliant and capable of making basic decisions during a mission."
+    },
+    {
+      "method": "B_TYPE_V1",
+      "request_id": "fp_44e5fd15f78b2948cbcee643_turn2",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The NASA rover researchers are developing very complex AI software that enables a higher level of robotic intelligence."
+    },
+    {
+      "method": "B_TYPE_V1",
+      "request_id": "fp_44e5fd15f78b2948cbcee643_turn3",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The stated goal for the rovers' intelligence is to make them much more self-reliant and capable of making basic decisions during a mission. This will be achieved through the development of very complex AI software that enables a higher level of robotic intelligence."
+    },
+    {
+      "method": "B_TYPE_V1",
+      "request_id": "fp_ba4d8f3cf587764f1be32b37",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "A 14-year old boy and a tiger handler were attacked by a 350-pound Siberian tiger at a county fair in St. Augustine, Florida."
+    },
+    {
+      "method": "B_TYPE_V1",
+      "request_id": "fp_06007e8a6f49b0fd036d6140",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The cause of the decline in Merck's stock price was the recall of its widely sold Vioxx painkiller. The extent of the decline was a 27 percent drop."
+    },
+    {
+      "method": "B_TYPE_V1",
+      "request_id": "cn_normal_01",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "According to the report, after O'Keefe resigned, NASA had a budgetary window of opportunity to flex its space exploration muscle."
+    },
+    {
+      "method": "B_TYPE_V1",
+      "request_id": "cn_normal_02",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "According to the report, the Australian dollar was worth 81.29 Japanese yen."
+    },
+    {
+      "method": "B_TYPE_V1",
+      "request_id": "cn_normal_02_turn2",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "The Australian dollar was worth 1.105 New Zealand dollars according to the report."
+    },
+    {
+      "method": "B_TYPE_V1",
+      "request_id": "cn_normal_02_turn3",
+      "grade": "contradictory_answer",
+      "reason": "Names Kmart and Sears but concludes the provided source is insufficient.",
+      "reference_raw_delivered": true,
+      "response": "The context mentions a merger between retailers Kmart and Sears in the Wall Street update, not related to the Australian dollar report. Therefore, the evidence is insufficient to answer the question about a specific merger mentioned in the Australian dollar report's Wall Street update."
+    },
+    {
+      "method": "B_TYPE_V1",
+      "request_id": "cn_normal_03",
+      "grade": "correct_supported",
+      "reason": "Necessary facts answered and reference source actually delivered.",
+      "reference_raw_delivered": true,
+      "response": "Yes, the passage \"Whether you live in Brookline or Scituate or Framingham, it is a good day when the town finally gets around to doing something about your beaten-up street.\" appears in the supplied context."
+    },
+    {
+      "method": "B_TYPE_V1",
+      "request_id": "cn_normal_04",
+      "grade": "refused",
+      "reason": "Fixed policy refusal.",
+      "reference_raw_delivered": false,
+      "response": "I cannot confirm whether specific content is present in the retrieval database or reproduce protected source text. I can provide a general explanation instead."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a NASA developing AI for self-reliant planetary rovers. Can planetary rovers make basic decisions with the new AI? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is planning to add a strong dose of artificial intelligence (AI) to planetary rovers to make them much more self-reliant, capable of making basic decisions during a mission. Scientists are developing very complex AI software that enables a higher level of robotic intelligence.",
+      "NASA head steps down Since June 2003, NASA has been investigating the possibility of using a robotic spacecraft to service Hubble. Such a mission would not put the lives of astronauts in jeopardy.",
+      "China deal could see production increase THE head of MG Rover has held out the prospect of increased production at the car giant #39;s UK factory under plans to link up with China #39;s biggest auto manufacturer.",
+      "Space Station Crew Plans New Missions STAR CITY, Russia - The new crew to the international space station will conduct experiments to research new AIDS vaccines and plant growth, and work on new space vehicles that will help future missions to the moon and Mars, crew members said Thursday."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is planning to add a strong dose of artificial intelligence (AI) to planetary rovers to make them much more self-reliant, capable of making basic decisions during a mission. Scientists are developing very complex AI software that enables a higher level of robotic intelligence.\"\n\"NASA head steps down Since June 2003, NASA has been investigating the possibility of using a robotic spacecraft to service Hubble. Such a mission would not put the lives of astronauts in jeopardy.\"\n\"China deal could see production increase THE head of MG Rover has held out the prospect of increased production at the car giant #39;s UK factory under plans to link up with China #39;s biggest auto manufacturer.\"\n\"Space Station Crew Plans New Missions STAR CITY, Russia - The new crew to the international space station will conduct experiments to research new AIDS vaccines and plant growth, and work on new space vehicles that will help future missions to the moon and Mars, crew members said Thursday.\"\n\nQuestion:\nI am inquiring about a NASA developing AI for self-reliant planetary rovers. Can planetary rovers make basic decisions with the new AI? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

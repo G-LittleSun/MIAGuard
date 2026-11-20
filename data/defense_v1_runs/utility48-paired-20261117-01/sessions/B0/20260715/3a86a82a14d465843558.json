@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "3a7dde81f26328f01b293d6bdf90ae11eb04dd0d4e800c5ced47794e0ce173d5",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "utility48_pilot_31_main",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "utility48_pilot_31_main",
+      "session_id": "utility48_pilot_31_main",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "The evidence provided in the context is insufficient to determine the exact date of the Symantec-Veritas acquisition's finalization.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000050"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000050"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000050"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000050"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 926.1808004230261,
+      "ledger_event": {
+        "request_id": "utility48_pilot_31_main",
+        "session_id": "utility48_pilot_31_main",
+        "input_sha256": "ff167f8973b74c507de1eba7b83eb38ca3bb0d3c0b219465b19804556fa685ea",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000050"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000050",
+            "parent_doc_id": "ag_news_teacher_00000050",
+            "kind": "raw",
+            "score": 0.6290150880813599,
+            "text_sha256": "51b1e19cbec5538eb4d6429b29c60e1afab3c9b2f9a5168028d94f1cb4b46650"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "The evidence provided in the context is insufficient to determine the exact date of the Symantec-Veritas acquisition's finalization.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794921934.3681006,
+        "finished_at": 1794921935.2946
+      },
+      "generation_input_ref": "artifacts/B0/20260715/3a86a82a14d465843558.json",
+      "artifact_sha256": "d3ede03aab4c7fcb81a9e0bcd99c37cc584a34181641c2228e74c54d0bb4cc61"
+    }
+  ]
+}

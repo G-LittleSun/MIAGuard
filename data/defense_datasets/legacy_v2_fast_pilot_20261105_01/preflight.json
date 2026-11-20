@@ -1,0 +1,15 @@
+{
+  "status": "passed_no_generation",
+  "queries": 12,
+  "normal_queries": 4,
+  "attack_queries": 8,
+  "expected_service_events": 24,
+  "model_backend": "transformers",
+  "load_mode": "bf16",
+  "model_seed": 20260715,
+  "selection_seed": 20261105,
+  "limits": [
+    "No model generation yet; actual memory/runtime success not guaranteed.",
+    "Source-based answers are agent suggestions, not human gold."
+  ]
+}

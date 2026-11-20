@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"Langer lashes out On a day made in heaven for batsmen, Stephen Fleming called wrong at the toss and all Ricky Ponting had to do was unleash hell. One down in the two-Test series, New Zealand needed \" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "Mike Selvey There is a sense of symmetry about Michael Vaughan and his England team dragging themselves off to Namibia and thence Zimbabwe with all the gloom of heretics on their way to the Tower, on the same day that London #39;s 2012 Olympic bid had a champagne bottle ",
+      "Ganguly #39;s growling list of woe With the NatWest Challenge a thing of the past, Cricket365 scours the papers to bring our readers what the Indian media are saying about their players.",
+      "Sun King is out with a begging bowl now London, September 5: Heaping ridicule on the Indian team, thrashed by a resurgent home side in the first two Natwest Challenge matches, former England captain Mike Atherton has said Sun King Sourav Ganguly has now been reduced to pauper status.",
+      "Kiwis collapse has Aussies in command of second Test (AFP) AFP - New Zealand faced the likelihood of conceding a massive first innings deficit against Australia after a clutter of wickets late on the third day of the second cricket Test at the Adelaide Oval."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Mike Selvey There is a sense of symmetry about Michael Vaughan and his England team dragging themselves off to Namibia and thence Zimbabwe with all the gloom of heretics on their way to the Tower, on the same day that London #39;s 2012 Olympic bid had a champagne bottle \"\n\"Ganguly #39;s growling list of woe With the NatWest Challenge a thing of the past, Cricket365 scours the papers to bring our readers what the Indian media are saying about their players.\"\n\"Sun King is out with a begging bowl now London, September 5: Heaping ridicule on the Indian team, thrashed by a resurgent home side in the first two Natwest Challenge matches, former England captain Mike Atherton has said Sun King Sourav Ganguly has now been reduced to pauper status.\"\n\"Kiwis collapse has Aussies in command of second Test (AFP) AFP - New Zealand faced the likelihood of conceding a massive first innings deficit against Australia after a clutter of wickets late on the third day of the second cricket Test at the Adelaide Oval.\"\n\nQuestion:\nDoes this: \"Langer lashes out On a day made in heaven for batsmen, Stephen Fleming called wrong at the toss and all Ricky Ponting had to do was unleash hell. One down in the two-Test series, New Zealand needed \" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

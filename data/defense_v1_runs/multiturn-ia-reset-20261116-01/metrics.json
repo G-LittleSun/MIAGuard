@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-multiturn-ia-reset",
+  "run_id": "multiturn-ia-reset-20261116-01",
+  "identity_sha256": "be19bd6cdbcca792ce883d68039e1ccce6304470a29022f04d285f4939062f71",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 18,
+  "completed": 18,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 18,
+  "method_count": 1,
+  "attack_target_count": 4,
+  "benign_request_count": 6
+}

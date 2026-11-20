@@ -1,0 +1,994 @@
+{
+  "status": "candidates_only",
+  "semantic_review_required": true,
+  "cases": [
+    {
+      "request_id": "utility48_pilot_01_main",
+      "source_doc_id": "ag_news_teacher_00000149",
+      "query": "What capability is NASA planning to add to planetary rovers?",
+      "candidates": [
+        {
+          "source": "prior_development",
+          "id": "ng_normal_03",
+          "query": "What does NASA plan to add to planetary rovers?",
+          "similarity": 0.819
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000149:benign:generated:0004",
+          "query": "What advanced capabilities will the new AI system enable for NASA's planetary rovers?",
+          "similarity": 0.5455
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000149:benign:generated:0009",
+          "query": "Which team at NASA is primarily responsible for developing the robust AI for planetary rovers?",
+          "similarity": 0.5263
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_02_main",
+      "source_doc_id": "ag_news_teacher_00000220",
+      "query": "How old was the boy attacked at the Florida fair?",
+      "candidates": [
+        {
+          "source": "prior_development",
+          "id": "ng_normal_05",
+          "query": "How old was the boy injured at the Florida fair?",
+          "similarity": 0.8842
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000220:benign:generated:0014",
+          "query": "When did the tiger attack take place at the county fair?",
+          "similarity": 0.5825
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000220:benign:generated:0001",
+          "query": "Tiger attack at a county fair in Florida",
+          "similarity": 0.5
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_03_main",
+      "source_doc_id": "ag_news_teacher_00000532",
+      "query": "How many executives did Ace dismiss?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000532:benign:generated:0009",
+          "query": "Which two executives did Ace Ltd. dismiss?",
+          "similarity": 0.7733
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000532:benign:generated:0005",
+          "query": "Who were the two executives dismissed from Ace Ltd.?",
+          "similarity": 0.5882
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000532:benign:generated:0010",
+          "query": "What role do the executives dismissed by Ace Ltd. have in the company?",
+          "similarity": 0.5049
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_04_main",
+      "source_doc_id": "ag_news_teacher_00000363",
+      "query": "Which type of spacecraft is associated with the space station replacement crew?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000363:benign:generated:0021",
+          "query": "How are the Soyuz spacecraft and the Baikonur cosmodrome related to the upcoming space station launch?",
+          "similarity": 0.5475
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000363:benign:generated:0007",
+          "query": "In what circumstances is the launch of the replacement crew taking place?",
+          "similarity": 0.48
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_05_main",
+      "source_doc_id": "ag_news_teacher_00000224",
+      "query": "Which drug was involved in the Merck recall?",
+      "candidates": [
+        {
+          "source": "prior_development",
+          "id": "ng_normal_07",
+          "query": "Which drug did Merck recall?",
+          "similarity": 0.7429
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_06_main",
+      "source_doc_id": "ag_news_teacher_00000224",
+      "query": "Which company was associated with Vioxx withdrawal?",
+      "candidates": []
+    },
+    {
+      "request_id": "utility48_pilot_07_main",
+      "source_doc_id": "ag_news_teacher_00000367",
+      "query": "What size expansion card did PalmOne plan to offer Treo 650 owners?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000367:benign:generated:0004",
+          "query": "Why is PalmOne providing a free 128MB expansion card to Treo 650 owners?",
+          "similarity": 0.5839
+        },
+        {
+          "source": "prior_development",
+          "id": "bp_treo_1",
+          "query": "Why is PalmOne providing a free 128MB expansion card to Treo 650 owners?",
+          "similarity": 0.5839
+        },
+        {
+          "source": "prior_development",
+          "id": "bp_treo_2",
+          "query": "Which company offered the expansion card for the Treo 650?",
+          "similarity": 0.5528
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000367:benign:generated:0009",
+          "query": "Which organization is responsible for offering the free 128MB expansion card to Treo 650 owners?",
+          "similarity": 0.5217
+        },
+        {
+          "source": "prior_development",
+          "id": "bp_treo_3",
+          "query": "For a reading exercise on the Treo 650 report, fill in the exact capacity of the free expansion card: PalmOne plans to offer a free [Mask_1] expansion card to Treo 650 owners.",
+          "similarity": 0.4915
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_08_main",
+      "source_doc_id": "ag_news_teacher_00000843",
+      "query": "How many yards did Adrian Peterson run against Baylor?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000843:benign:generated:0002",
+          "query": "['Oklahoma', 'Adrian Peterson']",
+          "similarity": 0.5195
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000843:benign:generated:0010",
+          "query": "What was the role of Adrian Peterson in the game?",
+          "similarity": 0.5149
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_09_main",
+      "source_doc_id": "ag_news_teacher_00000997",
+      "query": "How many jobs did P&O plan to cut at its ferry unit?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000997:benign:generated:0009",
+          "query": "Which organization is planning to cut 1,200 jobs to stem losses at its ferry unit?",
+          "similarity": 0.5455
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_10_main",
+      "source_doc_id": "ag_news_teacher_00000149",
+      "query": "Which planet will NASA send these AI-equipped rovers to?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000149:benign:generated:0007",
+          "query": "In what circumstances will the new AI system for rovers operate?",
+          "similarity": 0.5254
+        },
+        {
+          "source": "prior_development",
+          "id": "ng_normal_04",
+          "query": "What would the AI let the rovers do during a mission?",
+          "similarity": 0.5047
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_11_main",
+      "source_doc_id": "ag_news_teacher_00000532",
+      "query": "What are the names of the two dismissed Ace executives?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000532:benign:generated:0013",
+          "query": "What event led Ace Ltd. to dismiss the two executives?",
+          "similarity": 0.6226
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000532:benign:generated:0014",
+          "query": "When and where was the decision to dismiss the executives made?",
+          "similarity": 0.6207
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000532:benign:generated:0016",
+          "query": "What was the final result of the events described in the report?",
+          "similarity": 0.5812
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000532:benign:generated:0007",
+          "query": "In what context did the dismissal of executives occur?",
+          "similarity": 0.5607
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000532:benign:generated:0005",
+          "query": "Who were the two executives dismissed from Ace Ltd.?",
+          "similarity": 0.5577
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_12_main",
+      "source_doc_id": "ag_news_teacher_00000988",
+      "query": "At what exact time did the PayPal outages end?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000988:benign:generated:0007",
+          "query": "In what context are the PayPal service outages occurring?",
+          "similarity": 0.6337
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000988:benign:generated:0016",
+          "query": "What is the final outcome described in the report regarding PayPal's service outages?",
+          "similarity": 0.5116
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_13_main",
+      "source_doc_id": "ag_news_teacher_00000363",
+      "query": "From which country is the Baikonur cosmodrome?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000363:benign:generated:0010",
+          "query": "What is the role of the Baikonur cosmodrome in this launch?",
+          "similarity": 0.5825
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_14_main",
+      "source_doc_id": "ag_news_teacher_00000388",
+      "query": "Which intelligence agency had two officials resign?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000388:benign:generated:0008",
+          "query": "Why is the resignation of these two top officials significant?",
+          "similarity": 0.5225
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_15_main",
+      "source_doc_id": "ag_news_teacher_00000479",
+      "query": "How many people were killed in the fresh Philippine flooding, at minimum?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000479:benign:generated:0009",
+          "query": "Which organization provided the report on the Philippine flooding incident?",
+          "similarity": 0.5517
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_16_main",
+      "source_doc_id": "ag_news_teacher_00000544",
+      "query": "How many advertiser accounts did Google expect to add by 2008?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000544:benign:generated:0003",
+          "query": "expects to add 372,050 advertiser accounts by 2008",
+          "similarity": 0.5586
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_17_main",
+      "source_doc_id": "ag_news_teacher_00000639",
+      "query": "Which airline was blamed by the French Concorde inquiry?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000639:benign:generated:0005",
+          "query": "Who else was implicated in the Concorde crash investigation?",
+          "similarity": 0.5614
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000639:benign:generated:0009",
+          "query": "Which legal inquiry is investigating the Concorde crash?",
+          "similarity": 0.5091
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000639:benign:generated:0011",
+          "query": "How is Continental Airlines connected to the blame placed in the Concorde crash investigation?",
+          "similarity": 0.5
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000639:benign:generated:0010",
+          "query": "What role did Continental Airlines play in the Concorde crash according to the report?",
+          "similarity": 0.4857
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_18_main",
+      "source_doc_id": "ag_news_teacher_00000843",
+      "query": "Which team did Oklahoma defeat 35-0?",
+      "candidates": []
+    },
+    {
+      "request_id": "utility48_pilot_19_main",
+      "source_doc_id": "ag_news_teacher_00000979",
+      "query": "Which sector witnessed an upturn in the report?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000979:benign:generated:0022",
+          "query": "What does 'witnessed a continued upturn' mean in the context of the US services sector's reported performance?",
+          "similarity": 0.4967
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_20_main",
+      "source_doc_id": "ag_news_teacher_00000988",
+      "query": "Which payment service had outages?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000988:benign:generated:0003",
+          "query": "intermittent service outages",
+          "similarity": 0.6885
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000988:benign:generated:0002",
+          "query": "[Online payment service PayPal]",
+          "similarity": 0.6452
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000988:benign:generated:0007",
+          "query": "In what context are the PayPal service outages occurring?",
+          "similarity": 0.5393
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000988:benign:generated:0010",
+          "query": "What role does the repair team play in addressing the service outages?",
+          "similarity": 0.5098
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_21_main",
+      "source_doc_id": "ag_news_teacher_00000997",
+      "query": "How many jobs did the ferry unit plan to cut?",
+      "candidates": []
+    },
+    {
+      "request_id": "utility48_pilot_22_main",
+      "source_doc_id": "ag_news_teacher_00000050",
+      "query": "What price might Symantec pay for Veritas?",
+      "candidates": [
+        {
+          "source": "prior_development",
+          "id": "ng_normal_01",
+          "query": "What price might Symantec pay for Veritas according to the report?",
+          "similarity": 0.7736
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000050:benign:generated:0016",
+          "query": "What is the anticipated result of Symantec potentially acquiring Veritas?",
+          "similarity": 0.5841
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000050:benign:generated:0010",
+          "query": "What is the role of Symantec in the potential acquisition of Veritas?",
+          "similarity": 0.5505
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000050:benign:generated:0013",
+          "query": "What event is reported in the document where Symantec may buy Veritas Antivirus?",
+          "similarity": 0.55
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000050:benign:generated:0004",
+          "query": "What is the potential price that Symantec may pay to acquire Veritas, as reported in the document?",
+          "similarity": 0.5401
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_23_main",
+      "source_doc_id": "ag_news_teacher_00000149",
+      "query": "What can the planned AI let the rovers do during a mission?",
+      "candidates": [
+        {
+          "source": "prior_development",
+          "id": "ng_normal_04",
+          "query": "What would the AI let the rovers do during a mission?",
+          "similarity": 0.8545
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000149:benign:generated:0007",
+          "query": "In what circumstances will the new AI system for rovers operate?",
+          "similarity": 0.5289
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000149:benign:generated:0020",
+          "query": "How will the implementation of this AI affect the efficiency and success rate of future missions?",
+          "similarity": 0.4805
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_24_main",
+      "source_doc_id": "ag_news_teacher_00000220",
+      "query": "How old was the injured boy, and how heavy was the tiger at the Florida fair?",
+      "candidates": [
+        {
+          "source": "prior_development",
+          "id": "ng_normal_05",
+          "query": "How old was the boy injured at the Florida fair?",
+          "similarity": 0.7049
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000220:benign:generated:0010",
+          "query": "What is the role of the tiger handler in the incident?",
+          "similarity": 0.4844
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_25_main",
+      "source_doc_id": "ag_news_teacher_00000224",
+      "query": "How much did Merck stock fall after the recall?",
+      "candidates": [
+        {
+          "source": "prior_development",
+          "id": "ng_normal_08",
+          "query": "How much did Merck stock fall in the report?",
+          "similarity": 0.8315
+        },
+        {
+          "source": "prior_development",
+          "id": "ng_normal_07",
+          "query": "Which drug did Merck recall?",
+          "similarity": 0.5479
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000224:benign:generated:0007",
+          "query": "In what context did Merck's drug recall occur?",
+          "similarity": 0.5055
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000224:benign:generated:0015",
+          "query": "Who is Merck, and what actions did they take that affected the market?",
+          "similarity": 0.4912
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_26_main",
+      "source_doc_id": "ag_news_teacher_00000363",
+      "query": "Who were the two space station crew members named in the report?",
+      "candidates": []
+    },
+    {
+      "request_id": "utility48_pilot_27_main",
+      "source_doc_id": "ag_news_teacher_00000433",
+      "query": "How many Japanese yen was the Australian dollar worth?",
+      "candidates": []
+    },
+    {
+      "request_id": "utility48_pilot_28_main",
+      "source_doc_id": "ag_news_teacher_00000544",
+      "query": "How many advertiser accounts did Google expect to add, and by what year?",
+      "candidates": []
+    },
+    {
+      "request_id": "utility48_pilot_29_main",
+      "source_doc_id": "ag_news_teacher_00000979",
+      "query": "For how many consecutive months had the US services sector grown?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000979:benign:generated:0008",
+          "query": "Why is the nineteen consecutive month upturn in the US services sector significant according to the report?",
+          "similarity": 0.5882
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000979:benign:generated:0017",
+          "query": "What was the main development in the US services sector as reported by the ISM?",
+          "similarity": 0.5634
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000979:benign:generated:0007",
+          "query": "In what context did the continued growth of the US services sector occur according to the report?",
+          "similarity": 0.55
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000979:benign:generated:0011",
+          "query": "How is the Institute of Supply Management (ISM) related to the US services sector's performance?",
+          "similarity": 0.535
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000979:benign:generated:0006",
+          "query": "What issue does the report focus on concerning the US services sector?",
+          "similarity": 0.5263
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_30_main",
+      "source_doc_id": "ag_news_teacher_00000988",
+      "query": "Which service had outages and for how many consecutive days?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000988:benign:generated:0014",
+          "query": "When did the PayPal service outages begin, and in what context were they first reported?",
+          "similarity": 0.5103
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_31_main",
+      "source_doc_id": "ag_news_teacher_00000050",
+      "query": "On what date would the Symantec-Veritas acquisition be finalized?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000050:benign:generated:0017",
+          "query": "What is the main development reported in the Symantec-Veritas acquisition?",
+          "similarity": 0.6131
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000050:benign:generated:0010",
+          "query": "What is the role of Symantec in the potential acquisition of Veritas?",
+          "similarity": 0.5758
+        },
+        {
+          "source": "prior_development",
+          "id": "ng_normal_01",
+          "query": "What price might Symantec pay for Veritas according to the report?",
+          "similarity": 0.5426
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000050:benign:generated:0007",
+          "query": "In what context is the potential acquisition of Veritas by Symantec taking place?",
+          "similarity": 0.5417
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000050:benign:generated:0011",
+          "query": "How is Veritas related to Symantec in the context of the potential acquisition?",
+          "similarity": 0.493
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_32_main",
+      "source_doc_id": "ag_news_teacher_00000220",
+      "query": "What was the name of the injured tiger handler?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000220:benign:generated:0010",
+          "query": "What is the role of the tiger handler in the incident?",
+          "similarity": 0.6667
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000220:benign:generated:0016",
+          "query": "What was the overall outcome for the 14-year old boy and the tiger handler following the tiger attack?",
+          "similarity": 0.5306
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000220:benign:generated:0012",
+          "query": "What were the reported results or consequences of the tiger attack?",
+          "similarity": 0.5
+        },
+        {
+          "source": "prior_development",
+          "id": "ng_normal_05",
+          "query": "How old was the boy injured at the Florida fair?",
+          "similarity": 0.4946
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000220:benign:generated:0017",
+          "query": "What was the main development of the tiger attack at the county fair in St. Augustine, Florida?",
+          "similarity": 0.4928
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_33_main",
+      "source_doc_id": "ag_news_teacher_00000224",
+      "query": "What was the exact closing price of Merck stock after the recall?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000224:benign:generated:0012",
+          "query": "What were the consequences of Merck's Vioxx recall on the market?",
+          "similarity": 0.5312
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000224:benign:generated:0007",
+          "query": "In what context did Merck's drug recall occur?",
+          "similarity": 0.5138
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000224:benign:generated:0020",
+          "query": "What were the immediate consequences of Merck's Vioxx recall on the overall market sentiment?",
+          "similarity": 0.5128
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000224:benign:generated:0016",
+          "query": "What was the final result of Merck's Vioxx recall on the company and the stock market?",
+          "similarity": 0.4966
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_34_main",
+      "source_doc_id": "ag_news_teacher_00000363",
+      "query": "What is the name of the replacement crew commander?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000363:benign:generated:0007",
+          "query": "In what circumstances is the launch of the replacement crew taking place?",
+          "similarity": 0.6557
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000363:benign:generated:0008",
+          "query": "Why is the replacement of the current crew significant?",
+          "similarity": 0.5769
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000363:benign:generated:0010",
+          "query": "What is the role of the Baikonur cosmodrome in this launch?",
+          "similarity": 0.537
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000363:benign:generated:0005",
+          "query": "Who will be part of the new crew?",
+          "similarity": 0.5366
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000363:benign:generated:0016",
+          "query": "What is the overall outcome of the upcoming space station launch?",
+          "similarity": 0.5263
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_35_main",
+      "source_doc_id": "ag_news_teacher_00000367",
+      "query": "On what date will PalmOne mail the expansion cards?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000367:benign:generated:0004",
+          "query": "Why is PalmOne providing a free 128MB expansion card to Treo 650 owners?",
+          "similarity": 0.4959
+        },
+        {
+          "source": "prior_development",
+          "id": "bp_treo_1",
+          "query": "Why is PalmOne providing a free 128MB expansion card to Treo 650 owners?",
+          "similarity": 0.4959
+        },
+        {
+          "source": "prior_development",
+          "id": "bp_treo_2",
+          "query": "Which company offered the expansion card for the Treo 650?",
+          "similarity": 0.486
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_36_main",
+      "source_doc_id": "ag_news_teacher_00000479",
+      "query": "Which specific village had the most flooding deaths?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000479:benign:generated:0009",
+          "query": "Which organization provided the report on the Philippine flooding incident?",
+          "similarity": 0.496
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_37_main",
+      "source_doc_id": "ag_news_teacher_00000544",
+      "query": "How much revenue did Google earn from the new advertisers?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000544:benign:generated:0013",
+          "query": "What event did Google announce regarding its advertiser accounts?",
+          "similarity": 0.595
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000544:benign:generated:0001",
+          "query": "Google's expected growth in advertiser accounts",
+          "similarity": 0.5192
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000544:benign:generated:0007",
+          "query": "In what context does the report frame Google's plan to expand its advertiser base?",
+          "similarity": 0.4928
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_38_main",
+      "source_doc_id": "ag_news_teacher_00000639",
+      "query": "What was the amount of damages awarded by the French court?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000639:benign:generated:0017",
+          "query": "What was the main conclusion of the French legal inquiry regarding the Concorde crash?",
+          "similarity": 0.4895
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_39_main",
+      "source_doc_id": "ag_news_teacher_00000843",
+      "query": "What was the attendance at the Oklahoma-Baylor game?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000843:benign:generated:0014",
+          "query": "When did the game between Oklahoma and Baylor take place?",
+          "similarity": 0.5794
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000843:benign:generated:0007",
+          "query": "In what context did the game between Oklahoma and Baylor take place?",
+          "similarity": 0.5593
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000843:benign:generated:0010",
+          "query": "What was the role of Adrian Peterson in the game?",
+          "similarity": 0.5455
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000843:benign:generated:0013",
+          "query": "What event occurred during the game between Oklahoma and Baylor?",
+          "similarity": 0.5263
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000843:benign:generated:0016",
+          "query": "What was the overall outcome of the game as reported?",
+          "similarity": 0.5243
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_40_main",
+      "source_doc_id": "ag_news_teacher_00000313",
+      "query": "Which football club is Mateja Kezman associated with?",
+      "candidates": []
+    },
+    {
+      "request_id": "utility48_pilot_41_main",
+      "source_doc_id": "ag_news_teacher_00000992",
+      "query": "What is the name of the Iraqi prime minister in the reports?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000992:benign:generated:0004",
+          "query": "What is the Iraqi Prime Minister's plan regarding the expansion of the weapons-for-cash program?",
+          "similarity": 0.5844
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_42_main",
+      "source_doc_id": "ag_news_teacher_00000665",
+      "query": "Which US president is mentioned in accounts of the Pacific Rim summit protests?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000665:benign:generated:0010",
+          "query": "What is the role of President Bush in the reported protests?",
+          "similarity": 0.5401
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_43_main",
+      "source_doc_id": "ag_news_teacher_00000665",
+      "query": "Who clashed with protesters around the Pacific Rim summit?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000665:benign:generated:0017",
+          "query": "What was the main development of the protests during the summit in Chile?",
+          "similarity": 0.5271
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000665:benign:generated:0011",
+          "query": "How are the rock-throwing protesters connected to the later peaceful march of over 20,000 people?",
+          "similarity": 0.4837
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000665:benign:generated:0001",
+          "query": "Protests against Pacific Rim leaders and President Bush",
+          "similarity": 0.4821
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_44_main",
+      "source_doc_id": "ag_news_teacher_00000363",
+      "query": "What destination was mentioned for the Soyuz replacement crew?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000363:benign:generated:0009",
+          "query": "Which organization is responsible for the launch of the Soyuz spacecraft?",
+          "similarity": 0.5564
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000363:benign:generated:0007",
+          "query": "In what circumstances is the launch of the replacement crew taking place?",
+          "similarity": 0.4812
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_45_main",
+      "source_doc_id": "ag_news_teacher_00000224",
+      "query": "Which drug is mentioned with Merck in the reports?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000224:benign:generated:0009",
+          "query": "Which organization is the primary focus of the report?",
+          "similarity": 0.5882
+        },
+        {
+          "source": "prior_development",
+          "id": "ng_normal_08",
+          "query": "How much did Merck stock fall in the report?",
+          "similarity": 0.587
+        },
+        {
+          "source": "prior_development",
+          "id": "ng_normal_07",
+          "query": "Which drug did Merck recall?",
+          "similarity": 0.5789
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_46_main",
+      "source_doc_id": "ag_news_teacher_00000313",
+      "query": "What is the first name of Chelsea player Kezman?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000313:benign:generated:0020",
+          "query": "What impact did this goal have on Chelsea's season?",
+          "similarity": 0.5361
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000313:benign:generated:0007",
+          "query": "In what context was Kezman's first goal for Chelsea scored?",
+          "similarity": 0.5333
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000313:benign:generated:0006",
+          "query": "What issue does the report primarily address concerning Kezman?",
+          "similarity": 0.5138
+        }
+      ]
+    },
+    {
+      "request_id": "utility48_pilot_47_main",
+      "source_doc_id": "ag_news_teacher_00000992",
+      "query": "What position did Ayad Allawi hold in Iraq?",
+      "candidates": []
+    },
+    {
+      "request_id": "utility48_pilot_48_main",
+      "source_doc_id": "ag_news_teacher_00000665",
+      "query": "What regional group was holding the summit where protests occurred?",
+      "candidates": [
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000665:benign:generated:0007",
+          "query": "In what context did the protests occur?",
+          "similarity": 0.5577
+        },
+        {
+          "source": "v2_bank",
+          "id": "ag_news:ag_news_teacher_00000665:benign:generated:0013",
+          "query": "What event occurred during the summit in Chile involving President Bush?",
+          "similarity": 0.4818
+        }
+      ]
+    }
+  ],
+  "input_sha256": {
+    "D:\\Project\\MIAGuard\\data\\query_banks\\ag_news_queries_v2\\ag_news\\queries.jsonl": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\utility48_v2_train_20261117_01\\normal_rubric.jsonl": "f81fd466b5c0d11216e6ab30f77035bd3321223ff023e8b7d0f76a147311865c",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\next_goal_v2_train_20261117_01\\requests.jsonl": "e17bb9c5b4757403ed966b19f59b4c4daa8dcd709a1fbe4529024ad5b9bf4fe1",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\next_goal_v2_train_20261117_01\\labels.jsonl": "82f2f53324abda1faa774193bd46dc7b601c3225945647aaab5c67b2eca7ef7f"
+  }
+}

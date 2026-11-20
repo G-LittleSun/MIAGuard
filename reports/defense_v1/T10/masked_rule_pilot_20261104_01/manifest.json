@@ -1,0 +1,31 @@
+{
+  "version_id": "t10d-masked-rule-pilot-20261104-01",
+  "partition": "D-dev",
+  "status": "pending_agent_review",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "replay_eligible": false,
+  "source_count": 4,
+  "requests": 4,
+  "excluded": 0,
+  "selection": "Four D-dev sources of previous attack review; no membership labels or outcomes used.",
+  "input_sha256": {
+    "reports/defense_v1/T10/review_attack_source_usage_20261102_01/manifest.json": "ca781262332f0c6575062d0b68551aad9e8065592f31ee5d06be3ebd0d8a1fb0",
+    "reports/defense_v1/T10/review_attack_source_usage_20261102_01/source_usage.jsonl": "f85232c2f3775b7c747fdb725683f26a9e43ff87e3f04753efd547112c2f6d7a",
+    "data/defense_datasets/defense_access_v1_candidate06/manifest.json": "359ed9f4b375a8a1f5a644f1c6815150f09f6ffdce86c3bc4e3fec3271498f27",
+    "data/defense_datasets/defense_access_v1_candidate06/documents.jsonl": "6b97aa1e7c31973011c6062d86d37e8d5d9c03a93b58fe75d8e2b4bae839a9d0",
+    "src/miaguard/defense_dataset.py": "d33b1b55ba3e61e97cd151b76396a239caf0de9837b849f7a776860855be2276",
+    "reports/defense_v1/T10/build_masked_rule_pilot_20261104.py": "a41ab6902c3ca12bd660bd6bfb938ba6e60e27cf0ff510fc7b64470fd0bf034f"
+  },
+  "output_sha256": {
+    "requests.jsonl": "eb66f6bf7bd649ef9217ff262d38269b65d8f87ed7b6fbbdc356c9970c0cb6c8",
+    "labels.jsonl": "4356bdd35b139638d03ecd47619ebff241a296b6a45668f5982352d7ca6dc270",
+    "sources.jsonl": "8d047513a28079309fc37f941a7f6b87d0ac9d3a392fb53344dcdeffcc5e80ff",
+    "excluded.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "limitations": [
+    "Small nonrepresentative development pilot; not an attack effectiveness experiment.",
+    "Unique word is not necessarily recoverable or informative.",
+    "Does not establish historical or cross-partition independence."
+  ]
+}

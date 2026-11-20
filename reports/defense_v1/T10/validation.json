@@ -1,0 +1,58 @@
+{
+  "dataset_id": "defense_access_v1",
+  "candidate": "defense_access_v1_candidate06",
+  "status": "engineering_valid_pending_human_review",
+  "formal_effect_eligible": false,
+  "target_document_count": 3600,
+  "normal_request_count": 1750,
+  "attack_request_count": 14400,
+  "normal_task_family_counts": {
+    "topic_summary": 250,
+    "single_fact": 250,
+    "exact_entity_number": 250,
+    "citation_check": 250,
+    "multi_turn_reading": 250,
+    "cross_document_synthesis": 250,
+    "evidence_insufficient": 250
+  },
+  "attack_type_counts": {
+    "direct_rag_mia": 3600,
+    "s2_mia": 3600,
+    "masked_mia": 3600,
+    "ia": 3600
+  },
+  "historical_overlap": {
+    "selected_historical_id_overlap": 0,
+    "selected_historical_near_duplicate_overlap": 0,
+    "selected_prompt_full_text_overlap": 0,
+    "background_historical_near_duplicate_overlap": 0,
+    "background_target_duplicate_group_overlap": 0
+  },
+  "indexes": {
+    "D-dev": {
+      "target_member": 100,
+      "shared_background": 900,
+      "total": 1000,
+      "index_sha256": "9ace4b1ceb1c8e39969baf99dedf22f0226beac05d0560130c26b6e38907157b"
+    },
+    "A-cal": {
+      "target_member": 500,
+      "shared_background": 500,
+      "total": 1000,
+      "index_sha256": "38c61fe789be7daf28fcedff6a0194894a4009a08d4527a794d7a86e29c646ef"
+    },
+    "V": {
+      "target_member": 200,
+      "shared_background": 800,
+      "total": 1000,
+      "index_sha256": "1b464909db81ccb1cf87e1903696aa9e5fade0ff973d042979f96e6eb058de3b"
+    },
+    "T": {
+      "target_member": 1000,
+      "shared_background": 0,
+      "total": 1000,
+      "index_sha256": "c6fa8247b16690d5c89e718883a7aa99e09dd24c0f6929dba66b3a87124d4668"
+    }
+  },
+  "dataset_manifest_sha256": "359ed9f4b375a8a1f5a644f1c6815150f09f6ffdce86c3bc4e3fec3271498f27"
+}

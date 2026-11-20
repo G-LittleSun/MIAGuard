@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "The passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\n[Mask_1]: Dodgers 8 Rockies 7 LOS ANGELES Milton Bradley singled home the [Mask_2] run with one out in the [Mask_3] of the ninth as the Los Angeles Dodgers [Mask_4] the [Mask_5] Rockies 8-to-7.",
+    "contexts": [
+      "MLB: San Diego 9, Los Angeles 7 Phil Nevin belted two homers and drove in four runs Tuesday to lead San Diego past the Los Angeles Dodgers 9-7. Shawn Green hit two home runs for the Dodgers, who lead the National ",
+      "Sexson Agrees to  #36;50M Deal With Mariners (AP) AP - The Seattle Mariners added power to one of the weakest lineups in baseball Wednesday, agreeing to a  #36;50 million, four-year contract with free agent first baseman Richie Sexson.",
+      "Cards Use 'Small Ball' to Beat Dodgers (AP) AP - Mike Matheny, Edgar Renteria and the St. Louis Cardinals can win with singles, doubles and triples, too.",
+      "Reverse rout in Bronx makes us wonder As opening statements go, this was something along the lines of the Beatles on Ed Sullivan and JFK's inaugural address. In the first true  quot;big quot; game of the season -- the series opener against the potential playoff foes from Anaheim on the very eve of September -- the Red Sox batted around and put a 4-0 lead on the board ..."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"MLB: San Diego 9, Los Angeles 7 Phil Nevin belted two homers and drove in four runs Tuesday to lead San Diego past the Los Angeles Dodgers 9-7. Shawn Green hit two home runs for the Dodgers, who lead the National \"\n\"Sexson Agrees to  #36;50M Deal With Mariners (AP) AP - The Seattle Mariners added power to one of the weakest lineups in baseball Wednesday, agreeing to a  #36;50 million, four-year contract with free agent first baseman Richie Sexson.\"\n\"Cards Use 'Small Ball' to Beat Dodgers (AP) AP - Mike Matheny, Edgar Renteria and the St. Louis Cardinals can win with singles, doubles and triples, too.\"\n\"Reverse rout in Bronx makes us wonder As opening statements go, this was something along the lines of the Beatles on Ed Sullivan and JFK's inaugural address. In the first true  quot;big quot; game of the season -- the series opener against the potential playoff foes from Anaheim on the very eve of September -- the Red Sox batted around and put a 4-0 lead on the board ...\"\n\nQuestion:\nThe passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\n[Mask_1]: Dodgers 8 Rockies 7 LOS ANGELES Milton Bradley singled home the [Mask_2] run with one out in the [Mask_3] of the ninth as the Los Angeles Dodgers [Mask_4] the [Mask_5] Rockies 8-to-7.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008234",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q115",
+      "session_id": "ia_ag_news_teacher_00008234",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not contain any information about Microsoft encouraging families to get older people online. The context discusses Microsoft's purchase of an anti-spyware company, changes to Hotmail services, and concerns about the aging population's impact on public finances. There is no direct statement or implication regarding Microsoft's stance on getting older people online.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000750",
+        "ag_news_teacher_00000841",
+        "ag_news_teacher_00000085",
+        "ag_news_teacher_00000219"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000750",
+        "ag_news_teacher_00000841",
+        "ag_news_teacher_00000085",
+        "ag_news_teacher_00000219"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000750",
+            "ag_news_teacher_00000841",
+            "ag_news_teacher_00000085",
+            "ag_news_teacher_00000219"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000750",
+            "ag_news_teacher_00000841",
+            "ag_news_teacher_00000085",
+            "ag_news_teacher_00000219"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 2424.4855996221304,
+      "ledger_event": {
+        "request_id": "q115",
+        "session_id": "ia_ag_news_teacher_00008234",
+        "input_sha256": "dd9b833c3afd8cb99d69df8661be78ad4a3c6cb1ed5da0901fffe168561e0620",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000750",
+          "ag_news_teacher_00000841",
+          "ag_news_teacher_00000085",
+          "ag_news_teacher_00000219"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000750",
+            "parent_doc_id": "ag_news_teacher_00000750",
+            "kind": "raw",
+            "score": 0.42808014154434204,
+            "text_sha256": "0d14741a248ca5f02e14ef82c70679464d742e8af480205e463e1c165f0681cc"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000841",
+            "parent_doc_id": "ag_news_teacher_00000841",
+            "kind": "raw",
+            "score": 0.34975725412368774,
+            "text_sha256": "2eac335528ab7f773bc2608ed9d9772c8b14cfbb951aea6e380d688d20bf68e7"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000085",
+            "parent_doc_id": "ag_news_teacher_00000085",
+            "kind": "raw",
+            "score": 0.3280484080314636,
+            "text_sha256": "103c7492d298c5a1c13ab10ae0bd0cecad5f1ae2dea4a650cc24caba14463327"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000219",
+            "parent_doc_id": "ag_news_teacher_00000219",
+            "kind": "raw",
+            "score": 0.29531729221343994,
+            "text_sha256": "8f43ca02d0c9175ea186972fb1a3d21b8226c959c5ed7d416c0050b528b8921f"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not contain any information about Microsoft encouraging families to get older people online. The context discusses Microsoft's purchase of an anti-spyware company, changes to Hotmail services, and concerns about the aging population's impact on public finances. There is no direct statement or implication regarding Microsoft's stance on getting older people online.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006886.7193227,
+        "finished_at": 1795006889.1438224
+      },
+      "generation_input_ref": "artifacts/B0/20260715/65ea3e53193e261babd9.json",
+      "artifact_sha256": "37d47432c0b24f2075a6786e6bf16ac7434b57f1dc2d97a7c4c8f08193f79ba2"
+    },
+    {
+      "request_id": "q116",
+      "session_id": "ia_ag_news_teacher_00008234",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000430",
+        "ag_news_teacher_00000226",
+        "ag_news_teacher_00000720",
+        "ag_news_teacher_00000750"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000430",
+        "ag_news_teacher_00000226",
+        "ag_news_teacher_00000720",
+        "ag_news_teacher_00000750"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000430",
+            "ag_news_teacher_00000226",
+            "ag_news_teacher_00000720",
+            "ag_news_teacher_00000750"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000430",
+            "ag_news_teacher_00000226",
+            "ag_news_teacher_00000720",
+            "ag_news_teacher_00000750"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 122.44429998099804,
+      "ledger_event": {
+        "request_id": "q116",
+        "session_id": "ia_ag_news_teacher_00008234",
+        "input_sha256": "f66c07cb8d478b7896f2189c845491c95dc4acd3bd742e01496d6869b1968440",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000430",
+          "ag_news_teacher_00000226",
+          "ag_news_teacher_00000720",
+          "ag_news_teacher_00000750"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000430",
+            "parent_doc_id": "ag_news_teacher_00000430",
+            "kind": "raw",
+            "score": 0.43629756569862366,
+            "text_sha256": "cbadb0f347c1e2b297e580cd9c0e829a9d76b3dc7c2445ea1da6633bd0be2cc3"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000226",
+            "parent_doc_id": "ag_news_teacher_00000226",
+            "kind": "raw",
+            "score": 0.43372851610183716,
+            "text_sha256": "0aeb5d3091b7e1a882673c2813820dd8243a1ba1614dacfb29f5a090d0d0c704"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000720",
+            "parent_doc_id": "ag_news_teacher_00000720",
+            "kind": "raw",
+            "score": 0.3857642412185669,
+            "text_sha256": "2c9efc2a83b47cd2877bb4f23e4000d46df3cc01a4d5f7b967445c38bd422b3e"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000750",
+            "parent_doc_id": "ag_news_teacher_00000750",
+            "kind": "raw",
+            "score": 0.37731340527534485,
+            "text_sha256": "0d14741a248ca5f02e14ef82c70679464d742e8af480205e463e1c165f0681cc"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006889.1498227,
+        "finished_at": 1795006889.272323
+      },
+      "generation_input_ref": "artifacts/B0/20260715/e5309c0f259ddfeb3037.json",
+      "artifact_sha256": "2cf6d48d5a0e9afab6ad38b3cd3e8b26e86bad936dcb89e6c2c79ecf1bf15305"
+    },
+    {
+      "request_id": "q117",
+      "session_id": "ia_ag_news_teacher_00008234",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not mention any initiative by Microsoft or similar companies encouraging families to help older people access the web via email and photos through TV. Therefore, there is insufficient evidence to confirm or deny whether digital photo sharing is mentioned as a motivation for older people to use the web via TV.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000226",
+        "ag_news_teacher_00000720",
+        "ag_news_teacher_00000750",
+        "ag_news_teacher_00000430"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000226",
+        "ag_news_teacher_00000720",
+        "ag_news_teacher_00000750",
+        "ag_news_teacher_00000430"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000226",
+            "ag_news_teacher_00000720",
+            "ag_news_teacher_00000750",
+            "ag_news_teacher_00000430"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000226",
+            "ag_news_teacher_00000720",
+            "ag_news_teacher_00000750",
+            "ag_news_teacher_00000430"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 2241.5351001545787,
+      "ledger_event": {
+        "request_id": "q117",
+        "session_id": "ia_ag_news_teacher_00008234",
+        "input_sha256": "97f2bbdcfd7ea93f9bbffe59bb8c34d62a721426d48c81db2caabbbe8085e7e9",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000226",
+          "ag_news_teacher_00000720",
+          "ag_news_teacher_00000750",
+          "ag_news_teacher_00000430"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000226",
+            "parent_doc_id": "ag_news_teacher_00000226",
+            "kind": "raw",
+            "score": 0.46563369035720825,
+            "text_sha256": "0aeb5d3091b7e1a882673c2813820dd8243a1ba1614dacfb29f5a090d0d0c704"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000720",
+            "parent_doc_id": "ag_news_teacher_00000720",
+            "kind": "raw",
+            "score": 0.44915327429771423,
+            "text_sha256": "2c9efc2a83b47cd2877bb4f23e4000d46df3cc01a4d5f7b967445c38bd422b3e"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000750",
+            "parent_doc_id": "ag_news_teacher_00000750",
+            "kind": "raw",
+            "score": 0.4225163459777832,
+            "text_sha256": "0d14741a248ca5f02e14ef82c70679464d742e8af480205e463e1c165f0681cc"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000430",
+            "parent_doc_id": "ag_news_teacher_00000430",
+            "kind": "raw",
+            "score": 0.39323690533638,
+            "text_sha256": "cbadb0f347c1e2b297e580cd9c0e829a9d76b3dc7c2445ea1da6633bd0be2cc3"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not mention any initiative by Microsoft or similar companies encouraging families to help older people access the web via email and photos through TV. Therefore, there is insufficient evidence to confirm or deny whether digital photo sharing is mentioned as a motivation for older people to use the web via TV.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006889.2778227,
+        "finished_at": 1795006891.519323
+      },
+      "generation_input_ref": "artifacts/B0/20260715/7a3813d585e9b24cf7ac.json",
+      "artifact_sha256": "8b309f13794e903c4b320480a3629c02ebe2a9bb5ebc07346ce339d26a332b33"
+    }
+  ]
+}

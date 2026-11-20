@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "c53e8bae983dd1c13c7a66ff0a7c4fecfe4ec545d81eae23557a9861b35a9384",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ng_ia_00008636",
+  "expected": 2,
+  "events": [
+    {
+      "request_id": "ng_ia_00008636_1",
+      "session_id": "ng_ia_00008636",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not contain any information about Michael Vaughan or any English team adopting the Australian tactic of sledging. The context mentions Michael Vaughan and his England team going to Namibia and Zimbabwe, but it does not discuss any specific tactics used during the games.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000063",
+        "ag_news_teacher_00000468",
+        "ag_news_teacher_00000648",
+        "ag_news_teacher_00000196"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000063",
+        "ag_news_teacher_00000468",
+        "ag_news_teacher_00000648",
+        "ag_news_teacher_00000196"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000063",
+            "ag_news_teacher_00000468",
+            "ag_news_teacher_00000648",
+            "ag_news_teacher_00000196"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000063",
+            "ag_news_teacher_00000468",
+            "ag_news_teacher_00000648",
+            "ag_news_teacher_00000196"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1658.173200674355,
+      "ledger_event": {
+        "request_id": "ng_ia_00008636_1",
+        "session_id": "ng_ia_00008636",
+        "input_sha256": "5b184ca94e133458dfa7fb053365fb3fadc96a1e085021c1a8026414fe9f6c8f",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000063",
+          "ag_news_teacher_00000468",
+          "ag_news_teacher_00000648",
+          "ag_news_teacher_00000196"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000063",
+            "parent_doc_id": "ag_news_teacher_00000063",
+            "kind": "raw",
+            "score": 0.4817897081375122,
+            "text_sha256": "1116fb6413a77958c743c3732820f8cdbdd3a2057765224aadb021c19431c9b4"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000468",
+            "parent_doc_id": "ag_news_teacher_00000468",
+            "kind": "raw",
+            "score": 0.35334789752960205,
+            "text_sha256": "d9fc4413885ee7b80c47c60950cfc34acb37a668ffb6c74bbea86e1f5b43fd22"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000648",
+            "parent_doc_id": "ag_news_teacher_00000648",
+            "kind": "raw",
+            "score": 0.35041987895965576,
+            "text_sha256": "3559fda9d3a2841cdc7e6a8ddb0e70a43085729f1e3f17f4d6fa94bef202c7c1"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000196",
+            "parent_doc_id": "ag_news_teacher_00000196",
+            "kind": "raw",
+            "score": 0.34353551268577576,
+            "text_sha256": "d3468f65ec771a32e06f70de43102cb4d4f6f9689958efcdf3804cf9b65eeb58"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not contain any information about Michael Vaughan or any English team adopting the Australian tactic of sledging. The context mentions Michael Vaughan and his England team going to Namibia and Zimbabwe, but it does not discuss any specific tactics used during the games.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794899199.8433416,
+        "finished_at": 1794899201.5013413
+      },
+      "generation_input_ref": "artifacts/B0/20260715/4642046e21014424b2e5.json",
+      "artifact_sha256": "e5fe9c1163c7771cc7411c82de496201c69605a59e2aa2086ff549787865bc60"
+    },
+    {
+      "request_id": "ng_ia_00008636_2",
+      "session_id": "ng_ia_00008636",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe context provided does not explicitly state that Vaughan's plan is a verbal assault. It describes the journey of Michael Vaughan and his England team to Namibia and Zimbabwe as having a \"gloom of heretics on their way to the Tower,\" which is a metaphorical description rather than a direct statement about a verbal assault.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000063",
+        "ag_news_teacher_00000097",
+        "ag_news_teacher_00000044",
+        "ag_news_teacher_00000558"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000063",
+        "ag_news_teacher_00000097",
+        "ag_news_teacher_00000044",
+        "ag_news_teacher_00000558"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000063",
+            "ag_news_teacher_00000097",
+            "ag_news_teacher_00000044",
+            "ag_news_teacher_00000558"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000063",
+            "ag_news_teacher_00000097",
+            "ag_news_teacher_00000044",
+            "ag_news_teacher_00000558"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 2008.2425996661186,
+      "ledger_event": {
+        "request_id": "ng_ia_00008636_2",
+        "session_id": "ng_ia_00008636",
+        "input_sha256": "f9a8acda785b6853b3967e287e279ead8a2f3e9c6ed620f38f42f30084df77b4",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000063",
+          "ag_news_teacher_00000097",
+          "ag_news_teacher_00000044",
+          "ag_news_teacher_00000558"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000063",
+            "parent_doc_id": "ag_news_teacher_00000063",
+            "kind": "raw",
+            "score": 0.33178457617759705,
+            "text_sha256": "1116fb6413a77958c743c3732820f8cdbdd3a2057765224aadb021c19431c9b4"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000097",
+            "parent_doc_id": "ag_news_teacher_00000097",
+            "kind": "raw",
+            "score": 0.31716811656951904,
+            "text_sha256": "98341331bb3ab2a6bccd09ee708965d4023a913884a6ad9e6bfa4d7a02a7479c"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000044",
+            "parent_doc_id": "ag_news_teacher_00000044",
+            "kind": "raw",
+            "score": 0.31681305170059204,
+            "text_sha256": "f4043582b4f912b582f85c8df1220993b335f14f92290d24f3985d8e970d4808"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000558",
+            "parent_doc_id": "ag_news_teacher_00000558",
+            "kind": "raw",
+            "score": 0.27477753162384033,
+            "text_sha256": "cf5997c3b6dc10e45f3ead98b588868ba20a900634c7aba66649a6f1e78d5e3c"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe context provided does not explicitly state that Vaughan's plan is a verbal assault. It describes the journey of Michael Vaughan and his England team to Namibia and Zimbabwe as having a \"gloom of heretics on their way to the Tower,\" which is a metaphorical description rather than a direct statement about a verbal assault.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794899201.5073416,
+        "finished_at": 1794899203.5153418
+      },
+      "generation_input_ref": "artifacts/B0/20260715/24e413fd2c4c1438dac0.json",
+      "artifact_sha256": "2d5ee98ca34ac2be66aeb272b18e7401651f210b848a1ea200e10fec3545ef57"
+    }
+  ]
+}

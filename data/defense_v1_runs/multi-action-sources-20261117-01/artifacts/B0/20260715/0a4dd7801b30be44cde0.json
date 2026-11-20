@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "For each numbered mask, identify the original word. Respond with a JSON object containing only an \"answers\" array of 5 entries, ordered from mask 1 to mask 5.\n\nPassage:\nNeiman Marcus [Mask_1] Zeppelin for \\$10M DALLAS - What do you get for that special someone who has just about [Mask_2]? How about a personal zeppelin? The [Mask_3] could be yours for a mere \\$10 million from the 2004 Neiman Marcus [Mask_4] Book.    Other gifts in the book include a \\$1.7 million winged [Mask_5], jeweled Mr...",
+    "contexts": [
+      "A pitch for presents of peace With only 30 shopping days till Christmas, there #39;s no time to lose. So here are some nifty gift ideas for the youngsters on your list: - JFK Reloaded.",
+      "Will It Be Trash or Tribute? Bottle Stands on the Edge Tillie, the clown face that graced the front of Palace Amusements in Asbury Park for nearly 50 years, was preserved in June before the rest of the building was torn down.",
+      "Next to digital IDs, passwords look lame How big is your key ring? There are the house keys, of course, and the car keys and the little fob for unlocking the doors from 30 feet away.",
+      "Schrager eyes London hotels sale Ian Schrager, known for his luxury boutique hotels, has hung for sale signs over two of his London hotels, the St Martins Lane and the Sanderson."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"A pitch for presents of peace With only 30 shopping days till Christmas, there #39;s no time to lose. So here are some nifty gift ideas for the youngsters on your list: - JFK Reloaded.\"\n\"Will It Be Trash or Tribute? Bottle Stands on the Edge Tillie, the clown face that graced the front of Palace Amusements in Asbury Park for nearly 50 years, was preserved in June before the rest of the building was torn down.\"\n\"Next to digital IDs, passwords look lame How big is your key ring? There are the house keys, of course, and the car keys and the little fob for unlocking the doors from 30 feet away.\"\n\"Schrager eyes London hotels sale Ian Schrager, known for his luxury boutique hotels, has hung for sale signs over two of his London hotels, the St Martins Lane and the Sanderson.\"\n\nQuestion:\nFor each numbered mask, identify the original word. Respond with a JSON object containing only an \"answers\" array of 5 entries, ordered from mask 1 to mask 5.\n\nPassage:\nNeiman Marcus [Mask_1] Zeppelin for \\$10M DALLAS - What do you get for that special someone who has just about [Mask_2]? How about a personal zeppelin? The [Mask_3] could be yours for a mere \\$10 million from the 2004 Neiman Marcus [Mask_4] Book.    Other gifts in the book include a \\$1.7 million winged [Mask_5], jeweled Mr...\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

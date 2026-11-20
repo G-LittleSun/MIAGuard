@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-multi-action-source-expansion",
+  "run_id": "multi-action-sources-20261117-01",
+  "identity_sha256": "aef28a908b3d1c5afcd22dcd3759f81ff17d9219f649da7631c7b260c5706f79",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 95,
+  "completed": 95,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 19,
+  "method_count": 5,
+  "attack_target_count": 9,
+  "benign_request_count": 0
+}

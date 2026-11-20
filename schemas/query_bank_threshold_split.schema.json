@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://miaguard.local/schemas/query_bank_threshold_split.schema.json",
+  "title": "MIAGuard Query Bank Threshold Split",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "split_id",
+    "seed",
+    "query_bank",
+    "assignment_unit",
+    "partitions"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "split_id": {"type": "string", "minLength": 1},
+    "seed": {"type": "integer"},
+    "assignment_unit": {"const": "doc_id"},
+    "derived_from_split_id": {"type": "string", "minLength": 1},
+    "parent_query_bank": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["bank_id", "dataset_id", "queries_sha256"],
+      "properties": {
+        "bank_id": {"type": "string", "minLength": 1},
+        "dataset_id": {"type": "string", "minLength": 1},
+        "queries_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    },
+    "query_bank": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["bank_id", "dataset_id", "queries_sha256"],
+      "properties": {
+        "bank_id": {"type": "string", "minLength": 1},
+        "dataset_id": {"type": "string", "minLength": 1},
+        "queries_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    },
+    "partitions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["train", "validation", "test"],
+      "properties": {
+        "train": {"$ref": "#/$defs/partition"},
+        "validation": {"$ref": "#/$defs/partition"},
+        "test": {"$ref": "#/$defs/partition"}
+      }
+    }
+  },
+  "$defs": {
+    "docIds": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "partition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "doc_ids",
+        "member_doc_ids",
+        "nonmember_doc_ids",
+        "document_count",
+        "accepted_query_count"
+      ],
+      "properties": {
+        "doc_ids": {"$ref": "#/$defs/docIds"},
+        "member_doc_ids": {"$ref": "#/$defs/docIds"},
+        "nonmember_doc_ids": {"$ref": "#/$defs/docIds"},
+        "document_count": {"type": "integer", "minimum": 1},
+        "accepted_query_count": {"type": "integer", "minimum": 0}
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a reported fact. Was Prime Minister Tony Blair today urging the government of Sudan to adopt a ten-point plan to help end the slaughter in Darfur and ease the humanitarian crisis there? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Next Steps on Darfur ONE MONTH ago, the UN Security Council demanded progress on the humanitarian crisis unfolding in Darfur. A resolution called on Sudan #39;s government to allow aid workers unimpeded access to the province and ",
+      "British foreign minister arrives in troubled Darfur (AFP) AFP - British Foreign Secretary Jack Straw arrived in Sudan's violence-plagued western region of Darfur to see the plight of refugees driven from their homes by state-sponsored militias.",
+      "Blair Seeks to Prick World Conscience on Africa Britain hopes to use a summit in Ethiopia this week to force an international community obsessed with Iraq and terrorism to also focus on the  quot;scar quot; of Africa.",
+      "US, Africa team up to help Darfur The US has provided airlifts and pledged \\$300 million to support African troops in west Sudan. By Abraham McLaughlin - staff writer and Duncan Woodside - contributor."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Next Steps on Darfur ONE MONTH ago, the UN Security Council demanded progress on the humanitarian crisis unfolding in Darfur. A resolution called on Sudan #39;s government to allow aid workers unimpeded access to the province and \"\n\"British foreign minister arrives in troubled Darfur (AFP) AFP - British Foreign Secretary Jack Straw arrived in Sudan's violence-plagued western region of Darfur to see the plight of refugees driven from their homes by state-sponsored militias.\"\n\"Blair Seeks to Prick World Conscience on Africa Britain hopes to use a summit in Ethiopia this week to force an international community obsessed with Iraq and terrorism to also focus on the  quot;scar quot; of Africa.\"\n\"US, Africa team up to help Darfur The US has provided airlifts and pledged \\$300 million to support African troops in west Sudan. By Abraham McLaughlin - staff writer and Duncan Woodside - contributor.\"\n\nQuestion:\nI am inquiring about a reported fact. Was Prime Minister Tony Blair today urging the government of Sudan to adopt a ten-point plan to help end the slaughter in Darfur and ease the humanitarian crisis there? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

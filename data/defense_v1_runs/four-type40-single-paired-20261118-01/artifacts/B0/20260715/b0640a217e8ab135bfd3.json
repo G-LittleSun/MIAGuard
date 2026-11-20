@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "The passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nFormer [Mask_1] in Swedish PM Murder Mystery [Mask_2] (Reuters) Reuters - The only man ever brought to [Mask_3]\\for the 1986 murder of Swedish Prime Minister Olof Palme died\\on [Mask_4], leaving the case an [Mask_5] mystery after almost\\20 years.",
+    "contexts": [
+      "Former Suspect in Swedish PM Murder Mystery Dies (Reuters) Reuters - The only man ever brought to trial\\for the 1986 murder of Swedish Prime Minister Olof Palme died\\on Wednesday, leaving the case an enduring mystery after almost\\20 years.",
+      "Eight to appear in London court on terror plot charges (AFP) AFP - Eight men arrested in anti-terrorist raids two weeks ago were set to appear in a high-security court in London on charges of conspiracy to murder and plotting radioactive, chemical or explosive attacks.",
+      "Company Offers 'Space Memorial Services' (AP) AP - People interested in an out-of-this-world post-death experience can \"boldly go where no man has gone before\" with a space memorial service that blasts their ashes into space.",
+      "The Search Engine Report - Number 96 Search Engine Watch editor Danny Sullivan's recap of top search engine stories from October 2004."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Former Suspect in Swedish PM Murder Mystery Dies (Reuters) Reuters - The only man ever brought to trial\\for the 1986 murder of Swedish Prime Minister Olof Palme died\\on Wednesday, leaving the case an enduring mystery after almost\\20 years.\"\n\"Eight to appear in London court on terror plot charges (AFP) AFP - Eight men arrested in anti-terrorist raids two weeks ago were set to appear in a high-security court in London on charges of conspiracy to murder and plotting radioactive, chemical or explosive attacks.\"\n\"Company Offers 'Space Memorial Services' (AP) AP - People interested in an out-of-this-world post-death experience can \"boldly go where no man has gone before\" with a space memorial service that blasts their ashes into space.\"\n\"The Search Engine Report - Number 96 Search Engine Watch editor Danny Sullivan's recap of top search engine stories from October 2004.\"\n\nQuestion:\nThe passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nFormer [Mask_1] in Swedish PM Murder Mystery [Mask_2] (Reuters) Reuters - The only man ever brought to [Mask_3]\\for the 1986 murder of Swedish Prime Minister Olof Palme died\\on [Mask_4], leaving the case an [Mask_5] mystery after almost\\20 years.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

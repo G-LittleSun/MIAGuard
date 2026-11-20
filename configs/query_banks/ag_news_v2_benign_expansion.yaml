@@ -1,0 +1,23 @@
+source_run_id: 20260717-ag-news-four-medium
+parent_bank_id: ag_news_queries_v1
+parent_split_path: data/query_bank_splits/ag_news_threshold_v1.json
+attack_config: configs/attacks/ag_news_progressive_judge_qwen2_5_7b_bf16.yaml
+seed: 20260830
+max_attempts_per_slot: 3
+benign_policy:
+  minimum_per_document: 5
+  soft_target_per_document: 20
+  standard_candidates_per_category: 3
+  optional_hard_per_document: 2
+hard_scenarios:
+  - quoted_context_interpretation
+  - grounded_fact_linking
+  - legitimate_context_elaboration
+  - multi_turn_clarification
+  - source_attribution_or_comparison
+verifier_version: benign-intent-verifier-v1
+generation_prompt_version: benign-expansion-v5-flexible-parent-floor
+audit:
+  seed: 20260831
+  hard_fraction: 0.20
+  standard_fraction: 0.05

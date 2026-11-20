@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "For a sports reading exercise, restore the original figures in this excerpt: Adrian Peterson ran for [Mask_1] yards, including [Mask_2] second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor [Mask_3] on Saturday.",
+    "contexts": [
+      "No. 2 Oklahoma Blows Out Baylor 35-0 (AP) AP - Adrian Peterson ran for 240 yards, including three second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor 35-0 on Saturday.",
+      "Footnotes In the highest-scoring regulation game in Division 1-A history, Brian Nunez returned an interception 28 yards with 2:18 left for the last of 19 touchdowns, and San Jose State (2-2, 1-1, WAC) beat Rice, 70-63.",
+      "Arizona St. Upsets No. 16 Iowa 44-7 (AP) AP - Andrew Walter threw for 428 yards and five touchdowns to lead Arizona State to a surprisingly easy 44-7 victory over No. 16 Iowa on Saturday night.",
+      "No. 19 Minnesota 43, Northwestern 17 Laurence Maroney had a 50-yard touchdown run and finished with 145 yards rushing, and freshman Justin Valentine had three short TDs to lead No."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"No. 2 Oklahoma Blows Out Baylor 35-0 (AP) AP - Adrian Peterson ran for 240 yards, including three second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor 35-0 on Saturday.\"\n\"Footnotes In the highest-scoring regulation game in Division 1-A history, Brian Nunez returned an interception 28 yards with 2:18 left for the last of 19 touchdowns, and San Jose State (2-2, 1-1, WAC) beat Rice, 70-63.\"\n\"Arizona St. Upsets No. 16 Iowa 44-7 (AP) AP - Andrew Walter threw for 428 yards and five touchdowns to lead Arizona State to a surprisingly easy 44-7 victory over No. 16 Iowa on Saturday night.\"\n\"No. 19 Minnesota 43, Northwestern 17 Laurence Maroney had a 50-yard touchdown run and finished with 145 yards rushing, and freshman Justin Valentine had three short TDs to lead No.\"\n\nQuestion:\nFor a sports reading exercise, restore the original figures in this excerpt: Adrian Peterson ran for [Mask_1] yards, including [Mask_2] second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor [Mask_3] on Saturday.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

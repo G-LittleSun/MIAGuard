@@ -1,0 +1,21 @@
+seed: 20260715
+ollama:
+  base_url: http://127.0.0.1:11434
+  generation_model: qwen2.5:3b
+  embedding_model: nomic-embed-text:latest
+  timeout_seconds: 300
+  keep_alive: 10m
+vector_store:
+  backend: faiss
+  embedding_batch_size: 10
+  top_k: 4
+masked_mia:
+  mask_count: 5
+  threshold: 0.5
+  max_tokens: 128
+ia:
+  questions_per_document: 3
+  threshold: 0.5
+  unknown_penalty: 0.1
+  generation_max_tokens: 256
+

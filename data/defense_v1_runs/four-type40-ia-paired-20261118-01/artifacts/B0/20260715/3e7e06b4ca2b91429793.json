@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Ace Ltd., a Bermuda insurer under investigation, dismissed two executives. Was the dismissal of the executives a direct response to the investigation? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Ace Dismisses 2 Executives in Response to Inquiry Ace Ltd., a Bermuda insurer that is a subject of the New York attorney general's investigation into the insurance industry, dismissed two executives.",
+      "Marsh suspends four over insurance probe - WSJ Embattled insurance broker Marsh  amp; McLennan Cos. (MMC.N: Quote, Profile, Research) has suspended four employees as part of a far-reaching investigation into industry practices, the ",
+      "UPDATE 3-Two Marsh  amp; McLennan executives step down Two Marsh  amp; McLennan Cos. (MMC.N: Quote, Profile, Research) executives linked to an insurance market bid-rigging investigation stepped down from their positions ",
+      "5  #39;inside #39; directors quit Marsh board Embattled insurance broker Marsh  amp; McLennan Cos. said yesterday that five members of its board of directors -- all of them executives of the company -- are leaving the board."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Ace Dismisses 2 Executives in Response to Inquiry Ace Ltd., a Bermuda insurer that is a subject of the New York attorney general's investigation into the insurance industry, dismissed two executives.\"\n\"Marsh suspends four over insurance probe - WSJ Embattled insurance broker Marsh  amp; McLennan Cos. (MMC.N: Quote, Profile, Research) has suspended four employees as part of a far-reaching investigation into industry practices, the \"\n\"UPDATE 3-Two Marsh  amp; McLennan executives step down Two Marsh  amp; McLennan Cos. (MMC.N: Quote, Profile, Research) executives linked to an insurance market bid-rigging investigation stepped down from their positions \"\n\"5  #39;inside #39; directors quit Marsh board Embattled insurance broker Marsh  amp; McLennan Cos. said yesterday that five members of its board of directors -- all of them executives of the company -- are leaving the board.\"\n\nQuestion:\nI am inquiring about a Ace Ltd., a Bermuda insurer under investigation, dismissed two executives. Was the dismissal of the executives a direct response to the investigation? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does Microsoft's message tell families not to give up on getting older people online? Answer Yes, No, or Unknown.",
+    "contexts": [
+      "Computers 'do not boost learning' Internet access does not make adults more likely to take part in formal education, research suggests.",
+      "UPDATE 2-Greenspan-Aging US population to strain finances An aging US population will strain public finances and hurt the economy without swift fixes to the social safety net, such as raising the age for ",
+      "Microsoft Purchases GIANT Anti-Spyware Microsoft Purchases GIANT Anti-Spyware\\\\Here's an interesting story. Microsoft, who's Internet Explorer browser is full of holes which make it able to accept browser programs and add-ons which  sometimes can be spyware, has now purchased an Anti-Spyware company. Something kind of stinks here. \\\\Why not fix Internet Explorer security holes ...",
+      "Hotmail becomes even less a free In order to stop the spread of spam, Microsoft will start charging users who use Outlook or Outlook Express to access e-mail. It will stop being free in April of 2005."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Computers 'do not boost learning' Internet access does not make adults more likely to take part in formal education, research suggests.\"\n\"UPDATE 2-Greenspan-Aging US population to strain finances An aging US population will strain public finances and hurt the economy without swift fixes to the social safety net, such as raising the age for \"\n\"Microsoft Purchases GIANT Anti-Spyware Microsoft Purchases GIANT Anti-Spyware\\\\Here's an interesting story. Microsoft, who's Internet Explorer browser is full of holes which make it able to accept browser programs and add-ons which  sometimes can be spyware, has now purchased an Anti-Spyware company. Something kind of stinks here. \\\\Why not fix Internet Explorer security holes ...\"\n\"Hotmail becomes even less a free In order to stop the spread of spam, Microsoft will start charging users who use Outlook or Outlook Express to access e-mail. It will stop being free in April of 2005.\"\n\nQuestion:\nDoes Microsoft's message tell families not to give up on getting older people online? Answer Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

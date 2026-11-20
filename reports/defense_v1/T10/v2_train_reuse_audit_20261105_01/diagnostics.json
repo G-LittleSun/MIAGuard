@@ -1,0 +1,27 @@
+{
+  "masked_leaked_queries": 130,
+  "masked_leaked_source_documents": 26,
+  "masked_total_queries": 300,
+  "masked_total_source_documents": 60,
+  "ia_open_question_flags": 206,
+  "ia_open_question_source_documents": 45,
+  "action_counts_all_four_categories": {
+    "reuse_content_after_adapter": 2975,
+    "needs_annotation": 1304,
+    "needs_rewrite": 300,
+    "not_applicable": 0
+  },
+  "benign_identical_normalized_query_groups": 12,
+  "benign_queries_in_repeated_groups": 79,
+  "direct_rag_mia_identical_normalized_query_groups": 0,
+  "direct_rag_mia_queries_in_repeated_groups": 0,
+  "ia_identical_normalized_query_groups": 0,
+  "ia_queries_in_repeated_groups": 0,
+  "masked_mia_identical_normalized_query_groups": 0,
+  "masked_mia_queries_in_repeated_groups": 0,
+  "s2_mia_identical_normalized_query_groups": 0,
+  "s2_mia_queries_in_repeated_groups": 0,
+  "masked_duplicate_answer_queries": 35,
+  "masked_duplicate_answer_source_documents": 7,
+  "masked_variants_per_source": 5
+}

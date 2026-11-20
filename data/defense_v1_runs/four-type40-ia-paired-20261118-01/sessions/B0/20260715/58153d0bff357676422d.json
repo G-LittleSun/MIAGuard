@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008636",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q097",
+      "session_id": "ia_ag_news_teacher_00008636",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not contain any information about Michael Vaughan or any English team adopting the Australian tactic of sledging. The context mentions Michael Vaughan and his England team going to Namibia and Zimbabwe, but it does not discuss any specific tactics used during the games.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000063",
+        "ag_news_teacher_00000468",
+        "ag_news_teacher_00000648",
+        "ag_news_teacher_00000196"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000063",
+        "ag_news_teacher_00000468",
+        "ag_news_teacher_00000648",
+        "ag_news_teacher_00000196"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000063",
+            "ag_news_teacher_00000468",
+            "ag_news_teacher_00000648",
+            "ag_news_teacher_00000196"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000063",
+            "ag_news_teacher_00000468",
+            "ag_news_teacher_00000648",
+            "ag_news_teacher_00000196"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1721.5085998177528,
+      "ledger_event": {
+        "request_id": "q097",
+        "session_id": "ia_ag_news_teacher_00008636",
+        "input_sha256": "64a14db5edac78af61611724d329e4a1106054352b7da9da67f0af9e86c47a7f",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000063",
+          "ag_news_teacher_00000468",
+          "ag_news_teacher_00000648",
+          "ag_news_teacher_00000196"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000063",
+            "parent_doc_id": "ag_news_teacher_00000063",
+            "kind": "raw",
+            "score": 0.4817897081375122,
+            "text_sha256": "1116fb6413a77958c743c3732820f8cdbdd3a2057765224aadb021c19431c9b4"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000468",
+            "parent_doc_id": "ag_news_teacher_00000468",
+            "kind": "raw",
+            "score": 0.35334789752960205,
+            "text_sha256": "d9fc4413885ee7b80c47c60950cfc34acb37a668ffb6c74bbea86e1f5b43fd22"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000648",
+            "parent_doc_id": "ag_news_teacher_00000648",
+            "kind": "raw",
+            "score": 0.35041987895965576,
+            "text_sha256": "3559fda9d3a2841cdc7e6a8ddb0e70a43085729f1e3f17f4d6fa94bef202c7c1"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000196",
+            "parent_doc_id": "ag_news_teacher_00000196",
+            "kind": "raw",
+            "score": 0.34353551268577576,
+            "text_sha256": "d3468f65ec771a32e06f70de43102cb4d4f6f9689958efcdf3804cf9b65eeb58"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not contain any information about Michael Vaughan or any English team adopting the Australian tactic of sledging. The context mentions Michael Vaughan and his England team going to Namibia and Zimbabwe, but it does not discuss any specific tactics used during the games.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006860.5173225,
+        "finished_at": 1795006862.2388225
+      },
+      "generation_input_ref": "artifacts/B0/20260715/28479dcd60e11280ebf6.json",
+      "artifact_sha256": "e5fe9c1163c7771cc7411c82de496201c69605a59e2aa2086ff549787865bc60"
+    },
+    {
+      "request_id": "q098",
+      "session_id": "ia_ag_news_teacher_00008636",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe provided context does not contain any information about Michael Vaughan's intentions regarding sledging or physical assault during England's cricket matches. The context mentions Michael Vaughan in the first sentence but does not provide any details about his tactics or intentions.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000063",
+        "ag_news_teacher_00000785",
+        "ag_news_teacher_00000668",
+        "ag_news_teacher_00000088"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000063",
+        "ag_news_teacher_00000785",
+        "ag_news_teacher_00000668",
+        "ag_news_teacher_00000088"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000063",
+            "ag_news_teacher_00000785",
+            "ag_news_teacher_00000668",
+            "ag_news_teacher_00000088"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000063",
+            "ag_news_teacher_00000785",
+            "ag_news_teacher_00000668",
+            "ag_news_teacher_00000088"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1559.8392998799682,
+      "ledger_event": {
+        "request_id": "q098",
+        "session_id": "ia_ag_news_teacher_00008636",
+        "input_sha256": "6a2eb347ac371636af42773da22467a4a5883bab6beaaaba31d82d47ef303d92",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000063",
+          "ag_news_teacher_00000785",
+          "ag_news_teacher_00000668",
+          "ag_news_teacher_00000088"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000063",
+            "parent_doc_id": "ag_news_teacher_00000063",
+            "kind": "raw",
+            "score": 0.4378596544265747,
+            "text_sha256": "1116fb6413a77958c743c3732820f8cdbdd3a2057765224aadb021c19431c9b4"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000785",
+            "parent_doc_id": "ag_news_teacher_00000785",
+            "kind": "raw",
+            "score": 0.37341436743736267,
+            "text_sha256": "acd1f33181482313d9568e3f73d8c0273468ad2f258098f6e654558b100af2c5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000668",
+            "parent_doc_id": "ag_news_teacher_00000668",
+            "kind": "raw",
+            "score": 0.3480386734008789,
+            "text_sha256": "6fbb8276c5cabe32da175b3094dd171a8217af09963638ce639f08a12c4af64e"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000088",
+            "parent_doc_id": "ag_news_teacher_00000088",
+            "kind": "raw",
+            "score": 0.34039127826690674,
+            "text_sha256": "e2da009b17f9cc643370dbb78befa402bc46eebf4d2197b69e535a5d990daac5"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe provided context does not contain any information about Michael Vaughan's intentions regarding sledging or physical assault during England's cricket matches. The context mentions Michael Vaughan in the first sentence but does not provide any details about his tactics or intentions.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006862.2438223,
+        "finished_at": 1795006863.8038225
+      },
+      "generation_input_ref": "artifacts/B0/20260715/019178ba8f427fe808b3.json",
+      "artifact_sha256": "0a3aae8f62fa2a0f5dd59f18b2c58b3e4072bb9f6532f80bf61227dac4ff051e"
+    },
+    {
+      "request_id": "q099",
+      "session_id": "ia_ag_news_teacher_00008636",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000063",
+        "ag_news_teacher_00000196",
+        "ag_news_teacher_00000668",
+        "ag_news_teacher_00000468"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000063",
+        "ag_news_teacher_00000196",
+        "ag_news_teacher_00000668",
+        "ag_news_teacher_00000468"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000063",
+            "ag_news_teacher_00000196",
+            "ag_news_teacher_00000668",
+            "ag_news_teacher_00000468"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000063",
+            "ag_news_teacher_00000196",
+            "ag_news_teacher_00000668",
+            "ag_news_teacher_00000468"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 135.40210016071796,
+      "ledger_event": {
+        "request_id": "q099",
+        "session_id": "ia_ag_news_teacher_00008636",
+        "input_sha256": "309a3e8ad8fe2dc6086cd787daca2acea4c94730e69564a2ada5fb5daddedd68",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000063",
+          "ag_news_teacher_00000196",
+          "ag_news_teacher_00000668",
+          "ag_news_teacher_00000468"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000063",
+            "parent_doc_id": "ag_news_teacher_00000063",
+            "kind": "raw",
+            "score": 0.5612324476242065,
+            "text_sha256": "1116fb6413a77958c743c3732820f8cdbdd3a2057765224aadb021c19431c9b4"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000196",
+            "parent_doc_id": "ag_news_teacher_00000196",
+            "kind": "raw",
+            "score": 0.4045073688030243,
+            "text_sha256": "d3468f65ec771a32e06f70de43102cb4d4f6f9689958efcdf3804cf9b65eeb58"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000668",
+            "parent_doc_id": "ag_news_teacher_00000668",
+            "kind": "raw",
+            "score": 0.3650924861431122,
+            "text_sha256": "6fbb8276c5cabe32da175b3094dd171a8217af09963638ce639f08a12c4af64e"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000468",
+            "parent_doc_id": "ag_news_teacher_00000468",
+            "kind": "raw",
+            "score": 0.34340938925743103,
+            "text_sha256": "d9fc4413885ee7b80c47c60950cfc34acb37a668ffb6c74bbea86e1f5b43fd22"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006863.8088245,
+        "finished_at": 1795006863.9443223
+      },
+      "generation_input_ref": "artifacts/B0/20260715/c72dcd78950e8ba0704a.json",
+      "artifact_sha256": "96b9517642387bc94084af55f52eba264d93a507ed723bbdc721002621522c15"
+    }
+  ]
+}

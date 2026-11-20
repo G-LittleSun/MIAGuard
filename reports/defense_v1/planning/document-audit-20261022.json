@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-22",
+  "timezone": "Asia/Shanghai",
+  "scope": "planning documents only",
+  "command": "@'\nimport json, re\nfrom pathlib import Path\nroot=Path(r\"D:\\Project\\MIAGuard\")\nfiles=[\n\"AGENTS.md\",\"docs/README.md\",\"docs/PROJECT_STATUS_ZH.md\",\"docs/EXPERIMENT_INDEX_ZH.md\",\n\"docs/DEFENSE_DEVELOPMENT_EXPERIMENT_RECOMMENDATIONS_ZH.md\",\n\"docs/DEFENSE_PROGRESS_ZH.md\",\"docs/DEFENSE_EXPERIMENT_PROTOCOL_ZH.md\",\n\"docs/superpowers/specs/2026-10-22-defense-framework-design.md\",\n\"docs/superpowers/plans/2026-10-22-defense-framework-implementation.md\"]\nerrors=[]\nlinks=0\nfor rel in files:\n    p=root/rel\n    s=p.read_text(encoding=\"utf-8\")\n    if len(re.findall(r\"^\\x60\\x60\\x60\",s,re.M))%2:\n        errors.append(rel+\": unbalanced fences\")\n    for target in re.findall(r\"\\]\\(([^)]+)\\)\",s):\n        if target.startswith((\"https://\",\"http://\",\"#\")): continue\n        links+=1\n        if not (p.parent/target.split(\"#\")[0]).resolve().exists():\n            errors.append(rel+\": missing \"+target)\nnew=files[-4:]\nfor rel in new:\n    s=(root/rel).read_text(encoding=\"utf-8\")\n    if re.search(r\"\\b(TODO|TBD|FIXME)\\b\",s): errors.append(rel+\": placeholder\")\nplan=(root/files[-1]).read_text(encoding=\"utf-8\")\nledger=(root/\"docs/DEFENSE_PROGRESS_ZH.md\").read_text(encoding=\"utf-8\")\ntasks=re.findall(r\"^### (T\\d{2}) \",plan,re.M)\nexpected=[f\"T{i:02d}\" for i in range(1,19)]\nif tasks!=expected: errors.append(\"task headings mismatch\")\nfor task in expected:\n    if len(re.findall(r\"^\\| \"+task+r\" \\|\",ledger,re.M))!=1: errors.append(task+\": ledger mismatch\")\n    if not re.search(r\"^\\| \"+task+r\" \\|.*NOT_STARTED\",ledger,re.M): errors.append(task+\": initial status mismatch\")\nif \"- [x]\" in plan.lower(): errors.append(\"unexpected completed implementation checkbox\")\nfor gate in [\"G0\",\"G1\",\"G2\",\"G3\",\"G4\"]:\n    if gate not in plan or gate not in ledger: errors.append(gate+\": missing\")\nresult={\"scope\":\"planning documents only\",\"files_checked\":len(files),\"local_links_checked\":links,\"tasks\":len(tasks),\n\"unchecked_steps\":len(re.findall(r\"^- \\[ \\]\",plan,re.M)),\"errors\":errors,\n\"business_tests_run\":False,\"experiments_started\":False}\nprint(json.dumps(result,ensure_ascii=False,indent=2))\nif errors: raise SystemExit(1)\n'@ | & 'D:\\ProgramData\\Anaconda3\\envs\\MIAGuard\\python.exe' -",
+  "result": {
+    "scope": "planning documents only",
+    "files_checked": 9,
+    "local_links_checked": 105,
+    "tasks": 18,
+    "unchecked_steps": 82,
+    "errors": [],
+    "business_tests_run": false,
+    "experiments_started": false
+  },
+  "business_tests_run": false,
+  "experiments_started": false,
+  "exit_code": 0
+}

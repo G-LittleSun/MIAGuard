@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Calvin Murphy sexual abuse trial. Was the testimony in the Calvin Murphy trial concluded before closing arguments? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "SPCA chapter closed over J. Williams case A New Jersey chapter of the Society for the Prevention of Cruelty to Animals was ordered to close because it did not prosecute Jayson Williams over accusations he shot and killed his dog.",
+      "Jury reaches verdict in Enron-Merrill trial A Houston jury has reached a verdict Wednesday in the conspiracy and fraud trial of six defendants connected to a sham deal to illicitly boost Enron Corp.",
+      "Former Suspect in Swedish PM Murder Mystery Dies (Reuters) Reuters - The only man ever brought to trial\\for the 1986 murder of Swedish Prime Minister Olof Palme died\\on Wednesday, leaving the case an enduring mystery after almost\\20 years.",
+      "House Blocks Court on Pledge Case Rulings WASHINGTON - The House passed legislation Thursday that would prevent the Supreme Court from ruling on whether the words \"under God\" should be stricken from the Pledge of Allegiance.    In a politically and emotionally charged debate, Democrats said majority Republicans in the chamber were debasing the Constitution in order to force a vote that could hurt Democrats in the election..."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"SPCA chapter closed over J. Williams case A New Jersey chapter of the Society for the Prevention of Cruelty to Animals was ordered to close because it did not prosecute Jayson Williams over accusations he shot and killed his dog.\"\n\"Jury reaches verdict in Enron-Merrill trial A Houston jury has reached a verdict Wednesday in the conspiracy and fraud trial of six defendants connected to a sham deal to illicitly boost Enron Corp.\"\n\"Former Suspect in Swedish PM Murder Mystery Dies (Reuters) Reuters - The only man ever brought to trial\\for the 1986 murder of Swedish Prime Minister Olof Palme died\\on Wednesday, leaving the case an enduring mystery after almost\\20 years.\"\n\"House Blocks Court on Pledge Case Rulings WASHINGTON - The House passed legislation Thursday that would prevent the Supreme Court from ruling on whether the words \"under God\" should be stricken from the Pledge of Allegiance.    In a politically and emotionally charged debate, Democrats said majority Republicans in the chamber were debasing the Constitution in order to force a vote that could hurt Democrats in the election...\"\n\nQuestion:\nI am inquiring about a Calvin Murphy sexual abuse trial. Was the testimony in the Calvin Murphy trial concluded before closing arguments? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

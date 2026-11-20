@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"New Treo 650 file system cuts storage capacity PalmOne plans......\" based on the Context.",
+    "contexts": [
+      "New Treo 650 file system cuts storage capacity PalmOne plans to offer a free 128MB expansion card to Treo 650 owners because a new file system used for the handheld actually offers less memory for data storage than was available on the older Treo 600.",
+      "Palm #39;s Tungsten Gains More Memory PalmOne Inc. is beefing up its new Tungsten T5 handheld with more memory in an attempt to make the device more appealing to business users who need access to data-intensive applications.",
+      "Christmas comes early with Treo 650 I have been anticipating this day like a child waits for Christmas. Today, PalmOne introduces the Treo 650, the answer to my  quot;what smart phone will I buy?",
+      "Hitachi Ups High-End Storage Ante The new HDS storage platform and software enables extensive virtualization, heterogeneous management and universal storage-agnostic replication, Hitachi said."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"New Treo 650 file system cuts storage capacity PalmOne plans to offer a free 128MB expansion card to Treo 650 owners because a new file system used for the handheld actually offers less memory for data storage than was available on the older Treo 600.\"\n\"Palm #39;s Tungsten Gains More Memory PalmOne Inc. is beefing up its new Tungsten T5 handheld with more memory in an attempt to make the device more appealing to business users who need access to data-intensive applications.\"\n\"Christmas comes early with Treo 650 I have been anticipating this day like a child waits for Christmas. Today, PalmOne introduces the Treo 650, the answer to my  quot;what smart phone will I buy?\"\n\"Hitachi Ups High-End Storage Ante The new HDS storage platform and software enables extensive virtualization, heterogeneous management and universal storage-agnostic replication, Hitachi said.\"\n\nQuestion:\nComplete this sentence \"New Treo 650 file system cuts storage capacity PalmOne plans......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

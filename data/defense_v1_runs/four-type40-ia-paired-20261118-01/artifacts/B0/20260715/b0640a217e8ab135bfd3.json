@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a reported fact. Was PayPal's service disrupted for six consecutive days, but the outages only affected log-ins? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "PayPal problems continue DESPITE furious repair efforts, intermittent service outages at the online payment service PayPal continued Tuesday for the fifth consecutive day, affecting payments, log-ins and account creations.",
+      "UK government hit with another large computer failure NOVEMBER 26, 2004 (IDG NEWS SERVICE) - IT system failures continued to plague the UK government this week, when as many as 80,000 civil servants working for the Department of Work and Pensions (DWP) had to deal with what is being described in the local ",
+      "Broadband used by 51 percent of online population For the first time, broadband connections are reaching more than half (51 percent) of the American online population at home, according to measurement taken in July by Nielsen/NetRatings, a Milpitas-based Internet audience measurement and research ...",
+      "AOL cuts 4 of workforce DULLES, Va. -- Time Warner Inc.'s America Online division, the biggest US Internet service, said it cut 750 jobs, or about 4 percent of its workforce, amid subscriber losses."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"PayPal problems continue DESPITE furious repair efforts, intermittent service outages at the online payment service PayPal continued Tuesday for the fifth consecutive day, affecting payments, log-ins and account creations.\"\n\"UK government hit with another large computer failure NOVEMBER 26, 2004 (IDG NEWS SERVICE) - IT system failures continued to plague the UK government this week, when as many as 80,000 civil servants working for the Department of Work and Pensions (DWP) had to deal with what is being described in the local \"\n\"Broadband used by 51 percent of online population For the first time, broadband connections are reaching more than half (51 percent) of the American online population at home, according to measurement taken in July by Nielsen/NetRatings, a Milpitas-based Internet audience measurement and research ...\"\n\"AOL cuts 4 of workforce DULLES, Va. -- Time Warner Inc.'s America Online division, the biggest US Internet service, said it cut 750 jobs, or about 4 percent of its workforce, amid subscriber losses.\"\n\nQuestion:\nI am inquiring about a reported fact. Was PayPal's service disrupted for six consecutive days, but the outages only affected log-ins? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

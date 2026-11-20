@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"C.I.A. Churning Continues as 2 Top Officials Resign The head of the C.I.A.'s clandestine service and his deputy resigned their posts after clashes with advisers to Porter J. Goss.\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "C.I.A. Churning Continues as 2 Top Officials Resign The head of the C.I.A.'s clandestine service and his deputy resigned their posts after clashes with advisers to Porter J. Goss.",
+      "California #39;s finance director resigns after 11 months A decision by the state #39;s tightfisted finance director to step down has fueled speculation inside the Capitol about a possible shift on spending issues by Gov.",
+      "Top Marsh exec resigns Jeffrey W. Greenberg yesterday resigned as chairman and chief executive of embattled Marsh  amp; McLennan Cos. and said that the firm will announce  quot;significant reforms quot; today, a move that avoids criminal prosecution of the insurance broker.",
+      "Japanese Cabinet Resigns Before Reshuffle (AP) AP - Japanese Prime Minister Junichiro Koizumi reshuffled his Cabinet on Monday, in hopes of solidifying his power and boosting his ability to carry out reforms."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"C.I.A. Churning Continues as 2 Top Officials Resign The head of the C.I.A.'s clandestine service and his deputy resigned their posts after clashes with advisers to Porter J. Goss.\"\n\"California #39;s finance director resigns after 11 months A decision by the state #39;s tightfisted finance director to step down has fueled speculation inside the Capitol about a possible shift on spending issues by Gov.\"\n\"Top Marsh exec resigns Jeffrey W. Greenberg yesterday resigned as chairman and chief executive of embattled Marsh  amp; McLennan Cos. and said that the firm will announce  quot;significant reforms quot; today, a move that avoids criminal prosecution of the insurance broker.\"\n\"Japanese Cabinet Resigns Before Reshuffle (AP) AP - Japanese Prime Minister Junichiro Koizumi reshuffled his Cabinet on Monday, in hopes of solidifying his power and boosting his ability to carry out reforms.\"\n\nQuestion:\nDoes this: \"C.I.A. Churning Continues as 2 Top Officials Resign The head of the C.I.A.'s clandestine service and his deputy resigned their posts after clashes with advisers to Porter J. Goss.\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

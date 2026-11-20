@@ -1,0 +1,9 @@
+{
+  "generation_input": {
+    "query": "Recover the word in target [Mask_1].",
+    "contexts": [],
+    "prompt": "Answer using only the supplied Context.\n\nContext:\n\n\nQuestion:\nRecover the word in target [Mask_1].\n",
+    "template_version": "fake_rag_answer_v1"
+  },
+  "judge_traces": null
+}

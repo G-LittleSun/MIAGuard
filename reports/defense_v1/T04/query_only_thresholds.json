@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "partition": "train",
+  "head": "logprob",
+  "selection_rule": "max four-attack document-balanced macro recall subject to train benign FPR cap; tie: higher threshold; trigger: score >= threshold",
+  "sample_counts": {
+    "benign_queries": 120,
+    "benign_documents": 60,
+    "attack_queries": {
+      "direct_rag_mia": 120,
+      "s2_mia": 120,
+      "masked_mia": 120,
+      "ia": 988
+    },
+    "documents": 60,
+    "excluded_rows": 2107
+  },
+  "candidates": [
+    {
+      "threshold": 0.00012339457598623175,
+      "name": "observed_score",
+      "benign_fpr": 1.0,
+      "attack_macro_recall": 1.0,
+      "attack_recall": {
+        "direct_rag_mia": 1.0,
+        "s2_mia": 1.0,
+        "masked_mia": 1.0,
+        "ia": 1.0
+      }
+    },
+    {
+      "threshold": 0.0009110511944006454,
+      "name": "observed_score",
+      "benign_fpr": 1.0,
+      "attack_macro_recall": 0.9654241071428571,
+      "attack_recall": {
+        "direct_rag_mia": 1.0,
+        "s2_mia": 1.0,
+        "masked_mia": 1.0,
+        "ia": 0.8616964285714285
+      }
+    },
+    {
+      "threshold": 0.0024726231566347743,
+      "name": "observed_score",
+      "benign_fpr": 1.0,
+      "attack_macro_recall": 0.9645502645502645,
+      "attack_recall": {
+        "direct_rag_mia": 1.0,
+        "s2_mia": 1.0,
+        "masked_mia": 1.0,
+        "ia": 0.8582010582010581
+      }
+    },
+    {
+      "threshold": 0.0031726828424851893,
+      "name": "observed_score",
+      "benign_fpr": 1.0,
+      "attack_macro_recall": 0.9643766534391534,
+      "attack_recall": {
+        "direct_rag_mia": 1.0,
+        "s2_mia": 1.0,
+        "masked_mia": 1.0,
+        "ia": 0.8575066137566136
+      }
+    },
+    {
+      "threshold": 0.006692850924284855,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.7770742394179894,
+      "attack_recall": {
+        "direct_rag_mia": 0.9083333333333333,
+        "s2_mia": 1.0,
+        "masked_mia": 1.0,
+        "ia": 0.19996362433862427
+      }
+    },
+    {
+      "threshold": 0.014063627043245475,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.774990906084656,
+      "attack_recall": {
+        "direct_rag_mia": 0.9,
+        "s2_mia": 1.0,
+        "masked_mia": 1.0,
+        "ia": 0.19996362433862427
+      }
+    },
+    {
+      "threshold": 0.18242552380635632,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.7729075727513227,
+      "attack_recall": {
+        "direct_rag_mia": 0.8916666666666667,
+        "s2_mia": 1.0,
+        "masked_mia": 1.0,
+        "ia": 0.19996362433862427
+      }
+    },
+    {
+      "threshold": 0.2689414213699951,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.7379538690476191,
+      "attack_recall": {
+        "direct_rag_mia": 0.8916666666666667,
+        "s2_mia": 1.0,
+        "masked_mia": 1.0,
+        "ia": 0.06014880952380953
+      }
+    },
+    {
+      "threshold": 0.32082130082460697,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.7273602843915343,
+      "attack_recall": {
+        "direct_rag_mia": 0.8916666666666667,
+        "s2_mia": 1.0,
+        "masked_mia": 1.0,
+        "ia": 0.017774470899470905
+      }
+    },
+    {
+      "threshold": 0.37754066879814546,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.7256944444444444,
+      "attack_recall": {
+        "direct_rag_mia": 0.8916666666666667,
+        "s2_mia": 1.0,
+        "masked_mia": 1.0,
+        "ia": 0.011111111111111112
+      }
+    },
+    {
+      "threshold": 0.679178699175393,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.7208333333333333,
+      "attack_recall": {
+        "direct_rag_mia": 0.8916666666666667,
+        "s2_mia": 1.0,
+        "masked_mia": 0.9916666666666667,
+        "ia": 0.0
+      }
+    },
+    {
+      "threshold": 0.7310585786300049,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.6895833333333333,
+      "attack_recall": {
+        "direct_rag_mia": 0.8833333333333333,
+        "s2_mia": 0.8833333333333333,
+        "masked_mia": 0.9916666666666667,
+        "ia": 0.0
+      }
+    },
+    {
+      "threshold": 0.7772998611746912,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.5479166666666666,
+      "attack_recall": {
+        "direct_rag_mia": 0.8833333333333333,
+        "s2_mia": 0.7,
+        "masked_mia": 0.6083333333333333,
+        "ia": 0.0
+      }
+    },
+    {
+      "threshold": 0.8175744761936437,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.44166666666666665,
+      "attack_recall": {
+        "direct_rag_mia": 0.8833333333333333,
+        "s2_mia": 0.6666666666666666,
+        "masked_mia": 0.21666666666666667,
+        "ia": 0.0
+      }
+    },
+    {
+      "threshold": 0.8519528019683106,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.20625,
+      "attack_recall": {
+        "direct_rag_mia": 0.4583333333333333,
+        "s2_mia": 0.15,
+        "masked_mia": 0.21666666666666667,
+        "ia": 0.0
+      }
+    },
+    {
+      "threshold": 0.8807970779778824,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.17708333333333334,
+      "attack_recall": {
+        "direct_rag_mia": 0.4166666666666667,
+        "s2_mia": 0.075,
+        "masked_mia": 0.21666666666666667,
+        "ia": 0.0
+      }
+    },
+    {
+      "threshold": 0.9046505351008906,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.08958333333333333,
+      "attack_recall": {
+        "direct_rag_mia": 0.06666666666666667,
+        "s2_mia": 0.075,
+        "masked_mia": 0.21666666666666667,
+        "ia": 0.0
+      }
+    },
+    {
+      "threshold": 0.9399133498259924,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.07916666666666666,
+      "attack_recall": {
+        "direct_rag_mia": 0.06666666666666667,
+        "s2_mia": 0.03333333333333333,
+        "masked_mia": 0.21666666666666667,
+        "ia": 0.0
+      }
+    },
+    {
+      "threshold": 0.9980732653366725,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.07083333333333333,
+      "attack_recall": {
+        "direct_rag_mia": 0.06666666666666667,
+        "s2_mia": 0.0,
+        "masked_mia": 0.21666666666666667,
+        "ia": 0.0
+      }
+    },
+    {
+      "threshold": 0.9990889488055994,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.06041666666666666,
+      "attack_recall": {
+        "direct_rag_mia": 0.06666666666666667,
+        "s2_mia": 0.0,
+        "masked_mia": 0.175,
+        "ia": 0.0
+      }
+    },
+    {
+      "threshold": 0.9992903296008995,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.01875,
+      "attack_recall": {
+        "direct_rag_mia": 0.06666666666666667,
+        "s2_mia": 0.0,
+        "masked_mia": 0.008333333333333333,
+        "ia": 0.0
+      }
+    },
+    {
+      "threshold": 0.9997388096809043,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.016666666666666666,
+      "attack_recall": {
+        "direct_rag_mia": 0.06666666666666667,
+        "s2_mia": 0.0,
+        "masked_mia": 0.0,
+        "ia": 0.0
+      }
+    },
+    {
+      "threshold": 0.9998415637808975,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.008333333333333333,
+      "attack_recall": {
+        "direct_rag_mia": 0.03333333333333333,
+        "s2_mia": 0.0,
+        "masked_mia": 0.0,
+        "ia": 0.0
+      }
+    },
+    {
+      "threshold": 0.9998415637808976,
+      "name": "no_trigger",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.0,
+      "attack_recall": {
+        "direct_rag_mia": 0.0,
+        "s2_mia": 0.0,
+        "masked_mia": 0.0,
+        "ia": 0.0
+      }
+    }
+  ],
+  "working_points": {
+    "0.01": {
+      "threshold": 0.006692850924284855,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.7770742394179894,
+      "attack_recall": {
+        "direct_rag_mia": 0.9083333333333333,
+        "s2_mia": 1.0,
+        "masked_mia": 1.0,
+        "ia": 0.19996362433862427
+      },
+      "fpr_cap": 0.01,
+      "benign_document_any_alarm": 0.0,
+      "benign_document_any_alarm_wilson_upper_95": 0.06017185214208986,
+      "document_bootstrap_95": {
+        "benign_fpr": [
+          0.0,
+          0.0
+        ],
+        "attack_macro_recall": [
+          0.7569744543650794,
+          0.7978011119378307
+        ],
+        "valid_replicates": 1000
+      },
+      "empirical_only": true
+    },
+    "0.05": {
+      "threshold": 0.006692850924284855,
+      "name": "observed_score",
+      "benign_fpr": 0.0,
+      "attack_macro_recall": 0.7770742394179894,
+      "attack_recall": {
+        "direct_rag_mia": 0.9083333333333333,
+        "s2_mia": 1.0,
+        "masked_mia": 1.0,
+        "ia": 0.19996362433862427
+      },
+      "fpr_cap": 0.05,
+      "benign_document_any_alarm": 0.0,
+      "benign_document_any_alarm_wilson_upper_95": 0.06017185214208986,
+      "document_bootstrap_95": {
+        "benign_fpr": [
+          0.0,
+          0.0
+        ],
+        "attack_macro_recall": [
+          0.7567521494708994,
+          0.7971331431878307
+        ],
+        "valid_replicates": 1000
+      },
+      "empirical_only": true
+    }
+  },
+  "bootstrap_seed": 20261022,
+  "bootstrap_replicates": 1000,
+  "source": {
+    "run_dir": "D:\\Project\\MIAGuard\\data\\progressive_judge_v3_binary_logprob_train_qwen2_5_7b_bf16_20260916_retry1\\train",
+    "scoring_identity_sha256": "56f9e13083dcdab067e204a4517a3a32d2420b77dbad3a241e810198b7744d4d",
+    "judge_records_sha256": "afb19dfce92bc584db11842bd9716fbae341f0b1d0e2287b21b9d344c55ba378",
+    "score_table_audit": {
+      "schema_version": 1,
+      "partition": "train",
+      "scoring_identity_sha256": "56f9e13083dcdab067e204a4517a3a32d2420b77dbad3a241e810198b7744d4d",
+      "source_record_count": 3575,
+      "long_form_row_count": 7150,
+      "unique_query_count": 3575,
+      "unique_document_count": 60,
+      "unique_session_count": 734,
+      "heads": [
+        "rubric",
+        "logprob"
+      ],
+      "traffic_counts": {
+        "attack": 3275,
+        "benign": 300
+      },
+      "attack_counts": {
+        "direct_rag_mia": 300,
+        "ia": 2375,
+        "masked_mia": 300,
+        "s2_mia": 300,
+        "benign": 300
+      },
+      "session_score_availability_by_turn": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 1.0,
+        "4": 1.0,
+        "5": 1.0
+      },
+      "default_session_scores_excluded": 2936,
+      "unavailable_raw_score_frequencies": {
+        "rubric": {
+          "0": 1468
+        },
+        "logprob": {
+          "0": 1468
+        }
+      },
+      "invalid_record_count": 0
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "status": "design_only_not_run",
+  "purpose": "paired exploratory question-level history ablation on reviewer-identified reference cases",
+  "source_revision_manifest_sha256": "041f32fe0bf7f10842feb93f3f366775df796d351344b362ca95fe544cbc9bcf",
+  "source_variants_sha256": "cdf11004a68b37cf1b601929253c3db061a27f42ff14bc6fcb0abc8cc7892f9f",
+  "selection": "All seven three-turn candidates identified by the external reviewer; deliberately selected, not representative.",
+  "cases": [
+    {
+      "source_variant_id": "s_0036417c86948330e11bae92_same_3",
+      "revision_variant_id": "s_0036417c86948330e11bae92_same_3_rev2_20261102",
+      "task_family": "exact_entity_number",
+      "fixed_source_doc_ids": [
+        "ag_news_teacher_00005971"
+      ],
+      "target_turn": 3,
+      "target_request_id": "r_459712a80c6c550454d4ea1f",
+      "target_query": "In what exact campaigns does it discuss those investors' influence?",
+      "proposed_controlled_history": [
+        {
+          "query": "Which pension fund is named, and which state is it associated with?",
+          "reference_answer_suggestion": "Calpers, California's public pension fund."
+        },
+        {
+          "query": "What other kinds of investor does the excerpt list alongside pension funds?",
+          "reference_answer_suggestion": "Endowments and other big activist investors."
+        }
+      ],
+      "offline_reference_answer_suggestion": "Corporate governance campaigns.",
+      "offline_gold_evidence_ids": [
+        "ag_news_teacher_00005971"
+      ],
+      "review_status": "pending",
+      "human_gold_eligible": false
+    },
+    {
+      "source_variant_id": "s_09006cbd05dd713ca18ac43b_same_3",
+      "revision_variant_id": "s_09006cbd05dd713ca18ac43b_same_3_rev2_20261102",
+      "task_family": "multi_turn_reading",
+      "fixed_source_doc_ids": [
+        "ag_news_teacher_00003194"
+      ],
+      "target_turn": 3,
+      "target_request_id": "r_7956f7d07a62fbc30e7f0314",
+      "target_query": "Roughly how long before IBM's announcement did it claim the title?",
+      "proposed_controlled_history": [
+        {
+          "query": "What did IBM announce about a computer it developed?",
+          "reference_answer_suggestion": "It said it had developed the world's fastest computer."
+        },
+        {
+          "query": "Whose machine had previously claimed that title?",
+          "reference_answer_suggestion": "A Japanese supercomputer."
+        }
+      ],
+      "offline_reference_answer_suggestion": "About two years earlier.",
+      "offline_gold_evidence_ids": [
+        "ag_news_teacher_00003194"
+      ],
+      "review_status": "pending",
+      "human_gold_eligible": false
+    },
+    {
+      "source_variant_id": "s_35f642a015443be4b6938941_same_3",
+      "revision_variant_id": "s_35f642a015443be4b6938941_same_3_rev2_20261102",
+      "task_family": "multi_turn_reading",
+      "fixed_source_doc_ids": [
+        "ag_news_teacher_00007841"
+      ],
+      "target_turn": 3,
+      "target_request_id": "r_60d505977c4f8a67a09db2c2",
+      "target_query": "Which computer platforms was it available for?",
+      "proposed_controlled_history": [
+        {
+          "query": "What did Lycos Europe release?",
+          "reference_answer_suggestion": "A free screensaver called \"Make Love Not Spam\"."
+        },
+        {
+          "query": "What was the screensaver intended to do to spam servers?",
+          "reference_answer_suggestion": "Deliberately clog them."
+        }
+      ],
+      "offline_reference_answer_suggestion": "Mac and PC.",
+      "offline_gold_evidence_ids": [
+        "ag_news_teacher_00007841"
+      ],
+      "review_status": "pending",
+      "human_gold_eligible": false
+    },
+    {
+      "source_variant_id": "expanded_citation_check_01_3",
+      "revision_variant_id": "expanded_citation_check_01_3_rev2_20261102",
+      "task_family": "citation_check",
+      "fixed_source_doc_ids": [
+        "ag_news_teacher_00001124"
+      ],
+      "target_turn": 3,
+      "target_request_id": "r_ebe062b74f733e6addd002aa",
+      "target_query": "On which day does the excerpt say it was signed?",
+      "proposed_controlled_history": [
+        {
+          "query": "Who signed the legislation? Cite the name.",
+          "reference_answer_suggestion": "President Bush."
+        },
+        {
+          "query": "Which department receives the funding? Cite its name.",
+          "reference_answer_suggestion": "The Department of Homeland Security."
+        }
+      ],
+      "offline_reference_answer_suggestion": "Monday.",
+      "offline_gold_evidence_ids": [
+        "ag_news_teacher_00001124"
+      ],
+      "review_status": "pending",
+      "human_gold_eligible": false
+    },
+    {
+      "source_variant_id": "expanded_multi_turn_reading_05_3",
+      "revision_variant_id": "expanded_multi_turn_reading_05_3_rev2_20261102",
+      "task_family": "multi_turn_reading",
+      "fixed_source_doc_ids": [
+        "ag_news_teacher_00001122"
+      ],
+      "target_turn": 3,
+      "target_request_id": "r_343925004d2651aa805f4e15",
+      "target_query": "Who made that statement, according to news reports?",
+      "proposed_controlled_history": [
+        {
+          "query": "What does the report say Chechen security forces did?",
+          "reference_answer_suggestion": "They killed 22 separatist rebels."
+        },
+        {
+          "query": "Who was allegedly among those killed?",
+          "reference_answer_suggestion": "The alleged leader of the assassination of the republic's president."
+        }
+      ],
+      "offline_reference_answer_suggestion": "Chechen deputy prime minister Ramzan Kadyrov.",
+      "offline_gold_evidence_ids": [
+        "ag_news_teacher_00001122"
+      ],
+      "review_status": "pending",
+      "human_gold_eligible": false
+    },
+    {
+      "source_variant_id": "expanded_multi_turn_reading_06_3",
+      "revision_variant_id": "expanded_multi_turn_reading_06_3_rev2_20261102",
+      "task_family": "multi_turn_reading",
+      "fixed_source_doc_ids": [
+        "ag_news_teacher_00001030"
+      ],
+      "target_turn": 3,
+      "target_request_id": "r_42ab8f56a1299ab93530b7fe",
+      "target_query": "How does the article assess those two coaches?",
+      "proposed_controlled_history": [
+        {
+          "query": "Which two coaches does the article discuss?",
+          "reference_answer_suggestion": "Pete Carroll and Bill Belichick."
+        },
+        {
+          "query": "Who hired them?",
+          "reference_answer_suggestion": "Patriots owner Bob Kraft."
+        }
+      ],
+      "offline_reference_answer_suggestion": "It calls them arguably the most successful football coaches in America right now.",
+      "offline_gold_evidence_ids": [
+        "ag_news_teacher_00001030"
+      ],
+      "review_status": "pending",
+      "human_gold_eligible": false
+    },
+    {
+      "source_variant_id": "expanded_single_fact_08_3",
+      "revision_variant_id": "expanded_single_fact_08_3_rev2_20261102",
+      "task_family": "single_fact",
+      "fixed_source_doc_ids": [
+        "ag_news_teacher_00001167"
+      ],
+      "target_turn": 3,
+      "target_request_id": "r_eafcf3e864e70d9c2020ab4d",
+      "target_query": "For which state was he insurance commissioner?",
+      "proposed_controlled_history": [
+        {
+          "query": "Which two companies won approval to merge?",
+          "reference_answer_suggestion": "Anthem and Wellpoint Health Networks."
+        },
+        {
+          "query": "Who gave the approval described in the excerpt?",
+          "reference_answer_suggestion": "John Garamen."
+        }
+      ],
+      "offline_reference_answer_suggestion": "California.",
+      "offline_gold_evidence_ids": [
+        "ag_news_teacher_00001167"
+      ],
+      "review_status": "pending",
+      "human_gold_eligible": false
+    }
+  ],
+  "conditions": {
+    "with_history": "Give the same fixed source material plus two previous questions and their source-supported draft answers, followed by the same third question.",
+    "without_history": "Give the same fixed source material and same third question, with no previous questions or answers."
+  },
+  "controls": [
+    "Same source text, source order, model, system instruction, decoding settings and output limit across each pair.",
+    "Prior answers are draft teacher-forced context, not actual previous service outputs; review their correctness and ensure they do not directly include the third answer before running.",
+    "Separate offline answer suggestions from model-facing input. Source IDs are experiment metadata, not attack labels.",
+    "Use new run and condition-specific session identity; do not reuse prior traces. Log model version, actual prompts, seed availability, failures and raw outputs.",
+    "Judge textual correctness and whether the referent is resolved using a predeclared rubric; calculate per-case paired changes and retain individual disagreements.",
+    "Optional order randomization and repeat settings must be fixed before examining results; do not treat correlated pairs as independent documents."
+  ],
+  "limitations": [
+    "Design is not a run and proves neither history necessity nor actual Session/fusion activation.",
+    "Only seven model-selected reference examples; ambiguity can sometimes be resolved from the supplied source without dialog history.",
+    "Teacher-forced context can steer answers and does not reproduce end-to-end generated histories, so its result cannot be claimed as deployed-system defense effect.",
+    "All answer suggestions remain pending human verification; no formal gold or final test release."
+  ]
+}

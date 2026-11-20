@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "status": "interim_pending_independent_content_review",
+  "final_length_selected": false,
+  "cohort_counts": {
+    "same_source": {
+      "session_groups": 14,
+      "two_turn_candidates": 14,
+      "three_turn_candidates": 12,
+      "excluded_three_turn": 2,
+      "turns": 64
+    },
+    "expanded_sources": {
+      "session_groups": 14,
+      "two_turn_candidates": 14,
+      "three_turn_candidates": 14,
+      "excluded_three_turn": 0,
+      "turns": 70
+    }
+  },
+  "baseline_five_turn_sessions": 14,
+  "unique_source_documents": 31,
+  "source_connected_session_groups": 27,
+  "unique_drafted_request_ids": 134,
+  "review_counts": {
+    "uncertain": 54,
+    "reject": 2
+  },
+  "five_turn_self_review_counts": {
+    "rewrite": 12,
+    "uncertain": 2
+  },
+  "candidate_only_observation": "Two of 14 original-source sessions did not yield a three-turn draft without repeating facts; draft availability is not a measured acceptance rate.",
+  "three_turn_session_judge": "Three-turn drafts exist, including four multi-turn-reading groups; actual Session/fusion scoring and quality remain untested.",
+  "risks": [
+    "All new variants are self-drafted and require independent session-level review.",
+    "The 27 source-connected groups only merge shared doc IDs; near-duplicate relationships have not been audited for this pilot.",
+    "Repeated evidence-insufficient questions may lack conversational progression.",
+    "One expanded cross-document pair shares an energy topic without a documented causal relationship.",
+    "Source truncation, inferred title boundaries and typo-sensitive answers need review.",
+    "Expanded source pairs differ from the same-source cohort and cannot estimate a length effect.",
+    "New problem/answer variants are review-only artifacts, not online request files or formal gold."
+  ],
+  "next": "Obtain independent review of the complete paired sessions and adjudicate issues; only then record a length/coverage decision and update the protocol before T10-D."
+}

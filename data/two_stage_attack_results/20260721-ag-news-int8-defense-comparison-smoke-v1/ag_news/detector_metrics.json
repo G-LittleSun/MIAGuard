@@ -1,0 +1,32 @@
+{
+  "accuracy": 0.5833333333333334,
+  "action_counts": {
+    "allow": 9,
+    "restrict_context": 2,
+    "summarize_context": 1
+  },
+  "action_counts_by_attack": {
+    "direct_rag_mia": {
+      "allow": 2
+    },
+    "ia": {
+      "allow": 1,
+      "summarize_context": 1
+    },
+    "masked_mia": {
+      "restrict_context": 2
+    },
+    "s2_mia": {
+      "allow": 2
+    }
+  },
+  "attack_query_count": 8,
+  "average_decision_latency_ms": 8771.897133342767,
+  "benign_allow_rate": 1.0,
+  "benign_false_positive_rate": 0.0,
+  "benign_query_count": 4,
+  "f1": 0.5454545454545454,
+  "precision": 1.0,
+  "recall": 0.375,
+  "sample_count": 12
+}

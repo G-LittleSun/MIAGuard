@@ -1,0 +1,21 @@
+{
+  "version_id": "query_cue_pilot_20261111_01",
+  "role": "engineering_only",
+  "source_manifests": {
+    "data/defense_datasets/locator_new_sources_20261111_01": "0d4ba9241b7be0d945d1defc606db43535e9b973c22c0d1d174b49c47736caef",
+    "data/defense_datasets/legacy_v2_fast_pilot_20261105_01": "8e27a20838f5b1d237e16afb887a995cf43bdf46eb2d92b3141b6e8eb9ec74f6"
+  },
+  "selection": "all six previous source-diagnostic attacks plus four prior source-supported normal questions; outcomes seen before candidate construction",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "limitations": [
+    "development comparisons only, not new independent samples",
+    "no natural-risk-trigger normal case or multi-turn",
+    "two member samples per attack type; no nonmember"
+  ],
+  "output_sha256": {
+    "experiment_spec.json": "030a66bf6ff3f6df9450e3c2a956e37e0dcaf06cd92219cd9bfeec54ce86fc1a",
+    "labels.jsonl": "a8d194fbdab384dc531c0d09476f7689bf5d4565126b76b4b10497c7ce4e9ca1",
+    "requests.jsonl": "8e5bba45d473f2e5b0572202cd1ce70abdb5642c1091adbe93ba81b56861d850"
+  }
+}

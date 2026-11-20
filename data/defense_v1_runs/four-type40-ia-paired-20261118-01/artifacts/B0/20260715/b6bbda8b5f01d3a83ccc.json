@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a PayPal service disruptions for five consecutive days. Were there any issues with account log-ins at PayPal on the fifth day of outages? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "PayPal problems continue DESPITE furious repair efforts, intermittent service outages at the online payment service PayPal continued Tuesday for the fifth consecutive day, affecting payments, log-ins and account creations.",
+      "UK government hit with another large computer failure NOVEMBER 26, 2004 (IDG NEWS SERVICE) - IT system failures continued to plague the UK government this week, when as many as 80,000 civil servants working for the Department of Work and Pensions (DWP) had to deal with what is being described in the local ",
+      "Storms Could Cause Delay in Shuttle Flights The battering that this month's hurricanes have inflicted on NASA centers could strain an already tight schedule for resuming shuttle flights, but it is too early to tell how badly.",
+      "News: UK police issue 'vicious' Trojan alert Britain's top cybercrime fighters have joined up with the banking industry today in warning of the latest attempt to defraud online banking customers.\\"
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"PayPal problems continue DESPITE furious repair efforts, intermittent service outages at the online payment service PayPal continued Tuesday for the fifth consecutive day, affecting payments, log-ins and account creations.\"\n\"UK government hit with another large computer failure NOVEMBER 26, 2004 (IDG NEWS SERVICE) - IT system failures continued to plague the UK government this week, when as many as 80,000 civil servants working for the Department of Work and Pensions (DWP) had to deal with what is being described in the local \"\n\"Storms Could Cause Delay in Shuttle Flights The battering that this month's hurricanes have inflicted on NASA centers could strain an already tight schedule for resuming shuttle flights, but it is too early to tell how badly.\"\n\"News: UK police issue 'vicious' Trojan alert Britain's top cybercrime fighters have joined up with the banking industry today in warning of the latest attempt to defraud online banking customers.\\\"\n\nQuestion:\nI am inquiring about a PayPal service disruptions for five consecutive days. Were there any issues with account log-ins at PayPal on the fifth day of outages? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

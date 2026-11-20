@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-multiturn-ia-session",
+  "run_id": "multiturn-ia-session-20261113-01",
+  "identity_sha256": "6dd28f4ed54d7d1a2b3cca6ba9d4d6d80369893317ffaf2783c6b58e5dcc7862",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 54,
+  "completed": 54,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 6,
+  "method_count": 3,
+  "attack_target_count": 4,
+  "benign_request_count": 18
+}

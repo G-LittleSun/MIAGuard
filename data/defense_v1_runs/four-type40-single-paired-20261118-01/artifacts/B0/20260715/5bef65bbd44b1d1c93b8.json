@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Sports: Dodgers 8 Rockies 7 LOS ANGELES Milton Bradley singled......\" based on the Context.",
+    "contexts": [
+      "Cards Use 'Small Ball' to Beat Dodgers (AP) AP - Mike Matheny, Edgar Renteria and the St. Louis Cardinals can win with singles, doubles and triples, too.",
+      "Players' Tempers Burn in the Land of Playoff Fever Baseball suspended Milton Bradley for the rest of the regular season Wednesday for throwing the kind of tantrum that is becoming commonplace in California.",
+      "MLB: San Diego 9, Los Angeles 7 Phil Nevin belted two homers and drove in four runs Tuesday to lead San Diego past the Los Angeles Dodgers 9-7. Shawn Green hit two home runs for the Dodgers, who lead the National ",
+      "George Johnson on Sports: NFL, Baseball, WNBA Description: George Johnson talks about the NFL, WNBA playoffs, baseball pennant races and other sports headlines. There #39;s the music which means it #39;s time to bounce."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Cards Use 'Small Ball' to Beat Dodgers (AP) AP - Mike Matheny, Edgar Renteria and the St. Louis Cardinals can win with singles, doubles and triples, too.\"\n\"Players' Tempers Burn in the Land of Playoff Fever Baseball suspended Milton Bradley for the rest of the regular season Wednesday for throwing the kind of tantrum that is becoming commonplace in California.\"\n\"MLB: San Diego 9, Los Angeles 7 Phil Nevin belted two homers and drove in four runs Tuesday to lead San Diego past the Los Angeles Dodgers 9-7. Shawn Green hit two home runs for the Dodgers, who lead the National \"\n\"George Johnson on Sports: NFL, Baseball, WNBA Description: George Johnson talks about the NFL, WNBA playoffs, baseball pennant races and other sports headlines. There #39;s the music which means it #39;s time to bounce.\"\n\nQuestion:\nComplete this sentence \"Sports: Dodgers 8 Rockies 7 LOS ANGELES Milton Bradley singled......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"Mars rovers working overtime Martian rovers Spirit and Opportunity are going strong 10 months after they began their geological study of the red planet, mission scientists said Thursday.\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is planning to add a strong dose of artificial intelligence (AI) to planetary rovers to make them much more self-reliant, capable of making basic decisions during a mission. Scientists are developing very complex AI software that enables a higher level of robotic intelligence.",
+      "NASA head steps down Since June 2003, NASA has been investigating the possibility of using a robotic spacecraft to service Hubble. Such a mission would not put the lives of astronauts in jeopardy.",
+      "Astronomers chart asteroid threat \\A team of astronomers steps up a project which one day could preserve the Earth from annihilation.",
+      "No progress in Sun-Times labor talks Negotiations to avoid a strike by union journalists at the Chicago Sun-Times are heading into overtime. With the tabloids labor agreement set to expire tomorrow, labor and management appear no closer to a deal than they were Sept."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is planning to add a strong dose of artificial intelligence (AI) to planetary rovers to make them much more self-reliant, capable of making basic decisions during a mission. Scientists are developing very complex AI software that enables a higher level of robotic intelligence.\"\n\"NASA head steps down Since June 2003, NASA has been investigating the possibility of using a robotic spacecraft to service Hubble. Such a mission would not put the lives of astronauts in jeopardy.\"\n\"Astronomers chart asteroid threat \\A team of astronomers steps up a project which one day could preserve the Earth from annihilation.\"\n\"No progress in Sun-Times labor talks Negotiations to avoid a strike by union journalists at the Chicago Sun-Times are heading into overtime. With the tabloids labor agreement set to expire tomorrow, labor and management appear no closer to a deal than they were Sept.\"\n\nQuestion:\nDoes this: \"Mars rovers working overtime Martian rovers Spirit and Opportunity are going strong 10 months after they began their geological study of the red planet, mission scientists said Thursday.\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

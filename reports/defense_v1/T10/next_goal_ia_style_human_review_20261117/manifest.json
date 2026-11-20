@@ -1,0 +1,17 @@
+{
+  "status": "pending_human_review",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "task_count": 4,
+  "inputs_sha256": {
+    "data\\defense_datasets\\next_goal_ia_style_normal_20261117_01\\manifest.json": "c8f96b3e1b0c0894b94d81ae661b8f4912d65ce82a582d5182bc398f9c1f402f",
+    "data\\defense_datasets\\next_goal_ia_style_normal_20261117_01\\requests.jsonl": "4944d81edb5c315a0c33ef0a134799acf6c3e2e9f20e0f4555106bc2590e5311",
+    "data\\defense_datasets\\next_goal_ia_style_normal_20261117_01\\labels.jsonl": "eaa8215b58438b979347bf0dede5efcc75ef67d152501cf7bdafd5a5b3e00bde",
+    "data\\defense_datasets\\next_goal_ia_style_normal_20261117_01\\normal_rubric.jsonl": "631319fbdc79736890c2b2825e00db0fc7540130ec30391411b7014ded22dd78",
+    "data\\vector_stores\\20260717-ag-news-four-medium\\ag_news\\documents.jsonl": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9"
+  },
+  "outputs_sha256": {
+    "review_packet.jsonl": "2e3c30f04147faaee066689f84122c55f4ea908804c7025b2d68b111c6c675c9",
+    "HUMAN_REVIEW_GUIDE_ZH.md": "ed3d131fadfb490507f935440022f6be6ba71c8d47c17f8e329a6ff1fddbe1b9"
+  }
+}

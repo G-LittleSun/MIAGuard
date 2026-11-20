@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008622",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q109",
+      "session_id": "ia_ag_news_teacher_00008622",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not mention any information about Macromedia's Captivate or its previous name being RoboDemo. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000268",
+        "ag_news_teacher_00000947",
+        "ag_news_teacher_00000114",
+        "ag_news_teacher_00000609"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000268",
+        "ag_news_teacher_00000947",
+        "ag_news_teacher_00000114",
+        "ag_news_teacher_00000609"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000268",
+            "ag_news_teacher_00000947",
+            "ag_news_teacher_00000114",
+            "ag_news_teacher_00000609"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000268",
+            "ag_news_teacher_00000947",
+            "ag_news_teacher_00000114",
+            "ag_news_teacher_00000609"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1206.2153993174434,
+      "ledger_event": {
+        "request_id": "q109",
+        "session_id": "ia_ag_news_teacher_00008622",
+        "input_sha256": "42a0ffc521c4d2ed43dfabe69b25bf1f940861309834969d64f9e9c56d00b8cd",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000268",
+          "ag_news_teacher_00000947",
+          "ag_news_teacher_00000114",
+          "ag_news_teacher_00000609"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000268",
+            "parent_doc_id": "ag_news_teacher_00000268",
+            "kind": "raw",
+            "score": 0.446299284696579,
+            "text_sha256": "a5c67d4cfecc12e178285bf856e54dc29f4cb2200d34bec7cd72a6b83ae105f1"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000947",
+            "parent_doc_id": "ag_news_teacher_00000947",
+            "kind": "raw",
+            "score": 0.3425401449203491,
+            "text_sha256": "60ccbaabcb44f1d948d1f1fd3e20d0b891a8dd8d5c8a988a630a6d827545e01d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000114",
+            "parent_doc_id": "ag_news_teacher_00000114",
+            "kind": "raw",
+            "score": 0.34043872356414795,
+            "text_sha256": "e5825e8d6e0f5bf1dd402685ea17eac3e09dcc76369ddbf4704564539453be4d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000609",
+            "parent_doc_id": "ag_news_teacher_00000609",
+            "kind": "raw",
+            "score": 0.3106901943683624,
+            "text_sha256": "5b84b3912ee8ee53f5276671b54f012a0d84cbbfa960aef273371cba4eb66e8c"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not mention any information about Macromedia's Captivate or its previous name being RoboDemo. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006878.052324,
+        "finished_at": 1795006879.2583227
+      },
+      "generation_input_ref": "artifacts/B0/20260715/336a131a575379bee051.json",
+      "artifact_sha256": "29983002ea6894706de2aa4ccf85c6ef8acfd9424ff12d89086c730ce00619b9"
+    },
+    {
+      "request_id": "q110",
+      "session_id": "ia_ag_news_teacher_00008622",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe provided context does not mention Macromedia Captivate or its features. Therefore, there is insufficient evidence to determine if Captivate can be used for building interactive simulations.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000268",
+        "ag_news_teacher_00000053",
+        "ag_news_teacher_00000455",
+        "ag_news_teacher_00000609"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000268",
+        "ag_news_teacher_00000053",
+        "ag_news_teacher_00000455",
+        "ag_news_teacher_00000609"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000268",
+            "ag_news_teacher_00000053",
+            "ag_news_teacher_00000455",
+            "ag_news_teacher_00000609"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000268",
+            "ag_news_teacher_00000053",
+            "ag_news_teacher_00000455",
+            "ag_news_teacher_00000609"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1202.5851998478174,
+      "ledger_event": {
+        "request_id": "q110",
+        "session_id": "ia_ag_news_teacher_00008622",
+        "input_sha256": "52f0a750074ffa18ea34cd01f32b18df8fd06dab2a774d9ceaaed61ff08a5d89",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000268",
+          "ag_news_teacher_00000053",
+          "ag_news_teacher_00000455",
+          "ag_news_teacher_00000609"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000268",
+            "parent_doc_id": "ag_news_teacher_00000268",
+            "kind": "raw",
+            "score": 0.3292863368988037,
+            "text_sha256": "a5c67d4cfecc12e178285bf856e54dc29f4cb2200d34bec7cd72a6b83ae105f1"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000053",
+            "parent_doc_id": "ag_news_teacher_00000053",
+            "kind": "raw",
+            "score": 0.31317752599716187,
+            "text_sha256": "b7a35e8d9126f7f04cdd22e90207d4c0b9e1242128478983e1c75e5e05538a29"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000455",
+            "parent_doc_id": "ag_news_teacher_00000455",
+            "kind": "raw",
+            "score": 0.21272562444210052,
+            "text_sha256": "8640a61396f8e48a60316c024b16b9d0848ea31389c3506989e98cec0b80c804"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000609",
+            "parent_doc_id": "ag_news_teacher_00000609",
+            "kind": "raw",
+            "score": 0.20258037745952606,
+            "text_sha256": "5b84b3912ee8ee53f5276671b54f012a0d84cbbfa960aef273371cba4eb66e8c"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe provided context does not mention Macromedia Captivate or its features. Therefore, there is insufficient evidence to determine if Captivate can be used for building interactive simulations.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006879.2633224,
+        "finished_at": 1795006880.4658227
+      },
+      "generation_input_ref": "artifacts/B0/20260715/3d73f8df97b839e1ad37.json",
+      "artifact_sha256": "9498c2c88e15dcebdc48db2580178512c43cf7502d859408348ae639b5eaf4bc"
+    },
+    {
+      "request_id": "q111",
+      "session_id": "ia_ag_news_teacher_00008622",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context mentions a \"Contribute Web publishing desktop application\" by Macromedia but does not provide any information about a product called \"Captivate.\" Therefore, there is insufficient evidence to determine whether Captivate can be used to record on-screen activity or build demos and simulations.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000053",
+        "ag_news_teacher_00000268",
+        "ag_news_teacher_00000787",
+        "ag_news_teacher_00000609"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000053",
+        "ag_news_teacher_00000268",
+        "ag_news_teacher_00000787",
+        "ag_news_teacher_00000609"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000053",
+            "ag_news_teacher_00000268",
+            "ag_news_teacher_00000787",
+            "ag_news_teacher_00000609"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000053",
+            "ag_news_teacher_00000268",
+            "ag_news_teacher_00000787",
+            "ag_news_teacher_00000609"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1877.0087007433176,
+      "ledger_event": {
+        "request_id": "q111",
+        "session_id": "ia_ag_news_teacher_00008622",
+        "input_sha256": "de0e0e9178596b6a69bccdb08ee529dd33e13ed24f0b65207a8342580e3f2ec1",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000053",
+          "ag_news_teacher_00000268",
+          "ag_news_teacher_00000787",
+          "ag_news_teacher_00000609"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000053",
+            "parent_doc_id": "ag_news_teacher_00000053",
+            "kind": "raw",
+            "score": 0.2790147364139557,
+            "text_sha256": "b7a35e8d9126f7f04cdd22e90207d4c0b9e1242128478983e1c75e5e05538a29"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000268",
+            "parent_doc_id": "ag_news_teacher_00000268",
+            "kind": "raw",
+            "score": 0.2658444941043854,
+            "text_sha256": "a5c67d4cfecc12e178285bf856e54dc29f4cb2200d34bec7cd72a6b83ae105f1"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000787",
+            "parent_doc_id": "ag_news_teacher_00000787",
+            "kind": "raw",
+            "score": 0.21292822062969208,
+            "text_sha256": "00e954fc94328b955a958101e4940b2de653985e4da3829a1fe3339adbff0d45"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000609",
+            "parent_doc_id": "ag_news_teacher_00000609",
+            "kind": "raw",
+            "score": 0.21110320091247559,
+            "text_sha256": "5b84b3912ee8ee53f5276671b54f012a0d84cbbfa960aef273371cba4eb66e8c"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context mentions a \"Contribute Web publishing desktop application\" by Macromedia but does not provide any information about a product called \"Captivate.\" Therefore, there is insufficient evidence to determine whether Captivate can be used to record on-screen activity or build demos and simulations.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006880.4708226,
+        "finished_at": 1795006882.3478227
+      },
+      "generation_input_ref": "artifacts/B0/20260715/87ed14fe998b487a82ff.json",
+      "artifact_sha256": "f5611cbdf5892913cca4ad69eaf7d515196d3f0053dbd7f1b632b0aa267af2f8"
+    }
+  ]
+}

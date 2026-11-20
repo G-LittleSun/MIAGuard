@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/miaguard/defense_event.schema.json",
+  "title": "MIAGuard unified defense query event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "source_record_id",
+    "source_framework",
+    "run_id",
+    "dataset_id",
+    "session_id",
+    "turn_id",
+    "created_at",
+    "query",
+    "attack_type",
+    "intent_label",
+    "membership_label",
+    "target_doc_id",
+    "retrieved_doc_ids",
+    "retrieval_scores",
+    "attack_metadata"
+  ],
+  "properties": {
+    "event_id": {"type": "string", "minLength": 1},
+    "source_record_id": {"type": "string", "minLength": 1},
+    "source_framework": {"type": "string", "minLength": 1},
+    "run_id": {"type": "string", "minLength": 1},
+    "dataset_id": {"type": "string", "minLength": 1},
+    "session_id": {"type": "string", "minLength": 1},
+    "turn_id": {"type": "integer", "minimum": 1},
+    "created_at": {"type": "string", "minLength": 1},
+    "query": {"type": "string", "minLength": 1},
+    "attack_type": {
+      "type": "string",
+      "enum": ["direct_rag_mia", "s2_mia", "masked_mia", "ia", "benign"]
+    },
+    "intent_label": {"type": "integer", "enum": [0, 1]},
+    "membership_label": {"enum": [null, 0, 1]},
+    "target_doc_id": {"type": ["string", "null"]},
+    "retrieved_doc_ids": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "retrieval_scores": {
+      "type": "array",
+      "items": {"type": "number"}
+    },
+    "attack_metadata": {"type": "object"}
+  }
+}

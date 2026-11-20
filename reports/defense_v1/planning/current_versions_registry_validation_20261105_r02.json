@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "errors": [],
+  "registry_revision": "2026-11-05-r02",
+  "snapshot_sha256": "6df190f6c7d0f4e28983813fbc6d3c8b6167300e8372f3cb7a98554858ae1c0b",
+  "registered_artifacts_checked": 69,
+  "code_files_checked": 186,
+  "documents_checked": 12,
+  "local_links_checked": 556,
+  "missing_local_links": [],
+  "document_sha256": {
+    "docs/CURRENT_VERSIONS_ZH.md": "b189fdf9dd9c00b5b4561ef6be006c35de7e0e27c3ede3e1e4828eb9f6a87a5d",
+    "docs/PROJECT_STATUS_ZH.md": "f94da1344af40d722e6a7454fbfe45b0cdf2d1bc30a2745017e0950c5f71ac61",
+    "docs/DATA_CATALOG_ZH.md": "bca02095ec0555c15759ad5453187a448031f9cc7db16ac765b3830ba75f0238",
+    "docs/EXPERIMENT_INDEX_ZH.md": "ad9848ef9fc1efcb87c88f7544d78266e1746e02f97a0adce89e83d306abcf8e",
+    "docs/DEFENSE_PROGRESS_ZH.md": "e52a83c674eb648749b3c6ca406389cfc1a2605fbbca472c7d16ba92d1cc2c6c",
+    "docs/README.md": "e2f1c77da75b740d7d97d80a93e6646e290673479fb7073dd11eb714250086ab",
+    "docs/DEFENSE_DATA_REUSE_ZH.md": "fbbf38dabc930c1445ca63cbc46ae5499d9bb16d6f4345c2a7f1eecb2784696c",
+    "docs/superpowers/specs/2026-10-22-defense-framework-design.md": "55e548a28258901321438afdfb89e10ccd4870db75dc524d9ad5452a89e0098a",
+    "docs/superpowers/plans/2026-10-22-defense-framework-implementation.md": "387d81a87c209924489be5aefa943e09150ca184e9f9873fb2176dfba769532a",
+    "docs/DEFENSE_EXPERIMENT_PROTOCOL_ZH.md": "3feb8ebc3aef5e93f400329cc632a0d1339429b5dce5f795601b19e28545db34",
+    "README.md": "b3899e37020a61a87c34b4bfe5e52aa238fcc2ecfd7e654c4acf855ade1b7f8a",
+    "AGENTS.md": "d6d63b424d1572539476aa62693427958067d59d5a23f5aec08b3cf6f346bbf9"
+  },
+  "next_task": "T10-D",
+  "reuse_audit_status": "structural_complete_semantic_pending",
+  "targeted_review_status": "review_pending",
+  "limits": [
+    "Identity/count/document checks only; no semantic gold, execution adapter approval or defense effect experiment."
+  ]
+}

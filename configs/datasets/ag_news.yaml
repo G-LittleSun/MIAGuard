@@ -1,0 +1,12 @@
+dataset_id: ag_news
+adapter: teacher_json_array
+descriptor: DataSet/AgNews/dataset.json
+normalized_documents_dir: data/processed/ag_news/documents
+source_files:
+  processed_corpus: Datasets/AgNews/ag_news_processed.json
+  target_member: SamplesDatabase/AgNews/TargetModel/samples_member.json
+  target_nonmember: SamplesDatabase/AgNews/TargetModel/samples_nonmember.json
+destination_files:
+  processed_corpus: DataSet/AgNews/teacher_snapshot/processed/ag_news_processed.json
+  target_member: DataSet/AgNews/teacher_snapshot/splits/target_member.json
+  target_nonmember: DataSet/AgNews/teacher_snapshot/splits/target_nonmember.json

@@ -1,0 +1,12 @@
+{
+  "generation_input": {
+    "query": "What event led to the resignations of the head of the C.I.A.'s clandestine service and his deputy?",
+    "contexts": [
+      "C.I.A. Churning Continues as 2 Top Officials Resign The head of the C.I.A.'s clandestine service and his deputy resigned their posts after clashes with advisers to Porter J. Goss."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"C.I.A. Churning Continues as 2 Top Officials Resign The head of the C.I.A.'s clandestine service and his deputy resigned their posts after clashes with advisers to Porter J. Goss.\"\n\nQuestion:\nWhat event led to the resignations of the head of the C.I.A.'s clandestine service and his deputy?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

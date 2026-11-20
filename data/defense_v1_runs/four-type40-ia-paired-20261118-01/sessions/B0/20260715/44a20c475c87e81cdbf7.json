@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008927",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q103",
+      "session_id": "ia_ag_news_teacher_00008927",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not mention any specific conditions set by Iran regarding the continuation of its nuclear suspension based on the progress of negotiations. The context only mentions Iran's denouncement of U.N. demands and its intention to limit cooperation, as well as attempts to resume talks with North Korea and efforts to push for the resumption of six-party talks.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000644",
+        "ag_news_teacher_00000374",
+        "ag_news_teacher_00000681",
+        "ag_news_teacher_00000765"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000644",
+        "ag_news_teacher_00000374",
+        "ag_news_teacher_00000681",
+        "ag_news_teacher_00000765"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000644",
+            "ag_news_teacher_00000374",
+            "ag_news_teacher_00000681",
+            "ag_news_teacher_00000765"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000644",
+            "ag_news_teacher_00000374",
+            "ag_news_teacher_00000681",
+            "ag_news_teacher_00000765"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 2252.509099431336,
+      "ledger_event": {
+        "request_id": "q103",
+        "session_id": "ia_ag_news_teacher_00008927",
+        "input_sha256": "09b814efccfd31f734dd595f76dff7905822d7d2fdd2af17808e1b149b8df789",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000644",
+          "ag_news_teacher_00000374",
+          "ag_news_teacher_00000681",
+          "ag_news_teacher_00000765"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000644",
+            "parent_doc_id": "ag_news_teacher_00000644",
+            "kind": "raw",
+            "score": 0.4058009386062622,
+            "text_sha256": "711febeb38f5c6ad625062af93a2acb0e5db86a7997b1e816149f9eae960e2a0"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000374",
+            "parent_doc_id": "ag_news_teacher_00000374",
+            "kind": "raw",
+            "score": 0.4046217203140259,
+            "text_sha256": "c4f4abc2574b7ec1654cf3aff30b520fc677088accf1d48f42cb09dd5ad0131b"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000681",
+            "parent_doc_id": "ag_news_teacher_00000681",
+            "kind": "raw",
+            "score": 0.3799183964729309,
+            "text_sha256": "94899b81f2a045d2178ae460f707f2d6c117d4464ad41ab8a0827e57a0556fd7"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000765",
+            "parent_doc_id": "ag_news_teacher_00000765",
+            "kind": "raw",
+            "score": 0.3783982992172241,
+            "text_sha256": "4296ac4d1644611209c6d09b86fc14aaf27cea067970d83a2209d5b4ff43a6fa"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not mention any specific conditions set by Iran regarding the continuation of its nuclear suspension based on the progress of negotiations. The context only mentions Iran's denouncement of U.N. demands and its intention to limit cooperation, as well as attempts to resume talks with North Korea and efforts to push for the resumption of six-party talks.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006868.1973243,
+        "finished_at": 1795006870.4498227
+      },
+      "generation_input_ref": "artifacts/B0/20260715/3d3347e2fe0f0ac5ab70.json",
+      "artifact_sha256": "dd8b56a0ceb5c38c4d9424dc3c035bc7f53cc507dd22469ef07c1ff1072b5656"
+    },
+    {
+      "request_id": "q104",
+      "session_id": "ia_ag_news_teacher_00008927",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe provided context does not mention any specific scheduling details for new negotiations regarding Iran's nuclear program. It only mentions that Iran wants to revise a deal to suspend its nuclear weapons program and that there is a ban on the uranium program that Iran denounces as illegal. There is no information about conditional suspensions or specific timing for new negotiations.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000681",
+        "ag_news_teacher_00000374",
+        "ag_news_teacher_00000765",
+        "ag_news_teacher_00000644"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000681",
+        "ag_news_teacher_00000374",
+        "ag_news_teacher_00000765",
+        "ag_news_teacher_00000644"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000681",
+            "ag_news_teacher_00000374",
+            "ag_news_teacher_00000765",
+            "ag_news_teacher_00000644"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000681",
+            "ag_news_teacher_00000374",
+            "ag_news_teacher_00000765",
+            "ag_news_teacher_00000644"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 2188.8097999617457,
+      "ledger_event": {
+        "request_id": "q104",
+        "session_id": "ia_ag_news_teacher_00008927",
+        "input_sha256": "e17668e7832b3828dbaa7b6b6ca7f662e025ddb37d33a213312ebffa76929cde",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000681",
+          "ag_news_teacher_00000374",
+          "ag_news_teacher_00000765",
+          "ag_news_teacher_00000644"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000681",
+            "parent_doc_id": "ag_news_teacher_00000681",
+            "kind": "raw",
+            "score": 0.4812052249908447,
+            "text_sha256": "94899b81f2a045d2178ae460f707f2d6c117d4464ad41ab8a0827e57a0556fd7"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000374",
+            "parent_doc_id": "ag_news_teacher_00000374",
+            "kind": "raw",
+            "score": 0.4383560121059418,
+            "text_sha256": "c4f4abc2574b7ec1654cf3aff30b520fc677088accf1d48f42cb09dd5ad0131b"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000765",
+            "parent_doc_id": "ag_news_teacher_00000765",
+            "kind": "raw",
+            "score": 0.4286646842956543,
+            "text_sha256": "4296ac4d1644611209c6d09b86fc14aaf27cea067970d83a2209d5b4ff43a6fa"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000644",
+            "parent_doc_id": "ag_news_teacher_00000644",
+            "kind": "raw",
+            "score": 0.4074004590511322,
+            "text_sha256": "711febeb38f5c6ad625062af93a2acb0e5db86a7997b1e816149f9eae960e2a0"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe provided context does not mention any specific scheduling details for new negotiations regarding Iran's nuclear program. It only mentions that Iran wants to revise a deal to suspend its nuclear weapons program and that there is a ban on the uranium program that Iran denounces as illegal. There is no information about conditional suspensions or specific timing for new negotiations.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006870.4553227,
+        "finished_at": 1795006872.6438231
+      },
+      "generation_input_ref": "artifacts/B0/20260715/13de758f03cec84c36d0.json",
+      "artifact_sha256": "3ba21c72c2f9d1f3691f829f53a9db8d4887061e43570554a0266fc4eb191e97"
+    },
+    {
+      "request_id": "q105",
+      "session_id": "ia_ag_news_teacher_00008927",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe context provided does not give a clear statement about whether Iran's agreement involves the suspension of sensitive nuclear activities. It mentions that there is a deal part-brokered by Britain to which Iran wants to revise, but it does not specify the details of this deal or the nature of the activities that might be suspended. Therefore, based on the given information, the answer is unknown.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000644",
+        "ag_news_teacher_00000374",
+        "ag_news_teacher_00000654",
+        "ag_news_teacher_00000922"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000644",
+        "ag_news_teacher_00000374",
+        "ag_news_teacher_00000654",
+        "ag_news_teacher_00000922"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000644",
+            "ag_news_teacher_00000374",
+            "ag_news_teacher_00000654",
+            "ag_news_teacher_00000922"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000644",
+            "ag_news_teacher_00000374",
+            "ag_news_teacher_00000654",
+            "ag_news_teacher_00000922"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 2457.7179001644254,
+      "ledger_event": {
+        "request_id": "q105",
+        "session_id": "ia_ag_news_teacher_00008927",
+        "input_sha256": "b4b98e61bfabd78fc5a40d8c809ead139ea243e02d3e0c866115d6f08254496f",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000644",
+          "ag_news_teacher_00000374",
+          "ag_news_teacher_00000654",
+          "ag_news_teacher_00000922"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000644",
+            "parent_doc_id": "ag_news_teacher_00000644",
+            "kind": "raw",
+            "score": 0.5442078113555908,
+            "text_sha256": "711febeb38f5c6ad625062af93a2acb0e5db86a7997b1e816149f9eae960e2a0"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000374",
+            "parent_doc_id": "ag_news_teacher_00000374",
+            "kind": "raw",
+            "score": 0.4641028642654419,
+            "text_sha256": "c4f4abc2574b7ec1654cf3aff30b520fc677088accf1d48f42cb09dd5ad0131b"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000654",
+            "parent_doc_id": "ag_news_teacher_00000654",
+            "kind": "raw",
+            "score": 0.37359851598739624,
+            "text_sha256": "8767d03a2371e0b38e37589f2c6967e68a74bd152518314c9bcdfc03f2d442af"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000922",
+            "parent_doc_id": "ag_news_teacher_00000922",
+            "kind": "raw",
+            "score": 0.36755144596099854,
+            "text_sha256": "443acddc2e537bb85df2df80beea233c9ca3868929cde02ce9ac8d373215835b"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe context provided does not give a clear statement about whether Iran's agreement involves the suspension of sensitive nuclear activities. It mentions that there is a deal part-brokered by Britain to which Iran wants to revise, but it does not specify the details of this deal or the nature of the activities that might be suspended. Therefore, based on the given information, the answer is unknown.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006872.649823,
+        "finished_at": 1795006875.1073241
+      },
+      "generation_input_ref": "artifacts/B0/20260715/b36558245555c246d03c.json",
+      "artifact_sha256": "5f4b6fdcf626063f6bb1c1f26a32adcf18c6be8507f98512dcd5012c8e6dfc5c"
+    }
+  ]
+}

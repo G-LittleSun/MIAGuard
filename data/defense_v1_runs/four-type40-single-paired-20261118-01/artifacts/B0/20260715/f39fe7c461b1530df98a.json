@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Next Space Station Launch Set for Oct 11 The blast-off......\" based on the Context.",
+    "contexts": [
+      "Next Space Station Launch Set for Oct 11 The blast-off in a Soyuz spacecraft from Russia #39;s Baikonur cosmodrome in Kazakhstan will deploy a replacement crew for Russian cosmonaut Gennady Padalka and NASA astronaut Michael Fincke, who have manned the orbital platform since April.",
+      "Crew prepares for launch to International Space Station A two-man crew launches to the International Space Station tonight, tasked with keeping the outpost running and ready for space shuttles that will arrive after the men leave.",
+      "Private craft launches a new era SpaceShipOne, the world #39;s first privately built manned spacecraft, blasted into space for the second time in less than a week on Monday to claim the \\$10 million Ansari X Prize.",
+      "Company Offers 'Space Memorial Services' (AP) AP - People interested in an out-of-this-world post-death experience can \"boldly go where no man has gone before\" with a space memorial service that blasts their ashes into space."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Next Space Station Launch Set for Oct 11 The blast-off in a Soyuz spacecraft from Russia #39;s Baikonur cosmodrome in Kazakhstan will deploy a replacement crew for Russian cosmonaut Gennady Padalka and NASA astronaut Michael Fincke, who have manned the orbital platform since April.\"\n\"Crew prepares for launch to International Space Station A two-man crew launches to the International Space Station tonight, tasked with keeping the outpost running and ready for space shuttles that will arrive after the men leave.\"\n\"Private craft launches a new era SpaceShipOne, the world #39;s first privately built manned spacecraft, blasted into space for the second time in less than a week on Monday to claim the \\$10 million Ansari X Prize.\"\n\"Company Offers 'Space Memorial Services' (AP) AP - People interested in an out-of-this-world post-death experience can \"boldly go where no man has gone before\" with a space memorial service that blasts their ashes into space.\"\n\nQuestion:\nComplete this sentence \"Next Space Station Launch Set for Oct 11 The blast-off......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

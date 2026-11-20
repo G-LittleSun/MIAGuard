@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "development_source_history_partial",
+  "records": 35,
+  "source_roles": {
+    "shared_background": 16,
+    "d_dev_target": 19
+  },
+  "source_usage_sha256": "ad32510f98495032db617f6b49a6d0f0e08ed2a830fe711d6bf81f4130872ca7",
+  "d_dev_index_documents_sha256": "bfa05b9414ad3ca26b3fff9cbfa759790fd88fe97404ac9335950dffe2dbfaae",
+  "input_files_sha256": {
+    "reports/defense_v1/T10/review_packet_d_dev_normal_evidence.jsonl": "ef5948da23e80f742a442397bbe25f88bf40651d361fe4f39f830ea79184511d",
+    "reports/defense_v1/T10/pilot_revision_20261030_01/review_packet_d_dev_normal_evidence.jsonl": "2446d46b15106d10c64f3854a51e8c19469871a80c56100e631d1f4c0a4d3cdf",
+    "reports/defense_v1/T10/session_length_pilot_20261031_01/source_evidence.jsonl": "377370414c2d39e73e8168bbc528b577bc4f2148343389f4886afdf48768a633",
+    "reports/defense_v1/T10/session_length_pilot_20261031_01/expanded_source_evidence.jsonl": "e64fb51929ebb867b65e72c026da4f96c1c5d38321a0f5b36dae9fababc82a99",
+    "reports/defense_v1/T10/crossdoc_replacement_20261102_01/source_evidence.jsonl": "8b2566cf8a300dbdb36a8fde270e9a6c314047d0ce550c4a16a3d5061913684d"
+  },
+  "role_sources_sha256": {
+    "candidate_documents": "6b97aa1e7c31973011c6062d86d37e8d5d9c03a93b58fe75d8e2b4bae839a9d0",
+    "shared_background": "b67ee469aa4ef6d1729f04a9b720833eef4e946dfb704990c5ee005f71c0b08b"
+  },
+  "scope": "Observed D-dev normal-question source documents in listed review and pilot artifacts; not a complete ledger of all historical or attack-source exposures.",
+  "constraints": [
+    "Exclude these IDs and linked parent/duplicate groups as question sources in A-cal/V/T.",
+    "Do not remove them from existing shared retrieval indexes.",
+    "Before T10-D, extend audit to all relevant prior development prompt/attack source exposures and semantic/event relations; this file alone is not sufficient for final split independence."
+  ],
+  "formal_effect_eligible": false
+}

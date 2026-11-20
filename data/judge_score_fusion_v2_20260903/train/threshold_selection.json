@@ -1,0 +1,606 @@
+{
+  "logprob": {
+    "legacy_0.4x1_0.6x2": {
+      "0.01": {
+        "attack_macro_recall": 0.9222722903148282,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9722222222222222,
+          "ia": 0.722422494592646,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.10000061586591563,
+        "weakest_attack_recall": 0.722422494592646
+      },
+      "0.02": {
+        "attack_macro_recall": 0.9222722903148282,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9722222222222222,
+          "ia": 0.722422494592646,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.10000061586591563,
+        "weakest_attack_recall": 0.722422494592646
+      },
+      "0.05": {
+        "attack_macro_recall": 0.9222722903148282,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9722222222222222,
+          "ia": 0.722422494592646,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.10000061586591563,
+        "weakest_attack_recall": 0.722422494592646
+      },
+      "0.10": {
+        "attack_macro_recall": 0.9222722903148282,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9722222222222222,
+          "ia": 0.722422494592646,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.10000061586591563,
+        "weakest_attack_recall": 0.722422494592646
+      }
+    },
+    "logistic_l2": {
+      "0.01": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.4871458542563624,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.02": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.4871458542563624,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.05": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.4871458542563624,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.10": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.4871458542563624,
+        "weakest_attack_recall": 0.7195385724585436
+      }
+    },
+    "logistic_l2_interaction": {
+      "0.01": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.48217731653209994,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.02": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.48217731653209994,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.05": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.48217731653209994,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.10": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.48217731653209994,
+        "weakest_attack_recall": 0.7195385724585436
+      }
+    },
+    "mlp_2_8_1": {
+      "0.01": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.19705255800741162,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.02": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.19705255800741162,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.05": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.19705255800741162,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.10": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.19705255800741162,
+        "weakest_attack_recall": 0.7195385724585436
+      }
+    },
+    "x1_only": {
+      "0.01": {
+        "attack_macro_recall": 0.70921553312505,
+        "attack_recalls": {
+          "direct_rag_mia": 0.8055555555555556,
+          "ia": 0.20908435472242248,
+          "masked_mia": 1.0,
+          "s2_mia": 0.8222222222222222
+        },
+        "benign_fpr": 0.0,
+        "threshold": 0.49366853821671575,
+        "weakest_attack_recall": 0.20908435472242248
+      },
+      "0.02": {
+        "attack_macro_recall": 0.70921553312505,
+        "attack_recalls": {
+          "direct_rag_mia": 0.8055555555555556,
+          "ia": 0.20908435472242248,
+          "masked_mia": 1.0,
+          "s2_mia": 0.8222222222222222
+        },
+        "benign_fpr": 0.0,
+        "threshold": 0.49366853821671575,
+        "weakest_attack_recall": 0.20908435472242248
+      },
+      "0.05": {
+        "attack_macro_recall": 0.70921553312505,
+        "attack_recalls": {
+          "direct_rag_mia": 0.8055555555555556,
+          "ia": 0.20908435472242248,
+          "masked_mia": 1.0,
+          "s2_mia": 0.8222222222222222
+        },
+        "benign_fpr": 0.0,
+        "threshold": 0.49366853821671575,
+        "weakest_attack_recall": 0.20908435472242248
+      },
+      "0.10": {
+        "attack_macro_recall": 0.70921553312505,
+        "attack_recalls": {
+          "direct_rag_mia": 0.8055555555555556,
+          "ia": 0.20908435472242248,
+          "masked_mia": 1.0,
+          "s2_mia": 0.8222222222222222
+        },
+        "benign_fpr": 0.0,
+        "threshold": 0.49366853821671575,
+        "weakest_attack_recall": 0.20908435472242248
+      }
+    },
+    "x2_only": {
+      "0.01": {
+        "attack_macro_recall": 0.9034106384683169,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9277777777777778,
+          "ia": 0.6914203316510454,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.5007024270139758,
+        "weakest_attack_recall": 0.6914203316510454
+      },
+      "0.02": {
+        "attack_macro_recall": 0.9034106384683169,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9277777777777778,
+          "ia": 0.6914203316510454,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.5007024270139758,
+        "weakest_attack_recall": 0.6914203316510454
+      },
+      "0.05": {
+        "attack_macro_recall": 0.9034106384683169,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9277777777777778,
+          "ia": 0.6914203316510454,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.5007024270139758,
+        "weakest_attack_recall": 0.6914203316510454
+      },
+      "0.10": {
+        "attack_macro_recall": 0.9034106384683169,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9277777777777778,
+          "ia": 0.6914203316510454,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.5007024270139758,
+        "weakest_attack_recall": 0.6914203316510454
+      }
+    }
+  },
+  "rubric": {
+    "legacy_0.4x1_0.6x2": {
+      "0.01": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.16000000000000003,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.02": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.16000000000000003,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.05": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.16000000000000003,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.10": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.16000000000000003,
+        "weakest_attack_recall": 0.7195385724585436
+      }
+    },
+    "logistic_l2": {
+      "0.01": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.4941454357267443,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.02": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.4941454357267443,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.05": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.4941454357267443,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.10": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.4941454357267443,
+        "weakest_attack_recall": 0.7195385724585436
+      }
+    },
+    "logistic_l2_interaction": {
+      "0.01": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.4916538183491774,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.02": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.4916538183491774,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.05": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.4916538183491774,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.10": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.4916538183491774,
+        "weakest_attack_recall": 0.7195385724585436
+      }
+    },
+    "mlp_2_8_1": {
+      "0.01": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.3268338452610945,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.02": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.3268338452610945,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.05": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.3268338452610945,
+        "weakest_attack_recall": 0.7195385724585436
+      },
+      "0.10": {
+        "attack_macro_recall": 0.9201624208924137,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9666666666666667,
+          "ia": 0.7195385724585436,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.3268338452610945,
+        "weakest_attack_recall": 0.7195385724585436
+      }
+    },
+    "x1_only": {
+      "0.01": {
+        "attack_macro_recall": 0.7058970199471281,
+        "attack_recalls": {
+          "direct_rag_mia": 0.7944444444444444,
+          "ia": 0.2069214131218457,
+          "masked_mia": 1.0,
+          "s2_mia": 0.8222222222222222
+        },
+        "benign_fpr": 0.0,
+        "threshold": 0.5047528333987357,
+        "weakest_attack_recall": 0.2069214131218457
+      },
+      "0.02": {
+        "attack_macro_recall": 0.7058970199471281,
+        "attack_recalls": {
+          "direct_rag_mia": 0.7944444444444444,
+          "ia": 0.2069214131218457,
+          "masked_mia": 1.0,
+          "s2_mia": 0.8222222222222222
+        },
+        "benign_fpr": 0.0,
+        "threshold": 0.5047528333987357,
+        "weakest_attack_recall": 0.2069214131218457
+      },
+      "0.05": {
+        "attack_macro_recall": 0.7058970199471281,
+        "attack_recalls": {
+          "direct_rag_mia": 0.7944444444444444,
+          "ia": 0.2069214131218457,
+          "masked_mia": 1.0,
+          "s2_mia": 0.8222222222222222
+        },
+        "benign_fpr": 0.0,
+        "threshold": 0.5047528333987357,
+        "weakest_attack_recall": 0.2069214131218457
+      },
+      "0.10": {
+        "attack_macro_recall": 0.7058970199471281,
+        "attack_recalls": {
+          "direct_rag_mia": 0.7944444444444444,
+          "ia": 0.2069214131218457,
+          "masked_mia": 1.0,
+          "s2_mia": 0.8222222222222222
+        },
+        "benign_fpr": 0.0,
+        "threshold": 0.5047528333987357,
+        "weakest_attack_recall": 0.2069214131218457
+      }
+    },
+    "x2_only": {
+      "0.01": {
+        "attack_macro_recall": 0.9034106384683169,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9277777777777778,
+          "ia": 0.6914203316510454,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.5055031310195548,
+        "weakest_attack_recall": 0.6914203316510454
+      },
+      "0.02": {
+        "attack_macro_recall": 0.9034106384683169,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9277777777777778,
+          "ia": 0.6914203316510454,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.5055031310195548,
+        "weakest_attack_recall": 0.6914203316510454
+      },
+      "0.05": {
+        "attack_macro_recall": 0.9034106384683169,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9277777777777778,
+          "ia": 0.6914203316510454,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.5055031310195548,
+        "weakest_attack_recall": 0.6914203316510454
+      },
+      "0.10": {
+        "attack_macro_recall": 0.9034106384683169,
+        "attack_recalls": {
+          "direct_rag_mia": 0.9277777777777778,
+          "ia": 0.6914203316510454,
+          "masked_mia": 1.0,
+          "s2_mia": 0.9944444444444445
+        },
+        "benign_fpr": 0.0014044943820224719,
+        "threshold": 0.5055031310195548,
+        "weakest_attack_recall": 0.6914203316510454
+      }
+    }
+  }
+}

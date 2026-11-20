@@ -1,0 +1,138 @@
+{
+  "applied_level_counts": {
+    "L0": 12
+  },
+  "attack_detection_rate_by_type": {
+    "direct_rag_mia": {
+      "combined_detection_rate": 1.0,
+      "query_detection_rate": 1.0
+    },
+    "ia": {
+      "combined_detection_rate": 1.0,
+      "query_detection_rate": 1.0
+    },
+    "masked_mia": {
+      "combined_detection_rate": 1.0,
+      "query_detection_rate": 1.0
+    },
+    "s2_mia": {
+      "combined_detection_rate": 1.0,
+      "query_detection_rate": 1.0
+    }
+  },
+  "combined_detection": {
+    "accuracy": 1.0,
+    "attack_count": 6,
+    "attack_score_mean": 0.5894,
+    "auprc": 1.0,
+    "auroc": 1.0,
+    "benign_count": 6,
+    "benign_score_mean": 0.07366666666666667,
+    "confusion_matrix": {
+      "fn": 0,
+      "fp": 0,
+      "tn": 6,
+      "tp": 6
+    },
+    "f1": 1.0,
+    "false_negative_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "sample_count": 12,
+    "threshold": 0.4
+  },
+  "ia_average_first_session_detection_turn": 3.0,
+  "invalid_output_count": 0,
+  "latency": {
+    "active_session_detector": {
+      "mean_ms": 10300.5548499641,
+      "median_ms": 10300.5548499641,
+      "p95_ms": 11985.370014951332
+    },
+    "query_detector": {
+      "mean_ms": 9859.404591630058,
+      "median_ms": 9145.391199970618,
+      "p95_ms": 11315.075204963796
+    },
+    "total_defense": {
+      "mean_ms": 11621.351724975588,
+      "median_ms": 11157.972399960272,
+      "p95_ms": 19007.61193996295
+    }
+  },
+  "observe_applied_l0_rate": 1.0,
+  "query_detection_all_attack_generated_turns": {
+    "accuracy": 1.0,
+    "attack_count": 6,
+    "attack_score_mean": 0.5750000000000001,
+    "auprc": 1.0,
+    "auroc": 1.0,
+    "benign_count": 6,
+    "benign_score_mean": 0.09166666666666667,
+    "confusion_matrix": {
+      "fn": 0,
+      "fp": 0,
+      "tn": 6,
+      "tp": 6
+    },
+    "f1": 1.0,
+    "false_negative_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "sample_count": 12,
+    "threshold": 0.4
+  },
+  "query_detection_explicit_attacks": {
+    "accuracy": 1.0,
+    "attack_count": 3,
+    "attack_score_mean": 0.7000000000000001,
+    "auprc": 1.0,
+    "auroc": 1.0,
+    "benign_count": 3,
+    "benign_score_mean": 0.0,
+    "confusion_matrix": {
+      "fn": 0,
+      "fp": 0,
+      "tn": 3,
+      "tp": 3
+    },
+    "f1": 1.0,
+    "false_negative_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "sample_count": 6,
+    "threshold": 0.4
+  },
+  "recommended_level_counts": {
+    "L0": 5,
+    "L1": 1,
+    "L2": 3,
+    "L3": 3
+  },
+  "scope": "two_stage_llm_direct_development_smoke",
+  "session_detection_ia_final_turn": {
+    "accuracy": 1.0,
+    "attack_count": 1,
+    "attack_score_mean": 0.69,
+    "auprc": 1.0,
+    "auroc": 1.0,
+    "benign_count": 1,
+    "benign_score_mean": 0.0,
+    "confusion_matrix": {
+      "fn": 0,
+      "fp": 0,
+      "tn": 1,
+      "tp": 1
+    },
+    "f1": 1.0,
+    "false_negative_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "sample_count": 2,
+    "threshold": 0.4
+  }
+}

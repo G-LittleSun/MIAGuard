@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "pilot_id": "context_focus_pilot_20261102_01",
+  "status": "draft_agent_review_pending",
+  "partition": "D-dev",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "replay_eligible": false,
+  "purpose": "Compare two prior conversation foci under identical source and third question; no-history input is ambiguous.",
+  "source_manifest_sha256": "2fbc8ae0bac68695ca4657db0f6d5032d1e9b6abd2dacd375502d41e0e66533e",
+  "builder_sha256": "ca601b4a8b7530d2886e321b954994d23ce0ad14d61aea9d76a9cb4ceaedbc60",
+  "variants": 2,
+  "turns": 6,
+  "unique_source_documents": 2,
+  "source_connected_groups": 1,
+  "without_history_expected": "The intended report is not identifiable: Friday and Wednesday are both plausible; a single weekday alone is an unsupported guess.",
+  "files_sha256": {
+    "variants.jsonl": "e09b4814de9e16a4e0273d57a512d80a40cac8a2accda34e30a84de9344de58d",
+    "source_evidence.jsonl": "8b2566cf8a300dbdb36a8fde270e9a6c314047d0ce550c4a16a3d5061913684d"
+  }
+}

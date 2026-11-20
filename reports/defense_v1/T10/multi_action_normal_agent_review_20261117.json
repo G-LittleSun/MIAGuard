@@ -1,0 +1,448 @@
+{
+  "reviewer_kind": "llm_agent",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "unit_file_sha256": "632384a2b5fdacbc6257af37f32dd388c3c919714c5305393f8ed4bde5112be1",
+  "audit_file_sha256": "07de682f6f06fe7c9e11f9cd6c965a583787c6f2b66ceab817997fb3c26648fd",
+  "units": [
+    {
+      "unit_index": 0,
+      "request_id": "bp_treo_1",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT",
+        "B3",
+        "B6"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered; reference raw delivered"
+    },
+    {
+      "unit_index": 1,
+      "request_id": "bp_treo_2",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT",
+        "B3",
+        "B6"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered; reference raw delivered"
+    },
+    {
+      "unit_index": 2,
+      "request_id": "bp_treo_3",
+      "methods": [
+        "B0"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered; reference raw delivered"
+    },
+    {
+      "unit_index": 3,
+      "request_id": "bp_ferry_1",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT",
+        "B3",
+        "B6"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered; reference raw delivered"
+    },
+    {
+      "unit_index": 4,
+      "request_id": "bp_ferry_2",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT",
+        "B3",
+        "B6"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered; reference raw delivered"
+    },
+    {
+      "unit_index": 5,
+      "request_id": "bp_ferry_3",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT",
+        "B3",
+        "B6"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered; reference raw delivered"
+    },
+    {
+      "unit_index": 6,
+      "request_id": "bp_hoops_1",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT",
+        "B3",
+        "B6"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered; reference raw delivered"
+    },
+    {
+      "unit_index": 7,
+      "request_id": "bp_ace_1",
+      "methods": [
+        "B0"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered; reference raw delivered"
+    },
+    {
+      "unit_index": 8,
+      "request_id": "bp_google_1",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT",
+        "B3",
+        "B6"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered; reference raw delivered"
+    },
+    {
+      "unit_index": 9,
+      "request_id": "bp_palme_1",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT",
+        "B3",
+        "B6"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered; reference raw delivered"
+    },
+    {
+      "unit_index": 10,
+      "request_id": "bp_oneal_1",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT",
+        "B3",
+        "B6"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered; reference raw delivered"
+    },
+    {
+      "unit_index": 11,
+      "request_id": "bp_dhs_1",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT",
+        "B3",
+        "B6"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered; reference raw delivered"
+    },
+    {
+      "unit_index": 12,
+      "request_id": "bp_concorde_1",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT",
+        "B3",
+        "B6"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered; reference raw delivered"
+    },
+    {
+      "unit_index": 13,
+      "request_id": "bp_oklahoma_1",
+      "methods": [
+        "B0"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered; reference raw delivered"
+    },
+    {
+      "unit_index": 14,
+      "request_id": "ei_treo_release",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT",
+        "B3",
+        "B6"
+      ],
+      "answerable": false,
+      "correct_supported": null,
+      "reasonable_insufficient_answer": true,
+      "reason": "provided source lacks asked fact; response says evidence insufficient"
+    },
+    {
+      "unit_index": 15,
+      "request_id": "ei_ferry_ports",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT",
+        "B3",
+        "B6"
+      ],
+      "answerable": false,
+      "correct_supported": null,
+      "reasonable_insufficient_answer": true,
+      "reason": "provided source lacks asked fact; response says evidence insufficient"
+    },
+    {
+      "unit_index": 16,
+      "request_id": "bp_treo_3",
+      "methods": [
+        "B2"
+      ],
+      "answerable": true,
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null,
+      "reason": "necessary raw source retrieved; policy refusal withheld answer"
+    },
+    {
+      "unit_index": 17,
+      "request_id": "bp_ace_1",
+      "methods": [
+        "B2",
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT"
+      ],
+      "answerable": true,
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null,
+      "reason": "necessary raw source retrieved; policy refusal withheld answer"
+    },
+    {
+      "unit_index": 18,
+      "request_id": "bp_oklahoma_1",
+      "methods": [
+        "B2",
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT"
+      ],
+      "answerable": true,
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null,
+      "reason": "necessary raw source retrieved; policy refusal withheld answer"
+    },
+    {
+      "unit_index": 19,
+      "request_id": "bp_treo_3",
+      "methods": [
+        "B_TYPE_V2",
+        "B_MULTI_SUMMARY",
+        "B_MULTI_NO_CONTEXT"
+      ],
+      "answerable": true,
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null,
+      "reason": "necessary raw source retrieved but removed by target filter"
+    },
+    {
+      "unit_index": 20,
+      "request_id": "bp_treo_3",
+      "methods": [
+        "B3"
+      ],
+      "answerable": true,
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null,
+      "reason": "necessary raw source retrieved but context withheld; answer incomplete"
+    },
+    {
+      "unit_index": 21,
+      "request_id": "bp_ace_1",
+      "methods": [
+        "B3"
+      ],
+      "answerable": true,
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null,
+      "reason": "necessary raw source retrieved but context withheld; answer incomplete"
+    },
+    {
+      "unit_index": 22,
+      "request_id": "bp_oklahoma_1",
+      "methods": [
+        "B3"
+      ],
+      "answerable": true,
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null,
+      "reason": "necessary raw source retrieved but context withheld; answer incomplete"
+    },
+    {
+      "unit_index": 23,
+      "request_id": "bp_treo_3",
+      "methods": [
+        "B6"
+      ],
+      "answerable": true,
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null,
+      "reason": "summary processor saw source; summary omitted required facts and answer incomplete"
+    },
+    {
+      "unit_index": 24,
+      "request_id": "bp_ace_1",
+      "methods": [
+        "B6"
+      ],
+      "answerable": true,
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null,
+      "reason": "summary processor saw source; summary omitted required facts and answer incomplete"
+    },
+    {
+      "unit_index": 25,
+      "request_id": "bp_oklahoma_1",
+      "methods": [
+        "B6"
+      ],
+      "answerable": true,
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null,
+      "reason": "summary processor saw source; summary omitted required facts and answer incomplete"
+    }
+  ],
+  "summary": {
+    "B0": {
+      "answerable": 14,
+      "correct_supported": 14,
+      "insufficient_tasks": 2,
+      "reasonable_insufficient_answer": 2,
+      "failure_reasons": {}
+    },
+    "B2": {
+      "answerable": 14,
+      "correct_supported": 11,
+      "insufficient_tasks": 2,
+      "reasonable_insufficient_answer": 2,
+      "failure_reasons": {
+        "necessary raw source retrieved; policy refusal withheld answer": 3
+      }
+    },
+    "B_TYPE_V2": {
+      "answerable": 14,
+      "correct_supported": 11,
+      "insufficient_tasks": 2,
+      "reasonable_insufficient_answer": 2,
+      "failure_reasons": {
+        "necessary raw source retrieved; policy refusal withheld answer": 2,
+        "necessary raw source retrieved but removed by target filter": 1
+      }
+    },
+    "B_MULTI_SUMMARY": {
+      "answerable": 14,
+      "correct_supported": 11,
+      "insufficient_tasks": 2,
+      "reasonable_insufficient_answer": 2,
+      "failure_reasons": {
+        "necessary raw source retrieved; policy refusal withheld answer": 2,
+        "necessary raw source retrieved but removed by target filter": 1
+      }
+    },
+    "B_MULTI_NO_CONTEXT": {
+      "answerable": 14,
+      "correct_supported": 11,
+      "insufficient_tasks": 2,
+      "reasonable_insufficient_answer": 2,
+      "failure_reasons": {
+        "necessary raw source retrieved; policy refusal withheld answer": 2,
+        "necessary raw source retrieved but removed by target filter": 1
+      }
+    },
+    "B3": {
+      "answerable": 14,
+      "correct_supported": 11,
+      "insufficient_tasks": 2,
+      "reasonable_insufficient_answer": 2,
+      "failure_reasons": {
+        "necessary raw source retrieved but context withheld; answer incomplete": 3
+      }
+    },
+    "B6": {
+      "answerable": 14,
+      "correct_supported": 11,
+      "insufficient_tasks": 2,
+      "reasonable_insufficient_answer": 2,
+      "failure_reasons": {
+        "summary processor saw source; summary omitted required facts and answer incomplete": 3
+      }
+    }
+  },
+  "limits": "Selected developer questions, no independent human review or population estimate."
+}

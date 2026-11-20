@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "errors": [],
+  "selected_reuse_bank": "ag_news_queries_v2",
+  "selected_reuse_split": "ag_news_threshold_v2",
+  "scope": "Identity/version and metadata inventory; per-query reuse/semantic/gold acceptance remains pending.",
+  "versions": {
+    "v1": {
+      "bank_id": "ag_news_queries_v1",
+      "completed_at": "2026-08-01T14:13:13.466411+00:00",
+      "query_count": 5956,
+      "counts_by_attack": {
+        "benign": 500,
+        "direct_rag_mia": 500,
+        "ia": 3956,
+        "masked_mia": 500,
+        "s2_mia": 500
+      },
+      "queries_sha256": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1"
+    },
+    "v2": {
+      "bank_id": "ag_news_queries_v2",
+      "completed_at": "2026-08-31T07:49:22.713552+00:00",
+      "query_count": 7632,
+      "counts_by_attack": {
+        "benign": 2176,
+        "direct_rag_mia": 500,
+        "ia": 3956,
+        "masked_mia": 500,
+        "s2_mia": 500
+      },
+      "queries_sha256": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972"
+    }
+  },
+  "partitions_same_doc_ids": {
+    "train": true,
+    "validation": true,
+    "test": true
+  },
+  "attack_ids_identical": true,
+  "attack_records_changed": 0,
+  "attack_records_compared": 5456,
+  "document_records_identical": true,
+  "v2_audit_manifest": {
+    "hard_fraction": 0.2,
+    "review_status": "pending",
+    "seed": 20260831,
+    "standard_fraction": 0.05
+  },
+  "v2_audit_sample_rows": 139,
+  "v2_train": {
+    "source_docs": 60,
+    "accepted_queries": 4579,
+    "attack_type_counts": {
+      "benign": 1304,
+      "direct_rag_mia": 300,
+      "ia": 2375,
+      "masked_mia": 300,
+      "s2_mia": 300
+    },
+    "normal_payload_key_presence": {
+      "benign_intent": 1304,
+      "category": 1304,
+      "difficulty": 1304,
+      "hard_scenario": 1304
+    },
+    "normal_top_level_required_field_presence": {
+      "answerable": 0,
+      "reference_answer": 0,
+      "gold_evidence_ids": 0,
+      "task_family": 0,
+      "review_status": 0,
+      "reviewed_by": 0
+    },
+    "normal_validation_key_presence": {
+      "answer_verified": 1304,
+      "duplicate_checked": 1304,
+      "status": 1304
+    },
+    "benign_source_in_old_index": 653,
+    "benign_source_not_in_old_index": 651
+  },
+  "frozen_judge_training_identity": {
+    "query_bank": {
+      "bank_id": "ag_news_queries_v1",
+      "dataset_id": "ag_news",
+      "queries_sha256": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1"
+    },
+    "split_id": "ag_news_threshold_v1"
+  },
+  "input_sha256": {
+    "data/query_banks/ag_news_queries_v1/ag_news/manifest.json": "c091561df37903853b793765320ea2a3b60be8eb1d038f73b840b6ab69820c60",
+    "data/query_banks/ag_news_queries_v1/ag_news/queries.jsonl": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1",
+    "data/query_banks/ag_news_queries_v1/ag_news/documents.jsonl": "84817349356801a6c002e102798d311815a4f39e79ee998b182fe951175c0d4b",
+    "data/query_banks/ag_news_queries_v2/ag_news/manifest.json": "1296d74cfdabeba6aba560d0c289c547db54fd582c76f77fdffc2d9a9300991a",
+    "data/query_banks/ag_news_queries_v2/ag_news/queries.jsonl": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972",
+    "data/query_banks/ag_news_queries_v2/ag_news/documents.jsonl": "84817349356801a6c002e102798d311815a4f39e79ee998b182fe951175c0d4b",
+    "data/query_bank_splits/ag_news_threshold_v1.json": "c7f42950276f787bbc38862fad219b7c2436c8e562a9447c52388b0b809d8a93",
+    "data/query_bank_splits/ag_news_threshold_v2.json": "96977e550be6c0e42ab0b7609f2c73af261a99474b459778ae46fd123c7b80ef",
+    "data/query_banks/ag_news_queries_v2/ag_news/benign_audit_sample.jsonl": "1a8f775e1e2d652b90941526ea3ae43cb95117e4456eada77e0183d26204adf7",
+    "data/vector_stores/20260717-ag-news-four-medium/ag_news/documents.jsonl": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9",
+    "data/progressive_judge_v3_binary_logprob_train_qwen2_5_7b_bf16_20260916_retry1/train/run_manifest.json": "fac8dd970d659a0caf89bb5d9e02172d594e16e760d64a07f49c996806778f3c"
+  },
+  "limitations": [
+    "Latest available bank is not automatically human-reviewed gold or evidence of better defense.",
+    "No V/T query texts or effectiveness results are reported; split-ID sets were compared mechanically.",
+    "Attack full-record equality does not authorize reusing Session traces with different histories or bank identity.",
+    "Index presence is not a normal answerability label.",
+    "Only identity and metadata checked; no adapter, scoring or model run executed."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version_id": "four_type40_single_v2_train_20261118_01",
+  "bank_id": "ag_news_queries_v2",
+  "split_id": "ag_news_threshold_v2",
+  "partition": "train",
+  "scope": "Main single-turn stratum; IA is a separate stratum.",
+  "analysis_role": "engineering_only",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "expected_events": 240,
+  "target_counts": {
+    "('direct_rag_mia', 0)": 20,
+    "('direct_rag_mia', 1)": 20,
+    "('masked_mia', 0)": 20,
+    "('masked_mia', 1)": 20,
+    "('s2_mia', 0)": 20,
+    "('s2_mia', 1)": 20
+  },
+  "unique_documents": 40,
+  "source_event_independence_proven": false,
+  "selection": "Existing frozen fixtures, shared selected docs for single-turn types, no exact normalized source duplicates.",
+  "input_sha256": {
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\four_type40_preflight_20261118.json": "e063aa68a16779989f468c8d95cffc83b6698f5f8783419c55660db29d0e6b41",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\next_goal_ablation_v2_train_20261117_01\\experiment_spec.json": "ac215b49b2be10b5934e6f99bdf0a155ed2bb2b05fd975c2ebf8ce3317800085",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\next-goal-ablation-20261117-01\\run_manifest.json": "e140c792912fa7cf74dff8ece0d3a35a2703379ac64662540a319b157f1beca9",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\FOUR_TYPE40_SCORING_ZH.md": "d46b822e28dc56b5057bcd774f660d1506fb33f187ad0c73e2dde3a80932dc63",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\freeze_four_type40_single_round_20261118.py": "a954682f5d991b21e84f0883d0bbd1cc8fb6cf16a3ceea8650b01682d0807d5f"
+  },
+  "output_sha256": {
+    "experiment_spec.json": "d0798c9511361c458b5f649c22e31e20e797bb3a4cd1ec2a338b45cc7152d916",
+    "labels.jsonl": "af4f29103e3f3f9e034c4ecb1de8358da9071a0697579a61d3ff5f64fa6bf4fe",
+    "lineage.jsonl": "30b04fe7449b6e7513af6a37cfa69a728c1f1e7e511e4f6a255907de0b258a82",
+    "requests.jsonl": "310d7edec258a9aec698fa82514943cfe1b15ac0af6ba04268fc30496d4a3ab8"
+  }
+}

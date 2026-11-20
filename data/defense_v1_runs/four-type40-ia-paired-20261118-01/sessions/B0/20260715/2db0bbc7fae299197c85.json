@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00000176",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q040",
+      "session_id": "ia_ag_news_teacher_00000176",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe context provided does not specify the exact timing of O'Keefe's resignation in relation to the budgetary window for NASA's space exploration. Therefore, based on the given information, it is unknown whether O'Keefe resigned before the budgetary window closed.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000176",
+        "ag_news_teacher_00000663",
+        "ag_news_teacher_00000822",
+        "ag_news_teacher_00000613"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000176",
+        "ag_news_teacher_00000663",
+        "ag_news_teacher_00000822",
+        "ag_news_teacher_00000613"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000176",
+            "ag_news_teacher_00000663",
+            "ag_news_teacher_00000822",
+            "ag_news_teacher_00000613"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000176",
+            "ag_news_teacher_00000663",
+            "ag_news_teacher_00000822",
+            "ag_news_teacher_00000613"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1756.5044006332755,
+      "ledger_event": {
+        "request_id": "q040",
+        "session_id": "ia_ag_news_teacher_00000176",
+        "input_sha256": "04419a7a9e3883577bf97905c72f9fe4663d59f85a0473e9083c16632361ca44",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000176",
+          "ag_news_teacher_00000663",
+          "ag_news_teacher_00000822",
+          "ag_news_teacher_00000613"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000176",
+            "parent_doc_id": "ag_news_teacher_00000176",
+            "kind": "raw",
+            "score": 0.7680714130401611,
+            "text_sha256": "b99cd8f0f6ccb489faf318273b8091b253a60a4b9fc871ff31002f8eb14344f9"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000663",
+            "parent_doc_id": "ag_news_teacher_00000663",
+            "kind": "raw",
+            "score": 0.5981415510177612,
+            "text_sha256": "b39f27f8f3603cd38a7887206cab22b1022383873d6d007e6843a7e251260746"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000822",
+            "parent_doc_id": "ag_news_teacher_00000822",
+            "kind": "raw",
+            "score": 0.4123726189136505,
+            "text_sha256": "b71651fef2cf9445c609a1d5cce17c2f4aad26f42df7667432d85fd0da41f41e"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000613",
+            "parent_doc_id": "ag_news_teacher_00000613",
+            "kind": "raw",
+            "score": 0.3933405876159668,
+            "text_sha256": "9f3f87fab2c3ef9bc172cd86bbaa1936c5b99b7ede91ed4e750d9a69ddc05c0f"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe context provided does not specify the exact timing of O'Keefe's resignation in relation to the budgetary window for NASA's space exploration. Therefore, based on the given information, it is unknown whether O'Keefe resigned before the budgetary window closed.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006808.4218228,
+        "finished_at": 1795006810.1783223
+      },
+      "generation_input_ref": "artifacts/B0/20260715/2dcf830c453c09b13b6f.json",
+      "artifact_sha256": "09d5bf22d1918ccd3131cb791ff54a6b6e8c17b6930f33f0b9f43a384e393f17"
+    },
+    {
+      "request_id": "q041",
+      "session_id": "ia_ag_news_teacher_00000176",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe context mentions that O'Keefe's resignation came \"at a time when the agency has a budgetary window of opportunity,\" but it does not provide specific details about whether all issues were addressed before his resignation. Therefore, based on the given information, the answer is unknown.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000176",
+        "ag_news_teacher_00000663",
+        "ag_news_teacher_00000049",
+        "ag_news_teacher_00000822"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000176",
+        "ag_news_teacher_00000663",
+        "ag_news_teacher_00000049",
+        "ag_news_teacher_00000822"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000176",
+            "ag_news_teacher_00000663",
+            "ag_news_teacher_00000049",
+            "ag_news_teacher_00000822"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000176",
+            "ag_news_teacher_00000663",
+            "ag_news_teacher_00000049",
+            "ag_news_teacher_00000822"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1846.9829000532627,
+      "ledger_event": {
+        "request_id": "q041",
+        "session_id": "ia_ag_news_teacher_00000176",
+        "input_sha256": "b19544abcf2fb146876a61510ccdbb1197ddde6365ab891a667fa5f1b4e50dd6",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000176",
+          "ag_news_teacher_00000663",
+          "ag_news_teacher_00000049",
+          "ag_news_teacher_00000822"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000176",
+            "parent_doc_id": "ag_news_teacher_00000176",
+            "kind": "raw",
+            "score": 0.7631493210792542,
+            "text_sha256": "b99cd8f0f6ccb489faf318273b8091b253a60a4b9fc871ff31002f8eb14344f9"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000663",
+            "parent_doc_id": "ag_news_teacher_00000663",
+            "kind": "raw",
+            "score": 0.6061263084411621,
+            "text_sha256": "b39f27f8f3603cd38a7887206cab22b1022383873d6d007e6843a7e251260746"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000049",
+            "parent_doc_id": "ag_news_teacher_00000049",
+            "kind": "raw",
+            "score": 0.45923274755477905,
+            "text_sha256": "9db828b8f8f019f03e91fa0b57e06170b69ff23b47731810ed89403dff03e3bc"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000822",
+            "parent_doc_id": "ag_news_teacher_00000822",
+            "kind": "raw",
+            "score": 0.4153398871421814,
+            "text_sha256": "b71651fef2cf9445c609a1d5cce17c2f4aad26f42df7667432d85fd0da41f41e"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe context mentions that O'Keefe's resignation came \"at a time when the agency has a budgetary window of opportunity,\" but it does not provide specific details about whether all issues were addressed before his resignation. Therefore, based on the given information, the answer is unknown.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006810.1833227,
+        "finished_at": 1795006812.0303223
+      },
+      "generation_input_ref": "artifacts/B0/20260715/805494b3e0391842be02.json",
+      "artifact_sha256": "cbdebf9dcce509cead777fd2c7637ba7b8e015de9bf948292a1fd2ea28ac32fe"
+    },
+    {
+      "request_id": "q042",
+      "session_id": "ia_ag_news_teacher_00000176",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "No",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000176",
+        "ag_news_teacher_00000663",
+        "ag_news_teacher_00000049",
+        "ag_news_teacher_00000822"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000176",
+        "ag_news_teacher_00000663",
+        "ag_news_teacher_00000049",
+        "ag_news_teacher_00000822"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000176",
+            "ag_news_teacher_00000663",
+            "ag_news_teacher_00000049",
+            "ag_news_teacher_00000822"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000176",
+            "ag_news_teacher_00000663",
+            "ag_news_teacher_00000049",
+            "ag_news_teacher_00000822"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 137.30890024453402,
+      "ledger_event": {
+        "request_id": "q042",
+        "session_id": "ia_ag_news_teacher_00000176",
+        "input_sha256": "c3c08e3d39877db7799314632e0d490959d25e21810b550b2de69f8724822da1",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000176",
+          "ag_news_teacher_00000663",
+          "ag_news_teacher_00000049",
+          "ag_news_teacher_00000822"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000176",
+            "parent_doc_id": "ag_news_teacher_00000176",
+            "kind": "raw",
+            "score": 0.815178394317627,
+            "text_sha256": "b99cd8f0f6ccb489faf318273b8091b253a60a4b9fc871ff31002f8eb14344f9"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000663",
+            "parent_doc_id": "ag_news_teacher_00000663",
+            "kind": "raw",
+            "score": 0.6279149055480957,
+            "text_sha256": "b39f27f8f3603cd38a7887206cab22b1022383873d6d007e6843a7e251260746"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000049",
+            "parent_doc_id": "ag_news_teacher_00000049",
+            "kind": "raw",
+            "score": 0.5089690089225769,
+            "text_sha256": "9db828b8f8f019f03e91fa0b57e06170b69ff23b47731810ed89403dff03e3bc"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000822",
+            "parent_doc_id": "ag_news_teacher_00000822",
+            "kind": "raw",
+            "score": 0.4544804096221924,
+            "text_sha256": "b71651fef2cf9445c609a1d5cce17c2f4aad26f42df7667432d85fd0da41f41e"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "No",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006812.0358224,
+        "finished_at": 1795006812.1728227
+      },
+      "generation_input_ref": "artifacts/B0/20260715/adeae8487c169e00354d.json",
+      "artifact_sha256": "41e6f87ed56a879845c9b20c461abf231f25066d0c07e63be98da7d1c4a59faa"
+    }
+  ]
+}

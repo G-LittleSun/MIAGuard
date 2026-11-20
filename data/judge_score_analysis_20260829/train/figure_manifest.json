@@ -1,0 +1,74 @@
+{
+  "logprob_binned_attack_rate": {
+    "dpi": 300,
+    "pdf": "figures/logprob_binned_attack_rate.pdf",
+    "png": "figures/logprob_binned_attack_rate.png",
+    "style": "publication_v1"
+  },
+  "logprob_by_turn": {
+    "dpi": 300,
+    "pdf": "figures/logprob_by_turn.pdf",
+    "png": "figures/logprob_by_turn.png",
+    "style": "publication_v1"
+  },
+  "logprob_x1_ecdf": {
+    "dpi": 300,
+    "pdf": "figures/logprob_x1_ecdf.pdf",
+    "png": "figures/logprob_x1_ecdf.png",
+    "style": "publication_v1"
+  },
+  "logprob_x1_x2_binary": {
+    "dpi": 300,
+    "pdf": "figures/logprob_x1_x2_binary.pdf",
+    "png": "figures/logprob_x1_x2_binary.png",
+    "style": "publication_v1"
+  },
+  "logprob_x1_x2_by_attack": {
+    "dpi": 300,
+    "pdf": "figures/logprob_x1_x2_by_attack.pdf",
+    "png": "figures/logprob_x1_x2_by_attack.png",
+    "style": "publication_v1"
+  },
+  "logprob_x2_available_ecdf": {
+    "dpi": 300,
+    "pdf": "figures/logprob_x2_available_ecdf.pdf",
+    "png": "figures/logprob_x2_available_ecdf.png",
+    "style": "publication_v1"
+  },
+  "rubric_binned_attack_rate": {
+    "dpi": 300,
+    "pdf": "figures/rubric_binned_attack_rate.pdf",
+    "png": "figures/rubric_binned_attack_rate.png",
+    "style": "publication_v1"
+  },
+  "rubric_by_turn": {
+    "dpi": 300,
+    "pdf": "figures/rubric_by_turn.pdf",
+    "png": "figures/rubric_by_turn.png",
+    "style": "publication_v1"
+  },
+  "rubric_x1_ecdf": {
+    "dpi": 300,
+    "pdf": "figures/rubric_x1_ecdf.pdf",
+    "png": "figures/rubric_x1_ecdf.png",
+    "style": "publication_v1"
+  },
+  "rubric_x1_x2_binary": {
+    "dpi": 300,
+    "pdf": "figures/rubric_x1_x2_binary.pdf",
+    "png": "figures/rubric_x1_x2_binary.png",
+    "style": "publication_v1"
+  },
+  "rubric_x1_x2_by_attack": {
+    "dpi": 300,
+    "pdf": "figures/rubric_x1_x2_by_attack.pdf",
+    "png": "figures/rubric_x1_x2_by_attack.png",
+    "style": "publication_v1"
+  },
+  "rubric_x2_available_ecdf": {
+    "dpi": 300,
+    "pdf": "figures/rubric_x2_available_ecdf.pdf",
+    "png": "figures/rubric_x2_available_ecdf.png",
+    "style": "publication_v1"
+  }
+}

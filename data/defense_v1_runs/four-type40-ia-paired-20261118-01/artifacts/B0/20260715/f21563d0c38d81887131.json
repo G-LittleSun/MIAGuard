@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Martha Stewart getting a daily syndicated show after prison. Will Martha Stewart have a live audience for her daily syndicated show? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Nun enjoys prison meals with Martha DENVER - The food at the Federal Corrections Camp in Alderson, W.Va., apparently is nothing to write home about - unless one is eating it with Martha Stewart.",
+      "Can Radcliffe Rise from Athens Ashes? So Paula Radcliffe is mortal, and probably now destined never to win an Olympic gold medal. For the past two years she has run like a goddess inexorably heading towards Athens glory.",
+      "Blogging the Story Alive Bloggers force CBS News to admit to a serious mistake, and journalists recoil from the thought of so much scrutiny of their work. But isn't this exactly what we need to get better-quality news? Commentary by Adam L. Penenberg.",
+      "Gates: Microsoft To Test MSN Spaces Blog Thursday Vox populi, 2004 style. Microsoft (nasdaq: MSFT - news - people ) on Wednesday said it will offer blogging to the online many-headed."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Nun enjoys prison meals with Martha DENVER - The food at the Federal Corrections Camp in Alderson, W.Va., apparently is nothing to write home about - unless one is eating it with Martha Stewart.\"\n\"Can Radcliffe Rise from Athens Ashes? So Paula Radcliffe is mortal, and probably now destined never to win an Olympic gold medal. For the past two years she has run like a goddess inexorably heading towards Athens glory.\"\n\"Blogging the Story Alive Bloggers force CBS News to admit to a serious mistake, and journalists recoil from the thought of so much scrutiny of their work. But isn't this exactly what we need to get better-quality news? Commentary by Adam L. Penenberg.\"\n\"Gates: Microsoft To Test MSN Spaces Blog Thursday Vox populi, 2004 style. Microsoft (nasdaq: MSFT - news - people ) on Wednesday said it will offer blogging to the online many-headed.\"\n\nQuestion:\nI am inquiring about a Martha Stewart getting a daily syndicated show after prison. Will Martha Stewart have a live audience for her daily syndicated show? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "aef28a908b3d1c5afcd22dcd3759f81ff17d9219f649da7631c7b260c5706f79",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ms_b46b7b8ade8bcfad0bf5",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "ms_b46b7b8ade8bcfad0bf5",
+      "session_id": "ms_b46b7b8ade8bcfad0bf5",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "The provided context does not contain any information related to Fox announcing a deal to air Fiesta, Orange, or Sugar bowls. Therefore, the evidence is insufficient to complete the given sentence.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000053",
+        "ag_news_teacher_00000507",
+        "ag_news_teacher_00000318",
+        "ag_news_teacher_00000448"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000053",
+        "ag_news_teacher_00000507",
+        "ag_news_teacher_00000318",
+        "ag_news_teacher_00000448"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000053",
+            "ag_news_teacher_00000507",
+            "ag_news_teacher_00000318",
+            "ag_news_teacher_00000448"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000053",
+            "ag_news_teacher_00000507",
+            "ag_news_teacher_00000318",
+            "ag_news_teacher_00000448"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1144.0264005213976,
+      "ledger_event": {
+        "request_id": "ms_b46b7b8ade8bcfad0bf5",
+        "session_id": "ms_b46b7b8ade8bcfad0bf5",
+        "input_sha256": "64837ef71a6d8cebd8535aad239743c29ec0b3441c0e4d0ab598a12fb1289faa",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000053",
+          "ag_news_teacher_00000507",
+          "ag_news_teacher_00000318",
+          "ag_news_teacher_00000448"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000053",
+            "parent_doc_id": "ag_news_teacher_00000053",
+            "kind": "raw",
+            "score": 0.34967002272605896,
+            "text_sha256": "b7a35e8d9126f7f04cdd22e90207d4c0b9e1242128478983e1c75e5e05538a29"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000507",
+            "parent_doc_id": "ag_news_teacher_00000507",
+            "kind": "raw",
+            "score": 0.3121345043182373,
+            "text_sha256": "0e71f5f1dc0546339ea01c33cf14b7026390003956698db11174c23ab3d28eb3"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000318",
+            "parent_doc_id": "ag_news_teacher_00000318",
+            "kind": "raw",
+            "score": 0.3050929307937622,
+            "text_sha256": "2a2cc5e559d698b8e862157b36ffb0fb0b5895d0d7b9b20347e11fa6a67eedc8"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000448",
+            "parent_doc_id": "ag_news_teacher_00000448",
+            "kind": "raw",
+            "score": 0.30321067571640015,
+            "text_sha256": "c9d6c50cc4d3851992169e95c0c468bb5c2bf9134df9dfc3a00037a287f48766"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "The provided context does not contain any information related to Fox announcing a deal to air Fiesta, Orange, or Sugar bowls. Therefore, the evidence is insufficient to complete the given sentence.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794890650.3233907,
+        "finished_at": 1794890651.4672887
+      },
+      "generation_input_ref": "artifacts/B0/20260715/2903eadf00fafb7f8bbf.json",
+      "artifact_sha256": "82d281fa5b10b820722cdf977dfbdf4cb60b5f86313a32a43a1889d57051d015"
+    }
+  ]
+}

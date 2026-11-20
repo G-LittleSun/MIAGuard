@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Tokyo stocks and US dollar vs. Japanese yen. Did the US dollar strengthen against the Japanese yen on Monday morning? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Dollar Hovers Near 1-Month Low Vs Yen  TOKYO (Reuters) - The dollar hovered near a one-month low  against the yen on Tuesday after disappointing U.S. hiring  figures last week fueled speculation the Federal Reserve could  press \"pause\" on its current tightening cycle.",
+      "Dollar Ignores Data, Creeps Lower vs. Yen  NEW YORK (Reuters) - The dollar dropped against the yen on  Friday, as the market ignored a mostly positive report on  October U.S. retail sales and remained focused on the record  U.S. current account deficit.",
+      "Dollar #39;s fall worries Japanese officials Masatsugu Asakawa has one of the busiest jobs in Tokyo these days: monitoring the US dollar #39;s fluctuation against the Japanese yen.",
+      "Yen Rises on Corporate Sentiment Poll The yen rose on Friday after the Bank of Japan #39;s closely watched  quot;tankan quot; survey showed further improvement in Japanese business sentiment."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Dollar Hovers Near 1-Month Low Vs Yen  TOKYO (Reuters) - The dollar hovered near a one-month low  against the yen on Tuesday after disappointing U.S. hiring  figures last week fueled speculation the Federal Reserve could  press \"pause\" on its current tightening cycle.\"\n\"Dollar Ignores Data, Creeps Lower vs. Yen  NEW YORK (Reuters) - The dollar dropped against the yen on  Friday, as the market ignored a mostly positive report on  October U.S. retail sales and remained focused on the record  U.S. current account deficit.\"\n\"Dollar #39;s fall worries Japanese officials Masatsugu Asakawa has one of the busiest jobs in Tokyo these days: monitoring the US dollar #39;s fluctuation against the Japanese yen.\"\n\"Yen Rises on Corporate Sentiment Poll The yen rose on Friday after the Bank of Japan #39;s closely watched  quot;tankan quot; survey showed further improvement in Japanese business sentiment.\"\n\nQuestion:\nI am inquiring about a Tokyo stocks and US dollar vs. Japanese yen. Did the US dollar strengthen against the Japanese yen on Monday morning? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

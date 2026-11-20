@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "The passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nConcorde crash  #39;due to US [Mask_1] #39; A French legal [Mask_2] into the [Mask_3] 2000 Concorde crash near Paris has [Mask_4] much of the blame on the American carrier, [Mask_5] Airlines.",
+    "contexts": [
+      "Concorde crash  #39;due to US firm #39; A French legal inquiry into the July 2000 Concorde crash near Paris has placed much of the blame on the American carrier, Continental Airlines.",
+      "Feds order airlines to divulge passenger details The requirement is part of a trial run of a computer system that's supposed to ID terrorists before they can board the plane.",
+      "Will It Be Trash or Tribute? Bottle Stands on the Edge Tillie, the clown face that graced the front of Palace Amusements in Asbury Park for nearly 50 years, was preserved in June before the rest of the building was torn down.",
+      "Lenders and U.S. Tighten Screws on Struggling Airlines The federal government, banks and aircraft lenders are putting the clamps on airlines, particularly those operating under bankruptcy protection."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Concorde crash  #39;due to US firm #39; A French legal inquiry into the July 2000 Concorde crash near Paris has placed much of the blame on the American carrier, Continental Airlines.\"\n\"Feds order airlines to divulge passenger details The requirement is part of a trial run of a computer system that's supposed to ID terrorists before they can board the plane.\"\n\"Will It Be Trash or Tribute? Bottle Stands on the Edge Tillie, the clown face that graced the front of Palace Amusements in Asbury Park for nearly 50 years, was preserved in June before the rest of the building was torn down.\"\n\"Lenders and U.S. Tighten Screws on Struggling Airlines The federal government, banks and aircraft lenders are putting the clamps on airlines, particularly those operating under bankruptcy protection.\"\n\nQuestion:\nThe passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nConcorde crash  #39;due to US [Mask_1] #39; A French legal [Mask_2] into the [Mask_3] 2000 Concorde crash near Paris has [Mask_4] much of the blame on the American carrier, [Mask_5] Airlines.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

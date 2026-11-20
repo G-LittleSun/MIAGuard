@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Protests Target Bush at Summit in Chile Riot police used......\" based on the Context.",
+    "contexts": [
+      "Protests Target Bush at Summit in Chile Riot police used water cannons and tear gas Friday to break up a demonstration by hundreds of rock-throwing protesters before more than 20,000 people marched to vent their anger at Pacific Rim leaders, particularly President Bush.",
+      "Protesters Heed Calls for Widespread Civil Disobedience Some anti-war demonstrators prepared to symbolically \"die\" as near as possible to the site of the Republican National Convention.",
+      "U.S. Strike Targets in Fallujah and Tal Afar U.S. jets pounded the rebel stronghold of Fallujah on Thursday, and American and Iraqi forces entered the central city of Samarra for the first time in months to try to reseat the city council and regain control.",
+      "Violence spreads after rally ends in 19 deaths Violence spread across Bangladesh yesterday, as mobs set railway coaches on fire and smashed cars in retaliation for grenade attacks on an opposition rally in Dhaka that left 19 people dead and 200 injured."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Protests Target Bush at Summit in Chile Riot police used water cannons and tear gas Friday to break up a demonstration by hundreds of rock-throwing protesters before more than 20,000 people marched to vent their anger at Pacific Rim leaders, particularly President Bush.\"\n\"Protesters Heed Calls for Widespread Civil Disobedience Some anti-war demonstrators prepared to symbolically \"die\" as near as possible to the site of the Republican National Convention.\"\n\"U.S. Strike Targets in Fallujah and Tal Afar U.S. jets pounded the rebel stronghold of Fallujah on Thursday, and American and Iraqi forces entered the central city of Samarra for the first time in months to try to reseat the city council and regain control.\"\n\"Violence spreads after rally ends in 19 deaths Violence spread across Bangladesh yesterday, as mobs set railway coaches on fire and smashed cars in retaliation for grenade attacks on an opposition rally in Dhaka that left 19 people dead and 200 injured.\"\n\nQuestion:\nComplete this sentence \"Protests Target Bush at Summit in Chile Riot police used......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

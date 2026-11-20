@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "run_id": "pilot_t10c_deepseek_20261102_01",
+  "review_object": "T10-C session-length pilot (normal sessions only)",
+  "pilot_package": "session_length_pilot_20261031_01",
+  "partition": "D-dev",
+  "reviewer_kind": "llm_agent",
+  "model_id": "deepseek-v4.1-flash",
+  "model_id_source": "CODEBUDDY_CURRENT_MODEL_ID environment variable of the running session",
+  "model_id_note": "Provider-side immutable snapshot id (with date/commit suffix) was not exposed in this environment; the value above is the routing/model identifier actually reported by the runtime. No suffix was invented.",
+  "human_reviewed": false,
+  "human_gold_eligible": false,
+  "formal_effect_eligible": false,
+  "started_at": "2026-11-02T15:38:00+08:00",
+  "ended_at": "2026-11-02T15:45:21+08:00",
+  "status": "complete",
+  "partial": false,
+  "scope": {
+    "draft_variants_expected": 56,
+    "draft_variants_completed": 56,
+    "candidate_variants_with_turns": 54,
+    "excluded_variants": 2,
+    "baseline_sessions_expected": 14,
+    "baseline_sessions_completed": 14,
+    "total_expected": 70,
+    "total_completed": 70,
+    "turn_reviews_total": 204,
+    "unreviewed_ids": []
+  },
+  "decision_counts": {
+    "overall": {
+      "accept": 50,
+      "rewrite": 18,
+      "reject": 2
+    },
+    "by_cohort": {
+      "same_source_2": {
+        "accept": 13,
+        "rewrite": 1
+      },
+      "same_source_3": {
+        "accept": 11,
+        "rewrite": 1,
+        "reject": 2
+      },
+      "expanded_sources_2": {
+        "accept": 13,
+        "rewrite": 1
+      },
+      "expanded_sources_3": {
+        "accept": 13,
+        "rewrite": 1
+      },
+      "baseline_5": {
+        "rewrite": 14
+      }
+    }
+  },
+  "input_file_sha256": {
+    "pilot_pkg/session_inventory.jsonl": "4b2c4eddc193204a4de3843f369adb4b48ef42ee73450937c04489efeb10774c",
+    "pilot_pkg/source_evidence.jsonl": "377370414c2d39e73e8168bbc528b577bc4f2148343389f4886afdf48768a633",
+    "pilot_pkg/normal_variants.jsonl": "2890f4823f601db1b033199ca8b0447386a3bb91c642d80aa87207de51dc729a",
+    "pilot_pkg/session_review.jsonl": "ebc8efb9aef4e7b3ba83d54c4313f74ef5db5b70b1a140a5d456a77f1ca69ba8",
+    "pilot_pkg/expanded_source_evidence.jsonl": "e64fb51929ebb867b65e72c026da4f96c1c5d38321a0f5b36dae9fababc82a99",
+    "pilot_pkg/expanded_source_selection.jsonl": "9f57d3aecec77ce863fa03140fa9cbe7316a2974b9749e1e950d9e673b89d95f",
+    "pilot_pkg/expanded_variants.jsonl": "48c51f9399f034637106b44d1787d0a48b29de6b8620e703a3f09470cfbef716",
+    "pilot_pkg/expanded_review.jsonl": "66b27aa94b20789c6058e3b39a8bcefd407c3174b771374b90efa6dacd099052",
+    "pilot_pkg/baseline_review.jsonl": "c8c81943e89ca3433eddbb088bdc7693af3e40e262512c591dd8df4e9eb96c1a",
+    "pilot_pkg/draft_same_source.py": "fa6ad851b6cd5b9f34cefc1e2cd968fe2235037c580964c5836f7ffbb0dc91c2",
+    "pilot_pkg/draft_expanded.py": "4b8e24eeb5cf6811037105b2fb8269c82e0c6c0aa3070e776aff84d6386e7e3b",
+    "pilot_pkg/review_baseline.py": "399b5877f4305ab4bda403f40717a0765e8918073354ae99a37bc82cbeb8184f",
+    "pilot_pkg/verify_and_summarize.py": "8bb581bc512c1def0136eddbf3a7c4fb10bd0e1d5abf93ccf5bb353f134148bd",
+    "pilot_pkg/selection_report.json": "bd38e19b8c416f518453b2bea933e1ef5fb3bb63449b5c2ba0445556e83cec80",
+    "pilot_pkg/DECISION_ZH.md": "69a81842e691e513cf7b1eea195614af12e86e7048abf3d430bfbd6e90ee2ed5",
+    "pilot_pkg/REVIEW_GUIDE_ZH.md": "3fbcaf70ccb33ee0957af1040644b6a918f2ef4717f5c068ca1d15cf41864cd9",
+    "pilot_pkg/validation.json": "33532569f971b999408121cca42fa69be97b075fb65ef17d96fb7bb39b1ee44f",
+    "pilot_pkg/pilot_manifest.json": "15868520d58382b8e37837b9cca54d6cac889b576a1dc2f7556958dbdafde827"
+  },
+  "pilot_manifest_sha256_unreferenced": "15868520d58382b8e37837b9cca54d6cac889b576a1dc2f7556958dbdafde827",
+  "input_hash_check": "17 files recomputed and matched pilot_manifest.json files_sha256 one by one; pilot_manifest.json itself has no self-reference and is recorded by its own digest only. validation.json was also read and cross-checked for line counts and pairing.",
+  "output_files": {
+    "session_review.jsonl": {
+      "rows": 70,
+      "sha256": "7cac8895e66a3560971a691b198398d97a9cde57a7ce267279fc5d25fd18aef1"
+    },
+    "review_manifest.json": {
+      "note": "self hash not applicable"
+    },
+    "review_summary.md": {
+      "note": "narrative summary"
+    }
+  },
+  "provenance": {
+    "external_sources_used": false,
+    "membership_or_attack_labels_read": false,
+    "vt_results_read": false,
+    "defense_experiments_run": false,
+    "judge_or_session_fusion_measured": false,
+    "input_files_modified": false,
+    "previous_review_outputs_reused": false
+  },
+  "conventions": {
+    "decision": "accept / rewrite / reject / uncertain; reject is used for the two pre-excluded three-turn versions to mean 'exclusion upheld'",
+    "reason_codes_empty_for_accept": "accept rows carry an empty reason_codes array; residual risks for accepted sessions are recorded in turn_reviews[].issue and in notes",
+    "turn_reviews": "one entry per submitted turn; supported=false only where a stated answer fact is not entailed by the attached source; evidence_ids are the document ids that must support that turn's answer",
+    "suggested_turns": "complete proposed replacement session, renumbered from 1; source_turn maps back to the submitted turn number (null = newly written turn)",
+    "new_information_language": "draft variants reuse the packet's `new_information` token verbatim for traceability; baseline sessions, which have no turn-level annotations in the packet, use short Chinese labels written by this reviewer",
+    "cohort_labels": "same_source_2 / same_source_3 / expanded_sources_2 / expanded_sources_3 / baseline_5"
+  },
+  "interruption": "None during this run. The session context had been compacted before this pilot started; every judgement here was made after re-reading the pilot sources, and no row was carried over from an earlier review round.",
+  "limitations": [
+    "Single-model review; no second reviewer or human adjudication, so none of these decisions is human gold.",
+    "Turn naturalness and 'progression' are reviewer judgements, not measured against real user logs.",
+    "Accept rate differences across cohorts are confounded: the expanded cohort uses different documents, so they cannot estimate a session-length effect.",
+    "No Judge / Session / fusion coverage was measured; nothing here supports low false-intervention or low cost.",
+    "Near-duplicate relations among the 31 documents were not audited (the 27 connected groups only merge identical doc ids).",
+    "Only D-dev normal sessions were reviewed; attack queries, membership labels and V/T outcomes were deliberately untouched."
+  ]
+}

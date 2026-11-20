@@ -1,0 +1,296 @@
+{
+  "artifacts": [
+    {
+      "modified_at": "2026-08-29T08:36:36.853029+00:00",
+      "path": "figure_manifest.json",
+      "sha256": "ed6e2b10c92f3cdcb314968d7d66da2b3d2018be174586e3a6aad8ed2d142aa4",
+      "size_bytes": 2085
+    },
+    {
+      "modified_at": "2026-08-29T08:36:36.485030+00:00",
+      "path": "figures/logprob_binned_attack_rate.pdf",
+      "sha256": "18a66d08a2d911fd98b7889b0ee619970ac6b1fcc41110866b65d1d4233cf49e",
+      "size_bytes": 23347
+    },
+    {
+      "modified_at": "2026-08-29T08:36:36.251527+00:00",
+      "path": "figures/logprob_binned_attack_rate.png",
+      "sha256": "a2d42f0cec2e2191a2d8c776430e8e0e3d2e35ce16a43cd82bea96e4977c3dac",
+      "size_bytes": 79582
+    },
+    {
+      "modified_at": "2026-08-29T08:36:36.851527+00:00",
+      "path": "figures/logprob_by_turn.pdf",
+      "sha256": "8310083a69e1f8d6f752e368fda49164ab5b7c1f5f4f44771cebba9cbd7c78de",
+      "size_bytes": 21326
+    },
+    {
+      "modified_at": "2026-08-29T08:36:36.604027+00:00",
+      "path": "figures/logprob_by_turn.png",
+      "sha256": "771650f93d9a15420a8b4df912306974bcd420d735ddf1e8fa52a8ce154079dd",
+      "size_bytes": 63404
+    },
+    {
+      "modified_at": "2026-08-29T08:36:35.003528+00:00",
+      "path": "figures/logprob_x1_ecdf.pdf",
+      "sha256": "b417aac4b2ac023402771e4781f9b56ab1a84ead4aec5a15f1795e190f0df5bb",
+      "size_bytes": 18958
+    },
+    {
+      "modified_at": "2026-08-29T08:36:34.798527+00:00",
+      "path": "figures/logprob_x1_ecdf.png",
+      "sha256": "02be90e2d557e0d5004ba43db2fded7e61c23bdc9f49b371e42d6aaa16e8fecd",
+      "size_bytes": 44399
+    },
+    {
+      "modified_at": "2026-08-29T08:36:35.468527+00:00",
+      "path": "figures/logprob_x1_x2_binary.pdf",
+      "sha256": "286c40402e47ba436c5951c5c227c4f530840b4981c78057011213f7b788ab47",
+      "size_bytes": 64079
+    },
+    {
+      "modified_at": "2026-08-29T08:36:35.291029+00:00",
+      "path": "figures/logprob_x1_x2_binary.png",
+      "sha256": "23a915417298d9484b5cc876ca1383324f22024c24b7d2a40157ef4ac51f25dc",
+      "size_bytes": 71041
+    },
+    {
+      "modified_at": "2026-08-29T08:36:36.105527+00:00",
+      "path": "figures/logprob_x1_x2_by_attack.pdf",
+      "sha256": "276edf8186f5a12ba9e478bee07a4ea75ca75184c189a04854e0ce43ba75f31a",
+      "size_bytes": 43087
+    },
+    {
+      "modified_at": "2026-08-29T08:36:35.691527+00:00",
+      "path": "figures/logprob_x1_x2_by_attack.png",
+      "sha256": "726b2f8a8301be4c9e5d36dd0ebaca2857e06ce284cd48bf4ad443331800217a",
+      "size_bytes": 116900
+    },
+    {
+      "modified_at": "2026-08-29T08:36:35.215527+00:00",
+      "path": "figures/logprob_x2_available_ecdf.pdf",
+      "sha256": "5ca07109be39db1ed02e90393bf7b0cd14170f815d81e94804146826cb67f9e1",
+      "size_bytes": 19229
+    },
+    {
+      "modified_at": "2026-08-29T08:36:35.069527+00:00",
+      "path": "figures/logprob_x2_available_ecdf.png",
+      "sha256": "87ddc0c9980fcfa97d3c16866e88214592de4c0614dcb1c28c69d425f5855bcb",
+      "size_bytes": 48386
+    },
+    {
+      "modified_at": "2026-08-29T08:36:34.326529+00:00",
+      "path": "figures/rubric_binned_attack_rate.pdf",
+      "sha256": "7968a38ca26ce95ff2a05fde34b5e9cf7d0fb94124b4a7be93a4d36608dc5aec",
+      "size_bytes": 22806
+    },
+    {
+      "modified_at": "2026-08-29T08:36:34.060528+00:00",
+      "path": "figures/rubric_binned_attack_rate.png",
+      "sha256": "ba2d41a77ae12c56bba4132141a181f0b0bceef2e6ed983774183231d7927419",
+      "size_bytes": 72725
+    },
+    {
+      "modified_at": "2026-08-29T08:36:34.640527+00:00",
+      "path": "figures/rubric_by_turn.pdf",
+      "sha256": "7cb624309918c0861807ca941e3914b06e3579b0619ba56b40dfb67340fbd306",
+      "size_bytes": 20733
+    },
+    {
+      "modified_at": "2026-08-29T08:36:34.444529+00:00",
+      "path": "figures/rubric_by_turn.png",
+      "sha256": "3e9fc9941ec3130701a9295879d1ffd7be8bc6bbd9543edfc1f477c147a11e8c",
+      "size_bytes": 57518
+    },
+    {
+      "modified_at": "2026-08-29T08:36:32.853527+00:00",
+      "path": "figures/rubric_x1_ecdf.pdf",
+      "sha256": "4217c00b7720321760c3cff3fe12b798524c33f9e993dda0c91f25072d8aac24",
+      "size_bytes": 18252
+    },
+    {
+      "modified_at": "2026-08-29T08:36:32.619528+00:00",
+      "path": "figures/rubric_x1_ecdf.png",
+      "sha256": "3fec11b899b3de42c18e3a792e02a4f83829222bf3d86ceb40d02c899f667745",
+      "size_bytes": 40573
+    },
+    {
+      "modified_at": "2026-08-29T08:36:33.347527+00:00",
+      "path": "figures/rubric_x1_x2_binary.pdf",
+      "sha256": "27127289e3612d8f7f92e34106a839c12ba718c14c524b8f37b9ff05b35f7714",
+      "size_bytes": 32416
+    },
+    {
+      "modified_at": "2026-08-29T08:36:33.176029+00:00",
+      "path": "figures/rubric_x1_x2_binary.png",
+      "sha256": "4e30f7a8d24a3b1db57e2c0c36f6b2af68b24d864edd676ab2fd02076e1dbb5e",
+      "size_bytes": 49347
+    },
+    {
+      "modified_at": "2026-08-29T08:36:33.924527+00:00",
+      "path": "figures/rubric_x1_x2_by_attack.pdf",
+      "sha256": "5aea39d22986f7631b8e98268bfdd97465a07b50340119977424e5a81b8c098e",
+      "size_bytes": 30852
+    },
+    {
+      "modified_at": "2026-08-29T08:36:33.567029+00:00",
+      "path": "figures/rubric_x1_x2_by_attack.png",
+      "sha256": "d405967135a0d41244a91dadafa45fd1f916608a7dd50488a166a500daf2e9d3",
+      "size_bytes": 96384
+    },
+    {
+      "modified_at": "2026-08-29T08:36:33.103029+00:00",
+      "path": "figures/rubric_x2_available_ecdf.pdf",
+      "sha256": "03e8f26960373dd1bbc266733cfa50c1c6c21cd20889d528868ae4c25853d176",
+      "size_bytes": 18284
+    },
+    {
+      "modified_at": "2026-08-29T08:36:32.916528+00:00",
+      "path": "figures/rubric_x2_available_ecdf.png",
+      "sha256": "10877f5490d868069f51673712be6a5354ea6aee28c07c27fb6277ea4a936423",
+      "size_bytes": 42376
+    },
+    {
+      "modified_at": "2026-08-29T08:36:32.412035+00:00",
+      "path": "score_audit.json",
+      "sha256": "3514427e41541da7425afd889ecc80188b643e9baafab3cabb6251f644d23357",
+      "size_bytes": 855
+    },
+    {
+      "modified_at": "2026-08-29T08:36:32.412035+00:00",
+      "path": "separability_dataset.parquet",
+      "sha256": "f36102a72d69050e30f2943afe8a550ddace2c6e618325f66bb4be301830e6ef",
+      "size_bytes": 67757
+    },
+    {
+      "modified_at": "2026-08-29T08:36:32.413028+00:00",
+      "path": "separability_report.json",
+      "sha256": "85224b179995a6f4d2236a199e120fc1a17d07cae14ac7a88d07b89c4d5a15e2",
+      "size_bytes": 11323
+    }
+  ],
+  "bootstrap": {
+    "replicates": 1000,
+    "seed": 20260829,
+    "unit": "doc_id"
+  },
+  "classifier_training_authorized": false,
+  "counts": {
+    "documents": 60,
+    "long_form_rows": 7150,
+    "sessions": 734,
+    "source_records": 3575
+  },
+  "created_at": "2026-08-29T08:36:37.021027+00:00",
+  "partition": "train",
+  "schema_version": 1,
+  "source": {
+    "judge_records_sha256": "4bd1e4b318561cd177c234db1b1660f541259d4e7f40fa2f6da0205d0abd2ba0",
+    "scoring_identity_sha256": "dbf219b37377e6be70baa2cd082c25567947ed877dd65e63046094eda3b02e4f"
+  },
+  "source_identity": {
+    "logprob_anchors": [
+      0.1,
+      0.5,
+      0.9
+    ],
+    "logprob_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "model_configuration": {
+      "base_url": "http://127.0.0.1:11434",
+      "direct_rag_mia_max_tokens": 12,
+      "direct_rag_mia_threshold": 0.5,
+      "direct_rag_mia_threshold_source": "fixed_config_no_shadow",
+      "embedding_backend": "sentence_transformers",
+      "embedding_batch_size": 10,
+      "embedding_model": "EmbeddingModel/sentence-transformers/all_minilm_l6_v2",
+      "generation_backend": "transformers",
+      "generation_load_mode": "bf16",
+      "generation_model": "LLM/Qwen2.5-7B-Instruct",
+      "ia_generation_max_tokens": 128,
+      "ia_threshold": 0.5,
+      "ia_threshold_source": "fixed_config_no_shadow",
+      "ia_unknown_penalty": 0.1,
+      "keep_alive": "10m",
+      "mask_count": 5,
+      "masked_max_tokens": 128,
+      "masked_threshold": 0.2,
+      "masked_threshold_source": "ag_news_calibration_100_per_class",
+      "questions_per_document": 1,
+      "s2_mia_max_tokens": 80,
+      "s2_mia_prefix_words": 10,
+      "s2_mia_threshold": 0.915322333574295,
+      "s2_mia_threshold_source": "ag_news_calibration_100_per_class",
+      "seed": 20260715,
+      "timeout_seconds": 300,
+      "top_k": 4
+    },
+    "partition": "train",
+    "pattern_library": {
+      "patterns": {
+        "direct_rag_mia": "1.3.0",
+        "ia": "1.6.0",
+        "masked_mia": "1.3.0",
+        "s2_mia": "1.3.0"
+      },
+      "version": "1.7.0"
+    },
+    "progressive_judge_configuration": {
+      "allowed_partitions": [
+        "train",
+        "validation"
+      ],
+      "detail_max_tokens": 256,
+      "logprob_anchors": [
+        0.1,
+        0.5,
+        0.9
+      ],
+      "logprob_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "manifest_path": "D:\\Project\\MIAGuard\\attack_pattern_library\\manifest.yaml",
+      "max_candidate_patterns": 2,
+      "max_retries": 1,
+      "prompt_version": "progressive_v2_direct_private_context_validated_codes_targeted_repair_possible_uncertainty_minimal_rubric_no_attack_cue_trusted_surface_empty_skip_ia_constrained_session_rubric_consistency_combined_repair_exclusion_sufficient_evidence_code_targeted_repair_structured_router_gate_constrained_json_single_candidate_verifier_closed_missing_codes_string_state_schema_complete_array_branches",
+      "query_pattern_ids": [
+        "direct_rag_mia",
+        "s2_mia",
+        "masked_mia",
+        "ia"
+      ],
+      "rubric_max_tokens": 128,
+      "screening_max_tokens": 128,
+      "session_pattern_ids": [
+        "direct_rag_mia",
+        "s2_mia",
+        "masked_mia",
+        "ia"
+      ]
+    },
+    "query_bank": {
+      "bank_id": "ag_news_queries_v1",
+      "dataset_id": "ag_news",
+      "queries_sha256": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1"
+    },
+    "schema_version": 1,
+    "session_planning": {
+      "max_sessions": null,
+      "minimum_turns": 3,
+      "selected_session_keys": [],
+      "selection_mode": "all",
+      "target_turns": 5,
+      "version": "all_accepted_balanced_sessions_v1"
+    },
+    "source_run_id": "20260717-ag-news-four-medium",
+    "split_file_sha256": "c7f42950276f787bbc38862fad219b7c2436c8e562a9447c52388b0b809d8a93",
+    "split_id": "ag_news_threshold_v1"
+  },
+  "stage": "score_separability",
+  "stage_a_status": "awaiting_human_review"
+}

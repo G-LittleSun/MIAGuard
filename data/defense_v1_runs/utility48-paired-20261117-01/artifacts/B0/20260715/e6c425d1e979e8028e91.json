@@ -1,0 +1,12 @@
+{
+  "generation_input": {
+    "query": "How many Japanese yen was the Australian dollar worth?",
+    "contexts": [
+      "Aussie dollar reaches nine-month high On the cross rates it was at 60.1 euro cents, 81.29 Japanese yen, 42.17 pence sterling, and 1.105 New Zealand dollars. On Wall Street stocks have jumped on news of a merger between retailers Kmart and Sears "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Aussie dollar reaches nine-month high On the cross rates it was at 60.1 euro cents, 81.29 Japanese yen, 42.17 pence sterling, and 1.105 New Zealand dollars. On Wall Street stocks have jumped on news of a merger between retailers Kmart and Sears \"\n\nQuestion:\nHow many Japanese yen was the Australian dollar worth?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

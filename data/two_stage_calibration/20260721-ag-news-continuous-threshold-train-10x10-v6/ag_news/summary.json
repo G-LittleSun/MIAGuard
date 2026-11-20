@@ -1,0 +1,25 @@
+{
+  "output_path": "D:\\Project\\MIAGuard\\data\\two_stage_calibration\\20260721-ag-news-continuous-threshold-train-10x10-v6\\ag_news",
+  "selected_metrics": {
+    "attack_detected_counts": {
+      "direct_rag_mia": 19,
+      "ia": 19,
+      "masked_mia": 20,
+      "s2_mia": 4
+    },
+    "attack_detection_rates": {
+      "direct_rag_mia": 0.95,
+      "ia": 0.95,
+      "masked_mia": 1.0,
+      "s2_mia": 0.2
+    },
+    "benign_detected_count": 0,
+    "benign_false_positive_rate": 0.0,
+    "feasible": true,
+    "macro_attack_detection_rate": 0.7749999999999999,
+    "min_attack_detection_rate": 0.2,
+    "threshold": 0.1
+  },
+  "selected_threshold": 0.1,
+  "status": "completed"
+}

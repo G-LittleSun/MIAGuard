@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Win bolsters Wildcats #39; confidence But there are only a......\" based on the Context.",
+    "contexts": [
+      "Win bolsters Wildcats #39; confidence But there are only a handful of programs that consider themselves to be on the same level as Arizona, an elite basketball power that expects to be in contention for the Final Four every season.",
+      "Malaysia #39;s Anwar Confident of Courts Malaysia #39;s former deputy leader said Wednesday he is confident of victory when his country #39;s highest court reconsiders his conviction on corruption charges, arguing that his opponents have no case.",
+      "Ferdinand cautious amid United euphoria Rio Ferdinand has claimed yesterdays controversial win over Arsenal will count for nothing unless Manchester United beat Portsmouth at the weekend.",
+      " #39;Satisfied #39; Benitez left wanting more RAFAEL BENITEZ last night insisted there was more to come from Liverpool after the  quot;fantastic start quot; to their Champions League return."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Win bolsters Wildcats #39; confidence But there are only a handful of programs that consider themselves to be on the same level as Arizona, an elite basketball power that expects to be in contention for the Final Four every season.\"\n\"Malaysia #39;s Anwar Confident of Courts Malaysia #39;s former deputy leader said Wednesday he is confident of victory when his country #39;s highest court reconsiders his conviction on corruption charges, arguing that his opponents have no case.\"\n\"Ferdinand cautious amid United euphoria Rio Ferdinand has claimed yesterdays controversial win over Arsenal will count for nothing unless Manchester United beat Portsmouth at the weekend.\"\n\" #39;Satisfied #39; Benitez left wanting more RAFAEL BENITEZ last night insisted there was more to come from Liverpool after the  quot;fantastic start quot; to their Champions League return.\"\n\nQuestion:\nComplete this sentence \"Win bolsters Wildcats #39; confidence But there are only a......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

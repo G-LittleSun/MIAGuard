@@ -1,0 +1,766 @@
+{
+  "candidate_count": 46,
+  "candidate_table": [
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 1.0,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 1.0,
+      "feasible": false,
+      "macro_attack_recall": 1.0,
+      "minimum_attack_recall": 1.0,
+      "threshold": 0.0
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 1.0,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 0.93,
+      "feasible": false,
+      "macro_attack_recall": 1.0,
+      "minimum_attack_recall": 1.0,
+      "threshold": 0.1894736842105263
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 1.0,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 0.9233333333333333,
+      "feasible": false,
+      "macro_attack_recall": 1.0,
+      "minimum_attack_recall": 1.0,
+      "threshold": 0.20000000000000004
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 1.0,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 0.92,
+      "feasible": false,
+      "macro_attack_recall": 1.0,
+      "minimum_attack_recall": 1.0,
+      "threshold": 0.21
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.9790379265756516,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 0.6833333333333333,
+      "feasible": false,
+      "macro_attack_recall": 0.9947594816439129,
+      "minimum_attack_recall": 0.9790379265756516,
+      "threshold": 0.2131578947368421
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.9790379265756516,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 0.68,
+      "feasible": false,
+      "macro_attack_recall": 0.9947594816439129,
+      "minimum_attack_recall": 0.9790379265756516,
+      "threshold": 0.28421052631578947
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.9790379265756516,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 0.6666666666666666,
+      "feasible": false,
+      "macro_attack_recall": 0.9947594816439129,
+      "minimum_attack_recall": 0.9790379265756516,
+      "threshold": 0.3
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.9781826634177568,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 0.64,
+      "feasible": false,
+      "macro_attack_recall": 0.9945456658544392,
+      "minimum_attack_recall": 0.9781826634177568,
+      "threshold": 0.30473684210526314
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.9777440669265288,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 0.6366666666666667,
+      "feasible": false,
+      "macro_attack_recall": 0.9944360167316322,
+      "minimum_attack_recall": 0.9777440669265288,
+      "threshold": 0.30818181818181817
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.9777440669265288,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 0.6333333333333333,
+      "feasible": false,
+      "macro_attack_recall": 0.9944360167316322,
+      "minimum_attack_recall": 0.9777440669265288,
+      "threshold": 0.3236842105263158
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.9777440669265288,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 0.63,
+      "feasible": false,
+      "macro_attack_recall": 0.9944360167316322,
+      "minimum_attack_recall": 0.9777440669265288,
+      "threshold": 0.32727272727272727
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.9777440669265288,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 0.62,
+      "feasible": false,
+      "macro_attack_recall": 0.9944360167316322,
+      "minimum_attack_recall": 0.9777440669265288,
+      "threshold": 0.32999999999999996
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.9777440669265288,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 0.6166666666666667,
+      "feasible": false,
+      "macro_attack_recall": 0.9944360167316322,
+      "minimum_attack_recall": 0.9777440669265288,
+      "threshold": 0.36
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.9777440669265288,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 0.6066666666666667,
+      "feasible": false,
+      "macro_attack_recall": 0.9944360167316322,
+      "minimum_attack_recall": 0.9777440669265288,
+      "threshold": 0.39473684210526316
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.9655261213789941,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 0.5433333333333333,
+      "feasible": false,
+      "macro_attack_recall": 0.9913815303447485,
+      "minimum_attack_recall": 0.9655261213789941,
+      "threshold": 0.4
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.9655261213789941,
+        "masked_mia": 1.0,
+        "s2_mia": 1.0
+      },
+      "benign_query_fpr": 0.54,
+      "feasible": false,
+      "macro_attack_recall": 0.9913815303447485,
+      "minimum_attack_recall": 0.9655261213789941,
+      "threshold": 0.4000000000000001
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.6734518892679577,
+        "masked_mia": 1.0,
+        "s2_mia": 0.8333333333333333
+      },
+      "benign_query_fpr": 0.49666666666666665,
+      "feasible": false,
+      "macro_attack_recall": 0.8766963056503227,
+      "minimum_attack_recall": 0.6734518892679577,
+      "threshold": 0.42272727272727273
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.6605434993599189,
+        "masked_mia": 1.0,
+        "s2_mia": 0.8333333333333333
+      },
+      "benign_query_fpr": 0.44,
+      "feasible": false,
+      "macro_attack_recall": 0.873469208173313,
+      "minimum_attack_recall": 0.6605434993599189,
+      "threshold": 0.4281818181818182
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.6605434993599189,
+        "masked_mia": 1.0,
+        "s2_mia": 0.8333333333333333
+      },
+      "benign_query_fpr": 0.43666666666666665,
+      "feasible": false,
+      "macro_attack_recall": 0.873469208173313,
+      "minimum_attack_recall": 0.6605434993599189,
+      "threshold": 0.444
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.6527805647658075,
+        "masked_mia": 1.0,
+        "s2_mia": 0.8333333333333333
+      },
+      "benign_query_fpr": 0.38,
+      "feasible": false,
+      "macro_attack_recall": 0.8715284745247851,
+      "minimum_attack_recall": 0.6527805647658075,
+      "threshold": 0.49473684210526314
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.5095779381577568,
+        "masked_mia": 1.0,
+        "s2_mia": 0.7799999999999998
+      },
+      "benign_query_fpr": 0.35,
+      "feasible": false,
+      "macro_attack_recall": 0.8223944845394391,
+      "minimum_attack_recall": 0.5095779381577568,
+      "threshold": 0.49947368421052635
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.5091612714910901,
+        "masked_mia": 1.0,
+        "s2_mia": 0.7799999999999998
+      },
+      "benign_query_fpr": 0.35,
+      "feasible": false,
+      "macro_attack_recall": 0.8222903178727725,
+      "minimum_attack_recall": 0.5091612714910901,
+      "threshold": 0.5090909090909091
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.360232735442754,
+        "masked_mia": 1.0,
+        "s2_mia": 0.7366666666666666
+      },
+      "benign_query_fpr": 0.2833333333333333,
+      "feasible": false,
+      "macro_attack_recall": 0.7742248505273551,
+      "minimum_attack_recall": 0.360232735442754,
+      "threshold": 0.5145454545454545
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.3596951010341519,
+        "masked_mia": 1.0,
+        "s2_mia": 0.7366666666666666
+      },
+      "benign_query_fpr": 0.2833333333333333,
+      "feasible": false,
+      "macro_attack_recall": 0.7740904419252046,
+      "minimum_attack_recall": 0.3596951010341519,
+      "threshold": 0.52
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 1.0,
+        "ia": 0.24192520795952388,
+        "masked_mia": 1.0,
+        "s2_mia": 0.5966666666666668
+      },
+      "benign_query_fpr": 0.18,
+      "feasible": false,
+      "macro_attack_recall": 0.7096479686565477,
+      "minimum_attack_recall": 0.24192520795952388,
+      "threshold": 0.6
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.9966666666666666,
+        "ia": 0.03140673074906799,
+        "masked_mia": 1.0,
+        "s2_mia": 0.07
+      },
+      "benign_query_fpr": 0.14,
+      "feasible": false,
+      "macro_attack_recall": 0.5245183493539336,
+      "minimum_attack_recall": 0.03140673074906799,
+      "threshold": 0.6047368421052631
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.9966666666666666,
+        "ia": 0.030593238685575928,
+        "masked_mia": 1.0,
+        "s2_mia": 0.06666666666666667
+      },
+      "benign_query_fpr": 0.14,
+      "feasible": false,
+      "macro_attack_recall": 0.5234816430047273,
+      "minimum_attack_recall": 0.030593238685575928,
+      "threshold": 0.6054545454545454
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.9966666666666666,
+        "ia": 0.029779746622083863,
+        "masked_mia": 1.0,
+        "s2_mia": 0.06666666666666667
+      },
+      "benign_query_fpr": 0.14,
+      "feasible": false,
+      "macro_attack_recall": 0.5232782699888543,
+      "minimum_attack_recall": 0.029779746622083863,
+      "threshold": 0.6181818181818183
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.9966666666666666,
+        "ia": 0.029501968844306083,
+        "masked_mia": 1.0,
+        "s2_mia": 0.06666666666666667
+      },
+      "benign_query_fpr": 0.14,
+      "feasible": false,
+      "macro_attack_recall": 0.5232088255444098,
+      "minimum_attack_recall": 0.029501968844306083,
+      "threshold": 0.6189473684210526
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.9966666666666666,
+        "ia": 0.029063372353078012,
+        "masked_mia": 1.0,
+        "s2_mia": 0.06666666666666667
+      },
+      "benign_query_fpr": 0.14,
+      "feasible": false,
+      "macro_attack_recall": 0.5230991764216029,
+      "minimum_attack_recall": 0.029063372353078012,
+      "threshold": 0.624
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.9966666666666666,
+        "ia": 0.028624775861849947,
+        "masked_mia": 1.0,
+        "s2_mia": 0.06666666666666667
+      },
+      "benign_query_fpr": 0.14,
+      "feasible": false,
+      "macro_attack_recall": 0.5229895272987959,
+      "minimum_attack_recall": 0.028624775861849947,
+      "threshold": 0.631578947368421
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.9966666666666666,
+        "ia": 0.027282877887356324,
+        "masked_mia": 1.0,
+        "s2_mia": 0.06666666666666667
+      },
+      "benign_query_fpr": 0.14,
+      "feasible": false,
+      "macro_attack_recall": 0.5226540528051724,
+      "minimum_attack_recall": 0.027282877887356324,
+      "threshold": 0.6378947368421053
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.9966666666666666,
+        "ia": 0.027282877887356324,
+        "masked_mia": 1.0,
+        "s2_mia": 0.06333333333333334
+      },
+      "benign_query_fpr": 0.14,
+      "feasible": false,
+      "macro_attack_recall": 0.521820719471839,
+      "minimum_attack_recall": 0.027282877887356324,
+      "threshold": 0.64
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.9966666666666666,
+        "ia": 0.025038725840572703,
+        "masked_mia": 1.0,
+        "s2_mia": 0.05333333333333334
+      },
+      "benign_query_fpr": 0.13666666666666666,
+      "feasible": false,
+      "macro_attack_recall": 0.5187596814601432,
+      "minimum_attack_recall": 0.025038725840572703,
+      "threshold": 0.6426315789473683
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.9966666666666666,
+        "ia": 0.02463222177553205,
+        "masked_mia": 1.0,
+        "s2_mia": 0.05333333333333334
+      },
+      "benign_query_fpr": 0.13666666666666666,
+      "feasible": false,
+      "macro_attack_recall": 0.518658055443883,
+      "minimum_attack_recall": 0.02463222177553205,
+      "threshold": 0.649090909090909
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.9966666666666666,
+        "ia": 0.02419362528430398,
+        "masked_mia": 1.0,
+        "s2_mia": 0.05333333333333334
+      },
+      "benign_query_fpr": 0.13666666666666666,
+      "feasible": false,
+      "macro_attack_recall": 0.5185484063210759,
+      "minimum_attack_recall": 0.02419362528430398,
+      "threshold": 0.6947368421052632
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.9966666666666666,
+        "ia": 0.02419362528430398,
+        "masked_mia": 1.0,
+        "s2_mia": 0.04666666666666667
+      },
+      "benign_query_fpr": 0.13666666666666666,
+      "feasible": false,
+      "macro_attack_recall": 0.5168817396544092,
+      "minimum_attack_recall": 0.02419362528430398,
+      "threshold": 0.7090909090909091
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.9966666666666666,
+        "ia": 0.020195087272608072,
+        "masked_mia": 1.0,
+        "s2_mia": 0.030000000000000002
+      },
+      "benign_query_fpr": 0.13666666666666666,
+      "feasible": false,
+      "macro_attack_recall": 0.5117154384848186,
+      "minimum_attack_recall": 0.020195087272608072,
+      "threshold": 0.72
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.9966666666666666,
+        "ia": 0.013070816424011167,
+        "masked_mia": 1.0,
+        "s2_mia": 0.026666666666666665
+      },
+      "benign_query_fpr": 0.13666666666666666,
+      "feasible": false,
+      "macro_attack_recall": 0.5091010374393361,
+      "minimum_attack_recall": 0.013070816424011167,
+      "threshold": 0.726
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.9966666666666666,
+        "ia": 0.012664312358970515,
+        "masked_mia": 1.0,
+        "s2_mia": 0.026666666666666665
+      },
+      "benign_query_fpr": 0.13666666666666666,
+      "feasible": false,
+      "macro_attack_recall": 0.508999411423076,
+      "minimum_attack_recall": 0.012664312358970515,
+      "threshold": 0.8
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.49666666666666665,
+        "ia": 0.0036443996203132417,
+        "masked_mia": 0.5566666666666666,
+        "s2_mia": 0.016666666666666666
+      },
+      "benign_query_fpr": 0.043333333333333335,
+      "feasible": true,
+      "macro_attack_recall": 0.2684110999050783,
+      "minimum_attack_recall": 0.0036443996203132417,
+      "threshold": 0.8000000000000002
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.016666666666666666,
+        "ia": 0.0,
+        "masked_mia": 0.0,
+        "s2_mia": 0.0
+      },
+      "benign_query_fpr": 0.0,
+      "feasible": true,
+      "macro_attack_recall": 0.004166666666666667,
+      "minimum_attack_recall": 0.0,
+      "threshold": 0.8054545454545455
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.013333333333333334,
+        "ia": 0.0,
+        "masked_mia": 0.0,
+        "s2_mia": 0.0
+      },
+      "benign_query_fpr": 0.0,
+      "feasible": true,
+      "macro_attack_recall": 0.0033333333333333335,
+      "minimum_attack_recall": 0.0,
+      "threshold": 0.806
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.006666666666666667,
+        "ia": 0.0,
+        "masked_mia": 0.0,
+        "s2_mia": 0.0
+      },
+      "benign_query_fpr": 0.0,
+      "feasible": true,
+      "macro_attack_recall": 0.0016666666666666668,
+      "minimum_attack_recall": 0.0,
+      "threshold": 0.8189473684210528
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.0033333333333333335,
+        "ia": 0.0,
+        "masked_mia": 0.0,
+        "s2_mia": 0.0
+      },
+      "benign_query_fpr": 0.0,
+      "feasible": true,
+      "macro_attack_recall": 0.0008333333333333334,
+      "minimum_attack_recall": 0.0,
+      "threshold": 0.8218181818181819
+    },
+    {
+      "attack_document_balanced_query_recall": {
+        "direct_rag_mia": 0.0,
+        "ia": 0.0,
+        "masked_mia": 0.0,
+        "s2_mia": 0.0
+      },
+      "benign_query_fpr": 0.0,
+      "feasible": true,
+      "macro_attack_recall": 0.0,
+      "minimum_attack_recall": 0.0,
+      "threshold": 0.821818181818182
+    }
+  ],
+  "feasible_candidate_count": 6,
+  "max_benign_fpr": 0.05,
+  "partition": "train",
+  "risk_records_sha256": "7dd81c1ed5370b457dda50006bb4e4740ec08b1bdbf83e928c9414ea756262c1",
+  "schema_version": 1,
+  "selected_metrics": {
+    "attack_document_balanced_final_turn_detection_rate": {
+      "direct_rag_mia": 1.0,
+      "ia": 0.014490740740740742,
+      "masked_mia": 1.0,
+      "s2_mia": 0.08333333333333333
+    },
+    "attack_document_balanced_query_recall": {
+      "direct_rag_mia": 0.49666666666666665,
+      "ia": 0.0036443996203132417,
+      "masked_mia": 0.5566666666666666,
+      "s2_mia": 0.016666666666666666
+    },
+    "attack_document_balanced_session_recall": {
+      "direct_rag_mia": 1.0,
+      "ia": 0.014490740740740742,
+      "masked_mia": 1.0,
+      "s2_mia": 0.08333333333333333
+    },
+    "attack_document_balanced_turn_3_detection_rate": {
+      "direct_rag_mia": 1.0,
+      "ia": 0.014490740740740742,
+      "masked_mia": 1.0,
+      "s2_mia": 0.08333333333333333
+    },
+    "auprc": 0.9531620323853999,
+    "auroc": 0.7145664122137404,
+    "balanced_accuracy": 0.5288676844783715,
+    "benign_document_balanced_session_fpr": 0.2,
+    "benign_query_fpr": 0.043333333333333335,
+    "confusion_matrix": {
+      "fn": 2944,
+      "fp": 13,
+      "tn": 287,
+      "tp": 331
+    },
+    "f1": 0.1829234595192042,
+    "first_detection_turn_histogram": {
+      "1": 128,
+      "2": 5,
+      "undetected": 541
+    },
+    "macro_attack_recall": 0.2684110999050783,
+    "minimum_attack_recall": 0.0036443996203132417,
+    "precision": 0.9622093023255814,
+    "recall": 0.10106870229007633,
+    "threshold": 0.8000000000000002
+  },
+  "selection_objective": [
+    "maximize_minimum_attack_document_balanced_query_recall",
+    "maximize_macro_attack_document_balanced_query_recall",
+    "minimize_benign_query_fpr",
+    "maximize_threshold"
+  ],
+  "source_identity": {
+    "attack_config": {
+      "base_url": "http://127.0.0.1:11434",
+      "direct_rag_mia_max_tokens": 12,
+      "direct_rag_mia_threshold": 0.5,
+      "direct_rag_mia_threshold_source": "fixed_config_no_shadow",
+      "embedding_backend": "sentence_transformers",
+      "embedding_batch_size": 10,
+      "embedding_model": "EmbeddingModel/sentence-transformers/all_minilm_l6_v2",
+      "generation_backend": "transformers",
+      "generation_load_mode": "int8",
+      "generation_model": "LLM/mistralai/mistral-7b-instruct-v0-2",
+      "ia_generation_max_tokens": 128,
+      "ia_threshold": 0.5,
+      "ia_threshold_source": "fixed_config_no_shadow",
+      "ia_unknown_penalty": 0.1,
+      "keep_alive": "10m",
+      "mask_count": 5,
+      "masked_max_tokens": 128,
+      "masked_threshold": 0.2,
+      "masked_threshold_source": "ag_news_calibration_100_per_class",
+      "questions_per_document": 1,
+      "s2_mia_max_tokens": 80,
+      "s2_mia_prefix_words": 10,
+      "s2_mia_threshold": 0.915322333574295,
+      "s2_mia_threshold_source": "ag_news_calibration_100_per_class",
+      "seed": 20260715,
+      "timeout_seconds": 300,
+      "top_k": 4
+    },
+    "gateway_config": {
+      "aggregation_method": "dynamic_window_coverage",
+      "attack_detection_threshold": null,
+      "l2_attack_actions": {},
+      "level_thresholds": [
+        0.2,
+        0.4,
+        0.65,
+        0.85
+      ],
+      "min_session_queries": 3,
+      "mode": "observe",
+      "policy_version": "two_stage_policy_v2_supervised_threshold",
+      "query_critical_threshold": 0.85,
+      "query_weight": 0.4,
+      "restrict_context_chars": 240,
+      "session_critical_threshold": 0.85,
+      "session_evaluation_interval": 1,
+      "session_timeout_seconds": 1800,
+      "session_weight": 0.6,
+      "window_size": 5
+    },
+    "partition": "train",
+    "pattern_library_version": "1.5.0",
+    "query_bank": {
+      "bank_id": "ag_news_queries_v1",
+      "dataset_id": "ag_news",
+      "queries_sha256": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1"
+    },
+    "schema_version": 1,
+    "scorer_config": {
+      "manifest_path": "D:\\Project\\MIAGuard\\attack_pattern_library\\manifest.yaml",
+      "max_retries": 1,
+      "prompt_version": "direct_v3_anchored",
+      "query_max_tokens": 96,
+      "query_pattern_ids": [
+        "direct_rag_mia",
+        "s2_mia",
+        "masked_mia",
+        "ia"
+      ],
+      "session_max_tokens": 128,
+      "session_pattern_ids": [
+        "direct_rag_mia",
+        "s2_mia",
+        "masked_mia",
+        "ia"
+      ],
+      "strong_threshold": 0.7,
+      "weak_threshold": 0.4
+    },
+    "session_planning": {
+      "accepted_queries_only": true,
+      "grouping_fields": [
+        "partition",
+        "doc_id",
+        "traffic_type",
+        "attack_type"
+      ],
+      "minimum_turns": 3,
+      "target_turns": 5,
+      "version": "all_accepted_balanced_sessions_v1"
+    },
+    "source_run_id": "20260717-ag-news-four-medium",
+    "split_id": "ag_news_threshold_v1",
+    "split_manifest_sha256": "9323c4f66206b169c44f90096cb931147f2e2d186e1584a17cc06af5ff13a7f0",
+    "split_query_bank": {
+      "bank_id": "ag_news_queries_v1",
+      "dataset_id": "ag_news",
+      "queries_sha256": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1"
+    }
+  },
+  "status": "selected",
+  "threshold": 0.8000000000000002
+}

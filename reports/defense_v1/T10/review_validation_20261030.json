@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "review_run_id": "pilot_deepseek_20261029_01",
+  "reviewer_kind": "llm_agent",
+  "model_id_claim": "deepseek-v4.1-flash",
+  "validation_scope": "file identity, row contracts, counts, IDs and evidence references; not factual answer correctness or provider model attestation",
+  "status": "structure_passed",
+  "errors": [],
+  "normal_rows": 70,
+  "attack_rows": 16,
+  "normal_decisions": {
+    "rewrite": 60,
+    "reject": 10
+  },
+  "attack_decisions": {
+    "accept": 10,
+    "rewrite": 6
+  },
+  "source_file_sha256": {
+    "review_packet_manifest.json": "4487c3800501fc756df23cc4254863597ea91ea7b31353c76fc772dfb5974143",
+    "review_packet_d_dev_normal.jsonl": "72a10e8ad4ed2467c44edcffe91ac5abbfe033254c96c815c95fc77ebda87e36",
+    "review_packet_d_dev_normal_evidence.jsonl": "ef5948da23e80f742a442397bbe25f88bf40651d361fe4f39f830ea79184511d",
+    "review_packet_d_dev_attack.jsonl": "9815c9ce0f5b4e225a147460409621fa25e0592c8aee4494c344bfef9056f7e5"
+  },
+  "review_file_sha256": {
+    "review_manifest.json": "ecff526d2baba881b9fce54501f8b38eb43c367ad2f4e5d0113b191a91d8dfdb",
+    "normal_review.jsonl": "2154430b3a709136dce2a1ee8344d5e0bd674df784aedbb727552b15ab91aa98",
+    "attack_review.jsonl": "83c5db8814e76f148156ed2650cfae5350a5c847fc401ce293177c3d63eb1a2c",
+    "review_summary.md": "99b4a8dec032a3ade219bb76d703f052b758685aa1a571777bf4e8b0bcf47774"
+  },
+  "limitations": [
+    "Reviewer model ID is runtime-reported; provider snapshot ID cannot be independently attested from files.",
+    "Structural checks do not prove semantic correctness or human review.",
+    "Cross-document reject decisions leave that task family without accepted pilot items."
+  ]
+}

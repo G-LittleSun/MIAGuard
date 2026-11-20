@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"NBC Gives Martha Stewart an After-Prison Show Martha Stewart will host an hour-long, daily syndicated show with a live audience when she gets out of prison, her company said today.\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "Nun enjoys prison meals with Martha DENVER - The food at the Federal Corrections Camp in Alderson, W.Va., apparently is nothing to write home about - unless one is eating it with Martha Stewart.",
+      "AdWatch: Bush Touts Job Creation in TV Ad (AP) AP - Details of a new television ad from President Bush that begins airing this week:",
+      "Panel Moves Against Spyware, Net Piracy People who illegally share copyrighted music and movies over the Internet could be jailed for up to five years under a bill approved by a powerful congressional panel Wednesday.\\&lt;FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\"\\ color=\"#666666\"&gt;&lt;B&gt;-washingtonpost.com&lt;/B&gt;&lt;/FONT&gt;",
+      "News.com Extra: First blood in the new DVD war Also: Howard Stern confronts Michael Powell on the air."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Nun enjoys prison meals with Martha DENVER - The food at the Federal Corrections Camp in Alderson, W.Va., apparently is nothing to write home about - unless one is eating it with Martha Stewart.\"\n\"AdWatch: Bush Touts Job Creation in TV Ad (AP) AP - Details of a new television ad from President Bush that begins airing this week:\"\n\"Panel Moves Against Spyware, Net Piracy People who illegally share copyrighted music and movies over the Internet could be jailed for up to five years under a bill approved by a powerful congressional panel Wednesday.\\&lt;FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\"\\ color=\"#666666\"&gt;&lt;B&gt;-washingtonpost.com&lt;/B&gt;&lt;/FONT&gt;\"\n\"News.com Extra: First blood in the new DVD war Also: Howard Stern confronts Michael Powell on the air.\"\n\nQuestion:\nDoes this: \"NBC Gives Martha Stewart an After-Prison Show Martha Stewart will host an hour-long, daily syndicated show with a live audience when she gets out of prison, her company said today.\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

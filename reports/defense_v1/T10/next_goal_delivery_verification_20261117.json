@@ -1,0 +1,56 @@
+{
+  "verified_at": "2026-11-17T07:47:15.435711+00:00",
+  "status": "passed",
+  "formal_effect_eligible": false,
+  "checks": [
+    {
+      "run": "next-goal-paired-20261117-01",
+      "completed": 188,
+      "audit_sha256": "8e34ed1b61987aa7025fa54772777d2c640a8b9fe16f6d0a7f901ae2c2fda0cf"
+    },
+    {
+      "run": "next-goal-ia-style-20261117-01",
+      "completed": 16,
+      "audit_sha256": "443976b7ecd960988c371022caefcccfc435970498017649a64c20b5e1b67be4"
+    },
+    {
+      "run": "next-goal-ablation-20261117-01",
+      "completed": 32,
+      "audit_sha256": "5e26d48704af1262b95a15209aeaf815c60744f1b9fd6176b83e27033f7f8f5a"
+    },
+    {
+      "run": "next-goal-alternate-20261117-01",
+      "completed": 2
+    },
+    {
+      "dataset": "next_goal_v2_train_20261117_01",
+      "manifest_sha256": "5aa8bc8c2a47d5cf39da30867d7c367e68217ae4958a1d737590e04df7e91b0b"
+    },
+    {
+      "dataset": "next_goal_ia_style_normal_20261117_01",
+      "manifest_sha256": "c8f96b3e1b0c0894b94d81ae661b8f4912d65ce82a582d5182bc398f9c1f402f"
+    },
+    {
+      "dataset": "next_goal_ablation_v2_train_20261117_01",
+      "manifest_sha256": "bc0a55d72e0b0339802a6ff81509b9b36e7290582f4be784a9e6863db73b6302"
+    },
+    {
+      "human_review_packet": "next_goal_human_review_packet_20261117",
+      "count": 47
+    },
+    {
+      "human_review_packet": "next_goal_ia_style_human_review_20261117",
+      "count": 4
+    },
+    {
+      "human_review_packet": "t10e_ddev_human_review_20261117",
+      "count": 86
+    },
+    {
+      "selection": "retain_v2",
+      "raw_removed": 4,
+      "normal_regressions": 2,
+      "report_links": "valid"
+    }
+  ]
+}

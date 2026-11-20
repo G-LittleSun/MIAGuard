@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "c53e8bae983dd1c13c7a66ff0a7c4fecfe4ec545d81eae23557a9861b35a9384",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ng_ia_00000050",
+  "expected": 2,
+  "events": [
+    {
+      "request_id": "ng_ia_00000050_1",
+      "session_id": "ng_ia_00000050",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Yes",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000050",
+        "ag_news_teacher_00000454",
+        "ag_news_teacher_00000646",
+        "ag_news_teacher_00000538"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000050",
+        "ag_news_teacher_00000454",
+        "ag_news_teacher_00000646",
+        "ag_news_teacher_00000538"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000050",
+            "ag_news_teacher_00000454",
+            "ag_news_teacher_00000646",
+            "ag_news_teacher_00000538"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000050",
+            "ag_news_teacher_00000454",
+            "ag_news_teacher_00000646",
+            "ag_news_teacher_00000538"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 97.98750001937151,
+      "ledger_event": {
+        "request_id": "ng_ia_00000050_1",
+        "session_id": "ng_ia_00000050",
+        "input_sha256": "5797606b8efec1a2bdbfb9dd3a42f35989f3a78d1484c6cfd5e9e48c99dbf92d",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000050",
+          "ag_news_teacher_00000454",
+          "ag_news_teacher_00000646",
+          "ag_news_teacher_00000538"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000050",
+            "parent_doc_id": "ag_news_teacher_00000050",
+            "kind": "raw",
+            "score": 0.8255597949028015,
+            "text_sha256": "51b1e19cbec5538eb4d6429b29c60e1afab3c9b2f9a5168028d94f1cb4b46650"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000454",
+            "parent_doc_id": "ag_news_teacher_00000454",
+            "kind": "raw",
+            "score": 0.40912047028541565,
+            "text_sha256": "0e64650672cc49bf857ce4efe39a78bc308ecd59fb09c981fc16e91855c72f69"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000646",
+            "parent_doc_id": "ag_news_teacher_00000646",
+            "kind": "raw",
+            "score": 0.38991862535476685,
+            "text_sha256": "4e6aec044081f95adfd905d525a8f4d048d28135a55cbd5f030943c1217c0bd0"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000538",
+            "parent_doc_id": "ag_news_teacher_00000538",
+            "kind": "raw",
+            "score": 0.3747793436050415,
+            "text_sha256": "d3ab922b6983378c2238129659493da8c98b89101aab943e364eb98c945077d7"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Yes",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794899198.2868419,
+        "finished_at": 1794899198.3848414
+      },
+      "generation_input_ref": "artifacts/B0/20260715/e1e5be954c8a31e0299a.json",
+      "artifact_sha256": "4db70edc92252658e79c3f62e383a33d7bfb82913960c0c3e7db982e5774c7be"
+    },
+    {
+      "request_id": "ng_ia_00000050_2",
+      "session_id": "ng_ia_00000050",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe context mentions Veritas in relation to antivirus software but does not explicitly state whether Veritas is a storage software company. Therefore, based on the given information, the answer is unknown.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000050",
+        "ag_news_teacher_00000514",
+        "ag_news_teacher_00000496",
+        "ag_news_teacher_00000914"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000050",
+        "ag_news_teacher_00000514",
+        "ag_news_teacher_00000496",
+        "ag_news_teacher_00000914"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000050",
+            "ag_news_teacher_00000514",
+            "ag_news_teacher_00000496",
+            "ag_news_teacher_00000914"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000050",
+            "ag_news_teacher_00000514",
+            "ag_news_teacher_00000496",
+            "ag_news_teacher_00000914"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1187.4798005446792,
+      "ledger_event": {
+        "request_id": "ng_ia_00000050_2",
+        "session_id": "ng_ia_00000050",
+        "input_sha256": "2d765fb3cbe3cdf52f82b771222af237afcfea309967805f9140125e73f244a6",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000050",
+          "ag_news_teacher_00000514",
+          "ag_news_teacher_00000496",
+          "ag_news_teacher_00000914"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000050",
+            "parent_doc_id": "ag_news_teacher_00000050",
+            "kind": "raw",
+            "score": 0.6321492791175842,
+            "text_sha256": "51b1e19cbec5538eb4d6429b29c60e1afab3c9b2f9a5168028d94f1cb4b46650"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000514",
+            "parent_doc_id": "ag_news_teacher_00000514",
+            "kind": "raw",
+            "score": 0.42978769540786743,
+            "text_sha256": "551b43228a9786804607ccdda50f7c47419cf244657534e830e6646ff28d0e16"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000496",
+            "parent_doc_id": "ag_news_teacher_00000496",
+            "kind": "raw",
+            "score": 0.41882309317588806,
+            "text_sha256": "3b96f901bf24ba6b052aa0dfd47767ffcbf3116be741a09c6538deacb7158661"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000914",
+            "parent_doc_id": "ag_news_teacher_00000914",
+            "kind": "raw",
+            "score": 0.3260033130645752,
+            "text_sha256": "aa44057a8df6b087e8cd5ad6944654d6425b575cba90cc7ef7a71e53173687e4"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe context mentions Veritas in relation to antivirus software but does not explicitly state whether Veritas is a storage software company. Therefore, based on the given information, the answer is unknown.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794899198.390342,
+        "finished_at": 1794899199.5773492
+      },
+      "generation_input_ref": "artifacts/B0/20260715/aa1393ef285b19ebafee.json",
+      "artifact_sha256": "85d9239affd53beb44b57ca725ec5f4b67445ee9c29a4642e3d6dc809547fa4e"
+    }
+  ]
+}

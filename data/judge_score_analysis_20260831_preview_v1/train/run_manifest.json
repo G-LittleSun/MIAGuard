@@ -1,0 +1,248 @@
+{
+  "artifacts": [
+    {
+      "modified_at": "2026-08-31T09:19:06.547427+00:00",
+      "path": "figure_manifest.json",
+      "sha256": "c2ff33e571904fec69b847738e9fe003de7ac009b136e830eae0af6aaaef6051",
+      "size_bytes": 2019
+    },
+    {
+      "modified_at": "2026-08-31T09:19:05.746427+00:00",
+      "path": "figures/logprob_attack_enrichment_small_multiples.pdf",
+      "sha256": "4ba211bf01d41802a9f88d1fedcc79d6097b28d1d1f23d287871116136e99adc",
+      "size_bytes": 28590
+    },
+    {
+      "modified_at": "2026-08-31T09:19:05.376927+00:00",
+      "path": "figures/logprob_attack_enrichment_small_multiples.png",
+      "sha256": "5f41ebd90b5c1caf90e68a1539b7ebee9d4d88d6db462c1d825f26a7933668ae",
+      "size_bytes": 119460
+    },
+    {
+      "modified_at": "2026-08-31T09:19:05.104927+00:00",
+      "path": "figures/logprob_joint_density_triptych.pdf",
+      "sha256": "f6a81582ffbe357e104e18a9cc0191ab2754bbedc0dd3fee203d55a681f2d0e4",
+      "size_bytes": 29053
+    },
+    {
+      "modified_at": "2026-08-31T09:19:04.719927+00:00",
+      "path": "figures/logprob_joint_density_triptych.png",
+      "sha256": "44a69cd9f7eadf9421cb2bb2b001449dcb75a7fc93bac80e256248e1978bd913",
+      "size_bytes": 76882
+    },
+    {
+      "modified_at": "2026-08-31T09:19:06.197427+00:00",
+      "path": "figures/logprob_marginal_frequency_map.pdf",
+      "sha256": "5b525ca3f65d4d8346ed00a9031094613e69e9dc83322bd7729584283e4b058a",
+      "size_bytes": 27980
+    },
+    {
+      "modified_at": "2026-08-31T09:19:05.914935+00:00",
+      "path": "figures/logprob_marginal_frequency_map.png",
+      "sha256": "58c42576eb2901090faf0dd24b1ea36b20496e7439e23cbae9db55f3df19089c",
+      "size_bytes": 69849
+    },
+    {
+      "modified_at": "2026-08-31T09:19:06.546427+00:00",
+      "path": "figures/logprob_temporal_availability.pdf",
+      "sha256": "70983a1876a59562e4a45c2ad1db8ce1e089bedc99981a6ac3c56da3f1f54fd2",
+      "size_bytes": 21126
+    },
+    {
+      "modified_at": "2026-08-31T09:19:06.308427+00:00",
+      "path": "figures/logprob_temporal_availability.png",
+      "sha256": "e545d124599beb0f538e784ea4d7fe7ad27d3f61ca09b0abdb4737c72567d869",
+      "size_bytes": 62902
+    },
+    {
+      "modified_at": "2026-08-31T09:19:03.489934+00:00",
+      "path": "figures/rubric_attack_enrichment_small_multiples.pdf",
+      "sha256": "90cb326efe43fe57061d9a659df771ecb157d9250ae4a982c73b2b0cd12de7f7",
+      "size_bytes": 27427
+    },
+    {
+      "modified_at": "2026-08-31T09:19:03.124927+00:00",
+      "path": "figures/rubric_attack_enrichment_small_multiples.png",
+      "sha256": "0886c34c4b280849fde67c039b95d41cf7f46eb2b8b1db4a3dae2db4ef761690",
+      "size_bytes": 107213
+    },
+    {
+      "modified_at": "2026-08-31T09:19:02.871927+00:00",
+      "path": "figures/rubric_joint_density_triptych.pdf",
+      "sha256": "97b17d4cae3d015a0a97a4affc24319036d387674b97efd34824dce1f12208bc",
+      "size_bytes": 28918
+    },
+    {
+      "modified_at": "2026-08-31T09:19:02.427927+00:00",
+      "path": "figures/rubric_joint_density_triptych.png",
+      "sha256": "c7aa6254385685fd6734c17600238bbcbce705b60e799e9c65105a5169944f5c",
+      "size_bytes": 73792
+    },
+    {
+      "modified_at": "2026-08-31T09:19:03.954427+00:00",
+      "path": "figures/rubric_marginal_frequency_map.pdf",
+      "sha256": "47860f5046604b62b4d95a1e71e6796caca2af0dcf97f8933572c10fc013c152",
+      "size_bytes": 27606
+    },
+    {
+      "modified_at": "2026-08-31T09:19:03.671428+00:00",
+      "path": "figures/rubric_marginal_frequency_map.png",
+      "sha256": "20fc0e6e2aff03cd23faf9afd65fa47d6ff0f7e7325e741b5d73420d436b19ef",
+      "size_bytes": 68038
+    },
+    {
+      "modified_at": "2026-08-31T09:19:04.303927+00:00",
+      "path": "figures/rubric_temporal_availability.pdf",
+      "sha256": "a34b5a0a05beec759e4b6ca5f1d9c05e0a7ef704e4f0f98d2f2c7eed23c86617",
+      "size_bytes": 20896
+    },
+    {
+      "modified_at": "2026-08-31T09:19:04.066427+00:00",
+      "path": "figures/rubric_temporal_availability.png",
+      "sha256": "19a1aa4726c5720242857ac97e52f5a1e6fdf63a864da686f193eaebed4fd500",
+      "size_bytes": 56777
+    },
+    {
+      "modified_at": "2026-08-31T09:19:01.974427+00:00",
+      "path": "score_audit.json",
+      "sha256": "3514427e41541da7425afd889ecc80188b643e9baafab3cabb6251f644d23357",
+      "size_bytes": 855
+    },
+    {
+      "modified_at": "2026-08-31T09:19:01.974427+00:00",
+      "path": "separability_dataset.parquet",
+      "sha256": "f36102a72d69050e30f2943afe8a550ddace2c6e618325f66bb4be301830e6ef",
+      "size_bytes": 67757
+    },
+    {
+      "modified_at": "2026-08-31T09:19:01.975429+00:00",
+      "path": "separability_report.json",
+      "sha256": "85224b179995a6f4d2236a199e120fc1a17d07cae14ac7a88d07b89c4d5a15e2",
+      "size_bytes": 11323
+    }
+  ],
+  "bootstrap": {
+    "replicates": 1000,
+    "seed": 20260829,
+    "unit": "doc_id"
+  },
+  "classifier_training_authorized": false,
+  "counts": {
+    "documents": 60,
+    "long_form_rows": 7150,
+    "sessions": 734,
+    "source_records": 3575
+  },
+  "created_at": "2026-08-31T09:19:06.660927+00:00",
+  "partition": "train",
+  "schema_version": 1,
+  "source": {
+    "judge_records_sha256": "4bd1e4b318561cd177c234db1b1660f541259d4e7f40fa2f6da0205d0abd2ba0",
+    "scoring_identity_sha256": "dbf219b37377e6be70baa2cd082c25567947ed877dd65e63046094eda3b02e4f"
+  },
+  "source_identity": {
+    "logprob_anchors": [
+      0.1,
+      0.5,
+      0.9
+    ],
+    "logprob_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "model_configuration": {
+      "base_url": "http://127.0.0.1:11434",
+      "direct_rag_mia_max_tokens": 12,
+      "direct_rag_mia_threshold": 0.5,
+      "direct_rag_mia_threshold_source": "fixed_config_no_shadow",
+      "embedding_backend": "sentence_transformers",
+      "embedding_batch_size": 10,
+      "embedding_model": "EmbeddingModel/sentence-transformers/all_minilm_l6_v2",
+      "generation_backend": "transformers",
+      "generation_load_mode": "bf16",
+      "generation_model": "LLM/Qwen2.5-7B-Instruct",
+      "ia_generation_max_tokens": 128,
+      "ia_threshold": 0.5,
+      "ia_threshold_source": "fixed_config_no_shadow",
+      "ia_unknown_penalty": 0.1,
+      "keep_alive": "10m",
+      "mask_count": 5,
+      "masked_max_tokens": 128,
+      "masked_threshold": 0.2,
+      "masked_threshold_source": "ag_news_calibration_100_per_class",
+      "questions_per_document": 1,
+      "s2_mia_max_tokens": 80,
+      "s2_mia_prefix_words": 10,
+      "s2_mia_threshold": 0.915322333574295,
+      "s2_mia_threshold_source": "ag_news_calibration_100_per_class",
+      "seed": 20260715,
+      "timeout_seconds": 300,
+      "top_k": 4
+    },
+    "partition": "train",
+    "pattern_library": {
+      "patterns": {
+        "direct_rag_mia": "1.3.0",
+        "ia": "1.6.0",
+        "masked_mia": "1.3.0",
+        "s2_mia": "1.3.0"
+      },
+      "version": "1.7.0"
+    },
+    "progressive_judge_configuration": {
+      "allowed_partitions": [
+        "train",
+        "validation"
+      ],
+      "detail_max_tokens": 256,
+      "logprob_anchors": [
+        0.1,
+        0.5,
+        0.9
+      ],
+      "logprob_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "manifest_path": "D:\\Project\\MIAGuard\\attack_pattern_library\\manifest.yaml",
+      "max_candidate_patterns": 2,
+      "max_retries": 1,
+      "prompt_version": "progressive_v2_direct_private_context_validated_codes_targeted_repair_possible_uncertainty_minimal_rubric_no_attack_cue_trusted_surface_empty_skip_ia_constrained_session_rubric_consistency_combined_repair_exclusion_sufficient_evidence_code_targeted_repair_structured_router_gate_constrained_json_single_candidate_verifier_closed_missing_codes_string_state_schema_complete_array_branches",
+      "query_pattern_ids": [
+        "direct_rag_mia",
+        "s2_mia",
+        "masked_mia",
+        "ia"
+      ],
+      "rubric_max_tokens": 128,
+      "screening_max_tokens": 128,
+      "session_pattern_ids": [
+        "direct_rag_mia",
+        "s2_mia",
+        "masked_mia",
+        "ia"
+      ]
+    },
+    "query_bank": {
+      "bank_id": "ag_news_queries_v1",
+      "dataset_id": "ag_news",
+      "queries_sha256": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1"
+    },
+    "schema_version": 1,
+    "session_planning": {
+      "max_sessions": null,
+      "minimum_turns": 3,
+      "selected_session_keys": [],
+      "selection_mode": "all",
+      "target_turns": 5,
+      "version": "all_accepted_balanced_sessions_v1"
+    },
+    "source_run_id": "20260717-ag-news-four-medium",
+    "split_file_sha256": "c7f42950276f787bbc38862fad219b7c2436c8e562a9447c52388b0b809d8a93",
+    "split_id": "ag_news_threshold_v1"
+  },
+  "stage": "score_separability",
+  "stage_a_status": "awaiting_human_review"
+}

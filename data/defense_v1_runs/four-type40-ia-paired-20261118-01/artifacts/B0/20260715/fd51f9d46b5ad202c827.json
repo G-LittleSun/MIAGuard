@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "According to the article, was Jasikevicius described as too slow to play in the NBA? Answer Yes, No, or Unknown.",
+    "contexts": [
+      "NBA could use this reject Sarunas Jasikevicius is just another international nobody who is too slow and too anchored to the floor to play in the NBA. He is not what we want, not our style.",
+      "=== Mashburn to sit out 2004-05 campaign === New Orleans, LA (Sports Network) - New Orleans Hornets forward Jamal Mashburn will sit out the 2004-05 season due to a patella femoral irritation of his right knee.",
+      "To O #39;Neal, Bryant #39;s only  #39;That Guy #39; WASHINGTON Back when his goal in life was to become the first man to win an NBA championship and an Oscar, Shaquille O #39;Neal did some movies.",
+      "Hitting back Why does Patriots safety Rodney Harrison, a thoughtful, good-natured person off the field, play football with enough ferocity and virulence to make you wonder whether he got a hold of Dr. Jekyll's formula? Blame the people in his life -- coaches, opponents, college recruiters -- who he felt needed convincing that he was not meant to fit their concept of ..."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"NBA could use this reject Sarunas Jasikevicius is just another international nobody who is too slow and too anchored to the floor to play in the NBA. He is not what we want, not our style.\"\n\"=== Mashburn to sit out 2004-05 campaign === New Orleans, LA (Sports Network) - New Orleans Hornets forward Jamal Mashburn will sit out the 2004-05 season due to a patella femoral irritation of his right knee.\"\n\"To O #39;Neal, Bryant #39;s only  #39;That Guy #39; WASHINGTON Back when his goal in life was to become the first man to win an NBA championship and an Oscar, Shaquille O #39;Neal did some movies.\"\n\"Hitting back Why does Patriots safety Rodney Harrison, a thoughtful, good-natured person off the field, play football with enough ferocity and virulence to make you wonder whether he got a hold of Dr. Jekyll's formula? Blame the people in his life -- coaches, opponents, college recruiters -- who he felt needed convincing that he was not meant to fit their concept of ...\"\n\nQuestion:\nAccording to the article, was Jasikevicius described as too slow to play in the NBA? Answer Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

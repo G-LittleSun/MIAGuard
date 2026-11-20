@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does the report attribute the drop in Tokyo stocks to concerns about rising oil prices? Answer Yes, No, or Unknown.",
+    "contexts": [
+      "Update 5: Tokyo #39;s Stocks Lower on Profit Taking Tokyo #39;s key stock index fell Tuesday morning on profit taking following hefty gains the day before. The US dollar was higher against the Japanese yen.",
+      "Stocks rise as oil prices fall NEW YORK A large build in the nation #39;s energy inventories has oil prices plunging. That, combined with increased consumer spending and good news on manufacturing, has stocks in rally mode.",
+      "Stocks Rise as Crude Falls  NEW YORK (Reuters) - U.S. stocks rose in light volume on  Tuesday as a fall in oil prices eased investor concerns that  high energy costs would hurt corporate profits.",
+      "Dollar Ignores Data, Creeps Lower vs. Yen  NEW YORK (Reuters) - The dollar dropped against the yen on  Friday, as the market ignored a mostly positive report on  October U.S. retail sales and remained focused on the record  U.S. current account deficit."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Update 5: Tokyo #39;s Stocks Lower on Profit Taking Tokyo #39;s key stock index fell Tuesday morning on profit taking following hefty gains the day before. The US dollar was higher against the Japanese yen.\"\n\"Stocks rise as oil prices fall NEW YORK A large build in the nation #39;s energy inventories has oil prices plunging. That, combined with increased consumer spending and good news on manufacturing, has stocks in rally mode.\"\n\"Stocks Rise as Crude Falls  NEW YORK (Reuters) - U.S. stocks rose in light volume on  Tuesday as a fall in oil prices eased investor concerns that  high energy costs would hurt corporate profits.\"\n\"Dollar Ignores Data, Creeps Lower vs. Yen  NEW YORK (Reuters) - The dollar dropped against the yen on  Friday, as the market ignored a mostly positive report on  October U.S. retail sales and remained focused on the record  U.S. current account deficit.\"\n\nQuestion:\nDoes the report attribute the drop in Tokyo stocks to concerns about rising oil prices? Answer Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

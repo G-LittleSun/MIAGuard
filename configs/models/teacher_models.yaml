@@ -1,0 +1,30 @@
+models:
+  embedding:
+    repo_id: sentence-transformers/all-MiniLM-L6-v2
+    local_dir: EmbeddingModel/sentence-transformers/all_minilm_l6_v2
+    load_mode: cuda
+  gpt2_xl:
+    repo_id: openai-community/gpt2-xl
+    local_dir: LLM/gpt2-xl
+    load_mode: fp32_cuda
+  llama3_8b:
+    repo_id: meta-llama/Meta-Llama-3-8B-Instruct
+    local_dir: LLM/meta-llama/meta-llama-3-8b-instruct
+    load_mode: bf16_cuda
+    gated: true
+  mistral_7b:
+    repo_id: mistralai/Mistral-7B-Instruct-v0.2
+    local_dir: LLM/mistralai/mistral-7b-instruct-v0-2
+    load_mode: bf16_cuda
+  glm4_9b:
+    repo_id: zai-org/glm-4-9b-chat-hf
+    local_dir: LLM/glm-4-9b-chat
+    load_mode: bf16_cuda_short_context
+  phi4_14b:
+    repo_id: microsoft/phi-4
+    local_dir: LLM/phi-4
+    load_mode: bf16_auto_offload
+  qwen2_5_14b_1m:
+    repo_id: Qwen/Qwen2.5-14B-Instruct-1M
+    local_dir: LLM/Qwen2.5-14B-Instruct-1M
+    load_mode: bf16_auto_offload_short_context

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "errors": [],
+  "scope": "revision hashes, identity, paired prefixes, cited source IDs, review boundary and the four targeted changes; not semantic correctness or human gold",
+  "variants": 56,
+  "with_turns": 54,
+  "excluded": 2,
+  "requests": 134,
+  "source_documents": 31,
+  "reviewer_reference_classifications": {
+    "not_applicable": 30,
+    "reviewer_no_required_reference": 19,
+    "reviewer_identified_reference": 7
+  },
+  "source_review_status": "single_model_pre_review",
+  "formal_effect_eligible": false
+}

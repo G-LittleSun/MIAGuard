@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "revision_id": "session_length_pilot_rev2_20261102_01",
+  "status": "interim_pending_adjudication",
+  "final_length_selected": false,
+  "partition": "D-dev",
+  "formal_effect_eligible": false,
+  "review_scope": {
+    "variants_total": 70,
+    "model_decisions": {
+      "accept": 50,
+      "rewrite": 18,
+      "reject": 2
+    },
+    "normal_candidate_variants": 54,
+    "prior_five_turn_diagnostics": 14,
+    "reviewer_kind": "llm_agent",
+    "runtime_model_claim": "deepseek-v4.1-flash"
+  },
+  "candidate_stats": {
+    "versions": 56,
+    "candidate_versions": 54,
+    "excluded_versions": 2,
+    "turns": 134,
+    "by_task_family": {
+      "citation_check": {
+        "sessions": 4,
+        "versions": 8,
+        "candidate_versions": 8,
+        "turns": 20,
+        "unique_documents": 4
+      },
+      "cross_document_synthesis": {
+        "sessions": 4,
+        "versions": 8,
+        "candidate_versions": 8,
+        "turns": 20,
+        "unique_documents": 8
+      },
+      "evidence_insufficient": {
+        "sessions": 4,
+        "versions": 8,
+        "candidate_versions": 8,
+        "turns": 20,
+        "unique_documents": 4
+      },
+      "exact_entity_number": {
+        "sessions": 4,
+        "versions": 8,
+        "candidate_versions": 8,
+        "turns": 20,
+        "unique_documents": 4
+      },
+      "multi_turn_reading": {
+        "sessions": 4,
+        "versions": 8,
+        "candidate_versions": 8,
+        "turns": 20,
+        "unique_documents": 4
+      },
+      "single_fact": {
+        "sessions": 4,
+        "versions": 8,
+        "candidate_versions": 8,
+        "turns": 20,
+        "unique_documents": 4
+      },
+      "topic_summary": {
+        "sessions": 4,
+        "versions": 8,
+        "candidate_versions": 6,
+        "turns": 14,
+        "unique_documents": 4
+      }
+    },
+    "three_turn_context_reference_review_judgment": {
+      "reviewer_no_required_reference": 19,
+      "reviewer_identified_reference": 7
+    }
+  },
+  "decisions": {
+    "session_length": "2 or 3 turns remain development candidates; retain a meaningfully contextual 3+ turn cohort. Final allocation not selected.",
+    "min_facts": "No fixed four-fact requirement; reviewer suggestion remains an unvalidated heuristic.",
+    "heading_only": "Do not categorically reject heading evidence; mark and stratify, assess whether question remains meaningful.",
+    "evidence_insufficient": "Keep accepted variants as model suggestions only; flag consecutive absence questions for naturalness adjudication, do not require every family to be context-dependent.",
+    "weak_cross_document": "Flag shared-topic pair as weak; exclude from strong-synthesis claims until relationship/quality adjudication; retain as candidate for possible separate retrieval analysis.",
+    "dependency": "Seven reference labels are reviewer judgments and do not establish causal need for history or measured fusion usage.",
+    "near_duplicate": "Existing SimHash diagnostic found no matches; source/event semantic independence remains unverified."
+  },
+  "remaining": [
+    "Human/independent content adjudication for revised questions, evidence-insufficient naturalness and weak pair.",
+    "Assess contextual dependence using history-ablation design and disclose actual Session coverage if run.",
+    "Group same-source, near-duplicate and same-event dependencies before selecting and statistically analyzing cohorts.",
+    "Record actual lengths, per-family counts, exclusion reasons and protocol change after these decisions; T10-D remains unstarted."
+  ],
+  "input_sha256": {
+    "revision_manifest": "041f32fe0bf7f10842feb93f3f366775df796d351344b362ca95fe544cbc9bcf",
+    "validation": "1f7dab193f85f830365e74e41ca11636f94089b551c297ca46d00e102bc04780",
+    "review_manifest": "bd81d4d6ef8a2735a7db67cd8effef65efdb345bdaa077f6571a24e4c6cc39cf",
+    "review_validation": "2a5b6b90f4b2c35674824e7ecaf19e82f3e87c9d3681ef107ed046c11f8c7962",
+    "near_duplicate_audit": "3967acc3d2a969e85301f34b42595ca1064dc3c6d6eff99638c6be76845c08d4"
+  }
+}

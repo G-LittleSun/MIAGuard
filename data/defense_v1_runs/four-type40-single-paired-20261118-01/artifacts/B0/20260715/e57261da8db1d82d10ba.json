@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "The passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nMd. [Mask_1] Love of Outdoors and Adventure [Mask_2]  For  relatives and friends of Kirk [Mask_3], few [Mask_4] the Marine Corps corporal did [Mask_5] them.",
+    "contexts": [
+      "Sexson Agrees to  #36;50M Deal With Mariners (AP) AP - The Seattle Mariners added power to one of the weakest lineups in baseball Wednesday, agreeing to a  #36;50 million, four-year contract with free agent first baseman Richie Sexson.",
+      "Company Offers 'Space Memorial Services' (AP) AP - People interested in an out-of-this-world post-death experience can \"boldly go where no man has gone before\" with a space memorial service that blasts their ashes into space.",
+      "Will It Be Trash or Tribute? Bottle Stands on the Edge Tillie, the clown face that graced the front of Palace Amusements in Asbury Park for nearly 50 years, was preserved in June before the rest of the building was torn down.",
+      "O #39;Neal Wants More From Team MIAMI -- Shaquille O #39;Neal thinks Miami #39;s opponents are rising to the challenge of playing against him and Dwyane Wade. And right now, the Heat aren #39;t responding the way their center would prefer."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Sexson Agrees to  #36;50M Deal With Mariners (AP) AP - The Seattle Mariners added power to one of the weakest lineups in baseball Wednesday, agreeing to a  #36;50 million, four-year contract with free agent first baseman Richie Sexson.\"\n\"Company Offers 'Space Memorial Services' (AP) AP - People interested in an out-of-this-world post-death experience can \"boldly go where no man has gone before\" with a space memorial service that blasts their ashes into space.\"\n\"Will It Be Trash or Tribute? Bottle Stands on the Edge Tillie, the clown face that graced the front of Palace Amusements in Asbury Park for nearly 50 years, was preserved in June before the rest of the building was torn down.\"\n\"O #39;Neal Wants More From Team MIAMI -- Shaquille O #39;Neal thinks Miami #39;s opponents are rising to the challenge of playing against him and Dwyane Wade. And right now, the Heat aren #39;t responding the way their center would prefer.\"\n\nQuestion:\nThe passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nMd. [Mask_1] Love of Outdoors and Adventure [Mask_2]  For  relatives and friends of Kirk [Mask_3], few [Mask_4] the Marine Corps corporal did [Mask_5] them.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

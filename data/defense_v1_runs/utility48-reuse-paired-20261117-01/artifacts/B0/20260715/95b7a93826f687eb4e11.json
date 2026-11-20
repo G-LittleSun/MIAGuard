@@ -1,0 +1,13 @@
+{
+  "generation_input": {
+    "query": "Who clashed with protesters around the Pacific Rim summit?",
+    "contexts": [
+      "Protests Target Bush at Summit in Chile Riot police used water cannons and tear gas Friday to break up a demonstration by hundreds of rock-throwing protesters before more than 20,000 people marched to vent their anger at Pacific Rim leaders, particularly President Bush.",
+      "21 Pacific Rim Nations Hold Trade Talks Top government ministers from 21 Pacific Rim nations convened high-level talks on free trade and global security Wednesday, while police battled university students protesting the summit and a weekend visit by President Bush."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Protests Target Bush at Summit in Chile Riot police used water cannons and tear gas Friday to break up a demonstration by hundreds of rock-throwing protesters before more than 20,000 people marched to vent their anger at Pacific Rim leaders, particularly President Bush.\"\n\"21 Pacific Rim Nations Hold Trade Talks Top government ministers from 21 Pacific Rim nations convened high-level talks on free trade and global security Wednesday, while police battled university students protesting the summit and a weekend visit by President Bush.\"\n\nQuestion:\nWho clashed with protesters around the Pacific Rim summit?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

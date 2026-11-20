@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "1f52c230733c77d866cf0acc27dd939f425d01d89b8e2347dd31514d74b1bd05",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "bp_oneal",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "bp_oneal_1",
+      "session_id": "bp_oneal",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "The excerpt presents \"the first man to win an NBA championship and an Oscar\" as a goal that Shaquille O'Neal had in his life, rather than stating that he already accomplished both. This is indicated by the phrase \"Back when his goal in life was to become the first man to win an NBA championship and an Oscar,\" which suggests this was a future aspiration at the time of the statement, rather than a past achievement.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000406",
+        "ag_news_teacher_00000265",
+        "ag_news_teacher_00000407",
+        "ag_news_teacher_00000945"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000406",
+        "ag_news_teacher_00000265",
+        "ag_news_teacher_00000407",
+        "ag_news_teacher_00000945"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000406",
+            "ag_news_teacher_00000265",
+            "ag_news_teacher_00000407",
+            "ag_news_teacher_00000945"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000406",
+            "ag_news_teacher_00000265",
+            "ag_news_teacher_00000407",
+            "ag_news_teacher_00000945"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 2673.5045006498694,
+      "ledger_event": {
+        "request_id": "bp_oneal_1",
+        "session_id": "bp_oneal",
+        "input_sha256": "53245b06762603cb55b1f10ae2c96e3421c33c8b805bc137b83bae1c579730ff",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000406",
+          "ag_news_teacher_00000265",
+          "ag_news_teacher_00000407",
+          "ag_news_teacher_00000945"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000406",
+            "parent_doc_id": "ag_news_teacher_00000406",
+            "kind": "raw",
+            "score": 0.5801458358764648,
+            "text_sha256": "e7023c7a635eb27cc0b067a05dbae3c185e38b7f9050290cefd946b4879397f2"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000265",
+            "parent_doc_id": "ag_news_teacher_00000265",
+            "kind": "raw",
+            "score": 0.3935537040233612,
+            "text_sha256": "fbde2c66a8f3deae7d56acb9b5cf46d487ec4fb57ea7c034a2e4c2e09d1be408"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000407",
+            "parent_doc_id": "ag_news_teacher_00000407",
+            "kind": "raw",
+            "score": 0.39234060049057007,
+            "text_sha256": "1e7fe8f8142bb37c5072c785551decf8d5f23bbd586a891091aa93016fdfe1f9"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000945",
+            "parent_doc_id": "ag_news_teacher_00000945",
+            "kind": "raw",
+            "score": 0.33706507086753845,
+            "text_sha256": "2825564f03a729dc142732f3d3a0299858f0683371f3ce82f29be18cba67b49c"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "The excerpt presents \"the first man to win an NBA championship and an Oscar\" as a goal that Shaquille O'Neal had in his life, rather than stating that he already accomplished both. This is indicated by the phrase \"Back when his goal in life was to become the first man to win an NBA championship and an Oscar,\" which suggests this was a future aspiration at the time of the statement, rather than a past achievement.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794885005.666954,
+        "finished_at": 1794885008.340454
+      },
+      "generation_input_ref": "artifacts/B0/20260715/e667f601b3e3f62414d3.json",
+      "artifact_sha256": "bf3b7897d5cd201e0a7b4333d5800bf2e0d6644d216aba3db17ef0b3215a2835"
+    }
+  ]
+}

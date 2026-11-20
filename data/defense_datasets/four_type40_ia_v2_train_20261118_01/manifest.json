@@ -1,0 +1,62 @@
+{
+  "version_id": "four_type40_ia_v2_train_20261118_01",
+  "bank_id": "ag_news_queries_v2",
+  "split_id": "ag_news_threshold_v2",
+  "partition": "train",
+  "scope": "Fixed three-round IA stratum. Development evaluation only.",
+  "analysis_role": "engineering_only",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "expected_events": 240,
+  "target_counts": {
+    "('ia', 0)": 20,
+    "('ia', 1)": 20
+  },
+  "unique_documents": 40,
+  "source_event_independence_proven": false,
+  "selection": "Source-reviewed fixed records; prefer matching reference patterns, starting with three Yes; within each pattern prefer fewer answer-bearing premises, then stable document order. Exact duplicates excluded. Any unbalanced reference patterns are reported. Both methods use the same fixed sessions.",
+  "input_sha256": {
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\four_type40_preflight_20261118.json": "e063aa68a16779989f468c8d95cffc83b6698f5f8783419c55660db29d0e6b41",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\next_goal_ablation_v2_train_20261117_01\\experiment_spec.json": "ac215b49b2be10b5934e6f99bdf0a155ed2bb2b05fd975c2ebf8ce3317800085",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\next-goal-ablation-20261117-01\\run_manifest.json": "e140c792912fa7cf74dff8ece0d3a35a2703379ac64662540a319b157f1beca9",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\FOUR_TYPE40_SCORING_ZH.md": "d46b822e28dc56b5057bcd774f660d1506fb33f187ad0c73e2dde3a80932dc63",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\freeze_four_type40_single_round_20261118.py": "a954682f5d991b21e84f0883d0bbd1cc8fb6cf16a3ceea8650b01682d0807d5f",
+    "reports\\defense_v1\\T10\\four_type40_ia_review_packet_20261118.jsonl": "d62dacbc31f61c6e9ab656695b9f5881e8ec306701f969c1e397eea5fdb57fc4",
+    "reports\\defense_v1\\T10\\four_type40_ia_review_manifest_20261118.json": "14961308817527bcefd4763684ae1f9db2980eaf2c9f922697fdbeae3d8c30f0",
+    "reports\\defense_v1\\T10\\four_type40_ia_premise_audit_20261118.json": "16d86c9e3d805648e4ac31e2a7a2b36f4074a1a0cf26765ced959c7f922ebd02",
+    "reports\\defense_v1\\T10\\four_type40_ia_premise_alternative_20261118.json": "cb49133856449233ea91dab34ed4f3056e1ea459ebb76a026e3f6576fb272266",
+    "reports\\defense_v1\\T10\\four_type40_ia_review_batch1_20261118.json": "3aa0f246dfd41b4f9602af27452cca179e07fdbff1ba3baaffcd4503420c2e9d",
+    "reports\\defense_v1\\T10\\four_type40_ia_review_batch2_20261118.json": "2f26dbeed71538064aa02b4978e98317fa45f897177cac940af1237cffaf06b8",
+    "reports\\defense_v1\\T10\\four_type40_ia_review_first_half_20261118.json": "aadf6da305bccf7ac94ca692c3f69c0246c6e97ddf2413cc4e36f55689ea2c31",
+    "reports\\defense_v1\\T10\\four_type40_ia_review_second_half_20261118.json": "74bd96e0cba3a4f1ab2762e3e6788e557508601b121ef9fb7deb4caac5a26150",
+    "data\\defense_datasets\\multiturn_ia_session_v2_train_20261113_01\\manifest.json": "51940d20a9bd8647b51d2f08ee3bdc0c8d01b215486ffd524163f9212aab96df",
+    "data\\defense_datasets\\four_type40_single_v2_train_20261118_01\\manifest.json": "3ee6193b7afdf3759de0dab0ca09476f54c74d0a3ca833aadf75db3a1739676a",
+    "data\\defense_datasets\\four_type40_single_v2_train_20261118_01\\labels.jsonl": "af4f29103e3f3f9e034c4ecb1de8358da9071a0697579a61d3ff5f64fa6bf4fe",
+    "reports\\defense_v1\\T10\\FOUR_TYPE40_SCORING_ZH.md": "d46b822e28dc56b5057bcd774f660d1506fb33f187ad0c73e2dde3a80932dc63",
+    "reports\\defense_v1\\T10\\audit_freeze_four_type40_ia_20261118.py": "89a49c8b5cd8341bc3838d7fe25fcee7627d6b8126373a39f155d14f47e46a98"
+  },
+  "output_sha256": {
+    "experiment_spec.json": "4a7815fdd78f284105c4137df7bb2859243df2725b97731080d338cc6ecd4eb8",
+    "labels.jsonl": "c0959576756d7c345acbc68deecb6bcf6b6d480526555c1d693c13e8922f99ee",
+    "lineage.jsonl": "34b8b0f2fe6ebb71ea2e7b6a10245f168a19c22821ff59f61126d8a9cd0a6c59",
+    "requests.jsonl": "637ef8bf199082ab3671a00e1504f1e102cc545bef7325090fedb5d4993b174d",
+    "review_evidence.jsonl": "3b8ad548a41648648e6cc1b3aecb80121a4fa9c1f0c9baa3dfa5742a3e2b8f5a",
+    "selection_audit.json": "428a5b0663a8b4b3d280e71a80562e60fded834a84315fe0230d77036469681d"
+  },
+  "full_target_coverage": true,
+  "distinct_sessions": 40,
+  "rounds_per_session": 3,
+  "reference_pattern_counts_by_membership": {
+    "(0, ('yes', 'yes', 'yes'))": 13,
+    "(0, ('no', 'no', 'no'))": 1,
+    "(0, ('no', 'yes', 'yes'))": 1,
+    "(0, ('yes', 'no', 'no'))": 2,
+    "(0, ('yes', 'yes', 'no'))": 3,
+    "(1, ('yes', 'yes', 'yes'))": 9,
+    "(1, ('no', 'no', 'no'))": 1,
+    "(1, ('no', 'yes', 'yes'))": 1,
+    "(1, ('yes', 'no', 'no'))": 2,
+    "(1, ('yes', 'yes', 'no'))": 7
+  },
+  "shared_with_single_turn_documents": 27
+}

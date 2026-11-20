@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"Tanker #39;s hull was pierced twice US Coast Guard officials still have not determined what caused a Greek-owned tanker to leak 30,000 gallons of crude oil into the Delaware River Friday, but did reveal Monday \" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "Oil Losses Ease on Iraq Pipeline Attack (Reuters) Reuters - Oil prices rose on Friday, stemming five\\days of heavy losses as fresh sabotage attacks on Iraqi oil\\infrastructure renewed concern over the country's supplies,\\despite a peace deal in Najaf",
+      "US probe weighs on Tommy Hilfiger Shares sink as a federal grand jury continues its investigation into commission rates, tax benefits. CHICAGO (Reuters) - Shares of Tommy Hilfiger Corp.",
+      "Oil Rises to Record on Reduced Gulf of Mexico Output, Imports Crude oil in New York rose to a record \\$53.80 a barrel after the US said some production shutdowns in the Gulf of Mexico caused by Hurricane Ivan may last as long as six months.",
+      "Oil inventory rise less than forecast NEW YORK (CNN/Money) - US stockpiles of crude oil rose by 1.1 million barrels last week, the government reported Wednesday, coming in at half of what analysts had expected."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Oil Losses Ease on Iraq Pipeline Attack (Reuters) Reuters - Oil prices rose on Friday, stemming five\\days of heavy losses as fresh sabotage attacks on Iraqi oil\\infrastructure renewed concern over the country's supplies,\\despite a peace deal in Najaf\"\n\"US probe weighs on Tommy Hilfiger Shares sink as a federal grand jury continues its investigation into commission rates, tax benefits. CHICAGO (Reuters) - Shares of Tommy Hilfiger Corp.\"\n\"Oil Rises to Record on Reduced Gulf of Mexico Output, Imports Crude oil in New York rose to a record \\$53.80 a barrel after the US said some production shutdowns in the Gulf of Mexico caused by Hurricane Ivan may last as long as six months.\"\n\"Oil inventory rise less than forecast NEW YORK (CNN/Money) - US stockpiles of crude oil rose by 1.1 million barrels last week, the government reported Wednesday, coming in at half of what analysts had expected.\"\n\nQuestion:\nDoes this: \"Tanker #39;s hull was pierced twice US Coast Guard officials still have not determined what caused a Greek-owned tanker to leak 30,000 gallons of crude oil into the Delaware River Friday, but did reveal Monday \" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

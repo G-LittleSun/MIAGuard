@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Langer lashes out On a day made in heaven for......\" based on the Context.",
+    "contexts": [
+      "Discipline of writing helped Dallaire beat Rwanda demons that haunted him (Canadian Press) Canadian Press - OTTAWA (CP) - Romeo Dallaire has stepped back from the edge of the abyss.",
+      "Ooohs follow boos This was supposed to be a night to remember. For Greeks all over, this was going to be the highlight of the Olympics in Athens. Because this would have been the night that belonged to Kostas Kenteris.",
+      "Event of the Day -- Women #39;s beach volleyball Why you should watch: The athletes are impossibly tanned and fit, the setting couldn #39;t be more beautiful and the competition will be fierce.",
+      "Cloud of old memories do not blot Langer #39;s cup approach Millions of television viewers moved to the edge of their seats. Twenty three of the 24 players waited on tenterhooks, unable to influence the outcome."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Discipline of writing helped Dallaire beat Rwanda demons that haunted him (Canadian Press) Canadian Press - OTTAWA (CP) - Romeo Dallaire has stepped back from the edge of the abyss.\"\n\"Ooohs follow boos This was supposed to be a night to remember. For Greeks all over, this was going to be the highlight of the Olympics in Athens. Because this would have been the night that belonged to Kostas Kenteris.\"\n\"Event of the Day -- Women #39;s beach volleyball Why you should watch: The athletes are impossibly tanned and fit, the setting couldn #39;t be more beautiful and the competition will be fierce.\"\n\"Cloud of old memories do not blot Langer #39;s cup approach Millions of television viewers moved to the edge of their seats. Twenty three of the 24 players waited on tenterhooks, unable to influence the outcome.\"\n\nQuestion:\nComplete this sentence \"Langer lashes out On a day made in heaven for......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

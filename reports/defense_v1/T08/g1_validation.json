@@ -1,0 +1,16 @@
+{
+  "source": "reports/defense_v1/T08/g1_fake_chain.json",
+  "status": "PASSED",
+  "regression": "reports/defense_v1/T08/full-regression.txt",
+  "checks": {
+    "hide_retrieved_target": true,
+    "hide_delivered_only_safe": true,
+    "summary_raw_input_recorded": true,
+    "summary_delivery_transformed": true,
+    "failure_attempt_recorded": true,
+    "retry_idempotent": true,
+    "judge_precontrol_trace": true,
+    "label_isolation": true
+  },
+  "gate": "G1"
+}

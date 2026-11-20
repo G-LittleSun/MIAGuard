@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "date_bjt": "2026-10-31",
+  "scope": "Documentation reconciliation only; no new business-code implementation, dataset generation or defense experiment.",
+  "status": "passed",
+  "errors": [],
+  "document_count": 12,
+  "local_links_checked": 300,
+  "task_ids": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08",
+    "T09",
+    "T10",
+    "T11",
+    "T12",
+    "T13",
+    "T14",
+    "T15",
+    "T16",
+    "T17",
+    "T18"
+  ],
+  "task_states": {
+    "T01": "DONE",
+    "T02": "DONE",
+    "T03": "DONE",
+    "T04": "DONE",
+    "T05": "DONE",
+    "T06": "DONE",
+    "T07": "DONE",
+    "T08": "DONE",
+    "T09": "DONE",
+    "T10": "IN_PROGRESS",
+    "T11": "IN_PROGRESS",
+    "T12": "NOT_STARTED",
+    "T13": "NOT_STARTED",
+    "T14": "NOT_STARTED",
+    "T15": "NOT_STARTED",
+    "T16": "NOT_STARTED",
+    "T17": "NOT_STARTED",
+    "T18": "NOT_STARTED"
+  },
+  "t10_substeps": [
+    "T10-A",
+    "T10-B",
+    "T10-C",
+    "T10-D",
+    "T10-E"
+  ],
+  "next_task": "T10-C",
+  "gates": {
+    "G0": "PASSED",
+    "G1": "PASSED",
+    "G2": "NOT_RUN",
+    "G3": "NOT_RUN",
+    "G4": "NOT_RUN"
+  },
+  "plan_checkbox_counts": {
+    "T01": {
+      "checked": 4,
+      "unchecked": 0
+    },
+    "T02": {
+      "checked": 4,
+      "unchecked": 0
+    },
+    "T03": {
+      "checked": 4,
+      "unchecked": 0
+    },
+    "T04": {
+      "checked": 5,
+      "unchecked": 0
+    },
+    "T05": {
+      "checked": 5,
+      "unchecked": 0
+    },
+    "T06": {
+      "checked": 4,
+      "unchecked": 0
+    },
+    "T07": {
+      "checked": 4,
+      "unchecked": 0
+    },
+    "T08": {
+      "checked": 5,
+      "unchecked": 0
+    },
+    "T09": {
+      "checked": 4,
+      "unchecked": 0
+    },
+    "T10": {
+      "checked": 5,
+      "unchecked": 15
+    },
+    "T11": {
+      "checked": 3,
+      "unchecked": 5
+    },
+    "T12": {
+      "checked": 0,
+      "unchecked": 6
+    },
+    "T13": {
+      "checked": 0,
+      "unchecked": 4
+    },
+    "T14": {
+      "checked": 0,
+      "unchecked": 5
+    },
+    "T15": {
+      "checked": 0,
+      "unchecked": 5
+    },
+    "T16": {
+      "checked": 0,
+      "unchecked": 4
+    },
+    "T17": {
+      "checked": 0,
+      "unchecked": 4
+    },
+    "T18": {
+      "checked": 0,
+      "unchecked": 8
+    }
+  },
+  "source_checks": {
+    "candidate_artifact_hashes": 10,
+    "overlay_artifact_hashes": 4,
+    "review_file_hashes": 4,
+    "e00_query_only": 4,
+    "e00_fusion": 6
+  },
+  "command_checks": [
+    {
+      "command": "& 'D:\\ProgramData\\Anaconda3\\envs\\MIAGuard\\python.exe' scripts/run_defense_v1_benchmark.py --help",
+      "observed_exit_code": 0
+    },
+    {
+      "command": "& 'D:\\ProgramData\\Anaconda3\\envs\\MIAGuard\\python.exe' scripts/evaluate_defense_v1.py --help",
+      "observed_exit_code": 0
+    },
+    {
+      "command": "& 'D:\\ProgramData\\Anaconda3\\envs\\MIAGuard\\python.exe' scripts/build_defense_v1_dataset.py --help",
+      "observed_exit_code": 0
+    }
+  ],
+  "document_sha256": {
+    "AGENTS.md": "4898dd7870cb16163ee246bc7975525f7c5397b94f1d1877b77e7e5bada23954",
+    "README.md": "37084839c262ca919d8a734d6653b361d35214c5f5506932701d14a37feb0a99",
+    "docs/README.md": "cc8571aed8e24336068794a23afe8d2a7543580c0ab8e3ae624c0bd485b34b22",
+    "docs/PROJECT_STATUS_ZH.md": "5f98aaff757457029eef2b3c192efdb85d9e3baa1209906134fd60f1deb563fb",
+    "docs/DATA_CATALOG_ZH.md": "12446468b468ca29f1638f8dd3db008a01d0cb431b8b28e24edcb5e9b670ef55",
+    "docs/EXPERIMENT_INDEX_ZH.md": "dc533730acb408d1b372551b02f7e1c83cda85ffd9e462c5822a9d768b98ae86",
+    "docs/DEFENSE_PROGRESS_ZH.md": "d7efa0aab64e3e942caaa1475f33b8ccf1fc90ea3ed725ed88497016665023f3",
+    "docs/superpowers/plans/2026-10-22-defense-framework-implementation.md": "3643cc37ee21b9029255d75402535d9e0da2aeb1e230a0a7a6a820e059c7648d",
+    "docs/superpowers/specs/2026-10-22-defense-framework-design.md": "396cebc852d91b23725602a478f50bae9d836263535ee0b4c870c678ca5a7009",
+    "docs/DEFENSE_EXPERIMENT_PROTOCOL_ZH.md": "a99601f50cd2095c4991cfb794aa4513db535d6b5de838f290bb9ae7e78df575",
+    "docs/DEFENSE_ROADMAP_ZH.md": "1ebd637cfe7670c99190092c6c7f79f6dd9f47a97074e7af0e7e56abfe1dfba4",
+    "docs/DEFENSE_DEVELOPMENT_EXPERIMENT_RECOMMENDATIONS_ZH.md": "34ff1de34388760c76c3418d6ff7c89f62b168dc71543da1f7db7de27bbbbfab"
+  },
+  "source_sha256": {
+    "data/defense_v1_runs/e00-observe-20261022-01/comparison.json": "b00e0b61f8e9eb43baee9c07705401da43e239905b858db1c24857ffa4a0c387",
+    "reports/defense_v1/T08/g1_validation.json": "ebbc76a6f87cb2658837e1ab6b1c9844871bb037e3065a069429a001a0b23d6a",
+    "data/defense_datasets/defense_access_v1_candidate06/manifest.json": "359ed9f4b375a8a1f5a644f1c6815150f09f6ffdce86c3bc4e3fec3271498f27",
+    "reports/defense_v1/T10/review_validation_rev2_20261030.json": "ddc341ea3b0170a3c4ebc1657ab5cf958805707b71579f19e43590054fbe8ec5",
+    "data/defense_datasets/defense_access_v1_pilot_overlay_rev2_20261030/manifest.json": "fdd4ac7c685d7112e2828395c93512768806721fb8c1dba0fe99ebaeba85012c",
+    "data/defense_datasets/defense_access_v1_pilot_overlay_rev2_20261030/validation.json": "eb58dfd0d9e33ee8d6e8b8b8fc711b29c1ffd9d8646a155b61f0e7948232c958",
+    "reports/defense_v1/T11/fake_evaluation_v3.json": "6b9a0391dbcfa15225dc7c49d8e83880ef11eae212dbb7ac53cb1200f268b29f",
+    "scripts/run_defense_v1_benchmark.py": "57d917480765efa3d038b1626457068fe7a0d7029e882b097957151ea8aa1730",
+    "scripts/evaluate_defense_v1.py": "2e3c45312dc1a9b82ada5e975cd07cc00f5c7bd9fa94aec7046be38591799ce4",
+    "scripts/build_defense_v1_dataset.py": "ac1c518215538c32c0f94bf4e73427c2e477b4c59b947a68028b0788b434d17e",
+    "src/miaguard/defense_benchmark_live.py": "692d32233b2753bbfa2321e8d2c9de757f71c3eba55771b791915b3520af07c2"
+  },
+  "limitations": [
+    "Link/state/hash checks do not prove future implementation or semantic quality.",
+    "T10-C/D/E are not started; T11 formal evaluation, G2-G4 and E01-E07 are not complete.",
+    "The revised protocol's statistical rules are planned requirements, not implemented results."
+  ]
+}

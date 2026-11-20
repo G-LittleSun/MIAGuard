@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "The passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nTanker #39;s hull was [Mask_1] twice US Coast Guard officials still have not [Mask_2] what [Mask_3] a Greek-owned tanker to leak 30,000 [Mask_4] of crude oil into the [Mask_5] River Friday, but did reveal Monday ",
+    "contexts": [
+      "Tanker deal nears OK WASHINGTON - Legislation that would allow the Air Force to buy outright 100 new aerial refueling tankers was expected to be approved by the House on Friday, and a Washington state congressman said language in the bill would ensure the deal would involve ",
+      "Feds order airlines to divulge passenger details The requirement is part of a trial run of a computer system that's supposed to ID terrorists before they can board the plane.",
+      "Long-standing Math Puzzle May Have Been Solved ONE of the seven great unsolved mysteries of mathematics may have been solved by an eccentric Russian. Grigori  #39;Grisha #39; Perelman is an expert on Ricci flow.",
+      "Word mangled by unpatched security hole A highly critical and unpatched security hole in Microsoft #39;s ubiquitous Word software could be used to launch a denial of service attack and give system access."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Tanker deal nears OK WASHINGTON - Legislation that would allow the Air Force to buy outright 100 new aerial refueling tankers was expected to be approved by the House on Friday, and a Washington state congressman said language in the bill would ensure the deal would involve \"\n\"Feds order airlines to divulge passenger details The requirement is part of a trial run of a computer system that's supposed to ID terrorists before they can board the plane.\"\n\"Long-standing Math Puzzle May Have Been Solved ONE of the seven great unsolved mysteries of mathematics may have been solved by an eccentric Russian. Grigori  #39;Grisha #39; Perelman is an expert on Ricci flow.\"\n\"Word mangled by unpatched security hole A highly critical and unpatched security hole in Microsoft #39;s ubiquitous Word software could be used to launch a denial of service attack and give system access.\"\n\nQuestion:\nThe passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nTanker #39;s hull was [Mask_1] twice US Coast Guard officials still have not [Mask_2] what [Mask_3] a Greek-owned tanker to leak 30,000 [Mask_4] of crude oil into the [Mask_5] River Friday, but did reveal Monday \n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

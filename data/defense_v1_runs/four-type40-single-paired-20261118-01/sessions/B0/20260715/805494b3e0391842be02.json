@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "3e7b8f17823b2e885fb846c285761b92e68b47d9284f459e773271082971376a",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "q041",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "q041",
+      "session_id": "q041",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Aussie dollar reaches nine-month high On the cross rates it was at 60.1 euro cents, 81.29 Japanese yen, 42.17 pence sterling, and 1.105 New Zealand dollars.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000433",
+        "ag_news_teacher_00000238",
+        "ag_news_teacher_00000828",
+        "ag_news_teacher_00000849"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000433",
+        "ag_news_teacher_00000238",
+        "ag_news_teacher_00000828",
+        "ag_news_teacher_00000849"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000433",
+            "ag_news_teacher_00000238",
+            "ag_news_teacher_00000828",
+            "ag_news_teacher_00000849"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000433",
+            "ag_news_teacher_00000238",
+            "ag_news_teacher_00000828",
+            "ag_news_teacher_00000849"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1938.0860002711415,
+      "ledger_event": {
+        "request_id": "q041",
+        "session_id": "q041",
+        "input_sha256": "674719c940b75142bd86f31dddd53b6094b55e9b4498b152b5467812cafc9dda",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000433",
+          "ag_news_teacher_00000238",
+          "ag_news_teacher_00000828",
+          "ag_news_teacher_00000849"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000433",
+            "parent_doc_id": "ag_news_teacher_00000433",
+            "kind": "raw",
+            "score": 0.6072549819946289,
+            "text_sha256": "258023f831e8b7838594bf15b8ae6b555d28f8241225e58399a8137e9e9c2f22"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000238",
+            "parent_doc_id": "ag_news_teacher_00000238",
+            "kind": "raw",
+            "score": 0.3820514380931854,
+            "text_sha256": "cfdb735b57f8310e0e0e3303dda3c14af540ad8bfe60d6755392e93486fbde99"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000828",
+            "parent_doc_id": "ag_news_teacher_00000828",
+            "kind": "raw",
+            "score": 0.3525252938270569,
+            "text_sha256": "0de9afbf915031142fadcd9f844988e470df9eb4c280dd81d36a8fc14ccdbbc6"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000849",
+            "parent_doc_id": "ag_news_teacher_00000849",
+            "kind": "raw",
+            "score": 0.32410547137260437,
+            "text_sha256": "d53bc7694d849f57ec573a53397421b6d085a63f58c1acfa800f5e0ed7165860"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Aussie dollar reaches nine-month high On the cross rates it was at 60.1 euro cents, 81.29 Japanese yen, 42.17 pence sterling, and 1.105 New Zealand dollars.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795004518.0066698,
+        "finished_at": 1795004519.9446688
+      },
+      "generation_input_ref": "artifacts/B0/20260715/805494b3e0391842be02.json",
+      "artifact_sha256": "58c6f6cf39583c768097f6f7815fc12660ded09b6021209446481fbb0e7187e1"
+    }
+  ]
+}

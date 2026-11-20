@@ -1,0 +1,231 @@
+{
+  "analysis_role": "engineering_only",
+  "human_reviewed": false,
+  "audit_sha256": "8e34ed1b61987aa7025fa54772777d2c640a8b9fe16f6d0a7f901ae2c2fda0cf",
+  "definitions": {
+    "judge_triggered": "Frozen score meets threshold.",
+    "cue_override": "Candidate cue restricts a low-risk request.",
+    "effective_triggered": "Judge trigger OR candidate cue override.",
+    "type_matches_judge": "Offline traffic label appears in available judge predicted types; cues do not change judge output."
+  },
+  "limits": [
+    "Selected development requests and correlated turns; fractions are not general population estimates.",
+    "Effective F1 uses developer labels; benign intent is agent assessed, no human gold.",
+    "Query-only and fusion scores are reported separately; raw risk AUROC excludes cues and is not an MIA outcome."
+  ],
+  "methods": {
+    "B2": {
+      "expected": 47,
+      "observed": 47,
+      "unavailable_or_failed": 0,
+      "judge_score_auroc_by_source": {
+        "query_only": {
+          "n": 46,
+          "value": 0.7611607142857144
+        },
+        "fusion": {
+          "n": 1,
+          "value": null
+        }
+      },
+      "judge_score_auroc_scope": "Raw judge risk separately by query-only or fusion; not cue-adjusted.",
+      "effective_confusion": {
+        "tp": 20,
+        "fp": 3,
+        "tn": 12,
+        "fn": 12
+      },
+      "effective_f1": 0.7272727272727273,
+      "normal_trigger_fraction": 0.2,
+      "by_traffic": {
+        "benign": {
+          "observed": 15,
+          "judge_triggered": 3,
+          "cue_override": 0,
+          "effective_triggered": 3,
+          "type_matches_judge": 0,
+          "query_only": 14,
+          "fusion": 1
+        },
+        "direct_rag_mia": {
+          "observed": 8,
+          "judge_triggered": 2,
+          "cue_override": 0,
+          "effective_triggered": 2,
+          "type_matches_judge": 2,
+          "query_only": 8,
+          "fusion": 0
+        },
+        "ia": {
+          "observed": 8,
+          "judge_triggered": 4,
+          "cue_override": 0,
+          "effective_triggered": 4,
+          "type_matches_judge": 4,
+          "query_only": 8,
+          "fusion": 0
+        },
+        "masked_mia": {
+          "observed": 8,
+          "judge_triggered": 7,
+          "cue_override": 0,
+          "effective_triggered": 7,
+          "type_matches_judge": 7,
+          "query_only": 8,
+          "fusion": 0
+        },
+        "s2_mia": {
+          "observed": 8,
+          "judge_triggered": 7,
+          "cue_override": 0,
+          "effective_triggered": 7,
+          "type_matches_judge": 7,
+          "query_only": 8,
+          "fusion": 0
+        }
+      }
+    },
+    "B_TYPE_V2": {
+      "expected": 47,
+      "observed": 47,
+      "unavailable_or_failed": 0,
+      "judge_score_auroc_by_source": {
+        "query_only": {
+          "n": 46,
+          "value": 0.7611607142857144
+        },
+        "fusion": {
+          "n": 1,
+          "value": null
+        }
+      },
+      "judge_score_auroc_scope": "Raw judge risk separately by query-only or fusion; not cue-adjusted.",
+      "effective_confusion": {
+        "tp": 20,
+        "fp": 3,
+        "tn": 12,
+        "fn": 12
+      },
+      "effective_f1": 0.7272727272727273,
+      "normal_trigger_fraction": 0.2,
+      "by_traffic": {
+        "benign": {
+          "observed": 15,
+          "judge_triggered": 3,
+          "cue_override": 0,
+          "effective_triggered": 3,
+          "type_matches_judge": 0,
+          "query_only": 14,
+          "fusion": 1
+        },
+        "direct_rag_mia": {
+          "observed": 8,
+          "judge_triggered": 2,
+          "cue_override": 0,
+          "effective_triggered": 2,
+          "type_matches_judge": 2,
+          "query_only": 8,
+          "fusion": 0
+        },
+        "ia": {
+          "observed": 8,
+          "judge_triggered": 4,
+          "cue_override": 0,
+          "effective_triggered": 4,
+          "type_matches_judge": 4,
+          "query_only": 8,
+          "fusion": 0
+        },
+        "masked_mia": {
+          "observed": 8,
+          "judge_triggered": 7,
+          "cue_override": 0,
+          "effective_triggered": 7,
+          "type_matches_judge": 7,
+          "query_only": 8,
+          "fusion": 0
+        },
+        "s2_mia": {
+          "observed": 8,
+          "judge_triggered": 7,
+          "cue_override": 0,
+          "effective_triggered": 7,
+          "type_matches_judge": 7,
+          "query_only": 8,
+          "fusion": 0
+        }
+      }
+    },
+    "B_NEXT_GOAL": {
+      "expected": 47,
+      "observed": 47,
+      "unavailable_or_failed": 0,
+      "judge_score_auroc_by_source": {
+        "query_only": {
+          "n": 46,
+          "value": 0.7611607142857144
+        },
+        "fusion": {
+          "n": 1,
+          "value": null
+        }
+      },
+      "judge_score_auroc_scope": "Raw judge risk separately by query-only or fusion; not cue-adjusted.",
+      "effective_confusion": {
+        "tp": 31,
+        "fp": 3,
+        "tn": 12,
+        "fn": 1
+      },
+      "effective_f1": 0.9393939393939394,
+      "normal_trigger_fraction": 0.2,
+      "by_traffic": {
+        "benign": {
+          "observed": 15,
+          "judge_triggered": 3,
+          "cue_override": 0,
+          "effective_triggered": 3,
+          "type_matches_judge": 0,
+          "query_only": 14,
+          "fusion": 1
+        },
+        "direct_rag_mia": {
+          "observed": 8,
+          "judge_triggered": 2,
+          "cue_override": 6,
+          "effective_triggered": 8,
+          "type_matches_judge": 2,
+          "query_only": 8,
+          "fusion": 0
+        },
+        "ia": {
+          "observed": 8,
+          "judge_triggered": 4,
+          "cue_override": 4,
+          "effective_triggered": 8,
+          "type_matches_judge": 4,
+          "query_only": 8,
+          "fusion": 0
+        },
+        "masked_mia": {
+          "observed": 8,
+          "judge_triggered": 7,
+          "cue_override": 1,
+          "effective_triggered": 8,
+          "type_matches_judge": 7,
+          "query_only": 8,
+          "fusion": 0
+        },
+        "s2_mia": {
+          "observed": 8,
+          "judge_triggered": 7,
+          "cue_override": 0,
+          "effective_triggered": 7,
+          "type_matches_judge": 7,
+          "query_only": 8,
+          "fusion": 0
+        }
+      }
+    }
+  }
+}

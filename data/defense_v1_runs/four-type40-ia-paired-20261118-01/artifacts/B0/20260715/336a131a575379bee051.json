@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Macromedia announces Captivate for recording onscreen activity and building demos and simulations. Was the software previously known as RoboDemo? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Macromedia introduces publishing tool for eBay Macromedia Inc. plans to announce Monday a special version of its Contribute Web publishing desktop application designed to automate and simplify the creation and modification of eBay Inc.",
+      "Microsoft focuses on camera connections Software giant announces new tools for plugging digital cameras into PCs.",
+      "PalmOne, Microsoft Set E-Mail Software Pact (Reuters) Reuters - PalmOne Inc. , the leading\\maker of handheld computers on Tuesday said it licensed\\Microsoft Corp.  software that enables secure delivery\\of corporate e-mail to portable devices.",
+      "Nose replaces mouse to surf web Dmitry Gorodnichy, an inventor from the Institute of Information Technology in Ottawa, has developed a computer navigation system that relies on the movements of a user #39;s nose to direct a cursor, New Scientist has reported."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Macromedia introduces publishing tool for eBay Macromedia Inc. plans to announce Monday a special version of its Contribute Web publishing desktop application designed to automate and simplify the creation and modification of eBay Inc.\"\n\"Microsoft focuses on camera connections Software giant announces new tools for plugging digital cameras into PCs.\"\n\"PalmOne, Microsoft Set E-Mail Software Pact (Reuters) Reuters - PalmOne Inc. , the leading\\maker of handheld computers on Tuesday said it licensed\\Microsoft Corp.  software that enables secure delivery\\of corporate e-mail to portable devices.\"\n\"Nose replaces mouse to surf web Dmitry Gorodnichy, an inventor from the Institute of Information Technology in Ottawa, has developed a computer navigation system that relies on the movements of a user #39;s nose to direct a cursor, New Scientist has reported.\"\n\nQuestion:\nI am inquiring about a Macromedia announces Captivate for recording onscreen activity and building demos and simulations. Was the software previously known as RoboDemo? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

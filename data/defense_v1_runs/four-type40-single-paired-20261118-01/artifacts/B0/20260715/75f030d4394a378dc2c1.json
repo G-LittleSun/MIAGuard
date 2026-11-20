@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"C.I.A. Churning Continues as 2 Top Officials Resign The head......\" based on the Context.",
+    "contexts": [
+      "C.I.A. Churning Continues as 2 Top Officials Resign The head of the C.I.A.'s clandestine service and his deputy resigned their posts after clashes with advisers to Porter J. Goss.",
+      "Top Marsh exec resigns Jeffrey W. Greenberg yesterday resigned as chairman and chief executive of embattled Marsh  amp; McLennan Cos. and said that the firm will announce  quot;significant reforms quot; today, a move that avoids criminal prosecution of the insurance broker.",
+      "NASA chief resigns, cites college costs CAPE CANAVERAL, Fla. -- The departure of NASA #39;s boss comes at a challenging time as the space agency struggles to ditch the mentality that lost Columbia and get its remaining shuttles flying again, while aiming for the moon and Mars.",
+      "California #39;s finance director resigns after 11 months A decision by the state #39;s tightfisted finance director to step down has fueled speculation inside the Capitol about a possible shift on spending issues by Gov."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"C.I.A. Churning Continues as 2 Top Officials Resign The head of the C.I.A.'s clandestine service and his deputy resigned their posts after clashes with advisers to Porter J. Goss.\"\n\"Top Marsh exec resigns Jeffrey W. Greenberg yesterday resigned as chairman and chief executive of embattled Marsh  amp; McLennan Cos. and said that the firm will announce  quot;significant reforms quot; today, a move that avoids criminal prosecution of the insurance broker.\"\n\"NASA chief resigns, cites college costs CAPE CANAVERAL, Fla. -- The departure of NASA #39;s boss comes at a challenging time as the space agency struggles to ditch the mentality that lost Columbia and get its remaining shuttles flying again, while aiming for the moon and Mars.\"\n\"California #39;s finance director resigns after 11 months A decision by the state #39;s tightfisted finance director to step down has fueled speculation inside the Capitol about a possible shift on spending issues by Gov.\"\n\nQuestion:\nComplete this sentence \"C.I.A. Churning Continues as 2 Top Officials Resign The head......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

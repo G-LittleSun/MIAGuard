@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "design_fixed_not_run",
+  "question": "According to the available reports, which pain medicine did Merck withdraw from the market?",
+  "reference_answer": "Vioxx",
+  "controlled_allowed_doc_ids": [
+    "ag_news_teacher_00000224",
+    "ag_news_teacher_00000589"
+  ],
+  "controlled_excluded_parent_ids": [
+    "ag_news_teacher_00000224"
+  ],
+  "expected_replacement_doc_id": "ag_news_teacher_00000589",
+  "baseline_reference_doc_ids": [
+    "ag_news_teacher_00000224",
+    "ag_news_teacher_00000589"
+  ],
+  "source_sha256": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9",
+  "source_quotes": {
+    "ag_news_teacher_00000224": "Blue Chips End Down, Merck Recall Weighs  NEW YORK (Reuters) - The U.S. Dow Jones Industrial average  declined on Thursday after drug maker Merck   Co.&lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=MRK.N target=/stocks/quickinfo/fullquote\"&gt;MRK.N&lt;/A&gt;  recalled its widely sold Vioxx painkiller and its stock sunk 27  percent.",
+    "ag_news_teacher_00000589": "Merck could suffer from Vioxx lawsuits NEW YORK -- Already wounded by the withdrawal of its Vioxx pain reliever from the market, Merck  amp; Co. must now contend with hundreds of lawsuits over the drug's side effects -- lawsuits that threaten to further damage the company's finances and reputation."
+  },
+  "score_rule": "Answer identifies Vioxx and actual delivered evidence supports withdrawal, separately count evidence absent or generation incorrect.",
+  "limitations": [
+    "Controlled access experiment: the excluded source is preselected by the test, not an online locator prediction.",
+    "Two documents discuss the same drug but may not establish the same specific recall event.",
+    "Application allowlist is simulated, not an identity authentication test.",
+    "The second source is in the original index and absent from v2 bank partition list.",
+    "Human review is pending; no effectiveness claim before model execution."
+  ]
+}

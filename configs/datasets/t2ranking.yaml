@@ -1,0 +1,8 @@
+dataset_id: t2ranking
+adapter: t2ranking_existing_jsonl
+descriptor: DataSet/T2Ranking/dataset.json
+normalized_documents_dir: data/processed/t2ranking/documents
+source_files:
+  target_member: data/processed/documents/member_docs.jsonl
+  target_nonmember: data/processed/documents/nonmember_docs.jsonl
+destination_files: {}

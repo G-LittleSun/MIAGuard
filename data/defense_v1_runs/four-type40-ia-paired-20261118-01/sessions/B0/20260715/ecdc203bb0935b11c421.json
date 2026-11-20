@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00000236",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q028",
+      "session_id": "ia_ag_news_teacher_00000236",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe context mentions that Troy Polamalu won't say if Carson Palmer owes him money from an unpaid dinner bill but does not specify the amount. Therefore, the information regarding whether a specific amount was mentioned is unknown based on the provided context.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000236",
+        "ag_news_teacher_00000286",
+        "ag_news_teacher_00000622",
+        "ag_news_teacher_00000420"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000236",
+        "ag_news_teacher_00000286",
+        "ag_news_teacher_00000622",
+        "ag_news_teacher_00000420"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000236",
+            "ag_news_teacher_00000286",
+            "ag_news_teacher_00000622",
+            "ag_news_teacher_00000420"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000236",
+            "ag_news_teacher_00000286",
+            "ag_news_teacher_00000622",
+            "ag_news_teacher_00000420"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1600.3661006689072,
+      "ledger_event": {
+        "request_id": "q028",
+        "session_id": "ia_ag_news_teacher_00000236",
+        "input_sha256": "c36b85bd529e52f5475f5fc61658e3d84af7407c49aba8fbcca98208f6e98864",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000236",
+          "ag_news_teacher_00000286",
+          "ag_news_teacher_00000622",
+          "ag_news_teacher_00000420"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000236",
+            "parent_doc_id": "ag_news_teacher_00000236",
+            "kind": "raw",
+            "score": 0.6822737455368042,
+            "text_sha256": "91377d35382d6ebecb4ad8c6b0217150aa1a8c32b383ab69cc0541a8cef855bf"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000286",
+            "parent_doc_id": "ag_news_teacher_00000286",
+            "kind": "raw",
+            "score": 0.3480731248855591,
+            "text_sha256": "dab5ee7eb6d6a02d928f55dae5bbf71bfd0a6c65a8066794617eabf45fe035bb"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000622",
+            "parent_doc_id": "ag_news_teacher_00000622",
+            "kind": "raw",
+            "score": 0.3387664556503296,
+            "text_sha256": "9cc81e27c4feb32ba311d8bac72327838217f123e62f2980169eb208484ce3e1"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000420",
+            "parent_doc_id": "ag_news_teacher_00000420",
+            "kind": "raw",
+            "score": 0.28765004873275757,
+            "text_sha256": "5b619b8d6422a47a7ef615da165f1d9280e6641296676455591732d047948108"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe context mentions that Troy Polamalu won't say if Carson Palmer owes him money from an unpaid dinner bill but does not specify the amount. Therefore, the information regarding whether a specific amount was mentioned is unknown based on the provided context.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006802.1453226,
+        "finished_at": 1795006803.7458224
+      },
+      "generation_input_ref": "artifacts/B0/20260715/1d06c2ab6b728f1f34a1.json",
+      "artifact_sha256": "10ae6d00bb2f3a99ca69b0d96b74f788266d0327fe0cba66930de9058f09e0bd"
+    },
+    {
+      "request_id": "q029",
+      "session_id": "ia_ag_news_teacher_00000236",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe context mentions that Troy Polamalu won't say if Carson Palmer snored loudly, but it does not provide information about any other loud noises Palmer might have made. Therefore, based on the given information, the answer is unknown.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000236",
+        "ag_news_teacher_00000286",
+        "ag_news_teacher_00000021",
+        "ag_news_teacher_00000088"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000236",
+        "ag_news_teacher_00000286",
+        "ag_news_teacher_00000021",
+        "ag_news_teacher_00000088"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000236",
+            "ag_news_teacher_00000286",
+            "ag_news_teacher_00000021",
+            "ag_news_teacher_00000088"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000236",
+            "ag_news_teacher_00000286",
+            "ag_news_teacher_00000021",
+            "ag_news_teacher_00000088"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1575.6521001458168,
+      "ledger_event": {
+        "request_id": "q029",
+        "session_id": "ia_ag_news_teacher_00000236",
+        "input_sha256": "0b0dc3ef2e001fbdb48a98198b7b39aacb1d73e0ff5fa996fa58861f8b38d429",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000236",
+          "ag_news_teacher_00000286",
+          "ag_news_teacher_00000021",
+          "ag_news_teacher_00000088"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000236",
+            "parent_doc_id": "ag_news_teacher_00000236",
+            "kind": "raw",
+            "score": 0.7589306235313416,
+            "text_sha256": "91377d35382d6ebecb4ad8c6b0217150aa1a8c32b383ab69cc0541a8cef855bf"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000286",
+            "parent_doc_id": "ag_news_teacher_00000286",
+            "kind": "raw",
+            "score": 0.35639074444770813,
+            "text_sha256": "dab5ee7eb6d6a02d928f55dae5bbf71bfd0a6c65a8066794617eabf45fe035bb"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000021",
+            "parent_doc_id": "ag_news_teacher_00000021",
+            "kind": "raw",
+            "score": 0.3086785078048706,
+            "text_sha256": "8f70a7b8e42c797477bc86d5169cc20b894ad460599851837a095811510621ea"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000088",
+            "parent_doc_id": "ag_news_teacher_00000088",
+            "kind": "raw",
+            "score": 0.28289416432380676,
+            "text_sha256": "e2da009b17f9cc643370dbb78befa402bc46eebf4d2197b69e535a5d990daac5"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe context mentions that Troy Polamalu won't say if Carson Palmer snored loudly, but it does not provide information about any other loud noises Palmer might have made. Therefore, based on the given information, the answer is unknown.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006803.7513225,
+        "finished_at": 1795006805.326823
+      },
+      "generation_input_ref": "artifacts/B0/20260715/f39fe7c461b1530df98a.json",
+      "artifact_sha256": "814e49109e1e2c1647e62a561d622ab19a63b38bd9efc9d196d047b2aaf4c596"
+    },
+    {
+      "request_id": "q030",
+      "session_id": "ia_ag_news_teacher_00000236",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000236",
+        "ag_news_teacher_00000286",
+        "ag_news_teacher_00000021",
+        "ag_news_teacher_00000622"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000236",
+        "ag_news_teacher_00000286",
+        "ag_news_teacher_00000021",
+        "ag_news_teacher_00000622"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000236",
+            "ag_news_teacher_00000286",
+            "ag_news_teacher_00000021",
+            "ag_news_teacher_00000622"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000236",
+            "ag_news_teacher_00000286",
+            "ag_news_teacher_00000021",
+            "ag_news_teacher_00000622"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 134.88580007106066,
+      "ledger_event": {
+        "request_id": "q030",
+        "session_id": "ia_ag_news_teacher_00000236",
+        "input_sha256": "1a5d507193b591bc2396b56a8571495c32f2f06e04382b33e5af67bc18d8babc",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000236",
+          "ag_news_teacher_00000286",
+          "ag_news_teacher_00000021",
+          "ag_news_teacher_00000622"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000236",
+            "parent_doc_id": "ag_news_teacher_00000236",
+            "kind": "raw",
+            "score": 0.7735654711723328,
+            "text_sha256": "91377d35382d6ebecb4ad8c6b0217150aa1a8c32b383ab69cc0541a8cef855bf"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000286",
+            "parent_doc_id": "ag_news_teacher_00000286",
+            "kind": "raw",
+            "score": 0.37193724513053894,
+            "text_sha256": "dab5ee7eb6d6a02d928f55dae5bbf71bfd0a6c65a8066794617eabf45fe035bb"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000021",
+            "parent_doc_id": "ag_news_teacher_00000021",
+            "kind": "raw",
+            "score": 0.33019718527793884,
+            "text_sha256": "8f70a7b8e42c797477bc86d5169cc20b894ad460599851837a095811510621ea"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000622",
+            "parent_doc_id": "ag_news_teacher_00000622",
+            "kind": "raw",
+            "score": 0.32008931040763855,
+            "text_sha256": "9cc81e27c4feb32ba311d8bac72327838217f123e62f2980169eb208484ce3e1"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006805.333824,
+        "finished_at": 1795006805.4688225
+      },
+      "generation_input_ref": "artifacts/B0/20260715/84015f7d7a4aff12d347.json",
+      "artifact_sha256": "a014fa8f8780187f99b739626168fc5b37cb5eeded68e893c74aeca10512b82a"
+    }
+  ]
+}

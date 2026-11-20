@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Phelps Eases Back Into Pool at Short Course Meet INDIANAPOLIS......\" based on the Context.",
+    "contexts": [
+      "Sorting Out 'Mess' After examining film of Saturday's game, Maryland coaches pinpointed a series of lapses that Coach Ralph Friedgen summed up as \"a mess.\"",
+      "Hitting back Why does Patriots safety Rodney Harrison, a thoughtful, good-natured person off the field, play football with enough ferocity and virulence to make you wonder whether he got a hold of Dr. Jekyll's formula? Blame the people in his life -- coaches, opponents, college recruiters -- who he felt needed convincing that he was not meant to fit their concept of ...",
+      "Men #39;s 400 a sweep for the US ATHENS, Greece - As Bruce Springsteen #39;s  quot;Born in the USA quot; blared over the Olympic Stadium loudspeaker Monday night, three athletes in red, white and blue began a slow victory lap.",
+      "Company Offers 'Space Memorial Services' (AP) AP - People interested in an out-of-this-world post-death experience can \"boldly go where no man has gone before\" with a space memorial service that blasts their ashes into space."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Sorting Out 'Mess' After examining film of Saturday's game, Maryland coaches pinpointed a series of lapses that Coach Ralph Friedgen summed up as \"a mess.\"\"\n\"Hitting back Why does Patriots safety Rodney Harrison, a thoughtful, good-natured person off the field, play football with enough ferocity and virulence to make you wonder whether he got a hold of Dr. Jekyll's formula? Blame the people in his life -- coaches, opponents, college recruiters -- who he felt needed convincing that he was not meant to fit their concept of ...\"\n\"Men #39;s 400 a sweep for the US ATHENS, Greece - As Bruce Springsteen #39;s  quot;Born in the USA quot; blared over the Olympic Stadium loudspeaker Monday night, three athletes in red, white and blue began a slow victory lap.\"\n\"Company Offers 'Space Memorial Services' (AP) AP - People interested in an out-of-this-world post-death experience can \"boldly go where no man has gone before\" with a space memorial service that blasts their ashes into space.\"\n\nQuestion:\nComplete this sentence \"Phelps Eases Back Into Pool at Short Course Meet INDIANAPOLIS......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

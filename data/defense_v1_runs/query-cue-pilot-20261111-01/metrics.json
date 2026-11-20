@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-query-cue-pilot",
+  "run_id": "query-cue-pilot-20261111-01",
+  "identity_sha256": "216b73626c0ae1e45c3d8b88456a60f3535ec6caeeb2dc958b74b3ad964239a1",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 10,
+  "completed": 10,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 10,
+  "method_count": 1,
+  "attack_target_count": 6,
+  "benign_request_count": 4
+}

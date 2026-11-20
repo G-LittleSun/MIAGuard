@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Martha Stewart getting a daily syndicated show after prison. Does Martha Stewart's show have a fixed duration of 1 hour? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Nun enjoys prison meals with Martha DENVER - The food at the Federal Corrections Camp in Alderson, W.Va., apparently is nothing to write home about - unless one is eating it with Martha Stewart.",
+      "Panel Moves Against Spyware, Net Piracy People who illegally share copyrighted music and movies over the Internet could be jailed for up to five years under a bill approved by a powerful congressional panel Wednesday.\\&lt;FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\"\\ color=\"#666666\"&gt;&lt;B&gt;-washingtonpost.com&lt;/B&gt;&lt;/FONT&gt;",
+      "No progress in Sun-Times labor talks Negotiations to avoid a strike by union journalists at the Chicago Sun-Times are heading into overtime. With the tabloids labor agreement set to expire tomorrow, labor and management appear no closer to a deal than they were Sept.",
+      "Ortiz keeps Red Sox alive with timely home run in Game 4 10:12 pm: This is it. If the Red Sox are ever going to do something, it #39;s got to be now. It #39;s the bottom of the fifth inning in Game 4. Two outs."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Nun enjoys prison meals with Martha DENVER - The food at the Federal Corrections Camp in Alderson, W.Va., apparently is nothing to write home about - unless one is eating it with Martha Stewart.\"\n\"Panel Moves Against Spyware, Net Piracy People who illegally share copyrighted music and movies over the Internet could be jailed for up to five years under a bill approved by a powerful congressional panel Wednesday.\\&lt;FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\"\\ color=\"#666666\"&gt;&lt;B&gt;-washingtonpost.com&lt;/B&gt;&lt;/FONT&gt;\"\n\"No progress in Sun-Times labor talks Negotiations to avoid a strike by union journalists at the Chicago Sun-Times are heading into overtime. With the tabloids labor agreement set to expire tomorrow, labor and management appear no closer to a deal than they were Sept.\"\n\"Ortiz keeps Red Sox alive with timely home run in Game 4 10:12 pm: This is it. If the Red Sox are ever going to do something, it #39;s got to be now. It #39;s the bottom of the fifth inning in Game 4. Two outs.\"\n\nQuestion:\nI am inquiring about a Martha Stewart getting a daily syndicated show after prison. Does Martha Stewart's show have a fixed duration of 1 hour? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "The passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nNBC Gives Martha Stewart an [Mask_1] Show Martha Stewart will [Mask_2] an hour-long, [Mask_3] syndicated show with a live [Mask_4] when she gets out of prison, her [Mask_5] said today.",
+    "contexts": [
+      "Will It Be Trash or Tribute? Bottle Stands on the Edge Tillie, the clown face that graced the front of Palace Amusements in Asbury Park for nearly 50 years, was preserved in June before the rest of the building was torn down.",
+      "Behind the K-Mart-Sears Deal Description: NPR #39;s Liane Hansen speaks with retail analyst Lois Huff about last week #39;s announcement of warehouse giant K-Mart #39;s intent to purchase the aging department store Sears.",
+      "Sexson Agrees to  #36;50M Deal With Mariners (AP) AP - The Seattle Mariners added power to one of the weakest lineups in baseball Wednesday, agreeing to a  #36;50 million, four-year contract with free agent first baseman Richie Sexson.",
+      "Nun enjoys prison meals with Martha DENVER - The food at the Federal Corrections Camp in Alderson, W.Va., apparently is nothing to write home about - unless one is eating it with Martha Stewart."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Will It Be Trash or Tribute? Bottle Stands on the Edge Tillie, the clown face that graced the front of Palace Amusements in Asbury Park for nearly 50 years, was preserved in June before the rest of the building was torn down.\"\n\"Behind the K-Mart-Sears Deal Description: NPR #39;s Liane Hansen speaks with retail analyst Lois Huff about last week #39;s announcement of warehouse giant K-Mart #39;s intent to purchase the aging department store Sears.\"\n\"Sexson Agrees to  #36;50M Deal With Mariners (AP) AP - The Seattle Mariners added power to one of the weakest lineups in baseball Wednesday, agreeing to a  #36;50 million, four-year contract with free agent first baseman Richie Sexson.\"\n\"Nun enjoys prison meals with Martha DENVER - The food at the Federal Corrections Camp in Alderson, W.Va., apparently is nothing to write home about - unless one is eating it with Martha Stewart.\"\n\nQuestion:\nThe passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nNBC Gives Martha Stewart an [Mask_1] Show Martha Stewart will [Mask_2] an hour-long, [Mask_3] syndicated show with a live [Mask_4] when she gets out of prison, her [Mask_5] said today.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "abe3e419f1e77b1091768301cf86adfaa01f67c74f091be842a81f1bfc7b0ff6",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "fs_44e5fd15f78b2948cbcee643",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "fp_44e5fd15f78b2948cbcee643",
+      "session_id": "fs_44e5fd15f78b2948cbcee643",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "The new AI system will enable NASA's planetary rovers to be much more self-reliant and capable of making basic decisions during a mission.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000618",
+        "ag_news_teacher_00000910"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000618",
+        "ag_news_teacher_00000910"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000470",
+            "ag_news_teacher_00000618",
+            "ag_news_teacher_00000910"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000470",
+            "ag_news_teacher_00000618",
+            "ag_news_teacher_00000910"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1114.1623007133603,
+      "ledger_event": {
+        "request_id": "fp_44e5fd15f78b2948cbcee643",
+        "session_id": "fs_44e5fd15f78b2948cbcee643",
+        "input_sha256": "56fc2a19d09bea92c71b313c977c24fc5cd13593a143899f86c1f08dc0d2c7f5",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000149",
+          "ag_news_teacher_00000470",
+          "ag_news_teacher_00000618",
+          "ag_news_teacher_00000910"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000149",
+            "parent_doc_id": "ag_news_teacher_00000149",
+            "kind": "raw",
+            "score": 0.8014031052589417,
+            "text_sha256": "95c627355672d7db756b82153bffa5c7ec69b5bac2a6cb761a51614f749091b5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000470",
+            "parent_doc_id": "ag_news_teacher_00000470",
+            "kind": "raw",
+            "score": 0.3487538695335388,
+            "text_sha256": "9cec78befa3c65c68b22ae82d2f399ba546a3daceaa033046bc194de6f4851c5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000618",
+            "parent_doc_id": "ag_news_teacher_00000618",
+            "kind": "raw",
+            "score": 0.3142978549003601,
+            "text_sha256": "ae6172e8f5542db11da1f11316efbec899e1385e913032ee7a87eb91042adaf5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000910",
+            "parent_doc_id": "ag_news_teacher_00000910",
+            "kind": "raw",
+            "score": 0.2928168773651123,
+            "text_sha256": "0b00b8428008b710e7b7127ed256fab6f381b0cd2f298eae102206aacfcc9029"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "The new AI system will enable NASA's planetary rovers to be much more self-reliant and capable of making basic decisions during a mission.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1793847112.230039,
+        "finished_at": 1793847113.3440385
+      },
+      "generation_input_ref": "artifacts/B0/20260715/f5a32c55d012cd47300b.json",
+      "artifact_sha256": "be214796c1c24e24c649bb13c902e8cea33bb1b89dbd96d66e23fc1c788702a4"
+    }
+  ]
+}

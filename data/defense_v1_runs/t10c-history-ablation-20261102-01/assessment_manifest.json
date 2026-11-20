@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "reviewer_kind": "codex_agent",
+  "human_reviewed": false,
+  "source_run_manifest_sha256": "e10347711338d7a0f09dca6c83f3711ea104b6b9e08be9ddbfd7cc72bb29c5f0",
+  "source_events_sha256": "08f072736a621d82ed85371b0cc2f52ce245222f6d2f90172cbaf21d8ac0d17c",
+  "reviewer_script_sha256": "8f3e1537cc8f4c71e2b4cf3e3c69517190ca49a287305839c53214ac6c02c8a7",
+  "output_sha256": {
+    "agent_adjudication.jsonl": "36b7ca7f9e006fcc95f606fbff2af4a60f692f2f52aeb8f3f0a866ea9f420e67",
+    "agent_diagnostic_summary.json": "82d92836c9055d4549bbcf4eb97e0ea9b288c23b779e689b6b98d5c18ca667f6"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "hide": {
+    "request_id": "r-hide",
+    "session_id": "s-hide",
+    "input_sha256": "04c8b456acdc0c94f789d0536d21d39351c1ed74a7f7c9794ac3ccbae2ae345e",
+    "status": "complete",
+    "retrieved_doc_ids": [
+      "target",
+      "safe"
+    ],
+    "transform_input_evidence": [],
+    "delivered_evidence": [
+      {
+        "doc_id": "safe",
+        "parent_doc_id": "safe",
+        "kind": "raw",
+        "score": 0.9,
+        "text_sha256": "13e80838918703e9515a73c6e77a9c997da1f4800cac2a2eaf2fc77a8ec95120"
+      }
+    ],
+    "delivered_exposure": "raw",
+    "delivery_attempted": true,
+    "response": "safe answer",
+    "failure_reason": null,
+    "referenced_parent_ids": [],
+    "created_at": 1792679686.5671058,
+    "finished_at": 1792679686.5671058
+  },
+  "summary": {
+    "request_id": "r-summary",
+    "session_id": "s-summary",
+    "input_sha256": "3df1a6e9fc84b1a9805967c9200bdf1dd26d6266d57aa673c6ae5850c64429a5",
+    "status": "complete",
+    "retrieved_doc_ids": [
+      "target",
+      "safe"
+    ],
+    "transform_input_evidence": [
+      {
+        "doc_id": "target",
+        "parent_doc_id": "target",
+        "kind": "raw",
+        "score": 1.0,
+        "text_sha256": "2334b8e625186c03f61cc07f0caf5a91dd34b9ccd83aec83d95cb76890d2cb52"
+      },
+      {
+        "doc_id": "safe",
+        "parent_doc_id": "safe",
+        "kind": "raw",
+        "score": 0.9,
+        "text_sha256": "13e80838918703e9515a73c6e77a9c997da1f4800cac2a2eaf2fc77a8ec95120"
+      }
+    ],
+    "delivered_evidence": [
+      {
+        "doc_id": "summary:7846cbaefba1eca6",
+        "parent_doc_id": "aggregate",
+        "kind": "summary",
+        "score": 1.0,
+        "text_sha256": "d9ac3aba61917ab3206b2444fb868b01376c42982d3539b67b6db70e31664e72"
+      }
+    ],
+    "delivered_exposure": "transformed",
+    "delivery_attempted": true,
+    "response": "general answer",
+    "failure_reason": null,
+    "referenced_parent_ids": [],
+    "created_at": 1792679686.5686042,
+    "finished_at": 1792679686.5686042
+  },
+  "failed": {
+    "request_id": "r-failed",
+    "session_id": "s-failed",
+    "input_sha256": "66ea7861a067e4de26de8c38aec95ee97acb3ce5703918235e60a41932da8efe",
+    "status": "failed",
+    "retrieved_doc_ids": [
+      "target",
+      "safe"
+    ],
+    "transform_input_evidence": [],
+    "delivered_evidence": [
+      {
+        "doc_id": "target",
+        "parent_doc_id": "target",
+        "kind": "raw",
+        "score": 1.0,
+        "text_sha256": "2334b8e625186c03f61cc07f0caf5a91dd34b9ccd83aec83d95cb76890d2cb52"
+      },
+      {
+        "doc_id": "safe",
+        "parent_doc_id": "safe",
+        "kind": "raw",
+        "score": 0.9,
+        "text_sha256": "13e80838918703e9515a73c6e77a9c997da1f4800cac2a2eaf2fc77a8ec95120"
+      }
+    ],
+    "delivered_exposure": "raw",
+    "delivery_attempted": true,
+    "response": null,
+    "failure_reason": "RuntimeError: fake generation failure",
+    "referenced_parent_ids": [],
+    "created_at": 1792679686.5696042,
+    "finished_at": 1792679686.5696042
+  },
+  "hide_retry_cached": true,
+  "hide_new_requests": 1,
+  "hide_retries": 1,
+  "hide_gateway_turns": 1,
+  "judge_precontrol_doc_ids": [
+    "target",
+    "safe"
+  ],
+  "query_judge_calls_after_retry": 1,
+  "limitations": "Fake components only; no answer-quality or membership-leakage estimate."
+}

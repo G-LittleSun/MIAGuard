@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Iraq Mobile Network Brings Benefits and Bombs BAGHDAD (Reuters) -......\" based on the Context.",
+    "contexts": [
+      "Allawi says Iraq economy, security needs resolving Iraq #39;s stagnant economy and lack of employment opportunities are feeding instability in the violence-torn country, hindering prospects for prosperity, Prime Minister Iyad Allawi said on Monday.",
+      "Iraq #39;s wave of attacks US troops and the interim Iraqi government faced an onslaught of car bombings, mortar attacks and gun battles yesterday during a series of insurgent attacks that began in the ",
+      "Oil Losses Ease on Iraq Pipeline Attack (Reuters) Reuters - Oil prices rose on Friday, stemming five\\days of heavy losses as fresh sabotage attacks on Iraqi oil\\infrastructure renewed concern over the country's supplies,\\despite a peace deal in Najaf",
+      "Iraqi Premier Plans Expansion of Arms Handover Program Prime Minister Ayad Allawi of Iraq said today that a weapons-for-cash program in Baghdad would be expanded nationwide."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Allawi says Iraq economy, security needs resolving Iraq #39;s stagnant economy and lack of employment opportunities are feeding instability in the violence-torn country, hindering prospects for prosperity, Prime Minister Iyad Allawi said on Monday.\"\n\"Iraq #39;s wave of attacks US troops and the interim Iraqi government faced an onslaught of car bombings, mortar attacks and gun battles yesterday during a series of insurgent attacks that began in the \"\n\"Oil Losses Ease on Iraq Pipeline Attack (Reuters) Reuters - Oil prices rose on Friday, stemming five\\days of heavy losses as fresh sabotage attacks on Iraqi oil\\infrastructure renewed concern over the country's supplies,\\despite a peace deal in Najaf\"\n\"Iraqi Premier Plans Expansion of Arms Handover Program Prime Minister Ayad Allawi of Iraq said today that a weapons-for-cash program in Baghdad would be expanded nationwide.\"\n\nQuestion:\nComplete this sentence \"Iraq Mobile Network Brings Benefits and Bombs BAGHDAD (Reuters) -......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,31 @@
+{
+  "status": "review_pending",
+  "bank_id": "ag_news_queries_v2",
+  "split_id": "ag_news_threshold_v2",
+  "partition": "train",
+  "sources": 60,
+  "ia_review_items": 206,
+  "masked_source_review_items": 60,
+  "masked_queries": 300,
+  "review_units": 266,
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "input_sha256": {
+    "data/query_banks/ag_news_queries_v2/ag_news/queries.jsonl": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972",
+    "data/query_bank_splits/ag_news_threshold_v2.json": "96977e550be6c0e42ab0b7609f2c73af261a99474b459778ae46fd123c7b80ef",
+    "data/runs/20260717-ag-news-four-medium/ag_news/target_docs.jsonl": "f7f604ce3acde220998ab2bd93186441119ba0074ae2e7fdf8fcdcde79f11eb1",
+    "reports/defense_v1/T10/v2_train_reuse_audit_20261105_01/manifest.json": "927be57bda3a40dd689e03e015ea6ead14f2664639ff082916b466ef7489ef17",
+    "reports/defense_v1/T10/v2_train_reuse_audit_20261105_01/query_reuse_audit.jsonl": "6e1b2e7f3b33c086e859990985ee881345982fafa546426dcd6f5eaff50029a4"
+  },
+  "files_sha256": {
+    "ia_items.jsonl": "5f3624be739d4ffd898aa5bc429c5e539c90601b4d6d27fb9ea0bfc90ea4f28c",
+    "masked_items.jsonl": "b17f2ac23ccf6dbd3024e2ae848ffb920549532af76925e98e5f38ee9beadafe",
+    "sources.jsonl": "ba8c63a87e7013678a988fc4f320d2f8b5affa01e0eeeeec69e7c2be12e1d6b5",
+    "REVIEW_GUIDE_ZH.md": "809901ed01c36caedb297196b428a036c30cdd019f8d3fba28db89beb9f9490b"
+  },
+  "limits": [
+    "Only flagged IA plus all train Masked schemes; other 2169 IA, Direct/S2 semantics and 1304 normal gold remain outside this review.",
+    "No member labels or effectiveness results included; do not infer or seek them.",
+    "Model suggestions are not human gold; do not modify input files."
+  ]
+}

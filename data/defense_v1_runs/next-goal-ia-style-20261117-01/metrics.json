@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-next-goal-ia-style-normal",
+  "run_id": "next-goal-ia-style-20261117-01",
+  "identity_sha256": "ab8c8e2a26644745bb0cc56a18bcfc4d21615afea38f18f1520a2489dbe88984",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 16,
+  "completed": 16,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 4,
+  "method_count": 4,
+  "attack_target_count": 0,
+  "benign_request_count": 16
+}

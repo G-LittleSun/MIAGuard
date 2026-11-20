@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008321",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q079",
+      "session_id": "ia_ag_news_teacher_00008321",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe provided context does not mention any discussion of a difficult maths problem at the British Association's Festival of Science. The information given is about a potential solution to a long-standing math puzzle, but it does not specify where this information was reported or if it was discussed at the British Association's Festival of Science.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000633",
+        "ag_news_teacher_00000099",
+        "ag_news_teacher_00000963",
+        "ag_news_teacher_00000828"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000633",
+        "ag_news_teacher_00000099",
+        "ag_news_teacher_00000963",
+        "ag_news_teacher_00000828"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000633",
+            "ag_news_teacher_00000099",
+            "ag_news_teacher_00000963",
+            "ag_news_teacher_00000828"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000633",
+            "ag_news_teacher_00000099",
+            "ag_news_teacher_00000963",
+            "ag_news_teacher_00000828"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1998.4961999580264,
+      "ledger_event": {
+        "request_id": "q079",
+        "session_id": "ia_ag_news_teacher_00008321",
+        "input_sha256": "1bd30078cff53be939c28078fef67bbf662347976e4236e87cdedfcb7547d68c",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000633",
+          "ag_news_teacher_00000099",
+          "ag_news_teacher_00000963",
+          "ag_news_teacher_00000828"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000633",
+            "parent_doc_id": "ag_news_teacher_00000633",
+            "kind": "raw",
+            "score": 0.40362751483917236,
+            "text_sha256": "05818f7938d1e181e39522400943a13f4482c163b11f5ba18f0aee02e691882a"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000099",
+            "parent_doc_id": "ag_news_teacher_00000099",
+            "kind": "raw",
+            "score": 0.24421292543411255,
+            "text_sha256": "e062c9a772fd39d9665d251411477643e11261ce432d740b235251287ee5fa91"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000963",
+            "parent_doc_id": "ag_news_teacher_00000963",
+            "kind": "raw",
+            "score": 0.21199393272399902,
+            "text_sha256": "d28267469d83d5681d676d636c107f52b838db369ecc037263ebe5aded01548b"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000828",
+            "parent_doc_id": "ag_news_teacher_00000828",
+            "kind": "raw",
+            "score": 0.17077943682670593,
+            "text_sha256": "0de9afbf915031142fadcd9f844988e470df9eb4c280dd81d36a8fc14ccdbbc6"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe provided context does not mention any discussion of a difficult maths problem at the British Association's Festival of Science. The information given is about a potential solution to a long-standing math puzzle, but it does not specify where this information was reported or if it was discussed at the British Association's Festival of Science.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006835.8208227,
+        "finished_at": 1795006837.8193223
+      },
+      "generation_input_ref": "artifacts/B0/20260715/22e7f228ddf7528583f0.json",
+      "artifact_sha256": "b123f7415dfc5fa0c95eb07c4f3a9c78128ee14bd9fa6d5d108a8456ca9bd94e"
+    },
+    {
+      "request_id": "q080",
+      "session_id": "ia_ag_news_teacher_00008321",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not mention any specific Maths problem solution discussed at the British Association's Festival of Science, nor does it indicate whether a solution 'looks good'. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000633",
+        "ag_news_teacher_00000099",
+        "ag_news_teacher_00000812",
+        "ag_news_teacher_00000557"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000633",
+        "ag_news_teacher_00000099",
+        "ag_news_teacher_00000812",
+        "ag_news_teacher_00000557"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000633",
+            "ag_news_teacher_00000099",
+            "ag_news_teacher_00000812",
+            "ag_news_teacher_00000557"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000633",
+            "ag_news_teacher_00000099",
+            "ag_news_teacher_00000812",
+            "ag_news_teacher_00000557"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1438.7791994959116,
+      "ledger_event": {
+        "request_id": "q080",
+        "session_id": "ia_ag_news_teacher_00008321",
+        "input_sha256": "62d8ad9a3ddba29e274ae05f183f9e745b26790178c6bea32601f4f46c264fe4",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000633",
+          "ag_news_teacher_00000099",
+          "ag_news_teacher_00000812",
+          "ag_news_teacher_00000557"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000633",
+            "parent_doc_id": "ag_news_teacher_00000633",
+            "kind": "raw",
+            "score": 0.3997727632522583,
+            "text_sha256": "05818f7938d1e181e39522400943a13f4482c163b11f5ba18f0aee02e691882a"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000099",
+            "parent_doc_id": "ag_news_teacher_00000099",
+            "kind": "raw",
+            "score": 0.26172226667404175,
+            "text_sha256": "e062c9a772fd39d9665d251411477643e11261ce432d740b235251287ee5fa91"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000812",
+            "parent_doc_id": "ag_news_teacher_00000812",
+            "kind": "raw",
+            "score": 0.16940313577651978,
+            "text_sha256": "0cc222acf49793d697eb85478a3e6e6ccbd2f116e8c5e69bd7c34e4196d89d17"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000557",
+            "parent_doc_id": "ag_news_teacher_00000557",
+            "kind": "raw",
+            "score": 0.16705244779586792,
+            "text_sha256": "af40e63c842c98716f7f3abe0649cbda6d74ee4f3d272612fbdb44700ab99cdc"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not mention any specific Maths problem solution discussed at the British Association's Festival of Science, nor does it indicate whether a solution 'looks good'. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006837.8248222,
+        "finished_at": 1795006839.2635999
+      },
+      "generation_input_ref": "artifacts/B0/20260715/fce52d1224f0a4cfbc83.json",
+      "artifact_sha256": "7d662b236ee4aa8c16b75b81f067a7ae65e09ffcab93c8c098976451a39cc0d3"
+    },
+    {
+      "request_id": "q081",
+      "session_id": "ia_ag_news_teacher_00008321",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not mention any information related to a Maths problem solution at the British Association's Festival of Science, nor does it express any uncertainty about the validity of such a solution. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000633",
+        "ag_news_teacher_00000099",
+        "ag_news_teacher_00000812",
+        "ag_news_teacher_00000561"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000633",
+        "ag_news_teacher_00000099",
+        "ag_news_teacher_00000812",
+        "ag_news_teacher_00000561"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000633",
+            "ag_news_teacher_00000099",
+            "ag_news_teacher_00000812",
+            "ag_news_teacher_00000561"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000633",
+            "ag_news_teacher_00000099",
+            "ag_news_teacher_00000812",
+            "ag_news_teacher_00000561"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1600.992800667882,
+      "ledger_event": {
+        "request_id": "q081",
+        "session_id": "ia_ag_news_teacher_00008321",
+        "input_sha256": "6bab2cb71a6f180531dbca4258fc7e902202f82bb86479a3ca29a4459e740d4d",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000633",
+          "ag_news_teacher_00000099",
+          "ag_news_teacher_00000812",
+          "ag_news_teacher_00000561"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000633",
+            "parent_doc_id": "ag_news_teacher_00000633",
+            "kind": "raw",
+            "score": 0.31841400265693665,
+            "text_sha256": "05818f7938d1e181e39522400943a13f4482c163b11f5ba18f0aee02e691882a"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000099",
+            "parent_doc_id": "ag_news_teacher_00000099",
+            "kind": "raw",
+            "score": 0.2360047996044159,
+            "text_sha256": "e062c9a772fd39d9665d251411477643e11261ce432d740b235251287ee5fa91"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000812",
+            "parent_doc_id": "ag_news_teacher_00000812",
+            "kind": "raw",
+            "score": 0.20230908691883087,
+            "text_sha256": "0cc222acf49793d697eb85478a3e6e6ccbd2f116e8c5e69bd7c34e4196d89d17"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000561",
+            "parent_doc_id": "ag_news_teacher_00000561",
+            "kind": "raw",
+            "score": 0.17867359519004822,
+            "text_sha256": "169fec10ec94a8643ffe63b4fb52a201b90abcf5d0cdbc8365329f929e48a37f"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not mention any information related to a Maths problem solution at the British Association's Festival of Science, nor does it express any uncertainty about the validity of such a solution. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006839.2683225,
+        "finished_at": 1795006840.8693225
+      },
+      "generation_input_ref": "artifacts/B0/20260715/0f0db0e6dac45f69f479.json",
+      "artifact_sha256": "e68a7ae6019c777d0edf728eb8dcf24eab4737bdce53ffddada281f65565a919"
+    }
+  ]
+}

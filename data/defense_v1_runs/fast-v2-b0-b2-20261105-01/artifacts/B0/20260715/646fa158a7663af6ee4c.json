@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does the article mention a dinner involving Doc Rivers, Johnny Davis, Pat Garrity and Grant Hill sometime next summer? Answer Yes, No, or Unknown.",
+    "contexts": [
+      "Celtics enjoy laugher When Doc Rivers has dinner with Orlando coach Johnny Davis and Magic players Pat Garrity and Grant Hill sometime next summer, there should be some interesting conversation.",
+      "It was nothing to kick about There are three superb seasons under his belt, a couple of Pro Bowl berths speak volumes about his talent, and there's the matter of two Super Bowl rings. So when Richard Seymour tells you he's figured something out about this NFL business, you'd best listen.",
+      "Playing catch-up with the future Every day they wait on Eli Manning here, the pressure percolates. Behind a crumbling offensive line and a suddenly tenuous season, there will be less and less patience for the NFL #39;s No.",
+      "Favre #39;s mother falls ill while on book promotion tour Bonita Favre was taken to the emergency room after waking up with  quot;a horrible stomach bug, quot; said Zo Je Feigenbaum, the publicist for the book entitled  quot;FAVRE."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Celtics enjoy laugher When Doc Rivers has dinner with Orlando coach Johnny Davis and Magic players Pat Garrity and Grant Hill sometime next summer, there should be some interesting conversation.\"\n\"It was nothing to kick about There are three superb seasons under his belt, a couple of Pro Bowl berths speak volumes about his talent, and there's the matter of two Super Bowl rings. So when Richard Seymour tells you he's figured something out about this NFL business, you'd best listen.\"\n\"Playing catch-up with the future Every day they wait on Eli Manning here, the pressure percolates. Behind a crumbling offensive line and a suddenly tenuous season, there will be less and less patience for the NFL #39;s No.\"\n\"Favre #39;s mother falls ill while on book promotion tour Bonita Favre was taken to the emergency room after waking up with  quot;a horrible stomach bug, quot; said Zo Je Feigenbaum, the publicist for the book entitled  quot;FAVRE.\"\n\nQuestion:\nDoes the article mention a dinner involving Doc Rivers, Johnny Davis, Pat Garrity and Grant Hill sometime next summer? Answer Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

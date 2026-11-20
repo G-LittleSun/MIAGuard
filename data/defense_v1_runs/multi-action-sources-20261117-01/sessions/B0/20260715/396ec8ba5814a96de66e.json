@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "aef28a908b3d1c5afcd22dcd3759f81ff17d9219f649da7631c7b260c5706f79",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "lss_3432f0daad1e33543d19c8cf",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "ls_3432f0daad1e33543d19c8cf",
+      "session_id": "lss_3432f0daad1e33543d19c8cf",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Continued growth in US services sector NEW YORK, November 3 (newratings.com) - The US services sector witnessed a continued upturn for the nineteenth consecutive month in October this year, the Institute of Supply Management (ISM) reported today.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000979",
+        "ag_news_teacher_00000527",
+        "ag_news_teacher_00000474",
+        "ag_news_teacher_00000242"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000979",
+        "ag_news_teacher_00000527",
+        "ag_news_teacher_00000474",
+        "ag_news_teacher_00000242"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000979",
+            "ag_news_teacher_00000527",
+            "ag_news_teacher_00000474",
+            "ag_news_teacher_00000242"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000979",
+            "ag_news_teacher_00000527",
+            "ag_news_teacher_00000474",
+            "ag_news_teacher_00000242"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1568.8570002093911,
+      "ledger_event": {
+        "request_id": "ls_3432f0daad1e33543d19c8cf",
+        "session_id": "lss_3432f0daad1e33543d19c8cf",
+        "input_sha256": "77549703d8d3f38bd7d624870afe0186160f73569e4a45997cee0e71a39519e3",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000979",
+          "ag_news_teacher_00000527",
+          "ag_news_teacher_00000474",
+          "ag_news_teacher_00000242"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000979",
+            "parent_doc_id": "ag_news_teacher_00000979",
+            "kind": "raw",
+            "score": 0.6380029916763306,
+            "text_sha256": "616dbe60fc44c2b09347218c3eb5654d40b22fc2237cf6e86074713b1e74dfe4"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000527",
+            "parent_doc_id": "ag_news_teacher_00000527",
+            "kind": "raw",
+            "score": 0.3888072371482849,
+            "text_sha256": "27a1b3183587530a1ae0a7e0a1989c7ce8e8d2f9a7fe44d1159b6ea3ee2366c4"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000474",
+            "parent_doc_id": "ag_news_teacher_00000474",
+            "kind": "raw",
+            "score": 0.3559187352657318,
+            "text_sha256": "e1deb8365478e6cb1ea641a450069045fb75f82d2854ac22cd750f9ec2f9ce03"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000242",
+            "parent_doc_id": "ag_news_teacher_00000242",
+            "kind": "raw",
+            "score": 0.3461171090602875,
+            "text_sha256": "7fbade0196d3b6cbb0dceab0b076a25fc0fc0d2b425bc48ced44ee74008c16db"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Continued growth in US services sector NEW YORK, November 3 (newratings.com) - The US services sector witnessed a continued upturn for the nineteenth consecutive month in October this year, the Institute of Supply Management (ISM) reported today.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794890642.7447886,
+        "finished_at": 1794890644.313289
+      },
+      "generation_input_ref": "artifacts/B0/20260715/4463697171c349c9f319.json",
+      "artifact_sha256": "9c71d7bb1f4bf42609e566be0e53f83dbcab595bf5c81ac280b67714399424a8"
+    }
+  ]
+}

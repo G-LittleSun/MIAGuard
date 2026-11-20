@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "run_id": "fast-v2-b0-b2-20261105-01",
+  "run_identity_sha256": "abe3e419f1e77b1091768301cf86adfaa01f67c74f091be842a81f1bfc7b0ff6",
+  "analysis_role": "engineering_only",
+  "formal_effect_eligible": false,
+  "evaluator_code_sha256": "4df9f55831bc990ce5c623d0d65114301b1262c83fc92510ac4fe196813f5e45",
+  "methods": {
+    "B0": {
+      "attacks": {
+        "direct_rag_mia": {
+          "target_count": 2,
+          "observed_target_count": 2,
+          "missing_target_count": 0,
+          "auc": 1.0,
+          "flipped_auc_diagnostic": 1.0,
+          "reason": null
+        },
+        "ia": {
+          "target_count": 2,
+          "observed_target_count": 2,
+          "missing_target_count": 0,
+          "auc": 1.0,
+          "flipped_auc_diagnostic": 1.0,
+          "reason": null
+        },
+        "masked_mia": {
+          "target_count": 2,
+          "observed_target_count": 2,
+          "missing_target_count": 0,
+          "auc": 0.5,
+          "flipped_auc_diagnostic": 0.5,
+          "reason": null
+        },
+        "s2_mia": {
+          "target_count": 2,
+          "observed_target_count": 2,
+          "missing_target_count": 0,
+          "auc": 1.0,
+          "flipped_auc_diagnostic": 1.0,
+          "reason": null
+        }
+      },
+      "normal_exact_match": {
+        "numerator": 0,
+        "denominator": 4,
+        "rate": 0.0
+      },
+      "normal_failed": {
+        "numerator": 0,
+        "denominator": 4,
+        "rate": 0.0
+      },
+      "normal_quality_gold_status": "engineering_fixture_only",
+      "faithfulness": {
+        "rate": null,
+        "reason": "no_reviewed_claim_annotations"
+      },
+      "cost": {
+        "request_count": 12,
+        "measured_latency_count": 12,
+        "p50_ms": 1071.3565004989505,
+        "p95_ms": 9458.4274499677
+      }
+    },
+    "B2": {
+      "attacks": {
+        "direct_rag_mia": {
+          "target_count": 2,
+          "observed_target_count": 2,
+          "missing_target_count": 0,
+          "auc": 0.5,
+          "flipped_auc_diagnostic": 0.5,
+          "reason": null
+        },
+        "ia": {
+          "target_count": 2,
+          "observed_target_count": 2,
+          "missing_target_count": 0,
+          "auc": 0.5,
+          "flipped_auc_diagnostic": 0.5,
+          "reason": null
+        },
+        "masked_mia": {
+          "target_count": 2,
+          "observed_target_count": 2,
+          "missing_target_count": 0,
+          "auc": 0.5,
+          "flipped_auc_diagnostic": 0.5,
+          "reason": null
+        },
+        "s2_mia": {
+          "target_count": 2,
+          "observed_target_count": 2,
+          "missing_target_count": 0,
+          "auc": 0.0,
+          "flipped_auc_diagnostic": 1.0,
+          "reason": null
+        }
+      },
+      "normal_exact_match": {
+        "numerator": 0,
+        "denominator": 4,
+        "rate": 0.0
+      },
+      "normal_failed": {
+        "numerator": 0,
+        "denominator": 4,
+        "rate": 0.0
+      },
+      "normal_quality_gold_status": "engineering_fixture_only",
+      "faithfulness": {
+        "rate": null,
+        "reason": "no_reviewed_claim_annotations"
+      },
+      "cost": {
+        "request_count": 12,
+        "measured_latency_count": 12,
+        "p50_ms": 11760.77220030129,
+        "p95_ms": 17560.555479954928
+      }
+    }
+  }
+}

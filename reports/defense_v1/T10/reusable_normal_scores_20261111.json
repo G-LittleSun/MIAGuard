@@ -1,0 +1,46 @@
+{
+  "purpose": "historical query-only score screen, not live action outcomes",
+  "source_partition": "train",
+  "old_benign_count": 300,
+  "v2_same_id_and_text_count": 294,
+  "threshold": 0.006692850924284855,
+  "at_or_above_threshold": 0,
+  "turn_counts": [
+    {
+      "turn": 1,
+      "at_or_above": false,
+      "count": 60
+    },
+    {
+      "turn": 2,
+      "at_or_above": false,
+      "count": 55
+    },
+    {
+      "turn": 3,
+      "at_or_above": false,
+      "count": 59
+    },
+    {
+      "turn": 4,
+      "at_or_above": false,
+      "count": 60
+    },
+    {
+      "turn": 5,
+      "at_or_above": false,
+      "count": 60
+    }
+  ],
+  "input_sha256": {
+    "data/query_banks/ag_news_queries_v2/ag_news/queries.jsonl": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972",
+    "data/progressive_judge_v3_binary_logprob_train_qwen2_5_7b_bf16_20260916_retry1/train/judge_records.jsonl": "afb19dfce92bc584db11842bd9716fbae341f0b1d0e2287b21b9d344c55ba378",
+    "reports/defense_v1/T04/query_only_thresholds.json": "a2b482352326a4e9154abeb1126169694df5c7c9ff70a87d9bc5a3ca07aa0759"
+  },
+  "limitations": [
+    "Historical v1 train scores are used only for exact-id/text matches in v2.",
+    "Scores do not establish live policy actions, answerability or quality.",
+    "Later-turn session/fusion behavior is not evaluated.",
+    "New v2 normal queries lack historical scores."
+  ]
+}

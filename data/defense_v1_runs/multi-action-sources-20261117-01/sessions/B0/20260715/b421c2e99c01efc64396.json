@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "aef28a908b3d1c5afcd22dcd3759f81ff17d9219f649da7631c7b260c5706f79",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "lss_7320d138516429cbb045a291",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "ls_7320d138516429cbb045a291",
+      "session_id": "lss_7320d138516429cbb045a291",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Yes",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000665",
+        "ag_news_teacher_00000977",
+        "ag_news_teacher_00000293",
+        "ag_news_teacher_00000855"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000665",
+        "ag_news_teacher_00000977",
+        "ag_news_teacher_00000293",
+        "ag_news_teacher_00000855"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000665",
+            "ag_news_teacher_00000977",
+            "ag_news_teacher_00000293",
+            "ag_news_teacher_00000855"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000665",
+            "ag_news_teacher_00000977",
+            "ag_news_teacher_00000293",
+            "ag_news_teacher_00000855"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 129.33459971100092,
+      "ledger_event": {
+        "request_id": "ls_7320d138516429cbb045a291",
+        "session_id": "lss_7320d138516429cbb045a291",
+        "input_sha256": "a5898ba1e147f770e93e8b215b521d1f9295b158993c39b0efe35b7cd2d603a8",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000665",
+          "ag_news_teacher_00000977",
+          "ag_news_teacher_00000293",
+          "ag_news_teacher_00000855"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000665",
+            "parent_doc_id": "ag_news_teacher_00000665",
+            "kind": "raw",
+            "score": 0.8237083554267883,
+            "text_sha256": "57f5f335d0e24a08053d5f2ed10c5d9c8f438340b380ee8c9193b3195daf8277"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000977",
+            "parent_doc_id": "ag_news_teacher_00000977",
+            "kind": "raw",
+            "score": 0.4741389751434326,
+            "text_sha256": "632968fe3fe5d37733b989ea193dc5dae0977c2ce154f28e9a1100e48687fdbe"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000293",
+            "parent_doc_id": "ag_news_teacher_00000293",
+            "kind": "raw",
+            "score": 0.39169925451278687,
+            "text_sha256": "cbdcec08ca4e02d4ead4e75e75ad1534640666c89639f00f4aaac70da0198481"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000855",
+            "parent_doc_id": "ag_news_teacher_00000855",
+            "kind": "raw",
+            "score": 0.37156400084495544,
+            "text_sha256": "92708113436e860125c72d2975c08939e138bca9a79a3e7a68ec9726080f1e62"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Yes",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794890641.891289,
+        "finished_at": 1794890642.020789
+      },
+      "generation_input_ref": "artifacts/B0/20260715/75d76005d2955cfeebb5.json",
+      "artifact_sha256": "7e4d589bb5527bff5d6ffb34eeaf05f7a56fda8772b8f2d198bfb7d378eaaf57"
+    }
+  ]
+}

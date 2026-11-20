@@ -1,0 +1,24 @@
+{
+  "status": "review_pending",
+  "scope": "31 D-dev pilot sources only",
+  "source_count": 31,
+  "pair_count": 465,
+  "input_sha256": {
+    "reports/defense_v1/T10/session_length_pilot_20261031_01/source_evidence.jsonl": "377370414c2d39e73e8168bbc528b577bc4f2148343389f4886afdf48768a633",
+    "reports/defense_v1/T10/session_length_pilot_20261031_01/expanded_source_evidence.jsonl": "e64fb51929ebb867b65e72c026da4f96c1c5d38321a0f5b36dae9fababc82a99",
+    "reports/defense_v1/T10/dev_source_inventory_20261104_01/source_usage.jsonl": "d9885807034d61b9338c6c507c4ba6982f4c38f2f2514ffc2c29e11e00124046"
+  },
+  "output_sha256": {
+    "sources.jsonl": "4485c940b3051ec0a2b746569cc797a845025c4a035d631c30a3f3fbd2ce7f7f",
+    "pairs.jsonl": "80d9b2aa83cc6a1ccb3b662495057b9e1ce8b4291e9c0ebfcd3e8b3914f43d60"
+  },
+  "review_kind": "llm_pre_review_requested",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "limitations": [
+    "Only these 31 D-dev sources; not all 216 known sources or other historical prompts.",
+    "No cross-partition or V/T source review; event association is not proven absent.",
+    "Model review will be advisory and does not establish human gold."
+  ],
+  "guide_sha256": "45f755fceb3d5e232827a7456872f031a4fc2906a7cc2bd8b2fecfc75ffc015e"
+}

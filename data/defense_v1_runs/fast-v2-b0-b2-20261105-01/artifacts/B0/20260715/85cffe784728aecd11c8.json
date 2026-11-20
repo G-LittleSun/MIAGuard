@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"Celtics enjoy laugher When Doc Rivers has dinner with Orlando coach Johnny Davis and Magic players Pat Garrity and Grant Hill sometime next summer, there should be some interesting conversation.\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "Celtics enjoy laugher When Doc Rivers has dinner with Orlando coach Johnny Davis and Magic players Pat Garrity and Grant Hill sometime next summer, there should be some interesting conversation.",
+      "George Johnson on Sports: NFL, Baseball, WNBA Description: George Johnson talks about the NFL, WNBA playoffs, baseball pennant races and other sports headlines. There #39;s the music which means it #39;s time to bounce.",
+      "Sorting Out 'Mess' After examining film of Saturday's game, Maryland coaches pinpointed a series of lapses that Coach Ralph Friedgen summed up as \"a mess.\"",
+      "NBA could use this reject Sarunas Jasikevicius is just another international nobody who is too slow and too anchored to the floor to play in the NBA. He is not what we want, not our style."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Celtics enjoy laugher When Doc Rivers has dinner with Orlando coach Johnny Davis and Magic players Pat Garrity and Grant Hill sometime next summer, there should be some interesting conversation.\"\n\"George Johnson on Sports: NFL, Baseball, WNBA Description: George Johnson talks about the NFL, WNBA playoffs, baseball pennant races and other sports headlines. There #39;s the music which means it #39;s time to bounce.\"\n\"Sorting Out 'Mess' After examining film of Saturday's game, Maryland coaches pinpointed a series of lapses that Coach Ralph Friedgen summed up as \"a mess.\"\"\n\"NBA could use this reject Sarunas Jasikevicius is just another international nobody who is too slow and too anchored to the floor to play in the NBA. He is not what we want, not our style.\"\n\nQuestion:\nDoes this: \"Celtics enjoy laugher When Doc Rivers has dinner with Orlando coach Johnny Davis and Magic players Pat Garrity and Grant Hill sometime next summer, there should be some interesting conversation.\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

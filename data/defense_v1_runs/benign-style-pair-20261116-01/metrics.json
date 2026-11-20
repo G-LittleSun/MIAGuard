@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-benign-style-pair",
+  "run_id": "benign-style-pair-20261116-01",
+  "identity_sha256": "418b89569fe21cb8747d5dcf58ca78058ae63c32c0ea0151222987547edf4a76",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 18,
+  "completed": 18,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 6,
+  "method_count": 3,
+  "attack_target_count": 0,
+  "benign_request_count": 18
+}

@@ -1,0 +1,29 @@
+schema_version: 1
+mode: observe
+session:
+  window_size: 5
+  timeout_seconds: 1800
+  min_session_queries: 3
+  evaluation_interval: 1
+aggregation:
+  method: dynamic_window_coverage
+  query_weight: 0.4
+  session_weight: 0.6
+  query_critical_threshold: 0.85
+  session_critical_threshold: 0.85
+policy:
+  thresholds: [0.2, 0.4, 0.65, 0.85]
+access_control:
+  restrict_context_chars: 240
+direct_scorer:
+  manifest: attack_pattern_library/manifest.yaml
+  query_patterns: [direct_rag_mia, s2_mia, masked_mia, ia]
+  session_patterns: [direct_rag_mia, s2_mia, masked_mia, ia]
+  query_max_tokens: 96
+  session_max_tokens: 128
+  max_retries: 1
+  weak_threshold: 0.4
+  strong_threshold: 0.7
+  prompt_version: direct_v3_anchored
+versions:
+  policy: two_stage_policy_v2_supervised_threshold

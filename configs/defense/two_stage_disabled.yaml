@@ -1,0 +1,18 @@
+schema_version: 1
+mode: disabled
+session:
+  window_size: 8
+  timeout_seconds: 1800
+  min_session_queries: 3
+aggregation:
+  method: dynamic_window_coverage
+  query_weight: 0.4
+  session_weight: 0.6
+  query_critical_threshold: 0.85
+  session_critical_threshold: 0.85
+policy:
+  thresholds: [0.2, 0.4, 0.65, 0.85]
+access_control:
+  restrict_context_chars: 240
+versions:
+  policy: two_stage_policy_v1

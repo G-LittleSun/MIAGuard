@@ -1,0 +1,53 @@
+{
+  "run_id": "rank-stress-v2-locator-20261111-01",
+  "rows": [
+    {
+      "method": "B5_LOCATED",
+      "request_id": "rs_74a0fbf915de026d83e29d3f",
+      "doc_id": "ag_news_teacher_00000992",
+      "action": "hide_target_refill",
+      "strict_score": 0.4,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "parsed",
+        "format": "object_answers",
+        "matched": 2,
+        "total": 5
+      }
+    },
+    {
+      "method": "B5_LOCATED",
+      "request_id": "rs_957da14e1b7964a4ec021ab3",
+      "doc_id": "ag_news_teacher_00000479",
+      "action": "hide_target_refill",
+      "strict_score": 0.2,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "parsed",
+        "format": "object_answers",
+        "matched": 1,
+        "total": 5
+      }
+    },
+    {
+      "method": "B5_LOCATED",
+      "request_id": "rs_0d1adf87758428d74a8ee535",
+      "doc_id": "ag_news_teacher_00000388",
+      "action": "hide_target_refill",
+      "strict_score": 0.4,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "parsed",
+        "format": "object_answers",
+        "matched": 2,
+        "total": 5
+      }
+    }
+  ],
+  "input_sha256": {
+    "events.jsonl": "1900da244af5e90c93a8783eb8d8bbbdc9c6df7119138807c0d1bd2d78c1beb5",
+    "labels.jsonl": "ced7a8b8a995fabff76f68003d049e768f8ec98f291860f074d7a3570db2177e",
+    "attack_scores.jsonl": "dbaaa4ed186e232ed723ae30e4f66710e20de6e4300c4dff2241ac51201b9e79"
+  },
+  "formal_effect_eligible": false
+}

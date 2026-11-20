@@ -1,0 +1,58 @@
+{
+  "logprob_attack_enrichment_small_multiples": {
+    "dpi": 300,
+    "label_source": "frozen_ground_truth",
+    "pdf": "figures/logprob_attack_enrichment_small_multiples.pdf",
+    "png": "figures/logprob_attack_enrichment_small_multiples.png",
+    "style": "publication_v2"
+  },
+  "logprob_joint_density_triptych": {
+    "dpi": 300,
+    "label_source": "frozen_ground_truth",
+    "pdf": "figures/logprob_joint_density_triptych.pdf",
+    "png": "figures/logprob_joint_density_triptych.png",
+    "style": "publication_v2"
+  },
+  "logprob_marginal_frequency_map": {
+    "dpi": 300,
+    "label_source": "frozen_ground_truth",
+    "pdf": "figures/logprob_marginal_frequency_map.pdf",
+    "png": "figures/logprob_marginal_frequency_map.png",
+    "style": "publication_v2"
+  },
+  "logprob_temporal_availability": {
+    "dpi": 300,
+    "label_source": "frozen_ground_truth",
+    "pdf": "figures/logprob_temporal_availability.pdf",
+    "png": "figures/logprob_temporal_availability.png",
+    "style": "publication_v2"
+  },
+  "rubric_attack_enrichment_small_multiples": {
+    "dpi": 300,
+    "label_source": "frozen_ground_truth",
+    "pdf": "figures/rubric_attack_enrichment_small_multiples.pdf",
+    "png": "figures/rubric_attack_enrichment_small_multiples.png",
+    "style": "publication_v2"
+  },
+  "rubric_joint_density_triptych": {
+    "dpi": 300,
+    "label_source": "frozen_ground_truth",
+    "pdf": "figures/rubric_joint_density_triptych.pdf",
+    "png": "figures/rubric_joint_density_triptych.png",
+    "style": "publication_v2"
+  },
+  "rubric_marginal_frequency_map": {
+    "dpi": 300,
+    "label_source": "frozen_ground_truth",
+    "pdf": "figures/rubric_marginal_frequency_map.pdf",
+    "png": "figures/rubric_marginal_frequency_map.png",
+    "style": "publication_v2"
+  },
+  "rubric_temporal_availability": {
+    "dpi": 300,
+    "label_source": "frozen_ground_truth",
+    "pdf": "figures/rubric_temporal_availability.pdf",
+    "png": "figures/rubric_temporal_availability.png",
+    "style": "publication_v2"
+  }
+}

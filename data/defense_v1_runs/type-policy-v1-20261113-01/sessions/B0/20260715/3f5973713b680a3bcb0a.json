@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "19d4015a8f3904179a4bf2fd7ddd4fd136adf2c0018c5a8aca08769b0bb97a74",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "fs_ba4d8f3cf587764f1be32b37",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "fp_ba4d8f3cf587764f1be32b37",
+      "session_id": "fs_ba4d8f3cf587764f1be32b37",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "A 14-year old boy and a tiger handler were attacked by a 350-pound Siberian tiger at a county fair in St. Augustine, Florida.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000220",
+        "ag_news_teacher_00000457",
+        "ag_news_teacher_00000666",
+        "ag_news_teacher_00000707"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000220",
+        "ag_news_teacher_00000457",
+        "ag_news_teacher_00000666",
+        "ag_news_teacher_00000707"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000220",
+            "ag_news_teacher_00000457",
+            "ag_news_teacher_00000666",
+            "ag_news_teacher_00000707"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000220",
+            "ag_news_teacher_00000457",
+            "ag_news_teacher_00000666",
+            "ag_news_teacher_00000707"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1126.6163000836968,
+      "ledger_event": {
+        "request_id": "fp_ba4d8f3cf587764f1be32b37",
+        "session_id": "fs_ba4d8f3cf587764f1be32b37",
+        "input_sha256": "2f48305211a62755b291daa1027b148a765974bd7f8cc74844d8e62f65d71ad9",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000220",
+          "ag_news_teacher_00000457",
+          "ag_news_teacher_00000666",
+          "ag_news_teacher_00000707"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000220",
+            "parent_doc_id": "ag_news_teacher_00000220",
+            "kind": "raw",
+            "score": 0.48693206906318665,
+            "text_sha256": "be93a49af86e670e1e23ee03411e15898648dce4e3f1acba3a9ea690d788789e"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000457",
+            "parent_doc_id": "ag_news_teacher_00000457",
+            "kind": "raw",
+            "score": 0.2965284585952759,
+            "text_sha256": "2265bded5be43362b98f3e80747001ffdcbbea2b2bed0bb38d969d385112069d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000666",
+            "parent_doc_id": "ag_news_teacher_00000666",
+            "kind": "raw",
+            "score": 0.2792515754699707,
+            "text_sha256": "a82e835eae58bb15fd3debf5b7dce8bae75da67b6a4aa73c016f7c783089904e"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000707",
+            "parent_doc_id": "ag_news_teacher_00000707",
+            "kind": "raw",
+            "score": 0.2722451090812683,
+            "text_sha256": "9c5998f052be59a751bded73c8b2646cb24dfd985a0465f685b07a7c38d90244"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "A 14-year old boy and a tiger handler were attacked by a 350-pound Siberian tiger at a county fair in St. Augustine, Florida.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794570954.4631388,
+        "finished_at": 1794570955.5901387
+      },
+      "generation_input_ref": "artifacts/B0/20260715/65cf264099692c751e18.json",
+      "artifact_sha256": "835c0e68d01c67f87a5856b3f93256a2451bba229512eab523f10e58c7052c76"
+    }
+  ]
+}

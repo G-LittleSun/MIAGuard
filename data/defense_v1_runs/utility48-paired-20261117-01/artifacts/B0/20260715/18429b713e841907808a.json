@@ -1,0 +1,13 @@
+{
+  "generation_input": {
+    "query": "What destination was mentioned for the Soyuz replacement crew?",
+    "contexts": [
+      "A new crew arrives at the space station A Soyuz spacecraft with a replacement crew for the international space station docked safely with the orbiting complex early Saturday.",
+      "Next Space Station Launch Set for Oct 11 The blast-off in a Soyuz spacecraft from Russia #39;s Baikonur cosmodrome in Kazakhstan will deploy a replacement crew for Russian cosmonaut Gennady Padalka and NASA astronaut Michael Fincke, who have manned the orbital platform since April."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"A new crew arrives at the space station A Soyuz spacecraft with a replacement crew for the international space station docked safely with the orbiting complex early Saturday.\"\n\"Next Space Station Launch Set for Oct 11 The blast-off in a Soyuz spacecraft from Russia #39;s Baikonur cosmodrome in Kazakhstan will deploy a replacement crew for Russian cosmonaut Gennady Padalka and NASA astronaut Michael Fincke, who have manned the orbital platform since April.\"\n\nQuestion:\nWhat destination was mentioned for the Soyuz replacement crew?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

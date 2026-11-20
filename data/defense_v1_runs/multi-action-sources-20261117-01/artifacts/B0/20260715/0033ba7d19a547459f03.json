@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does the report say President Bush was a particular target of the protesters? Answer Yes, No, or Unknown.",
+    "contexts": [
+      "Protests Target Bush at Summit in Chile Riot police used water cannons and tear gas Friday to break up a demonstration by hundreds of rock-throwing protesters before more than 20,000 people marched to vent their anger at Pacific Rim leaders, particularly President Bush.",
+      "Protesters Heed Calls for Widespread Civil Disobedience Some anti-war demonstrators prepared to symbolically \"die\" as near as possible to the site of the Republican National Convention.",
+      "Shooting: 'Wrong Target' Drama Costs U.S. Gold  ATHENS (Reuters) - American Matthew Emmons fired at the  wrong target on the verge of victory in the Olympics men's  50-meter rife three-position target event to surrender an  almost certain gold medal to China's Jia Zhanbo on Sunday.",
+      "Bush: Terrorists May Plan More Attacks WASHINGTON - Standing beside Iraq's interim leader, President Bush contended Thursday that insurgents could \"plot and plan attacks elsewhere, in America and other free nations,\" if the United States pulled out. He said his top commander there has not asked for more troops but if he did, \"I'd listen to him.\"   After meeting with interim Prime Minister Ayad Allawi, Bush said he expects violence in Iraq to escalate as the country moves toward elections scheduled for January..."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Protests Target Bush at Summit in Chile Riot police used water cannons and tear gas Friday to break up a demonstration by hundreds of rock-throwing protesters before more than 20,000 people marched to vent their anger at Pacific Rim leaders, particularly President Bush.\"\n\"Protesters Heed Calls for Widespread Civil Disobedience Some anti-war demonstrators prepared to symbolically \"die\" as near as possible to the site of the Republican National Convention.\"\n\"Shooting: 'Wrong Target' Drama Costs U.S. Gold  ATHENS (Reuters) - American Matthew Emmons fired at the  wrong target on the verge of victory in the Olympics men's  50-meter rife three-position target event to surrender an  almost certain gold medal to China's Jia Zhanbo on Sunday.\"\n\"Bush: Terrorists May Plan More Attacks WASHINGTON - Standing beside Iraq's interim leader, President Bush contended Thursday that insurgents could \"plot and plan attacks elsewhere, in America and other free nations,\" if the United States pulled out. He said his top commander there has not asked for more troops but if he did, \"I'd listen to him.\"   After meeting with interim Prime Minister Ayad Allawi, Bush said he expects violence in Iraq to escalate as the country moves toward elections scheduled for January...\"\n\nQuestion:\nDoes the report say President Bush was a particular target of the protesters? Answer Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

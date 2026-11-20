@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Neiman Marcus Christmas Book with expensive gifts. Is a winged submarine available for purchase in the Neiman Marcus Christmas Book for $1.7 million? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "SpaceShipOne completes first flight in \\$10M prize pursuit SpaceShipOne, the Paul Allen-backed venture that #39;s attempting to take paying passengers into suborbital space for the first time, has completed the first leg of its effort to win a \\$10 million prize.",
+      "A pitch for presents of peace With only 30 shopping days till Christmas, there #39;s no time to lose. So here are some nifty gift ideas for the youngsters on your list: - JFK Reloaded.",
+      "Cendant to Acquire Gullivers Travel for \\$1.1 Billion (Update3) Cendant Corp., which owns Days Inn hotels and Avis Rent A Car Systems Inc., agreed to buy the UK #39;s Gullivers Travel Associates and Octopus Travel Group Ltd.",
+      "After failed attempts, One Beacon gets sold One Beacon Street, one of Boston's earliest prominent office towers, was sold yesterday for about \\$340 million, the third time in two years a sale had been in the works for the 34-story building."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"SpaceShipOne completes first flight in \\$10M prize pursuit SpaceShipOne, the Paul Allen-backed venture that #39;s attempting to take paying passengers into suborbital space for the first time, has completed the first leg of its effort to win a \\$10 million prize.\"\n\"A pitch for presents of peace With only 30 shopping days till Christmas, there #39;s no time to lose. So here are some nifty gift ideas for the youngsters on your list: - JFK Reloaded.\"\n\"Cendant to Acquire Gullivers Travel for \\$1.1 Billion (Update3) Cendant Corp., which owns Days Inn hotels and Avis Rent A Car Systems Inc., agreed to buy the UK #39;s Gullivers Travel Associates and Octopus Travel Group Ltd.\"\n\"After failed attempts, One Beacon gets sold One Beacon Street, one of Boston's earliest prominent office towers, was sold yesterday for about \\$340 million, the third time in two years a sale had been in the works for the 34-story building.\"\n\nQuestion:\nI am inquiring about a Neiman Marcus Christmas Book with expensive gifts. Is a winged submarine available for purchase in the Neiman Marcus Christmas Book for $1.7 million? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

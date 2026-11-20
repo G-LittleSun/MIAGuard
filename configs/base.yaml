@@ -1,0 +1,19 @@
+seed: 20260713
+dataset_name: T2Ranking
+dataset_path: DataSet/T2Ranking
+documents_dir: data/processed/documents
+manifests_dir: data/manifests
+reports_dir: reports
+candidate_doc_count: 10000
+member_ratio: 0.5
+target_doc_count: 1000
+target_split_ratio: [0.6, 0.2, 0.2]
+min_doc_chars: 200
+max_doc_chars: 3000
+minhash_ngram: 5
+minhash_num_perm: 128
+minhash_bands: 32
+near_duplicate_threshold: 0.85
+topic_clusters: 20
+schema_path: schemas/query.schema.json
+

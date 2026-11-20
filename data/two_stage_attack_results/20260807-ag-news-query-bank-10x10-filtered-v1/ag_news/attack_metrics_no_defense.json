@@ -1,0 +1,90 @@
+{
+  "direct_rag_mia": {
+    "accuracy": 1.0,
+    "confusion_matrix": {
+      "fn": 0,
+      "fp": 0,
+      "tn": 10,
+      "tp": 10
+    },
+    "f1": 1.0,
+    "member_count": 10,
+    "member_score_mean": 1.0,
+    "nonmember_count": 10,
+    "nonmember_score_mean": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "roc_auc": 1.0,
+    "sample_count": 20,
+    "threshold": 0.5,
+    "threshold_source": "fixed_config_no_shadow",
+    "tpr_at_fpr_0.001": 1.0,
+    "tpr_at_fpr_0.01": 1.0
+  },
+  "ia": {
+    "accuracy": 0.85,
+    "confusion_matrix": {
+      "fn": 3,
+      "fp": 0,
+      "tn": 10,
+      "tp": 7
+    },
+    "f1": 0.8235294117647058,
+    "member_count": 10,
+    "member_score_mean": 0.5966666666666667,
+    "nonmember_count": 10,
+    "nonmember_score_mean": -0.10000000000000002,
+    "precision": 1.0,
+    "recall": 0.7,
+    "roc_auc": 1.0,
+    "sample_count": 20,
+    "threshold": 0.5,
+    "threshold_source": "fixed_config_no_shadow",
+    "tpr_at_fpr_0.001": 1.0,
+    "tpr_at_fpr_0.01": 1.0
+  },
+  "masked_mia": {
+    "accuracy": 0.75,
+    "confusion_matrix": {
+      "fn": 4,
+      "fp": 1,
+      "tn": 9,
+      "tp": 6
+    },
+    "f1": 0.7058823529411765,
+    "member_count": 10,
+    "member_score_mean": 0.3,
+    "nonmember_count": 10,
+    "nonmember_score_mean": 0.02,
+    "precision": 0.8571428571428571,
+    "recall": 0.6,
+    "roc_auc": 0.7700000000000001,
+    "sample_count": 20,
+    "threshold": 0.2,
+    "threshold_source": "ag_news_calibration_100_per_class",
+    "tpr_at_fpr_0.001": 0.4,
+    "tpr_at_fpr_0.01": 0.4
+  },
+  "s2_mia": {
+    "accuracy": 0.9,
+    "confusion_matrix": {
+      "fn": 1,
+      "fp": 1,
+      "tn": 9,
+      "tp": 9
+    },
+    "f1": 0.9,
+    "member_count": 10,
+    "member_score_mean": 0.9541986614465714,
+    "nonmember_count": 10,
+    "nonmember_score_mean": 0.8668459236621857,
+    "precision": 0.9,
+    "recall": 0.9,
+    "roc_auc": 0.93,
+    "sample_count": 20,
+    "threshold": 0.915322333574295,
+    "threshold_source": "ag_news_calibration_100_per_class",
+    "tpr_at_fpr_0.001": 0.3,
+    "tpr_at_fpr_0.01": 0.3
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"Neiman Marcus Selling Zeppelin for \\$10M DALLAS - What do you get for that special someone who has just about everything? How about a personal zeppelin? The 12-seater could be yours for a mere \\$10 million from the 2004 Neiman Marcus Christmas Book.    Other gifts in the book include a \\$1.7 million winged submarine, jeweled Mr...\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "A pitch for presents of peace With only 30 shopping days till Christmas, there #39;s no time to lose. So here are some nifty gift ideas for the youngsters on your list: - JFK Reloaded.",
+      "SpaceShipOne completes first flight in \\$10M prize pursuit SpaceShipOne, the Paul Allen-backed venture that #39;s attempting to take paying passengers into suborbital space for the first time, has completed the first leg of its effort to win a \\$10 million prize.",
+      "Cendant to Acquire Gullivers Travel for \\$1.1 Billion (Update3) Cendant Corp., which owns Days Inn hotels and Avis Rent A Car Systems Inc., agreed to buy the UK #39;s Gullivers Travel Associates and Octopus Travel Group Ltd.",
+      "Shoppers offer retailers cheer Retailers generally had a good showing as the Christmas shopping season began last weekend, but Wal-Mart Stores Inc. dampened the holiday mood with a lump of coal as it reduced its projected sales."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"A pitch for presents of peace With only 30 shopping days till Christmas, there #39;s no time to lose. So here are some nifty gift ideas for the youngsters on your list: - JFK Reloaded.\"\n\"SpaceShipOne completes first flight in \\$10M prize pursuit SpaceShipOne, the Paul Allen-backed venture that #39;s attempting to take paying passengers into suborbital space for the first time, has completed the first leg of its effort to win a \\$10 million prize.\"\n\"Cendant to Acquire Gullivers Travel for \\$1.1 Billion (Update3) Cendant Corp., which owns Days Inn hotels and Avis Rent A Car Systems Inc., agreed to buy the UK #39;s Gullivers Travel Associates and Octopus Travel Group Ltd.\"\n\"Shoppers offer retailers cheer Retailers generally had a good showing as the Christmas shopping season began last weekend, but Wal-Mart Stores Inc. dampened the holiday mood with a lump of coal as it reduced its projected sales.\"\n\nQuestion:\nDoes this: \"Neiman Marcus Selling Zeppelin for \\$10M DALLAS - What do you get for that special someone who has just about everything? How about a personal zeppelin? The 12-seater could be yours for a mere \\$10 million from the 2004 Neiman Marcus Christmas Book.    Other gifts in the book include a \\$1.7 million winged submarine, jeweled Mr...\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

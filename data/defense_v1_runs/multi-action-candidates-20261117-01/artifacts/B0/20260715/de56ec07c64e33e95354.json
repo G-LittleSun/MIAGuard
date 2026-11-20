@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Fill in every numbered placeholder with its original word. The response must be JSON only: {\"answers\": [ ... ]} with one string per mask, in ascending mask order.\n\nPassage:\nC.I.A. Churning [Mask_1] as 2 Top [Mask_2] Resign The head of the C.I.A.'s [Mask_3] service and his deputy [Mask_4] their posts after clashes with [Mask_5] to Porter J. Goss.",
+    "contexts": [
+      "A Sunni commission issues a Fatwa to release French journalists A-Arshiad and Dawa ( Guidance and call) commission has issued a Fatwa demanding the kidnappers of the French journalists be released immediately and not to be harmed.",
+      "Translator hired by Titan beheaded by insurgents A translator employed by San Diego #39;s Titan Corp. was beheaded in Iraq yesterday by insurgents who also beheaded a Turkish contractor working at a US air base.",
+      "US Airways pilots offer last-ditch talks The leadership of the pilots #39; union at US Airways voted late Friday night to hold last-ditch talks with the airline on its bid for wage and benefit cuts.",
+      "C.I.A. Churning Continues as 2 Top Officials Resign The head of the C.I.A.'s clandestine service and his deputy resigned their posts after clashes with advisers to Porter J. Goss."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"A Sunni commission issues a Fatwa to release French journalists A-Arshiad and Dawa ( Guidance and call) commission has issued a Fatwa demanding the kidnappers of the French journalists be released immediately and not to be harmed.\"\n\"Translator hired by Titan beheaded by insurgents A translator employed by San Diego #39;s Titan Corp. was beheaded in Iraq yesterday by insurgents who also beheaded a Turkish contractor working at a US air base.\"\n\"US Airways pilots offer last-ditch talks The leadership of the pilots #39; union at US Airways voted late Friday night to hold last-ditch talks with the airline on its bid for wage and benefit cuts.\"\n\"C.I.A. Churning Continues as 2 Top Officials Resign The head of the C.I.A.'s clandestine service and his deputy resigned their posts after clashes with advisers to Porter J. Goss.\"\n\nQuestion:\nFill in every numbered placeholder with its original word. The response must be JSON only: {\"answers\": [ ... ]} with one string per mask, in ascending mask order.\n\nPassage:\nC.I.A. Churning [Mask_1] as 2 Top [Mask_2] Resign The head of the C.I.A.'s [Mask_3] service and his deputy [Mask_4] their posts after clashes with [Mask_5] to Porter J. Goss.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

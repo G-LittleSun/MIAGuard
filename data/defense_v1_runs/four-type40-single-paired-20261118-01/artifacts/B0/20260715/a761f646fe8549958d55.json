@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "The passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\n[Mask_1] 1: Tokyo Stocks Lower; Dollar Falls Vs. Yen Tokyo stocks [Mask_2] lower Monday morning because of [Mask_3] about [Mask_4] oil prices. The US dollar was down against the [Mask_5] yen.",
+    "contexts": [
+      "Dollar #39;s fall worries Japanese officials Masatsugu Asakawa has one of the busiest jobs in Tokyo these days: monitoring the US dollar #39;s fluctuation against the Japanese yen.",
+      "Update 5: Tokyo #39;s Stocks Lower on Profit Taking Tokyo #39;s key stock index fell Tuesday morning on profit taking following hefty gains the day before. The US dollar was higher against the Japanese yen.",
+      "Dollar Ignores Data, Creeps Lower vs. Yen  NEW YORK (Reuters) - The dollar dropped against the yen on  Friday, as the market ignored a mostly positive report on  October U.S. retail sales and remained focused on the record  U.S. current account deficit.",
+      "Janus Loses \\$5 Billion The bad news just keeps pouring in for mutual fund manager Janus Capital Group (NYSE: JNS). Yesterday, the Denver-based firm reported that European banker ING Group (NYSE: ING) will pull \\$5 billion from its mutual funds, or ..."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Dollar #39;s fall worries Japanese officials Masatsugu Asakawa has one of the busiest jobs in Tokyo these days: monitoring the US dollar #39;s fluctuation against the Japanese yen.\"\n\"Update 5: Tokyo #39;s Stocks Lower on Profit Taking Tokyo #39;s key stock index fell Tuesday morning on profit taking following hefty gains the day before. The US dollar was higher against the Japanese yen.\"\n\"Dollar Ignores Data, Creeps Lower vs. Yen  NEW YORK (Reuters) - The dollar dropped against the yen on  Friday, as the market ignored a mostly positive report on  October U.S. retail sales and remained focused on the record  U.S. current account deficit.\"\n\"Janus Loses \\$5 Billion The bad news just keeps pouring in for mutual fund manager Janus Capital Group (NYSE: JNS). Yesterday, the Denver-based firm reported that European banker ING Group (NYSE: ING) will pull \\$5 billion from its mutual funds, or ...\"\n\nQuestion:\nThe passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\n[Mask_1] 1: Tokyo Stocks Lower; Dollar Falls Vs. Yen Tokyo stocks [Mask_2] lower Monday morning because of [Mask_3] about [Mask_4] oil prices. The US dollar was down against the [Mask_5] yen.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

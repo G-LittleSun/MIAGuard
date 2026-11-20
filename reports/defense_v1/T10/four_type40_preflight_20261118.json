@@ -1,0 +1,1311 @@
+{
+  "status": "inventory_only",
+  "baseline_run_identity_sha256": "94b20ebc1a60870b774b872e34592515784871087f4f5531e9feb75decd82c71",
+  "counts": {
+    "indexed": {
+      "train_documents": 30,
+      "direct_with_structural_canonical": 30,
+      "s2_with_structural_canonical": 30,
+      "masked_with_overlay_candidate": 30,
+      "masked_with_overlay_without_documented_flags": 24,
+      "ia_with_three_distinct_original_strings": 30,
+      "ia_with_three_overlay_records": 5,
+      "ia_with_previously_run_three_round_session": 2
+    },
+    "not_indexed": {
+      "train_documents": 30,
+      "direct_with_structural_canonical": 30,
+      "s2_with_structural_canonical": 30,
+      "masked_with_overlay_candidate": 30,
+      "masked_with_overlay_without_documented_flags": 20,
+      "ia_with_three_distinct_original_strings": 30,
+      "ia_with_three_overlay_records": 3,
+      "ia_with_previously_run_three_round_session": 2
+    }
+  },
+  "documents": [
+    {
+      "source_doc_id": "ag_news_teacher_00000050",
+      "indexed": true,
+      "source_text_sha256": "51b1e19cbec5538eb4d6429b29c60e1afab3c9b2f9a5168028d94f1cb4b46650",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000050:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000050:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 48,
+      "ia_original_reference_counts": {
+        "yes": 22,
+        "unknown": 16,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 2,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000102",
+      "indexed": true,
+      "source_text_sha256": "9b1a358acffc53eb3e7cb67ffd97a33c134d0cfb0df21173e1d591925a2cb035",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000102:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000102:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 39,
+      "ia_original_reference_counts": {
+        "unknown": 19,
+        "no": 10,
+        "yes": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000149",
+      "indexed": true,
+      "source_text_sha256": "95c627355672d7db756b82153bffa5c7ec69b5bac2a6cb761a51614f749091b5",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000149:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000149:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 40,
+      "ia_original_reference_counts": {
+        "yes": 25,
+        "unknown": 5,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 2,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000176",
+      "indexed": true,
+      "source_text_sha256": "b99cd8f0f6ccb489faf318273b8091b253a60a4b9fc871ff31002f8eb14344f9",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000176:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000176:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 49,
+      "ia_original_reference_counts": {
+        "yes": 22,
+        "unknown": 17,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000220",
+      "indexed": true,
+      "source_text_sha256": "be93a49af86e670e1e23ee03411e15898648dce4e3f1acba3a9ea690d788789e",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000220:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000220:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 35,
+      "ia_original_reference_counts": {
+        "yes": 12,
+        "no": 10,
+        "unknown": 13
+      },
+      "ia_overlay_candidate_count": 3,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000224",
+      "indexed": true,
+      "source_text_sha256": "24bc456cbe79af92d41ee3e1266ff3f9cf717d74d28f55a2783a6e258933a874",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000224:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000224:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 35,
+      "ia_original_reference_counts": {
+        "no": 10,
+        "yes": 10,
+        "unknown": 15
+      },
+      "ia_overlay_candidate_count": 2,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000236",
+      "indexed": true,
+      "source_text_sha256": "91377d35382d6ebecb4ad8c6b0217150aa1a8c32b383ab69cc0541a8cef855bf",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000236:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000236:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 60,
+      "ia_original_reference_counts": {
+        "yes": 24,
+        "unknown": 26,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000250",
+      "indexed": true,
+      "source_text_sha256": "b04d510506be3b33e5640d2a6624ac464daab989d93c53e3428d45cf57460c74",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000250:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000250:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 56,
+      "ia_original_reference_counts": {
+        "yes": 26,
+        "unknown": 20,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 1,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000284",
+      "indexed": true,
+      "source_text_sha256": "ce4fd6c9002d6302344e81c52fcd4d0051514bce6132243ef14a67ccf7a7d19e",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000284:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000284:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 40,
+      "ia_original_reference_counts": {
+        "yes": 19,
+        "unknown": 11,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000307",
+      "indexed": true,
+      "source_text_sha256": "09ade153a88ad359b93dcaa797ae9ae66a27b3e4b383d57c05c0ad6a91baa806",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000307:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000307:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 36,
+      "ia_original_reference_counts": {
+        "no": 10,
+        "yes": 23,
+        "unknown": 3
+      },
+      "ia_overlay_candidate_count": 1,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000313",
+      "indexed": true,
+      "source_text_sha256": "4a7766c36d8d853be9d8c3ff5600e161ba2747dc148fb3c2f65b44a8bcb8ca23",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000313:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000313:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 36,
+      "ia_original_reference_counts": {
+        "yes": 10,
+        "unknown": 16,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000363",
+      "indexed": true,
+      "source_text_sha256": "ff4a9cfd957236652de8656604f4e6d4f8c9df909a0691a8b54a879eb1608e1e",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000363:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000363:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 35,
+      "ia_original_reference_counts": {
+        "yes": 18,
+        "unknown": 7,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 4,
+      "ia_already_run_as_three_round_session": true
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000367",
+      "indexed": true,
+      "source_text_sha256": "109b827189943345fda7f703446231702ed51c10ec190e4d450a5102eb61cd70",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000367:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000367:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 36,
+      "ia_original_reference_counts": {
+        "yes": 11,
+        "no": 10,
+        "unknown": 15
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000388",
+      "indexed": true,
+      "source_text_sha256": "5b6cc77ebb44b99c7444f5171630dc7d6256c643f54a5a5e2e490e7608799f49",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000388:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000388:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 40,
+      "ia_original_reference_counts": {
+        "yes": 13,
+        "unknown": 17,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 1,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000406",
+      "indexed": true,
+      "source_text_sha256": "e7023c7a635eb27cc0b067a05dbae3c185e38b7f9050290cefd946b4879397f2",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000406:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000406:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 39,
+      "ia_original_reference_counts": {
+        "yes": 17,
+        "unknown": 12,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 2,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000433",
+      "indexed": true,
+      "source_text_sha256": "258023f831e8b7838594bf15b8ae6b555d28f8241225e58399a8137e9e9c2f22",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000433:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000433:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 38,
+      "ia_original_reference_counts": {
+        "yes": 14,
+        "unknown": 14,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000440",
+      "indexed": true,
+      "source_text_sha256": "9d5151d8c7f6b85a88eb0c095396562137ce223eeb4478d0e906c8f7e0afe33d",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000440:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000440:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 38,
+      "ia_original_reference_counts": {
+        "yes": 12,
+        "unknown": 16,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 2,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000479",
+      "indexed": true,
+      "source_text_sha256": "e14efc2b0794853310d1b02ff1ef65ca4ad2c6cfdbc300323da39a4eedf43271",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000479:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000479:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 37,
+      "ia_original_reference_counts": {
+        "yes": 14,
+        "no": 10,
+        "unknown": 13
+      },
+      "ia_overlay_candidate_count": 3,
+      "ia_already_run_as_three_round_session": true
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000532",
+      "indexed": true,
+      "source_text_sha256": "b171aecdf2b6f54392f424787dfd776b64154989d308723b6eef060941cdf024",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000532:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000532:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 44,
+      "ia_original_reference_counts": {
+        "yes": 10,
+        "unknown": 24,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000544",
+      "indexed": true,
+      "source_text_sha256": "848d374c2368bd5ea5ff264499e23795f9af708a378f43c6c049c58169dad9a5",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000544:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000544:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 33,
+      "ia_original_reference_counts": {
+        "yes": 16,
+        "no": 10,
+        "unknown": 7
+      },
+      "ia_overlay_candidate_count": 3,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000551",
+      "indexed": true,
+      "source_text_sha256": "c2b64bfc224db7fc9308d3f681f5185e3d962f86c38b8916eef105672bccc4a3",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000551:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000551:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 40,
+      "ia_original_reference_counts": {
+        "unknown": 20,
+        "yes": 10,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 2,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000639",
+      "indexed": true,
+      "source_text_sha256": "6717775df279182c54709c0cd96c63693900a5a77db5659b798088829cdd83bb",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000639:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000639:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 42,
+      "ia_original_reference_counts": {
+        "yes": 10,
+        "unknown": 22,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000665",
+      "indexed": true,
+      "source_text_sha256": "57f5f335d0e24a08053d5f2ed10c5d9c8f438340b380ee8c9193b3195daf8277",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000665:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000665:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 40,
+      "ia_original_reference_counts": {
+        "yes": 14,
+        "unknown": 16,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 2,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000843",
+      "indexed": true,
+      "source_text_sha256": "6cf582f815bf6b75aad89845c57e44214cf9e2e2a8075d4022560de937c5bdd0",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000843:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000843:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 30,
+      "ia_original_reference_counts": {
+        "yes": 15,
+        "unknown": 5,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000854",
+      "indexed": true,
+      "source_text_sha256": "f1fa6c06aa36644f4d5ecc364d5118a45af57f7c0c30d3376355dfc2be7b7897",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000854:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000854:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 38,
+      "ia_original_reference_counts": {
+        "yes": 13,
+        "unknown": 15,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000910",
+      "indexed": true,
+      "source_text_sha256": "0b00b8428008b710e7b7127ed256fab6f381b0cd2f298eae102206aacfcc9029",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000910:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000910:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 47,
+      "ia_original_reference_counts": {
+        "unknown": 25,
+        "yes": 12,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000979",
+      "indexed": true,
+      "source_text_sha256": "616dbe60fc44c2b09347218c3eb5654d40b22fc2237cf6e86074713b1e74dfe4",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000979:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000979:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 31,
+      "ia_original_reference_counts": {
+        "yes": 10,
+        "no": 10,
+        "unknown": 11
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000988",
+      "indexed": true,
+      "source_text_sha256": "efd85fce9d6c15d1633e4e32a6a407ef34764dae31cef89cc82ccf61fafb481f",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000988:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000988:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 37,
+      "ia_original_reference_counts": {
+        "no": 10,
+        "unknown": 17,
+        "yes": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000992",
+      "indexed": true,
+      "source_text_sha256": "d9157c7784165fb782509b5ec8d1a96dfb598c5bade17cdad8748b589ccbe8f2",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000992:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000992:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 41,
+      "ia_original_reference_counts": {
+        "yes": 10,
+        "unknown": 21,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00000997",
+      "indexed": true,
+      "source_text_sha256": "086f3f41c888ed869ff6179e81e126154ed4ff55f647d419ba3e8c86b1fff2a3",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000997:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00000997:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 38,
+      "ia_original_reference_counts": {
+        "yes": 20,
+        "no": 10,
+        "unknown": 8
+      },
+      "ia_overlay_candidate_count": 3,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008001",
+      "indexed": false,
+      "source_text_sha256": "98ddf00a80e2095600c8053913e39fa39f3f101d456ee6223521a0b76f3d01fc",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008001:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008001:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 43,
+      "ia_original_reference_counts": {
+        "yes": 14,
+        "unknown": 19,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 1,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008074",
+      "indexed": false,
+      "source_text_sha256": "1cf1b2215286f4b9a11102a852d2730034c2f90b2dcae0fa7ba324ecdbe442f1",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008074:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008074:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 48,
+      "ia_original_reference_counts": {
+        "yes": 18,
+        "unknown": 20,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008191",
+      "indexed": false,
+      "source_text_sha256": "f10c1c01554141e132a6452f1b818b8d211bd33ae6ce354e41e2831ef1c85fec",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008191:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008191:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 49,
+      "ia_original_reference_counts": {
+        "no": 10,
+        "unknown": 23,
+        "yes": 16
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008234",
+      "indexed": false,
+      "source_text_sha256": "f4bfea1d505ef59bc79f78fda1f59eae596b9d2c6e8c42eb39bc4f10dadd2012",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008234:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008234:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 36,
+      "ia_original_reference_counts": {
+        "yes": 10,
+        "no": 10,
+        "unknown": 16
+      },
+      "ia_overlay_candidate_count": 1,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008290",
+      "indexed": false,
+      "source_text_sha256": "209edf0029259a1fbee2762a8a3303686f363757b7a58c9f94b59a8858c9864e",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008290:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008290:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 34,
+      "ia_original_reference_counts": {
+        "yes": 14,
+        "unknown": 10,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 1,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008302",
+      "indexed": false,
+      "source_text_sha256": "0883964f255f42f96398e803c82716ef03087953727b8972aa52a5a3b961ac4c",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008302:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008302:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 35,
+      "ia_original_reference_counts": {
+        "yes": 19,
+        "no": 10,
+        "unknown": 6
+      },
+      "ia_overlay_candidate_count": 6,
+      "ia_already_run_as_three_round_session": true
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008319",
+      "indexed": false,
+      "source_text_sha256": "76d52742b0848a8924deb1bd76f0e5157fb764c02a24350488c923b1813c3ab2",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008319:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008319:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 42,
+      "ia_original_reference_counts": {
+        "yes": 10,
+        "unknown": 22,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008321",
+      "indexed": false,
+      "source_text_sha256": "a35f60e644c75755396a65117d29d299052ea140c0890453472c0a4c04575ee0",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008321:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008321:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 40,
+      "ia_original_reference_counts": {
+        "yes": 10,
+        "no": 10,
+        "unknown": 20
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008340",
+      "indexed": false,
+      "source_text_sha256": "aeb72f362b1199e96c917b8b7f4558c5fa8b862622382d1c40a3d924f2283142",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008340:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008340:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 41,
+      "ia_original_reference_counts": {
+        "yes": 16,
+        "unknown": 15,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 1,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008361",
+      "indexed": false,
+      "source_text_sha256": "c773deaa9d369a59a2873b0c166a2b9f7e2032e65e97a9240b04fa3ec68ad67d",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008361:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008361:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 49,
+      "ia_original_reference_counts": {
+        "no": 10,
+        "unknown": 26,
+        "yes": 13
+      },
+      "ia_overlay_candidate_count": 1,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008366",
+      "indexed": false,
+      "source_text_sha256": "533f3f578f54b1d534faa0452ec1acf59b66a97409cf916a0df8b20aa84ed227",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008366:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008366:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 38,
+      "ia_original_reference_counts": {
+        "yes": 18,
+        "unknown": 10,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 3,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008409",
+      "indexed": false,
+      "source_text_sha256": "93a99816fe76004d32034f637a9a8d1eda66e0c5f826092a2ee5b796915f94c2",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008409:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008409:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 38,
+      "ia_original_reference_counts": {
+        "yes": 15,
+        "no": 10,
+        "unknown": 13
+      },
+      "ia_overlay_candidate_count": 2,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008437",
+      "indexed": false,
+      "source_text_sha256": "b56d4ddd1a9d994a6365b86cf7b1c4b56bf64b9132706e5dcc2d40caf00ec368",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008437:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008437:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 33,
+      "ia_original_reference_counts": {
+        "no": 19,
+        "yes": 10,
+        "unknown": 4
+      },
+      "ia_overlay_candidate_count": 1,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008547",
+      "indexed": false,
+      "source_text_sha256": "59a87a21d61cff6a8612d97c46fa53ffb9a2abee49a57a7389d991686f0ad56c",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008547:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008547:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 35,
+      "ia_original_reference_counts": {
+        "no": 10,
+        "yes": 17,
+        "unknown": 8
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008559",
+      "indexed": false,
+      "source_text_sha256": "997867a457b38cef77f1e363cc0fbb15ac65960d24f23bb1b7d807f3c82615c7",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008559:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008559:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 43,
+      "ia_original_reference_counts": {
+        "yes": 14,
+        "unknown": 19,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 3,
+      "ia_already_run_as_three_round_session": true
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008603",
+      "indexed": false,
+      "source_text_sha256": "202ad76da3ffde331cf8a1039a226e8446318f949922c7bc0f4fa7e515557ce5",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008603:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008603:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 40,
+      "ia_original_reference_counts": {
+        "yes": 10,
+        "unknown": 20,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008622",
+      "indexed": false,
+      "source_text_sha256": "65ee8e368dd8e690533f7eb17f74f0c48f472aa8f31f41de23474883ae2eb74c",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008622:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008622:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 35,
+      "ia_original_reference_counts": {
+        "yes": 24,
+        "no": 10,
+        "unknown": 1
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008636",
+      "indexed": false,
+      "source_text_sha256": "29f694e005ee93565ecb1058d83c552ece08f6b5ed2dd8f52e9a3e59e88a79eb",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008636:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008636:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 47,
+      "ia_original_reference_counts": {
+        "yes": 12,
+        "unknown": 25,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 2,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008656",
+      "indexed": false,
+      "source_text_sha256": "299d67977a9021d9e57b3a3a243952d72d30f1825b828a600476713eb8f213c5",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008656:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008656:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 39,
+      "ia_original_reference_counts": {
+        "unknown": 17,
+        "yes": 12,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008681",
+      "indexed": false,
+      "source_text_sha256": "cd6bcd83eece7affadb7291ab00d705e8ad81c9600c86275727a04bfd50a2faf",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008681:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008681:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 34,
+      "ia_original_reference_counts": {
+        "yes": 11,
+        "unknown": 13,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008692",
+      "indexed": false,
+      "source_text_sha256": "97c3c105b5bcc277e52ca28bb1aa37d87455633162b3bcb663465621f117f211",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008692:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008692:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 38,
+      "ia_original_reference_counts": {
+        "yes": 24,
+        "unknown": 4,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 1,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008739",
+      "indexed": false,
+      "source_text_sha256": "058d1d8b9326541b08149a01d77b3d643d7d4ea05dd53c3354e7e3ec3f0715a3",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008739:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008739:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 40,
+      "ia_original_reference_counts": {
+        "yes": 20,
+        "unknown": 10,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008757",
+      "indexed": false,
+      "source_text_sha256": "dcb56973045f439298dea8461c95d9de0cacec3c9c68e6962624844f8cbc3a60",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008757:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008757:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 35,
+      "ia_original_reference_counts": {
+        "yes": 10,
+        "no": 13,
+        "unknown": 12
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008787",
+      "indexed": false,
+      "source_text_sha256": "d11fdfb3d3e03ca43be7566b7225942c9061efb99e833c5f8170f76248f13cfe",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008787:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008787:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 34,
+      "ia_original_reference_counts": {
+        "no": 10,
+        "unknown": 9,
+        "yes": 15
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008792",
+      "indexed": false,
+      "source_text_sha256": "d32ee221f00e0154d59bbaed2eb521ec8f72cc413798107c5b217b1f8f473150",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008792:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008792:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 49,
+      "ia_original_reference_counts": {
+        "yes": 20,
+        "unknown": 19,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 1,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008834",
+      "indexed": false,
+      "source_text_sha256": "ede9b955361bdbb787862dc81db49bc1364d3b1b014cbd4bbe4056f331c04667",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008834:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008834:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 31,
+      "ia_original_reference_counts": {
+        "yes": 15,
+        "no": 10,
+        "unknown": 6
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008836",
+      "indexed": false,
+      "source_text_sha256": "809ba3943e6fea53173ec63e10971c08578af2e07465202d0095a916cca31d3b",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008836:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008836:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 30,
+      "ia_original_reference_counts": {
+        "no": 10,
+        "yes": 12,
+        "unknown": 8
+      },
+      "ia_overlay_candidate_count": 2,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008927",
+      "indexed": false,
+      "source_text_sha256": "6366d1bfaaf485354a636ef5d3ac549290b315608ea824774c1711d91496e8c2",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008927:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008927:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 0,
+      "ia_distinct_original_query_count": 40,
+      "ia_original_reference_counts": {
+        "yes": 22,
+        "unknown": 8,
+        "no": 10
+      },
+      "ia_overlay_candidate_count": 0,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008944",
+      "indexed": false,
+      "source_text_sha256": "def05e50508a2597f1eae2dee3b88c3793287b6e71bb1439b07891015e4774cf",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008944:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008944:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 38,
+      "ia_original_reference_counts": {
+        "yes": 10,
+        "no": 10,
+        "unknown": 18
+      },
+      "ia_overlay_candidate_count": 2,
+      "ia_already_run_as_three_round_session": false
+    },
+    {
+      "source_doc_id": "ag_news_teacher_00008988",
+      "indexed": false,
+      "source_text_sha256": "ec9995149b24737d0cab20fcd875b8f48a2287f51854b99de92f82e37b82c08a",
+      "direct_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008988:direct_rag_mia:canonical:0001"
+      ],
+      "s2_structural_canonical_ids": [
+        "ag_news:ag_news_teacher_00008988:s2_mia:canonical:0001"
+      ],
+      "masked_overlay_candidate_count": 5,
+      "masked_overlay_without_documented_quality_flags": 5,
+      "ia_distinct_original_query_count": 43,
+      "ia_original_reference_counts": {
+        "yes": 10,
+        "no": 10,
+        "unknown": 23
+      },
+      "ia_overlay_candidate_count": 1,
+      "ia_already_run_as_three_round_session": false
+    }
+  ],
+  "formal_effect_eligible": false,
+  "input_sha256": {
+    "reports\\defense_v1\\T10\\legacy_reuse_selection_20261104.json": "af7a5a686245aaa0a1ae995fa54924899281b11a60ac10df4a49e7b8cd5f4285",
+    "data\\query_banks\\ag_news_queries_v2\\ag_news\\manifest.json": "1296d74cfdabeba6aba560d0c289c547db54fd582c76f77fdffc2d9a9300991a",
+    "data\\query_banks\\ag_news_queries_v2\\ag_news\\queries.jsonl": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972",
+    "data\\query_bank_splits\\ag_news_threshold_v2.json": "96977e550be6c0e42ab0b7609f2c73af261a99474b459778ae46fd123c7b80ef",
+    "data\\vector_stores\\20260717-ag-news-four-medium\\ag_news\\manifest.json": "888791e22714fb741c8e9674679ae4891e9e3184540a62e5300776671a31ad44",
+    "data\\vector_stores\\20260717-ag-news-four-medium\\ag_news\\documents.jsonl": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9",
+    "reports\\defense_v1\\T10\\query_bank_version_audit_20261104.json": "e5e8da1f2a3ffd7adb83046372e9de5726f2b4edb19fd42dcaddd8105a75a949",
+    "data\\defense_datasets\\next_goal_ablation_v2_train_20261117_01\\experiment_spec.json": "ac215b49b2be10b5934e6f99bdf0a155ed2bb2b05fd975c2ebf8ce3317800085",
+    "data\\defense_v1_runs\\next-goal-ablation-20261117-01\\run_manifest.json": "e140c792912fa7cf74dff8ece0d3a35a2703379ac64662540a319b157f1beca9",
+    "data\\runs\\20260717-ag-news-four-medium\\ag_news\\target_docs.jsonl": "f7f604ce3acde220998ab2bd93186441119ba0074ae2e7fdf8fcdcde79f11eb1",
+    "reports\\defense_v1\\T10\\v2_train_reuse_audit_20261105_01\\query_reuse_audit.jsonl": "6e1b2e7f3b33c086e859990985ee881345982fafa546426dcd6f5eaff50029a4",
+    "data\\defense_datasets\\legacy_v2_reuse_overlay_20261105_01\\manifest.json": "d4b6625ad3431f7bbc7f551c190897330f4caede116ab50370c6d294883095df",
+    "data\\defense_datasets\\multiturn_ia_session_v2_train_20261113_01\\manifest.json": "51940d20a9bd8647b51d2f08ee3bdc0c8d01b215486ffd524163f9212aab96df",
+    "reports\\defense_v1\\T10\\inventory_four_type40_20261118.py": "5afaa00414748b2cc1032adacd4b4250655735ad525a5bd0aff2c22355a6b253"
+  },
+  "limits": [
+    "Candidate counts are not semantic approvals.",
+    "Three distinct query strings do not establish three distinct grounded facts or a valid session.",
+    "Overlay records are pending and the overlay manifest is not an approval for full replay.",
+    "No request text was generated or modified. No run was started by this inventory."
+  ]
+}

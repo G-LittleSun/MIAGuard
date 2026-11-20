@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "What kind of company is Veritas in the report?",
+    "contexts": [
+      "Report: Symantec May Buy Veritas Antivirus vendor may pay \\$13 billion for the storage software company.",
+      "U.S. Market Big Test for Mexico's Bimbo  MEXICO CITY (Reuters) - Mexico's Bimbo, the world's No. 3  bread maker, is expected to start turning around its ailing  U.S. unit next year, aided by new technology to improve  distribution and by the partial closure of a tough competitor,  according to analysts.",
+      "IBM Community to address social issues New York: The US-based software major IBM, along with representatives of the world #39;s leading science, education and philanthropic outfits, has launched a global effort aimed at harnessing the vast computing power of individuals and business computers and ",
+      "Vivendi Flashes V for Victory Vivendi (NYSE: V) is one of those complex behemoths of a firm that normally doesn #39;t make it onto my radar since, as a lazy Fool, I prefer my companies small and simple."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Report: Symantec May Buy Veritas Antivirus vendor may pay \\$13 billion for the storage software company.\"\n\"U.S. Market Big Test for Mexico's Bimbo  MEXICO CITY (Reuters) - Mexico's Bimbo, the world's No. 3  bread maker, is expected to start turning around its ailing  U.S. unit next year, aided by new technology to improve  distribution and by the partial closure of a tough competitor,  according to analysts.\"\n\"IBM Community to address social issues New York: The US-based software major IBM, along with representatives of the world #39;s leading science, education and philanthropic outfits, has launched a global effort aimed at harnessing the vast computing power of individuals and business computers and \"\n\"Vivendi Flashes V for Victory Vivendi (NYSE: V) is one of those complex behemoths of a firm that normally doesn #39;t make it onto my radar since, as a lazy Fool, I prefer my companies small and simple.\"\n\nQuestion:\nWhat kind of company is Veritas in the report?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

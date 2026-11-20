@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008437",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q094",
+      "session_id": "ia_ag_news_teacher_00008437",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe provided context does not directly link the drop in Tokyo's stocks to concerns about rising oil prices. The context mentions that Tokyo's stocks fell due to profit-taking after gains the previous day, but it does not provide a direct connection to oil prices.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000043",
+        "ag_news_teacher_00000938",
+        "ag_news_teacher_00000721",
+        "ag_news_teacher_00000797"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000043",
+        "ag_news_teacher_00000938",
+        "ag_news_teacher_00000721",
+        "ag_news_teacher_00000797"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000043",
+            "ag_news_teacher_00000938",
+            "ag_news_teacher_00000721",
+            "ag_news_teacher_00000797"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000043",
+            "ag_news_teacher_00000938",
+            "ag_news_teacher_00000721",
+            "ag_news_teacher_00000797"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1660.0275998935103,
+      "ledger_event": {
+        "request_id": "q094",
+        "session_id": "ia_ag_news_teacher_00008437",
+        "input_sha256": "5536d0bb671ca92422dc29c039c745547aef7738917d0a94c23731bcd40841ab",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000043",
+          "ag_news_teacher_00000938",
+          "ag_news_teacher_00000721",
+          "ag_news_teacher_00000797"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000043",
+            "parent_doc_id": "ag_news_teacher_00000043",
+            "kind": "raw",
+            "score": 0.5422230958938599,
+            "text_sha256": "42e41f00fbcb8e3fa872fe399434bde9349c2adca810f0eb27c2b1e4e9b1be94"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000938",
+            "parent_doc_id": "ag_news_teacher_00000938",
+            "kind": "raw",
+            "score": 0.4864536225795746,
+            "text_sha256": "dac4491aabf25cc36f353966b88705ee794fe22404f018008091dd3361ef3d91"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000721",
+            "parent_doc_id": "ag_news_teacher_00000721",
+            "kind": "raw",
+            "score": 0.47134506702423096,
+            "text_sha256": "fb55d3fa269e364cfb0a2f7f8168dc803861f7f9d7c91e54cf605230b55d9ce8"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000797",
+            "parent_doc_id": "ag_news_teacher_00000797",
+            "kind": "raw",
+            "score": 0.4686163067817688,
+            "text_sha256": "0056cd92ac09ff9aff818f78ab36788171f3d83c2fd69194a64e9a1ce62c1a71"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe provided context does not directly link the drop in Tokyo's stocks to concerns about rising oil prices. The context mentions that Tokyo's stocks fell due to profit-taking after gains the previous day, but it does not provide a direct connection to oil prices.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006855.3918245,
+        "finished_at": 1795006857.0518224
+      },
+      "generation_input_ref": "artifacts/B0/20260715/548c59d70d1c7e5ef56e.json",
+      "artifact_sha256": "5b16308e54ec14b9962384b11ceea9a08fb1f80aae111c7f3e11832f9d33b438"
+    },
+    {
+      "request_id": "q095",
+      "session_id": "ia_ag_news_teacher_00008437",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe provided context does not contain specific information about Tokyo stocks on Monday morning. The closest relevant information is about Tokyo stocks falling on Tuesday morning due to profit-taking, but this does not provide enough information to determine the status of Tokyo stocks on Monday.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000537",
+        "ag_news_teacher_00000743",
+        "ag_news_teacher_00000043",
+        "ag_news_teacher_00000325"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000537",
+        "ag_news_teacher_00000743",
+        "ag_news_teacher_00000043",
+        "ag_news_teacher_00000325"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000537",
+            "ag_news_teacher_00000743",
+            "ag_news_teacher_00000043",
+            "ag_news_teacher_00000325"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000537",
+            "ag_news_teacher_00000743",
+            "ag_news_teacher_00000043",
+            "ag_news_teacher_00000325"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1630.9732999652624,
+      "ledger_event": {
+        "request_id": "q095",
+        "session_id": "ia_ag_news_teacher_00008437",
+        "input_sha256": "6b2d67003dc49bfd6cd8e068fd73036e0c7a06e7305a3108aa805b448dede872",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000537",
+          "ag_news_teacher_00000743",
+          "ag_news_teacher_00000043",
+          "ag_news_teacher_00000325"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000537",
+            "parent_doc_id": "ag_news_teacher_00000537",
+            "kind": "raw",
+            "score": 0.6178386211395264,
+            "text_sha256": "5f910abdfa04c5ce5f0fde749d6db03099d30365279fd6a635e33184a56c9d4b"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000743",
+            "parent_doc_id": "ag_news_teacher_00000743",
+            "kind": "raw",
+            "score": 0.5802068710327148,
+            "text_sha256": "5dc29aeb697643b4f6e4369c35342233aaff43df18ae6d16efcb0cae15f231ea"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000043",
+            "parent_doc_id": "ag_news_teacher_00000043",
+            "kind": "raw",
+            "score": 0.5167859792709351,
+            "text_sha256": "42e41f00fbcb8e3fa872fe399434bde9349c2adca810f0eb27c2b1e4e9b1be94"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000325",
+            "parent_doc_id": "ag_news_teacher_00000325",
+            "kind": "raw",
+            "score": 0.49801260232925415,
+            "text_sha256": "66478814e74e5e2ba4cd516be819be208968775c4fbf7acbf5f06d4c8e700aea"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe provided context does not contain specific information about Tokyo stocks on Monday morning. The closest relevant information is about Tokyo stocks falling on Tuesday morning due to profit-taking, but this does not provide enough information to determine the status of Tokyo stocks on Monday.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006857.0568228,
+        "finished_at": 1795006858.68783
+      },
+      "generation_input_ref": "artifacts/B0/20260715/347f419489d4b93e0808.json",
+      "artifact_sha256": "f8c3ed4eada943442ba315ce6a9a471a91baabb9673a270884f32d9ed8b1dd47"
+    },
+    {
+      "request_id": "q096",
+      "session_id": "ia_ag_news_teacher_00008437",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not contain any information specifically about the US dollar's performance against the Japanese yen on Monday morning. The dates and times mentioned in the snippets are not precise enough to determine if they refer to Monday morning. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000325",
+        "ag_news_teacher_00000797",
+        "ag_news_teacher_00000194",
+        "ag_news_teacher_00000743"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000325",
+        "ag_news_teacher_00000797",
+        "ag_news_teacher_00000194",
+        "ag_news_teacher_00000743"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000325",
+            "ag_news_teacher_00000797",
+            "ag_news_teacher_00000194",
+            "ag_news_teacher_00000743"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000325",
+            "ag_news_teacher_00000797",
+            "ag_news_teacher_00000194",
+            "ag_news_teacher_00000743"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1819.458399899304,
+      "ledger_event": {
+        "request_id": "q096",
+        "session_id": "ia_ag_news_teacher_00008437",
+        "input_sha256": "f0275423944f171d8ce3dca72713e5baa8848c0ff68685de10f0b75fcd4c50cd",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000325",
+          "ag_news_teacher_00000797",
+          "ag_news_teacher_00000194",
+          "ag_news_teacher_00000743"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000325",
+            "parent_doc_id": "ag_news_teacher_00000325",
+            "kind": "raw",
+            "score": 0.5391043424606323,
+            "text_sha256": "66478814e74e5e2ba4cd516be819be208968775c4fbf7acbf5f06d4c8e700aea"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000797",
+            "parent_doc_id": "ag_news_teacher_00000797",
+            "kind": "raw",
+            "score": 0.5375849008560181,
+            "text_sha256": "0056cd92ac09ff9aff818f78ab36788171f3d83c2fd69194a64e9a1ce62c1a71"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000194",
+            "parent_doc_id": "ag_news_teacher_00000194",
+            "kind": "raw",
+            "score": 0.5314606428146362,
+            "text_sha256": "de1417ef023a6214b1c3214029b5c0bc6f64bd7f6695f8de5bbe87e56862730a"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000743",
+            "parent_doc_id": "ag_news_teacher_00000743",
+            "kind": "raw",
+            "score": 0.5112648606300354,
+            "text_sha256": "5dc29aeb697643b4f6e4369c35342233aaff43df18ae6d16efcb0cae15f231ea"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not contain any information specifically about the US dollar's performance against the Japanese yen on Monday morning. The dates and times mentioned in the snippets are not precise enough to determine if they refer to Monday morning. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006858.6923223,
+        "finished_at": 1795006860.5118227
+      },
+      "generation_input_ref": "artifacts/B0/20260715/9f03f15262f0043d09a9.json",
+      "artifact_sha256": "826b34988f893457704780b35eaeb5b8cbac1bffa5e7c847b31bacc8a09350a2"
+    }
+  ]
+}

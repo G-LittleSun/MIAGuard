@@ -1,0 +1,14 @@
+Use case: precise-object-edit. Edit the supplied Chinese academic flowchart into a clearer version for a research paper. The supplied image is the EDIT TARGET. Preserve its white background, thin arrow lines, sober blue left lane and teal right lane, symmetrical left–right structure, core equation and scientifically clean flat style. Increase canvas height if needed while keeping landscape or near-square proportions and ample margins. Use high-quality simplified Chinese typesetting, dark charcoal text, muted flat pastel fills, and consistently sized boxes. Do not include a title above the figure, panel mark, caption, or watermark.
+
+Required changes:
+1. Remove “(a)” in the top-left entirely. There must be no panel letter anywhere.
+2. The single shared top gray box has two lines exactly: “风险评估证据” and “当前查询证据 / 会话窗口证据”. Remove every occurrence of “Judge v3” and the old top label. A central T-shaped split sends inputs to both methods.
+3. Each method scores both scopes separately. Make this visible visually, not only via the top label. Under each method card, add an explicit score-output tier with TWO equal side-by-side small boxes. In both columns separately, the left box reads “单查询风险 x₁” and the right box “会话窗口风险 x₂”. In each column draw a T split from the method card into its own two small score boxes, and join arrows from those two score boxes back to that column’s fusion box. The left and right columns never cross or merge.
+4. Each final bottom box shows just “查询与会话分数融合”. Delete “训练集确定的冻结阈值” altogether and avoid the word “阈值”.
+
+Use exactly this remaining text, without adding other text:
+Left method card header: “LLM 直接评分（Rubric）”
+Left method card body: “按评分准则分别生成风险分数”
+Right method card header: “候选标签概率评分（Logprob）”
+Right method card body lines: “A = BENIGN，B = ATTACK”, “分别读取下一 token 的标签概率”, and the typeset math “s = P(B) / [P(A) + P(B)]”. The numerator is P(B). The denominator is P(A) + P(B). Make formula and Chinese characters precise.
+Use exactly two lane headings, four score boxes in total (one x₁ and one x₂ under EACH heading), and two separate fusion boxes. Treat x₁ and x₂ as mathematical subscripts. Keep all labels visible, centered, comfortably sized and unclipped. The reader should immediately see that each scoring method produces both a single-query risk and a session-window risk before fusion.

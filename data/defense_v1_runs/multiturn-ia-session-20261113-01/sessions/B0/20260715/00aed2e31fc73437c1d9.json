@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "6dd28f4ed54d7d1a2b3cca6ba9d4d6d80369893317ffaf2783c6b58e5dcc7862",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "bp_treo",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "bp_treo_1",
+      "session_id": "bp_treo",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "PalmOne is providing a free 128MB expansion card to Treo 650 owners because the new file system used in the Treo 650 offers less memory for data storage compared to the older Treo 600.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000367",
+        "ag_news_teacher_00000819",
+        "ag_news_teacher_00000907",
+        "ag_news_teacher_00000691"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000367",
+        "ag_news_teacher_00000819",
+        "ag_news_teacher_00000907",
+        "ag_news_teacher_00000691"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000367",
+            "ag_news_teacher_00000819",
+            "ag_news_teacher_00000907",
+            "ag_news_teacher_00000691"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000367",
+            "ag_news_teacher_00000819",
+            "ag_news_teacher_00000907",
+            "ag_news_teacher_00000691"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1944.1313995048404,
+      "ledger_event": {
+        "request_id": "bp_treo_1",
+        "session_id": "bp_treo",
+        "input_sha256": "250aa11821f7a6195df5bc9c0b9e7c434be9e9168f3a42b1351e30c19a51fbfc",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000367",
+          "ag_news_teacher_00000819",
+          "ag_news_teacher_00000907",
+          "ag_news_teacher_00000691"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000367",
+            "parent_doc_id": "ag_news_teacher_00000367",
+            "kind": "raw",
+            "score": 0.820471465587616,
+            "text_sha256": "109b827189943345fda7f703446231702ed51c10ec190e4d450a5102eb61cd70"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000819",
+            "parent_doc_id": "ag_news_teacher_00000819",
+            "kind": "raw",
+            "score": 0.5332202911376953,
+            "text_sha256": "370523d9dd52cbb075c5d749004758cea28cc247f3d418a409ff95af6f95ea0d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000907",
+            "parent_doc_id": "ag_news_teacher_00000907",
+            "kind": "raw",
+            "score": 0.41789689660072327,
+            "text_sha256": "6b6ebf057119d50ccb48a9c009a2109bac61fae16e2d35b92a5aea182a3ca582"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000691",
+            "parent_doc_id": "ag_news_teacher_00000691",
+            "kind": "raw",
+            "score": 0.3958069086074829,
+            "text_sha256": "93eadef81e7f4856d3151d421b06c41f69b05104545508085b2434b199f90675"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "PalmOne is providing a free 128MB expansion card to Treo 650 owners because the new file system used in the Treo 650 offers less memory for data storage compared to the older Treo 600.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794579995.7219508,
+        "finished_at": 1794579997.6659508
+      },
+      "generation_input_ref": "artifacts/B0/20260715/bb84ece654ea73b454ad.json",
+      "artifact_sha256": "776f6aaabc54952f1bb7cda662f476a6697fb8bd2b47ad68f617fd2449e5374e"
+    },
+    {
+      "request_id": "bp_treo_2",
+      "session_id": "bp_treo",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "PalmOne offered the free 128MB expansion card to Treo 650 owners.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000367",
+        "ag_news_teacher_00000819",
+        "ag_news_teacher_00000691",
+        "ag_news_teacher_00000443"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000367",
+        "ag_news_teacher_00000819",
+        "ag_news_teacher_00000691",
+        "ag_news_teacher_00000443"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000367",
+            "ag_news_teacher_00000819",
+            "ag_news_teacher_00000691",
+            "ag_news_teacher_00000443"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000367",
+            "ag_news_teacher_00000819",
+            "ag_news_teacher_00000691",
+            "ag_news_teacher_00000443"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 820.4851998016238,
+      "ledger_event": {
+        "request_id": "bp_treo_2",
+        "session_id": "bp_treo",
+        "input_sha256": "ea80b6584ee3922faa51398344d03d8ad5706db8620ded27363b140fd70b23b2",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000367",
+          "ag_news_teacher_00000819",
+          "ag_news_teacher_00000691",
+          "ag_news_teacher_00000443"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000367",
+            "parent_doc_id": "ag_news_teacher_00000367",
+            "kind": "raw",
+            "score": 0.6112008094787598,
+            "text_sha256": "109b827189943345fda7f703446231702ed51c10ec190e4d450a5102eb61cd70"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000819",
+            "parent_doc_id": "ag_news_teacher_00000819",
+            "kind": "raw",
+            "score": 0.5992769598960876,
+            "text_sha256": "370523d9dd52cbb075c5d749004758cea28cc247f3d418a409ff95af6f95ea0d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000691",
+            "parent_doc_id": "ag_news_teacher_00000691",
+            "kind": "raw",
+            "score": 0.3546455204486847,
+            "text_sha256": "93eadef81e7f4856d3151d421b06c41f69b05104545508085b2434b199f90675"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000443",
+            "parent_doc_id": "ag_news_teacher_00000443",
+            "kind": "raw",
+            "score": 0.3300403952598572,
+            "text_sha256": "0e83c4e1f41e147cfa432371872ec7cd3ff138b75d05f265eec70532fb6e93cc"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "PalmOne offered the free 128MB expansion card to Treo 650 owners.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794579997.667451,
+        "finished_at": 1794579998.4879508
+      },
+      "generation_input_ref": "artifacts/B0/20260715/ccc0ceb932cb8ca21aae.json",
+      "artifact_sha256": "bacc6de7b50f3d686f70fa4ba4bc2d05d4ef46427260958bda61475bf7c22e64"
+    },
+    {
+      "request_id": "bp_treo_3",
+      "session_id": "bp_treo",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "PalmOne plans to offer a free 128MB expansion card to Treo 650 owners.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000367",
+        "ag_news_teacher_00000819",
+        "ag_news_teacher_00000691",
+        "ag_news_teacher_00000907"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000367",
+        "ag_news_teacher_00000819",
+        "ag_news_teacher_00000691",
+        "ag_news_teacher_00000907"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000367",
+            "ag_news_teacher_00000819",
+            "ag_news_teacher_00000691",
+            "ag_news_teacher_00000907"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000367",
+            "ag_news_teacher_00000819",
+            "ag_news_teacher_00000691",
+            "ag_news_teacher_00000907"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 879.8093004152179,
+      "ledger_event": {
+        "request_id": "bp_treo_3",
+        "session_id": "bp_treo",
+        "input_sha256": "d7253b1c93d8b0c15d56e7e20f68e3e1c7a1dd73ab6063d2e07f134dd2f8bf3b",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000367",
+          "ag_news_teacher_00000819",
+          "ag_news_teacher_00000691",
+          "ag_news_teacher_00000907"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000367",
+            "parent_doc_id": "ag_news_teacher_00000367",
+            "kind": "raw",
+            "score": 0.7414005994796753,
+            "text_sha256": "109b827189943345fda7f703446231702ed51c10ec190e4d450a5102eb61cd70"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000819",
+            "parent_doc_id": "ag_news_teacher_00000819",
+            "kind": "raw",
+            "score": 0.5224047303199768,
+            "text_sha256": "370523d9dd52cbb075c5d749004758cea28cc247f3d418a409ff95af6f95ea0d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000691",
+            "parent_doc_id": "ag_news_teacher_00000691",
+            "kind": "raw",
+            "score": 0.3786616623401642,
+            "text_sha256": "93eadef81e7f4856d3151d421b06c41f69b05104545508085b2434b199f90675"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000907",
+            "parent_doc_id": "ag_news_teacher_00000907",
+            "kind": "raw",
+            "score": 0.3131457567214966,
+            "text_sha256": "6b6ebf057119d50ccb48a9c009a2109bac61fae16e2d35b92a5aea182a3ca582"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "PalmOne plans to offer a free 128MB expansion card to Treo 650 owners.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794579998.489451,
+        "finished_at": 1794579999.368951
+      },
+      "generation_input_ref": "artifacts/B0/20260715/5a0e6db8c54bc24dcf73.json",
+      "artifact_sha256": "a93b61839b82d52e87595c6b6508f8eec45bbeeee9aa665f0c743a9ae07143df"
+    }
+  ]
+}

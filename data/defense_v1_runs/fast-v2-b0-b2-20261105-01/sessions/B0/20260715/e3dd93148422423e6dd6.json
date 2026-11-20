@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "abe3e419f1e77b1091768301cf86adfaa01f67c74f091be842a81f1bfc7b0ff6",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "fs_06007e8a6f49b0fd036d6140",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "fp_06007e8a6f49b0fd036d6140",
+      "session_id": "fs_06007e8a6f49b0fd036d6140",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "The cause of the decline in Merck's stock price was the recall of its widely sold Vioxx painkiller. The extent of the decline was a 27 percent drop.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000224",
+        "ag_news_teacher_00000821",
+        "ag_news_teacher_00000043",
+        "ag_news_teacher_00000727"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000224",
+        "ag_news_teacher_00000821",
+        "ag_news_teacher_00000043",
+        "ag_news_teacher_00000727"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000224",
+            "ag_news_teacher_00000821",
+            "ag_news_teacher_00000043",
+            "ag_news_teacher_00000727"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000224",
+            "ag_news_teacher_00000821",
+            "ag_news_teacher_00000043",
+            "ag_news_teacher_00000727"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1369.6921998634934,
+      "ledger_event": {
+        "request_id": "fp_06007e8a6f49b0fd036d6140",
+        "session_id": "fs_06007e8a6f49b0fd036d6140",
+        "input_sha256": "54a2bb749db302c9ec60f103ea2cb43aaf54c1b8db69bc482b7a83e75572836d",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000224",
+          "ag_news_teacher_00000821",
+          "ag_news_teacher_00000043",
+          "ag_news_teacher_00000727"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000224",
+            "parent_doc_id": "ag_news_teacher_00000224",
+            "kind": "raw",
+            "score": 0.5721978545188904,
+            "text_sha256": "24bc456cbe79af92d41ee3e1266ff3f9cf717d74d28f55a2783a6e258933a874"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000821",
+            "parent_doc_id": "ag_news_teacher_00000821",
+            "kind": "raw",
+            "score": 0.4867996275424957,
+            "text_sha256": "76d43e1d93db1aa2a3d56333223c826bb671b70f6b7af3c284dbb0fc855018cd"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000043",
+            "parent_doc_id": "ag_news_teacher_00000043",
+            "kind": "raw",
+            "score": 0.4702085852622986,
+            "text_sha256": "42e41f00fbcb8e3fa872fe399434bde9349c2adca810f0eb27c2b1e4e9b1be94"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000727",
+            "parent_doc_id": "ag_news_teacher_00000727",
+            "kind": "raw",
+            "score": 0.4438372552394867,
+            "text_sha256": "1feac8ce02745063b85c3e5f3a3f81d95994cb225ed67a93fbadc285e3137539"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "The cause of the decline in Merck's stock price was the recall of its widely sold Vioxx painkiller. The extent of the decline was a 27 percent drop.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1793847114.8690386,
+        "finished_at": 1793847116.2390816
+      },
+      "generation_input_ref": "artifacts/B0/20260715/42292791d0024067c857.json",
+      "artifact_sha256": "5fdf10d44275f285df01fbc9c006d8f3bb5f81b7a08c09918d413ba302ab5de9"
+    }
+  ]
+}

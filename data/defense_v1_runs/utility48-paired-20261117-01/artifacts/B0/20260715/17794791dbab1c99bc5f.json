@@ -1,0 +1,12 @@
+{
+  "generation_input": {
+    "query": "How many people were killed in the fresh Philippine flooding, at minimum?",
+    "contexts": [
+      "Fresh Philippine Flooding Kills at Least 26 (Reuters) Reuters - Floods and landslides caused\\by heavy rains killed at least 26 people in the northern\\Philippines, disaster officials said Tuesday, a week after\\storms left about 160 dead or missing."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Fresh Philippine Flooding Kills at Least 26 (Reuters) Reuters - Floods and landslides caused\\by heavy rains killed at least 26 people in the northern\\Philippines, disaster officials said Tuesday, a week after\\storms left about 160 dead or missing.\"\n\nQuestion:\nHow many people were killed in the fresh Philippine flooding, at minimum?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "experiment_id": "E00-observe",
+  "partition": "train",
+  "session_count": 2,
+  "request_count": 10,
+  "query_judge_calls": 10,
+  "session_judge_calls": 6,
+  "risk_source_counts": {
+    "query_only": 4,
+    "fusion": 6
+  },
+  "status_counts": {
+    "ok": 10
+  },
+  "actions": {
+    "allow": 10
+  },
+  "full_context_count": 10,
+  "latency_ms": {
+    "p50": 29807.053099852055,
+    "p95": 61301.708910032175,
+    "max": 61432.10549978539
+  },
+  "max_online_offline_score_difference": 0.0,
+  "saved_trace_count": 16,
+  "limitations": "Development smoke on old formal train sessions; no defense leakage or answer-quality result."
+}

@@ -1,0 +1,83 @@
+{
+  "status": "partial_agent_review",
+  "reviewer_kind": "codex_agent",
+  "human_reviewed": false,
+  "scope": "Review of source entailment and contradiction in existing frozen wording, independent of live B0 and V2 outputs.",
+  "document_reviews": [
+    {
+      "doc_id": "ag_news_teacher_00000224",
+      "decisions": [
+        ["vr_da0cb24321c864511c755117", "Merck recalled Vioxx", "recalled its widely sold Vioxx painkiller"],
+        ["vr_5619e982feef2b4d6a87f2e8", "The source supplies the ticker MRK.N", "MRK.N"],
+        ["ag_news:ag_news_teacher_00000224:ia:generated:0004", "Merck's stock did not increase in the reported recall episode", "its stock sunk 27  percent"]
+      ],
+      "note": "The third reference is No. Reserve for a matched yes/yes/no stratum only."
+    },
+    {
+      "doc_id": "ag_news_teacher_00000388",
+      "decisions": [
+        ["ag_news:ag_news_teacher_00000388:ia:generated:0001", "The clandestine service head resigned", "The head of the C.I.A.'s clandestine service and his deputy resigned"],
+        ["ag_news:ag_news_teacher_00000388:ia:generated:0002", "The deputy also resigned", "his deputy resigned their posts"],
+        ["ag_news:ag_news_teacher_00000388:ia:generated:0013", "The resignations followed clashes with Goss's advisers", "after clashes with advisers to Porter J. Goss"]
+      ]
+    },
+    {
+      "doc_id": "ag_news_teacher_00000440",
+      "decisions": [
+        ["ag_news:ag_news_teacher_00000440:ia:generated:0001", "Arizona is an elite basketball power", "Arizona, an elite basketball power"],
+        ["vr_787d24f61245772af483db82", "Only a handful of programs consider themselves on Arizona's level", "only a handful of programs that consider themselves to be on the same level as Arizona"],
+        ["ag_news:ag_news_teacher_00000440:ia:generated:0002", "Arizona expects annual contention for the Final Four", "expects to be in contention for the Final Four every season"]
+      ]
+    },
+    {
+      "doc_id": "ag_news_teacher_00000665",
+      "decisions": [
+        ["ag_news:ag_news_teacher_00000665:ia:generated:0001", "Police used water cannons", "Riot police used water cannons"],
+        ["ag_news:ag_news_teacher_00000665:ia:generated:0005", "The later march involved more than 20,000 people", "more than 20,000 people marched to vent their anger"],
+        ["ag_news:ag_news_teacher_00000665:ia:generated:0007", "Hundreds of protesters were described as throwing rocks", "hundreds of rock-throwing protesters"]
+      ]
+    },
+    {
+      "doc_id": "ag_news_teacher_00000979",
+      "decisions": [
+        ["ag_news:ag_news_teacher_00000979:ia:generated:0001", "US services expanded in October", "US services sector witnessed a continued upturn for the nineteenth consecutive month in October"],
+        ["ag_news:ag_news_teacher_00000979:ia:generated:0002", "October was the nineteenth consecutive month of expansion", "the nineteenth consecutive month in October"],
+        ["ag_news:ag_news_teacher_00000979:ia:generated:0009", "The September immediately before October also grew, entailed by the consecutive streak", "continued upturn for the nineteenth consecutive month in October"]
+      ],
+      "note": "September growth is a temporal entailment, not an explicitly named month in the source."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008366",
+      "decisions": [
+        ["ag_news:ag_news_teacher_00008366:ia:generated:0001", "The show will have a live audience", "with a live audience"],
+        ["ag_news:ag_news_teacher_00008366:ia:generated:0006", "The show will be syndicated", "daily syndicated show"],
+        ["ag_news:ag_news_teacher_00008366:ia:generated:0007", "The show lasts one hour", "an hour-long"]
+      ]
+    },
+    {
+      "doc_id": "ag_news_teacher_00008409",
+      "decisions": [
+        ["ag_news:ag_news_teacher_00008409:ia:generated:0001", "Microsoft marketed Halo 2 heavily", "Microsoft Corp. made sure of that with a massive public relations blitz"],
+        ["ag_news:ag_news_teacher_00008409:ia:generated:0005", "The report describes strong anticipation", "been this much anticipation"],
+        ["ag_news:ag_news_teacher_00008409:ia:generated:0014", "The headline says Halo 2 lacks a key online option", "but lacks key online option"]
+      ],
+      "note": "The third proposition comes from the headline. The ending quote is truncated, so no comparative extent of anticipation is claimed."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008622",
+      "decisions": [
+        ["ag_news:ag_news_teacher_00008622:ia:generated:0001", "Captivate was once called RoboDemo", "formerly known as RoboDemo"],
+        ["ag_news:ag_news_teacher_00008622:ia:generated:0002", "It can build interactive simulations", "interactive simulations"],
+        ["ag_news:ag_news_teacher_00008622:ia:generated:0005", "It records onscreen activity", "recording onscreen activity"]
+      ]
+    },
+    {
+      "doc_id": "ag_news_teacher_00008692",
+      "decisions": [
+        ["ag_news:ag_news_teacher_00008692:ia:generated:0001", "Spirit remains operational ten months into the project", "Spirit and Opportunity are going strong 10 months after"],
+        ["ag_news:ag_news_teacher_00008692:ia:generated:0002", "Opportunity also remains operational ten months into the project", "Spirit and Opportunity are going strong 10 months after"],
+        ["ag_news:ag_news_teacher_00008692:ia:generated:0005", "Their project is a geological study of Mars begun ten months earlier", "10 months after they began their geological study of the red planet"]
+      ]
+    }
+  ]
+}

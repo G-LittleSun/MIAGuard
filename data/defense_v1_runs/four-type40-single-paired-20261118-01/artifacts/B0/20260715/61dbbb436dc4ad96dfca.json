@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Concorde crash #39;due to US firm #39; A French legal......\" based on the Context.",
+    "contexts": [
+      "Concorde crash  #39;due to US firm #39; A French legal inquiry into the July 2000 Concorde crash near Paris has placed much of the blame on the American carrier, Continental Airlines.",
+      "Peace must be  #39;imposed #39; on I Coast, says France PARIS, Nov 16 (AFP) - Peace must be  quot;imposed quot; on Ivory Coast if the warring sides there refuse to abide by a ceasefire, French Foreign Minister Michel Barnier said Tuesday, hailing sanctions voted by the UN Security Council against the west African state.",
+      "Crisis talks in Paris as concerns grow for kidnapped French &lt;b&gt;...&lt;/b&gt; PARIS (AFP) -- As hopes dimmed that two French journalists held captive in Iraq would be freed soon, French President Jacques Chirac was to discuss the crisis Sunday with his foreign minister, who returned from a mission to the Middle East with no news of ",
+      "France to Punish Police for Bungled Bomb Exercise (Reuters) Reuters - France's police minister vowed on Monday\\to punish officers who planted explosives in an unwitting plane\\passenger's luggage to test their sniffer dogs but then lost\\the \"bomb,\" which remains missing after a three-day hunt."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Concorde crash  #39;due to US firm #39; A French legal inquiry into the July 2000 Concorde crash near Paris has placed much of the blame on the American carrier, Continental Airlines.\"\n\"Peace must be  #39;imposed #39; on I Coast, says France PARIS, Nov 16 (AFP) - Peace must be  quot;imposed quot; on Ivory Coast if the warring sides there refuse to abide by a ceasefire, French Foreign Minister Michel Barnier said Tuesday, hailing sanctions voted by the UN Security Council against the west African state.\"\n\"Crisis talks in Paris as concerns grow for kidnapped French &lt;b&gt;...&lt;/b&gt; PARIS (AFP) -- As hopes dimmed that two French journalists held captive in Iraq would be freed soon, French President Jacques Chirac was to discuss the crisis Sunday with his foreign minister, who returned from a mission to the Middle East with no news of \"\n\"France to Punish Police for Bungled Bomb Exercise (Reuters) Reuters - France's police minister vowed on Monday\\to punish officers who planted explosives in an unwitting plane\\passenger's luggage to test their sniffer dogs but then lost\\the \"bomb,\" which remains missing after a three-day hunt.\"\n\nQuestion:\nComplete this sentence \"Concorde crash #39;due to US firm #39; A French legal......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,13 @@
+{
+  "reviewer_kind": "llm_agent",
+  "reviewer_model": "gpt-6.1-terra",
+  "identity_source": "Codex session model supplied in developer context",
+  "human_reviewed": false,
+  "scope": "Codex assessed B0 answers and statements; V2 transferred only where actual response and context match.",
+  "files_sha256": {
+    "reports\\defense_v1\\T10\\review_utility48_b0_20261117.py": "cc1a54fe79692edffea128d6d648f2a6f45a6be384eaaae6f361738383040ed2",
+    "reports\\defense_v1\\T10\\utility48_b0_agent_review_20261117.jsonl": "f63a1305acb3ec639c3b20aea23893b5747de02551dbe4e4e9fddcac115e3fc2",
+    "reports\\defense_v1\\T10\\score_utility48_20261117.py": "f66ff30d16e93f53a50afe3b87b276de71f469ce45c3c682cfb3dbf034c14baa",
+    "reports\\defense_v1\\T10\\utility48_summary_20261117.json": "0d65911260b76015d3a36cda3d753d4ccb1a533c285cfa37884df081e96715c1"
+  }
+}

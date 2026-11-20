@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-07-16T03:56:53.259986+00:00",
+  "models": {
+    "embedding": {
+      "repo_id": "sentence-transformers/all-MiniLM-L6-v2",
+      "local_dir": "D:\\Project\\MIAGuard\\EmbeddingModel\\sentence-transformers\\all_minilm_l6_v2",
+      "status": "complete",
+      "missing": [],
+      "size_bytes": 182521049
+    },
+    "mistral_7b": {
+      "repo_id": "mistralai/Mistral-7B-Instruct-v0.2",
+      "local_dir": "D:\\Project\\MIAGuard\\LLM\\mistralai\\mistral-7b-instruct-v0-2",
+      "status": "complete",
+      "shards": 3,
+      "missing": [],
+      "invalid": [],
+      "size_bytes": 14483498016,
+      "expected_size_bytes": 14483464192
+    }
+  }
+}

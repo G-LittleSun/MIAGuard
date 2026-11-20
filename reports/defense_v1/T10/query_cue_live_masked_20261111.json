@@ -1,0 +1,39 @@
+{
+  "run_id": "query-cue-pilot-20261111-01",
+  "rows": [
+    {
+      "method": "B5_CUE",
+      "request_id": "ls_7e5e4e48bf338d0fd381ad84",
+      "doc_id": "ag_news_teacher_00000102",
+      "action": "deny",
+      "strict_score": 0.0,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "denied",
+        "format": null,
+        "matched": 0,
+        "total": 5
+      }
+    },
+    {
+      "method": "B5_CUE",
+      "request_id": "ls_5436f7a77e40cde90a7f27a8",
+      "doc_id": "ag_news_teacher_00000440",
+      "action": "hide_target_refill",
+      "strict_score": 0.2,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "parsed",
+        "format": "object_answers",
+        "matched": 1,
+        "total": 5
+      }
+    }
+  ],
+  "input_sha256": {
+    "events.jsonl": "fecb9e9fe8a9ca9e246f9aba23db8afe99477d176b4d82dbf9684ed5c1c65a31",
+    "labels.jsonl": "a8d194fbdab384dc531c0d09476f7689bf5d4565126b76b4b10497c7ce4e9ca1",
+    "attack_scores.jsonl": "a0f21eaba224cfa551aad8001281ad0ff25b0d08771f8c7310c6e6c21d30732a"
+  },
+  "formal_effect_eligible": false
+}

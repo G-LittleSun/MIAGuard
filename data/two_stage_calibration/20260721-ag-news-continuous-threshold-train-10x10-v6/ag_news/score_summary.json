@@ -1,0 +1,62 @@
+{
+  "benign": {
+    "active_session_count": 18,
+    "query_score_mean": 0.0,
+    "sample_count": 20,
+    "session_score_mean": 0.0,
+    "session_status_counts": {
+      "cached_recent_assessment": 17,
+      "insufficient_history": 2,
+      "ok": 1
+    },
+    "total_score_mean": 0.0
+  },
+  "direct_rag_mia": {
+    "active_session_count": 18,
+    "query_score_mean": 0.20949999999999996,
+    "sample_count": 20,
+    "session_score_mean": 0.3149999999999999,
+    "session_status_counts": {
+      "cached_recent_assessment": 17,
+      "insufficient_history": 2,
+      "ok": 1
+    },
+    "total_score_mean": 0.28329999999999994
+  },
+  "ia": {
+    "active_session_count": 18,
+    "query_score_mean": 0.3445,
+    "sample_count": 20,
+    "session_score_mean": 0.3600000000000001,
+    "session_status_counts": {
+      "cached_recent_assessment": 17,
+      "insufficient_history": 2,
+      "ok": 1
+    },
+    "total_score_mean": 0.37479999999999997
+  },
+  "masked_mia": {
+    "active_session_count": 18,
+    "query_score_mean": 0.39,
+    "sample_count": 20,
+    "session_score_mean": 0.4950000000000002,
+    "session_status_counts": {
+      "cached_recent_assessment": 17,
+      "insufficient_history": 2,
+      "ok": 1
+    },
+    "total_score_mean": 0.4800000000000001
+  },
+  "s2_mia": {
+    "active_session_count": 18,
+    "query_score_mean": 0.0625,
+    "sample_count": 20,
+    "session_score_mean": 0.0,
+    "session_status_counts": {
+      "cached_recent_assessment": 17,
+      "insufficient_history": 2,
+      "ok": 1
+    },
+    "total_score_mean": 0.025
+  }
+}

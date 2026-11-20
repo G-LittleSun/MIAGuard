@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "status": "d_dev_design_selected_not_formal_gold",
+  "cohort_id": "session_length_dev_cohort_20261102_01",
+  "scope": "Development data design only; formal cohort, length allocation, policy and human gold are not frozen.",
+  "primary_cohort": {
+    "sessions": 28,
+    "turns": 56,
+    "turns_per_session": 2,
+    "family_sessions": {
+      "citation_check": 4,
+      "cross_document_synthesis": 4,
+      "exact_entity_number": 4,
+      "multi_turn_reading": 4,
+      "single_fact": 4,
+      "topic_summary": 4,
+      "evidence_insufficient": 4
+    }
+  },
+  "diagnostic_cohort": {
+    "sessions": 2,
+    "turns": 6,
+    "turns_per_session": 3,
+    "family_sessions": {
+      "multi_turn_reading": 2
+    },
+    "source_connected_groups": 1
+  },
+  "combined": {
+    "sessions": 30,
+    "turns": 62,
+    "unique_documents": 31,
+    "base_dependency_groups": 27,
+    "conservative_sensitivity_groups": 23,
+    "source_roles": {
+      "shared_background": 14,
+      "d_dev_target": 17
+    }
+  },
+  "decisions": {
+    "development_baseline": "2 turns per family session; subject to actual source support.",
+    "multi_turn_diagnostic": "Include paired 3-turn focus sessions; distinct targets share source group. Generate and vet additional independent context groups in T10-D for any broad claim.",
+    "final_dataset": "Not selected; choose after scaled source audit, content pre-review and human gold.",
+    "evidence_insufficient": "Use revised 2-turn candidates; keep 3-turn naturalness as unresolved and excluded from this baseline.",
+    "cross_document": "Replace weak energy-topic pair in development cohort with oil/stocks comparison; source dependence and content quality remain subject to further audit.",
+    "history_comparison": "Original seven cases and one focus pair are separately reported; neither provides a population estimate."
+  },
+  "evidence": {
+    "cohort_manifest_sha256": "bba5799df0d49ace072dab0b163c2239200fdd42395a24bd5f7ffe937c444115",
+    "cohort_validation_sha256": "f9fe0f853143efae81fa46032a8c69999028f6e7170ed20463cbc460f62f8639",
+    "sensitivity_sha256": "0ab72fa279326d1912a5ccecc7637a5d5af3acdb27187bca09e82f32451e46e1",
+    "history_run_manifest_sha256": "e10347711338d7a0f09dca6c83f3711ea104b6b9e08be9ddbfd7cc72bb29c5f0",
+    "history_agent_summary_sha256": "82d92836c9055d4549bbcf4eb97e0ea9b288c23b779e689b6b98d5c18ca667f6",
+    "focus_run_manifest_sha256": "5491e35e58c24d24ae22a41ce82cd8394fb60b495a8b4e05f2afeb81cef5251e",
+    "focus_agent_summary_sha256": "37321002c506930cfdd4b7673f7c05b6bf4fd8da2c495d6543263559654ff8ec"
+  },
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "remaining": [
+    "Expand historical source usage audit including development prompts and attack source text before V/T normal-question construction.",
+    "Do not use D-dev-exposed shared background documents and linked source groups as A-cal/V/T normal question sources.",
+    "Add multiple independent source groups for 3+ turn evaluation or restrict conclusions; one group is insufficient for generalization.",
+    "Complete T10-D generator, per-partition isolation and source/gold validation; T10-E human adjudication remains mandatory."
+  ]
+}

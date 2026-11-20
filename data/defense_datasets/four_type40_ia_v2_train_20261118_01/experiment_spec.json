@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "experiment_id": "four_type40_ia_v2_train_20261118_01",
+  "dataset_id": "ag_news",
+  "partition": "train",
+  "backend": "live",
+  "analysis_role": "engineering_only",
+  "methods": [
+    "B0",
+    "B_TYPE_V2"
+  ],
+  "seed": 20260715,
+  "selection_seed": 20261105,
+  "source_run_id": "20260717-ag-news-four-medium",
+  "judge_partition": "train",
+  "requests_path": "D:\\Project\\MIAGuard\\data\\defense_datasets\\four_type40_ia_v2_train_20261118_01\\requests.jsonl",
+  "labels_path": "D:\\Project\\MIAGuard\\data\\defense_datasets\\four_type40_ia_v2_train_20261118_01\\labels.jsonl",
+  "embedding_model": "EmbeddingModel/sentence-transformers/all_minilm_l6_v2",
+  "top_k": 4,
+  "max_answer_tokens": 128,
+  "ia_unknown_penalty": 0.1,
+  "identity_files": {
+    "attack_config": "D:\\Project\\MIAGuard\\configs\\attacks\\ag_news_progressive_judge_qwen2_5_7b_bf16.yaml",
+    "judge_config": "D:\\Project\\MIAGuard\\configs\\defense\\progressive_judge_v3_binary_logprob_qwen2_5_7b.yaml",
+    "gateway_config": "D:\\Project\\MIAGuard\\configs\\defense\\defense_v1_observe.yaml",
+    "frozen_model": "D:\\Project\\MIAGuard\\data\\judge_score_frozen_v3_binary_logprob_20260920\\logistic_l2.json",
+    "query_only_threshold": "D:\\Project\\MIAGuard\\reports\\defense_v1\\T04\\query_only_thresholds.json",
+    "vector_index": "D:\\Project\\MIAGuard\\data\\vector_stores\\20260717-ag-news-four-medium\\ag_news\\index.faiss",
+    "source_train_manifest": "D:\\Project\\MIAGuard\\data\\progressive_judge_v3_binary_logprob_train_qwen2_5_7b_bf16_20260916_retry1\\train\\run_manifest.json",
+    "split": "D:\\Project\\MIAGuard\\data\\query_bank_splits\\ag_news_threshold_v2.json",
+    "pattern_manifest": "D:\\Project\\MIAGuard\\attack_pattern_library\\manifest.yaml",
+    "query_bank_manifest": "D:\\Project\\MIAGuard\\data\\query_banks\\ag_news_queries_v2\\ag_news\\manifest.json",
+    "query_bank_queries": "D:\\Project\\MIAGuard\\data\\query_banks\\ag_news_queries_v2\\ag_news\\queries.jsonl",
+    "index_manifest": "D:\\Project\\MIAGuard\\data\\vector_stores\\20260717-ag-news-four-medium\\ag_news\\manifest.json",
+    "index_documents": "D:\\Project\\MIAGuard\\data\\vector_stores\\20260717-ag-news-four-medium\\ag_news\\documents.jsonl",
+    "selection_manifest": "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\legacy_reuse_selection_20261104.json",
+    "lineage": "D:\\Project\\MIAGuard\\data\\defense_datasets\\four_type40_ia_v2_train_20261118_01\\lineage.jsonl",
+    "cohort_manifest": "D:\\Project\\MIAGuard\\data\\defense_datasets\\four_type40_ia_v2_train_20261118_01\\manifest.json",
+    "scoring_rules": "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\FOUR_TYPE40_SCORING_ZH.md"
+  }
+}

@@ -1,0 +1,619 @@
+{
+  "analysis_role": "engineering_only",
+  "prereg_sha256": "689735f0c851d31726018b9d1c6b039c6bb4ad86030567602c800a23d4366d30",
+  "events_sha256": "01e2309f731bcf1015e52c941008ff462dd56c7f0167930236c034df3d954df1",
+  "scope": "Decision-level ablation on first turns only, using the same observed V2 online risk and current query. Cues-only activates quoted_context_check/masked_recovery, IA-only activates report/article plus specified Yes/No/Unknown format, full activates both.",
+  "limitations": [
+    "No new model responses or complete multi-turn policy simulations are created.",
+    "Second and later turns are excluded because changed prior delivery can alter session risk and history.",
+    "This isolates decision rules, not independent causal estimates of end-to-end attack success."
+  ],
+  "by_traffic": {
+    "direct_rag_mia": {
+      "total": 8,
+      "ok": 8,
+      "cue_only_action_changed": 6,
+      "ia_only_action_changed": 0,
+      "actual_full_action_changed": 6
+    },
+    "s2_mia": {
+      "total": 8,
+      "ok": 8,
+      "cue_only_action_changed": 0,
+      "ia_only_action_changed": 0,
+      "actual_full_action_changed": 0
+    },
+    "masked_mia": {
+      "total": 8,
+      "ok": 8,
+      "cue_only_action_changed": 1,
+      "ia_only_action_changed": 0,
+      "actual_full_action_changed": 1
+    },
+    "ia": {
+      "total": 4,
+      "ok": 4,
+      "cue_only_action_changed": 0,
+      "ia_only_action_changed": 1,
+      "actual_full_action_changed": 1
+    },
+    "benign": {
+      "total": 13,
+      "ok": 13,
+      "cue_only_action_changed": 0,
+      "ia_only_action_changed": 0,
+      "actual_full_action_changed": 0
+    }
+  },
+  "cases": [
+    {
+      "request_id": "ng_dd1da6291e221f25437d",
+      "traffic": "direct_rag_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "quoted_context_check"
+      ],
+      "ia_format": false,
+      "v2_action": "deny",
+      "cue_only_action": "deny",
+      "ia_only_action": "deny",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_cd99459bc8859e32aa9d",
+      "traffic": "s2_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "hide_target_refill",
+      "cue_only_action": "hide_target_refill",
+      "ia_only_action": "hide_target_refill",
+      "expected_full_action": "hide_target_refill",
+      "actual_full_action": "hide_target_refill"
+    },
+    {
+      "request_id": "vr_c78436a5b13da8638adebb3d",
+      "traffic": "masked_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "masked_recovery"
+      ],
+      "ia_format": false,
+      "v2_action": "deny",
+      "cue_only_action": "deny",
+      "ia_only_action": "deny",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_9ad3a48de421042290f5",
+      "traffic": "direct_rag_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "quoted_context_check"
+      ],
+      "ia_format": false,
+      "v2_action": "deny",
+      "cue_only_action": "deny",
+      "ia_only_action": "deny",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_380a05c6873d5e39375a",
+      "traffic": "s2_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "hide_target_refill",
+      "cue_only_action": "hide_target_refill",
+      "ia_only_action": "hide_target_refill",
+      "expected_full_action": "hide_target_refill",
+      "actual_full_action": "hide_target_refill"
+    },
+    {
+      "request_id": "vr_b07651b8b3407264554e5550",
+      "traffic": "masked_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "masked_recovery"
+      ],
+      "ia_format": false,
+      "v2_action": "deny",
+      "cue_only_action": "deny",
+      "ia_only_action": "deny",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_3fa949ede1248e01f02b",
+      "traffic": "direct_rag_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "quoted_context_check"
+      ],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "deny",
+      "ia_only_action": "allow",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_9ae5ce8d5c3700eba08b",
+      "traffic": "s2_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "hide_target_refill",
+      "cue_only_action": "hide_target_refill",
+      "ia_only_action": "hide_target_refill",
+      "expected_full_action": "hide_target_refill",
+      "actual_full_action": "hide_target_refill"
+    },
+    {
+      "request_id": "vr_6d94d36e69b6ba03119578cb",
+      "traffic": "masked_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "masked_recovery"
+      ],
+      "ia_format": false,
+      "v2_action": "deny",
+      "cue_only_action": "deny",
+      "ia_only_action": "deny",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_cc6d3aeb5bd5964b0231",
+      "traffic": "direct_rag_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "quoted_context_check"
+      ],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "deny",
+      "ia_only_action": "allow",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_1c10f70b06bd671dfc6e",
+      "traffic": "s2_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "hide_target_refill",
+      "cue_only_action": "hide_target_refill",
+      "ia_only_action": "hide_target_refill",
+      "expected_full_action": "hide_target_refill",
+      "actual_full_action": "hide_target_refill"
+    },
+    {
+      "request_id": "vr_8989d29dd2f50d20c8d62647",
+      "traffic": "masked_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "masked_recovery"
+      ],
+      "ia_format": false,
+      "v2_action": "deny",
+      "cue_only_action": "deny",
+      "ia_only_action": "deny",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_8ab292b1b63edd39f126",
+      "traffic": "direct_rag_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "quoted_context_check"
+      ],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "deny",
+      "ia_only_action": "allow",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_3e4c2fae86030b465648",
+      "traffic": "s2_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "deny",
+      "cue_only_action": "deny",
+      "ia_only_action": "deny",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "vr_ca4870b2b9aaed8f1627e047",
+      "traffic": "masked_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "masked_recovery"
+      ],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "deny",
+      "ia_only_action": "allow",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_0461bdf8bb5b0e9e8219",
+      "traffic": "direct_rag_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "quoted_context_check"
+      ],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "deny",
+      "ia_only_action": "allow",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_7bbef1c12844a661d3b2",
+      "traffic": "s2_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "allow",
+      "ia_only_action": "allow",
+      "expected_full_action": "allow",
+      "actual_full_action": "allow"
+    },
+    {
+      "request_id": "vr_6e8660d2e7cafdd2c8f66f95",
+      "traffic": "masked_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "masked_recovery"
+      ],
+      "ia_format": false,
+      "v2_action": "deny",
+      "cue_only_action": "deny",
+      "ia_only_action": "deny",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_ea3971ba06ac3c6ea553",
+      "traffic": "direct_rag_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "quoted_context_check"
+      ],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "deny",
+      "ia_only_action": "allow",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_9d87118102b889217f4a",
+      "traffic": "s2_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "deny",
+      "cue_only_action": "deny",
+      "ia_only_action": "deny",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "vr_875027a9e28f4ad4c8afb9ce",
+      "traffic": "masked_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "masked_recovery"
+      ],
+      "ia_format": false,
+      "v2_action": "deny",
+      "cue_only_action": "deny",
+      "ia_only_action": "deny",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_9f20cb824a4cc74665de",
+      "traffic": "direct_rag_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "quoted_context_check"
+      ],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "deny",
+      "ia_only_action": "allow",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_78c530823da84eb31050",
+      "traffic": "s2_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "deny",
+      "cue_only_action": "deny",
+      "ia_only_action": "deny",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "vr_11cc5c6a0a9585b8b240ae26",
+      "traffic": "masked_mia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "masked_recovery"
+      ],
+      "ia_format": false,
+      "v2_action": "deny",
+      "cue_only_action": "deny",
+      "ia_only_action": "deny",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_ia_00000050_1",
+      "traffic": "ia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": true,
+      "v2_action": "allow",
+      "cue_only_action": "allow",
+      "ia_only_action": "no_context_answer",
+      "expected_full_action": "no_context_answer",
+      "actual_full_action": "no_context_answer"
+    },
+    {
+      "request_id": "ng_ia_00000149_1",
+      "traffic": "ia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": true,
+      "v2_action": "no_context_answer",
+      "cue_only_action": "no_context_answer",
+      "ia_only_action": "no_context_answer",
+      "expected_full_action": "no_context_answer",
+      "actual_full_action": "no_context_answer"
+    },
+    {
+      "request_id": "ng_ia_00008636_1",
+      "traffic": "ia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": true,
+      "v2_action": "no_context_answer",
+      "cue_only_action": "no_context_answer",
+      "ia_only_action": "no_context_answer",
+      "expected_full_action": "no_context_answer",
+      "actual_full_action": "no_context_answer"
+    },
+    {
+      "request_id": "ng_ia_00008836_1",
+      "traffic": "ia",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": true,
+      "v2_action": "no_context_answer",
+      "cue_only_action": "no_context_answer",
+      "ia_only_action": "no_context_answer",
+      "expected_full_action": "no_context_answer",
+      "actual_full_action": "no_context_answer"
+    },
+    {
+      "request_id": "ng_normal_01",
+      "traffic": "benign",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "allow",
+      "ia_only_action": "allow",
+      "expected_full_action": "allow",
+      "actual_full_action": "allow"
+    },
+    {
+      "request_id": "ng_normal_02",
+      "traffic": "benign",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "allow",
+      "ia_only_action": "allow",
+      "expected_full_action": "allow",
+      "actual_full_action": "allow"
+    },
+    {
+      "request_id": "ng_normal_03",
+      "traffic": "benign",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "allow",
+      "ia_only_action": "allow",
+      "expected_full_action": "allow",
+      "actual_full_action": "allow"
+    },
+    {
+      "request_id": "ng_normal_04",
+      "traffic": "benign",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "allow",
+      "ia_only_action": "allow",
+      "expected_full_action": "allow",
+      "actual_full_action": "allow"
+    },
+    {
+      "request_id": "ng_normal_05",
+      "traffic": "benign",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "allow",
+      "ia_only_action": "allow",
+      "expected_full_action": "allow",
+      "actual_full_action": "allow"
+    },
+    {
+      "request_id": "ng_normal_06",
+      "traffic": "benign",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "allow",
+      "ia_only_action": "allow",
+      "expected_full_action": "allow",
+      "actual_full_action": "allow"
+    },
+    {
+      "request_id": "ng_normal_07",
+      "traffic": "benign",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "allow",
+      "ia_only_action": "allow",
+      "expected_full_action": "allow",
+      "actual_full_action": "allow"
+    },
+    {
+      "request_id": "ng_normal_08",
+      "traffic": "benign",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "allow",
+      "ia_only_action": "allow",
+      "expected_full_action": "allow",
+      "actual_full_action": "allow"
+    },
+    {
+      "request_id": "bp_treo_1",
+      "traffic": "benign",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "allow",
+      "ia_only_action": "allow",
+      "expected_full_action": "allow",
+      "actual_full_action": "allow"
+    },
+    {
+      "request_id": "bp_ace_1",
+      "traffic": "benign",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "masked_recovery"
+      ],
+      "ia_format": false,
+      "v2_action": "deny",
+      "cue_only_action": "deny",
+      "ia_only_action": "deny",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "bp_oklahoma_1",
+      "traffic": "benign",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [
+        "masked_recovery"
+      ],
+      "ia_format": false,
+      "v2_action": "deny",
+      "cue_only_action": "deny",
+      "ia_only_action": "deny",
+      "expected_full_action": "deny",
+      "actual_full_action": "deny"
+    },
+    {
+      "request_id": "ng_ei_00000050",
+      "traffic": "benign",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "allow",
+      "ia_only_action": "allow",
+      "expected_full_action": "allow",
+      "actual_full_action": "allow"
+    },
+    {
+      "request_id": "ng_ei_00000220",
+      "traffic": "benign",
+      "status": "ok",
+      "risk_comparable": true,
+      "cue_signals": [],
+      "ia_format": false,
+      "v2_action": "allow",
+      "cue_only_action": "allow",
+      "ia_only_action": "allow",
+      "expected_full_action": "allow",
+      "actual_full_action": "allow"
+    }
+  ]
+}

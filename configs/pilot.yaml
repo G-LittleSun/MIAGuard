@@ -1,0 +1,5 @@
+extends: base.yaml
+candidate_doc_count: 2000
+target_doc_count: 200
+topic_clusters: 10
+

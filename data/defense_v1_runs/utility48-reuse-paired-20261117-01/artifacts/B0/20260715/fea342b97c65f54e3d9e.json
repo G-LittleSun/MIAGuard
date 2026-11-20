@@ -1,0 +1,12 @@
+{
+  "generation_input": {
+    "query": "What caused the decrease in data storage capacity for the Treo 650 compared to the Treo 600?",
+    "contexts": [
+      "New Treo 650 file system cuts storage capacity PalmOne plans to offer a free 128MB expansion card to Treo 650 owners because a new file system used for the handheld actually offers less memory for data storage than was available on the older Treo 600."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"New Treo 650 file system cuts storage capacity PalmOne plans to offer a free 128MB expansion card to Treo 650 owners because a new file system used for the handheld actually offers less memory for data storage than was available on the older Treo 600.\"\n\nQuestion:\nWhat caused the decrease in data storage capacity for the Treo 650 compared to the Treo 600?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

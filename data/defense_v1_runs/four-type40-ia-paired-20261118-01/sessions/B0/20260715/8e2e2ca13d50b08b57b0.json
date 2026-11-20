@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008409",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q085",
+      "session_id": "ia_ag_news_teacher_00008409",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe provided context does not contain any information about the marketing strategies for Halo 2 or any details regarding Microsoft's marketing efforts for this specific game. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000465",
+        "ag_news_teacher_00000095",
+        "ag_news_teacher_00000924",
+        "ag_news_teacher_00000853"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000465",
+        "ag_news_teacher_00000095",
+        "ag_news_teacher_00000924",
+        "ag_news_teacher_00000853"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000465",
+            "ag_news_teacher_00000095",
+            "ag_news_teacher_00000924",
+            "ag_news_teacher_00000853"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000465",
+            "ag_news_teacher_00000095",
+            "ag_news_teacher_00000924",
+            "ag_news_teacher_00000853"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1374.911000020802,
+      "ledger_event": {
+        "request_id": "q085",
+        "session_id": "ia_ag_news_teacher_00008409",
+        "input_sha256": "9e4a24109a79084b180de8952dc559befac0192c4ed1514b503cd959d8617835",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000465",
+          "ag_news_teacher_00000095",
+          "ag_news_teacher_00000924",
+          "ag_news_teacher_00000853"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000465",
+            "parent_doc_id": "ag_news_teacher_00000465",
+            "kind": "raw",
+            "score": 0.41250163316726685,
+            "text_sha256": "58ce234a5bf54da9eeded3a9983f52521390141b81eaecd10ad4b4cc78c789ae"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000095",
+            "parent_doc_id": "ag_news_teacher_00000095",
+            "kind": "raw",
+            "score": 0.38624662160873413,
+            "text_sha256": "63eacf6b1e761cc0b7875e6b31f01cfe52f00fa4d4832280220d1e01345c7873"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000924",
+            "parent_doc_id": "ag_news_teacher_00000924",
+            "kind": "raw",
+            "score": 0.3397005498409271,
+            "text_sha256": "0db33a5e62ad7c0ce3e38b5029b878c6e7e17232e040551db1ae72d3bd212395"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000853",
+            "parent_doc_id": "ag_news_teacher_00000853",
+            "kind": "raw",
+            "score": 0.32058608531951904,
+            "text_sha256": "81db015f15a2d97ff811338cce796cd6482d46d30f7d4bd4971ad4babe49178c"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe provided context does not contain any information about the marketing strategies for Halo 2 or any details regarding Microsoft's marketing efforts for this specific game. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006843.7503226,
+        "finished_at": 1795006845.1253226
+      },
+      "generation_input_ref": "artifacts/B0/20260715/2865ce70f80ee94b7ab3.json",
+      "artifact_sha256": "4221ce2bc7b28cf3ea18342cedb9a554975eeeadcbba3fb5e49575d157b2bd4d"
+    },
+    {
+      "request_id": "q086",
+      "session_id": "ia_ag_news_teacher_00008409",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000465",
+        "ag_news_teacher_00000749",
+        "ag_news_teacher_00000095",
+        "ag_news_teacher_00000817"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000465",
+        "ag_news_teacher_00000749",
+        "ag_news_teacher_00000095",
+        "ag_news_teacher_00000817"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000465",
+            "ag_news_teacher_00000749",
+            "ag_news_teacher_00000095",
+            "ag_news_teacher_00000817"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000465",
+            "ag_news_teacher_00000749",
+            "ag_news_teacher_00000095",
+            "ag_news_teacher_00000817"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 143.24889983981848,
+      "ledger_event": {
+        "request_id": "q086",
+        "session_id": "ia_ag_news_teacher_00008409",
+        "input_sha256": "c6ce6b1af4f224c1a66fe28f8cee13fed6b0135a39a83871a1538f651ef7e309",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000465",
+          "ag_news_teacher_00000749",
+          "ag_news_teacher_00000095",
+          "ag_news_teacher_00000817"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000465",
+            "parent_doc_id": "ag_news_teacher_00000465",
+            "kind": "raw",
+            "score": 0.44415295124053955,
+            "text_sha256": "58ce234a5bf54da9eeded3a9983f52521390141b81eaecd10ad4b4cc78c789ae"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000749",
+            "parent_doc_id": "ag_news_teacher_00000749",
+            "kind": "raw",
+            "score": 0.30911874771118164,
+            "text_sha256": "6b2bd119decf562dbe1b4cc8cd0cf1c64173ec7616b33ef5defefdd57520c63f"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000095",
+            "parent_doc_id": "ag_news_teacher_00000095",
+            "kind": "raw",
+            "score": 0.30581575632095337,
+            "text_sha256": "63eacf6b1e761cc0b7875e6b31f01cfe52f00fa4d4832280220d1e01345c7873"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000817",
+            "parent_doc_id": "ag_news_teacher_00000817",
+            "kind": "raw",
+            "score": 0.2995102107524872,
+            "text_sha256": "49079b6b6c9a3e3353a36862fafef974d1036e8f914f474c67d284d28d65f7b9"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006845.1303227,
+        "finished_at": 1795006845.273323
+      },
+      "generation_input_ref": "artifacts/B0/20260715/5d462bd41f23c74013bb.json",
+      "artifact_sha256": "703943fe7dbc82992492f95903902ade6b11155e4950415bb9f2dfb9720d143c"
+    },
+    {
+      "request_id": "q087",
+      "session_id": "ia_ag_news_teacher_00008409",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not contain any information about specific features of Halo 2 or online gaming options for the game. Therefore, there is insufficient evidence to determine whether Halo 2 lacks a key online gaming option.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000465",
+        "ag_news_teacher_00000853",
+        "ag_news_teacher_00000170",
+        "ag_news_teacher_00000095"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000465",
+        "ag_news_teacher_00000853",
+        "ag_news_teacher_00000170",
+        "ag_news_teacher_00000095"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000465",
+            "ag_news_teacher_00000853",
+            "ag_news_teacher_00000170",
+            "ag_news_teacher_00000095"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000465",
+            "ag_news_teacher_00000853",
+            "ag_news_teacher_00000170",
+            "ag_news_teacher_00000095"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1435.5233004316688,
+      "ledger_event": {
+        "request_id": "q087",
+        "session_id": "ia_ag_news_teacher_00008409",
+        "input_sha256": "5e548c4568f50ee8458550c54cb90a1a2268aa0c4a1682d4bc95932e9e301bd8",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000465",
+          "ag_news_teacher_00000853",
+          "ag_news_teacher_00000170",
+          "ag_news_teacher_00000095"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000465",
+            "parent_doc_id": "ag_news_teacher_00000465",
+            "kind": "raw",
+            "score": 0.3745616674423218,
+            "text_sha256": "58ce234a5bf54da9eeded3a9983f52521390141b81eaecd10ad4b4cc78c789ae"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000853",
+            "parent_doc_id": "ag_news_teacher_00000853",
+            "kind": "raw",
+            "score": 0.32552701234817505,
+            "text_sha256": "81db015f15a2d97ff811338cce796cd6482d46d30f7d4bd4971ad4babe49178c"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000170",
+            "parent_doc_id": "ag_news_teacher_00000170",
+            "kind": "raw",
+            "score": 0.2879112958908081,
+            "text_sha256": "391e151cd9eb45f02f947ae2af7a54ac4d297cfdd2bc98438a2084ef66db836b"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000095",
+            "parent_doc_id": "ag_news_teacher_00000095",
+            "kind": "raw",
+            "score": 0.28542691469192505,
+            "text_sha256": "63eacf6b1e761cc0b7875e6b31f01cfe52f00fa4d4832280220d1e01345c7873"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not contain any information about specific features of Halo 2 or online gaming options for the game. Therefore, there is insufficient evidence to determine whether Halo 2 lacks a key online gaming option.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006845.2788224,
+        "finished_at": 1795006846.7143223
+      },
+      "generation_input_ref": "artifacts/B0/20260715/a761f646fe8549958d55.json",
+      "artifact_sha256": "e4e1b6dc141336d2f3342aa6b8bc700889c2bd7db3cc169987ea121039dbeb4e"
+    }
+  ]
+}

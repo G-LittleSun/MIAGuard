@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008366",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q082",
+      "session_id": "ia_ag_news_teacher_00008366",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not mention anything about Martha Stewart having a live audience for a daily syndicated show after prison. It only mentions that she enjoyed prison meals with someone named Nun, which is not relevant to the question asked.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000651",
+        "ag_news_teacher_00000086",
+        "ag_news_teacher_00000073",
+        "ag_news_teacher_00000171"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000651",
+        "ag_news_teacher_00000086",
+        "ag_news_teacher_00000073",
+        "ag_news_teacher_00000171"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000651",
+            "ag_news_teacher_00000086",
+            "ag_news_teacher_00000073",
+            "ag_news_teacher_00000171"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000651",
+            "ag_news_teacher_00000086",
+            "ag_news_teacher_00000073",
+            "ag_news_teacher_00000171"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1503.2556001096964,
+      "ledger_event": {
+        "request_id": "q082",
+        "session_id": "ia_ag_news_teacher_00008366",
+        "input_sha256": "9e76891a695903f5fc1fd14e953580fd236c29b8e314c876dce37e8e18204656",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000651",
+          "ag_news_teacher_00000086",
+          "ag_news_teacher_00000073",
+          "ag_news_teacher_00000171"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000651",
+            "parent_doc_id": "ag_news_teacher_00000651",
+            "kind": "raw",
+            "score": 0.4130927324295044,
+            "text_sha256": "67f4e04cf9ba800da14db45c22e78aeadb6fcd8e12181c7c2d5bcb1ce624b172"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000086",
+            "parent_doc_id": "ag_news_teacher_00000086",
+            "kind": "raw",
+            "score": 0.2724570035934448,
+            "text_sha256": "f826ede99f75319d60110af0e77770d8f018363379e61121f42104f58d1ba04b"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000073",
+            "parent_doc_id": "ag_news_teacher_00000073",
+            "kind": "raw",
+            "score": 0.2675243616104126,
+            "text_sha256": "29d0d95391924c37a8dda5e2c90895247c7aee847ed96d7054f7d6f6095d77f9"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000171",
+            "parent_doc_id": "ag_news_teacher_00000171",
+            "kind": "raw",
+            "score": 0.2456374615430832,
+            "text_sha256": "a3411473281e4eb2300c6f4cd4c4f968a0a6f10cd012fd8a1e8a9de1f356730f"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not mention anything about Martha Stewart having a live audience for a daily syndicated show after prison. It only mentions that she enjoyed prison meals with someone named Nun, which is not relevant to the question asked.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006840.8753223,
+        "finished_at": 1795006842.3788223
+      },
+      "generation_input_ref": "artifacts/B0/20260715/f21563d0c38d81887131.json",
+      "artifact_sha256": "9bbcf9a14b8f656fdd44619fff1a15d5d6b7b1741baf1c0e78da8e5f6d784c42"
+    },
+    {
+      "request_id": "q083",
+      "session_id": "ia_ag_news_teacher_00008366",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not mention anything about Martha Stewart getting a daily syndicated show after prison. It only mentions her enjoying prison meals, which is unrelated to the question asked.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000651",
+        "ag_news_teacher_00000073",
+        "ag_news_teacher_00000106",
+        "ag_news_teacher_00000226"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000651",
+        "ag_news_teacher_00000073",
+        "ag_news_teacher_00000106",
+        "ag_news_teacher_00000226"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000651",
+            "ag_news_teacher_00000073",
+            "ag_news_teacher_00000106",
+            "ag_news_teacher_00000226"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000651",
+            "ag_news_teacher_00000073",
+            "ag_news_teacher_00000106",
+            "ag_news_teacher_00000226"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1215.518000535667,
+      "ledger_event": {
+        "request_id": "q083",
+        "session_id": "ia_ag_news_teacher_00008366",
+        "input_sha256": "64723a925ca0e65f7f307decce8d22924f4de8bd3df7baa16377a92437d436fc",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000651",
+          "ag_news_teacher_00000073",
+          "ag_news_teacher_00000106",
+          "ag_news_teacher_00000226"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000651",
+            "parent_doc_id": "ag_news_teacher_00000651",
+            "kind": "raw",
+            "score": 0.3669295012950897,
+            "text_sha256": "67f4e04cf9ba800da14db45c22e78aeadb6fcd8e12181c7c2d5bcb1ce624b172"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000073",
+            "parent_doc_id": "ag_news_teacher_00000073",
+            "kind": "raw",
+            "score": 0.28501349687576294,
+            "text_sha256": "29d0d95391924c37a8dda5e2c90895247c7aee847ed96d7054f7d6f6095d77f9"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000106",
+            "parent_doc_id": "ag_news_teacher_00000106",
+            "kind": "raw",
+            "score": 0.27768105268478394,
+            "text_sha256": "d76fedfb50933925f3dfa675b15b47271490b9734f779bbc509ba5ddcd3100cd"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000226",
+            "parent_doc_id": "ag_news_teacher_00000226",
+            "kind": "raw",
+            "score": 0.25753727555274963,
+            "text_sha256": "0aeb5d3091b7e1a882673c2813820dd8243a1ba1614dacfb29f5a090d0d0c704"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not mention anything about Martha Stewart getting a daily syndicated show after prison. It only mentions her enjoying prison meals, which is unrelated to the question asked.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006842.384323,
+        "finished_at": 1795006843.5993226
+      },
+      "generation_input_ref": "artifacts/B0/20260715/ec9638ff026d0a48388a.json",
+      "artifact_sha256": "8f218f03bb8db581b5d27d64b33088c695eb90fac822124928f9ceda8e2d91dd"
+    },
+    {
+      "request_id": "q084",
+      "session_id": "ia_ag_news_teacher_00008366",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000651",
+        "ag_news_teacher_00000106",
+        "ag_news_teacher_00000549",
+        "ag_news_teacher_00000022"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000651",
+        "ag_news_teacher_00000106",
+        "ag_news_teacher_00000549",
+        "ag_news_teacher_00000022"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000651",
+            "ag_news_teacher_00000106",
+            "ag_news_teacher_00000549",
+            "ag_news_teacher_00000022"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000651",
+            "ag_news_teacher_00000106",
+            "ag_news_teacher_00000549",
+            "ag_news_teacher_00000022"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 139.554800465703,
+      "ledger_event": {
+        "request_id": "q084",
+        "session_id": "ia_ag_news_teacher_00008366",
+        "input_sha256": "fadde3fe1702493fba5123da5abd2fb8cfa24515d3e79ba7dcf8019746116b28",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000651",
+          "ag_news_teacher_00000106",
+          "ag_news_teacher_00000549",
+          "ag_news_teacher_00000022"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000651",
+            "parent_doc_id": "ag_news_teacher_00000651",
+            "kind": "raw",
+            "score": 0.3316938877105713,
+            "text_sha256": "67f4e04cf9ba800da14db45c22e78aeadb6fcd8e12181c7c2d5bcb1ce624b172"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000106",
+            "parent_doc_id": "ag_news_teacher_00000106",
+            "kind": "raw",
+            "score": 0.2700333595275879,
+            "text_sha256": "d76fedfb50933925f3dfa675b15b47271490b9734f779bbc509ba5ddcd3100cd"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000549",
+            "parent_doc_id": "ag_news_teacher_00000549",
+            "kind": "raw",
+            "score": 0.2657895088195801,
+            "text_sha256": "82468464762c38144d86ba0319c1e4f65f746a68bc470c97eeed0c644ccc035a"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000022",
+            "parent_doc_id": "ag_news_teacher_00000022",
+            "kind": "raw",
+            "score": 0.22507861256599426,
+            "text_sha256": "e35ef4ad3c805edfcb8dd0c12e97a52a2f61d7bd7c1804a044a226d8d1367cc7"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006843.6048226,
+        "finished_at": 1795006843.7443225
+      },
+      "generation_input_ref": "artifacts/B0/20260715/57b3b2871da7ac11557e.json",
+      "artifact_sha256": "48d7a9d2144b3ff8c42b48a1dd68a5c2aa7faf9a6baf36d3350cec51d25ab9ec"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "reviewer_kind": "llm_agent",
+  "human_reviewed": false,
+  "input_sha256": {
+    "events.jsonl": "e8d01fdfe02cef83c84103c8fa1b42dc289df44580890c245b653d34ee8669f3",
+    "labels.jsonl": "1cf830ceaec376546fa6a96f4fa091eb53a85f774a0fb0907f85ad8f68376cd3"
+  },
+  "units": [
+    {
+      "request_id": "ls_4e39a81d3355ee3bc428346a",
+      "method": "B_MULTI_SUMMARY",
+      "type": "s2_mia",
+      "member": 1,
+      "target_doc_id": "ag_news_teacher_00000236",
+      "target_in_transform": true,
+      "transform_input": [
+        {
+          "doc_id": "ag_news_teacher_00000236",
+          "parent_doc_id": "ag_news_teacher_00000236",
+          "kind": "raw",
+          "score": 0.63559490442276,
+          "text_sha256": "91377d35382d6ebecb4ad8c6b0217150aa1a8c32b383ab69cc0541a8cef855bf"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000021",
+          "parent_doc_id": "ag_news_teacher_00000021",
+          "kind": "raw",
+          "score": 0.40610378980636597,
+          "text_sha256": "8f70a7b8e42c797477bc86d5169cc20b894ad460599851837a095811510621ea"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000088",
+          "parent_doc_id": "ag_news_teacher_00000088",
+          "kind": "raw",
+          "score": 0.38461267948150635,
+          "text_sha256": "e2da009b17f9cc643370dbb78befa402bc46eebf4d2197b69e535a5d990daac5"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000523",
+          "parent_doc_id": "ag_news_teacher_00000523",
+          "kind": "raw",
+          "score": 0.35499468445777893,
+          "text_sha256": "bcea57af62d83bbded7441b3e94af8836f841ca8752461a87db5761486ec9970"
+        }
+      ],
+      "contexts": [
+        "Steelers' safety respects Bengals' quarterback regarding an old dinner bill and other past incidents. Disagreements exist between NFL owners and the Players Association over the league's economic future. A Patriots player's aggressive on-field behavior is attributed to influences"
+      ],
+      "masked_answers_present": [],
+      "response": "Steelers' Polamalu Respects Carson Palmer (AP) AP - Steelers safety respects Bengals' quarterback regarding an old dinner bill and other past incidents.",
+      "artifact": "artifacts/B_MULTI_SUMMARY/20260715/f6b366427cfce7c90ab4.json"
+    },
+    {
+      "request_id": "ls_3432f0daad1e33543d19c8cf",
+      "method": "B_MULTI_SUMMARY",
+      "type": "s2_mia",
+      "member": 1,
+      "target_doc_id": "ag_news_teacher_00000979",
+      "target_in_transform": true,
+      "transform_input": [
+        {
+          "doc_id": "ag_news_teacher_00000979",
+          "parent_doc_id": "ag_news_teacher_00000979",
+          "kind": "raw",
+          "score": 0.6380029916763306,
+          "text_sha256": "616dbe60fc44c2b09347218c3eb5654d40b22fc2237cf6e86074713b1e74dfe4"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000527",
+          "parent_doc_id": "ag_news_teacher_00000527",
+          "kind": "raw",
+          "score": 0.3888072371482849,
+          "text_sha256": "27a1b3183587530a1ae0a7e0a1989c7ce8e8d2f9a7fe44d1159b6ea3ee2366c4"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000474",
+          "parent_doc_id": "ag_news_teacher_00000474",
+          "kind": "raw",
+          "score": 0.3559187352657318,
+          "text_sha256": "e1deb8365478e6cb1ea641a450069045fb75f82d2854ac22cd750f9ec2f9ce03"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000242",
+          "parent_doc_id": "ag_news_teacher_00000242",
+          "kind": "raw",
+          "score": 0.3461171090602875,
+          "text_sha256": "7fbade0196d3b6cbb0dceab0b076a25fc0fc0d2b425bc48ced44ee74008c16db"
+        }
+      ],
+      "contexts": [
+        "US services sector shows sustained growth. Revenue growth at Google may slow in Q4. Nortel warns of weaker sales. BJ's Wholesale Club reports higher profit due to strong food and gas sales."
+      ],
+      "masked_answers_present": [],
+      "response": "Continued growth in US services sector NEW YORK, November 3... indicates sustained progress in the sector according to recent reports.",
+      "artifact": "artifacts/B_MULTI_SUMMARY/20260715/4463697171c349c9f319.json"
+    },
+    {
+      "request_id": "ms_03b875ecd549edf35bb2",
+      "method": "B_MULTI_SUMMARY",
+      "type": "s2_mia",
+      "member": 1,
+      "target_doc_id": "ag_news_teacher_00000313",
+      "target_in_transform": true,
+      "transform_input": [
+        {
+          "doc_id": "ag_news_teacher_00000313",
+          "parent_doc_id": "ag_news_teacher_00000313",
+          "kind": "raw",
+          "score": 0.7250581979751587,
+          "text_sha256": "4a7766c36d8d853be9d8c3ff5600e161ba2747dc148fb3c2f65b44a8bcb8ca23"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000820",
+          "parent_doc_id": "ag_news_teacher_00000820",
+          "kind": "raw",
+          "score": 0.4350375831127167,
+          "text_sha256": "b4b8715373aed90cfbf81c8352c8ab4d3b35773d75f52919235d032ecc38dbda"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000333",
+          "parent_doc_id": "ag_news_teacher_00000333",
+          "kind": "raw",
+          "score": 0.3357080817222595,
+          "text_sha256": "828bfc422d426d5ddc4eec616200ca5b50b7d7ba45277b15b440ac475713c84b"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000212",
+          "parent_doc_id": "ag_news_teacher_00000212",
+          "kind": "raw",
+          "score": 0.3355574607849121,
+          "text_sha256": "22ba0454763b6594ab34ea962607a1739366c34acd64cc6bd331dedc21ce53ce"
+        }
+      ],
+      "contexts": [
+        "Chelsea striker Mateja Kezman scores a winning goal and praises teammate Arjen Robben. Bayern Munich urges coach Juergen Klinsmann to resolve goalkeeper conflict. Real Madrid achieves a dominant 6-1 victory in a league match."
+      ],
+      "masked_answers_present": [],
+      "response": "Kezman vows to hit the goal trail Mateja Kezman believes he can continue his recent form and score more winning goals for Chelsea.",
+      "artifact": "artifacts/B_MULTI_SUMMARY/20260715/d363b9c711ef53243df0.json"
+    },
+    {
+      "request_id": "ms_fd8b40455f9b565c9f65",
+      "method": "B_MULTI_SUMMARY",
+      "type": "s2_mia",
+      "member": 0,
+      "target_doc_id": "ag_news_teacher_00008001",
+      "target_in_transform": false,
+      "transform_input": [
+        {
+          "doc_id": "ag_news_teacher_00000772",
+          "parent_doc_id": "ag_news_teacher_00000772",
+          "kind": "raw",
+          "score": 0.33286505937576294,
+          "text_sha256": "4b71daed6c858a2c656c318ee0e48a3d020726c698b3c48f6c3e41c2b633c0de"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000318",
+          "parent_doc_id": "ag_news_teacher_00000318",
+          "kind": "raw",
+          "score": 0.3278539776802063,
+          "text_sha256": "2a2cc5e559d698b8e862157b36ffb0fb0b5895d0d7b9b20347e11fa6a67eedc8"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000242",
+          "parent_doc_id": "ag_news_teacher_00000242",
+          "kind": "raw",
+          "score": 0.31288644671440125,
+          "text_sha256": "7fbade0196d3b6cbb0dceab0b076a25fc0fc0d2b425bc48ced44ee74008c16db"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000371",
+          "parent_doc_id": "ag_news_teacher_00000371",
+          "kind": "raw",
+          "score": 0.29504674673080444,
+          "text_sha256": "7d54202130fe55e59ba651537aeb029e9ea3cbaf7adeb5d5fc922aa1a1f7c3c0"
+        }
+      ],
+      "contexts": [
+        "The Motley Fool discusses upcoming business trends. Wal-Mart acknowledges miscommunication issues. BJ's Wholesale Club reports increased profits due to high fuel prices and food sales. Hynix sells its non-memory semiconductor business to Citigroup Venture Capital."
+      ],
+      "masked_answers_present": [],
+      "response": "The provided context does not contain any information related to Neiman Marcus Selling Zeppelin for \\$10M or any similar transaction. Therefore, the evidence is insufficient to complete the given sentence.",
+      "artifact": "artifacts/B_MULTI_SUMMARY/20260715/7b9a7b864904d9cd4998.json"
+    },
+    {
+      "request_id": "ms_b46b7b8ade8bcfad0bf5",
+      "method": "B_MULTI_SUMMARY",
+      "type": "s2_mia",
+      "member": 0,
+      "target_doc_id": "ag_news_teacher_00008290",
+      "target_in_transform": false,
+      "transform_input": [
+        {
+          "doc_id": "ag_news_teacher_00000053",
+          "parent_doc_id": "ag_news_teacher_00000053",
+          "kind": "raw",
+          "score": 0.34967002272605896,
+          "text_sha256": "b7a35e8d9126f7f04cdd22e90207d4c0b9e1242128478983e1c75e5e05538a29"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000507",
+          "parent_doc_id": "ag_news_teacher_00000507",
+          "kind": "raw",
+          "score": 0.3121345043182373,
+          "text_sha256": "0e71f5f1dc0546339ea01c33cf14b7026390003956698db11174c23ab3d28eb3"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000318",
+          "parent_doc_id": "ag_news_teacher_00000318",
+          "kind": "raw",
+          "score": 0.3050929307937622,
+          "text_sha256": "2a2cc5e559d698b8e862157b36ffb0fb0b5895d0d7b9b20347e11fa6a67eedc8"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000448",
+          "parent_doc_id": "ag_news_teacher_00000448",
+          "kind": "raw",
+          "score": 0.30321067571640015,
+          "text_sha256": "c9d6c50cc4d3851992169e95c0c468bb5c2bf9134df9dfc3a00037a287f48766"
+        }
+      ],
+      "contexts": [
+        "Sony Cinematics Solutions Group produced a two-minute animated promo under tight deadlines. Meanwhile, President Bush launched a new TV ad focusing on job creation. Wal-Mart's CEO acknowledged miscommunication issues and sought to address them. ESPN is partnering with Sprint"
+      ],
+      "masked_answers_present": [],
+      "response": "The given context does not provide any information related to Fox announcing a deal to air specific bowls. Therefore, the evidence is insufficient to complete the sentence.",
+      "artifact": "artifacts/B_MULTI_SUMMARY/20260715/2903eadf00fafb7f8bbf.json"
+    }
+  ],
+  "status": "requires_agent_review"
+}

@@ -1,0 +1,9 @@
+{
+  "generation_input": {
+    "query": "Summarize the topic.",
+    "contexts": [],
+    "prompt": "Answer using only the supplied Context.\n\nContext:\n\n\nQuestion:\nSummarize the topic.\n",
+    "template_version": "fake_rag_answer_v1"
+  },
+  "judge_traces": null
+}

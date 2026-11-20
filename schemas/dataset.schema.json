@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://miaguard.local/schemas/dataset.schema.json",
+  "title": "MIA dataset descriptor",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "display_name",
+    "enabled",
+    "experiment_eligible",
+    "language",
+    "domain",
+    "document_unit",
+    "snapshot_provenance",
+    "files",
+    "supported_attacks"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "dataset_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "display_name": {"type": "string", "minLength": 1},
+    "enabled": {"type": "boolean"},
+    "experiment_eligible": {"type": "boolean"},
+    "language": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "domain": {"type": "string", "minLength": 1},
+    "document_unit": {"type": "string", "minLength": 1},
+    "snapshot_provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "source_project"],
+      "properties": {
+        "kind": {
+          "enum": ["teacher_processed_snapshot", "local_public_dataset"]
+        },
+        "source_project": {"type": "string", "minLength": 1}
+      }
+    },
+    "files": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["processed_corpus", "target_member", "target_nonmember"],
+      "properties": {
+        "processed_corpus": {"$ref": "#/$defs/datasetFile"},
+        "target_member": {"$ref": "#/$defs/datasetFile"},
+        "target_nonmember": {"$ref": "#/$defs/datasetFile"}
+      }
+    },
+    "supported_attacks": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": ["masked_mia", "ia", "direct_rag_mia", "s2_mia"]
+      }
+    }
+  },
+  "$defs": {
+    "datasetFile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "format",
+        "encoding",
+        "top_level",
+        "record_type",
+        "record_count"
+      ],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "format": {"enum": ["json", "jsonl", "tsv"]},
+        "encoding": {"const": "utf-8"},
+        "top_level": {"enum": ["array", "jsonl", "rows"]},
+        "record_type": {"enum": ["string", "object"]},
+        "record_count": {"type": "integer", "minimum": 1},
+        "membership_label": {"type": "integer", "enum": [0, 1]}
+      }
+    }
+  }
+}

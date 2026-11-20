@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "The passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nTo O #39;Neal, [Mask_1] #39;s only  #39;That Guy #39; [Mask_2] Back when his goal in life was to become the [Mask_3] man to win an NBA [Mask_4] and an Oscar, [Mask_5] O #39;Neal did some movies.",
+    "contexts": [
+      "To O #39;Neal, Bryant #39;s only  #39;That Guy #39; WASHINGTON Back when his goal in life was to become the first man to win an NBA championship and an Oscar, Shaquille O #39;Neal did some movies.",
+      "O #39;Neal Wants More From Team MIAMI -- Shaquille O #39;Neal thinks Miami #39;s opponents are rising to the challenge of playing against him and Dwyane Wade. And right now, the Heat aren #39;t responding the way their center would prefer.",
+      "Sexson Agrees to  #36;50M Deal With Mariners (AP) AP - The Seattle Mariners added power to one of the weakest lineups in baseball Wednesday, agreeing to a  #36;50 million, four-year contract with free agent first baseman Richie Sexson.",
+      "Men #39;s 400 a sweep for the US ATHENS, Greece - As Bruce Springsteen #39;s  quot;Born in the USA quot; blared over the Olympic Stadium loudspeaker Monday night, three athletes in red, white and blue began a slow victory lap."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"To O #39;Neal, Bryant #39;s only  #39;That Guy #39; WASHINGTON Back when his goal in life was to become the first man to win an NBA championship and an Oscar, Shaquille O #39;Neal did some movies.\"\n\"O #39;Neal Wants More From Team MIAMI -- Shaquille O #39;Neal thinks Miami #39;s opponents are rising to the challenge of playing against him and Dwyane Wade. And right now, the Heat aren #39;t responding the way their center would prefer.\"\n\"Sexson Agrees to  #36;50M Deal With Mariners (AP) AP - The Seattle Mariners added power to one of the weakest lineups in baseball Wednesday, agreeing to a  #36;50 million, four-year contract with free agent first baseman Richie Sexson.\"\n\"Men #39;s 400 a sweep for the US ATHENS, Greece - As Bruce Springsteen #39;s  quot;Born in the USA quot; blared over the Olympic Stadium loudspeaker Monday night, three athletes in red, white and blue began a slow victory lap.\"\n\nQuestion:\nThe passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nTo O #39;Neal, [Mask_1] #39;s only  #39;That Guy #39; [Mask_2] Back when his goal in life was to become the [Mask_3] man to win an NBA [Mask_4] and an Oscar, [Mask_5] O #39;Neal did some movies.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

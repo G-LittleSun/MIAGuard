@@ -1,0 +1,452 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B_TYPE_V2",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008290",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q076",
+      "session_id": "ia_ag_news_teacher_00008290",
+      "method": "B_TYPE_V2",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not contain any information related to Fox announcing a deal for BCS games starting from 2006. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000341",
+        "ag_news_teacher_00000039",
+        "ag_news_teacher_00000795",
+        "ag_news_teacher_00000448"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000341",
+        "ag_news_teacher_00000039",
+        "ag_news_teacher_00000795",
+        "ag_news_teacher_00000448"
+      ],
+      "risk": {
+        "frozen_risk": {
+          "risk_source": "query_only",
+          "status": "ok",
+          "x1": 0.00012339457598623175,
+          "x2": null,
+          "score": 0.00012339457598623175,
+          "threshold": 0.006692850924284855,
+          "triggered": false,
+          "head": "logprob",
+          "frozen_model_sha256": "b24b81b88a4ce9579e81eb51cb4e0cc940972dc22499fce77ef80c60f587d188",
+          "query_trace_ref": "sha256:9ca6469d0b646d772a76fb70b0ff57fb6f268b281babafc6f2a0b138e202ee21",
+          "session_trace_ref": null
+        },
+        "query_detection": {
+          "status": "ok",
+          "risk_score": 0.00012339457598623175,
+          "scoring_method": "progressive_judge_v3_logprob",
+          "suspected_attack_types": [],
+          "evidence_codes": []
+        },
+        "session_detection": {
+          "status": "insufficient_history",
+          "risk_score": 0.0,
+          "scoring_method": "not_called",
+          "suspected_attack_types": [],
+          "evidence_codes": []
+        },
+        "access_control": {
+          "mode": "observe",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 4787.911800667644,
+          "session_detector": 0.0,
+          "total_defense": 4787.911800667644
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000341",
+            "ag_news_teacher_00000039",
+            "ag_news_teacher_00000795",
+            "ag_news_teacher_00000448"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000341",
+            "ag_news_teacher_00000039",
+            "ag_news_teacher_00000795",
+            "ag_news_teacher_00000448"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        },
+        "type_policy": {
+          "version": "B_TYPE_V2",
+          "suspected_attack_types": [],
+          "prior_raw_delivery_requests": 0,
+          "query_cues": {
+            "version": "query_cue_v1",
+            "cues": []
+          },
+          "reason": "low_risk",
+          "selected_action": "allow"
+        }
+      },
+      "action": "allow",
+      "latency_ms": 6106.508299708366,
+      "ledger_event": {
+        "request_id": "q076",
+        "session_id": "ia_ag_news_teacher_00008290",
+        "input_sha256": "763c9ce6e9ed83d95db9a49508fac097592fde082042c44ad3218de2e2a670a1",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000341",
+          "ag_news_teacher_00000039",
+          "ag_news_teacher_00000795",
+          "ag_news_teacher_00000448"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000341",
+            "parent_doc_id": "ag_news_teacher_00000341",
+            "kind": "raw",
+            "score": 0.39479178190231323,
+            "text_sha256": "48a65fe01bb18ba9b07fa5f2fb49f5c0a116f5134059ee5840211e9b53ebe16f"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000039",
+            "parent_doc_id": "ag_news_teacher_00000039",
+            "kind": "raw",
+            "score": 0.35859671235084534,
+            "text_sha256": "67fd78b8bcbc625f5898e793fc41cbaa835ce56895f0c3af596d73362aaca463"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000795",
+            "parent_doc_id": "ag_news_teacher_00000795",
+            "kind": "raw",
+            "score": 0.3515688478946686,
+            "text_sha256": "7a6a42a0f81bfaedfd778941f0f6c641383e952c97aa2b9a747d12946aeb3310"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000448",
+            "parent_doc_id": "ag_news_teacher_00000448",
+            "kind": "raw",
+            "score": 0.331692099571228,
+            "text_sha256": "c9d6c50cc4d3851992169e95c0c468bb5c2bf9134df9dfc3a00037a287f48766"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not contain any information related to Fox announcing a deal for BCS games starting from 2006. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795008402.3564262,
+        "finished_at": 1795008408.4629261
+      },
+      "generation_input_ref": "artifacts/B_TYPE_V2/20260715/a8f0ab5ec4279d05df52.json",
+      "artifact_sha256": "e294970bf81d96fe305c65a4723195c8e052d9c83bd896615d95e58fc355b504"
+    },
+    {
+      "request_id": "q077",
+      "session_id": "ia_ag_news_teacher_00008290",
+      "method": "B_TYPE_V2",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not contain any information related to a Fox announcement regarding a deal for BCS (Bowl Championship Series) games starting from 2006 or any details about a four-year contract. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000039",
+        "ag_news_teacher_00000795",
+        "ag_news_teacher_00000341",
+        "ag_news_teacher_00000170"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000039",
+        "ag_news_teacher_00000795",
+        "ag_news_teacher_00000341",
+        "ag_news_teacher_00000170"
+      ],
+      "risk": {
+        "frozen_risk": {
+          "risk_source": "query_only",
+          "status": "ok",
+          "x1": 0.00012339457598623175,
+          "x2": null,
+          "score": 0.00012339457598623175,
+          "threshold": 0.006692850924284855,
+          "triggered": false,
+          "head": "logprob",
+          "frozen_model_sha256": "b24b81b88a4ce9579e81eb51cb4e0cc940972dc22499fce77ef80c60f587d188",
+          "query_trace_ref": "sha256:646ce8d5b96dbde2e99b415442a98eae9b6342ce88c2606fb5b6fa49ad371a0c",
+          "session_trace_ref": null
+        },
+        "query_detection": {
+          "status": "ok",
+          "risk_score": 0.00012339457598623175,
+          "scoring_method": "progressive_judge_v3_logprob",
+          "suspected_attack_types": [],
+          "evidence_codes": []
+        },
+        "session_detection": {
+          "status": "insufficient_history",
+          "risk_score": 0.0,
+          "scoring_method": "not_called",
+          "suspected_attack_types": [],
+          "evidence_codes": []
+        },
+        "access_control": {
+          "mode": "observe",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 4906.182400882244,
+          "session_detector": 0.0,
+          "total_defense": 4906.182400882244
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000039",
+            "ag_news_teacher_00000795",
+            "ag_news_teacher_00000341",
+            "ag_news_teacher_00000170"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000039",
+            "ag_news_teacher_00000795",
+            "ag_news_teacher_00000341",
+            "ag_news_teacher_00000170"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        },
+        "type_policy": {
+          "version": "B_TYPE_V2",
+          "suspected_attack_types": [],
+          "prior_raw_delivery_requests": 1,
+          "query_cues": {
+            "version": "query_cue_v1",
+            "cues": []
+          },
+          "reason": "low_risk",
+          "selected_action": "allow"
+        }
+      },
+      "action": "allow",
+      "latency_ms": 6724.582199938595,
+      "ledger_event": {
+        "request_id": "q077",
+        "session_id": "ia_ag_news_teacher_00008290",
+        "input_sha256": "cd37d4280eb585f0f08f12fd868192a01225e0fa3166582f94e2c34ba903f5be",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000039",
+          "ag_news_teacher_00000795",
+          "ag_news_teacher_00000341",
+          "ag_news_teacher_00000170"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000039",
+            "parent_doc_id": "ag_news_teacher_00000039",
+            "kind": "raw",
+            "score": 0.36911359429359436,
+            "text_sha256": "67fd78b8bcbc625f5898e793fc41cbaa835ce56895f0c3af596d73362aaca463"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000795",
+            "parent_doc_id": "ag_news_teacher_00000795",
+            "kind": "raw",
+            "score": 0.355825275182724,
+            "text_sha256": "7a6a42a0f81bfaedfd778941f0f6c641383e952c97aa2b9a747d12946aeb3310"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000341",
+            "parent_doc_id": "ag_news_teacher_00000341",
+            "kind": "raw",
+            "score": 0.34978872537612915,
+            "text_sha256": "48a65fe01bb18ba9b07fa5f2fb49f5c0a116f5134059ee5840211e9b53ebe16f"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000170",
+            "parent_doc_id": "ag_news_teacher_00000170",
+            "kind": "raw",
+            "score": 0.3178304433822632,
+            "text_sha256": "391e151cd9eb45f02f947ae2af7a54ac4d297cfdd2bc98438a2084ef66db836b"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not contain any information related to a Fox announcement regarding a deal for BCS (Bowl Championship Series) games starting from 2006 or any details about a four-year contract. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795008408.4694283,
+        "finished_at": 1795008415.193926
+      },
+      "generation_input_ref": "artifacts/B_TYPE_V2/20260715/73a694e2b8ad7f93aff3.json",
+      "artifact_sha256": "9b43e8f399739aa19e815694f89f7c9ff34fa5ebca293b9522bfc02377b87c63"
+    },
+    {
+      "request_id": "q078",
+      "session_id": "ia_ag_news_teacher_00008290",
+      "method": "B_TYPE_V2",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not contain any information regarding a Fox announcement deal for BCS games starting from 2006 or whether Fox would carry the Orange Bowl as part of such a deal. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000341",
+        "ag_news_teacher_00000843",
+        "ag_news_teacher_00000054",
+        "ag_news_teacher_00000803"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000341",
+        "ag_news_teacher_00000843",
+        "ag_news_teacher_00000054",
+        "ag_news_teacher_00000803"
+      ],
+      "risk": {
+        "frozen_risk": {
+          "risk_source": "fusion",
+          "status": "ok",
+          "x1": 0.00012339457598623175,
+          "x2": 0.0031726828424851893,
+          "score": 0.47441713788681766,
+          "threshold": 0.4798231627374044,
+          "triggered": false,
+          "head": "logprob",
+          "frozen_model_sha256": "b24b81b88a4ce9579e81eb51cb4e0cc940972dc22499fce77ef80c60f587d188",
+          "query_trace_ref": "sha256:cf928f16523a92a9df6542812c9079cefbd8fb1d8f3396671b7c3bd746c12c2e",
+          "session_trace_ref": "sha256:9f043d2de5c87f4d37450f5a4c08617385ccb7edf268d88df51f65705960da3d"
+        },
+        "query_detection": {
+          "status": "ok",
+          "risk_score": 0.00012339457598623175,
+          "scoring_method": "progressive_judge_v3_logprob",
+          "suspected_attack_types": [],
+          "evidence_codes": []
+        },
+        "session_detection": {
+          "status": "ok",
+          "risk_score": 0.0031726828424851893,
+          "scoring_method": "progressive_judge_v3_logprob",
+          "suspected_attack_types": [],
+          "evidence_codes": []
+        },
+        "access_control": {
+          "mode": "observe",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 4792.413300834596,
+          "session_detector": 5229.152200743556,
+          "total_defense": 10021.565501578152
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000341",
+            "ag_news_teacher_00000843",
+            "ag_news_teacher_00000054",
+            "ag_news_teacher_00000803"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000341",
+            "ag_news_teacher_00000843",
+            "ag_news_teacher_00000054",
+            "ag_news_teacher_00000803"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        },
+        "type_policy": {
+          "version": "B_TYPE_V2",
+          "suspected_attack_types": [],
+          "prior_raw_delivery_requests": 2,
+          "query_cues": {
+            "version": "query_cue_v1",
+            "cues": []
+          },
+          "reason": "low_risk",
+          "selected_action": "allow"
+        }
+      },
+      "action": "allow",
+      "latency_ms": 11791.442999616265,
+      "ledger_event": {
+        "request_id": "q078",
+        "session_id": "ia_ag_news_teacher_00008290",
+        "input_sha256": "abe80fd22e278fffda20dd70d5fb3b7b643e43af5f86f170d70b03096aa093a2",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000341",
+          "ag_news_teacher_00000843",
+          "ag_news_teacher_00000054",
+          "ag_news_teacher_00000803"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000341",
+            "parent_doc_id": "ag_news_teacher_00000341",
+            "kind": "raw",
+            "score": 0.46931231021881104,
+            "text_sha256": "48a65fe01bb18ba9b07fa5f2fb49f5c0a116f5134059ee5840211e9b53ebe16f"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000843",
+            "parent_doc_id": "ag_news_teacher_00000843",
+            "kind": "raw",
+            "score": 0.35283395648002625,
+            "text_sha256": "6cf582f815bf6b75aad89845c57e44214cf9e2e2a8075d4022560de937c5bdd0"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000054",
+            "parent_doc_id": "ag_news_teacher_00000054",
+            "kind": "raw",
+            "score": 0.35124635696411133,
+            "text_sha256": "b96f2990c0455ecabbf61d1ee4f368f1975db79c818a3f068e88ebf09d16fd64"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000803",
+            "parent_doc_id": "ag_news_teacher_00000803",
+            "kind": "raw",
+            "score": 0.34843406081199646,
+            "text_sha256": "69b246768c9331002f1db4cc934bd16e08e670c14cd9cb8006aa89cb434f7f3e"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not contain any information regarding a Fox announcement deal for BCS games starting from 2006 or whether Fox would carry the Orange Bowl as part of such a deal. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795008415.199926,
+        "finished_at": 1795008426.9909263
+      },
+      "generation_input_ref": "artifacts/B_TYPE_V2/20260715/6581f4b19b98690e4f86.json",
+      "artifact_sha256": "5bea33f5949e40488c0820c46e80612808473dc6cd017b0039cdce4836d1d3c7"
+    }
+  ]
+}

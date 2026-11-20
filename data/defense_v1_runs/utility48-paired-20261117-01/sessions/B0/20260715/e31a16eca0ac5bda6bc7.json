@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "3a7dde81f26328f01b293d6bdf90ae11eb04dd0d4e800c5ced47794e0ce173d5",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "utility48_pilot_04_main",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "utility48_pilot_04_main",
+      "session_id": "utility48_pilot_04_main",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Soyuz spacecraft",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000794",
+        "ag_news_teacher_00000363"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000794",
+        "ag_news_teacher_00000363"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000794",
+            "ag_news_teacher_00000363"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000794",
+            "ag_news_teacher_00000363"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 205.24720009416342,
+      "ledger_event": {
+        "request_id": "utility48_pilot_04_main",
+        "session_id": "utility48_pilot_04_main",
+        "input_sha256": "7cb08a9acb275c1b4eefad26dc9a5ac013c4a57e29f25a77b00c6d14b6ab8015",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000794",
+          "ag_news_teacher_00000363"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000794",
+            "parent_doc_id": "ag_news_teacher_00000794",
+            "kind": "raw",
+            "score": 0.658648669719696,
+            "text_sha256": "ec9ba639922b96cbd15c6761536f9a64479b94d8d740a62033cb3525ada9e8e4"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000363",
+            "parent_doc_id": "ag_news_teacher_00000363",
+            "kind": "raw",
+            "score": 0.584998369216919,
+            "text_sha256": "ff4a9cfd957236652de8656604f4e6d4f8c9df909a0691a8b54a879eb1608e1e"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Soyuz spacecraft",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794921917.9646025,
+        "finished_at": 1794921918.1696005
+      },
+      "generation_input_ref": "artifacts/B0/20260715/e31a16eca0ac5bda6bc7.json",
+      "artifact_sha256": "4d7a2d84b0cf1d438ddf0578013cde7588fcefd70ef633f87a790d747f6b2592"
+    }
+  ]
+}

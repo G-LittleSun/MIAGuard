@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Fox to announce deal for BCS games starting from 2006. Will Fox carry the Orange Bowl as part of the BCS deal? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "No Bowls After Fight Clemson and South Carolina will turn down bids to play in postseason bowl games after both teams fought during their game on Saturday.",
+      "No. 2 Oklahoma Blows Out Baylor 35-0 (AP) AP - Adrian Peterson ran for 240 yards, including three second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor 35-0 on Saturday.",
+      "Bringing BU together Boston University will raise the curtain on a new \\$225 million athletic complex at a gala next week, and its much-anticipated Agganis Arena will host its inaugural hockey game Jan. 3.",
+      "This time, Bentley gives advance notice for playoffs Bentley coach Peter Yetten knows that increased success breeds increased expectations. Yetten's Falcons are returning to the NCAA Division 2 tournament one year after their first-round loss to eventual repeat national champion Grand Valley State. It being the program's first foray into postseason play, just being there was accomplishment enough."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"No Bowls After Fight Clemson and South Carolina will turn down bids to play in postseason bowl games after both teams fought during their game on Saturday.\"\n\"No. 2 Oklahoma Blows Out Baylor 35-0 (AP) AP - Adrian Peterson ran for 240 yards, including three second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor 35-0 on Saturday.\"\n\"Bringing BU together Boston University will raise the curtain on a new \\$225 million athletic complex at a gala next week, and its much-anticipated Agganis Arena will host its inaugural hockey game Jan. 3.\"\n\"This time, Bentley gives advance notice for playoffs Bentley coach Peter Yetten knows that increased success breeds increased expectations. Yetten's Falcons are returning to the NCAA Division 2 tournament one year after their first-round loss to eventual repeat national champion Grand Valley State. It being the program's first foray into postseason play, just being there was accomplishment enough.\"\n\nQuestion:\nI am inquiring about a Fox to announce deal for BCS games starting from 2006. Will Fox carry the Orange Bowl as part of the BCS deal? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

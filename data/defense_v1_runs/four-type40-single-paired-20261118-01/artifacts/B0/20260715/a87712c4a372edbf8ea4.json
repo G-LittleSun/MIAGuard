@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Microsoft targets older people for web via TV Seattle, November......\" based on the Context.",
+    "contexts": [
+      "Panel Moves Against Spyware, Net Piracy People who illegally share copyrighted music and movies over the Internet could be jailed for up to five years under a bill approved by a powerful congressional panel Wednesday.\\&lt;FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\"\\ color=\"#666666\"&gt;&lt;B&gt;-washingtonpost.com&lt;/B&gt;&lt;/FONT&gt;",
+      "TV to the rescue Cell phone executives say new data-oriented services such as TV will help bolster an industry in a precarious state.",
+      "With Each Technology Advance, a Scourge Internet advertisers face a new enemy: people who click on ads with no intention of buying.",
+      "Crime Spurs South Africa's Inventors to Action (Reuters) Reuters - Want a computer that screams when\\a thief strikes? Or a personal tracking unit in case you get\\kidnapped?"
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Panel Moves Against Spyware, Net Piracy People who illegally share copyrighted music and movies over the Internet could be jailed for up to five years under a bill approved by a powerful congressional panel Wednesday.\\&lt;FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\"\\ color=\"#666666\"&gt;&lt;B&gt;-washingtonpost.com&lt;/B&gt;&lt;/FONT&gt;\"\n\"TV to the rescue Cell phone executives say new data-oriented services such as TV will help bolster an industry in a precarious state.\"\n\"With Each Technology Advance, a Scourge Internet advertisers face a new enemy: people who click on ads with no intention of buying.\"\n\"Crime Spurs South Africa's Inventors to Action (Reuters) Reuters - Want a computer that screams when\\a thief strikes? Or a personal tracking unit in case you get\\kidnapped?\"\n\nQuestion:\nComplete this sentence \"Microsoft targets older people for web via TV Seattle, November......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

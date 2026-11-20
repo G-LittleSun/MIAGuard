@@ -1,0 +1,16 @@
+profile: smoke
+dataset_selection:
+  mode: single
+  include:
+    - t2ranking
+attacks:
+  - masked_mia
+  - ia
+target_counts:
+  masked_mia:
+    members: 10
+    nonmembers: 10
+  ia:
+    members: 10
+    nonmembers: 10
+runs_dir: data/runs

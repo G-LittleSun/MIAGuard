@@ -1,0 +1,46 @@
+{
+  "selection_id": "legacy-v2-train-reuse-20261104",
+  "status": "identity_verified_reuse_acceptance_pending",
+  "bank_id": "ag_news_queries_v2",
+  "split_id": "ag_news_threshold_v2",
+  "partition": "train",
+  "source_run_id": "20260717-ag-news-four-medium",
+  "accepted_train_queries": 4579,
+  "input_files": {
+    "query_bank_manifest": {
+      "path": "data/query_banks/ag_news_queries_v2/ag_news/manifest.json",
+      "sha256": "1296d74cfdabeba6aba560d0c289c547db54fd582c76f77fdffc2d9a9300991a"
+    },
+    "queries": {
+      "path": "data/query_banks/ag_news_queries_v2/ag_news/queries.jsonl",
+      "sha256": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972"
+    },
+    "split": {
+      "path": "data/query_bank_splits/ag_news_threshold_v2.json",
+      "sha256": "96977e550be6c0e42ab0b7609f2c73af261a99474b459778ae46fd123c7b80ef"
+    },
+    "index_manifest": {
+      "path": "data/vector_stores/20260717-ag-news-four-medium/ag_news/manifest.json",
+      "sha256": "888791e22714fb741c8e9674679ae4891e9e3184540a62e5300776671a31ad44"
+    },
+    "index_documents": {
+      "path": "data/vector_stores/20260717-ag-news-four-medium/ag_news/documents.jsonl",
+      "sha256": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9"
+    },
+    "version_audit": {
+      "path": "reports/defense_v1/T10/query_bank_version_audit_20261104.json",
+      "sha256": "e5e8da1f2a3ffd7adb83046372e9de5726f2b4edb19fd42dcaddd8105a75a949"
+    }
+  },
+  "frozen_judge_training_bank": "ag_news_queries_v1",
+  "frozen_judge_training_split": "ag_news_threshold_v1",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "replay_eligible": false,
+  "notes": [
+    "Latest complete non-smoke query bank found in project; selected at user instruction.",
+    "Version identity and metadata verified; per-query reuse, adapters, normal gold and attack scoring validation remain pending.",
+    "v2 inherits v1 document partitions and attack records; it is not an untouched new holdout.",
+    "Existing v1 Judge results remain v1; frozen model not retrained and Session traces not automatically reusable."
+  ]
+}

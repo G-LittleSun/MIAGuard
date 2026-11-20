@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "19d4015a8f3904179a4bf2fd7ddd4fd136adf2c0018c5a8aca08769b0bb97a74",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "fs_44e5fd15f78b2948cbcee643",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "fp_44e5fd15f78b2948cbcee643",
+      "session_id": "fs_44e5fd15f78b2948cbcee643",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "The new AI system will enable NASA's planetary rovers to be much more self-reliant and capable of making basic decisions during a mission.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000618",
+        "ag_news_teacher_00000910"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000618",
+        "ag_news_teacher_00000910"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000470",
+            "ag_news_teacher_00000618",
+            "ag_news_teacher_00000910"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000470",
+            "ag_news_teacher_00000618",
+            "ag_news_teacher_00000910"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 987.7856997773051,
+      "ledger_event": {
+        "request_id": "fp_44e5fd15f78b2948cbcee643",
+        "session_id": "fs_44e5fd15f78b2948cbcee643",
+        "input_sha256": "56fc2a19d09bea92c71b313c977c24fc5cd13593a143899f86c1f08dc0d2c7f5",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000149",
+          "ag_news_teacher_00000470",
+          "ag_news_teacher_00000618",
+          "ag_news_teacher_00000910"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000149",
+            "parent_doc_id": "ag_news_teacher_00000149",
+            "kind": "raw",
+            "score": 0.8014031052589417,
+            "text_sha256": "95c627355672d7db756b82153bffa5c7ec69b5bac2a6cb761a51614f749091b5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000470",
+            "parent_doc_id": "ag_news_teacher_00000470",
+            "kind": "raw",
+            "score": 0.3487538695335388,
+            "text_sha256": "9cec78befa3c65c68b22ae82d2f399ba546a3daceaa033046bc194de6f4851c5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000618",
+            "parent_doc_id": "ag_news_teacher_00000618",
+            "kind": "raw",
+            "score": 0.3142978549003601,
+            "text_sha256": "ae6172e8f5542db11da1f11316efbec899e1385e913032ee7a87eb91042adaf5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000910",
+            "parent_doc_id": "ag_news_teacher_00000910",
+            "kind": "raw",
+            "score": 0.2928168773651123,
+            "text_sha256": "0b00b8428008b710e7b7127ed256fab6f381b0cd2f298eae102206aacfcc9029"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "The new AI system will enable NASA's planetary rovers to be much more self-reliant and capable of making basic decisions during a mission.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794570951.2071388,
+        "finished_at": 1794570952.1946385
+      },
+      "generation_input_ref": "artifacts/B0/20260715/f5a32c55d012cd47300b.json",
+      "artifact_sha256": "be214796c1c24e24c649bb13c902e8cea33bb1b89dbd96d66e23fc1c788702a4"
+    },
+    {
+      "request_id": "fp_44e5fd15f78b2948cbcee643_turn2",
+      "session_id": "fs_44e5fd15f78b2948cbcee643",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "The NASA rover researchers are developing very complex AI software that enables a higher level of robotic intelligence.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000320",
+        "ag_news_teacher_00000752",
+        "ag_news_teacher_00000614"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000320",
+        "ag_news_teacher_00000752",
+        "ag_news_teacher_00000614"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000320",
+            "ag_news_teacher_00000752",
+            "ag_news_teacher_00000614"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000320",
+            "ag_news_teacher_00000752",
+            "ag_news_teacher_00000614"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 649.3528001010418,
+      "ledger_event": {
+        "request_id": "fp_44e5fd15f78b2948cbcee643_turn2",
+        "session_id": "fs_44e5fd15f78b2948cbcee643",
+        "input_sha256": "375a171f6b57dc317f5c96da3bf9c2b9e08b2d1f8565ffb44eac2dcd78258f46",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000149",
+          "ag_news_teacher_00000320",
+          "ag_news_teacher_00000752",
+          "ag_news_teacher_00000614"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000149",
+            "parent_doc_id": "ag_news_teacher_00000149",
+            "kind": "raw",
+            "score": 0.6655893325805664,
+            "text_sha256": "95c627355672d7db756b82153bffa5c7ec69b5bac2a6cb761a51614f749091b5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000320",
+            "parent_doc_id": "ag_news_teacher_00000320",
+            "kind": "raw",
+            "score": 0.4798884689807892,
+            "text_sha256": "a9e3ef42f868b42e51c933db794eac30cda485fabdc0ac247ad51d1c4be0882c"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000752",
+            "parent_doc_id": "ag_news_teacher_00000752",
+            "kind": "raw",
+            "score": 0.38765817880630493,
+            "text_sha256": "56400f9bce8feedd91c8d7f26f48e476e6bc2a6087df8e6ab06a0389d3f00296"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000614",
+            "parent_doc_id": "ag_news_teacher_00000614",
+            "kind": "raw",
+            "score": 0.3870600461959839,
+            "text_sha256": "c7e0d0b96d642e4d8e66f31130d5ce04588472fce67de5bfd95c4a7cd16f191b"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "The NASA rover researchers are developing very complex AI software that enables a higher level of robotic intelligence.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794570952.2001402,
+        "finished_at": 1794570952.849638
+      },
+      "generation_input_ref": "artifacts/B0/20260715/265d44e74e9b11d3dbd1.json",
+      "artifact_sha256": "eee3bfbe53a68ff7f2c3c323fa536290b438876f92d7b5ab8bcdd464075c31e2"
+    },
+    {
+      "request_id": "fp_44e5fd15f78b2948cbcee643_turn3",
+      "session_id": "fs_44e5fd15f78b2948cbcee643",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "The stated goal for the rovers' intelligence is to make them much more self-reliant and capable of making basic decisions during a mission. This will be achieved through the development of very complex AI software that enables a higher level of robotic intelligence.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000618",
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000925"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000618",
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000925"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000618",
+            "ag_news_teacher_00000470",
+            "ag_news_teacher_00000925"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000618",
+            "ag_news_teacher_00000470",
+            "ag_news_teacher_00000925"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1600.7534004747868,
+      "ledger_event": {
+        "request_id": "fp_44e5fd15f78b2948cbcee643_turn3",
+        "session_id": "fs_44e5fd15f78b2948cbcee643",
+        "input_sha256": "7b92b922655b27e47a1a0c79f5de68127c1ddfea503ba035456589497f1affd4",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000149",
+          "ag_news_teacher_00000618",
+          "ag_news_teacher_00000470",
+          "ag_news_teacher_00000925"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000149",
+            "parent_doc_id": "ag_news_teacher_00000149",
+            "kind": "raw",
+            "score": 0.6793269515037537,
+            "text_sha256": "95c627355672d7db756b82153bffa5c7ec69b5bac2a6cb761a51614f749091b5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000618",
+            "parent_doc_id": "ag_news_teacher_00000618",
+            "kind": "raw",
+            "score": 0.31712836027145386,
+            "text_sha256": "ae6172e8f5542db11da1f11316efbec899e1385e913032ee7a87eb91042adaf5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000470",
+            "parent_doc_id": "ag_news_teacher_00000470",
+            "kind": "raw",
+            "score": 0.2913798391819,
+            "text_sha256": "9cec78befa3c65c68b22ae82d2f399ba546a3daceaa033046bc194de6f4851c5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000925",
+            "parent_doc_id": "ag_news_teacher_00000925",
+            "kind": "raw",
+            "score": 0.289615660905838,
+            "text_sha256": "ee84645819b9936a861acbae2861b65cedc2a048e75346b4af17c3c0b72332ec"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "The stated goal for the rovers' intelligence is to make them much more self-reliant and capable of making basic decisions during a mission. This will be achieved through the development of very complex AI software that enables a higher level of robotic intelligence.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794570952.8566387,
+        "finished_at": 1794570954.4571385
+      },
+      "generation_input_ref": "artifacts/B0/20260715/0f925d7a82d7030012d0.json",
+      "artifact_sha256": "91cb7122af2e211899452f1fee9725c8d69965cb70f6f6e0385c372cd78431e2"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "errors": [],
+  "registry_revision": "2026-11-05-r03",
+  "snapshot_sha256": "efbd7ee97c91705c39dd97aa3b9031e513572b58b5eca008cd615e22da6adff1",
+  "registered_artifacts_checked": 92,
+  "code_files_checked": 186,
+  "documents_checked": 14,
+  "local_links_checked": 584,
+  "missing_local_links": [],
+  "document_sha256": {
+    "docs/CURRENT_VERSIONS_ZH.md": "0b81d3844c5d786f4cb1d4a1bbb968e0fe0e59395219fad3aeefd3f3d1af1170",
+    "docs/PROJECT_STATUS_ZH.md": "013ec234961e4ff9d7779948bd08d7618068e335bdb1d62dd26293673df0fb25",
+    "docs/DATA_CATALOG_ZH.md": "50a2380386231fe78b9e5129e8d7904e33523ce8a9481a3eb7c066f63d4227d9",
+    "docs/EXPERIMENT_INDEX_ZH.md": "787c4b89d30665f3faeaeb9d61e569c4de58b943d29ab5b0170f0e26739225ac",
+    "docs/DEFENSE_PROGRESS_ZH.md": "e94d2cf7dcca29ce680df0d30f412dfa6baa2c3afd3f571893c2e2f1fe476969",
+    "docs/README.md": "3862024c36a80bec46fe94da4675b833ecd851b4886cf2fe62b04e477da728a1",
+    "docs/DEFENSE_DATA_REUSE_ZH.md": "ee87fd0b13cfe19cca80c65ad37cc1e45d20b177d707ac227011cee62b737b1b",
+    "docs/superpowers/specs/2026-10-22-defense-framework-design.md": "55e548a28258901321438afdfb89e10ccd4870db75dc524d9ad5452a89e0098a",
+    "docs/superpowers/plans/2026-10-22-defense-framework-implementation.md": "6f6c2d5cbb69cd3f09a57e15155e4c0fefb957d39cae12ce72898935d45c44ff",
+    "docs/DEFENSE_EXPERIMENT_PROTOCOL_ZH.md": "3feb8ebc3aef5e93f400329cc632a0d1339429b5dce5f795601b19e28545db34",
+    "README.md": "7400be2f8f43886de5188831968b7e02963802be99d22dcc39cad918f9d1b13d",
+    "AGENTS.md": "d6d63b424d1572539476aa62693427958067d59d5a23f5aec08b3cf6f346bbf9",
+    "reports/defense_v1/T10/v2_reuse_review_integration_20261105_01/INTEGRATION_REPORT_ZH.md": "895dbec8a24919566c7dd0a7d9580530c284bcccd046d625af8f4316d900dca9",
+    "reports/defense_v1/T10/v2_reuse_review_integration_20261105_01/IA_TRIAGE_ZH.md": "3aa83b7efc35cf31de9a445e4420c4978afc64cda6a77264ef015a3c6d725299"
+  },
+  "next_task": "T10-D",
+  "pending_attack_overlay_requests": 362,
+  "held_ia": 144,
+  "human_gold_complete": false,
+  "limits": [
+    "Identity/link/structural verification and agent triage, not human gold or runtime/effect validation."
+  ]
+}

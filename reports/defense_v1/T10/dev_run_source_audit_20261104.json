@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "details": [
+    {
+      "run": "t10c-history-ablation-20261102-01",
+      "requests": 14,
+      "unique_source_ids": [
+        "ag_news_teacher_00001030",
+        "ag_news_teacher_00001122",
+        "ag_news_teacher_00001124",
+        "ag_news_teacher_00001167",
+        "ag_news_teacher_00003194",
+        "ag_news_teacher_00005971",
+        "ag_news_teacher_00007841"
+      ],
+      "all_ids_in_ledger": true
+    },
+    {
+      "run": "t10c-context-focus-20261102-01",
+      "requests": 4,
+      "unique_source_ids": [
+        "ag_news_teacher_00006603",
+        "ag_news_teacher_00007349"
+      ],
+      "all_ids_in_ledger": true
+    }
+  ],
+  "errors": [],
+  "input_sha256": {
+    "reports/defense_v1/T10/dev_source_inventory_20261104_01/source_usage.jsonl": "d9885807034d61b9338c6c507c4ba6982f4c38f2f2514ffc2c29e11e00124046",
+    "data/defense_v1_runs/t10c-history-ablation-20261102-01/requests.jsonl": "38fc6a0240a628eeef71612613d446f0af49449b484543601941eee3182a0a06",
+    "reports/defense_v1/T10/session_length_pilot_rev2_20261102_01/source_evidence.jsonl": "2acdec7690dd7263e8258f2919f7d5712793c04ff97f36e410d880fcf7557e0e",
+    "data/defense_v1_runs/t10c-context-focus-20261102-01/requests.jsonl": "d189674d3587bf0eafaddc671662227a1b9c44d6b78ce905aa450ed5ec0331eb",
+    "reports/defense_v1/T10/context_focus_pilot_20261102_01/source_evidence.jsonl": "8b2566cf8a300dbdb36a8fde270e9a6c314047d0ce550c4a16a3d5061913684d"
+  },
+  "limitations": [
+    "Only two named D-dev runs; no semantic or event overlap analysis.",
+    "No attack labels, outcomes, or V/T sources were used."
+  ]
+}

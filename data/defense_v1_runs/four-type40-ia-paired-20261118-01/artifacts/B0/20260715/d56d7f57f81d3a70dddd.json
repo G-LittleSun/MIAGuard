@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a The future version of Windows formerly known as Longhorn. Did the author express exhaustion with the bovine references related to Longhorn? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "The long march to Longhorn It #39;s not just because I #39;m tired of the bovine references and the  quot;shorthorn quot; jokes. No, the problem is that the future version of Windows formerly known as Longhorn in many ways won #39;t resemble the Longhorn ",
+      "Bob Evans, IBM mainframe pioneer, dies at 77 Evans led a team that developed a new class of mainframe computers that allowed different applications to be run simultaneously.",
+      "Pros point to flaws in Windows security update German security company says it found minor problems in SP2; researchers predict more critical issues will emerge.",
+      "Intel nuances Itanium; Microsoft ignores it It #39;s no longer Sun Microsystems and IBM working to undermine the Itanium processor. Both the chip #39;s maker - Intel - and close software partner Microsoft are doing the dirty work now."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"The long march to Longhorn It #39;s not just because I #39;m tired of the bovine references and the  quot;shorthorn quot; jokes. No, the problem is that the future version of Windows formerly known as Longhorn in many ways won #39;t resemble the Longhorn \"\n\"Bob Evans, IBM mainframe pioneer, dies at 77 Evans led a team that developed a new class of mainframe computers that allowed different applications to be run simultaneously.\"\n\"Pros point to flaws in Windows security update German security company says it found minor problems in SP2; researchers predict more critical issues will emerge.\"\n\"Intel nuances Itanium; Microsoft ignores it It #39;s no longer Sun Microsystems and IBM working to undermine the Itanium processor. Both the chip #39;s maker - Intel - and close software partner Microsoft are doing the dirty work now.\"\n\nQuestion:\nI am inquiring about a The future version of Windows formerly known as Longhorn. Did the author express exhaustion with the bovine references related to Longhorn? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

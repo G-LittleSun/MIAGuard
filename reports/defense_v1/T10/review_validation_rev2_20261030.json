@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "review_run_id": "pilot_deepseek_rev2_20261030_01",
+  "reviewer_kind": "llm_agent",
+  "model_id_claim": "deepseek-v4.1-flash",
+  "status": "contract_passed_with_semantic_blockers",
+  "errors": [],
+  "counts": {
+    "normal": {
+      "accept": 61,
+      "rewrite": 9
+    },
+    "attack": {
+      "accept": 15,
+      "rewrite": 1
+    }
+  },
+  "normal_rows": 70,
+  "attack_rows": 16,
+  "cross_document_evidence_omissions": [
+    {
+      "request_id": "r_fb433c093c421505f7a64c8c",
+      "missing_evidence_ids": [
+        "ag_news_teacher_00005258"
+      ]
+    },
+    {
+      "request_id": "r_5e11a2485bcf029aec233b58",
+      "missing_evidence_ids": [
+        "ag_news_teacher_00005258"
+      ]
+    },
+    {
+      "request_id": "r_8bc0c171270778396b163d5b",
+      "missing_evidence_ids": [
+        "ag_news_teacher_00005258"
+      ]
+    }
+  ],
+  "input_file_sha256": {
+    "revision_manifest.json": "d8805d1a4d07ecb7b3c8a10a18266950436d7795d8cb7191ae7f6a51b5794d31",
+    "review_packet_d_dev_normal.jsonl": "081408c421016823af93c635a2d4a33c7831270d9fe46ce838a424e2755157c1",
+    "review_packet_d_dev_normal_evidence.jsonl": "2446d46b15106d10c64f3854a51e8c19469871a80c56100e631d1f4c0a4d3cdf",
+    "review_packet_d_dev_attack.jsonl": "21e09046343372c9f2c967cd77926c695a155c3d847b929049ea7e48dd4d39c4"
+  },
+  "review_file_sha256": {
+    "review_manifest.json": "69e87e181648df0d67adcfc30e9f8b518733a1b66fee1440a6e777e84efef2f5",
+    "normal_review.jsonl": "e691304c972db7f6a74814335b5e2a2f6dc8bd2d1b4cd46d1191b49bed0d0f0e",
+    "attack_review.jsonl": "7540b395cdc2efd96c25504cc653f43ec166f21257ef2baaab3abc4e7867d39f",
+    "review_summary.md": "1e8a362022e935864c1a50f9a5f25bf2643da658e710a4e21eac856dcacb05a2"
+  },
+  "scope": "Independent file hashes, line count/order, IDs, field contract and evidence membership; cross-document two-source requirement checked. Does not establish factual correctness or provider snapshot.",
+  "limitations": [
+    "Model ID is runtime-reported, not provider-attested.",
+    "Model pre-review is not human gold or defense effectiveness evidence."
+  ]
+}

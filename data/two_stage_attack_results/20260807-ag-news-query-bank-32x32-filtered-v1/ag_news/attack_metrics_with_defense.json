@@ -1,0 +1,90 @@
+{
+  "direct_rag_mia": {
+    "accuracy": 0.84375,
+    "confusion_matrix": {
+      "fn": 10,
+      "fp": 0,
+      "tn": 32,
+      "tp": 22
+    },
+    "f1": 0.8148148148148148,
+    "member_count": 32,
+    "member_score_mean": 0.6875,
+    "nonmember_count": 32,
+    "nonmember_score_mean": 0.0,
+    "precision": 1.0,
+    "recall": 0.6875,
+    "roc_auc": 0.84375,
+    "sample_count": 64,
+    "threshold": 0.5,
+    "threshold_source": "fixed_config_no_shadow",
+    "tpr_at_fpr_0.001": 0.6875,
+    "tpr_at_fpr_0.01": 0.6875
+  },
+  "ia": {
+    "accuracy": 0.578125,
+    "confusion_matrix": {
+      "fn": 27,
+      "fp": 0,
+      "tn": 32,
+      "tp": 5
+    },
+    "f1": 0.2702702702702703,
+    "member_count": 32,
+    "member_score_mean": 0.15729166666666666,
+    "nonmember_count": 32,
+    "nonmember_score_mean": -0.06458333333333335,
+    "precision": 1.0,
+    "recall": 0.15625,
+    "roc_auc": 0.77685546875,
+    "sample_count": 64,
+    "threshold": 0.5,
+    "threshold_source": "fixed_config_no_shadow",
+    "tpr_at_fpr_0.001": 0.1875,
+    "tpr_at_fpr_0.01": 0.1875
+  },
+  "masked_mia": {
+    "accuracy": 0.609375,
+    "confusion_matrix": {
+      "fn": 18,
+      "fp": 7,
+      "tn": 25,
+      "tp": 14
+    },
+    "f1": 0.5283018867924528,
+    "member_count": 32,
+    "member_score_mean": 0.14375,
+    "nonmember_count": 32,
+    "nonmember_score_mean": 0.0625,
+    "precision": 0.6666666666666666,
+    "recall": 0.4375,
+    "roc_auc": 0.6181640625,
+    "sample_count": 64,
+    "threshold": 0.2,
+    "threshold_source": "ag_news_calibration_100_per_class",
+    "tpr_at_fpr_0.001": 0.0,
+    "tpr_at_fpr_0.01": 0.0
+  },
+  "s2_mia": {
+    "accuracy": 0.78125,
+    "confusion_matrix": {
+      "fn": 13,
+      "fp": 1,
+      "tn": 31,
+      "tp": 19
+    },
+    "f1": 0.7307692307692307,
+    "member_count": 32,
+    "member_score_mean": 0.9246322531253099,
+    "nonmember_count": 32,
+    "nonmember_score_mean": 0.8239581456873566,
+    "precision": 0.95,
+    "recall": 0.59375,
+    "roc_auc": 0.92578125,
+    "sample_count": 64,
+    "threshold": 0.915322333574295,
+    "threshold_source": "ag_news_calibration_100_per_class",
+    "tpr_at_fpr_0.001": 0.25,
+    "tpr_at_fpr_0.01": 0.25
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "errors": [],
+  "sources": 31,
+  "pairs": 465,
+  "reviews": 465,
+  "decision_counts": {
+    "same_event": 1,
+    "related_event": 3,
+    "shared_entity_or_topic": 17,
+    "unrelated": 444,
+    "uncertain": 0
+  },
+  "review_manifest_sha256": "f36388a3a4da46c41fdd67b3d17971e39ec612e27a43e372fc23ca3a9a2f2eba",
+  "review_sha256": "267b1d413349fef99fdef007e8f8a6841c860e69345085a1b8c34e46961e2018",
+  "limits": [
+    "Structural verification and verbatim evidence only; not semantic validation.",
+    "Actual runtime model identity is not independently verifiable from these artifacts."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "errors": [],
+  "sessions": 30,
+  "source_documents": 31,
+  "session_groups": {
+    "base": 27,
+    "core": 27,
+    "sensitivity": 26
+  },
+  "limits": [
+    "Structural partition and input hash verification, not semantic independence."
+  ]
+}

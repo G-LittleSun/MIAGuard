@@ -1,0 +1,14 @@
+{
+  "historical_file_count": 31,
+  "pattern_file_count": 32,
+  "historical_id_count": 2080,
+  "historical_text_count": 2080,
+  "excluded_candidate_counts": {
+    "historical_id_or_text_near_duplicate": 3
+  },
+  "selected_historical_id_overlap": 0,
+  "selected_historical_near_duplicate_overlap": 0,
+  "selected_prompt_full_text_overlap": 0,
+  "background_historical_near_duplicate_overlap": 0,
+  "background_target_duplicate_group_overlap": 0
+}

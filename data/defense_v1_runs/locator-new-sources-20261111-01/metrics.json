@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-locator-source-diagnostic",
+  "run_id": "locator-new-sources-20261111-01",
+  "identity_sha256": "0cb4355956755a2de8b06af8124d4b35e5b377cffdd2a68dfc353c4eac2c0016",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 24,
+  "completed": 24,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 6,
+  "method_count": 4,
+  "attack_target_count": 6,
+  "benign_request_count": 0
+}

@@ -1,0 +1,95 @@
+{
+  "run_id": "cue-utility-nonmember-20261111-01",
+  "rows": [
+    {
+      "method": "B0",
+      "request_id": "cn_attack_03",
+      "doc_id": "ag_news_teacher_00008366",
+      "action": "allow",
+      "strict_score": 0.0,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "parsed",
+        "format": "object_answers",
+        "matched": 0,
+        "total": 5
+      }
+    },
+    {
+      "method": "B0",
+      "request_id": "cn_attack_04",
+      "doc_id": "ag_news_teacher_00008757",
+      "action": "allow",
+      "strict_score": 0.0,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "parsed",
+        "format": "fenced_object_answers",
+        "matched": 0,
+        "total": 5
+      }
+    },
+    {
+      "method": "B5_LOCATED",
+      "request_id": "cn_attack_03",
+      "doc_id": "ag_news_teacher_00008366",
+      "action": "deny",
+      "strict_score": 0.0,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "denied",
+        "format": null,
+        "matched": 0,
+        "total": 5
+      }
+    },
+    {
+      "method": "B5_LOCATED",
+      "request_id": "cn_attack_04",
+      "doc_id": "ag_news_teacher_00008757",
+      "action": "deny",
+      "strict_score": 0.0,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "denied",
+        "format": null,
+        "matched": 0,
+        "total": 5
+      }
+    },
+    {
+      "method": "B5_CUE",
+      "request_id": "cn_attack_03",
+      "doc_id": "ag_news_teacher_00008366",
+      "action": "deny",
+      "strict_score": 0.0,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "denied",
+        "format": null,
+        "matched": 0,
+        "total": 5
+      }
+    },
+    {
+      "method": "B5_CUE",
+      "request_id": "cn_attack_04",
+      "doc_id": "ag_news_teacher_00008757",
+      "action": "deny",
+      "strict_score": 0.0,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "denied",
+        "format": null,
+        "matched": 0,
+        "total": 5
+      }
+    }
+  ],
+  "input_sha256": {
+    "events.jsonl": "fc54b85ab101dd7fdd720455817a21025c5fe96161ebd4fdf19ae1ccb6eea35c",
+    "labels.jsonl": "9ebcab9d939edf9bf59e591ac3f470f465c6aafb516a13c0f3fc94efe2593c3f",
+    "attack_scores.jsonl": "338519de36db89faf983005c7a51817f7ac4dcce78ba86229c39038d5047b08b"
+  },
+  "formal_effect_eligible": false
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "revision_id": "pilot_revision_20261030_01",
+  "status": "passed",
+  "checks": {
+    "original_packet_hashes": true,
+    "review_inputs": true,
+    "review_prompt_hash": true,
+    "revision_hashes": true,
+    "counts": true,
+    "id_lineage": true,
+    "normal_family_balance": true,
+    "unique_queries": true,
+    "pending_no_labels": true,
+    "no_old_followup_template": true,
+    "evidence_alignment": true,
+    "cross_doc_two_sources": true,
+    "masked_alphabetic_unique": true,
+    "ia_no_full_target": true,
+    "eligibility_guard": true,
+    "relative_links": true
+  },
+  "errors": [],
+  "broken_links": [],
+  "counts": {
+    "normal": 70,
+    "attack": 16,
+    "cross_document": 10
+  },
+  "masked_answer_suggestions": [
+    "sparkling",
+    "eclipse",
+    "Aims",
+    "Belichick"
+  ],
+  "limitations": [
+    "Checks are structural and rule based, not human semantic review.",
+    "Offline task and attack gold are not synchronized; replay and formal effects are disabled.",
+    "Only D-dev pilot is revised; candidate06 full corpus and indexes are unchanged."
+  ]
+}

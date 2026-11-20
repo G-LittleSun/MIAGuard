@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Halo 2 - Microsoft's highly anticipated video game. Was there a lot of anticipation for the release of Halo 2? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Sony's Smaller PS2 to Debut in U.S., Europe on Nov 1 (Reuters) Reuters - Japan's Sony Corp. said on Tuesday it\\would launch a new version of its popular PlayStation 2 game\\console in the United States and Europe on Nov. 1 at a price of\\ #36;149 and 149 euros ( #36;181) respectively.",
+      "Sony Announces PS3 GPU December 07, 2004 - In an announcement made around the midnight hour earlier this morning, Sony Computer Entertainment and NVIDIA Corporation jointly confirmed that they have teamed up to create the graphics chip for Sony #39;s next videogame console.",
+      "Microsoft pact with Air Force could be model for DOD An enterprisewide software and services agreement the Air Force has signed with Microsoft promises to save the service more than \\$100 million in direct costs and an undefined but significant amount through indirect costs, according to Air Force CIO John ",
+      "Dragonshard Beta Details October 28, 2004 - Atari and Liquid Entertainment today announced the opening of the Dragonshard closed beta sign-up period. Here #39;s your chance to help test the Dungeons  amp; Dragons-based real-time strategy title based in the new D amp;D universe, Eberron."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Sony's Smaller PS2 to Debut in U.S., Europe on Nov 1 (Reuters) Reuters - Japan's Sony Corp. said on Tuesday it\\would launch a new version of its popular PlayStation 2 game\\console in the United States and Europe on Nov. 1 at a price of\\ #36;149 and 149 euros ( #36;181) respectively.\"\n\"Sony Announces PS3 GPU December 07, 2004 - In an announcement made around the midnight hour earlier this morning, Sony Computer Entertainment and NVIDIA Corporation jointly confirmed that they have teamed up to create the graphics chip for Sony #39;s next videogame console.\"\n\"Microsoft pact with Air Force could be model for DOD An enterprisewide software and services agreement the Air Force has signed with Microsoft promises to save the service more than \\$100 million in direct costs and an undefined but significant amount through indirect costs, according to Air Force CIO John \"\n\"Dragonshard Beta Details October 28, 2004 - Atari and Liquid Entertainment today announced the opening of the Dragonshard closed beta sign-up period. Here #39;s your chance to help test the Dungeons  amp; Dragons-based real-time strategy title based in the new D amp;D universe, Eberron.\"\n\nQuestion:\nI am inquiring about a Halo 2 - Microsoft's highly anticipated video game. Was there a lot of anticipation for the release of Halo 2? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "What does 'No. 2' refer to in the context of Oklahoma's ranking?",
+    "contexts": [
+      "A look around the Big 12 Is the Oklahoma defense a notch below its predecessors? Is Texas #39; offense a step-ahead? Why is Texas Tech feeling good about itself despite its recent loss?",
+      "No. 2 Oklahoma Blows Out Baylor 35-0 (AP) AP - Adrian Peterson ran for 240 yards, including three second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor 35-0 on Saturday.",
+      "Ohio Still Counting Provisional Ballots (AP) AP - Thanks to John Kerry's concession speech, Ohio's election workers don't exactly have the eyes of the nation on them, but their job of checking and counting the state's provisional ballots is as difficult and time-consuming as ever.",
+      "IT Analysts Pick Key Contests Two of the biggest games of the season are on this weekend #39;s SEC slate. Unbeaten Auburn visits unbeaten Tennessee and defending national champ LSU visits unbeaten Georgia."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"A look around the Big 12 Is the Oklahoma defense a notch below its predecessors? Is Texas #39; offense a step-ahead? Why is Texas Tech feeling good about itself despite its recent loss?\"\n\"No. 2 Oklahoma Blows Out Baylor 35-0 (AP) AP - Adrian Peterson ran for 240 yards, including three second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor 35-0 on Saturday.\"\n\"Ohio Still Counting Provisional Ballots (AP) AP - Thanks to John Kerry's concession speech, Ohio's election workers don't exactly have the eyes of the nation on them, but their job of checking and counting the state's provisional ballots is as difficult and time-consuming as ever.\"\n\"IT Analysts Pick Key Contests Two of the biggest games of the season are on this weekend #39;s SEC slate. Unbeaten Auburn visits unbeaten Tennessee and defending national champ LSU visits unbeaten Georgia.\"\n\nQuestion:\nWhat does 'No. 2' refer to in the context of Oklahoma's ranking?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

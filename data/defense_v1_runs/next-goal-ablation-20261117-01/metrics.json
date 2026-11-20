@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-next-goal-component-ablation",
+  "run_id": "next-goal-ablation-20261117-01",
+  "identity_sha256": "94b20ebc1a60870b774b872e34592515784871087f4f5531e9feb75decd82c71",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 32,
+  "completed": 32,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 8,
+  "method_count": 4,
+  "attack_target_count": 4,
+  "benign_request_count": 16
+}

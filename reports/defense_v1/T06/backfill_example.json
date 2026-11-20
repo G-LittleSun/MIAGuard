@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "vector_store": "D:\\Project\\MIAGuard\\data\\vector_stores\\20260717-ag-news-four-medium\\ag_news",
+  "index_sha256_before_and_after": {
+    "index.faiss": "d8cb808dcfb4a1d15419dfeda5541944b4d5a9675005cc57c6dbe2b95eea733a",
+    "documents.jsonl": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9",
+    "manifest.json": "888791e22714fb741c8e9674679ae4891e9e3184540a62e5300776671a31ad44"
+  },
+  "excluded_parent_ids": [
+    "ag_news_teacher_00000000"
+  ],
+  "audit": {
+    "requested_top_k": 4,
+    "allowed_scope_size": null,
+    "excluded_parent_count": 1,
+    "eligible_document_count": 999,
+    "candidate_before_ids": [
+      "ag_news_teacher_00000000",
+      "ag_news_teacher_00000668",
+      "ag_news_teacher_00000620",
+      "ag_news_teacher_00000256"
+    ],
+    "returned_doc_ids": [
+      "ag_news_teacher_00000668",
+      "ag_news_teacher_00000620",
+      "ag_news_teacher_00000256",
+      "ag_news_teacher_00000132"
+    ],
+    "candidate_search_counts": [
+      4,
+      8
+    ],
+    "refill_rounds": 1,
+    "shortage_reason": null
+  },
+  "returned_doc_ids": [
+    "ag_news_teacher_00000668",
+    "ag_news_teacher_00000620",
+    "ag_news_teacher_00000256",
+    "ag_news_teacher_00000132"
+  ],
+  "status": "complete"
+}

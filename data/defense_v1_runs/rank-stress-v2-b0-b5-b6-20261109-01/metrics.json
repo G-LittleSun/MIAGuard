@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-rank-stress-20261109",
+  "run_id": "rank-stress-v2-b0-b5-b6-20261109-01",
+  "identity_sha256": "c6cd0eda53840834c23c082a679edf5ef00d96bbe2f25d0cf74c0d09c2157ea2",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 18,
+  "completed": 18,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 6,
+  "method_count": 3,
+  "attack_target_count": 3,
+  "benign_request_count": 9
+}

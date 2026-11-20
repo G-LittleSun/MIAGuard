@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "four_type40_smoke_20261118_01",
+  "run_id": "four-type40-smoke-20261118-01",
+  "identity_sha256": "95521f3a54a2a35c486d2a12cfb3c2d3b55c605e4473eef48a1693205d3b985f",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 24,
+  "completed": 24,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 8,
+  "method_count": 2,
+  "attack_target_count": 4,
+  "benign_request_count": 0
+}

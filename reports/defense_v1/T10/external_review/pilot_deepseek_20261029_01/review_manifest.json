@@ -1,0 +1,107 @@
+{
+  "run_id": "pilot_deepseek_20261029_01",
+  "reviewer_kind": "llm_agent",
+  "model_id": "deepseek-v4.1-flash",
+  "model_display_name": "DeepSeek V4.1 Flash",
+  "model_id_source": "CODEBUDDY_CURRENT_MODEL_ID environment variable of the running session (runtime-reported identifier, not a provider API response body)",
+  "model_id_note": "运行环境只暴露该运行时标识；未取得供应商响应中的完整快照 ID，故不写推测的日期后缀。",
+  "reviewer_type_note": "模型预审，不是人工复核；不得记为 human_reviewed。",
+  "prompt_version": "AGENT_REVIEW_HANDOFF_ZH.md (2026-10-29) + 用户本轮指令",
+  "prompt_sha256": "210b093f04318066ed16bbc2c83d2d2fa620671dd192c9bc6a72dc6ece0d311a",
+  "prompt_sha256_target": "AGENT_REVIEW_HANDOFF_ZH.md",
+  "started_at_bjt": "2026-10-29T18:16:45+08:00",
+  "finished_at_bjt": "2026-10-29T18:21:07+08:00",
+  "inputs": [
+    {
+      "file": "review_packet_manifest.json",
+      "sha256": "4487c3800501fc756df23cc4254863597ea91ea7b31353c76fc772dfb5974143",
+      "rows": 1
+    },
+    {
+      "file": "review_packet_d_dev_normal.jsonl",
+      "sha256": "72a10e8ad4ed2467c44edcffe91ac5abbfe033254c96c815c95fc77ebda87e36",
+      "rows": 70
+    },
+    {
+      "file": "review_packet_d_dev_normal_evidence.jsonl",
+      "sha256": "ef5948da23e80f742a442397bbe25f88bf40651d361fe4f39f830ea79184511d",
+      "rows": 70
+    },
+    {
+      "file": "review_packet_d_dev_attack.jsonl",
+      "sha256": "9815c9ce0f5b4e225a147460409621fa25e0592c8aee4494c344bfef9056f7e5",
+      "rows": 16
+    }
+  ],
+  "input_hash_check": "all four files recomputed locally and matched AGENT_REVIEW_HANDOFF_ZH.md section 1",
+  "partition": "D-dev",
+  "normal_expected": 70,
+  "attack_expected": 16,
+  "normal_completed": 70,
+  "attack_completed": 16,
+  "status": "completed",
+  "partial": false,
+  "unreviewed_ids": [],
+  "external_sources_used": false,
+  "membership_labels_read": false,
+  "vt_results_viewed": false,
+  "defense_experiment_run": false,
+  "original_packet_modified": false,
+  "context_truncation": false,
+  "interruptions": [],
+  "decision_counts": {
+    "normal_by_family": {
+      "citation_check": {
+        "rewrite": 10
+      },
+      "cross_document_synthesis": {
+        "reject": 10
+      },
+      "evidence_insufficient": {
+        "rewrite": 10
+      },
+      "exact_entity_number": {
+        "rewrite": 10
+      },
+      "multi_turn_reading": {
+        "rewrite": 10
+      },
+      "single_fact": {
+        "rewrite": 10
+      },
+      "topic_summary": {
+        "rewrite": 10
+      }
+    },
+    "attack_by_type": {
+      "direct_rag_mia": {
+        "accept": 4
+      },
+      "ia": {
+        "rewrite": 4
+      },
+      "masked_mia": {
+        "rewrite": 2,
+        "accept": 2
+      },
+      "s2_mia": {
+        "accept": 4
+      }
+    },
+    "normal_overall": {
+      "rewrite": 60,
+      "reject": 10
+    },
+    "attack_overall": {
+      "accept": 10,
+      "rewrite": 6
+    }
+  },
+  "limitations": [
+    "模型预审，未经真人复核；不能替代 T10 人评，也不构成 E07 人评完成。",
+    "只覆盖 D-dev 试点 86 条；candidate06 其余 1,680 条正常与 14,384 条攻击草稿未审。",
+    "参考答案仅依据随附原文核对，未使用外部搜索；原文截断处按截断范围给答案。",
+    "攻击条目只判断机制符合性、答案泄漏与可执行性，未运行攻击，不推断成员标签，不报告攻击成功率。",
+    "历史攻击识别指标（AUROC/F1 等）未作为本轮任何判定的依据，也不能作为防御有效性证据。"
+  ]
+}

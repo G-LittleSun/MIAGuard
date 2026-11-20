@@ -1,0 +1,9 @@
+PyYAML>=6.0
+numpy>=1.24
+scikit-learn>=1.3
+datasketch>=1.6
+jsonschema>=4.20
+lm-format-enforcer==0.11.3
+requests>=2.31
+faiss-cpu>=1.8
+pytest>=8.0

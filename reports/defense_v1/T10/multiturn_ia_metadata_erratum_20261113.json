@@ -1,0 +1,15 @@
+{
+  "reason": "Independent spec review clarified ambiguous wording after the session run had started. Frozen inputs are preserved; this is an additive metadata correction with no query/code/model change.",
+  "affected_inputs": {
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\multiturn_ia_session_v2_train_20261113_01\\manifest.json": "51940d20a9bd8647b51d2f08ee3bdc0c8d01b215486ffd524163f9212aab96df",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\multiturn_ia_reset_v2_train_20261113_01\\manifest.json": "43bfaa08f89669ffcc1ecc7a37bca898607466bda40135787dd9ad77891503f6"
+  },
+  "field": "comparison",
+  "ambiguous_phrase": "real per-method responses in history",
+  "clarification": "Real per-method responses are recorded in the exposure ledger. Session Judge history contains queries and retrieval metadata, not prior responses. Answer prompts contain the current query and current permitted contexts, not prior responses. Reset removes Session Judge history and exposure state together; this is not a conversational answer-memory experiment or pure Session-component ablation.",
+  "code_evidence": {
+    "src/miaguard/defense_benchmark_live.py": "generation_input at lines 149-158",
+    "src/miaguard/progressive_judge.py": "_turn_payload at lines 1555-1561"
+  },
+  "formal_effect_eligible": false
+}

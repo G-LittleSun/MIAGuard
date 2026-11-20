@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "f52efa11715445b192cc8d3d3c086acd5035f3a2bd8aee2017c075f50e9fa317",
+  "method": "B5_LOCATED",
+  "seed": 20260715,
+  "session_id": "rss_957da14e1b7964a4ec021ab3",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "rs_957da14e1b7964a4ec021ab3",
+      "session_id": "rss_957da14e1b7964a4ec021ab3",
+      "method": "B5_LOCATED",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "{\"answers\": [\"Panama\", \"mudslides\", \"Haiti\", \"China\", \"missing\"]}",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000985",
+        "ag_news_teacher_00000394",
+        "ag_news_teacher_00000479",
+        "ag_news_teacher_00000903"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000985",
+        "ag_news_teacher_00000394",
+        "ag_news_teacher_00000903",
+        "ag_news_teacher_00000204"
+      ],
+      "risk": {
+        "frozen_risk": {
+          "risk_source": "query_only",
+          "status": "ok",
+          "x1": 0.37754066879814546,
+          "x2": null,
+          "score": 0.37754066879814546,
+          "threshold": 0.006692850924284855,
+          "triggered": true,
+          "head": "logprob",
+          "frozen_model_sha256": "b24b81b88a4ce9579e81eb51cb4e0cc940972dc22499fce77ef80c60f587d188",
+          "query_trace_ref": "sha256:167e2dcdc62961f522ad2e5c98956abf6b99a281b5368aa8ed84dbeaea5e806c",
+          "session_trace_ref": null
+        },
+        "query_detection": {
+          "status": "ok",
+          "risk_score": 0.37754066879814546,
+          "scoring_method": "progressive_judge_v3_logprob"
+        },
+        "session_detection": {
+          "status": "insufficient_history",
+          "risk_score": 0.0,
+          "scoring_method": "not_called"
+        },
+        "access_control": {
+          "mode": "observe",
+          "recommended_level": "L4",
+          "applied_level": "L0",
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 17947.506800293922,
+          "session_detector": 0.0,
+          "total_defense": 17947.506800293922
+        },
+        "execution": {
+          "recommended_action": "hide_target_refill",
+          "applied_action": "hide_target_refill",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000985",
+            "ag_news_teacher_00000394",
+            "ag_news_teacher_00000479",
+            "ag_news_teacher_00000903"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000985",
+            "ag_news_teacher_00000394",
+            "ag_news_teacher_00000903",
+            "ag_news_teacher_00000204"
+          ],
+          "excluded_parent_ids": [
+            "ag_news_teacher_00000479"
+          ],
+          "summary_template_version": null,
+          "refill_audit": {
+            "requested_top_k": 4,
+            "allowed_scope_size": null,
+            "excluded_parent_count": 1,
+            "eligible_document_count": 999,
+            "candidate_before_ids": [
+              "ag_news_teacher_00000985",
+              "ag_news_teacher_00000394",
+              "ag_news_teacher_00000479",
+              "ag_news_teacher_00000903"
+            ],
+            "returned_doc_ids": [
+              "ag_news_teacher_00000985",
+              "ag_news_teacher_00000394",
+              "ag_news_teacher_00000903",
+              "ag_news_teacher_00000204"
+            ],
+            "candidate_search_counts": [
+              4,
+              8
+            ],
+            "refill_rounds": 1,
+            "shortage_reason": null
+          }
+        },
+        "localization": {
+          "version": "contiguous_trigrams_v1",
+          "status": "located",
+          "parent_ids": [
+            "ag_news_teacher_00000479"
+          ],
+          "matching_trigrams": {
+            "ag_news_teacher_00000985": 1,
+            "ag_news_teacher_00000394": 0,
+            "ag_news_teacher_00000479": 26,
+            "ag_news_teacher_00000903": 0
+          }
+        }
+      },
+      "action": "hide_target_refill",
+      "latency_ms": 18851.339199580252,
+      "ledger_event": {
+        "request_id": "rs_957da14e1b7964a4ec021ab3",
+        "session_id": "rss_957da14e1b7964a4ec021ab3",
+        "input_sha256": "2ca5ea5a84982d82ef645d2d3cc74abdc0a9e18659149a80332035b9a0127afd",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000985",
+          "ag_news_teacher_00000394",
+          "ag_news_teacher_00000479",
+          "ag_news_teacher_00000903"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000985",
+            "parent_doc_id": "ag_news_teacher_00000985",
+            "kind": "raw",
+            "score": 0.30297431349754333,
+            "text_sha256": "03838dfdd2ca00efe4ecc6e6c3f450210df4bf693b3eebb5fe07f0ff63f84b9e"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000394",
+            "parent_doc_id": "ag_news_teacher_00000394",
+            "kind": "raw",
+            "score": 0.2816648781299591,
+            "text_sha256": "326fdadc2b32b10abdc054ccad4243181bd767fb866a6465c236158e8623b23c"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000903",
+            "parent_doc_id": "ag_news_teacher_00000903",
+            "kind": "raw",
+            "score": 0.2515883147716522,
+            "text_sha256": "4b2e12d99fb9ec9f5e573965ae7e58190032301667e95e7ff7e51e39eaef8d46"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000204",
+            "parent_doc_id": "ag_news_teacher_00000204",
+            "kind": "raw",
+            "score": 0.23982509970664978,
+            "text_sha256": "e5b8ef7e4ae9849ffb13102905b291fb81091aac105c89cc2e2ee1dba2f68962"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "{\"answers\": [\"Panama\", \"mudslides\", \"Haiti\", \"China\", \"missing\"]}",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794390075.569506,
+        "finished_at": 1794390094.4210057
+      },
+      "generation_input_ref": "artifacts/B5_LOCATED/20260715/58606b3856234b04e937.json",
+      "artifact_sha256": "9f7201915f21e809ef2396849920a226d26da0ea6ad9433fe05cf54d78259a0c"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "reviewer_kind": "llm_agent",
+  "reviewer_model": "gpt-6.1-terra",
+  "human_reviewed": false,
+  "scope": "Manual semantic review of up to five similarity-ranked queries per target document.",
+  "counts": {
+    "posthoc_semantic_equivalent": 8,
+    "no_equivalent_found_in_top_candidates": 38,
+    "partial_fact_overlap": 2
+  },
+  "cases": [
+    {
+      "request_id": "utility48_pilot_01_main",
+      "relationship": "posthoc_semantic_equivalent",
+      "matched_query": {
+        "source": "prior_development",
+        "id": "ng_normal_03",
+        "query": "What does NASA plan to add to planetary rovers?",
+        "similarity": 0.819
+      },
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_02_main",
+      "relationship": "posthoc_semantic_equivalent",
+      "matched_query": {
+        "source": "prior_development",
+        "id": "ng_normal_05",
+        "query": "How old was the boy injured at the Florida fair?",
+        "similarity": 0.8842
+      },
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_03_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_04_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_05_main",
+      "relationship": "posthoc_semantic_equivalent",
+      "matched_query": {
+        "source": "prior_development",
+        "id": "ng_normal_07",
+        "query": "Which drug did Merck recall?",
+        "similarity": 0.7429
+      },
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_06_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_07_main",
+      "relationship": "partial_fact_overlap",
+      "matched_query": {
+        "source": "prior_development",
+        "id": "bp_treo_3",
+        "query": "For a reading exercise on the Treo 650 report, fill in the exact capacity of the free expansion card: PalmOne plans to offer a free [Mask_1] expansion card to Treo 650 owners.",
+        "similarity": 0.4915
+      },
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_08_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_09_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_10_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_11_main",
+      "relationship": "posthoc_semantic_equivalent",
+      "matched_query": {
+        "source": "v2_bank",
+        "id": "ag_news:ag_news_teacher_00000532:benign:generated:0005",
+        "query": "Who were the two executives dismissed from Ace Ltd.?",
+        "similarity": 0.5577
+      },
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_12_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_13_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_14_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_15_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_16_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_17_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_18_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_19_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_20_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_21_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_22_main",
+      "relationship": "posthoc_semantic_equivalent",
+      "matched_query": {
+        "source": "prior_development",
+        "id": "ng_normal_01",
+        "query": "What price might Symantec pay for Veritas according to the report?",
+        "similarity": 0.7736
+      },
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_23_main",
+      "relationship": "posthoc_semantic_equivalent",
+      "matched_query": {
+        "source": "prior_development",
+        "id": "ng_normal_04",
+        "query": "What would the AI let the rovers do during a mission?",
+        "similarity": 0.8545
+      },
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_24_main",
+      "relationship": "partial_fact_overlap",
+      "matched_query": {
+        "source": "prior_development",
+        "id": "ng_normal_05",
+        "query": "How old was the boy injured at the Florida fair?",
+        "similarity": 0.7049
+      },
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_25_main",
+      "relationship": "posthoc_semantic_equivalent",
+      "matched_query": {
+        "source": "prior_development",
+        "id": "ng_normal_08",
+        "query": "How much did Merck stock fall in the report?",
+        "similarity": 0.8315
+      },
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_26_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_27_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_28_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_29_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_30_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_31_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_32_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_33_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_34_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_35_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_36_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_37_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_38_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_39_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_40_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_41_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_42_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_43_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_44_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_45_main",
+      "relationship": "posthoc_semantic_equivalent",
+      "matched_query": {
+        "source": "prior_development",
+        "id": "ng_normal_07",
+        "query": "Which drug did Merck recall?",
+        "similarity": 0.5789
+      },
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_46_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_47_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    },
+    {
+      "request_id": "utility48_pilot_48_main",
+      "relationship": "no_equivalent_found_in_top_candidates",
+      "matched_query": null,
+      "limitation": "Post-hoc similarity; not proof of actual reuse or of exhaustive search."
+    }
+  ],
+  "input_sha256": "8cdc308537976e81fae286501935037fef11712afa0ac519c835bac804eece87",
+  "limits": [
+    "Matching performed after experiment, not evidence of selection before experiment.",
+    "Top-five similarity search is not exhaustive; no equivalent found is not proof of absence."
+  ]
+}

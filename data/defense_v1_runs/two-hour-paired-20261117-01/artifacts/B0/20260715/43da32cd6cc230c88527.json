@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"Microsoft targets older people for web via TV Seattle, November 17: For people trying to get their aging parents on the web so they can read e-mail and get digital photos of the family, Microsoft Corp has a message: Don #39;t give up.\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "Computers 'do not boost learning' Internet access does not make adults more likely to take part in formal education, research suggests.",
+      "With Each Technology Advance, a Scourge Internet advertisers face a new enemy: people who click on ads with no intention of buying.",
+      "Phishing may have hit Google users Internet search giant Google #39;s aficionados may just have lost some vital information that could hurt their wallet! Hackers exploiting a flaw in Google #39;s desktop search tool launched a week back could have ",
+      "Panel Moves Against Spyware, Net Piracy People who illegally share copyrighted music and movies over the Internet could be jailed for up to five years under a bill approved by a powerful congressional panel Wednesday.\\&lt;FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\"\\ color=\"#666666\"&gt;&lt;B&gt;-washingtonpost.com&lt;/B&gt;&lt;/FONT&gt;"
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Computers 'do not boost learning' Internet access does not make adults more likely to take part in formal education, research suggests.\"\n\"With Each Technology Advance, a Scourge Internet advertisers face a new enemy: people who click on ads with no intention of buying.\"\n\"Phishing may have hit Google users Internet search giant Google #39;s aficionados may just have lost some vital information that could hurt their wallet! Hackers exploiting a flaw in Google #39;s desktop search tool launched a week back could have \"\n\"Panel Moves Against Spyware, Net Piracy People who illegally share copyrighted music and movies over the Internet could be jailed for up to five years under a bill approved by a powerful congressional panel Wednesday.\\&lt;FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\"\\ color=\"#666666\"&gt;&lt;B&gt;-washingtonpost.com&lt;/B&gt;&lt;/FONT&gt;\"\n\nQuestion:\nDoes this: \"Microsoft targets older people for web via TV Seattle, November 17: For people trying to get their aging parents on the web so they can read e-mail and get digital photos of the family, Microsoft Corp has a message: Don #39;t give up.\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

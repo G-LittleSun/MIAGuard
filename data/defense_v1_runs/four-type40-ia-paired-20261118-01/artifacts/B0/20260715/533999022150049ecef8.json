@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a India loses Test match to Australians with a margin of 217 runs. Did the Australians win the first Test by more than 200 runs? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "India end losing streak with thrilling win London: The hallowed turfs of Lord #39;s once again provided the inspiration for the Indian team who ended their five-match losing streak with a thrilling 23-run victory over England in the third and final NatWest Challenge one-day cricket international here ",
+      "Kiwis collapse has Aussies in command of second Test (AFP) AFP - New Zealand faced the likelihood of conceding a massive first innings deficit against Australia after a clutter of wickets late on the third day of the second cricket Test at the Adelaide Oval.",
+      "Cricket: Australian cricketers to wear black armbands in Miller #39;s &lt;b&gt;...&lt;/b&gt; SYDNEY : Australia #39;s cricket team will wear black armbands in the second Test against India in Madras in respect for one of Australia #39;s greatest cricketers Keith Miller, Cricket Australia said.",
+      "England complete whitewash Bulawayo: England bowled out Zimbabwe to win their fourth ODI by 74 runs on Sunday to complete a 4-0 series whitewash. Darren Gough took four for 34 as England bowled out the hosts for 187, having set them a victory target of 262."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"India end losing streak with thrilling win London: The hallowed turfs of Lord #39;s once again provided the inspiration for the Indian team who ended their five-match losing streak with a thrilling 23-run victory over England in the third and final NatWest Challenge one-day cricket international here \"\n\"Kiwis collapse has Aussies in command of second Test (AFP) AFP - New Zealand faced the likelihood of conceding a massive first innings deficit against Australia after a clutter of wickets late on the third day of the second cricket Test at the Adelaide Oval.\"\n\"Cricket: Australian cricketers to wear black armbands in Miller #39;s &lt;b&gt;...&lt;/b&gt; SYDNEY : Australia #39;s cricket team will wear black armbands in the second Test against India in Madras in respect for one of Australia #39;s greatest cricketers Keith Miller, Cricket Australia said.\"\n\"England complete whitewash Bulawayo: England bowled out Zimbabwe to win their fourth ODI by 74 runs on Sunday to complete a 4-0 series whitewash. Darren Gough took four for 34 as England bowled out the hosts for 187, having set them a victory target of 262.\"\n\nQuestion:\nI am inquiring about a India loses Test match to Australians with a margin of 217 runs. Did the Australians win the first Test by more than 200 runs? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

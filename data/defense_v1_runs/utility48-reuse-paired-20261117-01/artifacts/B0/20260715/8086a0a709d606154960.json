@@ -1,0 +1,12 @@
+{
+  "generation_input": {
+    "query": "What was the main conclusion of the French legal inquiry regarding the Concorde crash?",
+    "contexts": [
+      "Concorde crash  #39;due to US firm #39; A French legal inquiry into the July 2000 Concorde crash near Paris has placed much of the blame on the American carrier, Continental Airlines."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Concorde crash  #39;due to US firm #39; A French legal inquiry into the July 2000 Concorde crash near Paris has placed much of the blame on the American carrier, Continental Airlines.\"\n\nQuestion:\nWhat was the main conclusion of the French legal inquiry regarding the Concorde crash?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

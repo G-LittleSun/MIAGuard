@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Calvin Murphy sexual abuse trial. Was the trial of Calvin Murphy taking place in a state district court? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "SPCA chapter closed over J. Williams case A New Jersey chapter of the Society for the Prevention of Cruelty to Animals was ordered to close because it did not prosecute Jayson Williams over accusations he shot and killed his dog.",
+      "Lawsuit: NYC Created 'Guantanamo' at RNC (AP) AP - Saying the city had created its \"own little Guantanamo on the Hudson\" during the Republican National Convention, a lawyer Monday filed a lawsuit on behalf of nearly 2,000 people arrested at demonstrations.",
+      "House Blocks Court on Pledge Case Rulings WASHINGTON - The House passed legislation Thursday that would prevent the Supreme Court from ruling on whether the words \"under God\" should be stricken from the Pledge of Allegiance.    In a politically and emotionally charged debate, Democrats said majority Republicans in the chamber were debasing the Constitution in order to force a vote that could hurt Democrats in the election...",
+      "Jury reaches verdict in Enron-Merrill trial A Houston jury has reached a verdict Wednesday in the conspiracy and fraud trial of six defendants connected to a sham deal to illicitly boost Enron Corp."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"SPCA chapter closed over J. Williams case A New Jersey chapter of the Society for the Prevention of Cruelty to Animals was ordered to close because it did not prosecute Jayson Williams over accusations he shot and killed his dog.\"\n\"Lawsuit: NYC Created 'Guantanamo' at RNC (AP) AP - Saying the city had created its \"own little Guantanamo on the Hudson\" during the Republican National Convention, a lawyer Monday filed a lawsuit on behalf of nearly 2,000 people arrested at demonstrations.\"\n\"House Blocks Court on Pledge Case Rulings WASHINGTON - The House passed legislation Thursday that would prevent the Supreme Court from ruling on whether the words \"under God\" should be stricken from the Pledge of Allegiance.    In a politically and emotionally charged debate, Democrats said majority Republicans in the chamber were debasing the Constitution in order to force a vote that could hurt Democrats in the election...\"\n\"Jury reaches verdict in Enron-Merrill trial A Houston jury has reached a verdict Wednesday in the conspiracy and fraud trial of six defendants connected to a sham deal to illicitly boost Enron Corp.\"\n\nQuestion:\nI am inquiring about a Calvin Murphy sexual abuse trial. Was the trial of Calvin Murphy taking place in a state district court? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

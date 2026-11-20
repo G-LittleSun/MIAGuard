@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "3e7b8f17823b2e885fb846c285761b92e68b47d9284f459e773271082971376a",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "q032",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "q032",
+      "session_id": "q032",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "New Treo 650 file system cuts storage capacity PalmOne plans to offer a free 128MB expansion card to Treo 650 owners because a new file system used for the handheld actually offers less memory for data storage than was available on the older Treo 600.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000367",
+        "ag_news_teacher_00000907",
+        "ag_news_teacher_00000819",
+        "ag_news_teacher_00000514"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000367",
+        "ag_news_teacher_00000907",
+        "ag_news_teacher_00000819",
+        "ag_news_teacher_00000514"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000367",
+            "ag_news_teacher_00000907",
+            "ag_news_teacher_00000819",
+            "ag_news_teacher_00000514"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000367",
+            "ag_news_teacher_00000907",
+            "ag_news_teacher_00000819",
+            "ag_news_teacher_00000514"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 2287.2557006776333,
+      "ledger_event": {
+        "request_id": "q032",
+        "session_id": "q032",
+        "input_sha256": "fe08cf6fe1e58774f22c518dd41e380809656c45ea9b5eb1c5cc1d71c527f9a7",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000367",
+          "ag_news_teacher_00000907",
+          "ag_news_teacher_00000819",
+          "ag_news_teacher_00000514"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000367",
+            "parent_doc_id": "ag_news_teacher_00000367",
+            "kind": "raw",
+            "score": 0.7439109086990356,
+            "text_sha256": "109b827189943345fda7f703446231702ed51c10ec190e4d450a5102eb61cd70"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000907",
+            "parent_doc_id": "ag_news_teacher_00000907",
+            "kind": "raw",
+            "score": 0.4103018045425415,
+            "text_sha256": "6b6ebf057119d50ccb48a9c009a2109bac61fae16e2d35b92a5aea182a3ca582"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000819",
+            "parent_doc_id": "ag_news_teacher_00000819",
+            "kind": "raw",
+            "score": 0.3950137495994568,
+            "text_sha256": "370523d9dd52cbb075c5d749004758cea28cc247f3d418a409ff95af6f95ea0d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000514",
+            "parent_doc_id": "ag_news_teacher_00000514",
+            "kind": "raw",
+            "score": 0.3275141716003418,
+            "text_sha256": "551b43228a9786804607ccdda50f7c47419cf244657534e830e6646ff28d0e16"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "New Treo 650 file system cuts storage capacity PalmOne plans to offer a free 128MB expansion card to Treo 650 owners because a new file system used for the handheld actually offers less memory for data storage than was available on the older Treo 600.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795004509.2794397,
+        "finished_at": 1795004511.5664394
+      },
+      "generation_input_ref": "artifacts/B0/20260715/7c24dbff0169f198d94c.json",
+      "artifact_sha256": "105159350e79a28243c44f7f28de0e0caa994128fc269d0f86408b6d923c2e82"
+    }
+  ]
+}

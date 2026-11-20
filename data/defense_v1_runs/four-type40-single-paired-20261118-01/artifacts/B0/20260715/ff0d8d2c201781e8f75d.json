@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "The passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nC.I.A. Churning [Mask_1] as 2 Top [Mask_2] Resign The head of the C.I.A.'s [Mask_3] service and his deputy [Mask_4] their posts after clashes with [Mask_5] to Porter J. Goss.",
+    "contexts": [
+      "C.I.A. Churning Continues as 2 Top Officials Resign The head of the C.I.A.'s clandestine service and his deputy resigned their posts after clashes with advisers to Porter J. Goss.",
+      "Will It Be Trash or Tribute? Bottle Stands on the Edge Tillie, the clown face that graced the front of Palace Amusements in Asbury Park for nearly 50 years, was preserved in June before the rest of the building was torn down.",
+      "Feds order airlines to divulge passenger details The requirement is part of a trial run of a computer system that's supposed to ID terrorists before they can board the plane.",
+      "At Wal-Mart, the New Word Is Compromise n an apparent mea culpa, the chief executive of Wal-Mart Stores said yesterday that the company #39;s  quot;message has not in fact gotten out quot; and called it  quot;management #39;s failure."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"C.I.A. Churning Continues as 2 Top Officials Resign The head of the C.I.A.'s clandestine service and his deputy resigned their posts after clashes with advisers to Porter J. Goss.\"\n\"Will It Be Trash or Tribute? Bottle Stands on the Edge Tillie, the clown face that graced the front of Palace Amusements in Asbury Park for nearly 50 years, was preserved in June before the rest of the building was torn down.\"\n\"Feds order airlines to divulge passenger details The requirement is part of a trial run of a computer system that's supposed to ID terrorists before they can board the plane.\"\n\"At Wal-Mart, the New Word Is Compromise n an apparent mea culpa, the chief executive of Wal-Mart Stores said yesterday that the company #39;s  quot;message has not in fact gotten out quot; and called it  quot;management #39;s failure.\"\n\nQuestion:\nThe passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nC.I.A. Churning [Mask_1] as 2 Top [Mask_2] Resign The head of the C.I.A.'s [Mask_3] service and his deputy [Mask_4] their posts after clashes with [Mask_5] to Porter J. Goss.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

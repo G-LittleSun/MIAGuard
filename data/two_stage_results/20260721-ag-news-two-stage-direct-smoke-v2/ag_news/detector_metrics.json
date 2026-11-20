@@ -1,0 +1,113 @@
+{
+  "applied_level_counts": {
+    "L0": 12
+  },
+  "attack_detection_rate_by_type": {
+    "direct_rag_mia": {
+      "combined_detection_rate": 0.0,
+      "query_detection_rate": 0.0
+    },
+    "ia": {
+      "combined_detection_rate": 0.0,
+      "query_detection_rate": 0.0
+    },
+    "masked_mia": {
+      "combined_detection_rate": 0.0,
+      "query_detection_rate": 0.0
+    },
+    "s2_mia": {
+      "combined_detection_rate": 0.0,
+      "query_detection_rate": 0.0
+    }
+  },
+  "combined_detection": {
+    "accuracy": 0.5,
+    "attack_count": 6,
+    "attack_score_mean": 0.0,
+    "auprc": 0.5,
+    "auroc": 0.5,
+    "benign_count": 6,
+    "benign_score_mean": 0.0,
+    "confusion_matrix": {
+      "fn": 6,
+      "fp": 0,
+      "tn": 6,
+      "tp": 0
+    },
+    "f1": 0.0,
+    "false_negative_rate": 1.0,
+    "false_positive_rate": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "sample_count": 12,
+    "threshold": 0.4
+  },
+  "ia_average_first_session_detection_turn": null,
+  "invalid_output_count": 0,
+  "latency": {
+    "active_session_detector": {
+      "mean_ms": 4634.263499989174,
+      "median_ms": 4634.263499989174,
+      "p95_ms": 4668.1388699798845
+    },
+    "query_detector": {
+      "mean_ms": 3694.660399991941,
+      "median_ms": 3580.1578999962658,
+      "p95_ms": 4156.277210020926
+    },
+    "total_defense": {
+      "mean_ms": 4515.77904165606,
+      "median_ms": 3841.3137499592267,
+      "p95_ms": 8196.624119969783
+    }
+  },
+  "observe_applied_l0_rate": 1.0,
+  "query_detection": {
+    "accuracy": 0.5,
+    "attack_count": 6,
+    "attack_score_mean": 0.0,
+    "auprc": 0.5,
+    "auroc": 0.5,
+    "benign_count": 6,
+    "benign_score_mean": 0.0,
+    "confusion_matrix": {
+      "fn": 6,
+      "fp": 0,
+      "tn": 6,
+      "tp": 0
+    },
+    "f1": 0.0,
+    "false_negative_rate": 1.0,
+    "false_positive_rate": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "sample_count": 12,
+    "threshold": 0.4
+  },
+  "recommended_level_counts": {
+    "L0": 12
+  },
+  "scope": "two_stage_llm_direct_development_smoke",
+  "session_detection_ia_final_turn": {
+    "accuracy": 0.5,
+    "attack_count": 1,
+    "attack_score_mean": 0.0,
+    "auprc": 0.5,
+    "auroc": 0.5,
+    "benign_count": 1,
+    "benign_score_mean": 0.0,
+    "confusion_matrix": {
+      "fn": 1,
+      "fp": 0,
+      "tn": 1,
+      "tp": 0
+    },
+    "f1": 0.0,
+    "false_negative_rate": 1.0,
+    "false_positive_rate": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "sample_count": 2,
+    "threshold": 0.4
+  }
+}

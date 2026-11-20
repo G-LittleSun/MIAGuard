@@ -1,0 +1,105 @@
+{
+  "status": "existing_baseline_only_incomplete",
+  "role": "engineering_only",
+  "registry_revision": "2026-11-09-r06",
+  "requests": [
+    {
+      "dataset": "legacy_v2_fast_pilot_20261105_01",
+      "request_id": "fp_bc7bb2ee9068883b7c3cff60",
+      "session_id": "fs_bc7bb2ee9068883b7c3cff60"
+    },
+    {
+      "dataset": "legacy_v2_fast_pilot_20261105_01",
+      "request_id": "fp_44e5fd15f78b2948cbcee643",
+      "session_id": "fs_44e5fd15f78b2948cbcee643"
+    },
+    {
+      "dataset": "legacy_v2_fast_pilot_20261105_01",
+      "request_id": "fp_ba4d8f3cf587764f1be32b37",
+      "session_id": "fs_ba4d8f3cf587764f1be32b37"
+    },
+    {
+      "dataset": "legacy_v2_fast_pilot_20261105_01",
+      "request_id": "fp_06007e8a6f49b0fd036d6140",
+      "session_id": "fs_06007e8a6f49b0fd036d6140"
+    },
+    {
+      "dataset": "legacy_v2_fast_pilot_20261105_01",
+      "request_id": "fp_f4c1d05baaa11fb7010acb79",
+      "session_id": "fs_f4c1d05baaa11fb7010acb79"
+    },
+    {
+      "dataset": "legacy_v2_fast_pilot_20261105_01",
+      "request_id": "fp_79665b9a647235b1342d9d64",
+      "session_id": "fs_79665b9a647235b1342d9d64"
+    },
+    {
+      "dataset": "legacy_v2_fast_pilot_20261105_01",
+      "request_id": "fp_fef61ac367eec06a92aab428",
+      "session_id": "fs_fef61ac367eec06a92aab428"
+    },
+    {
+      "dataset": "legacy_v2_fast_pilot_20261105_01",
+      "request_id": "fp_1b65bf7fca5ceff8a1130f08",
+      "session_id": "fs_1b65bf7fca5ceff8a1130f08"
+    },
+    {
+      "dataset": "legacy_v2_fast_pilot_20261105_01",
+      "request_id": "fp_57e3f2b760551a78e7e2a1be",
+      "session_id": "fs_57e3f2b760551a78e7e2a1be"
+    },
+    {
+      "dataset": "legacy_v2_fast_pilot_20261105_01",
+      "request_id": "fp_2aa0120a432b1cb0ca6cf002",
+      "session_id": "fs_2aa0120a432b1cb0ca6cf002"
+    },
+    {
+      "dataset": "legacy_v2_fast_pilot_20261105_01",
+      "request_id": "fp_274bfdbe2ad6de9792010f7d",
+      "session_id": "fs_274bfdbe2ad6de9792010f7d"
+    },
+    {
+      "dataset": "legacy_v2_fast_pilot_20261105_01",
+      "request_id": "fp_9210f4cb27d71350f879670c",
+      "session_id": "fs_9210f4cb27d71350f879670c"
+    },
+    {
+      "dataset": "legacy_v2_rank_stress_20261109_01",
+      "request_id": "rs_0f4e701105c507e5b1d4a4e2",
+      "session_id": "rss_0f4e701105c507e5b1d4a4e2"
+    },
+    {
+      "dataset": "legacy_v2_rank_stress_20261109_01",
+      "request_id": "rs_eda1a629c2b2240859087dae",
+      "session_id": "rss_eda1a629c2b2240859087dae"
+    },
+    {
+      "dataset": "legacy_v2_rank_stress_20261109_01",
+      "request_id": "rs_dfe75210cf2ed289b7408da9",
+      "session_id": "rss_dfe75210cf2ed289b7408da9"
+    },
+    {
+      "dataset": "legacy_v2_rank_stress_20261109_01",
+      "request_id": "rs_74a0fbf915de026d83e29d3f",
+      "session_id": "rss_74a0fbf915de026d83e29d3f"
+    },
+    {
+      "dataset": "legacy_v2_rank_stress_20261109_01",
+      "request_id": "rs_957da14e1b7964a4ec021ab3",
+      "session_id": "rss_957da14e1b7964a4ec021ab3"
+    },
+    {
+      "dataset": "legacy_v2_rank_stress_20261109_01",
+      "request_id": "rs_0d1adf87758428d74a8ee535",
+      "session_id": "rss_0d1adf87758428d74a8ee535"
+    }
+  ],
+  "count": 18,
+  "missing": [
+    "triggered normal requests",
+    "independent three-turn sessions",
+    "B2 results for rank stress",
+    "candidate filtering method"
+  ],
+  "formal_effect_eligible": false
+}

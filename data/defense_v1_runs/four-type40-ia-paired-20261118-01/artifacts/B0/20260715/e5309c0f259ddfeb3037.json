@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Microsoft encourages families to help older people access web via email and photos through TV. Did the document mention Microsoft's target demographic for web access via TV? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Broadband used by 51 percent of online population For the first time, broadband connections are reaching more than half (51 percent) of the American online population at home, according to measurement taken in July by Nielsen/NetRatings, a Milpitas-based Internet audience measurement and research ...",
+      "TV to the rescue Cell phone executives say new data-oriented services such as TV will help bolster an industry in a precarious state.",
+      "Europe backs digital TV lifestyle A European project aims to change how people receive their digital entertainment in the future.",
+      "Computers 'do not boost learning' Internet access does not make adults more likely to take part in formal education, research suggests."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Broadband used by 51 percent of online population For the first time, broadband connections are reaching more than half (51 percent) of the American online population at home, according to measurement taken in July by Nielsen/NetRatings, a Milpitas-based Internet audience measurement and research ...\"\n\"TV to the rescue Cell phone executives say new data-oriented services such as TV will help bolster an industry in a precarious state.\"\n\"Europe backs digital TV lifestyle A European project aims to change how people receive their digital entertainment in the future.\"\n\"Computers 'do not boost learning' Internet access does not make adults more likely to take part in formal education, research suggests.\"\n\nQuestion:\nI am inquiring about a Microsoft encourages families to help older people access web via email and photos through TV. Did the document mention Microsoft's target demographic for web access via TV? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

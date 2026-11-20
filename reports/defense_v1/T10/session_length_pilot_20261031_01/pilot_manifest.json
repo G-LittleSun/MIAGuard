@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "run_id": "session_length_pilot_20261031_01",
+  "partition": "D-dev",
+  "status": "in_progress_pending_independent_review",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "purpose": "compare same-source session lengths and separate source expansion",
+  "reviewer_kind": "codex_agent",
+  "source_revision_manifest_sha256": "d8805d1a4d07ecb7b3c8a10a18266950436d7795d8cb7191ae7f6a51b5794d31",
+  "source_review_manifest_sha256": "69e87e181648df0d67adcfc30e9f8b518733a1b66fee1440a6e777e84efef2f5",
+  "source_review_validation_sha256": "ddc341ea3b0170a3c4ebc1657ab5cf958805707b71579f19e43590054fbe8ec5",
+  "source_hashes": {
+    "review_packet_d_dev_normal.jsonl": "081408c421016823af93c635a2d4a33c7831270d9fe46ce838a424e2755157c1",
+    "review_packet_d_dev_normal_evidence.jsonl": "2446d46b15106d10c64f3854a51e8c19469871a80c56100e631d1f4c0a4d3cdf",
+    "review_packet_d_dev_attack.jsonl": "21e09046343372c9f2c967cd77926c695a155c3d847b929049ea7e48dd4d39c4"
+  },
+  "inventory_sessions": 14,
+  "inventory_turns": 70,
+  "unique_evidence_documents": 15,
+  "files_sha256": {
+    "session_inventory.jsonl": "4b2c4eddc193204a4de3843f369adb4b48ef42ee73450937c04489efeb10774c",
+    "source_evidence.jsonl": "377370414c2d39e73e8168bbc528b577bc4f2148343389f4886afdf48768a633",
+    "normal_variants.jsonl": "2890f4823f601db1b033199ca8b0447386a3bb91c642d80aa87207de51dc729a",
+    "session_review.jsonl": "ebc8efb9aef4e7b3ba83d54c4313f74ef5db5b70b1a140a5d456a77f1ca69ba8",
+    "expanded_source_evidence.jsonl": "e64fb51929ebb867b65e72c026da4f96c1c5d38321a0f5b36dae9fababc82a99",
+    "expanded_source_selection.jsonl": "9f57d3aecec77ce863fa03140fa9cbe7316a2974b9749e1e950d9e673b89d95f",
+    "expanded_variants.jsonl": "48c51f9399f034637106b44d1787d0a48b29de6b8620e703a3f09470cfbef716",
+    "expanded_review.jsonl": "66b27aa94b20789c6058e3b39a8bcefd407c3174b771374b90efa6dacd099052",
+    "baseline_review.jsonl": "c8c81943e89ca3433eddbb088bdc7693af3e40e262512c591dd8df4e9eb96c1a",
+    "draft_same_source.py": "fa6ad851b6cd5b9f34cefc1e2cd968fe2235037c580964c5836f7ffbb0dc91c2",
+    "draft_expanded.py": "4b8e24eeb5cf6811037105b2fb8269c82e0c6c0aa3070e776aff84d6386e7e3b",
+    "review_baseline.py": "399b5877f4305ab4bda403f40717a0765e8918073354ae99a37bc82cbeb8184f",
+    "verify_and_summarize.py": "8bb581bc512c1def0136eddbf3a7c4fb10bd0e1d5abf93ccf5bb353f134148bd",
+    "selection_report.json": "bd38e19b8c416f518453b2bea933e1ef5fb3bb63449b5c2ba0445556e83cec80",
+    "DECISION_ZH.md": "69a81842e691e513cf7b1eea195614af12e86e7048abf3d430bfbd6e90ee2ed5",
+    "REVIEW_GUIDE_ZH.md": "3fbcaf70ccb33ee0957af1040644b6a918f2ef4717f5c068ca1d15cf41864cd9",
+    "validation.json": "33532569f971b999408121cca42fa69be97b075fb65ef17d96fb7bb39b1ee44f"
+  },
+  "limitations": [
+    "Candidate facts are agent interpretations, not human-reviewed gold.",
+    "No candidate length or final sample size selected.",
+    "No defense experiment or V/T result used."
+  ],
+  "d_dev_index_documents_sha256": "bfa05b9414ad3ca26b3fff9cbfa759790fd88fe97404ac9335950dffe2dbfaae",
+  "expanded_sessions": 14,
+  "expanded_unique_source_documents": 16,
+  "candidate_session_variants": 54,
+  "excluded_session_variants": 2,
+  "draft_request_count": 134,
+  "source_connected_session_groups": 27
+}

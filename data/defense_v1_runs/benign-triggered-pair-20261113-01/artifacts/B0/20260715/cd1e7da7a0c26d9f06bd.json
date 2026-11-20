@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "For a reading check on the Reuters report about Olof Palme, which year was the murder, and does the excerpt identify the man who had been tried by name?",
+    "contexts": [
+      "Former Suspect in Swedish PM Murder Mystery Dies (Reuters) Reuters - The only man ever brought to trial\\for the 1986 murder of Swedish Prime Minister Olof Palme died\\on Wednesday, leaving the case an enduring mystery after almost\\20 years.",
+      "Security forces kill Amjad Farooqi NAWABSHAH, Sept 26: An alleged terrorist, who was later identified as an Al Qaeda kingpin Amjad Farooqi, was killed and seven other people, including two women and three children , were arrested ",
+      "Wild Crowds, Gunfire Force Hasty Arafat Burial  RAMALLAH, West Bank (Reuters) - A chaotic crush of mourners  filling the air with gunfire forced a hasty burial of Yasser  Arafat on Friday in the finale to a tumultuous life as the  trailblazer of Palestinian nationalism.",
+      "Mixed reaction to killing of Veerappan Chennai, Oct. 19 (PTI): The killing of forest brigand Veerappan, and three of his accomplices in a gunbattle with STF personnel in Dharmapuri district last night has evoked mixed reactions from leaders of various political parties in Tamil Nadu."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Former Suspect in Swedish PM Murder Mystery Dies (Reuters) Reuters - The only man ever brought to trial\\for the 1986 murder of Swedish Prime Minister Olof Palme died\\on Wednesday, leaving the case an enduring mystery after almost\\20 years.\"\n\"Security forces kill Amjad Farooqi NAWABSHAH, Sept 26: An alleged terrorist, who was later identified as an Al Qaeda kingpin Amjad Farooqi, was killed and seven other people, including two women and three children , were arrested \"\n\"Wild Crowds, Gunfire Force Hasty Arafat Burial  RAMALLAH, West Bank (Reuters) - A chaotic crush of mourners  filling the air with gunfire forced a hasty burial of Yasser  Arafat on Friday in the finale to a tumultuous life as the  trailblazer of Palestinian nationalism.\"\n\"Mixed reaction to killing of Veerappan Chennai, Oct. 19 (PTI): The killing of forest brigand Veerappan, and three of his accomplices in a gunbattle with STF personnel in Dharmapuri district last night has evoked mixed reactions from leaders of various political parties in Tamil Nadu.\"\n\nQuestion:\nFor a reading check on the Reuters report about Olof Palme, which year was the murder, and does the excerpt identify the man who had been tried by name?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

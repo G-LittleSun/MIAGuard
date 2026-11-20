@@ -1,0 +1,16 @@
+{
+  "sha256": {
+    "data/judge_score_frozen_v3_binary_logprob_20260920/logistic_l2.json": "b24b81b88a4ce9579e81eb51cb4e0cc940972dc22499fce77ef80c60f587d188",
+    "data/judge_score_frozen_v3_rubric_20261015/logistic_l2.json": "2e2dfa04b7b854ce29dc43195c81dab026bcab11f207096cc7e3f7b32eef3b0e",
+    "data/progressive_judge_v3_binary_logprob_train_qwen2_5_7b_bf16_20260916_retry1/train/run_manifest.json": "fac8dd970d659a0caf89bb5d9e02172d594e16e760d64a07f49c996806778f3c",
+    "data/query_bank_splits/ag_news_threshold_v1.json": "c7f42950276f787bbc38862fad219b7c2436c8e562a9447c52388b0b809d8a93",
+    "src/miaguard/progressive_judge.py": "1264d6709f5363a6c2ec885c7aa361154dfebe86c81671b1e7a36b6af19311db",
+    "src/miaguard/judge_score_frozen.py": "509a35fd136253f04b022e93480bbc7aacbd7ab71d750eae8603efb981d1b039",
+    "src/miaguard/risk_types.py": "6ae941448c2a29613ff962772bd7d3983bb39f35c5e5bcbbc91c3d17ac27e53c",
+    "src/miaguard/two_stage_gateway.py": "823bf0802b07a1eda1134433b20acaf29dfb484ca7ff802ed8ce559723bb4839",
+    "src/miaguard/defense.py": "57995a960f11bde1c1b93b4530d06c62ce77acdff4e9965d92484aa07581b12f",
+    "src/miaguard/session_store.py": "afd8ac3c3f978694c615ce959a08d5c99b3b04607de63a5766d1f4b0bf94c3d0",
+    "src/miaguard/vector_store.py": "83791b6e1abb1e20dedef7b37fcefb41b6fb8f90762147f44c900042dfd9972f",
+    "src/miaguard/defense_experiment.py": "eb17792be72d71c3c7eec62874f81a4dc7b0bc770cc2c2de1a61763bb3bb9139"
+  }
+}

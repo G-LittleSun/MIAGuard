@@ -1,0 +1,28 @@
+{
+  "status": "pending_human_review",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "partition": "D-dev",
+  "request_count": 86,
+  "normal_count": 70,
+  "attack_count": 16,
+  "inputs_sha256": {
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\defense_access_v1_pilot_overlay_rev2_20261030\\manifest.json": "fdd4ac7c685d7112e2828395c93512768806721fb8c1dba0fe99ebaeba85012c",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\defense_access_v1_candidate06\\documents.jsonl": "6b97aa1e7c31973011c6062d86d37e8d5d9c03a93b58fe75d8e2b4bae839a9d0",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\pilot_revision_20261030_01\\review_packet_d_dev_normal_evidence.jsonl": "2446d46b15106d10c64f3854a51e8c19469871a80c56100e631d1f4c0a4d3cdf",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\defense_access_v1_pilot_overlay_rev2_20261030\\normal_requests.jsonl": "9b7022dde8fea8fb7bf86f37b104ebd88853a7419275d4e12ab58c9ad2d4ab99",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\defense_access_v1_pilot_overlay_rev2_20261030\\normal_tasks.jsonl": "5e3588c7d360084bf4cf010e9930b52423440a19883580416ed23990701d15bd",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\defense_access_v1_pilot_overlay_rev2_20261030\\attack_requests.jsonl": "500e2239e24ddfc9d7e98c8a39215e51e728ec3045114c5a581d294657084431",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\defense_access_v1_pilot_overlay_rev2_20261030\\attack_labels.jsonl": "a0f164f945edbd4193fa7bb61a17a39c929396a36f04310443c9fd252fd05745",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\build_t10e_ddev_human_review_20261117.py": "018f1c9f766565c723056061aa96f4231dc35e7eb566944f082ff7172eeb12f7"
+  },
+  "outputs_sha256": {
+    "review_packet.jsonl": "c3cede2e04fc53940de5000d743fd518e7def3f8fa4115370b100003cf7a7874",
+    "HUMAN_REVIEW_GUIDE_ZH.md": "0498d2422d179df7795da929de21fbf5828f4eb1ea3e22d47335c6531d232ecd"
+  },
+  "limits": [
+    "D-dev pilot, not the A-cal/V/T formal cohort.",
+    "Human gold and cohort gates incomplete.",
+    "Reviewers are not shown membership labels."
+  ]
+}

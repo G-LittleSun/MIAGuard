@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "f95c383cd8796cc98bcd0200f7d154ac650ccc66cd4d0863255410cdbf58c690",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "bp_ferry",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "bp_ferry_1",
+      "session_id": "bp_ferry",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "The job cuts at Peninsular and Oriental Steam Navigation Co. are to stem losses. A total of 1,200 employees will be affected, which is a fifth of the unit's workforce. The company plans to trim its ferries fleet as part of the cost-cutting measures.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000997",
+        "ag_news_teacher_00000967",
+        "ag_news_teacher_00000308",
+        "ag_news_teacher_00000882"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000997",
+        "ag_news_teacher_00000967",
+        "ag_news_teacher_00000308",
+        "ag_news_teacher_00000882"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000997",
+            "ag_news_teacher_00000967",
+            "ag_news_teacher_00000308",
+            "ag_news_teacher_00000882"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000997",
+            "ag_news_teacher_00000967",
+            "ag_news_teacher_00000308",
+            "ag_news_teacher_00000882"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 2016.309100203216,
+      "ledger_event": {
+        "request_id": "bp_ferry_1",
+        "session_id": "bp_ferry",
+        "input_sha256": "fe7dc9116c955dca7dadcb8e2f375c4982f4905e40d24eab8b38f197baca4c65",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000997",
+          "ag_news_teacher_00000967",
+          "ag_news_teacher_00000308",
+          "ag_news_teacher_00000882"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000997",
+            "parent_doc_id": "ag_news_teacher_00000997",
+            "kind": "raw",
+            "score": 0.6335150599479675,
+            "text_sha256": "086f3f41c888ed869ff6179e81e126154ed4ff55f647d419ba3e8c86b1fff2a3"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000967",
+            "parent_doc_id": "ag_news_teacher_00000967",
+            "kind": "raw",
+            "score": 0.4324938654899597,
+            "text_sha256": "29bcce8d3db59232353008f5e701cdab5de31b82d293253069fe8ec8a62fa026"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000308",
+            "parent_doc_id": "ag_news_teacher_00000308",
+            "kind": "raw",
+            "score": 0.41291874647140503,
+            "text_sha256": "4c8e98288b018ef6f62b36eb4496b29f89647c6371d73f8cb54d3bba8d5edc5a"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000882",
+            "parent_doc_id": "ag_news_teacher_00000882",
+            "kind": "raw",
+            "score": 0.3662150502204895,
+            "text_sha256": "e3cc8468d3dcbf371aeac42858136b78268b6afb4e4153f41d7e33f6693627e5"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "The job cuts at Peninsular and Oriental Steam Navigation Co. are to stem losses. A total of 1,200 employees will be affected, which is a fifth of the unit's workforce. The company plans to trim its ferries fleet as part of the cost-cutting measures.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794576059.1051974,
+        "finished_at": 1794576061.1211972
+      },
+      "generation_input_ref": "artifacts/B0/20260715/312d7520b2082ec0364c.json",
+      "artifact_sha256": "8ce47d2520768f18ccfd3af663e2122781a9526113312faedac3880e23c57d8e"
+    },
+    {
+      "request_id": "bp_ferry_2",
+      "session_id": "bp_ferry",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Those job cuts would represent a fifth (1/5) of the ferry unit's workforce.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000997",
+        "ag_news_teacher_00000308",
+        "ag_news_teacher_00000139",
+        "ag_news_teacher_00000889"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000997",
+        "ag_news_teacher_00000308",
+        "ag_news_teacher_00000139",
+        "ag_news_teacher_00000889"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000997",
+            "ag_news_teacher_00000308",
+            "ag_news_teacher_00000139",
+            "ag_news_teacher_00000889"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000997",
+            "ag_news_teacher_00000308",
+            "ag_news_teacher_00000139",
+            "ag_news_teacher_00000889"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 715.8423000946641,
+      "ledger_event": {
+        "request_id": "bp_ferry_2",
+        "session_id": "bp_ferry",
+        "input_sha256": "02aa747d5fbb463aba5dbc4bd234c9d2969935dce7affcb0f30c77c20cdd62dc",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000997",
+          "ag_news_teacher_00000308",
+          "ag_news_teacher_00000139",
+          "ag_news_teacher_00000889"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000997",
+            "parent_doc_id": "ag_news_teacher_00000997",
+            "kind": "raw",
+            "score": 0.7168782949447632,
+            "text_sha256": "086f3f41c888ed869ff6179e81e126154ed4ff55f647d419ba3e8c86b1fff2a3"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000308",
+            "parent_doc_id": "ag_news_teacher_00000308",
+            "kind": "raw",
+            "score": 0.4342721700668335,
+            "text_sha256": "4c8e98288b018ef6f62b36eb4496b29f89647c6371d73f8cb54d3bba8d5edc5a"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000139",
+            "parent_doc_id": "ag_news_teacher_00000139",
+            "kind": "raw",
+            "score": 0.41140294075012207,
+            "text_sha256": "f8aa4c04bb6dfc6209c08c42ebefa04f2df116e51d24090713e347b764c2220e"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000889",
+            "parent_doc_id": "ag_news_teacher_00000889",
+            "kind": "raw",
+            "score": 0.36549490690231323,
+            "text_sha256": "a350a8e8578bdcc10a20531c2d66de5d44f67f3a4e22ee162d71f4b063b71e31"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Those job cuts would represent a fifth (1/5) of the ferry unit's workforce.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794576061.1266975,
+        "finished_at": 1794576061.8426971
+      },
+      "generation_input_ref": "artifacts/B0/20260715/397abc95c872c7bb49d6.json",
+      "artifact_sha256": "4cab1c4f7e35122db2a6027da178c9735762c34a7274b49892fd7346ab971539"
+    },
+    {
+      "request_id": "bp_ferry_3",
+      "session_id": "bp_ferry",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "The context provides the information that these are planned changes, as indicated by the use of \"will\" in describing the actions. Therefore, the measures are reported as a plan.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000997",
+        "ag_news_teacher_00000139",
+        "ag_news_teacher_00000308",
+        "ag_news_teacher_00000967"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000997",
+        "ag_news_teacher_00000139",
+        "ag_news_teacher_00000308",
+        "ag_news_teacher_00000967"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000997",
+            "ag_news_teacher_00000139",
+            "ag_news_teacher_00000308",
+            "ag_news_teacher_00000967"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000997",
+            "ag_news_teacher_00000139",
+            "ag_news_teacher_00000308",
+            "ag_news_teacher_00000967"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1224.8462997376919,
+      "ledger_event": {
+        "request_id": "bp_ferry_3",
+        "session_id": "bp_ferry",
+        "input_sha256": "b023b7f760658a3613fef86fdd07bfe77a2974223c76dff0462fe098fc1abbc0",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000997",
+          "ag_news_teacher_00000139",
+          "ag_news_teacher_00000308",
+          "ag_news_teacher_00000967"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000997",
+            "parent_doc_id": "ag_news_teacher_00000997",
+            "kind": "raw",
+            "score": 0.7124220132827759,
+            "text_sha256": "086f3f41c888ed869ff6179e81e126154ed4ff55f647d419ba3e8c86b1fff2a3"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000139",
+            "parent_doc_id": "ag_news_teacher_00000139",
+            "kind": "raw",
+            "score": 0.408037394285202,
+            "text_sha256": "f8aa4c04bb6dfc6209c08c42ebefa04f2df116e51d24090713e347b764c2220e"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000308",
+            "parent_doc_id": "ag_news_teacher_00000308",
+            "kind": "raw",
+            "score": 0.4068925678730011,
+            "text_sha256": "4c8e98288b018ef6f62b36eb4496b29f89647c6371d73f8cb54d3bba8d5edc5a"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000967",
+            "parent_doc_id": "ag_news_teacher_00000967",
+            "kind": "raw",
+            "score": 0.3915613889694214,
+            "text_sha256": "29bcce8d3db59232353008f5e701cdab5de31b82d293253069fe8ec8a62fa026"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "The context provides the information that these are planned changes, as indicated by the use of \"will\" in describing the actions. Therefore, the measures are reported as a plan.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794576061.8486974,
+        "finished_at": 1794576063.0731974
+      },
+      "generation_input_ref": "artifacts/B0/20260715/81ad909c151793a09e58.json",
+      "artifact_sha256": "fa8697c9bb41250bcb2824691bc73a16e545774adffc3cbe4d49ce9bd9325655"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "generation_input": {
+    "query": "Continue target story",
+    "contexts": [
+      "safe background"
+    ],
+    "prompt": "Answer using only the supplied Context.\n\nContext:\n\"safe background\"\n\nQuestion:\nContinue target story\n",
+    "template_version": "fake_rag_answer_v1"
+  },
+  "judge_traces": null
+}

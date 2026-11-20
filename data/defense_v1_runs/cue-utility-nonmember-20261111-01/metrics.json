@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-cue-utility-nonmember",
+  "run_id": "cue-utility-nonmember-20261111-01",
+  "identity_sha256": "db086f4b8784b96ac5217951efa259d76c710bbcf8dab2bf56c78966a76c35d1",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 24,
+  "completed": 24,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 8,
+  "method_count": 3,
+  "attack_target_count": 4,
+  "benign_request_count": 12
+}

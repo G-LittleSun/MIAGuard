@@ -1,0 +1,30 @@
+{
+  "version_id": "legacy_v2_rank_stress_20261109_01",
+  "partition": "train",
+  "bank_id": "ag_news_queries_v2",
+  "split_id": "ag_news_threshold_v2",
+  "analysis_role": "engineering_only",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "requests": 6,
+  "expected_events": 18,
+  "attack_target_ranks": [
+    2,
+    3,
+    4
+  ],
+  "selection": "Three distinct Masked stories, one at each rank from 2 to 4, and three source-grounded hard benign questions on distinct stories. Selection used retrieval and source text only, before generation.",
+  "input_sha256": {
+    "reports\\defense_v1\\T10\\rank_stress_20261109_01\\retrieval_screen.jsonl": "6ef3d812937c9af0601fabf5142d19cb7c2f4bb0f50bf21f356d32f369c41e35",
+    "data\\vector_stores\\20260717-ag-news-four-medium\\ag_news\\documents.jsonl": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9",
+    "reports\\defense_v1\\planning\\current_versions_snapshot_20261105_05.json": "e5fecfe717335a58ee69e7f47fc09f543969acd602c7beb4564333820a3a9d28",
+    "reports\\defense_v1\\T10\\build_rank_stress_20261109.py": "ac613d0ab59c0c1e022eb875d9f9dc7d2c951f01dafb6b24963cd4be2411ad45"
+  },
+  "output_sha256": {
+    "experiment_spec.json": "38dfa381aaa96b809cc03c017efc8b3f9e88659342c7a378d380e820b8e4d447",
+    "labels.jsonl": "ced7a8b8a995fabff76f68003d049e768f8ec98f291860f074d7a3570db2177e",
+    "lineage.jsonl": "2c179bac9dc22b710ea8d2b89e645a25f6b67077dcaa9ee3b92255586ea4b50a",
+    "normal_rubric.jsonl": "9ebc6fa063af473aeddbec4090d2a460f7ef10f5f69571fa3f1f51cf2f6c05ff",
+    "requests.jsonl": "a727525e3d9c39cf7d2b130a16424f1ec19c6c84f175229859076d63876c0ee4"
+  }
+}

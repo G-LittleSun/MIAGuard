@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "errors": [],
+  "requests": 362,
+  "attack_counts": {
+    "ia": 62,
+    "masked_mia": 300
+  },
+  "held_ia": 144,
+  "ia_ground_truth_counts": {
+    "yes": 61,
+    "no": 1
+  },
+  "input_hashes_checked": 13,
+  "output_hashes_checked": 6,
+  "limits": [
+    "Structural lineage/source/answer synchronization checks only; not semantic human gold, runtime adapter acceptance or defense effectiveness."
+  ]
+}

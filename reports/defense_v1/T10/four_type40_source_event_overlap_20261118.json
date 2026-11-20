@@ -1,0 +1,48 @@
+{
+  "scoped_to_frozen_development_cohorts": true,
+  "documents_by_type": {
+    "direct_rag_mia": 40,
+    "s2_mia": 40,
+    "masked_mia": 40,
+    "ia": 40
+  },
+  "pairwise_document_overlap": {
+    "direct_rag_mia__s2_mia": 40,
+    "direct_rag_mia__masked_mia": 40,
+    "direct_rag_mia__ia": 27,
+    "s2_mia__masked_mia": 40,
+    "s2_mia__ia": 27,
+    "masked_mia__ia": 27
+  },
+  "unique_source_documents": 53,
+  "distinct_reporting_topics_in_agent_review": 53,
+  "verified_independent_event_count": null,
+  "candidate_topic_overlap_groups": [
+    [
+      "ag_news_teacher_00000149",
+      "ag_news_teacher_00008692"
+    ],
+    [
+      "ag_news_teacher_00008636",
+      "ag_news_teacher_00008787",
+      "ag_news_teacher_00008836"
+    ]
+  ],
+  "notes": [
+    "Agent compared the titles, leads and ambiguous source passages. The potentially overlapping groups share a broad subject, not the same specific reported fact or event in their excerpts.",
+    "Some samples are commentary or product discussions. A reporting-topic count is not a verified distinct real-world event count.",
+    "Both the title/lead review and the lexical check cover the selected short excerpts, without an independent event gold annotation."
+  ],
+  "exact_normalized_source_duplicates": 0,
+  "source_trigram_pairs": 1378,
+  "max_source_trigram_jaccard": [
+    0.01639344262295082,
+    "ag_news_teacher_00008321",
+    "ag_news_teacher_00008792"
+  ],
+  "input_sha256": {
+    "data/defense_datasets/four_type40_single_v2_train_20261118_01/labels.jsonl": "af4f29103e3f3f9e034c4ecb1de8358da9071a0697579a61d3ff5f64fa6bf4fe",
+    "data/defense_datasets/four_type40_ia_v2_train_20261118_01/labels.jsonl": "c0959576756d7c345acbc68deecb6bcf6b6d480526555c1d693c13e8922f99ee",
+    "reports/defense_v1/T10/four_type40_ia_review_packet_20261118.jsonl": "d62dacbc31f61c6e9ab656695b9f5881e8ec306701f969c1e397eea5fdb57fc4"
+  }
+}

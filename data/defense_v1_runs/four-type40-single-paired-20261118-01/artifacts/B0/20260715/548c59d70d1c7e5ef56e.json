@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"iMac G5: The all-in-one computer redefined OCTOBER 05, 2004 (COMPUTERWORLD) - Editor #39;s note: Last month, Online News Editor Ken Mingis snagged one of the first iMac G5s and offered an early look at Apple #39;s latest desktop (see story).\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "Apple #39;s New iMac Computer Is All Display Apple Computer unveiled, after a two-month delay, its new iMac desktop computer on Tuesday which integrates disk drives and processors into a flat display less than two inches thick.",
+      "Mac OS X Tip of the Week: Tell-Tale Icons Learn how to tell whether you #146;ve turned on Snap to Grid or Keep Arranged by Name for a particular window. It #146;s the latest Mac OS X killer tip at the Apple Pro/ site. Nov 10",
+      "Intel nuances Itanium; Microsoft ignores it It #39;s no longer Sun Microsystems and IBM working to undermine the Itanium processor. Both the chip #39;s maker - Intel - and close software partner Microsoft are doing the dirty work now.",
+      "IBM Community to address social issues New York: The US-based software major IBM, along with representatives of the world #39;s leading science, education and philanthropic outfits, has launched a global effort aimed at harnessing the vast computing power of individuals and business computers and "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Apple #39;s New iMac Computer Is All Display Apple Computer unveiled, after a two-month delay, its new iMac desktop computer on Tuesday which integrates disk drives and processors into a flat display less than two inches thick.\"\n\"Mac OS X Tip of the Week: Tell-Tale Icons Learn how to tell whether you #146;ve turned on Snap to Grid or Keep Arranged by Name for a particular window. It #146;s the latest Mac OS X killer tip at the Apple Pro/ site. Nov 10\"\n\"Intel nuances Itanium; Microsoft ignores it It #39;s no longer Sun Microsystems and IBM working to undermine the Itanium processor. Both the chip #39;s maker - Intel - and close software partner Microsoft are doing the dirty work now.\"\n\"IBM Community to address social issues New York: The US-based software major IBM, along with representatives of the world #39;s leading science, education and philanthropic outfits, has launched a global effort aimed at harnessing the vast computing power of individuals and business computers and \"\n\nQuestion:\nDoes this: \"iMac G5: The all-in-one computer redefined OCTOBER 05, 2004 (COMPUTERWORLD) - Editor #39;s note: Last month, Online News Editor Ken Mingis snagged one of the first iMac G5s and offered an early look at Apple #39;s latest desktop (see story).\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

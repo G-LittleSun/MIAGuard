@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "According to the report, what was the Australian dollar worth in Japanese yen?",
+    "contexts": [
+      "Aussie dollar reaches nine-month high On the cross rates it was at 60.1 euro cents, 81.29 Japanese yen, 42.17 pence sterling, and 1.105 New Zealand dollars. On Wall Street stocks have jumped on news of a merger between retailers Kmart and Sears ",
+      "Dollar #39;s fall worries Japanese officials Masatsugu Asakawa has one of the busiest jobs in Tokyo these days: monitoring the US dollar #39;s fluctuation against the Japanese yen.",
+      "Dollar Ignores Data, Creeps Lower vs. Yen  NEW YORK (Reuters) - The dollar dropped against the yen on  Friday, as the market ignored a mostly positive report on  October U.S. retail sales and remained focused on the record  U.S. current account deficit.",
+      "Dollar Hovers Near 1-Month Low Vs Yen  TOKYO (Reuters) - The dollar hovered near a one-month low  against the yen on Tuesday after disappointing U.S. hiring  figures last week fueled speculation the Federal Reserve could  press \"pause\" on its current tightening cycle."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Aussie dollar reaches nine-month high On the cross rates it was at 60.1 euro cents, 81.29 Japanese yen, 42.17 pence sterling, and 1.105 New Zealand dollars. On Wall Street stocks have jumped on news of a merger between retailers Kmart and Sears \"\n\"Dollar #39;s fall worries Japanese officials Masatsugu Asakawa has one of the busiest jobs in Tokyo these days: monitoring the US dollar #39;s fluctuation against the Japanese yen.\"\n\"Dollar Ignores Data, Creeps Lower vs. Yen  NEW YORK (Reuters) - The dollar dropped against the yen on  Friday, as the market ignored a mostly positive report on  October U.S. retail sales and remained focused on the record  U.S. current account deficit.\"\n\"Dollar Hovers Near 1-Month Low Vs Yen  TOKYO (Reuters) - The dollar hovered near a one-month low  against the yen on Tuesday after disappointing U.S. hiring  figures last week fueled speculation the Federal Reserve could  press \"pause\" on its current tightening cycle.\"\n\nQuestion:\nAccording to the report, what was the Australian dollar worth in Japanese yen?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

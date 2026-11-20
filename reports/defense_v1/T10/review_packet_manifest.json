@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "source_dataset_manifest_sha256": "359ed9f4b375a8a1f5a644f1c6815150f09f6ffdce86c3bc4e3fec3271498f27",
+  "partition": "D-dev",
+  "purpose": "pilot_query_and_gold_review_only",
+  "sampling": "two lexicographically first opaque session IDs per normal family; two first target IDs per underlying class per attack, class hidden in packet",
+  "normal_rows": 70,
+  "attack_rows": 16,
+  "review_status": "pending",
+  "formal_effect_eligible": false,
+  "files_sha256": {
+    "review_packet_d_dev_normal.jsonl": "72a10e8ad4ed2467c44edcffe91ac5abbfe033254c96c815c95fc77ebda87e36",
+    "review_packet_d_dev_attack.jsonl": "9815c9ce0f5b4e225a147460409621fa25e0592c8aee4494c344bfef9056f7e5"
+  }
+}

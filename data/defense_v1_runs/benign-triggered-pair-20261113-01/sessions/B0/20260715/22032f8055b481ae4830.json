@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "f95c383cd8796cc98bcd0200f7d154ac650ccc66cd4d0863255410cdbf58c690",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "bp_ace",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "bp_ace_1",
+      "session_id": "bp_ace",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Ace Ltd., a Bermuda insurer that is a subject of the New York attorney general's investigation into the insurance industry, dismissed two executives.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000532",
+        "ag_news_teacher_00000774",
+        "ag_news_teacher_00000511",
+        "ag_news_teacher_00000288"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000532",
+        "ag_news_teacher_00000774",
+        "ag_news_teacher_00000511",
+        "ag_news_teacher_00000288"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000532",
+            "ag_news_teacher_00000774",
+            "ag_news_teacher_00000511",
+            "ag_news_teacher_00000288"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000532",
+            "ag_news_teacher_00000774",
+            "ag_news_teacher_00000511",
+            "ag_news_teacher_00000288"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 951.9433993846178,
+      "ledger_event": {
+        "request_id": "bp_ace_1",
+        "session_id": "bp_ace",
+        "input_sha256": "c9099d2a314e490c6da3ab293761551b01df8e4d6ce8e746f1ad4bb18f2134ab",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000532",
+          "ag_news_teacher_00000774",
+          "ag_news_teacher_00000511",
+          "ag_news_teacher_00000288"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000532",
+            "parent_doc_id": "ag_news_teacher_00000532",
+            "kind": "raw",
+            "score": 0.6103366017341614,
+            "text_sha256": "b171aecdf2b6f54392f424787dfd776b64154989d308723b6eef060941cdf024"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000774",
+            "parent_doc_id": "ag_news_teacher_00000774",
+            "kind": "raw",
+            "score": 0.37766093015670776,
+            "text_sha256": "2e4c7001ab089d77ecd79ef866b4064439aef1629104fa11669a0369acd62e73"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000511",
+            "parent_doc_id": "ag_news_teacher_00000511",
+            "kind": "raw",
+            "score": 0.3661840558052063,
+            "text_sha256": "7382fd483d2ec09bd736a18311e7d626907aef55f9604ff35205f028a80a10a5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000288",
+            "parent_doc_id": "ag_news_teacher_00000288",
+            "kind": "raw",
+            "score": 0.33243313431739807,
+            "text_sha256": "404e7d4e5b6dc9cf3db967ea1a57558281625a6aa8ab85d1d2ded2424d476eb7"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Ace Ltd., a Bermuda insurer that is a subject of the New York attorney general's investigation into the insurance industry, dismissed two executives.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794576063.9796977,
+        "finished_at": 1794576064.9316976
+      },
+      "generation_input_ref": "artifacts/B0/20260715/765542d33cb7d554bb62.json",
+      "artifact_sha256": "331e1639fed35cd43d140672fe4cb52be7660ae752eea46c9bacc4defb28a783"
+    }
+  ]
+}

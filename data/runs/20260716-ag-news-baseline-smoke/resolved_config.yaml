@@ -1,0 +1,16 @@
+profile: smoke
+dataset_selection:
+  mode: single
+  include:
+  - ag_news
+attacks:
+- direct_rag_mia
+- s2_mia
+target_counts:
+  direct_rag_mia:
+    members: 10
+    nonmembers: 10
+  s2_mia:
+    members: 10
+    nonmembers: 10
+runs_dir: data/runs

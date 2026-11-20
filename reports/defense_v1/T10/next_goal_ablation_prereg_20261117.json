@@ -1,0 +1,16 @@
+{
+  "status": "fixed_during_baseline_before_candidate_outputs",
+  "dataset_manifest_sha256": "5aa8bc8c2a47d5cf39da30867d7c367e68217ae4958a1d737590e04df7e91b0b",
+  "scope": "Decision-level ablation on first turns only, using the same observed V2 online risk and current query. Cues-only activates quoted_context_check/masked_recovery, IA-only activates report/article plus specified Yes/No/Unknown format, full activates both.",
+  "base": "V2 action when valid risk is low; failures and high-risk decisions preserve V2 behavior.",
+  "metrics": [
+    "first-turn intervention count by traffic and predicted cue",
+    "paired decision differences vs V2",
+    "normal interventions and low-risk attack triggers"
+  ],
+  "limits": [
+    "No new model responses or complete multi-turn policy simulations are created.",
+    "Second and later turns are excluded because changed prior delivery can alter session risk and history.",
+    "This isolates decision rules, not independent causal estimates of end-to-end attack success."
+  ]
+}

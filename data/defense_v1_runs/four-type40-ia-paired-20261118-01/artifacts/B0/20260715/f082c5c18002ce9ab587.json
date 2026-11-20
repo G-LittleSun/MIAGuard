@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a South American World Cup qualifying group results. Did Ecuador defeat Brazil? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "In Uruguay, leftists hope for historic presidential election win MONTEVIDEO : Uruguay #39;s leftist parties for the first time are heavily favored to end a 179-year conservative lock on the presidency in Sunday #39;s elections in this South American nation plagued by growing poverty.",
+      "Mauresmo wins first match as world No. 1 Amelie Mauresmo overcame a slow start Thursday to win her first match as the world #39;s top ranked player, beating Patty Schnyder of Switzerland 7-5, 6-4 at the Porsche Grand Prix.",
+      "Sox have eyes on the big prize With their eyes set squarely on the prize, there was no indication from the Red Sox yesterday that they were leading the 100th World Series, 2-0, needing only ",
+      "Ireland Beats Croatia in Soccer Friendly; Australia Ties Norway Robbie Keane scored his 24th international goal as the Republic of Ireland beat Croatia 1-0 in an exhibition soccer match. Australia and Norway drew 2-2."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"In Uruguay, leftists hope for historic presidential election win MONTEVIDEO : Uruguay #39;s leftist parties for the first time are heavily favored to end a 179-year conservative lock on the presidency in Sunday #39;s elections in this South American nation plagued by growing poverty.\"\n\"Mauresmo wins first match as world No. 1 Amelie Mauresmo overcame a slow start Thursday to win her first match as the world #39;s top ranked player, beating Patty Schnyder of Switzerland 7-5, 6-4 at the Porsche Grand Prix.\"\n\"Sox have eyes on the big prize With their eyes set squarely on the prize, there was no indication from the Red Sox yesterday that they were leading the 100th World Series, 2-0, needing only \"\n\"Ireland Beats Croatia in Soccer Friendly; Australia Ties Norway Robbie Keane scored his 24th international goal as the Republic of Ireland beat Croatia 1-0 in an exhibition soccer match. Australia and Norway drew 2-2.\"\n\nQuestion:\nI am inquiring about a South American World Cup qualifying group results. Did Ecuador defeat Brazil? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

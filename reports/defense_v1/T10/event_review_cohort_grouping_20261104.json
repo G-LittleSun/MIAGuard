@@ -1,0 +1,187 @@
+{
+  "status": "exploratory_not_final",
+  "cohort_count": 30,
+  "base_group_count": 27,
+  "core_group_count": 27,
+  "sensitivity_group_count": 26,
+  "core_groups": [
+    [
+      "ds_02b3d5149aa3aa8141d8f555"
+    ],
+    [
+      "ds_06829e05b502e0648fb3009b"
+    ],
+    [
+      "ds_06d7df0716300797dc1086cb"
+    ],
+    [
+      "ds_07b7bc1ad5388f63ce28b5c1"
+    ],
+    [
+      "ds_0a7e3bdff07b952a25507156"
+    ],
+    [
+      "ds_0f3664e60e2e2525646aa47d",
+      "ds_20bef2f0ed7e8b2f64aa6566"
+    ],
+    [
+      "ds_13288759f00913cffe7922f8"
+    ],
+    [
+      "ds_1554d74e1c08cdcfd85cb060",
+      "ds_3dc3e014b8c16ced527dcb05",
+      "ds_62b3817ec2ac7b3603b95e40"
+    ],
+    [
+      "ds_3876fae596b908becf1ad723"
+    ],
+    [
+      "ds_38f26c88b67705df22bffae1"
+    ],
+    [
+      "ds_3ba717d5e039bb725c1c15fc"
+    ],
+    [
+      "ds_46c4af0cf6e274c0c33a32b9"
+    ],
+    [
+      "ds_5698e93ac7b40b942bc5edbb"
+    ],
+    [
+      "ds_5ba0c5e0dd6ef1d273fe9ef7"
+    ],
+    [
+      "ds_5bf9bf7b6956988a7dfd37fe"
+    ],
+    [
+      "ds_676950d482b143fe19371b63"
+    ],
+    [
+      "ds_6d9b87189d85d64ed96d88cf"
+    ],
+    [
+      "ds_7e3d35d4f9179370afb5cadc"
+    ],
+    [
+      "ds_97837fa8dcc554a86e4a96db"
+    ],
+    [
+      "ds_a6809a6a022fab2c12d49057"
+    ],
+    [
+      "ds_ab003acd7d6bad2abedde0ed"
+    ],
+    [
+      "ds_b38331f885f66f800c7c3843"
+    ],
+    [
+      "ds_c120b0a8185dd223ec0f3226"
+    ],
+    [
+      "ds_c2c9661a99efa01acbc3264a"
+    ],
+    [
+      "ds_dccf06695bb5e61daeb2cff7"
+    ],
+    [
+      "ds_df8dfcb82795f7c95ea120a8"
+    ],
+    [
+      "ds_e77c11fb3208724f562c8d58"
+    ]
+  ],
+  "sensitivity_groups": [
+    [
+      "ds_02b3d5149aa3aa8141d8f555"
+    ],
+    [
+      "ds_06829e05b502e0648fb3009b"
+    ],
+    [
+      "ds_06d7df0716300797dc1086cb"
+    ],
+    [
+      "ds_07b7bc1ad5388f63ce28b5c1"
+    ],
+    [
+      "ds_0a7e3bdff07b952a25507156"
+    ],
+    [
+      "ds_0f3664e60e2e2525646aa47d",
+      "ds_20bef2f0ed7e8b2f64aa6566"
+    ],
+    [
+      "ds_13288759f00913cffe7922f8"
+    ],
+    [
+      "ds_1554d74e1c08cdcfd85cb060",
+      "ds_3dc3e014b8c16ced527dcb05",
+      "ds_62b3817ec2ac7b3603b95e40"
+    ],
+    [
+      "ds_3876fae596b908becf1ad723"
+    ],
+    [
+      "ds_38f26c88b67705df22bffae1"
+    ],
+    [
+      "ds_3ba717d5e039bb725c1c15fc"
+    ],
+    [
+      "ds_46c4af0cf6e274c0c33a32b9"
+    ],
+    [
+      "ds_5698e93ac7b40b942bc5edbb"
+    ],
+    [
+      "ds_5ba0c5e0dd6ef1d273fe9ef7",
+      "ds_df8dfcb82795f7c95ea120a8"
+    ],
+    [
+      "ds_5bf9bf7b6956988a7dfd37fe"
+    ],
+    [
+      "ds_676950d482b143fe19371b63"
+    ],
+    [
+      "ds_6d9b87189d85d64ed96d88cf"
+    ],
+    [
+      "ds_7e3d35d4f9179370afb5cadc"
+    ],
+    [
+      "ds_97837fa8dcc554a86e4a96db"
+    ],
+    [
+      "ds_a6809a6a022fab2c12d49057"
+    ],
+    [
+      "ds_ab003acd7d6bad2abedde0ed"
+    ],
+    [
+      "ds_b38331f885f66f800c7c3843"
+    ],
+    [
+      "ds_c120b0a8185dd223ec0f3226"
+    ],
+    [
+      "ds_c2c9661a99efa01acbc3264a"
+    ],
+    [
+      "ds_dccf06695bb5e61daeb2cff7"
+    ],
+    [
+      "ds_e77c11fb3208724f562c8d58"
+    ]
+  ],
+  "input_sha256": {
+    "reports\\defense_v1\\T10\\session_length_dev_cohort_20261102_01\\cohort.jsonl": "241d90be4156826d9e6a7ed803ad141e3fd89235f40f3d04c1c67251279eb366",
+    "reports\\defense_v1\\T10\\session_length_dev_cohort_20261102_01\\dependency_groups.json": "107d8cc95531ce1addde01e418fe1eca4ba3284ea0828b5483516edaa59ec332",
+    "reports\\defense_v1\\T10\\event_review_triage_20261104.json": "c9e8cf2d386b86f018093ffb95d73e24d598974bb0a22a6a5e1a4a2adfc7d4b4"
+  },
+  "limitations": [
+    "Union of dependency groups for resampling sensitivity only; no assertion that all connected documents share one event.",
+    "Not human gold, not proof of semantic or cross-partition independence.",
+    "D-dev cohort only; no formal evaluation was run."
+  ]
+}

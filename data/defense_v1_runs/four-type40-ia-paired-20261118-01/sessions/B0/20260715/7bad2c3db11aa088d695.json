@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008302",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q064",
+      "session_id": "ia_ag_news_teacher_00008302",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not contain any information about a Dodgers-Rockies game or Milton Bradley's single. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000070",
+        "ag_news_teacher_00000025",
+        "ag_news_teacher_00000929",
+        "ag_news_teacher_00000217"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000070",
+        "ag_news_teacher_00000025",
+        "ag_news_teacher_00000929",
+        "ag_news_teacher_00000217"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000070",
+            "ag_news_teacher_00000025",
+            "ag_news_teacher_00000929",
+            "ag_news_teacher_00000217"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000070",
+            "ag_news_teacher_00000025",
+            "ag_news_teacher_00000929",
+            "ag_news_teacher_00000217"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1112.1113998815417,
+      "ledger_event": {
+        "request_id": "q064",
+        "session_id": "ia_ag_news_teacher_00008302",
+        "input_sha256": "4ca119fb3aada7caca23d5bf94d16ef8003cd34a5539485b8015b79094348496",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000070",
+          "ag_news_teacher_00000025",
+          "ag_news_teacher_00000929",
+          "ag_news_teacher_00000217"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000070",
+            "parent_doc_id": "ag_news_teacher_00000070",
+            "kind": "raw",
+            "score": 0.4670092463493347,
+            "text_sha256": "82d2ddb225f703d65f4275b9000c12ec9532a09eff641b35287dd3b4a6bf1c0d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000025",
+            "parent_doc_id": "ag_news_teacher_00000025",
+            "kind": "raw",
+            "score": 0.42908692359924316,
+            "text_sha256": "368ee824b4d81e07eba51094d26fb7637da21bf6cf1d15d6fe71a21ae4970895"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000929",
+            "parent_doc_id": "ag_news_teacher_00000929",
+            "kind": "raw",
+            "score": 0.41995683312416077,
+            "text_sha256": "4ff3f9a24d8f59829803e84cd5355fd03d91607a0dcb353abfa08ba822f0d95f"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000217",
+            "parent_doc_id": "ag_news_teacher_00000217",
+            "kind": "raw",
+            "score": 0.41212838888168335,
+            "text_sha256": "fbf6a019f0b8e793e20c3b09c23c650ebb376692c2c2defba219268641e1939d"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not contain any information about a Dodgers-Rockies game or Milton Bradley's single. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006818.8293226,
+        "finished_at": 1795006819.9413226
+      },
+      "generation_input_ref": "artifacts/B0/20260715/2dbacdc7063e07dd1243.json",
+      "artifact_sha256": "a32aa49d64cd1643f3611621182a73cdf00b286f878cf6bd89b711a382540f46"
+    },
+    {
+      "request_id": "q065",
+      "session_id": "ia_ag_news_teacher_00008302",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "No",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000929",
+        "ag_news_teacher_00000515",
+        "ag_news_teacher_00000217",
+        "ag_news_teacher_00000070"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000929",
+        "ag_news_teacher_00000515",
+        "ag_news_teacher_00000217",
+        "ag_news_teacher_00000070"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000929",
+            "ag_news_teacher_00000515",
+            "ag_news_teacher_00000217",
+            "ag_news_teacher_00000070"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000929",
+            "ag_news_teacher_00000515",
+            "ag_news_teacher_00000217",
+            "ag_news_teacher_00000070"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 133.69060028344393,
+      "ledger_event": {
+        "request_id": "q065",
+        "session_id": "ia_ag_news_teacher_00008302",
+        "input_sha256": "6364531eadfa9220cfa8d0812bc7048bc8c9453c2f6d148b1e25e65b890c0208",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000929",
+          "ag_news_teacher_00000515",
+          "ag_news_teacher_00000217",
+          "ag_news_teacher_00000070"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000929",
+            "parent_doc_id": "ag_news_teacher_00000929",
+            "kind": "raw",
+            "score": 0.4829472303390503,
+            "text_sha256": "4ff3f9a24d8f59829803e84cd5355fd03d91607a0dcb353abfa08ba822f0d95f"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000515",
+            "parent_doc_id": "ag_news_teacher_00000515",
+            "kind": "raw",
+            "score": 0.4522954821586609,
+            "text_sha256": "86c1d5837a254f86ea18e4801b949256d98538809ded0bdb18a70f5895ddb1b0"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000217",
+            "parent_doc_id": "ag_news_teacher_00000217",
+            "kind": "raw",
+            "score": 0.4461725354194641,
+            "text_sha256": "fbf6a019f0b8e793e20c3b09c23c650ebb376692c2c2defba219268641e1939d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000070",
+            "parent_doc_id": "ag_news_teacher_00000070",
+            "kind": "raw",
+            "score": 0.42521432042121887,
+            "text_sha256": "82d2ddb225f703d65f4275b9000c12ec9532a09eff641b35287dd3b4a6bf1c0d"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "No",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006819.9428232,
+        "finished_at": 1795006820.0768225
+      },
+      "generation_input_ref": "artifacts/B0/20260715/a87712c4a372edbf8ea4.json",
+      "artifact_sha256": "998d3c1d2dd73433386385bebd05b1a9a53939a2c766701076ac98d4b95e67fd"
+    },
+    {
+      "request_id": "q066",
+      "session_id": "ia_ag_news_teacher_00008302",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe provided context does not contain any information about a specific player named Bradley or about the outcome of the bottom of the ninth inning in the Dodgers-Rockies game. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000515",
+        "ag_news_teacher_00000929",
+        "ag_news_teacher_00000048",
+        "ag_news_teacher_00000945"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000515",
+        "ag_news_teacher_00000929",
+        "ag_news_teacher_00000048",
+        "ag_news_teacher_00000945"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000515",
+            "ag_news_teacher_00000929",
+            "ag_news_teacher_00000048",
+            "ag_news_teacher_00000945"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000515",
+            "ag_news_teacher_00000929",
+            "ag_news_teacher_00000048",
+            "ag_news_teacher_00000945"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1495.439600199461,
+      "ledger_event": {
+        "request_id": "q066",
+        "session_id": "ia_ag_news_teacher_00008302",
+        "input_sha256": "d2efa50f2ed21fa05dc794aa73e7c6455037be3e29799629a82a7f0ec031f501",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000515",
+          "ag_news_teacher_00000929",
+          "ag_news_teacher_00000048",
+          "ag_news_teacher_00000945"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000515",
+            "parent_doc_id": "ag_news_teacher_00000515",
+            "kind": "raw",
+            "score": 0.4892556965351105,
+            "text_sha256": "86c1d5837a254f86ea18e4801b949256d98538809ded0bdb18a70f5895ddb1b0"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000929",
+            "parent_doc_id": "ag_news_teacher_00000929",
+            "kind": "raw",
+            "score": 0.4209473431110382,
+            "text_sha256": "4ff3f9a24d8f59829803e84cd5355fd03d91607a0dcb353abfa08ba822f0d95f"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000048",
+            "parent_doc_id": "ag_news_teacher_00000048",
+            "kind": "raw",
+            "score": 0.3909956216812134,
+            "text_sha256": "f3548155dff184884a8d78d24f8b17d40d8f8a2ce4a06c7009669c4cef2d9fb6"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000945",
+            "parent_doc_id": "ag_news_teacher_00000945",
+            "kind": "raw",
+            "score": 0.38700562715530396,
+            "text_sha256": "2825564f03a729dc142732f3d3a0299858f0683371f3ce82f29be18cba67b49c"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe provided context does not contain any information about a specific player named Bradley or about the outcome of the bottom of the ninth inning in the Dodgers-Rockies game. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006820.0778227,
+        "finished_at": 1795006821.5733228
+      },
+      "generation_input_ref": "artifacts/B0/20260715/d0f8792be118f0231265.json",
+      "artifact_sha256": "8118c8702c44bb92ce6efcd89cb293d7b6879a74148720be7d722500275bc792"
+    }
+  ]
+}

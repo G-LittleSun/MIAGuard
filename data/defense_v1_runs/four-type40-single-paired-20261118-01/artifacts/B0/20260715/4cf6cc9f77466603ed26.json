@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"Big maths solution 'looks good' One of the toughest problems in maths may have been solved, British Association's Festival of Science is told.\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "Long-standing Math Puzzle May Have Been Solved ONE of the seven great unsolved mysteries of mathematics may have been solved by an eccentric Russian. Grigori  #39;Grisha #39; Perelman is an expert on Ricci flow.",
+      "The long march to Longhorn It #39;s not just because I #39;m tired of the bovine references and the  quot;shorthorn quot; jokes. No, the problem is that the future version of Windows formerly known as Longhorn in many ways won #39;t resemble the Longhorn ",
+      "Malaysia #39;s Anwar Confident of Courts Malaysia #39;s former deputy leader said Wednesday he is confident of victory when his country #39;s highest court reconsiders his conviction on corruption charges, arguing that his opponents have no case.",
+      "Maria a smash hit in tennis #39; fishbowl It #39;s one thing to win Wimbledon, the biggest trophy in tennis. Quite another to live with it. By Anja Niedringhaus, AP. That is the tricky road of risk "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Long-standing Math Puzzle May Have Been Solved ONE of the seven great unsolved mysteries of mathematics may have been solved by an eccentric Russian. Grigori  #39;Grisha #39; Perelman is an expert on Ricci flow.\"\n\"The long march to Longhorn It #39;s not just because I #39;m tired of the bovine references and the  quot;shorthorn quot; jokes. No, the problem is that the future version of Windows formerly known as Longhorn in many ways won #39;t resemble the Longhorn \"\n\"Malaysia #39;s Anwar Confident of Courts Malaysia #39;s former deputy leader said Wednesday he is confident of victory when his country #39;s highest court reconsiders his conviction on corruption charges, arguing that his opponents have no case.\"\n\"Maria a smash hit in tennis #39; fishbowl It #39;s one thing to win Wimbledon, the biggest trophy in tennis. Quite another to live with it. By Anja Niedringhaus, AP. That is the tricky road of risk \"\n\nQuestion:\nDoes this: \"Big maths solution 'looks good' One of the toughest problems in maths may have been solved, British Association's Festival of Science is told.\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,36 @@
+{
+  "bank_id": "ag_news_queries_v1",
+  "completed_at": "2026-08-01T14:13:13.466411+00:00",
+  "counts_by_attack": {
+    "benign": 500,
+    "direct_rag_mia": 500,
+    "ia": 3956,
+    "masked_mia": 500,
+    "s2_mia": 500
+  },
+  "dataset_id": "ag_news",
+  "document_count": 100,
+  "embedding_model": "EmbeddingModel/sentence-transformers/all_minilm_l6_v2",
+  "expected_queries_per_document": 50,
+  "generation_backend": "transformers",
+  "generation_model": "LLM/mistralai/mistral-7b-instruct-v0-2",
+  "ia_answer_counts": {
+    "no": 1017,
+    "unknown": 1505,
+    "yes": 1434
+  },
+  "ia_min_answer_counts": {
+    "no": 10,
+    "yes": 10
+  },
+  "ia_questions_per_document": 30,
+  "ia_repair_version": "v1",
+  "queries_sha256": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1",
+  "query_count": 5956,
+  "schema_version": "1.1.0",
+  "seed": 20260725,
+  "source_run_id": "20260717-ag-news-four-medium",
+  "started_at": "2026-08-01T13:46:30.068207+00:00",
+  "status": "complete",
+  "updated_at": "2026-08-17T16:17:40.324785+00:00"
+}

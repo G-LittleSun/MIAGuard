@@ -1,0 +1,12 @@
+{
+  "generation_input": {
+    "query": "Which payment service had outages?",
+    "contexts": [
+      "PayPal problems continue DESPITE furious repair efforts, intermittent service outages at the online payment service PayPal continued Tuesday for the fifth consecutive day, affecting payments, log-ins and account creations."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"PayPal problems continue DESPITE furious repair efforts, intermittent service outages at the online payment service PayPal continued Tuesday for the fifth consecutive day, affecting payments, log-ins and account creations.\"\n\nQuestion:\nWhich payment service had outages?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

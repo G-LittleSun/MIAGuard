@@ -1,0 +1,111 @@
+{
+  "stage": "candidate_preflight",
+  "input_sha256": {
+    "data\\defense_datasets\\legacy_v2_reuse_overlay_20261105_01\\labels.jsonl": "091daf489311f4aadd401ccc39da11339a42ae27cee5cae52824b509b3439f84",
+    "data\\defense_datasets\\legacy_v2_reuse_overlay_20261105_01\\requests.jsonl": "cbb9ad003ed693dd56f9da6536da0e396348c081586dff4aeba52c5e82b711ce",
+    "data\\runs\\20260717-ag-news-four-medium\\ag_news\\target_docs.jsonl": "f7f604ce3acde220998ab2bd93186441119ba0074ae2e7fdf8fcdcde79f11eb1",
+    "reports\\defense_v1\\T10\\next_goal_source_inventory_20261117.json": "51444e6152cfea30832795a328c54081b4b31401b8820f14496c237f3e473708"
+  },
+  "documents": [
+    {
+      "doc_id": "ag_news_teacher_00000050",
+      "member": 1,
+      "valid_mask_request_ids": [
+        "vr_c78436a5b13da8638adebb3d",
+        "vr_b105b5b30f8d1726d00086eb",
+        "vr_ffa464ed3a7b16a0a028720a",
+        "vr_76386dac62f1773fdf823d2d",
+        "vr_488913ac03597446fff8809d"
+      ],
+      "source_text_sha256": "51b1e19cbec5538eb4d6429b29c60e1afab3c9b2f9a5168028d94f1cb4b46650"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000149",
+      "member": 1,
+      "valid_mask_request_ids": [
+        "vr_b07651b8b3407264554e5550",
+        "vr_1950ff966bb19e378e756a4b",
+        "vr_908873d011bbde4658c138c1",
+        "vr_7cde444cb99a50d1b6d07b62",
+        "vr_628b682d7b5e49900d541496"
+      ],
+      "source_text_sha256": "95c627355672d7db756b82153bffa5c7ec69b5bac2a6cb761a51614f749091b5"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000220",
+      "member": 1,
+      "valid_mask_request_ids": [
+        "vr_6d94d36e69b6ba03119578cb",
+        "vr_fd073576999549f6e70c242a",
+        "vr_86280bec0fba7c1bf3f6427b",
+        "vr_5d6761397863fd6fd1407f98",
+        "vr_a100cd3144d8c4c1ca66777e"
+      ],
+      "source_text_sha256": "be93a49af86e670e1e23ee03411e15898648dce4e3f1acba3a9ea690d788789e"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000224",
+      "member": 1,
+      "valid_mask_request_ids": [
+        "vr_8989d29dd2f50d20c8d62647",
+        "vr_29b2aafa9a5cf4703442ab16",
+        "vr_a90676a22436356bad47e41e",
+        "vr_679a51803b7e9e7323ecbfc8",
+        "vr_74aa30693678b252baa08f96"
+      ],
+      "source_text_sha256": "24bc456cbe79af92d41ee3e1266ff3f9cf717d74d28f55a2783a6e258933a874"
+    },
+    {
+      "doc_id": "ag_news_teacher_00008340",
+      "member": 0,
+      "valid_mask_request_ids": [
+        "vr_ca4870b2b9aaed8f1627e047",
+        "vr_ec3a46b6d1dd1d2e57bec134",
+        "vr_df0eb1d99c3d033e2f044fc0",
+        "vr_82741da124677befca5a1c2f",
+        "vr_54af0d713e15dc6a0e13e044"
+      ],
+      "source_text_sha256": "aeb72f362b1199e96c917b8b7f4558c5fa8b862622382d1c40a3d924f2283142"
+    },
+    {
+      "doc_id": "ag_news_teacher_00008636",
+      "member": 0,
+      "valid_mask_request_ids": [
+        "vr_6e8660d2e7cafdd2c8f66f95",
+        "vr_02048fa23589f8f6a86e9925",
+        "vr_ff964143b3980ea686c93e17",
+        "vr_da8264889c4006db0bdce5c5",
+        "vr_b8ea781c6b90bb29e341fe64"
+      ],
+      "source_text_sha256": "29f694e005ee93565ecb1058d83c552ece08f6b5ed2dd8f52e9a3e59e88a79eb"
+    },
+    {
+      "doc_id": "ag_news_teacher_00008836",
+      "member": 0,
+      "valid_mask_request_ids": [
+        "vr_875027a9e28f4ad4c8afb9ce",
+        "vr_afbe7af94723394f5216ec97",
+        "vr_8b46e1a8948fb3906ebf9dc5",
+        "vr_28c0cc5a5e4d0ae79777905c",
+        "vr_01303d019582180a136d7f5c"
+      ],
+      "source_text_sha256": "809ba3943e6fea53173ec63e10971c08578af2e07465202d0095a916cca31d3b"
+    },
+    {
+      "doc_id": "ag_news_teacher_00008319",
+      "member": 0,
+      "valid_mask_request_ids": [
+        "vr_11cc5c6a0a9585b8b240ae26",
+        "vr_acd6c2b6052015ed61753ec7",
+        "vr_8030d5c0eed251fb24b23d59",
+        "vr_84838c4440c09eee5a8f2331",
+        "vr_6d6852a7be2434897fdd9d2e"
+      ],
+      "source_text_sha256": "76d52742b0848a8924deb1bd76f0e5157fb764c02a24350488c923b1813c3ab2"
+    }
+  ],
+  "limitations": [
+    "Preflight only; selection and request list not frozen.",
+    "Human gold pending; recent-source token screening does not establish event independence."
+  ]
+}

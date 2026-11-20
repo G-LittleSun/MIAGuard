@@ -1,0 +1,12 @@
+{
+  "generation_input": {
+    "query": "How many executives did Ace dismiss?",
+    "contexts": [
+      "Ace Dismisses 2 Executives in Response to Inquiry Ace Ltd., a Bermuda insurer that is a subject of the New York attorney general's investigation into the insurance industry, dismissed two executives."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Ace Dismisses 2 Executives in Response to Inquiry Ace Ltd., a Bermuda insurer that is a subject of the New York attorney general's investigation into the insurance industry, dismissed two executives.\"\n\nQuestion:\nHow many executives did Ace dismiss?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

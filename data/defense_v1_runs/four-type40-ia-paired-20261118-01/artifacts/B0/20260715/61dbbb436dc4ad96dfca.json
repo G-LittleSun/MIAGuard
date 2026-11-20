@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Iraqi Premier's plan to expand weapons-for-cash program. Will the weapons-for-cash program in Baghdad be implemented in other Iraqi cities? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Iraqi Premier Plans Expansion of Arms Handover Program Prime Minister Ayad Allawi of Iraq said today that a weapons-for-cash program in Baghdad would be expanded nationwide.",
+      "Beyond Fallujah The battle of Fallujah, the most significant of the Iraq war since the fall of Baghdad, is a huge military success for US forces. But it #39;s not clear now, nor will it be for some time - perhaps not until elections ",
+      "Iraq Gained \\$21 Billion Illicitly, Senate Panel Says Iraq illicitly earned an estimated \\$21.3 billion by circumventing United Nations sanctions between 1991 and 2003, according to estimates released Monday by a U.S. Senate panel.",
+      "Troops in Fallujah find terror group's command center BAGHDAD -- US troops sweeping through Fallujah yesterday found what appeared to be a command center used by followers of Jordanian terrorist Abu Musab al-Zarqawi, and a US general expressed confidence the battle for the city has  quot;broken the back of the insurgency. quot;"
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Iraqi Premier Plans Expansion of Arms Handover Program Prime Minister Ayad Allawi of Iraq said today that a weapons-for-cash program in Baghdad would be expanded nationwide.\"\n\"Beyond Fallujah The battle of Fallujah, the most significant of the Iraq war since the fall of Baghdad, is a huge military success for US forces. But it #39;s not clear now, nor will it be for some time - perhaps not until elections \"\n\"Iraq Gained \\$21 Billion Illicitly, Senate Panel Says Iraq illicitly earned an estimated \\$21.3 billion by circumventing United Nations sanctions between 1991 and 2003, according to estimates released Monday by a U.S. Senate panel.\"\n\"Troops in Fallujah find terror group's command center BAGHDAD -- US troops sweeping through Fallujah yesterday found what appeared to be a command center used by followers of Jordanian terrorist Abu Musab al-Zarqawi, and a US general expressed confidence the battle for the city has  quot;broken the back of the insurgency. quot;\"\n\nQuestion:\nI am inquiring about a Iraqi Premier's plan to expand weapons-for-cash program. Will the weapons-for-cash program in Baghdad be implemented in other Iraqi cities? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

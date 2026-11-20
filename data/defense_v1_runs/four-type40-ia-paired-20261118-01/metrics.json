@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "four_type40_ia_v2_train_20261118_01",
+  "run_id": "four-type40-ia-paired-20261118-01",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 240,
+  "completed": 240,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 40,
+  "method_count": 2,
+  "attack_target_count": 40,
+  "benign_request_count": 0
+}

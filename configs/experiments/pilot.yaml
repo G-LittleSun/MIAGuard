@@ -1,0 +1,16 @@
+profile: pilot
+dataset_selection:
+  mode: single
+  include:
+    - t2ranking
+attacks:
+  - masked_mia
+  - ia
+target_counts:
+  masked_mia:
+    members: 100
+    nonmembers: 100
+  ia:
+    members: 100
+    nonmembers: 100
+runs_dir: data/runs

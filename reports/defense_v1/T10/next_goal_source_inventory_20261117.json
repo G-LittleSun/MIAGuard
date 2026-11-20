@@ -1,0 +1,1143 @@
+{
+  "scope": "v2 train inventory, label-file presence only; token overlap is screening not event independence",
+  "input_sha256": {
+    "D:\\Project\\MIAGuard\\data\\query_banks\\ag_news_queries_v2\\ag_news\\queries.jsonl": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972",
+    "D:\\Project\\MIAGuard\\data\\query_bank_splits\\ag_news_threshold_v2.json": "96977e550be6c0e42ab0b7609f2c73af261a99474b459778ae46fd123c7b80ef",
+    "D:\\Project\\MIAGuard\\data\\runs\\20260717-ag-news-four-medium\\ag_news\\target_docs.jsonl": "f7f604ce3acde220998ab2bd93186441119ba0074ae2e7fdf8fcdcde79f11eb1",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\benign-style-pair-20261116-01\\labels.jsonl": "342c3ff8024185a071bc7f1a362aa2c7156e1ac30fa62cb5b63d7e79ba0cd9e1",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\benign-triggered-pair-20261113-01\\labels.jsonl": "b3cc65b300c2b9485614004c2ca8a8bc7a4edca6d38cdc0f37d0122fde169d1f",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\cue-utility-nonmember-20261111-01\\labels.jsonl": "9ebcab9d939edf9bf59e591ac3f470f465c6aafb516a13c0f3fc94efe2593c3f",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\fast-v2-b0-b2-20261105-01\\labels.jsonl": "ac026781e4266bca5d935e68b6150fc39a95b028c42e9b76ace1f431ab076d86",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\fast-v2-b5-b6-20261105-01\\labels.jsonl": "ac026781e4266bca5d935e68b6150fc39a95b028c42e9b76ace1f431ab076d86",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\forced-normal-b0-b5f-20261111-01\\labels.jsonl": "f1095f785170820ba1f57b8920763b62f471210614740a028f19663d6666b1c9",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\locator-new-sources-20261111-01\\labels.jsonl": "10b2e65576d784baf5deaf53dc77fb31a2319c47a673f023742f937a5842bcf3",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\multi-action-candidates-20261117-01\\labels.jsonl": "709a61ddaf0413e3ecd94f4f9c3433d53bda1c8f28a74a3d3cb590e57a6d0fee",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\multi-action-sources-20261117-01\\labels.jsonl": "1cf830ceaec376546fa6a96f4fa091eb53a85f774a0fb0907f85ad8f68376cd3",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\multiturn-ia-reset-20261116-01\\labels.jsonl": "14242d576c2a21379c73d3da20550a16692e2d287af82fdadd86c02a8b458f77",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\multiturn-ia-session-20261113-01\\labels.jsonl": "14242d576c2a21379c73d3da20550a16692e2d287af82fdadd86c02a8b458f77",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\query-cue-pilot-20261111-01\\labels.jsonl": "a8d194fbdab384dc531c0d09476f7689bf5d4565126b76b4b10497c7ce4e9ca1",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\rank-stress-v2-b0-b5-b6-20261109-01\\labels.jsonl": "ced7a8b8a995fabff76f68003d049e768f8ec98f291860f074d7a3570db2177e",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\rank-stress-v2-b2-b3-20261111-01\\labels.jsonl": "ced7a8b8a995fabff76f68003d049e768f8ec98f291860f074d7a3570db2177e",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\rank-stress-v2-locator-20261111-01\\labels.jsonl": "ced7a8b8a995fabff76f68003d049e768f8ec98f291860f074d7a3570db2177e",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\t09-fake-20261022-01\\labels.jsonl": "8ceebbd9aedfeab4cd70e957b844de401e83520c3f44cbfe23dab8186e70f1de",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\t09-fake-20261022-02\\labels.jsonl": "8ceebbd9aedfeab4cd70e957b844de401e83520c3f44cbfe23dab8186e70f1de",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\t09-fake-20261022-03\\labels.jsonl": "8ceebbd9aedfeab4cd70e957b844de401e83520c3f44cbfe23dab8186e70f1de",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\t09-fake-20261022-04\\labels.jsonl": "8ceebbd9aedfeab4cd70e957b844de401e83520c3f44cbfe23dab8186e70f1de",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\t09-fake-20261022-05\\labels.jsonl": "8ceebbd9aedfeab4cd70e957b844de401e83520c3f44cbfe23dab8186e70f1de",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\t10c-context-focus-20261102-01\\labels.jsonl": "79eab3fe9fd0f38ef9ea1337c40f9e249050e80f1de45ef0936bbc0dc9dec532",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\t10c-history-ablation-20261102-01\\labels.jsonl": "456455c8c7bae0d4b9970f9882b5f7c8a530f6cb7a8f6edb42b1f62c1213af26",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\two-hour-paired-20261117-01\\labels.jsonl": "93d51339e127495c8ff8337698e0d4b6dd69dd5b466e9b9767e70e6c5b31326f",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\type-policy-v1-20261113-01\\labels.jsonl": "67c5cac5d3c0c0d0d62247796b7bd07a38fa9f16d4d20ebe005a3faf256a730c",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\type-policy-v2-paired-20261113-01\\labels.jsonl": "67c5cac5d3c0c0d0d62247796b7bd07a38fa9f16d4d20ebe005a3faf256a730c",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\multi_action_v2_train_20261117_01\\labels.jsonl": "709a61ddaf0413e3ecd94f4f9c3433d53bda1c8f28a74a3d3cb590e57a6d0fee",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\multi_action_sources_v2_train_20261117_01\\labels.jsonl": "1cf830ceaec376546fa6a96f4fa091eb53a85f774a0fb0907f85ad8f68376cd3"
+  },
+  "items": [
+    {
+      "doc_id": "ag_news_teacher_00000050",
+      "member": 1,
+      "recent_target": false,
+      "appears_in_run_labels": [
+        "fast-v2-b0-b2-20261105-01",
+        "fast-v2-b5-b6-20261105-01",
+        "forced-normal-b0-b5f-20261111-01",
+        "query-cue-pilot-20261111-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "51b1e19cbec5538eb4d6429b29c60e1afab3c9b2f9a5168028d94f1cb4b46650",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 21,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 48
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000102",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "locator-new-sources-20261111-01",
+        "multi-action-sources-20261117-01",
+        "query-cue-pilot-20261111-01"
+      ],
+      "text_sha256": "9b1a358acffc53eb3e7cb67ffd97a33c134d0cfb0df21173e1d591925a2cb035",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 39
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000149",
+      "member": 1,
+      "recent_target": false,
+      "appears_in_run_labels": [
+        "fast-v2-b0-b2-20261105-01",
+        "fast-v2-b5-b6-20261105-01",
+        "forced-normal-b0-b5f-20261111-01",
+        "query-cue-pilot-20261111-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "95c627355672d7db756b82153bffa5c7ec69b5bac2a6cb761a51614f749091b5",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 40
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000176",
+      "member": 1,
+      "recent_target": false,
+      "appears_in_run_labels": [
+        "cue-utility-nonmember-20261111-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "b99cd8f0f6ccb489faf318273b8091b253a60a4b9fc871ff31002f8eb14344f9",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 49
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000220",
+      "member": 1,
+      "recent_target": false,
+      "appears_in_run_labels": [
+        "fast-v2-b0-b2-20261105-01",
+        "fast-v2-b5-b6-20261105-01",
+        "forced-normal-b0-b5f-20261111-01",
+        "query-cue-pilot-20261111-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "be93a49af86e670e1e23ee03411e15898648dce4e3f1acba3a9ea690d788789e",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 21,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 35
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000224",
+      "member": 1,
+      "recent_target": false,
+      "appears_in_run_labels": [
+        "fast-v2-b0-b2-20261105-01",
+        "fast-v2-b5-b6-20261105-01",
+        "forced-normal-b0-b5f-20261111-01",
+        "query-cue-pilot-20261111-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "24bc456cbe79af92d41ee3e1266ff3f9cf717d74d28f55a2783a6e258933a874",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 35
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000236",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "locator-new-sources-20261111-01",
+        "multi-action-sources-20261117-01",
+        "query-cue-pilot-20261111-01"
+      ],
+      "text_sha256": "91377d35382d6ebecb4ad8c6b0217150aa1a8c32b383ab69cc0541a8cef855bf",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 60
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000250",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "fast-v2-b0-b2-20261105-01",
+        "fast-v2-b5-b6-20261105-01",
+        "multi-action-candidates-20261117-01",
+        "two-hour-paired-20261117-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "b04d510506be3b33e5640d2a6624ac464daab989d93c53e3428d45cf57460c74",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 56
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000284",
+      "member": 1,
+      "recent_target": false,
+      "appears_in_run_labels": [
+        "cue-utility-nonmember-20261111-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "ce4fd6c9002d6302344e81c52fcd4d0051514bce6132243ef14a67ccf7a7d19e",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 40
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000307",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "benign-triggered-pair-20261113-01",
+        "multi-action-candidates-20261117-01",
+        "two-hour-paired-20261117-01"
+      ],
+      "text_sha256": "09ade153a88ad359b93dcaa797ae9ae66a27b3e4b383d57c05c0ad6a91baa806",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 36
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000313",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "multi-action-sources-20261117-01"
+      ],
+      "text_sha256": "4a7766c36d8d853be9d8c3ff5600e161ba2747dc148fb3c2f65b44a8bcb8ca23",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 36
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000363",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "multi-action-candidates-20261117-01",
+        "multiturn-ia-reset-20261116-01",
+        "multiturn-ia-session-20261113-01",
+        "rank-stress-v2-b0-b5-b6-20261109-01",
+        "rank-stress-v2-b2-b3-20261111-01",
+        "rank-stress-v2-locator-20261111-01",
+        "two-hour-paired-20261117-01"
+      ],
+      "text_sha256": "ff4a9cfd957236652de8656604f4e6d4f8c9df909a0691a8b54a879eb1608e1e",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 20,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 35
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000367",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "benign-style-pair-20261116-01",
+        "benign-triggered-pair-20261113-01",
+        "multi-action-candidates-20261117-01",
+        "multiturn-ia-reset-20261116-01",
+        "multiturn-ia-session-20261113-01",
+        "two-hour-paired-20261117-01"
+      ],
+      "text_sha256": "109b827189943345fda7f703446231702ed51c10ec190e4d450a5102eb61cd70",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 21,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 36
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000388",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "multi-action-candidates-20261117-01",
+        "rank-stress-v2-b0-b5-b6-20261109-01",
+        "rank-stress-v2-b2-b3-20261111-01",
+        "rank-stress-v2-locator-20261111-01",
+        "two-hour-paired-20261117-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "5b6cc77ebb44b99c7444f5171630dc7d6256c643f54a5a5e2e490e7608799f49",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 40
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000406",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "benign-triggered-pair-20261113-01",
+        "multi-action-candidates-20261117-01",
+        "two-hour-paired-20261117-01"
+      ],
+      "text_sha256": "e7023c7a635eb27cc0b067a05dbae3c185e38b7f9050290cefd946b4879397f2",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 39
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000433",
+      "member": 1,
+      "recent_target": false,
+      "appears_in_run_labels": [
+        "cue-utility-nonmember-20261111-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "258023f831e8b7838594bf15b8ae6b555d28f8241225e58399a8137e9e9c2f22",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 38
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000440",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "locator-new-sources-20261111-01",
+        "multi-action-sources-20261117-01",
+        "query-cue-pilot-20261111-01"
+      ],
+      "text_sha256": "9d5151d8c7f6b85a88eb0c095396562137ce223eeb4478d0e906c8f7e0afe33d",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 38
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000479",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "multi-action-candidates-20261117-01",
+        "multiturn-ia-reset-20261116-01",
+        "multiturn-ia-session-20261113-01",
+        "rank-stress-v2-b0-b5-b6-20261109-01",
+        "rank-stress-v2-b2-b3-20261111-01",
+        "rank-stress-v2-locator-20261111-01",
+        "two-hour-paired-20261117-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "e14efc2b0794853310d1b02ff1ef65ca4ad2c6cfdbc300323da39a4eedf43271",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 37
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000532",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "benign-style-pair-20261116-01",
+        "benign-triggered-pair-20261113-01",
+        "multi-action-candidates-20261117-01",
+        "two-hour-paired-20261117-01"
+      ],
+      "text_sha256": "b171aecdf2b6f54392f424787dfd776b64154989d308723b6eef060941cdf024",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 44
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000544",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "benign-triggered-pair-20261113-01",
+        "multi-action-candidates-20261117-01",
+        "two-hour-paired-20261117-01"
+      ],
+      "text_sha256": "848d374c2368bd5ea5ff264499e23795f9af708a378f43c6c049c58169dad9a5",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 33
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000551",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "benign-triggered-pair-20261113-01",
+        "multi-action-candidates-20261117-01",
+        "two-hour-paired-20261117-01"
+      ],
+      "text_sha256": "c2b64bfc224db7fc9308d3f681f5185e3d962f86c38b8916eef105672bccc4a3",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 40
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000639",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "benign-triggered-pair-20261113-01",
+        "multi-action-candidates-20261117-01",
+        "rank-stress-v2-b0-b5-b6-20261109-01",
+        "rank-stress-v2-b2-b3-20261111-01",
+        "rank-stress-v2-locator-20261111-01",
+        "two-hour-paired-20261117-01"
+      ],
+      "text_sha256": "6717775df279182c54709c0cd96c63693900a5a77db5659b798088829cdd83bb",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 42
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000665",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "locator-new-sources-20261111-01",
+        "multi-action-sources-20261117-01",
+        "query-cue-pilot-20261111-01"
+      ],
+      "text_sha256": "57f5f335d0e24a08053d5f2ed10c5d9c8f438340b380ee8c9193b3195daf8277",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 40
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000843",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "benign-style-pair-20261116-01",
+        "benign-triggered-pair-20261113-01",
+        "multi-action-candidates-20261117-01",
+        "rank-stress-v2-b0-b5-b6-20261109-01",
+        "rank-stress-v2-b2-b3-20261111-01",
+        "rank-stress-v2-locator-20261111-01",
+        "two-hour-paired-20261117-01"
+      ],
+      "text_sha256": "6cf582f815bf6b75aad89845c57e44214cf9e2e2a8075d4022560de937c5bdd0",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 30
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000854",
+      "member": 1,
+      "recent_target": false,
+      "appears_in_run_labels": [
+        "cue-utility-nonmember-20261111-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "f1fa6c06aa36644f4d5ecc364d5118a45af57f7c0c30d3376355dfc2be7b7897",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 38
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000910",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "benign-triggered-pair-20261113-01",
+        "multi-action-candidates-20261117-01",
+        "two-hour-paired-20261117-01"
+      ],
+      "text_sha256": "0b00b8428008b710e7b7127ed256fab6f381b0cd2f298eae102206aacfcc9029",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 21,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 47
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000979",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "locator-new-sources-20261111-01",
+        "multi-action-sources-20261117-01",
+        "query-cue-pilot-20261111-01"
+      ],
+      "text_sha256": "616dbe60fc44c2b09347218c3eb5654d40b22fc2237cf6e86074713b1e74dfe4",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 31
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000988",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "locator-new-sources-20261111-01",
+        "multi-action-sources-20261117-01",
+        "query-cue-pilot-20261111-01"
+      ],
+      "text_sha256": "efd85fce9d6c15d1633e4e32a6a407ef34764dae31cef89cc82ccf61fafb481f",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 37
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000992",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "multi-action-candidates-20261117-01",
+        "rank-stress-v2-b0-b5-b6-20261109-01",
+        "rank-stress-v2-b2-b3-20261111-01",
+        "rank-stress-v2-locator-20261111-01",
+        "two-hour-paired-20261117-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "d9157c7784165fb782509b5ec8d1a96dfb598c5bade17cdad8748b589ccbe8f2",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 41
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00000997",
+      "member": 1,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "benign-triggered-pair-20261113-01",
+        "multi-action-candidates-20261117-01",
+        "multiturn-ia-reset-20261116-01",
+        "multiturn-ia-session-20261113-01",
+        "two-hour-paired-20261117-01"
+      ],
+      "text_sha256": "086f3f41c888ed869ff6179e81e126154ed4ff55f647d419ba3e8c86b1fff2a3",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 21,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 38
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008001",
+      "member": 0,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "multi-action-sources-20261117-01"
+      ],
+      "text_sha256": "98ddf00a80e2095600c8053913e39fa39f3f101d456ee6223521a0b76f3d01fc",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 43
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008074",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "1cf1b2215286f4b9a11102a852d2730034c2f90b2dcae0fa7ba324ecdbe442f1",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 48
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008191",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "f10c1c01554141e132a6452f1b818b8d211bd33ae6ce354e41e2831ef1c85fec",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 49
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008234",
+      "member": 0,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "cue-utility-nonmember-20261111-01",
+        "multi-action-candidates-20261117-01",
+        "two-hour-paired-20261117-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "f4bfea1d505ef59bc79f78fda1f59eae596b9d2c6e8c42eb39bc4f10dadd2012",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 36
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008290",
+      "member": 0,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "multi-action-sources-20261117-01"
+      ],
+      "text_sha256": "209edf0029259a1fbee2762a8a3303686f363757b7a58c9f94b59a8858c9864e",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 34
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008302",
+      "member": 0,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "cue-utility-nonmember-20261111-01",
+        "multi-action-candidates-20261117-01",
+        "multiturn-ia-reset-20261116-01",
+        "multiturn-ia-session-20261113-01",
+        "two-hour-paired-20261117-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "0883964f255f42f96398e803c82716ef03087953727b8972aa52a5a3b961ac4c",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 35
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008319",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "76d52742b0848a8924deb1bd76f0e5157fb764c02a24350488c923b1813c3ab2",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 42
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008321",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "a35f60e644c75755396a65117d29d299052ea140c0890453472c0a4c04575ee0",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 40
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008340",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "aeb72f362b1199e96c917b8b7f4558c5fa8b862622382d1c40a3d924f2283142",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 41
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008361",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "c773deaa9d369a59a2873b0c166a2b9f7e2032e65e97a9240b04fa3ec68ad67d",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 49
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008366",
+      "member": 0,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "cue-utility-nonmember-20261111-01",
+        "multi-action-candidates-20261117-01",
+        "two-hour-paired-20261117-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "533f3f578f54b1d534faa0452ec1acf59b66a97409cf916a0df8b20aa84ed227",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 21,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 38
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008409",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "93a99816fe76004d32034f637a9a8d1eda66e0c5f826092a2ee5b796915f94c2",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 38
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008437",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "b56d4ddd1a9d994a6365b86cf7b1c4b56bf64b9132706e5dcc2d40caf00ec368",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 20,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 33
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008547",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "59a87a21d61cff6a8612d97c46fa53ffb9a2abee49a57a7389d991686f0ad56c",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 35
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008559",
+      "member": 0,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "multi-action-candidates-20261117-01",
+        "multiturn-ia-reset-20261116-01",
+        "multiturn-ia-session-20261113-01",
+        "two-hour-paired-20261117-01"
+      ],
+      "text_sha256": "997867a457b38cef77f1e363cc0fbb15ac65960d24f23bb1b7d807f3c82615c7",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 43
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008603",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "202ad76da3ffde331cf8a1039a226e8446318f949922c7bc0f4fa7e515557ce5",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 40
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008622",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "65ee8e368dd8e690533f7eb17f74f0c48f472aa8f31f41de23474883ae2eb74c",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 21,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 35
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008636",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "29f694e005ee93565ecb1058d83c552ece08f6b5ed2dd8f52e9a3e59e88a79eb",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 47
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008656",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "299d67977a9021d9e57b3a3a243952d72d30f1825b828a600476713eb8f213c5",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 20,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 39
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008681",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "cd6bcd83eece7affadb7291ab00d705e8ad81c9600c86275727a04bfd50a2faf",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 34
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008692",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "97c3c105b5bcc277e52ca28bb1aa37d87455633162b3bcb663465621f117f211",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 38
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008739",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "058d1d8b9326541b08149a01d77b3d643d7d4ea05dd53c3354e7e3ec3f0715a3",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 40
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008757",
+      "member": 0,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "cue-utility-nonmember-20261111-01",
+        "multi-action-candidates-20261117-01",
+        "two-hour-paired-20261117-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "dcb56973045f439298dea8461c95d9de0cacec3c9c68e6962624844f8cbc3a60",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 21,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 35
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008787",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "d11fdfb3d3e03ca43be7566b7225942c9061efb99e833c5f8170f76248f13cfe",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 34
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008792",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "d32ee221f00e0154d59bbaed2eb521ec8f72cc413798107c5b217b1f8f473150",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 49
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008834",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "ede9b955361bdbb787862dc81db49bc1364d3b1b014cbd4bbe4056f331c04667",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 31
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008836",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "809ba3943e6fea53173ec63e10971c08578af2e07465202d0095a916cca31d3b",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 30
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008927",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "6366d1bfaaf485354a636ef5d3ac549290b315608ea824774c1711d91496e8c2",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 20,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 40
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008944",
+      "member": 0,
+      "recent_target": true,
+      "appears_in_run_labels": [
+        "fast-v2-b0-b2-20261105-01",
+        "fast-v2-b5-b6-20261105-01",
+        "multi-action-candidates-20261117-01",
+        "two-hour-paired-20261117-01",
+        "type-policy-v1-20261113-01",
+        "type-policy-v2-paired-20261113-01"
+      ],
+      "text_sha256": "def05e50508a2597f1eae2dee3b88c3793287b6e71bb1439b07891015e4774cf",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 38
+      }
+    },
+    {
+      "doc_id": "ag_news_teacher_00008988",
+      "member": 0,
+      "recent_target": false,
+      "appears_in_run_labels": [],
+      "text_sha256": "ec9995149b24737d0cab20fcd875b8f48a2287f51854b99de92f82e37b82c08a",
+      "max_recent_token_jaccard": [],
+      "query_counts": {
+        "benign": 22,
+        "direct_rag_mia": 5,
+        "s2_mia": 5,
+        "masked_mia": 5,
+        "ia": 43
+      }
+    }
+  ]
+}

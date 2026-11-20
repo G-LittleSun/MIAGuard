@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-utility48-main",
+  "run_id": "utility48-paired-20261117-01",
+  "identity_sha256": "3a7dde81f26328f01b293d6bdf90ae11eb04dd0d4e800c5ced47794e0ce173d5",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 96,
+  "completed": 96,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 48,
+  "method_count": 2,
+  "attack_target_count": 0,
+  "benign_request_count": 96
+}

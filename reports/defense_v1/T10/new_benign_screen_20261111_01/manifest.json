@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "scope": "engineering query-only screening; no gold or live policy",
+  "selection": "8 distinct indexed train documents by deterministic SHA256 rank of v2-only benign question IDs; no result-based selection",
+  "threshold": 0.006692850924284855,
+  "input_sha256": {
+    "data/query_banks/ag_news_queries_v2/ag_news/queries.jsonl": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972",
+    "data/query_banks/ag_news_queries_v1/ag_news/queries.jsonl": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1",
+    "data/query_bank_splits/ag_news_threshold_v2.json": "96977e550be6c0e42ab0b7609f2c73af261a99474b459778ae46fd123c7b80ef",
+    "data/vector_stores/20260717-ag-news-four-medium/ag_news/documents.jsonl": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9",
+    "reports/defense_v1/T04/query_only_thresholds.json": "a2b482352326a4e9154abeb1126169694df5c7c9ff70a87d9bc5a3ca07aa0759",
+    "configs/attacks/ag_news_progressive_judge_qwen2_5_7b_bf16.yaml": "0c49af1dd3ce128bf47bf2ecf70c4cd8fc4219a2981007f6f6dd5d4213ed6aff",
+    "configs/defense/progressive_judge_v3_binary_logprob_qwen2_5_7b.yaml": "e9bf93a30a359d594283c208c8795a735f0f0cf4499dc52cf5bd32eca3def0a4",
+    "reports/defense_v1/T10/screen_new_benign_20261111.py": "ee4db11f2bcdc6dfef7a997b40bcde1fd06615d70e36dfb705ecb9b21cc78dd2"
+  },
+  "candidate_sha256": "3185c2e02b129cd5146b1dac69f004e25fe9c2bd6f688444e304520ae23b85f0",
+  "completed": 8,
+  "traces_sha256": "e5115f958abfbe5a3c3dd70acac9267f311fb5a241a7ac25847fb818154aaced"
+}

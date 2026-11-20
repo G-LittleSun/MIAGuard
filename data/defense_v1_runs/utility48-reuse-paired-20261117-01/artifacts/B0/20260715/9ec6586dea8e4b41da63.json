@@ -1,0 +1,12 @@
+{
+  "generation_input": {
+    "query": "How many advertiser accounts did Google expect to add, and by what year?",
+    "contexts": [
+      "Google Targets 370,000 More Advertisers -- Newspaper (Reuters) Reuters - Google Inc. , the No. 1\\Web search company that recently went public and said it will\\not issue financial forecasts, expects to add 372,050\\advertiser accounts by 2008, the San Francisco Chronicle\\reported on Wednesday."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Google Targets 370,000 More Advertisers -- Newspaper (Reuters) Reuters - Google Inc. , the No. 1\\Web search company that recently went public and said it will\\not issue financial forecasts, expects to add 372,050\\advertiser accounts by 2008, the San Francisco Chronicle\\reported on Wednesday.\"\n\nQuestion:\nHow many advertiser accounts did Google expect to add, and by what year?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

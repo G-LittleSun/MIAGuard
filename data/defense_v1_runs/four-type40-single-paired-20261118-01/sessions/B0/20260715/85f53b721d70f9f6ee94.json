@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "3e7b8f17823b2e885fb846c285761b92e68b47d9284f459e773271082971376a",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "q107",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "q107",
+      "session_id": "q107",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Iraq Mobile Network Brings Benefits and Bombs BAGHDAD (Reuters) -... while expanding mobile network coverage is bringing communication benefits to more Iraqis, the country continues to face ongoing security challenges with insurgent attacks targeting both foreign forces and local infrastructure.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000211",
+        "ag_news_teacher_00000283",
+        "ag_news_teacher_00000840",
+        "ag_news_teacher_00000992"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000211",
+        "ag_news_teacher_00000283",
+        "ag_news_teacher_00000840",
+        "ag_news_teacher_00000992"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000211",
+            "ag_news_teacher_00000283",
+            "ag_news_teacher_00000840",
+            "ag_news_teacher_00000992"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000211",
+            "ag_news_teacher_00000283",
+            "ag_news_teacher_00000840",
+            "ag_news_teacher_00000992"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 2055.202600546181,
+      "ledger_event": {
+        "request_id": "q107",
+        "session_id": "q107",
+        "input_sha256": "c8acfcf32dfc50d8a007721f964b84b7520b5f7979219a41fac58ad6eb7b03d5",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000211",
+          "ag_news_teacher_00000283",
+          "ag_news_teacher_00000840",
+          "ag_news_teacher_00000992"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000211",
+            "parent_doc_id": "ag_news_teacher_00000211",
+            "kind": "raw",
+            "score": 0.44793233275413513,
+            "text_sha256": "41ae061e9e16443102d5a3687f6089f6f379c5e8e86145d929afe8cc7c94404b"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000283",
+            "parent_doc_id": "ag_news_teacher_00000283",
+            "kind": "raw",
+            "score": 0.4462234377861023,
+            "text_sha256": "979f8d07354d753a0e4c6e215eafff5cf32cc91dc517c1968d5aaa243fb27059"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000840",
+            "parent_doc_id": "ag_news_teacher_00000840",
+            "kind": "raw",
+            "score": 0.4333904981613159,
+            "text_sha256": "b0c377bf71f0e7acaafc539e71d56dfd3a5a15a7969e8d42fd6538a22c11f155"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000992",
+            "parent_doc_id": "ag_news_teacher_00000992",
+            "kind": "raw",
+            "score": 0.4151121973991394,
+            "text_sha256": "d9157c7784165fb782509b5ec8d1a96dfb598c5bade17cdad8748b589ccbe8f2"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Iraq Mobile Network Brings Benefits and Bombs BAGHDAD (Reuters) -... while expanding mobile network coverage is bringing communication benefits to more Iraqis, the country continues to face ongoing security challenges with insurgent attacks targeting both foreign forces and local infrastructure.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795004582.0612538,
+        "finished_at": 1795004584.1162524
+      },
+      "generation_input_ref": "artifacts/B0/20260715/85f53b721d70f9f6ee94.json",
+      "artifact_sha256": "c1cc829df4804a2bfaab7c12cf12ace3142a2b9e730f03ab4539d5c7754c461c"
+    }
+  ]
+}

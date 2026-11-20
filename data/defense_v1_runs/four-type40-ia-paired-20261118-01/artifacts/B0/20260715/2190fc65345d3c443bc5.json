@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Neiman Marcus Christmas Book with expensive gifts. Is a 12-seater personal zeppelin available for purchase in the Neiman Marcus Christmas Book for $10 million? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Cendant to Acquire Gullivers Travel for \\$1.1 Billion (Update3) Cendant Corp., which owns Days Inn hotels and Avis Rent A Car Systems Inc., agreed to buy the UK #39;s Gullivers Travel Associates and Octopus Travel Group Ltd.",
+      "A pitch for presents of peace With only 30 shopping days till Christmas, there #39;s no time to lose. So here are some nifty gift ideas for the youngsters on your list: - JFK Reloaded.",
+      "Hospitality Properties to buy 13 InterContinental Hotels Hospitality Properties Trust is purchasing 13 hotels for 450 million dollars from InterContinental Hotels Group. Newton-based Hospitality has also signed 25-year ",
+      "Schrager eyes London hotels sale Ian Schrager, known for his luxury boutique hotels, has hung for sale signs over two of his London hotels, the St Martins Lane and the Sanderson."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Cendant to Acquire Gullivers Travel for \\$1.1 Billion (Update3) Cendant Corp., which owns Days Inn hotels and Avis Rent A Car Systems Inc., agreed to buy the UK #39;s Gullivers Travel Associates and Octopus Travel Group Ltd.\"\n\"A pitch for presents of peace With only 30 shopping days till Christmas, there #39;s no time to lose. So here are some nifty gift ideas for the youngsters on your list: - JFK Reloaded.\"\n\"Hospitality Properties to buy 13 InterContinental Hotels Hospitality Properties Trust is purchasing 13 hotels for 450 million dollars from InterContinental Hotels Group. Newton-based Hospitality has also signed 25-year \"\n\"Schrager eyes London hotels sale Ian Schrager, known for his luxury boutique hotels, has hung for sale signs over two of his London hotels, the St Martins Lane and the Sanderson.\"\n\nQuestion:\nI am inquiring about a Neiman Marcus Christmas Book with expensive gifts. Is a 12-seater personal zeppelin available for purchase in the Neiman Marcus Christmas Book for $10 million? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

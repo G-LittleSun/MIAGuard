@@ -1,0 +1,122 @@
+{
+  "attacks": {
+    "direct_rag_mia": {
+      "accuracy_no_defense": 1.0,
+      "accuracy_reduction": 0.0,
+      "accuracy_with_defense": 1.0,
+      "confusion_matrix_no_defense": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 1,
+        "tp": 1
+      },
+      "confusion_matrix_with_defense": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 1,
+        "tp": 1
+      },
+      "f1_no_defense": 1.0,
+      "f1_with_defense": 1.0,
+      "member_count": 1,
+      "member_score_mean_no_defense": 1.0,
+      "member_score_mean_with_defense": 1.0,
+      "nonmember_count": 1,
+      "nonmember_score_mean_no_defense": 0.0,
+      "nonmember_score_mean_with_defense": 0.0,
+      "roc_auc_no_defense": 1.0,
+      "roc_auc_with_defense": 1.0,
+      "sample_count": 2
+    },
+    "ia": {
+      "accuracy_no_defense": 1.0,
+      "accuracy_reduction": 0.0,
+      "accuracy_with_defense": 1.0,
+      "confusion_matrix_no_defense": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 1,
+        "tp": 1
+      },
+      "confusion_matrix_with_defense": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 1,
+        "tp": 1
+      },
+      "f1_no_defense": 1.0,
+      "f1_with_defense": 1.0,
+      "member_count": 1,
+      "member_score_mean_no_defense": 1.0,
+      "member_score_mean_with_defense": 1.0,
+      "nonmember_count": 1,
+      "nonmember_score_mean_no_defense": -0.1,
+      "nonmember_score_mean_with_defense": -0.1,
+      "roc_auc_no_defense": 1.0,
+      "roc_auc_with_defense": 1.0,
+      "sample_count": 2
+    },
+    "masked_mia": {
+      "accuracy_no_defense": 1.0,
+      "accuracy_reduction": 0.5,
+      "accuracy_with_defense": 0.5,
+      "confusion_matrix_no_defense": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 1,
+        "tp": 1
+      },
+      "confusion_matrix_with_defense": {
+        "fn": 1,
+        "fp": 0,
+        "tn": 1,
+        "tp": 0
+      },
+      "f1_no_defense": 1.0,
+      "f1_with_defense": 0.0,
+      "member_count": 1,
+      "member_score_mean_no_defense": 0.4,
+      "member_score_mean_with_defense": 0.0,
+      "nonmember_count": 1,
+      "nonmember_score_mean_no_defense": 0.0,
+      "nonmember_score_mean_with_defense": 0.0,
+      "roc_auc_no_defense": 1.0,
+      "roc_auc_with_defense": 0.5,
+      "sample_count": 2
+    },
+    "s2_mia": {
+      "accuracy_no_defense": 0.5,
+      "accuracy_reduction": 0.0,
+      "accuracy_with_defense": 0.5,
+      "confusion_matrix_no_defense": {
+        "fn": 0,
+        "fp": 1,
+        "tn": 0,
+        "tp": 1
+      },
+      "confusion_matrix_with_defense": {
+        "fn": 0,
+        "fp": 1,
+        "tn": 0,
+        "tp": 1
+      },
+      "f1_no_defense": 0.6666666666666666,
+      "f1_with_defense": 0.6666666666666666,
+      "member_count": 1,
+      "member_score_mean_no_defense": 0.9801524877548218,
+      "member_score_mean_with_defense": 0.9801524877548218,
+      "nonmember_count": 1,
+      "nonmember_score_mean_no_defense": 0.9297915995121002,
+      "nonmember_score_mean_with_defense": 0.9297915995121002,
+      "roc_auc_no_defense": 1.0,
+      "roc_auc_with_defense": 1.0,
+      "sample_count": 2
+    }
+  },
+  "macro_accuracy_no_defense": 0.875,
+  "macro_accuracy_reduction": 0.125,
+  "macro_accuracy_with_defense": 0.75,
+  "macro_roc_auc_no_defense": 1.0,
+  "macro_roc_auc_reduction": 0.125,
+  "macro_roc_auc_with_defense": 0.875
+}

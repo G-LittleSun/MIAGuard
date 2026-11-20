@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Md. Marine's Love of Outdoors and Adventure Remembered For relatives......\" based on the Context.",
+    "contexts": [
+      "A Greener Globe, Maybe With all the hand-wringing about the economic perils of falling populations, there could be one beneficiary: the environment.",
+      "Company Offers 'Space Memorial Services' (AP) AP - People interested in an out-of-this-world post-death experience can \"boldly go where no man has gone before\" with a space memorial service that blasts their ashes into space.",
+      "US deserter starts life in Japan A former US army sergeant who deserted to North Korea in the 1960s has arrived on a remote Japanese island to start what he said was the  quot;last chapter quot; of his life with his wife and two daughters.",
+      "Fishing Just for Fun Damages Stocks, Study Finds People fishing for sport are doing far more damage to US marine fish stocks than anyone thought, accounting for nearly a quarter of the "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"A Greener Globe, Maybe With all the hand-wringing about the economic perils of falling populations, there could be one beneficiary: the environment.\"\n\"Company Offers 'Space Memorial Services' (AP) AP - People interested in an out-of-this-world post-death experience can \"boldly go where no man has gone before\" with a space memorial service that blasts their ashes into space.\"\n\"US deserter starts life in Japan A former US army sergeant who deserted to North Korea in the 1960s has arrived on a remote Japanese island to start what he said was the  quot;last chapter quot; of his life with his wife and two daughters.\"\n\"Fishing Just for Fun Damages Stocks, Study Finds People fishing for sport are doing far more damage to US marine fish stocks than anyone thought, accounting for nearly a quarter of the \"\n\nQuestion:\nComplete this sentence \"Md. Marine's Love of Outdoors and Adventure Remembered For relatives......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

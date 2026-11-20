@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Tokyo stocks and US dollar vs. Japanese yen. Did Tokyo stocks increase on Monday morning? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Nikkei Up at Midday, Led by Telecoms (Reuters) Reuters - Tokyo stocks were higher at midday on\\Wednesday thanks to gains in telecom shares and a handful of\\small-caps, but the rise was limited as big technology firms\\wilted ahead of a business update from bellwether Intel Corp.",
+      "Yen Rises on Corporate Sentiment Poll The yen rose on Friday after the Bank of Japan #39;s closely watched  quot;tankan quot; survey showed further improvement in Japanese business sentiment.",
+      "Update 5: Tokyo #39;s Stocks Lower on Profit Taking Tokyo #39;s key stock index fell Tuesday morning on profit taking following hefty gains the day before. The US dollar was higher against the Japanese yen.",
+      "Dollar Hovers Near 1-Month Low Vs Yen  TOKYO (Reuters) - The dollar hovered near a one-month low  against the yen on Tuesday after disappointing U.S. hiring  figures last week fueled speculation the Federal Reserve could  press \"pause\" on its current tightening cycle."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Nikkei Up at Midday, Led by Telecoms (Reuters) Reuters - Tokyo stocks were higher at midday on\\Wednesday thanks to gains in telecom shares and a handful of\\small-caps, but the rise was limited as big technology firms\\wilted ahead of a business update from bellwether Intel Corp.\"\n\"Yen Rises on Corporate Sentiment Poll The yen rose on Friday after the Bank of Japan #39;s closely watched  quot;tankan quot; survey showed further improvement in Japanese business sentiment.\"\n\"Update 5: Tokyo #39;s Stocks Lower on Profit Taking Tokyo #39;s key stock index fell Tuesday morning on profit taking following hefty gains the day before. The US dollar was higher against the Japanese yen.\"\n\"Dollar Hovers Near 1-Month Low Vs Yen  TOKYO (Reuters) - The dollar hovered near a one-month low  against the yen on Tuesday after disappointing U.S. hiring  figures last week fueled speculation the Federal Reserve could  press \"pause\" on its current tightening cycle.\"\n\nQuestion:\nI am inquiring about a Tokyo stocks and US dollar vs. Japanese yen. Did Tokyo stocks increase on Monday morning? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

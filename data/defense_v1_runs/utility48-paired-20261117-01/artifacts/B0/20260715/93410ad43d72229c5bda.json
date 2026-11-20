@@ -1,0 +1,12 @@
+{
+  "generation_input": {
+    "query": "What was the attendance at the Oklahoma-Baylor game?",
+    "contexts": [
+      "No. 2 Oklahoma Blows Out Baylor 35-0 (AP) AP - Adrian Peterson ran for 240 yards, including three second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor 35-0 on Saturday."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"No. 2 Oklahoma Blows Out Baylor 35-0 (AP) AP - Adrian Peterson ran for 240 yards, including three second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor 35-0 on Saturday.\"\n\nQuestion:\nWhat was the attendance at the Oklahoma-Baylor game?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

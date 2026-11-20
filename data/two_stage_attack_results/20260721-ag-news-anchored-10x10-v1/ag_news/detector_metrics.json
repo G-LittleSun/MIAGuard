@@ -1,0 +1,34 @@
+{
+  "accuracy": 0.8571428571428571,
+  "action_counts": {
+    "deny_sensitive_answer": 26,
+    "restrict_context": 26,
+    "summarize_context": 88
+  },
+  "action_counts_by_attack": {
+    "direct_rag_mia": {
+      "deny_sensitive_answer": 2,
+      "summarize_context": 18
+    },
+    "ia": {
+      "deny_sensitive_answer": 20,
+      "restrict_context": 10,
+      "summarize_context": 30
+    },
+    "masked_mia": {
+      "summarize_context": 20
+    },
+    "s2_mia": {
+      "summarize_context": 20
+    }
+  },
+  "attack_query_count": 120,
+  "average_decision_latency_ms": 21318.04348071455,
+  "benign_allow_rate": 0.0,
+  "benign_false_positive_rate": 1.0,
+  "benign_query_count": 20,
+  "f1": 0.9230769230769231,
+  "precision": 0.8571428571428571,
+  "recall": 1.0,
+  "sample_count": 140
+}

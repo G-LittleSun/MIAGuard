@@ -1,0 +1,12 @@
+{
+  "access_action": "allow",
+  "access_level": "L0",
+  "contexts_equal": true,
+  "dataset_id": "ag_news",
+  "document_ids_equal": true,
+  "query": "What is the main topic of this news?",
+  "retrieval_scores_equal": true,
+  "session_state_empty": true,
+  "source_run_id": "20260717-ag-news-four-medium",
+  "status": "passed"
+}

@@ -1,0 +1,371 @@
+{
+  "analysis_role": "engineering_only",
+  "human_reviewed": false,
+  "source_sha256": {
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\utility48_review_units_20261117.jsonl": "c469fb49a37c85c81f6f0d113887784bbe1d135aefda67189fb96b457b7b0df8",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\utility48_b0_agent_review_20261117.jsonl": "f63a1305acb3ec639c3b20aea23893b5747de02551dbe4e4e9fddcac115e3fc2",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\utility48_scores_20261117.jsonl": "56f6cd70589fbcb26c04f1d69e790bfe5240026c22e937e979fac603d2454292"
+  },
+  "summary": {
+    "B0": {
+      "all": {
+        "questions": 48,
+        "correct": [
+          35,
+          36
+        ],
+        "correct_supported": [
+          35,
+          36
+        ],
+        "completeness": [
+          39,
+          40
+        ],
+        "faithfulness": [
+          53,
+          55
+        ],
+        "empty_claim_answers": 12,
+        "initial_evidence_coverage": [
+          40,
+          40
+        ],
+        "delivered_evidence_coverage": [
+          40,
+          40
+        ],
+        "reasonable_insufficient": [
+          12,
+          12
+        ],
+        "actions": {
+          "allow": 48
+        }
+      },
+      "standard": {
+        "questions": 12,
+        "correct": [
+          11,
+          12
+        ],
+        "correct_supported": [
+          11,
+          12
+        ],
+        "completeness": [
+          11,
+          12
+        ],
+        "faithfulness": [
+          16,
+          17
+        ],
+        "empty_claim_answers": 0,
+        "initial_evidence_coverage": [
+          12,
+          12
+        ],
+        "delivered_evidence_coverage": [
+          12,
+          12
+        ],
+        "reasonable_insufficient": [
+          0,
+          0
+        ],
+        "actions": {
+          "allow": 12
+        }
+      },
+      "alternative": {
+        "questions": 12,
+        "correct": [
+          12,
+          12
+        ],
+        "correct_supported": [
+          12,
+          12
+        ],
+        "completeness": [
+          12,
+          12
+        ],
+        "faithfulness": [
+          16,
+          17
+        ],
+        "empty_claim_answers": 0,
+        "initial_evidence_coverage": [
+          12,
+          12
+        ],
+        "delivered_evidence_coverage": [
+          12,
+          12
+        ],
+        "reasonable_insufficient": [
+          0,
+          0
+        ],
+        "actions": {
+          "allow": 12
+        }
+      },
+      "dependent": {
+        "questions": 12,
+        "correct": [
+          12,
+          12
+        ],
+        "correct_supported": [
+          12,
+          12
+        ],
+        "completeness": [
+          16,
+          16
+        ],
+        "faithfulness": [
+          21,
+          21
+        ],
+        "empty_claim_answers": 0,
+        "initial_evidence_coverage": [
+          16,
+          16
+        ],
+        "delivered_evidence_coverage": [
+          16,
+          16
+        ],
+        "reasonable_insufficient": [
+          0,
+          0
+        ],
+        "actions": {
+          "allow": 12
+        }
+      },
+      "insufficient": {
+        "questions": 12,
+        "correct": [
+          0,
+          0
+        ],
+        "correct_supported": [
+          0,
+          0
+        ],
+        "completeness": [
+          0,
+          0
+        ],
+        "faithfulness": [
+          0,
+          0
+        ],
+        "empty_claim_answers": 12,
+        "initial_evidence_coverage": [
+          0,
+          0
+        ],
+        "delivered_evidence_coverage": [
+          0,
+          0
+        ],
+        "reasonable_insufficient": [
+          12,
+          12
+        ],
+        "actions": {
+          "allow": 12
+        }
+      }
+    },
+    "B_TYPE_V2": {
+      "all": {
+        "questions": 48,
+        "correct": [
+          35,
+          36
+        ],
+        "correct_supported": [
+          35,
+          36
+        ],
+        "completeness": [
+          39,
+          40
+        ],
+        "faithfulness": [
+          53,
+          55
+        ],
+        "empty_claim_answers": 12,
+        "initial_evidence_coverage": [
+          40,
+          40
+        ],
+        "delivered_evidence_coverage": [
+          40,
+          40
+        ],
+        "reasonable_insufficient": [
+          12,
+          12
+        ],
+        "actions": {
+          "allow": 48
+        }
+      },
+      "standard": {
+        "questions": 12,
+        "correct": [
+          11,
+          12
+        ],
+        "correct_supported": [
+          11,
+          12
+        ],
+        "completeness": [
+          11,
+          12
+        ],
+        "faithfulness": [
+          16,
+          17
+        ],
+        "empty_claim_answers": 0,
+        "initial_evidence_coverage": [
+          12,
+          12
+        ],
+        "delivered_evidence_coverage": [
+          12,
+          12
+        ],
+        "reasonable_insufficient": [
+          0,
+          0
+        ],
+        "actions": {
+          "allow": 12
+        }
+      },
+      "alternative": {
+        "questions": 12,
+        "correct": [
+          12,
+          12
+        ],
+        "correct_supported": [
+          12,
+          12
+        ],
+        "completeness": [
+          12,
+          12
+        ],
+        "faithfulness": [
+          16,
+          17
+        ],
+        "empty_claim_answers": 0,
+        "initial_evidence_coverage": [
+          12,
+          12
+        ],
+        "delivered_evidence_coverage": [
+          12,
+          12
+        ],
+        "reasonable_insufficient": [
+          0,
+          0
+        ],
+        "actions": {
+          "allow": 12
+        }
+      },
+      "dependent": {
+        "questions": 12,
+        "correct": [
+          12,
+          12
+        ],
+        "correct_supported": [
+          12,
+          12
+        ],
+        "completeness": [
+          16,
+          16
+        ],
+        "faithfulness": [
+          21,
+          21
+        ],
+        "empty_claim_answers": 0,
+        "initial_evidence_coverage": [
+          16,
+          16
+        ],
+        "delivered_evidence_coverage": [
+          16,
+          16
+        ],
+        "reasonable_insufficient": [
+          0,
+          0
+        ],
+        "actions": {
+          "allow": 12
+        }
+      },
+      "insufficient": {
+        "questions": 12,
+        "correct": [
+          0,
+          0
+        ],
+        "correct_supported": [
+          0,
+          0
+        ],
+        "completeness": [
+          0,
+          0
+        ],
+        "faithfulness": [
+          0,
+          0
+        ],
+        "empty_claim_answers": 12,
+        "initial_evidence_coverage": [
+          0,
+          0
+        ],
+        "delivered_evidence_coverage": [
+          0,
+          0
+        ],
+        "reasonable_insufficient": [
+          12,
+          12
+        ],
+        "actions": {
+          "allow": 12
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Agent-reviewed claims, not human gold.",
+    "Selected repeated sources with simulated allowlists.",
+    "Quote matching is coverage proxy and assumes listed supporting quotes are complete.",
+    "All actions allow; this run does not estimate effectiveness of the filtering action."
+  ]
+}

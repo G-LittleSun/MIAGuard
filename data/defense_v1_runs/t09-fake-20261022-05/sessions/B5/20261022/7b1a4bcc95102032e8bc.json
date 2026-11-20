@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "af0978f0a867a2d509bc17f13395fc0fe9f8cccd3fef1f6a744b794d5fff8bbc",
+  "method": "B5",
+  "seed": 20261022,
+  "session_id": "fake-ia-session",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "fake-ia",
+      "session_id": "fake-ia-session",
+      "method": "B5",
+      "seed": 20261022,
+      "status": "complete",
+      "response": "Yes",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "target",
+        "safe"
+      ],
+      "delivered_doc_ids": [
+        "safe"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.95,
+          "risk_class": "STRONG",
+          "scoring_method": "fake_judge",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.5,
+          "risk_class": "WEAK",
+          "scoring_method": "fake_judge",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.125,
+          "total_risk_score": 0.95
+        },
+        "access_control": {
+          "mode": "observe",
+          "recommended_level": "L4",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "DENY_SENSITIVE_REQUEST",
+            "FULL_AUDIT"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "fake_judge",
+          "session_scorer": "fake_judge",
+          "policy": "two_stage_policy_v1"
+        },
+        "execution": {
+          "recommended_action": "hide_target_refill",
+          "applied_action": "hide_target_refill",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "target",
+            "safe"
+          ],
+          "delivered_doc_ids": [
+            "safe"
+          ],
+          "excluded_parent_ids": [
+            "target"
+          ],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "hide_target_refill",
+      "latency_ms": 0.09660003706812859,
+      "ledger_event": null,
+      "generation_input_ref": "artifacts/B5/20261022/7582af806fe8bdd11141.json",
+      "artifact_sha256": "faae8cb3c2857fa5a7da5717c36e816ffc9bd1c10e18981352748b44f33e8207"
+    }
+  ]
+}

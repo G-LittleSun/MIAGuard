@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "pending_human_review",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "task_count": 47,
+  "benign_count": 15,
+  "attack_count": 32,
+  "inputs_sha256": {
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\next_goal_v2_train_20261117_01\\manifest.json": "5aa8bc8c2a47d5cf39da30867d7c367e68217ae4958a1d737590e04df7e91b0b",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\next_goal_v2_train_20261117_01\\requests.jsonl": "e17bb9c5b4757403ed966b19f59b4c4daa8dcd709a1fbe4529024ad5b9bf4fe1",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\next_goal_v2_train_20261117_01\\labels.jsonl": "82f2f53324abda1faa774193bd46dc7b601c3225945647aaab5c67b2eca7ef7f",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\next_goal_v2_train_20261117_01\\lineage.jsonl": "bbd1882ea1659041dfd49fe504148b9320a18686ff2c5e4c31f18b1db5f4ea6e",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\next_goal_v2_train_20261117_01\\normal_rubric.jsonl": "5553d9a9bcbb5031c72cc30ec4aafd50e657d58e142052c1e0e8da026aec4c18",
+    "D:\\Project\\MIAGuard\\data\\runs\\20260717-ag-news-four-medium\\ag_news\\target_docs.jsonl": "f7f604ce3acde220998ab2bd93186441119ba0074ae2e7fdf8fcdcde79f11eb1",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\build_next_goal_human_review_packet_20261117.py": "0fb6374b7201dfe1b373a1449775b79ec888f4070bbcacc0e5bd1886252fb536"
+  },
+  "outputs_sha256": {
+    "review_packet.jsonl": "3a4ccfba4e395644647b16cebe138c1b46ef4797ee3530891201693c0faaad9f",
+    "HUMAN_REVIEW_GUIDE_ZH.md": "01b4a0d0928fe08963f4459a6d00fc1283ffac067a28e962c572076a169cec8e"
+  },
+  "limitations": [
+    "v2 train development cohort; independent formal evaluation cohort not established.",
+    "No human review has been performed.",
+    "Membership labels omitted from packet."
+  ]
+}

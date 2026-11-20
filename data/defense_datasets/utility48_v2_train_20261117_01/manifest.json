@@ -1,0 +1,32 @@
+{
+  "version_id": "utility48_v2_train_20261117_01",
+  "partition": "train",
+  "analysis_role": "engineering_only",
+  "human_gold_complete": false,
+  "formal_effect_eligible": false,
+  "request_count": 48,
+  "methods": [
+    "B0",
+    "B_TYPE_V2"
+  ],
+  "expected_events": 96,
+  "input_sha256": {
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\utility48_annotation_draft_20261117.jsonl": "e6a3a9f602a3da5614f9cc7ff27e687d0561bbb3bba97a5d05f86fdcd88b6973",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\next_goal_v2_train_20261117_01\\manifest.json": "5aa8bc8c2a47d5cf39da30867d7c367e68217ae4958a1d737590e04df7e91b0b",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\freeze_utility48_smoke_20261117.py": "bde6694a2d54d03d5a2164c0ad6b1e67616f08769dbcc2adc6f9b80a3d519081",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\UTILITY48_SCORING_DRAFT_ZH.md": "2add4b5e820addf48d837cf2251573b58be194ca7fb8ac052627943a9b6d6bed"
+  },
+  "output_sha256": {
+    "experiment_spec.json": "fc66d702eeab9311d85a9cb5ff2e796bc299f42a03016ebf8dceafce035f288c",
+    "labels.jsonl": "c33f2ca5e37aad28885374262a902db18c345ee34c0253e48a7cd384150f9c60",
+    "lineage.jsonl": "ec9ae0bed91e8ce2217eee92674ebcb71e6af052b662006b34d828e5a429f496",
+    "normal_rubric.jsonl": "f81fd466b5c0d11216e6ab30f77035bd3321223ff023e8b7d0f76a147311865c",
+    "requests.jsonl": "35abfaaef0b9c5cb043af6b33fd912a64dc50317ca39bf99253971d37820126b",
+    "scoring_protocol_zh.md": "2add4b5e820addf48d837cf2251573b58be194ca7fb8ac052627943a9b6d6bed"
+  },
+  "limitations": [
+    "Agent-authored questions and references, not human gold.",
+    "Repeated event sources; 48 queries are not independent events.",
+    "Simulated per-query allowlists; supplementary indexed documents outside query split."
+  ]
+}

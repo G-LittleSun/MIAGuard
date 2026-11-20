@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Stephen Fleming and Ricky Ponting in a cricket match. Did New Zealand win the toss in the cricket match? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Windies book final against England as Pakistan flop WEST Indies beat Pakistan by seven wickets at the Rose Bowl yesterday to reach the final of crickets Champions Trophy and set up a showdown with hosts England at the Oval on Saturday.",
+      "England complete whitewash Bulawayo: England bowled out Zimbabwe to win their fourth ODI by 74 runs on Sunday to complete a 4-0 series whitewash. Darren Gough took four for 34 as England bowled out the hosts for 187, having set them a victory target of 262.",
+      "India end losing streak with thrilling win London: The hallowed turfs of Lord #39;s once again provided the inspiration for the Indian team who ended their five-match losing streak with a thrilling 23-run victory over England in the third and final NatWest Challenge one-day cricket international here ",
+      "Mauresmo wins first match as world No. 1 Amelie Mauresmo overcame a slow start Thursday to win her first match as the world #39;s top ranked player, beating Patty Schnyder of Switzerland 7-5, 6-4 at the Porsche Grand Prix."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Windies book final against England as Pakistan flop WEST Indies beat Pakistan by seven wickets at the Rose Bowl yesterday to reach the final of crickets Champions Trophy and set up a showdown with hosts England at the Oval on Saturday.\"\n\"England complete whitewash Bulawayo: England bowled out Zimbabwe to win their fourth ODI by 74 runs on Sunday to complete a 4-0 series whitewash. Darren Gough took four for 34 as England bowled out the hosts for 187, having set them a victory target of 262.\"\n\"India end losing streak with thrilling win London: The hallowed turfs of Lord #39;s once again provided the inspiration for the Indian team who ended their five-match losing streak with a thrilling 23-run victory over England in the third and final NatWest Challenge one-day cricket international here \"\n\"Mauresmo wins first match as world No. 1 Amelie Mauresmo overcame a slow start Thursday to win her first match as the world #39;s top ranked player, beating Patty Schnyder of Switzerland 7-5, 6-4 at the Porsche Grand Prix.\"\n\nQuestion:\nI am inquiring about a Stephen Fleming and Ricky Ponting in a cricket match. Did New Zealand win the toss in the cricket match? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

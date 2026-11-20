@@ -1,0 +1,12 @@
+{
+  "generation_input": {
+    "query": "What does NASA plan to add to planetary rovers?",
+    "contexts": [
+      "NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is planning to add a strong dose of artificial intelligence (AI) to planetary rovers to make them much more self-reliant, capable of making basic decisions during a mission. Scientists are developing very complex AI software that enables a higher level of robotic intelligence."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is planning to add a strong dose of artificial intelligence (AI) to planetary rovers to make them much more self-reliant, capable of making basic decisions during a mission. Scientists are developing very complex AI software that enables a higher level of robotic intelligence.\"\n\nQuestion:\nWhat does NASA plan to add to planetary rovers?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

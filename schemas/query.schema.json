@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://miafence.local/schemas/query.schema.json",
+  "title": "MIAFence unified query record",
+  "type": "object",
+  "required": [
+    "query_id",
+    "session_id",
+    "turn_id",
+    "split",
+    "attack_type",
+    "attack_variant",
+    "template_id",
+    "target_doc_id",
+    "membership_label",
+    "query",
+    "expected_answer",
+    "evidence_text",
+    "generation_method",
+    "generator_model",
+    "seed",
+    "metadata"
+  ],
+  "properties": {
+    "query_id": {"type": "string", "minLength": 1},
+    "session_id": {"type": "string", "minLength": 1},
+    "turn_id": {"type": "integer", "minimum": 1},
+    "split": {"enum": ["train", "validation", "test"]},
+    "attack_type": {
+      "enum": ["benign", "direct_ask", "s2mia", "mask_based", "ia"]
+    },
+    "attack_variant": {"type": "string", "minLength": 1},
+    "template_id": {"type": "string", "minLength": 1},
+    "target_doc_id": {"type": "string", "minLength": 1},
+    "membership_label": {"type": "integer", "enum": [0, 1]},
+    "query": {"type": "string", "minLength": 1},
+    "expected_answer": {"type": ["string", "null"]},
+    "evidence_text": {"type": ["string", "null"]},
+    "generation_method": {"type": "string", "minLength": 1},
+    "generator_model": {"type": ["string", "null"]},
+    "seed": {"type": "integer"},
+    "metadata": {"type": "object"}
+  },
+  "additionalProperties": true
+}
+

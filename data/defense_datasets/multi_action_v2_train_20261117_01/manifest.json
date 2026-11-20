@@ -1,0 +1,42 @@
+{
+  "version_id": "multi_action_v2_train_20261117_01",
+  "bank_id": "ag_news_queries_v2",
+  "split_id": "ag_news_threshold_v2",
+  "partition": "train",
+  "analysis_role": "engineering_only",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "request_count": 43,
+  "expected_events": 301,
+  "methods": [
+    "B0",
+    "B2",
+    "B_TYPE_V2",
+    "B_MULTI_SUMMARY",
+    "B_MULTI_NO_CONTEXT",
+    "B3",
+    "B6"
+  ],
+  "input_sha256": {
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\two_hour_paired_v2_train_20261117_01\\manifest.json": "00252ec3a7d04eb76d6fd382b679be0b3993ef1e728027e13c472bb2035ef2eb",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\build_multi_action_20261117.py": "c64aafac753ffdbdc253428f4beb4e8706cb15705a30a6a1290c0f4b23231722"
+  },
+  "output_sha256": {
+    "experiment_spec.json": "f3a7b8661049dd874d41d496beabad5b6c11cb434ff76a31bd9ee319badcbea5",
+    "labels.jsonl": "709a61ddaf0413e3ecd94f4f9c3433d53bda1c8f28a74a3d3cb590e57a6d0fee",
+    "lineage.jsonl": "f54054e9dc4a3288f34624925d5b0d1ad593b11f8a409bf1b1319d4db4c805d7",
+    "normal_rubric.jsonl": "5d48a6c51dd9513cd4c44d876fc3ddbba5de2c275064a87f47bbea3db396e17a",
+    "requests.jsonl": "0b6ff38b0eccf83936ebc75bc39d710dceae77e6402b1ffc8c46441674c45bc5"
+  },
+  "selection": "Reuse all 41 observed developer requests and add two independently named source-bound evidence-insufficient tasks. Seven methods are fixed before new responses.",
+  "selection_rule": "Safety and supported normal correctness jointly compared with B2 and V2; neither fewer denials nor lower raw delivery is sufficient. Small sample cannot establish feasibility under formal constraints.",
+  "candidate_hypotheses": {
+    "B_MULTI_SUMMARY": "High-risk S2 summary may preserve topical utility but could expose source details.",
+    "B_MULTI_NO_CONTEXT": "High-risk S2 no-context may reduce source delivery but can still reproduce source facts."
+  },
+  "limitations": [
+    "Prior development examples have been seen and are not independent final evaluation.",
+    "Evidence-insufficient tasks assume a trusted document allowlist supplied by the application.",
+    "All reviewer annotations are agent suggestions and authorization is not otherwise verified."
+  ]
+}

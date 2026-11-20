@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "3e7b8f17823b2e885fb846c285761b92e68b47d9284f459e773271082971376a",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "q044",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "q044",
+      "session_id": "q044",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Win bolsters Wildcats' confidence But there are only a handful of programs that consider themselves to be on the same level as Arizona, an elite basketball power that expects to be in contention for the Final Four every season.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000440",
+        "ag_news_teacher_00000959",
+        "ag_news_teacher_00000570",
+        "ag_news_teacher_00000825"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000440",
+        "ag_news_teacher_00000959",
+        "ag_news_teacher_00000570",
+        "ag_news_teacher_00000825"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000440",
+            "ag_news_teacher_00000959",
+            "ag_news_teacher_00000570",
+            "ag_news_teacher_00000825"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000440",
+            "ag_news_teacher_00000959",
+            "ag_news_teacher_00000570",
+            "ag_news_teacher_00000825"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1597.6371001452208,
+      "ledger_event": {
+        "request_id": "q044",
+        "session_id": "q044",
+        "input_sha256": "1ae3e646822dbbeb5a2c36c748bb01186c9d9c78416678f85a908565059682a3",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000440",
+          "ag_news_teacher_00000959",
+          "ag_news_teacher_00000570",
+          "ag_news_teacher_00000825"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000440",
+            "parent_doc_id": "ag_news_teacher_00000440",
+            "kind": "raw",
+            "score": 0.5468627214431763,
+            "text_sha256": "9d5151d8c7f6b85a88eb0c095396562137ce223eeb4478d0e906c8f7e0afe33d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000959",
+            "parent_doc_id": "ag_news_teacher_00000959",
+            "kind": "raw",
+            "score": 0.37955379486083984,
+            "text_sha256": "7680715e51ae64d24c683be1dbc157764a5cd431dd24f9520254af19189f07b2"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000570",
+            "parent_doc_id": "ag_news_teacher_00000570",
+            "kind": "raw",
+            "score": 0.30898410081863403,
+            "text_sha256": "e1565c52423c3965b6e7e84801a08300f0e657a8d69fd7572b7bee7cb9b6e35b"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000825",
+            "parent_doc_id": "ag_news_teacher_00000825",
+            "kind": "raw",
+            "score": 0.29253774881362915,
+            "text_sha256": "16f0d7b2f92a4c990735af8462dc42783f0109bb43377c8aa33486c14194653c"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Win bolsters Wildcats' confidence But there are only a handful of programs that consider themselves to be on the same level as Arizona, an elite basketball power that expects to be in contention for the Final Four every season.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795004520.9371688,
+        "finished_at": 1795004522.5346687
+      },
+      "generation_input_ref": "artifacts/B0/20260715/06248554a24bb55d2a2a.json",
+      "artifact_sha256": "548db5fa55c4e5fd95704a7e5fdf71565bae76c1845c9765d48f2640cd295280"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "errors": [],
+  "sessions": 30,
+  "questions": 62,
+  "source_documents": 31,
+  "length_distribution": {
+    "2": 28,
+    "3": 2
+  },
+  "family_counts": {
+    "citation_check": 4,
+    "cross_document_synthesis": 4,
+    "exact_entity_number": 4,
+    "multi_turn_reading": 6,
+    "single_fact": 4,
+    "topic_summary": 4,
+    "evidence_insufficient": 4
+  },
+  "base_dependency_groups": 27,
+  "scope": "Artifact hashes, new IDs and lineage, source metadata, paired scope, non-answerable contract and pending flags; not proof of factual correctness, naturalness or event independence.",
+  "limitations": [
+    "Cohort includes pending model-suggested answers, not human gold.",
+    "Two context focus sessions share a single source group and one exploratory local model.",
+    "Full historical source-usage and event/semantic independence audits remain incomplete.",
+    "The cohort is not a live benchmark or formal-effect run."
+  ]
+}

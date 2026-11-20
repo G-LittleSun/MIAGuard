@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a 14-year old boy and tiger handler attacked by Siberian tiger at Florida county fair. Did the attack on the 14-year old boy involve a 350-pound Siberian tiger? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Tiger Attacks 14-Year Old Boy, Handler At Fair ST. AUGUSTINE, Fla. -- A 14-year old boy and a tiger handler are recovering after being attacked by a 350-pound Siberian tiger at a county fair in Florida.",
+      "SPCA chapter closed over J. Williams case A New Jersey chapter of the Society for the Prevention of Cruelty to Animals was ordered to close because it did not prosecute Jayson Williams over accusations he shot and killed his dog.",
+      " #39;Four dead, 130 hurt #39; as train hits car at crossing Four people were believed to have been killed and 130 injured last night when a passenger train derailed after striking a vehicle at a level crossing.",
+      "Woods is an exchange student You think the rush to exchange presents Dec. 26 will be furious? It might not compare with the mad dash of folks looking to reassess their 2004 viewpoints of one Tiger Woods."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Tiger Attacks 14-Year Old Boy, Handler At Fair ST. AUGUSTINE, Fla. -- A 14-year old boy and a tiger handler are recovering after being attacked by a 350-pound Siberian tiger at a county fair in Florida.\"\n\"SPCA chapter closed over J. Williams case A New Jersey chapter of the Society for the Prevention of Cruelty to Animals was ordered to close because it did not prosecute Jayson Williams over accusations he shot and killed his dog.\"\n\" #39;Four dead, 130 hurt #39; as train hits car at crossing Four people were believed to have been killed and 130 injured last night when a passenger train derailed after striking a vehicle at a level crossing.\"\n\"Woods is an exchange student You think the rush to exchange presents Dec. 26 will be furious? It might not compare with the mad dash of folks looking to reassess their 2004 viewpoints of one Tiger Woods.\"\n\nQuestion:\nI am inquiring about a 14-year old boy and tiger handler attacked by Siberian tiger at Florida county fair. Did the attack on the 14-year old boy involve a 350-pound Siberian tiger? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

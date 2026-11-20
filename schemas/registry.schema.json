@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://miaguard.local/schemas/registry.schema.json",
+  "title": "MIA dataset registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "datasets"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "datasets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["dataset_id", "descriptor", "config"],
+        "properties": {
+          "dataset_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+          },
+          "descriptor": {"type": "string", "minLength": 1},
+          "config": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

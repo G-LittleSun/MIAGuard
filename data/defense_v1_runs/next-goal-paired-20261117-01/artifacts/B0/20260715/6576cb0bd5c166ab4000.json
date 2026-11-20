@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"U.S. Men End 40-Year Rowing Drought  ATHENS (Reuters) - The United States stormed to their first  Olympic men's eights title in 40 years on Sunday.\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "Men #39;s 400 a sweep for the US ATHENS, Greece - As Bruce Springsteen #39;s  quot;Born in the USA quot; blared over the Olympic Stadium loudspeaker Monday night, three athletes in red, white and blue began a slow victory lap.",
+      "Day 15: China totals 31 after volleyball gold Zhang Yuehong #39;s winner spike capped China #39;s brilliant comeback in the women #39;s volleyball final on Saturday, winning the country #39;s first Olympic volleyball gold medal in 20 years.",
+      "Event of the Day -- Women #39;s beach volleyball Why you should watch: The athletes are impossibly tanned and fit, the setting couldn #39;t be more beautiful and the competition will be fierce.",
+      "George Johnson on Sports: NFL, Baseball, WNBA Description: George Johnson talks about the NFL, WNBA playoffs, baseball pennant races and other sports headlines. There #39;s the music which means it #39;s time to bounce."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Men #39;s 400 a sweep for the US ATHENS, Greece - As Bruce Springsteen #39;s  quot;Born in the USA quot; blared over the Olympic Stadium loudspeaker Monday night, three athletes in red, white and blue began a slow victory lap.\"\n\"Day 15: China totals 31 after volleyball gold Zhang Yuehong #39;s winner spike capped China #39;s brilliant comeback in the women #39;s volleyball final on Saturday, winning the country #39;s first Olympic volleyball gold medal in 20 years.\"\n\"Event of the Day -- Women #39;s beach volleyball Why you should watch: The athletes are impossibly tanned and fit, the setting couldn #39;t be more beautiful and the competition will be fierce.\"\n\"George Johnson on Sports: NFL, Baseball, WNBA Description: George Johnson talks about the NFL, WNBA playoffs, baseball pennant races and other sports headlines. There #39;s the music which means it #39;s time to bounce.\"\n\nQuestion:\nDoes this: \"U.S. Men End 40-Year Rowing Drought  ATHENS (Reuters) - The United States stormed to their first  Olympic men's eights title in 40 years on Sunday.\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

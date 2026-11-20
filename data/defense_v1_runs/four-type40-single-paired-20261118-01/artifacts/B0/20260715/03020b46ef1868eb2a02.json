@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"To O #39;Neal, Bryant #39;s only  #39;That Guy #39; WASHINGTON Back when his goal in life was to become the first man to win an NBA championship and an Oscar, Shaquille O #39;Neal did some movies.\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "To O #39;Neal, Bryant #39;s only  #39;That Guy #39; WASHINGTON Back when his goal in life was to become the first man to win an NBA championship and an Oscar, Shaquille O #39;Neal did some movies.",
+      "O #39;Neal Wants More From Team MIAMI -- Shaquille O #39;Neal thinks Miami #39;s opponents are rising to the challenge of playing against him and Dwyane Wade. And right now, the Heat aren #39;t responding the way their center would prefer.",
+      "George Johnson on Sports: NFL, Baseball, WNBA Description: George Johnson talks about the NFL, WNBA playoffs, baseball pennant races and other sports headlines. There #39;s the music which means it #39;s time to bounce.",
+      "Winning  #39;no matter #39; to Pakistan Skipper Inzamam-ul-Haq said taking part was more important than winning ahead of Pakistan #39;s first match in India for over five years."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"To O #39;Neal, Bryant #39;s only  #39;That Guy #39; WASHINGTON Back when his goal in life was to become the first man to win an NBA championship and an Oscar, Shaquille O #39;Neal did some movies.\"\n\"O #39;Neal Wants More From Team MIAMI -- Shaquille O #39;Neal thinks Miami #39;s opponents are rising to the challenge of playing against him and Dwyane Wade. And right now, the Heat aren #39;t responding the way their center would prefer.\"\n\"George Johnson on Sports: NFL, Baseball, WNBA Description: George Johnson talks about the NFL, WNBA playoffs, baseball pennant races and other sports headlines. There #39;s the music which means it #39;s time to bounce.\"\n\"Winning  #39;no matter #39; to Pakistan Skipper Inzamam-ul-Haq said taking part was more important than winning ahead of Pakistan #39;s first match in India for over five years.\"\n\nQuestion:\nDoes this: \"To O #39;Neal, Bryant #39;s only  #39;That Guy #39; WASHINGTON Back when his goal in life was to become the first man to win an NBA championship and an Oscar, Shaquille O #39;Neal did some movies.\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

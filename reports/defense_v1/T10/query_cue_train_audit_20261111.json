@@ -1,0 +1,27 @@
+{
+  "version": "query_cue_v1",
+  "partition": "train",
+  "counts": {
+    "benign": 1304,
+    "direct_rag_mia": 300,
+    "ia": 2375,
+    "masked_mia": 300,
+    "s2_mia": 300
+  },
+  "cues_by_attack_type": {
+    "direct_rag_mia": 127,
+    "masked_mia": 150
+  },
+  "benign_flagged_query_ids": [],
+  "limitations": [
+    "Offline query cue matches, not online actions or measured false-positive rates.",
+    "Train data labels and benign semantics require review.",
+    "Candidate was motivated by already-observed development examples."
+  ],
+  "input_sha256": {
+    "data/query_banks/ag_news_queries_v2/ag_news/queries.jsonl": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972",
+    "data/query_bank_splits/ag_news_threshold_v2.json": "96977e550be6c0e42ab0b7609f2c73af261a99474b459778ae46fd123c7b80ef",
+    "src/miaguard/query_cue.py": "bd699be76428bdb9903de2babb8c40dae9a2c47d98bc8df9bd67a81ed91f2f1d",
+    "reports/defense_v1/T10/audit_query_cues_20261111.py": "ffc62ff32d8b656cb10d873fdb4409f6f5c5f46ba8ab7ecee3b181967012ea98"
+  }
+}

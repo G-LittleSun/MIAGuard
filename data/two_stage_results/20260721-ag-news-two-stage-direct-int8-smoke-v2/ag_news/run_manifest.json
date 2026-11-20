@@ -1,0 +1,56 @@
+{
+  "completed_at": "2026-07-21T04:43:35.053021+00:00",
+  "dataset_id": "ag_news",
+  "embedding_model": "EmbeddingModel/sentence-transformers/all_minilm_l6_v2",
+  "generation_backend": "transformers",
+  "generation_load_mode": "int8",
+  "generation_model": "LLM/mistralai/mistral-7b-instruct-v0-2",
+  "ground_truth_storage": "evaluation_records.jsonl only; never passed to detectors",
+  "ia_turn_count": 3,
+  "mode": "observe",
+  "output_run_id": "20260721-ag-news-two-stage-direct-int8-smoke-v2",
+  "partition": "development",
+  "pattern_library_version": "1.4.0",
+  "query_detector_input_fields": [
+    "query",
+    "session_id"
+  ],
+  "samples_per_type": 1,
+  "selected_doc_ids": {
+    "benign_direct_rag_mia": [
+      "ag_news_teacher_00000004"
+    ],
+    "benign_ia": [
+      "ag_news_teacher_00000007"
+    ],
+    "benign_masked_mia": [
+      "ag_news_teacher_00000006"
+    ],
+    "benign_s2_mia": [
+      "ag_news_teacher_00000005"
+    ],
+    "direct_rag_mia": [
+      "ag_news_teacher_00000000"
+    ],
+    "ia": [
+      "ag_news_teacher_00000003"
+    ],
+    "masked_mia": [
+      "ag_news_teacher_00000002"
+    ],
+    "s2_mia": [
+      "ag_news_teacher_00000001"
+    ]
+  },
+  "session_detector_input_fields": [
+    "query",
+    "session_id",
+    "recent_turns",
+    "retrieved_doc_ids",
+    "retrieval_scores",
+    "min_session_queries"
+  ],
+  "source_run_id": "20260717-ag-news-four-medium",
+  "split_id": "ag_news_two_stage_v1",
+  "status": "completed"
+}

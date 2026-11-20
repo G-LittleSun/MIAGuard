@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008739",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q091",
+      "session_id": "ia_ag_news_teacher_00008739",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe provided context does not mention any specific ten-point plan proposed by Prime Minister Tony Blair or any other individual regarding Sudan's response to the crisis in Darfur. Therefore, based on the given information, the answer is unknown.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000156",
+        "ag_news_teacher_00000026",
+        "ag_news_teacher_00000174",
+        "ag_news_teacher_00000285"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000156",
+        "ag_news_teacher_00000026",
+        "ag_news_teacher_00000174",
+        "ag_news_teacher_00000285"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000156",
+            "ag_news_teacher_00000026",
+            "ag_news_teacher_00000174",
+            "ag_news_teacher_00000285"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000156",
+            "ag_news_teacher_00000026",
+            "ag_news_teacher_00000174",
+            "ag_news_teacher_00000285"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1511.0273994505405,
+      "ledger_event": {
+        "request_id": "q091",
+        "session_id": "ia_ag_news_teacher_00008739",
+        "input_sha256": "6d80cdaa5ccb588e93899f84d0b72d3ca0d75a4bee34c5645c79cd32a481ccca",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000156",
+          "ag_news_teacher_00000026",
+          "ag_news_teacher_00000174",
+          "ag_news_teacher_00000285"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000156",
+            "parent_doc_id": "ag_news_teacher_00000156",
+            "kind": "raw",
+            "score": 0.567918062210083,
+            "text_sha256": "71235cf3057e89a9ddac0bf9964b09162d3432a9ddf1605e16ec0c0aa8e87758"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000026",
+            "parent_doc_id": "ag_news_teacher_00000026",
+            "kind": "raw",
+            "score": 0.497723251581192,
+            "text_sha256": "f6511cece30abb4351d59405288bbe61b0e8472d622398861fbec937681613d4"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000174",
+            "parent_doc_id": "ag_news_teacher_00000174",
+            "kind": "raw",
+            "score": 0.46794694662094116,
+            "text_sha256": "5de4c68719a31174b102691e97f28013d21e047d94217cf2e46224b8c1c1e713"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000285",
+            "parent_doc_id": "ag_news_teacher_00000285",
+            "kind": "raw",
+            "score": 0.45530936121940613,
+            "text_sha256": "a16f0076df449d4b0a7be8922e1a6d7961af2c913caa74d28b390a3e1b8977e4"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe provided context does not mention any specific ten-point plan proposed by Prime Minister Tony Blair or any other individual regarding Sudan's response to the crisis in Darfur. Therefore, based on the given information, the answer is unknown.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006850.8213224,
+        "finished_at": 1795006852.3323226
+      },
+      "generation_input_ref": "artifacts/B0/20260715/3a0b998cdc389a83413b.json",
+      "artifact_sha256": "16221429bd27103f83ef6c89b55e6872576b3086abc0a32a9b0811232c8fb183"
+    },
+    {
+      "request_id": "q092",
+      "session_id": "ia_ag_news_teacher_00008739",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe provided context does not mention any statement or call from Prime Minister Blair regarding a five-point plan or specifically urging Sudan to end the slaughter in Darfur. Therefore, based on the given information, the answer is unknown.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000156",
+        "ag_news_teacher_00000026",
+        "ag_news_teacher_00000655",
+        "ag_news_teacher_00000271"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000156",
+        "ag_news_teacher_00000026",
+        "ag_news_teacher_00000655",
+        "ag_news_teacher_00000271"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000156",
+            "ag_news_teacher_00000026",
+            "ag_news_teacher_00000655",
+            "ag_news_teacher_00000271"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000156",
+            "ag_news_teacher_00000026",
+            "ag_news_teacher_00000655",
+            "ag_news_teacher_00000271"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1493.0966002866626,
+      "ledger_event": {
+        "request_id": "q092",
+        "session_id": "ia_ag_news_teacher_00008739",
+        "input_sha256": "8f4f0a77eb018712ff081deaad137c582078a3a1ae7ac65a2567d971871ecfaa",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000156",
+          "ag_news_teacher_00000026",
+          "ag_news_teacher_00000655",
+          "ag_news_teacher_00000271"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000156",
+            "parent_doc_id": "ag_news_teacher_00000156",
+            "kind": "raw",
+            "score": 0.5342926979064941,
+            "text_sha256": "71235cf3057e89a9ddac0bf9964b09162d3432a9ddf1605e16ec0c0aa8e87758"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000026",
+            "parent_doc_id": "ag_news_teacher_00000026",
+            "kind": "raw",
+            "score": 0.4903395473957062,
+            "text_sha256": "f6511cece30abb4351d59405288bbe61b0e8472d622398861fbec937681613d4"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000655",
+            "parent_doc_id": "ag_news_teacher_00000655",
+            "kind": "raw",
+            "score": 0.457048237323761,
+            "text_sha256": "3081c4730af6c2a3e3e468542baccee1de67876098430928ce9d46ff384a471d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000271",
+            "parent_doc_id": "ag_news_teacher_00000271",
+            "kind": "raw",
+            "score": 0.43368953466415405,
+            "text_sha256": "f018ad60c3f1a0b27e74861df40e59972f49f30499903476a40ced97bdd0a520"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe provided context does not mention any statement or call from Prime Minister Blair regarding a five-point plan or specifically urging Sudan to end the slaughter in Darfur. Therefore, based on the given information, the answer is unknown.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006852.3378224,
+        "finished_at": 1795006853.8308225
+      },
+      "generation_input_ref": "artifacts/B0/20260715/1dc542238636bb03cc04.json",
+      "artifact_sha256": "b33a8581a579fd5b6842ac3d10fabaa8f4d9ecc9b9a1d6168fadc1387b230ffe"
+    },
+    {
+      "request_id": "q093",
+      "session_id": "ia_ag_news_teacher_00008739",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not mention any five-point plan proposed by Prime Minister Blair or details of such a plan. Therefore, there is insufficient evidence to confirm or deny whether the plan included steps to ease the humanitarian crisis in Darfur.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000156",
+        "ag_news_teacher_00000026",
+        "ag_news_teacher_00000271",
+        "ag_news_teacher_00000655"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000156",
+        "ag_news_teacher_00000026",
+        "ag_news_teacher_00000271",
+        "ag_news_teacher_00000655"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000156",
+            "ag_news_teacher_00000026",
+            "ag_news_teacher_00000271",
+            "ag_news_teacher_00000655"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000156",
+            "ag_news_teacher_00000026",
+            "ag_news_teacher_00000271",
+            "ag_news_teacher_00000655"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1549.8612998053432,
+      "ledger_event": {
+        "request_id": "q093",
+        "session_id": "ia_ag_news_teacher_00008739",
+        "input_sha256": "b837f3688116585782a62d1d4e5ea80b6f51857b83d6d18f3e5c03f4c4f36700",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000156",
+          "ag_news_teacher_00000026",
+          "ag_news_teacher_00000271",
+          "ag_news_teacher_00000655"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000156",
+            "parent_doc_id": "ag_news_teacher_00000156",
+            "kind": "raw",
+            "score": 0.6020690202713013,
+            "text_sha256": "71235cf3057e89a9ddac0bf9964b09162d3432a9ddf1605e16ec0c0aa8e87758"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000026",
+            "parent_doc_id": "ag_news_teacher_00000026",
+            "kind": "raw",
+            "score": 0.47220131754875183,
+            "text_sha256": "f6511cece30abb4351d59405288bbe61b0e8472d622398861fbec937681613d4"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000271",
+            "parent_doc_id": "ag_news_teacher_00000271",
+            "kind": "raw",
+            "score": 0.4638926684856415,
+            "text_sha256": "f018ad60c3f1a0b27e74861df40e59972f49f30499903476a40ced97bdd0a520"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000655",
+            "parent_doc_id": "ag_news_teacher_00000655",
+            "kind": "raw",
+            "score": 0.4430108964443207,
+            "text_sha256": "3081c4730af6c2a3e3e468542baccee1de67876098430928ce9d46ff384a471d"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not mention any five-point plan proposed by Prime Minister Blair or details of such a plan. Therefore, there is insufficient evidence to confirm or deny whether the plan included steps to ease the humanitarian crisis in Darfur.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006853.8363242,
+        "finished_at": 1795006855.385823
+      },
+      "generation_input_ref": "artifacts/B0/20260715/048fe00538b5f0aa7e6f.json",
+      "artifact_sha256": "4d6506ca4dd82f17355a59a293b84d251243a9e837fb712d01aa7e171c735db9"
+    }
+  ]
+}

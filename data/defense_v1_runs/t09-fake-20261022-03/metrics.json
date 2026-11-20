@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T09-fake-link",
+  "run_id": "t09-fake-20261022-03",
+  "identity_sha256": "f10be8c15ebaa48c539677f8e2fc3af1f3e2fd7ce9ba04a9e2c87870f43fea03",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 20,
+  "completed": 20,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 5,
+  "method_count": 4,
+  "attack_target_count": 1,
+  "benign_request_count": 4
+}

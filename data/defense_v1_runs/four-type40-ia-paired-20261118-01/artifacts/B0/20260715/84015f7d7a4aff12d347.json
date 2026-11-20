@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Steelers safety Troy Polamalu refuses to discuss past issues with Bengals quarterback Carson Palmer. Did Carson Palmer deny the unpaid dinner bill allegation made by Troy Polamalu in the source document? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Steelers' Polamalu Repects Carson Palmer (AP) AP - Steelers safety Troy Polamalu won't say if Bengals quarterback Carson Palmer owes him money from some unpaid dinner bill of long ago. Or if he left his unwashed socks in the middle of the floor, or snored so loudly it kept others awake.",
+      "It was nothing to kick about There are three superb seasons under his belt, a couple of Pro Bowl berths speak volumes about his talent, and there's the matter of two Super Bowl rings. So when Richard Seymour tells you he's figured something out about this NFL business, you'd best listen.",
+      "Differences Emerge The owners disagree with NFL Players Association Executive Director Gene \\Upshaw about the league's future economic system says Commissioner Paul \\Tagliabue.",
+      "Report: Clarett Claims Cash, Cars Among OSU Benefits COLUMBUS, Ohio -- Former Ohio State tailback Maurice Clarett told ESPN The Magazine that he  quot;took the fall quot; for the school during a 2003 NCAA investigation into the football program."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Steelers' Polamalu Repects Carson Palmer (AP) AP - Steelers safety Troy Polamalu won't say if Bengals quarterback Carson Palmer owes him money from some unpaid dinner bill of long ago. Or if he left his unwashed socks in the middle of the floor, or snored so loudly it kept others awake.\"\n\"It was nothing to kick about There are three superb seasons under his belt, a couple of Pro Bowl berths speak volumes about his talent, and there's the matter of two Super Bowl rings. So when Richard Seymour tells you he's figured something out about this NFL business, you'd best listen.\"\n\"Differences Emerge The owners disagree with NFL Players Association Executive Director Gene \\Upshaw about the league's future economic system says Commissioner Paul \\Tagliabue.\"\n\"Report: Clarett Claims Cash, Cars Among OSU Benefits COLUMBUS, Ohio -- Former Ohio State tailback Maurice Clarett told ESPN The Magazine that he  quot;took the fall quot; for the school during a 2003 NCAA investigation into the football program.\"\n\nQuestion:\nI am inquiring about a Steelers safety Troy Polamalu refuses to discuss past issues with Bengals quarterback Carson Palmer. Did Carson Palmer deny the unpaid dinner bill allegation made by Troy Polamalu in the source document? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

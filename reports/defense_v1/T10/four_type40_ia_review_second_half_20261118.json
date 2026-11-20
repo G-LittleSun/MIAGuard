@@ -1,0 +1,1268 @@
+{
+  "status": "assigned_second_half_agent_review_complete",
+  "reviewer_kind": "codex_agent",
+  "human_reviewed": false,
+  "scope": "Blind source-grounding audit of the last 30 rows of the fixed local IA packet. Skip batch1/batch2 source IDs and exactly-three existing_three_round records. No membership labels or live results read; no prompt/query/reference changed, no benchmark run.",
+  "input_sha256": {
+    "reports/defense_v1/T10/four_type40_ia_review_packet_20261118.jsonl": "d62dacbc31f61c6e9ab656695b9f5881e8ec306701f969c1e397eea5fdb57fc4",
+    "reports/defense_v1/T10/four_type40_ia_review_batch1_20261118.json": "3aa0f246dfd41b4f9602af27452cca179e07fdbff1ba3baaffcd4503420c2e9d",
+    "reports/defense_v1/T10/four_type40_ia_review_batch2_20261118.json": "2f26dbeed71538064aa02b4978e98317fa45f897177cac940af1237cffaf06b8"
+  },
+  "document_reviews": [
+    {
+      "doc_id": "ag_news_teacher_00008001",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00008001:ia:generated:0001",
+          "The Christmas Book offers a 12-seat zeppelin for $10 million.",
+          "The 12-seater could be yours for a mere \\$10 million from the 2004 Neiman Marcus Christmas Book."
+        ],
+        [
+          "ag_news:ag_news_teacher_00008001:ia:generated:0005",
+          "A winged submarine is listed for $1.7 million.",
+          "Other gifts in the book include a \\$1.7 million winged submarine"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008001:ia:generated:0003",
+          "The visible fragment mentions a jeweled Mr. item without completing its name.",
+          "jeweled Mr..."
+        ]
+      ],
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "usable_distinct_propositions": 3,
+      "all_yes_triple": true,
+      "candidate_records": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008001:ia:generated:0001",
+          "query": "I am inquiring about a Neiman Marcus Christmas Book with expensive gifts. Is a 12-seater personal zeppelin available for purchase in the Neiman Marcus Christmas Book for $10 million? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 153,
+          "evidence_end": 249
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008001:ia:generated:0005",
+          "query": "I am inquiring about a Neiman Marcus Christmas Book with expensive gifts. Is a winged submarine available for purchase in the Neiman Marcus Christmas Book for $1.7 million? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 253,
+          "evidence_end": 317
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008001:ia:generated:0003",
+          "query": "I am inquiring about a Neiman Marcus Christmas Book with expensive gifts. Is there a jeweled Mr. something mentioned in the Neiman Marcus Christmas Book? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 319,
+          "evidence_end": 332
+        }
+      ],
+      "note": "The third query asks only whether the fragment is mentioned; it does not identify the truncated item. Reject helicopter/jet, dimensions, and exterior-design claims not supplied by the text.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "98ddf00a80e2095600c8053913e39fa39f3f101d456ee6223521a0b76f3d01fc",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 3,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008234",
+      "decisions": [
+        [
+          "vr_82e5bdd4453965fe0adf507b",
+          "Microsoft tells families not to give up getting older people online.",
+          "Microsoft Corp has a message: Don #39;t give up."
+        ],
+        [
+          "ag_news:ag_news_teacher_00008234:ia:generated:0001",
+          "The target demographic is older people.",
+          "Microsoft targets older people for web via TV"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008234:ia:generated:0021",
+          "Obtaining family digital photos is a stated motivation for web access.",
+          "so they can read e-mail and get digital photos of the family"
+        ]
+      ],
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "usable_distinct_propositions": 3,
+      "all_yes_triple": true,
+      "candidate_records": [
+        {
+          "candidate_id": "vr_82e5bdd4453965fe0adf507b",
+          "query": "Does Microsoft's message tell families not to give up on getting older people online? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "evidence_start": 186,
+          "evidence_end": 234
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008234:ia:generated:0001",
+          "query": "I am inquiring about a Microsoft encourages families to help older people access web via email and photos through TV. Did the document mention Microsoft's target demographic for web access via TV? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 0,
+          "evidence_end": 45
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008234:ia:generated:0021",
+          "query": "I am inquiring about a Microsoft encourages families to help older people access web via email and photos through TV. Is digital photo sharing mentioned as a motivation for older people to use the web via TV? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 124,
+          "evidence_end": 184
+        }
+      ],
+      "note": "The target-demographic proposition is supported by the headline. Seattle is a dateline, not a claimed exclusive target city; city-targeting candidates were not retained.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "f4bfea1d505ef59bc79f78fda1f59eae596b9d2c6e8c42eb39bc4f10dadd2012",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "answer_in_query_ids": [
+        "ag_news:ag_news_teacher_00008234:ia:generated:0001",
+        "ag_news:ag_news_teacher_00008234:ia:generated:0021"
+      ],
+      "answer_in_query_reasons": {
+        "ag_news:ag_news_teacher_00008234:ia:generated:0001": {
+          "separate_prefix": "I am inquiring about a Microsoft encourages families to help older people access web via email and photos through TV.",
+          "reason": "The separate topic prefix already identifies older people as Microsoft's web-access target."
+        },
+        "ag_news:ag_news_teacher_00008234:ia:generated:0021": {
+          "separate_prefix": "I am inquiring about a Microsoft encourages families to help older people access web via email and photos through TV.",
+          "reason": "The separate topic prefix already states that families help older people access the web via email and photos, giving the photo-sharing motivation."
+        }
+      },
+      "source_grounded_but_not_prefix_answered_count": 1,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008437",
+      "decisions": [
+        [
+          "vr_88d17fac5f7980d4b1ddb10d",
+          "Oil-price concerns are given as the cause of the Tokyo stock decline.",
+          "Tokyo stocks edged lower Monday morning because of concerns about rising oil prices."
+        ],
+        [
+          "ag_news:ag_news_teacher_00008437:ia:generated:0001",
+          "Tokyo stocks did not increase on Monday morning.",
+          "Tokyo stocks edged lower Monday morning"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008437:ia:generated:0002",
+          "The US dollar did not strengthen against the yen in the reported update.",
+          "The US dollar was down against the Japanese yen."
+        ]
+      ],
+      "reference_pattern": [
+        "yes",
+        "no",
+        "no"
+      ],
+      "usable_distinct_propositions": 3,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "vr_88d17fac5f7980d4b1ddb10d",
+          "query": "Does the report attribute the drop in Tokyo stocks to concerns about rising oil prices? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "evidence_start": 51,
+          "evidence_end": 135
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008437:ia:generated:0001",
+          "query": "I am inquiring about a Tokyo stocks and US dollar vs. Japanese yen. Did Tokyo stocks increase on Monday morning? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 51,
+          "evidence_end": 90
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008437:ia:generated:0002",
+          "query": "I am inquiring about a Tokyo stocks and US dollar vs. Japanese yen. Did the US dollar strengthen against the Japanese yen on Monday morning? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 136,
+          "evidence_end": 184
+        }
+      ],
+      "note": "A Yes/No/No triple. Separate cause, stock direction and currency direction. The source does not establish oil causing the exchange-rate change or stocks responding to the dollar; those Yes labels are not retained.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "b56d4ddd1a9d994a6365b86cf7b1c4b56bf64b9132706e5dcc2d40caf00ec368",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 3,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008547",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00008547:ia:generated:0004",
+          "Ecuador defeated Brazil.",
+          "Brazil crashed to a shock 1-0 defeat in Ecuador yesterday"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008547:ia:generated:0005",
+          "Uruguay won its match.",
+          "home wins for Peru, Colombia and Uruguay"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008547:ia:generated:0028",
+          "Colombia won its match.",
+          "home wins for Peru, Colombia and Uruguay"
+        ]
+      ],
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "usable_distinct_propositions": 3,
+      "all_yes_triple": true,
+      "candidate_records": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008547:ia:generated:0004",
+          "query": "I am inquiring about a South American World Cup qualifying group results. Did Ecuador defeat Brazil? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 81,
+          "evidence_end": 138
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008547:ia:generated:0005",
+          "query": "I am inquiring about a South American World Cup qualifying group results. Did Uruguay secure a victory in their match during this qualifying round? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 145,
+          "evidence_end": 185
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008547:ia:generated:0028",
+          "query": "I am inquiring about a South American World Cup qualifying group results. Did Colombia win their last South American World Cup qualifying match? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 145,
+          "evidence_end": 185
+        }
+      ],
+      "note": "Three team-specific outcomes are distinct even though Colombia/Uruguay share one evidence span. No unsupported opponent pairing or score was added.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "59a87a21d61cff6a8612d97c46fa53ffb9a2abee49a57a7389d991686f0ad56c",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 3,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008636",
+      "decisions": [
+        [
+          "vr_31079bdb439fbee44a702460",
+          "Vaughan intends to adopt the Australian sledging tactic.",
+          "Michael Vaughan intends to adopt the Australian tactic of  quot;sledging quot;"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008636:ia:generated:0042",
+          "His stated plan is verbal rather than physical assault.",
+          "Vaughan plans verbal assault"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008636:ia:generated:0047",
+          "His captaincy ambition concerns England rather than Wales.",
+          "during his attempt to become the most successful captain in England #39;s history."
+        ]
+      ],
+      "reference_pattern": [
+        "yes",
+        "no",
+        "no"
+      ],
+      "usable_distinct_propositions": 3,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "vr_31079bdb439fbee44a702460",
+          "query": "Does the report say Vaughan intends to adopt the Australian tactic of sledging? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "evidence_start": 64,
+          "evidence_end": 142
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008636:ia:generated:0042",
+          "query": "I am inquiring about a reported fact. Does Michael Vaughan intend to use the tactic of 'sledging' but instead of verbal assault, he plans physical assault during England's record-breaking attempts? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 0,
+          "evidence_end": 28
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008636:ia:generated:0047",
+          "query": "I am inquiring about a reported fact. Does Michael Vaughan intend to adopt the Australian tactic of 'sledging' during his attempt to become the most successful captain in Wales #39;s history instead of England's? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 143,
+          "evidence_end": 225
+        }
+      ],
+      "note": "A Yes/No/No triple covering intended tactic, assault modality and the country of the captaincy ambition. Queries retain their exact wording. No actual future implementation or result is inferred.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "29f694e005ee93565ecb1058d83c552ece08f6b5ed2dd8f52e9a3e59e88a79eb",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 3,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008656",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00008656:ia:generated:0032",
+          "The reported restriction did not increase supply available to healthy US adults.",
+          "ask most healthy adults to delay or skip flu shots so that the elderly and others most at risk from influenza can get scarce supplies."
+        ],
+        [
+          "ag_news:ag_news_teacher_00008656:ia:generated:0033",
+          "The reported US supply cut was one half, not one third.",
+          "Americans' supply of flu vaccine was abruptly cut in half Tuesday"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008656:ia:generated:0035",
+          "British regulators shut a supplier down, rather than approving one and creating excess supply.",
+          "British regulators unexpectedly shut down a major flu-shot supplier Tuesday, prompting a record shortage in this country"
+        ]
+      ],
+      "reference_pattern": [
+        "no",
+        "no",
+        "no"
+      ],
+      "usable_distinct_propositions": 3,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008656:ia:generated:0032",
+          "query": "I am inquiring about a reported fact. Was the flu vaccine supply for healthy adults in the U.S. increased due to the supplier closure? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 144,
+          "evidence_end": 278
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008656:ia:generated:0033",
+          "query": "I am inquiring about a reported fact. Was the Americans' supply of flu vaccine cut in thirds instead of in half? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 49,
+          "evidence_end": 114
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008656:ia:generated:0035",
+          "query": "I am inquiring about a reported fact. Did British regulators unexpectedly approve a new flu-shot supplier, causing an excess of flu vaccine in this country? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 282,
+          "evidence_end": 402
+        }
+      ],
+      "note": "A No/No/No triple: allocation to healthy adults, size of supply reduction, and regulatory action/shortage. The supplied article does not establish UK rationing or a production/quality cause. No clean three-Yes set was found. In this country is resolved from the same source as the US, not from a previous turn.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "299d67977a9021d9e57b3a3a243952d72d30f1825b828a600476713eb8f213c5",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 3,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008739",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00008739:ia:generated:0001",
+          "Blair called for ending the Darfur slaughter.",
+          "Prime Minister Tony Blair today urged the government of Sudan to adopt a five-point plan designed to help end the slaughter in Darfur"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008739:ia:generated:0002",
+          "The plan is designed to ease the humanitarian crisis.",
+          "and ease the humanitarian crisis there."
+        ],
+        [
+          "ag_news:ag_news_teacher_00008739:ia:generated:0003",
+          "Blair urged Sudan's government to adopt the five-point plan.",
+          "Prime Minister Tony Blair today urged the government of Sudan to adopt a five-point plan"
+        ]
+      ],
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "usable_distinct_propositions": 3,
+      "all_yes_triple": true,
+      "candidate_records": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008739:ia:generated:0001",
+          "query": "I am inquiring about a Prime Minister Blair urges Sudan to adopt five-point plan to end Darfur slaughter and ease humanitarian crisis. Did Prime Minister Blair call for an end to the slaughter in Darfur? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 36,
+          "evidence_end": 169
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008739:ia:generated:0002",
+          "query": "I am inquiring about a Prime Minister Blair urges Sudan to adopt five-point plan to end Darfur slaughter and ease humanitarian crisis. Did the five-point plan include steps to ease the humanitarian crisis in Darfur? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 170,
+          "evidence_end": 209
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008739:ia:generated:0003",
+          "query": "I am inquiring about a Prime Minister Blair urges Sudan to adopt five-point plan to end Darfur slaughter and ease humanitarian crisis. Was the government of Sudan urged by Prime Minister Blair to adopt the five-point plan to address the crisis in Darfur? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 36,
+          "evidence_end": 124
+        }
+      ],
+      "note": "Separate stated aim, humanitarian aim, and recipient/action/plan-size proposition. Detailed ceasefire, accountability and access conditions are not in the source and were not accepted.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "058d1d8b9326541b08149a01d77b3d643d7d4ea05dd53c3354e7e3ec3f0715a3",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "answer_in_query_ids": [
+        "ag_news:ag_news_teacher_00008739:ia:generated:0001",
+        "ag_news:ag_news_teacher_00008739:ia:generated:0002",
+        "ag_news:ag_news_teacher_00008739:ia:generated:0003"
+      ],
+      "answer_in_query_reasons": {
+        "ag_news:ag_news_teacher_00008739:ia:generated:0001": {
+          "separate_prefix": "I am inquiring about a Prime Minister Blair urges Sudan to adopt five-point plan to end Darfur slaughter and ease humanitarian crisis.",
+          "reason": "The separate prefix says Blair urges a plan to end Darfur slaughter."
+        },
+        "ag_news:ag_news_teacher_00008739:ia:generated:0002": {
+          "separate_prefix": "I am inquiring about a Prime Minister Blair urges Sudan to adopt five-point plan to end Darfur slaughter and ease humanitarian crisis.",
+          "reason": "The separate prefix already says the plan eases the humanitarian crisis."
+        },
+        "ag_news:ag_news_teacher_00008739:ia:generated:0003": {
+          "separate_prefix": "I am inquiring about a Prime Minister Blair urges Sudan to adopt five-point plan to end Darfur slaughter and ease humanitarian crisis.",
+          "reason": "The separate prefix already identifies Blair, Sudan, adoption and the five-point plan."
+        }
+      },
+      "source_grounded_but_not_prefix_answered_count": 0,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008787",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00008787:ia:generated:0014",
+          "The day was favorable for batting.",
+          "On a day made in heaven for batsmen"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008787:ia:generated:0018",
+          "With New Zealand one down in a two-Test series, winning the remaining Test is needed to level it.",
+          "One down in the two-Test series, New Zealand needed"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008787:ia:generated:0001",
+          "New Zealand did not win the reported toss.",
+          "Stephen Fleming called wrong at the toss"
+        ]
+      ],
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "usable_distinct_propositions": 3,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008787:ia:generated:0014",
+          "query": "I am inquiring about a Stephen Fleming and Ricky Ponting in a cricket match. Was the day favorable for batting before the toss was called? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 18,
+          "evidence_end": 53
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008787:ia:generated:0018",
+          "query": "I am inquiring about a Stephen Fleming and Ricky Ponting in a cricket match. Did New Zealand need to win the second test to level the series? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 146,
+          "evidence_end": 197
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008787:ia:generated:0001",
+          "query": "I am inquiring about a Stephen Fleming and Ricky Ponting in a cricket match. Did New Zealand win the toss in the cricket match? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 55,
+          "evidence_end": 95
+        }
+      ],
+      "note": "A Yes/Yes/No triple. The second selection is a limited series-score entailment: one loss and one remaining Test require a win to level; it does not complete the truncated source with a specific batting target. Candidate claims about the first Test and a lead greater than one were rejected. No prior query supplies a missing premise.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "d11fdfb3d3e03ca43be7566b7225942c9061efb99e833c5f8170f76248f13cfe",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 3,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008834",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00008834:ia:generated:0001",
+          "Testimony concluded on the reporting day.",
+          "Testimony in the sexual abuse trial of former Houston Rockets star Calvin Murphy ended this morning."
+        ],
+        [
+          "ag_news:ag_news_teacher_00008834:ia:generated:0003",
+          "Testimony was already concluded before the still-future closing arguments.",
+          "ended this morning. Jurors will hear closing arguments"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008834:ia:generated:0005",
+          "The proceeding is in a state district court, as indicated by its presiding judge's title.",
+          "state District Judge Michael McSpadden said."
+        ]
+      ],
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "usable_distinct_propositions": 3,
+      "all_yes_triple": true,
+      "candidate_records": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008834:ia:generated:0001",
+          "query": "I am inquiring about a Calvin Murphy sexual abuse trial. Did the testimony in the Calvin Murphy trial conclude on that day? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 46,
+          "evidence_end": 146
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008834:ia:generated:0003",
+          "query": "I am inquiring about a Calvin Murphy sexual abuse trial. Was the testimony in the Calvin Murphy trial concluded before closing arguments? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 127,
+          "evidence_end": 181
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008834:ia:generated:0005",
+          "query": "I am inquiring about a Calvin Murphy sexual abuse trial. Was the trial of Calvin Murphy taking place in a state district court? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 214,
+          "evidence_end": 258
+        }
+      ],
+      "note": "The ordering candidate is read as completed testimony preceding still-future closing arguments, not as evidence that Monday proceedings already happened. Court jurisdiction is entailed from the presiding judge title. No candidate asserting that scheduled Monday deliberations or closing arguments had actually occurred is accepted; no exact weekday for testimony is invented.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "ede9b955361bdbb787862dc81db49bc1364d3b1b014cbd4bbe4056f331c04667",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 3,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008836",
+      "decisions": [
+        [
+          "vr_d0dad13ec9d4cc1e418e82e8",
+          "Pathan, Harbhajan Singh and Zaheer Khan are named as tail-enders.",
+          "tail-enders Irfan Pathan, Harbhajan Singh and Zaheer Khan"
+        ],
+        [
+          "vr_671e7b6da4135eed184e61ae",
+          "Australia bowled India out for 239.",
+          "the Aussies proved too good for the Indians and bundled them for 239."
+        ],
+        [
+          "ag_news:ag_news_teacher_00008836:ia:generated:0005",
+          "The 217-run winning margin exceeds 200 runs.",
+          "India lose first Test by 217 runs"
+        ]
+      ],
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "usable_distinct_propositions": 3,
+      "all_yes_triple": true,
+      "candidate_records": [
+        {
+          "candidate_id": "vr_d0dad13ec9d4cc1e418e82e8",
+          "query": "Does the report name Irfan Pathan, Harbhajan Singh and Zaheer Khan as tail-enders? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "evidence_start": 66,
+          "evidence_end": 123
+        },
+        {
+          "candidate_id": "vr_671e7b6da4135eed184e61ae",
+          "query": "Does the report say Australia bowled India out for 239? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "evidence_start": 125,
+          "evidence_end": 194
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008836:ia:generated:0005",
+          "query": "I am inquiring about a India loses Test match to Australians with a margin of 217 runs. Did the Australians win the first Test by more than 200 runs? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 0,
+          "evidence_end": 33
+        }
+      ],
+      "note": "Three independent facts: listed roles/players, innings total, and match margin. The last uses elementary numeric comparison. Individual batting or delivery figures and specific first-innings claims are not inferred.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "809ba3943e6fea53173ec63e10971c08578af2e07465202d0095a916cca31d3b",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "answer_in_query_ids": [
+        "ag_news:ag_news_teacher_00008836:ia:generated:0005"
+      ],
+      "answer_in_query_reasons": {
+        "ag_news:ag_news_teacher_00008836:ia:generated:0005": {
+          "separate_prefix": "I am inquiring about a India loses Test match to Australians with a margin of 217 runs.",
+          "reason": "The separate prefix states a 217-run defeat to Australia; 217 already answers the more-than-200 question."
+        }
+      },
+      "source_grounded_but_not_prefix_answered_count": 2,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008927",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00008927:ia:generated:0026",
+          "Continuation is conditioned on the rate of progress in negotiations.",
+          "subject to rapid progress being made in a new round of negotiations"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008927:ia:generated:0005",
+          "The new negotiations are due to begin next month.",
+          "negotiations due to begin next month."
+        ],
+        [
+          "ag_news:ag_news_teacher_00008927:ia:generated:0040",
+          "It is false to deny that the agreement concerns suspension of sensitive nuclear activities.",
+          "its agreement to suspend sensitive nuclear activities"
+        ]
+      ],
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "usable_distinct_propositions": 3,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008927:ia:generated:0026",
+          "query": "I am inquiring about a Iran's nuclear suspension is conditional on progress in talks. Did Iran set a condition for the continuation of its nuclear suspension based on the rate of progress in the upcoming negotiations? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 160,
+          "evidence_end": 227
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008927:ia:generated:0005",
+          "query": "I am inquiring about a Iran's nuclear suspension is conditional on progress in talks. Is the new round of negotiations scheduled to take place next month? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 215,
+          "evidence_end": 252
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008927:ia:generated:0040",
+          "query": "I am inquiring about a reported fact. Is it false that Iran's agreement is suspension of sensitive nuclear activities? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 102,
+          "evidence_end": 155
+        }
+      ],
+      "note": "A Yes/Yes/No triple covering speed condition, timing and subject matter. Repeated general conditionality questions were not counted as distinct from the rate condition. A requirement for rapid progress is not a prediction that progress will occur; renegotiability, specified concessions and automatic termination are not established.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "6366d1bfaaf485354a636ef5d3ac549290b315608ea824774c1711d91496e8c2",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 3,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged. The progress-condition prefix overlaps with candidate 0026, but does not state rate or rapid progress; this partial overlap is not marked as a complete self-answer."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008944",
+      "decisions": [
+        [
+          "vr_0efeb6dbb391236835c33730",
+          "Electrical shock is a stated hazard.",
+          "a fire or electrical shock"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008944:ia:generated:0030",
+          "Fire is also a stated hazard.",
+          "a risk of overheating, which could lead to a fire"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008944:ia:generated:0035",
+          "The stated recall count is not below 990,000.",
+          "Dell to recall 990,000 laptop adapters"
+        ]
+      ],
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "usable_distinct_propositions": 3,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "vr_0efeb6dbb391236835c33730",
+          "query": "Does the report cite electrical shock as a hazard? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "evidence_start": 121,
+          "evidence_end": 147
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008944:ia:generated:0030",
+          "query": "I am inquiring about a Dell has recalled 990,000 laptop adapters due to overheating risk. Did the recalled laptop adapters pose a risk of fire besides overheating? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 78,
+          "evidence_end": 127
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008944:ia:generated:0035",
+          "query": "I am inquiring about a reported fact. Was the number of recalled laptop adapters by Dell less than 990,000? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 0,
+          "evidence_end": 38
+        }
+      ],
+      "note": "A Yes/Yes/No triple: two distinct hazards and the recall count. The Yes-labelled more-than-990,000 query conflicts with the count. Dateline-based announcement-location claims and undisclosed adapter model numbers were not accepted.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "def05e50508a2597f1eae2dee3b88c3793287b6e71bb1439b07891015e4774cf",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 3,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    }
+  ],
+  "rejected_documents": [
+    {
+      "doc_id": "ag_news_teacher_00008074",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00008074:ia:generated:0042",
+          "Manchester United is not the club that unveiled Nunez in the reported episode.",
+          "LIVERPOOL unveiled new signing Antonio Nunez yesterday"
+        ]
+      ],
+      "reference_pattern": [
+        "no"
+      ],
+      "usable_distinct_propositions": 1,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008074:ia:generated:0042",
+          "query": "I am inquiring about a reported fact. Would it be accurate to say that Football: Early Case Of Liver Damage MANCHESTER UNITED unveiled new signing Antonio Nunez yesterday - but just a few hours later he was lying in agony on the treatment table? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 37,
+          "evidence_end": 91
+        }
+      ],
+      "note": "Only one clean independent contradiction survives. The headline Liver Damage can be a Liverpool pun and does not establish a liver diagnosis. Many candidates assume liver-specific treatment or training effects; copied-source candidates terminate mid-sentence, and the transfer variants retain that truncation. No prompts were repaired.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "1cf1b2215286f4b9a11102a852d2730034c2f90b2dcae0fa7ba324ecdbe442f1",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "reason": "Fewer than three distinct source-grounded existing Yes/No propositions remain without repairing wording, changing reference labels, counting paraphrases as new facts, or padding with absence-only Unknowns.",
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 1,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008191",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00008191:ia:generated:0046",
+          "The reported tanker/spill is Greek-owned and in the Delaware River, not a Russian-owned tanker in the Hudson.",
+          "a Greek-owned tanker to leak 30,000 gallons of crude oil into the Delaware River Friday"
+        ]
+      ],
+      "reference_pattern": [
+        "no"
+      ],
+      "usable_distinct_propositions": 1,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008191:ia:generated:0046",
+          "query": "I am inquiring about a reported fact. Has it been reported that a Russian-owned tanker leaked 30,000 gallons of crude oil into the Hudson River on Friday? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 99,
+          "evidence_end": 186
+        }
+      ],
+      "note": "Only one self-contained grounded contrast survives. #39 is an HTML apostrophe remnant, not a vessel number; the generic positive templates omit the subject. Discovery on Friday is not identical to leakage on Friday. No identifier or grammar was repaired.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "f10c1c01554141e132a6452f1b818b8d211bd33ae6ce354e41e2831ef1c85fec",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "reason": "Fewer than three distinct source-grounded existing Yes/No propositions remain without repairing wording, changing reference labels, counting paraphrases as new facts, or padding with absence-only Unknowns.",
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 1,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008319",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00008319:ia:generated:0003",
+          "The reported US Olympic eights victory is situated in Athens.",
+          "ATHENS (Reuters) - The United States stormed to their first  Olympic men's eights title in 40 years on Sunday."
+        ],
+        [
+          "ag_news:ag_news_teacher_00008319:ia:generated:0031",
+          "The US won its first Olympic men's eights title in 40 years on Sunday.",
+          "The United States stormed to their first  Olympic men's eights title in 40 years on Sunday."
+        ]
+      ],
+      "reference_pattern": [
+        "yes",
+        "yes"
+      ],
+      "usable_distinct_propositions": 2,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008319:ia:generated:0003",
+          "query": "I am inquiring about a US men win Olympic title in eights after 40-year drought. Did the US win the Olympic men's eights title in Athens? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 37,
+          "evidence_end": 147
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008319:ia:generated:0031",
+          "query": "I am inquiring about a reported fact. Is it true that The United States stormed to their first Olympic men's eights title in 40 years on Sunday? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 56,
+          "evidence_end": 147
+        }
+      ],
+      "note": "Two distinct source-grounded positives: event location (dateline plus report) and event/timing/drought statement. Remaining positives inject 2021/1981, other disciplines or unsupported results. Negating the same victory would not add a distinct proposition; Unknown questions were not used to fill the gap.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "76d52742b0848a8924deb1bd76f0e5157fb764c02a24350488c923b1813c3ab2",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "reason": "Fewer than three distinct source-grounded existing Yes/No propositions remain without repairing wording, changing reference labels, counting paraphrases as new facts, or padding with absence-only Unknowns.",
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 2,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008340",
+      "decisions": [
+        [
+          "vr_70ceb50b3160347821d1a58d",
+          "The report claims 24-times processor speed at unchanged power.",
+          "Processor 24 times faster Your processor can now run 24 faster at the same power levels"
+        ]
+      ],
+      "reference_pattern": [
+        "yes"
+      ],
+      "usable_distinct_propositions": 1,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "vr_70ceb50b3160347821d1a58d",
+          "query": "Does the report claim the processor runs 24 times faster at the same power levels? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "evidence_start": 28,
+          "evidence_end": 115
+        }
+      ],
+      "note": "Only one clearly distinct supported proposition is available in usable existing wording. Most positives repeat the speed/power claim, add unsupported other-company use, or contain broken possessives. The source names a transistor technology, not a specific fabrication process or mechanism; the process/mechanism questions were not promoted to Yes.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "aeb72f362b1199e96c917b8b7f4558c5fa8b862622382d1c40a3d924f2283142",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "reason": "Fewer than three distinct source-grounded existing Yes/No propositions remain without repairing wording, changing reference labels, counting paraphrases as new facts, or padding with absence-only Unknowns.",
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 1,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008361",
+      "decisions": [
+        [
+          "vr_ec65ca9467fd493c303aa1ae",
+          "Nesterenko is identified as Belarusian.",
+          "The same might be said about the Belarussian #39;s knowledge"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008361:ia:generated:0042",
+          "Williams had not heard of Nesterenko before that weekend.",
+          "Lauryn Williams never heard of Yuliya Nesterenko until this weekend."
+        ]
+      ],
+      "reference_pattern": [
+        "yes",
+        "no"
+      ],
+      "usable_distinct_propositions": 2,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "vr_ec65ca9467fd493c303aa1ae",
+          "query": "Does the report identify Nesterenko as Belarusian? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "evidence_start": 100,
+          "evidence_end": 160
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008361:ia:generated:0042",
+          "query": "I am inquiring about a reported fact. Can it be said that Lauryn Williams heard of Yuliya Nesterenko before this weekend? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 31,
+          "evidence_end": 99
+        }
+      ],
+      "note": "Only two independent propositions survive. The source qualifies reciprocal knowledge with might; the original topic prefix asserts mutual unfamiliarity as certain. Timeless never-heard paraphrases also remove the until-this-weekend qualification. The explicit before-this-weekend No contrast is retained.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "c773deaa9d369a59a2873b0c166a2b9f7e2032e65e97a9240b04fa3ec68ad67d",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "reason": "Fewer than three distinct source-grounded existing Yes/No propositions remain without repairing wording, changing reference labels, counting paraphrases as new facts, or padding with absence-only Unknowns.",
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 2,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008603",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00008603:ia:generated:0031",
+          "Conservationists claimed victory.",
+          "Conservationists claimed victory at a global wildlife trade meeting on Thursday"
+        ]
+      ],
+      "reference_pattern": [
+        "yes"
+      ],
+      "usable_distinct_propositions": 1,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008603:ia:generated:0031",
+          "query": "I am inquiring about a reported fact. Is it true that Conservationists claimed victory? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 56,
+          "evidence_end": 135
+        }
+      ],
+      "note": "Only one clean independent candidate survives. Many original queries carry a prefix asserting the meeting occurred on Oct. 15, whereas the source dates the article Oct. 15 and the meeting Thursday. Cash-warning question targets can be supported alone but their unmodified prefixes retain that date claim. Other positives add negotiations/funding-source/debate details; No food-crisis claims are not established by omission.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "202ad76da3ffde331cf8a1039a226e8446318f949922c7bc0f4fa7e515557ce5",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "reason": "Fewer than three distinct source-grounded existing Yes/No propositions remain without repairing wording, changing reference labels, counting paraphrases as new facts, or padding with absence-only Unknowns.",
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 1,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008681",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00008681:ia:generated:0033",
+          "The iMac G5 is identified as Apple's desktop, contradicting release by Dell.",
+          "iMac G5s and offered an early look at Apple #39;s latest desktop"
+        ],
+        [
+          "ag_news:ag_news_teacher_00008681:ia:generated:0034",
+          "The reported early look was last month relative to Oct. 5, not November.",
+          "OCTOBER 05, 2004 (COMPUTERWORLD) - Editor #39;s note: Last month, Online News Editor Ken Mingis snagged one of the first iMac G5s and offered an early look"
+        ]
+      ],
+      "reference_pattern": [
+        "no",
+        "no"
+      ],
+      "usable_distinct_propositions": 2,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008681:ia:generated:0033",
+          "query": "I am inquiring about a reported fact. Was the iMac G5 the first all-in-one computer released by Dell? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 164,
+          "evidence_end": 228
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008681:ia:generated:0034",
+          "query": "I am inquiring about a reported fact. Did ComputerWorld's Online News Editor review the iMac G5 in November 2004 instead of October 2004? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 43,
+          "evidence_end": 198
+        }
+      ],
+      "note": "Two No contrasts only. Last month is September relative to the article date; the second candidate's instead-of-October phrase is not endorsed as the true date, and review is read as the reported early look. Original positives overstate one-of-the-first as first or add unsupported exclusivity/first-product claims; the October-introduction topic premise is also unestablished.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "cd6bcd83eece7affadb7291ab00d705e8ad81c9600c86275727a04bfd50a2faf",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "reason": "Fewer than three distinct source-grounded existing Yes/No propositions remain without repairing wording, changing reference labels, counting paraphrases as new facts, or padding with absence-only Unknowns.",
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 2,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008757",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00008757:ia:generated:0001",
+          "Phelps finished first in his 200m freestyle preliminary heat.",
+          "touching first in his preliminary heat  in the 200 meters freestyle."
+        ],
+        [
+          "ag_news:ag_news_teacher_00008757:ia:generated:0002",
+          "His return at the short-course championships is described as comfortable.",
+          "Michael Phelps made a comfortable  return to the pool at the world short course swimming  championships Thursday"
+        ]
+      ],
+      "reference_pattern": [
+        "yes",
+        "yes"
+      ],
+      "usable_distinct_propositions": 2,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008757:ia:generated:0001",
+          "query": "I am inquiring about a Michael Phelps' return to pool at short course swimming championships. Did Michael Phelps finish first in his preliminary heat of the 200 meters freestyle? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 189,
+          "evidence_end": 257
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008757:ia:generated:0002",
+          "query": "I am inquiring about a Michael Phelps' return to pool at short course swimming championships. Did Michael Phelps make a comfortable return to the pool at the short course swimming championships? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 75,
+          "evidence_end": 187
+        }
+      ],
+      "note": "Two distinct positives. Winning, first, top-three and not-second variants describe the same finish and were not counted independently. The event-name question is not Yes/No, and record/time/penalty claims are unsupported. Subjectless synthesized claim templates were not repaired.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "dcb56973045f439298dea8461c95d9de0cacec3c9c68e6962624844f8cbc3a60",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "reason": "Fewer than three distinct source-grounded existing Yes/No propositions remain without repairing wording, changing reference labels, counting paraphrases as new facts, or padding with absence-only Unknowns.",
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 2,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged. The return-to-pool prefix overlaps with 0002 but does not supply comfortable, so it is not marked as fully answer-giving."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008792",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00008792:ia:generated:0001",
+          "Iraqis view the network as a reconstruction achievement.",
+          "Iraqis hail their mobile phone network  as one of the few achievements in the country's reconstruction"
+        ],
+        [
+          "vr_871a205ce23c1157aa0a7a53",
+          "The technology is used to detonate bombs.",
+          "the technology is also being used to detonate bombs that  cause daily death and destruction."
+        ]
+      ],
+      "reference_pattern": [
+        "yes",
+        "yes"
+      ],
+      "usable_distinct_propositions": 2,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00008792:ia:generated:0001",
+          "query": "I am inquiring about a Iraq's mobile phone network. Has the mobile phone network in Iraq been identified as one of the achievements in the country's reconstruction? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "evidence_start": 67,
+          "evidence_end": 169
+        },
+        {
+          "candidate_id": "vr_871a205ce23c1157aa0a7a53",
+          "query": "Does the report say the mobile phone network is used to detonate bombs? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "evidence_start": 176,
+          "evidence_end": 268
+        }
+      ],
+      "note": "Two distinct positives. Daily harm alone does not establish geographic prevalence, particular perpetrators, emergency calls or saved lives. Hail-as-weather and missing-subject templates are malformed; communication-plus-bomb variants overlap or require unstated uses, so no third was manufactured.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "d32ee221f00e0154d59bbaed2eb521ec8f72cc413798107c5b217b1f8f473150",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "reason": "Fewer than three distinct source-grounded existing Yes/No propositions remain without repairing wording, changing reference labels, counting paraphrases as new facts, or padding with absence-only Unknowns.",
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 2,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    },
+    {
+      "doc_id": "ag_news_teacher_00008988",
+      "decisions": [
+        [
+          "vr_353eef56b38b1b4f0555bb46",
+          "Bosselmann was a Marine Corps corporal.",
+          "Kirk Bosselmann, few things the Marine Corps corporal did surprised them."
+        ]
+      ],
+      "reference_pattern": [
+        "yes"
+      ],
+      "usable_distinct_propositions": 1,
+      "all_yes_triple": false,
+      "candidate_records": [
+        {
+          "candidate_id": "vr_353eef56b38b1b4f0555bb46",
+          "query": "Does the report say Bosselmann was a Marine Corps corporal? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "evidence_start": 86,
+          "evidence_end": 159
+        }
+      ],
+      "note": "Only the rank proposition survives cleanly. Rank negations are duplicates, and ordinary activities or particular ordinary/unexpected situations are not entailed by few things surprised them. Few is not strengthened into a formally guaranteed some for the all-actions-expectations No query; no second fact was invented.",
+      "turn_dependency": "No dependency on an earlier candidate answer is used. Grounding is in this source; original wording is unchanged.",
+      "source_text_sha256": "ec9995149b24737d0cab20fcd875b8f48a2287f51854b99de92f82e37b82c08a",
+      "reviewer_kind": "codex_agent",
+      "human_reviewed": false,
+      "reason": "Fewer than three distinct source-grounded existing Yes/No propositions remain without repairing wording, changing reference labels, counting paraphrases as new facts, or padding with absence-only Unknowns.",
+      "answer_in_query_ids": [],
+      "answer_in_query_reasons": {},
+      "source_grounded_but_not_prefix_answered_count": 1,
+      "usefulness_note": "Source grounding is separate from retrieval/IA usefulness. Flagged IDs give the target answer in a separate topic premise; IDs are retained unchanged. Shared entities and facts appearing only inside the yes/no question are not automatically flagged."
+    }
+  ],
+  "skipped_documents": {
+    "batch1_or_batch2": [
+      "ag_news_teacher_00008290",
+      "ag_news_teacher_00008321",
+      "ag_news_teacher_00008366",
+      "ag_news_teacher_00008409",
+      "ag_news_teacher_00008622",
+      "ag_news_teacher_00008692"
+    ],
+    "three_existing_three_round": [
+      "ag_news_teacher_00008302",
+      "ag_news_teacher_00008559"
+    ]
+  },
+  "counts": {
+    "assigned_rows": 30,
+    "skipped_batch": 6,
+    "skipped_prevalidated_three_round": 2,
+    "reviewed_documents": 22,
+    "complete_triples": 12,
+    "all_yes_triples": 6,
+    "mixed_or_all_no_triples": 6,
+    "fewer_than_three_documents": 10,
+    "selected_propositions_total": 51,
+    "selected_propositions_in_complete_triples": 36,
+    "reference_patterns_complete": {
+      "yes/yes/yes": 6,
+      "yes/no/no": 2,
+      "no/no/no": 1,
+      "yes/yes/no": 3
+    },
+    "answer_in_query_selected_propositions": 6,
+    "documents_with_answer_in_query": 3,
+    "complete_triples_without_flagged_prefix_answers": 9,
+    "all_yes_triples_without_flagged_prefix_answers": 3
+  },
+  "verification": {
+    "all_assigned_rows_accounted_for": true,
+    "candidate_ids_unique": true,
+    "selected_query_and_reference_copied_exactly": true,
+    "all_evidence_spans_exact_source_substrings": true,
+    "all_retained_sources_excluded_from_previous_batches": true,
+    "no_membership_or_live_result_inputs": true
+  },
+  "limits": [
+    "This is llm-agent source review, not real-person gold or a policy/attack-efficacy result.",
+    "Correct source labels do not establish real user authorization or the validity of an attack trajectory.",
+    "Distinct means a new substantive claim; rephrasing or negating the same claim was not counted as a new fact. Some explicitly documented entailments/contrasts use the same source sentence.",
+    "Unknown candidates were inspected but not used to fill source-fact gaps; they require a separate unknown-answer stratum if desired.",
+    "Batch membership-side balancing and prospective execution are outside this blind review.",
+    "Location from a dateline, temporal ordering, court title and cricket score entailments are flagged in per-document notes for the parent reviewer.",
+    "answer_in_query_ids marks separately rendered premises that already determine a selected answer. Grounded candidates remain in place; these flags must be considered separately when judging source-use or IA usefulness."
+  ]
+}

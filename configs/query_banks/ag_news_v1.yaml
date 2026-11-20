@@ -1,0 +1,17 @@
+source_run_id: 20260717-ag-news-four-medium
+attack_config: configs/attacks/ag_news_calibrated_int8.yaml
+seed: 20260725
+pool:
+  members: 50
+  nonmembers: 50
+queries:
+  paraphrases_per_attack: 4
+  ia_questions_per_document: 30
+  ia_batch_size: 6
+  ia_max_attempts: 20
+  benign_categories:
+    - topic
+    - entity
+    - event
+    - summary
+    - follow_up

@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"NBC Gives Martha Stewart an After-Prison Show Martha Stewart will......\" based on the Context.",
+    "contexts": [
+      "Nun enjoys prison meals with Martha DENVER - The food at the Federal Corrections Camp in Alderson, W.Va., apparently is nothing to write home about - unless one is eating it with Martha Stewart.",
+      "Caminiti, left to fight alone, needed allies He should have been in jail. Or maybe locked down in a hospital. Or maybe in a life-altering boot-camp drug treatment program. Some doctor, some jailer or some judge should have known to save Ken Caminiti from himself.",
+      "Panel Moves Against Spyware, Net Piracy People who illegally share copyrighted music and movies over the Internet could be jailed for up to five years under a bill approved by a powerful congressional panel Wednesday.\\&lt;FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\"\\ color=\"#666666\"&gt;&lt;B&gt;-washingtonpost.com&lt;/B&gt;&lt;/FONT&gt;",
+      "Government attacked for not backing Silverstone By Christopher Hope, Business Correspondent (Filed: 05/10/2004). British motor racing legend Sir Jackie Stewart yesterday attacked the Government for not allowing a 16m fund for the motorsport industry to "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Nun enjoys prison meals with Martha DENVER - The food at the Federal Corrections Camp in Alderson, W.Va., apparently is nothing to write home about - unless one is eating it with Martha Stewart.\"\n\"Caminiti, left to fight alone, needed allies He should have been in jail. Or maybe locked down in a hospital. Or maybe in a life-altering boot-camp drug treatment program. Some doctor, some jailer or some judge should have known to save Ken Caminiti from himself.\"\n\"Panel Moves Against Spyware, Net Piracy People who illegally share copyrighted music and movies over the Internet could be jailed for up to five years under a bill approved by a powerful congressional panel Wednesday.\\&lt;FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\"\\ color=\"#666666\"&gt;&lt;B&gt;-washingtonpost.com&lt;/B&gt;&lt;/FONT&gt;\"\n\"Government attacked for not backing Silverstone By Christopher Hope, Business Correspondent (Filed: 05/10/2004). British motor racing legend Sir Jackie Stewart yesterday attacked the Government for not allowing a 16m fund for the motorsport industry to \"\n\nQuestion:\nComplete this sentence \"NBC Gives Martha Stewart an After-Prison Show Martha Stewart will......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

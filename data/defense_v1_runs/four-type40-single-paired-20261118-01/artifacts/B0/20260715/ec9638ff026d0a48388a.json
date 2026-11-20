@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"#39;Halo 2 #39; a two-handed blast, but lacks key online......\" based on the Context.",
+    "contexts": [
+      "Next to digital IDs, passwords look lame How big is your key ring? There are the house keys, of course, and the car keys and the little fob for unlocking the doors from 30 feet away.",
+      "Fable creator explains online apology Games guru Peter Molyneux says he felt a duty to explain why some features are missing in his latest title.",
+      "The Search Engine Report - Number 96 Search Engine Watch editor Danny Sullivan's recap of top search engine stories from October 2004.",
+      "Word mangled by unpatched security hole A highly critical and unpatched security hole in Microsoft #39;s ubiquitous Word software could be used to launch a denial of service attack and give system access."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Next to digital IDs, passwords look lame How big is your key ring? There are the house keys, of course, and the car keys and the little fob for unlocking the doors from 30 feet away.\"\n\"Fable creator explains online apology Games guru Peter Molyneux says he felt a duty to explain why some features are missing in his latest title.\"\n\"The Search Engine Report - Number 96 Search Engine Watch editor Danny Sullivan's recap of top search engine stories from October 2004.\"\n\"Word mangled by unpatched security hole A highly critical and unpatched security hole in Microsoft #39;s ubiquitous Word software could be used to launch a denial of service attack and give system access.\"\n\nQuestion:\nComplete this sentence \"#39;Halo 2 #39; a two-handed blast, but lacks key online......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

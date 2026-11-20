@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am asking about the report about Craig Moore and Rangers. Does the report describe Craig Moore as an Australian Olympian? Answer Yes, No, or Unknown.",
+    "contexts": [
+      "Souness reserves judgment on Bellamy rant WALES striker Craig Bellamy could be in hot water with Newcastle boss Graeme Souness after appearing to direct verbal insults towards his manager when substituted during yesterday #39;s Premiership draw with Charlton.",
+      "Smith proves he has class to fulfil all United needs CREWE Alexandras efforts to prolong the culinary theme of the week by hurling a banana skin at Manchester United fell apart last night and, as a gallant Dario Gradi disappeared to share ",
+      "BU to induct four into Hall Hockey star David Sacco, a two-time first-team All-American and a finalist for the 1993 Hobey Baker Award, leads the list of four former Boston University athletes who will be inducted into the school's Hall of Fame Oct. 9.",
+      "Shearer shows lasting value Alan Shearer last night demonstrated why Newcastle manager Graeme Souness is toying with the idea of trying to persuade his captain to postpone his retirement with the clinical "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Souness reserves judgment on Bellamy rant WALES striker Craig Bellamy could be in hot water with Newcastle boss Graeme Souness after appearing to direct verbal insults towards his manager when substituted during yesterday #39;s Premiership draw with Charlton.\"\n\"Smith proves he has class to fulfil all United needs CREWE Alexandras efforts to prolong the culinary theme of the week by hurling a banana skin at Manchester United fell apart last night and, as a gallant Dario Gradi disappeared to share \"\n\"BU to induct four into Hall Hockey star David Sacco, a two-time first-team All-American and a finalist for the 1993 Hobey Baker Award, leads the list of four former Boston University athletes who will be inducted into the school's Hall of Fame Oct. 9.\"\n\"Shearer shows lasting value Alan Shearer last night demonstrated why Newcastle manager Graeme Souness is toying with the idea of trying to persuade his captain to postpone his retirement with the clinical \"\n\nQuestion:\nI am asking about the report about Craig Moore and Rangers. Does the report describe Craig Moore as an Australian Olympian? Answer Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

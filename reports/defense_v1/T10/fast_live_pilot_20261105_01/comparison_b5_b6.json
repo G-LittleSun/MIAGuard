@@ -1,0 +1,32 @@
+{
+  "run_id": "fast-v2-b5-b6-20261105-01",
+  "analysis_role": "engineering_only",
+  "formal_effect_eligible": false,
+  "expected": 24,
+  "completed": 24,
+  "methods": {
+    "B5": {
+      "actions": {
+        "allow": 6,
+        "hide_target_refill": 6
+      },
+      "normal_identical_to_b0": 4,
+      "normal_count": 4,
+      "member_target_in_transform": 0,
+      "member_target_in_delivered_raw": 0,
+      "median_ms": 16351.252049673349
+    },
+    "B6": {
+      "actions": {
+        "allow": 6,
+        "sanitized_context": 6
+      },
+      "normal_identical_to_b0": 4,
+      "normal_count": 4,
+      "member_target_in_transform": 4,
+      "member_target_in_delivered_raw": 0,
+      "median_ms": 11896.96935005486
+    }
+  },
+  "limits": "Four convenience normal questions, two attack sources, single-turn; no human gold or population leakage claim. B5 selects retrieved top 1; B6 summary reads raw source. Prior normal judgment reused only because outputs are identical."
+}

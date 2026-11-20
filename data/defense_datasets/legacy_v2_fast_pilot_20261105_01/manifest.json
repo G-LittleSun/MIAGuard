@@ -1,0 +1,47 @@
+{
+  "version_id": "legacy_v2_fast_pilot_20261105_01",
+  "status": "fixed_for_small_engineering_run",
+  "parent_bank_id": "ag_news_queries_v2",
+  "parent_split_id": "ag_news_threshold_v2",
+  "partition": "train",
+  "registry_revision_at_selection": "2026-11-05-r03",
+  "human_gold_complete": false,
+  "formal_effect_eligible": false,
+  "engineering_replay_eligible": true,
+  "requests": 12,
+  "normal_queries": 4,
+  "attack_queries": 8,
+  "attack_targets": [
+    "ag_news_teacher_00000250",
+    "ag_news_teacher_00008944"
+  ],
+  "methods": [
+    "B0",
+    "B2"
+  ],
+  "expected_service_events": 24,
+  "selection": "Four source-supported convenience normal queries, not representative; attack pool filtered for empty prior quality_flags, stable SHA256 rank, one per original-index membership stratum; no model outcomes used.",
+  "input_sha256": {
+    "reports/defense_v1/T10/legacy_reuse_selection_20261104.json": "af7a5a686245aaa0a1ae995fa54924899281b11a60ac10df4a49e7b8cd5f4285",
+    "data/query_banks/ag_news_queries_v2/ag_news/queries.jsonl": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972",
+    "data/query_bank_splits/ag_news_threshold_v2.json": "96977e550be6c0e42ab0b7609f2c73af261a99474b459778ae46fd123c7b80ef",
+    "data/runs/20260717-ag-news-four-medium/ag_news/target_docs.jsonl": "f7f604ce3acde220998ab2bd93186441119ba0074ae2e7fdf8fcdcde79f11eb1",
+    "data/vector_stores/20260717-ag-news-four-medium/ag_news/documents.jsonl": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9",
+    "data/defense_datasets/legacy_v2_reuse_overlay_20261105_01/requests.jsonl": "cbb9ad003ed693dd56f9da6536da0e396348c081586dff4aeba52c5e82b711ce",
+    "data/defense_datasets/legacy_v2_reuse_overlay_20261105_01/labels.jsonl": "091daf489311f4aadd401ccc39da11339a42ae27cee5cae52824b509b3439f84"
+  },
+  "output_sha256": {
+    "builder_snapshot.py": "bd36a48594881840eb945831bcbfd9c4851cc89f6be36dcbb70a554af808608a",
+    "experiment_spec.json": "0d4085bf35f1a7819af8b882bc5fef3aac65384a7d82bf00b6c3864b42336aee",
+    "labels.jsonl": "ac026781e4266bca5d935e68b6150fc39a95b028c42e9b76ace1f431ab076d86",
+    "lineage.jsonl": "5c13a1a2cea75fe6145d9c6e3190b31a020b9bb793107f84c7c55babda944858",
+    "normal_rubric.jsonl": "1e91765920dc6450a415572c93b81323a6ff9abe906e46669f404cbe5e51073d",
+    "requests.jsonl": "251476d785f2d535ee13ec7ea10e4c52833c1d3ebae1af32e2325019822aed31"
+  },
+  "limits": [
+    "Tiny development sample, one target per class per attack; no population effectiveness estimate.",
+    "All sessions are single-query: Query-only only, no Session/fusion comparison.",
+    "Normal answers/rubric are agent suggestions, not human gold; exact-match is not a suitable main quality metric.",
+    "Original BF16 model and frozen thresholds retained; no calibration for this v2 pilot."
+  ]
+}

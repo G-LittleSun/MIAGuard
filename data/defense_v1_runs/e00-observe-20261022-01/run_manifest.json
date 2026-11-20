@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "experiment_id": "E00-observe",
+  "run_id": "e00-observe-20261022-01",
+  "status": "complete",
+  "started_at": "2026-10-22T14:13:59.409714+00:00",
+  "partition": "train",
+  "query_bank_id": "ag_news_queries_v1",
+  "query_bank_sha256": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1",
+  "split_id": "ag_news_threshold_v1",
+  "session_keys": [
+    "ag_news_threshold_v1:train:benign:benign:ag_news_teacher_00000050:001",
+    "ag_news_threshold_v1:train:attack:direct_rag_mia:ag_news_teacher_00000050:001"
+  ],
+  "frozen_model_sha256": "b24b81b88a4ce9579e81eb51cb4e0cc940972dc22499fce77ef80c60f587d188",
+  "query_only_sha256": "a2b482352326a4e9154abeb1126169694df5c7c9ff70a87d9bc5a3ca07aa0759",
+  "fpr_cap": "0.01",
+  "head": "logprob",
+  "prompt_version": "progressive_v3_binary_logprob_strict_validated_attack_evidence",
+  "input_sha256": {
+    "split": "c7f42950276f787bbc38862fad219b7c2436c8e562a9447c52388b0b809d8a93",
+    "attack_config": "0c49af1dd3ce128bf47bf2ecf70c4cd8fc4219a2981007f6f6dd5d4213ed6aff",
+    "judge_config": "e9bf93a30a359d594283c208c8795a735f0f0cf4499dc52cf5bd32eca3def0a4",
+    "gateway_config": "7427480f6c0e6cb65ce0654efdd65eec0a200f9b1ec62251ecd8b5fff72be515"
+  },
+  "spec_sha256": "a0256d5bba7e759280558f929fd61e5000656002fb0e05a69ad2cee47f287b14",
+  "finished_at": "2026-10-22T14:19:41.942461+00:00",
+  "result_sha256": "b00e0b61f8e9eb43baee9c07705401da43e239905b858db1c24857ffa4a0c387"
+}

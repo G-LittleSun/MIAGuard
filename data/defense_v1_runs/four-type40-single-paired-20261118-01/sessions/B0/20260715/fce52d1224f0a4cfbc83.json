@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "3e7b8f17823b2e885fb846c285761b92e68b47d9284f459e773271082971376a",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "q080",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "q080",
+      "session_id": "q080",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Martha Stewart will appear as a guest on NBC shows or host her own after-prison show, given the positive connotation in the context about her prison experience and meals. However, the exact nature of the show is not specified in the provided context.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000651",
+        "ag_news_teacher_00000089",
+        "ag_news_teacher_00000106",
+        "ag_news_teacher_00000485"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000651",
+        "ag_news_teacher_00000089",
+        "ag_news_teacher_00000106",
+        "ag_news_teacher_00000485"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000651",
+            "ag_news_teacher_00000089",
+            "ag_news_teacher_00000106",
+            "ag_news_teacher_00000485"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000651",
+            "ag_news_teacher_00000089",
+            "ag_news_teacher_00000106",
+            "ag_news_teacher_00000485"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1873.4939005225897,
+      "ledger_event": {
+        "request_id": "q080",
+        "session_id": "q080",
+        "input_sha256": "cd97fc86c302fa894ef9f416cbb4ee1ff73dc2901ebf3e40970308a8ba347a40",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000651",
+          "ag_news_teacher_00000089",
+          "ag_news_teacher_00000106",
+          "ag_news_teacher_00000485"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000651",
+            "parent_doc_id": "ag_news_teacher_00000651",
+            "kind": "raw",
+            "score": 0.3482949733734131,
+            "text_sha256": "67f4e04cf9ba800da14db45c22e78aeadb6fcd8e12181c7c2d5bcb1ce624b172"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000089",
+            "parent_doc_id": "ag_news_teacher_00000089",
+            "kind": "raw",
+            "score": 0.3153791129589081,
+            "text_sha256": "672bc69c9fef492f533cfdbf72f4a952b950e7702bf27654046a67fdecb38680"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000106",
+            "parent_doc_id": "ag_news_teacher_00000106",
+            "kind": "raw",
+            "score": 0.31055015325546265,
+            "text_sha256": "d76fedfb50933925f3dfa675b15b47271490b9734f779bbc509ba5ddcd3100cd"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000485",
+            "parent_doc_id": "ag_news_teacher_00000485",
+            "kind": "raw",
+            "score": 0.2907869815826416,
+            "text_sha256": "2eae6a9c2c50040c8c267919bcc7cf410d1c3bd340f933f151651e2b73b10318"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Martha Stewart will appear as a guest on NBC shows or host her own after-prison show, given the positive connotation in the context about her prison experience and meals. However, the exact nature of the show is not specified in the provided context.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795004555.2597535,
+        "finished_at": 1795004557.133253
+      },
+      "generation_input_ref": "artifacts/B0/20260715/fce52d1224f0a4cfbc83.json",
+      "artifact_sha256": "c6c17b443557754e7588cbabeed99098195c6c64ee7853f10f55ec918346c193"
+    }
+  ]
+}

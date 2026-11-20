@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "run_id": "t10c-context-focus-20261102-01",
+  "analysis_role": "engineering_only",
+  "formal_effect_eligible": false,
+  "source_connected_groups": 1,
+  "focused_history_conditions": 2,
+  "requests_with_history": 2,
+  "agent_with_history_focus_consistent": 2,
+  "requests_without_history": 2,
+  "unique_without_history_prompts": 1,
+  "agent_without_history_responses_acknowledging_ambiguity": 0,
+  "observed_without_history_response": "Friday in both repeated requests",
+  "interpretation": "For this one paired example and this local model, teacher-forced history selected the correct weekday under both focuses; the identical no-history prompt received an unsupported single-focus guess twice.",
+  "limitations": [
+    "One source-connected example, not a population estimate.",
+    "The two no-history requests are identical and correlated, not two independent samples.",
+    "Source order, prompt wording, model and teacher-forced history can affect the response.",
+    "No human gold, real dialog history, RAG retrieval, Judge Session/fusion, attack or defense effect was measured.",
+    "Local Q4 model differs from the frozen BF16 Judge."
+  ]
+}

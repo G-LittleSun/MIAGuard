@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008836",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q112",
+      "session_id": "ia_ag_news_teacher_00008836",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not mention Irfan Pathan, Harbhajan Singh, or Zaheer Khan, nor does it provide any information about tail-enders in cricket. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000007",
+        "ag_news_teacher_00000317",
+        "ag_news_teacher_00000196",
+        "ag_news_teacher_00000254"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000007",
+        "ag_news_teacher_00000317",
+        "ag_news_teacher_00000196",
+        "ag_news_teacher_00000254"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000007",
+            "ag_news_teacher_00000317",
+            "ag_news_teacher_00000196",
+            "ag_news_teacher_00000254"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000007",
+            "ag_news_teacher_00000317",
+            "ag_news_teacher_00000196",
+            "ag_news_teacher_00000254"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1571.786000393331,
+      "ledger_event": {
+        "request_id": "q112",
+        "session_id": "ia_ag_news_teacher_00008836",
+        "input_sha256": "41c4cc1087c97acf34a671142d4d13c29711629045cb47719c1a48abd45ee527",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000007",
+          "ag_news_teacher_00000317",
+          "ag_news_teacher_00000196",
+          "ag_news_teacher_00000254"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000007",
+            "parent_doc_id": "ag_news_teacher_00000007",
+            "kind": "raw",
+            "score": 0.41289716958999634,
+            "text_sha256": "634150fffc03b3caaa4b79e321eaaf7726ddd40599236a4ea988593dcb493294"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000317",
+            "parent_doc_id": "ag_news_teacher_00000317",
+            "kind": "raw",
+            "score": 0.3160528242588043,
+            "text_sha256": "aa5d74e9988a21cdf70cacffd283df88e8ceb834a0f595090633a48ebae50ac1"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000196",
+            "parent_doc_id": "ag_news_teacher_00000196",
+            "kind": "raw",
+            "score": 0.3147289752960205,
+            "text_sha256": "d3468f65ec771a32e06f70de43102cb4d4f6f9689958efcdf3804cf9b65eeb58"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000254",
+            "parent_doc_id": "ag_news_teacher_00000254",
+            "kind": "raw",
+            "score": 0.3102116584777832,
+            "text_sha256": "31bc6d1f39c1fab956d3d90539a0abae478c93cd874818745764eb48e9d698e3"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not mention Irfan Pathan, Harbhajan Singh, or Zaheer Khan, nor does it provide any information about tail-enders in cricket. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006882.3538227,
+        "finished_at": 1795006883.925824
+      },
+      "generation_input_ref": "artifacts/B0/20260715/bc21cdbbdf0dacf795fa.json",
+      "artifact_sha256": "bddd9f6b8b23b00437c4fb0f3e26668d9ab5893af1a56989f85c564470b629eb"
+    },
+    {
+      "request_id": "q113",
+      "session_id": "ia_ag_news_teacher_00008836",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe context provided does not contain any information about Australia bowling India out for 239. The context mentions matches involving New Zealand, England, Zimbabwe, and India, but there is no specific detail about the score mentioned in the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000468",
+        "ag_news_teacher_00000007",
+        "ag_news_teacher_00000536",
+        "ag_news_teacher_00000693"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000468",
+        "ag_news_teacher_00000007",
+        "ag_news_teacher_00000536",
+        "ag_news_teacher_00000693"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000468",
+            "ag_news_teacher_00000007",
+            "ag_news_teacher_00000536",
+            "ag_news_teacher_00000693"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000468",
+            "ag_news_teacher_00000007",
+            "ag_news_teacher_00000536",
+            "ag_news_teacher_00000693"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1656.9472001865506,
+      "ledger_event": {
+        "request_id": "q113",
+        "session_id": "ia_ag_news_teacher_00008836",
+        "input_sha256": "5ae2b111888e65de9f26de00c382a3b34a67c6445c8e55a36cf64114cf03e3f2",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000468",
+          "ag_news_teacher_00000007",
+          "ag_news_teacher_00000536",
+          "ag_news_teacher_00000693"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000468",
+            "parent_doc_id": "ag_news_teacher_00000468",
+            "kind": "raw",
+            "score": 0.4093986451625824,
+            "text_sha256": "d9fc4413885ee7b80c47c60950cfc34acb37a668ffb6c74bbea86e1f5b43fd22"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000007",
+            "parent_doc_id": "ag_news_teacher_00000007",
+            "kind": "raw",
+            "score": 0.36537396907806396,
+            "text_sha256": "634150fffc03b3caaa4b79e321eaaf7726ddd40599236a4ea988593dcb493294"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000536",
+            "parent_doc_id": "ag_news_teacher_00000536",
+            "kind": "raw",
+            "score": 0.3623499274253845,
+            "text_sha256": "a72429ffa3a006df4011e0c88137de2d921951b465d9bedd553eec967863db67"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000693",
+            "parent_doc_id": "ag_news_teacher_00000693",
+            "kind": "raw",
+            "score": 0.3607273995876312,
+            "text_sha256": "be1392fd9cdeca50f2cf457fa11b06b21f0fc112d699a96fc3e62d396d454bfa"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe context provided does not contain any information about Australia bowling India out for 239. The context mentions matches involving New Zealand, England, Zimbabwe, and India, but there is no specific detail about the score mentioned in the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006883.9303226,
+        "finished_at": 1795006885.5868225
+      },
+      "generation_input_ref": "artifacts/B0/20260715/ac00570b7e06c56c5d66.json",
+      "artifact_sha256": "fca24e5806d952951836048c19af968432cf3f3cd01d3bd4dbe7a46ab069d75d"
+    },
+    {
+      "request_id": "q114",
+      "session_id": "ia_ag_news_teacher_00008836",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe context provided does not contain information about the results of the first Test match between India and Australia. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000693",
+        "ag_news_teacher_00000468",
+        "ag_news_teacher_00000338",
+        "ag_news_teacher_00000536"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000693",
+        "ag_news_teacher_00000468",
+        "ag_news_teacher_00000338",
+        "ag_news_teacher_00000536"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000693",
+            "ag_news_teacher_00000468",
+            "ag_news_teacher_00000338",
+            "ag_news_teacher_00000536"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000693",
+            "ag_news_teacher_00000468",
+            "ag_news_teacher_00000338",
+            "ag_news_teacher_00000536"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1121.0476998239756,
+      "ledger_event": {
+        "request_id": "q114",
+        "session_id": "ia_ag_news_teacher_00008836",
+        "input_sha256": "8efd10a4faa236fe8a30ae64fe58af9b93f1ec14016702241c7d169a8b88346a",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000693",
+          "ag_news_teacher_00000468",
+          "ag_news_teacher_00000338",
+          "ag_news_teacher_00000536"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000693",
+            "parent_doc_id": "ag_news_teacher_00000693",
+            "kind": "raw",
+            "score": 0.5303260684013367,
+            "text_sha256": "be1392fd9cdeca50f2cf457fa11b06b21f0fc112d699a96fc3e62d396d454bfa"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000468",
+            "parent_doc_id": "ag_news_teacher_00000468",
+            "kind": "raw",
+            "score": 0.5037122964859009,
+            "text_sha256": "d9fc4413885ee7b80c47c60950cfc34acb37a668ffb6c74bbea86e1f5b43fd22"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000338",
+            "parent_doc_id": "ag_news_teacher_00000338",
+            "kind": "raw",
+            "score": 0.4492197334766388,
+            "text_sha256": "91c458ad4a178c7730ea50bf1b3bb7fc71d31f08e4027f45aaed3e13f5eaae70"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000536",
+            "parent_doc_id": "ag_news_teacher_00000536",
+            "kind": "raw",
+            "score": 0.42320361733436584,
+            "text_sha256": "a72429ffa3a006df4011e0c88137de2d921951b465d9bedd553eec967863db67"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe context provided does not contain information about the results of the first Test match between India and Australia. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006885.5918224,
+        "finished_at": 1795006886.7128234
+      },
+      "generation_input_ref": "artifacts/B0/20260715/533999022150049ecef8.json",
+      "artifact_sha256": "333d9c375eb431917d5af6c42d84b7b8c4309155b859ed55b36910ddcb5475f8"
+    }
+  ]
+}

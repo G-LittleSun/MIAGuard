@@ -1,0 +1,183 @@
+{
+  "status": "fixed_before_candidate_implementation",
+  "input_sha256": {
+    "data\\defense_datasets\\next_goal_v2_train_20261117_01\\manifest.json": "5aa8bc8c2a47d5cf39da30867d7c367e68217ae4958a1d737590e04df7e91b0b",
+    "data\\defense_datasets\\next_goal_v2_train_20261117_01\\labels.jsonl": "82f2f53324abda1faa774193bd46dc7b601c3225945647aaab5c67b2eca7ef7f",
+    "data\\defense_datasets\\next_goal_v2_train_20261117_01\\lineage.jsonl": "bbd1882ea1659041dfd49fe504148b9320a18686ff2c5e4c31f18b1db5f4ea6e",
+    "reports\\defense_v1\\T10\\next_goal_source_inventory_20261117.json": "51444e6152cfea30832795a328c54081b4b31401b8820f14496c237f3e473708",
+    "data\\runs\\20260717-ag-news-four-medium\\ag_news\\target_docs.jsonl": "f7f604ce3acde220998ab2bd93186441119ba0074ae2e7fdf8fcdcde79f11eb1"
+  },
+  "historical_regression_ids": [
+    "bp_treo_1",
+    "bp_treo_2",
+    "bp_treo_3",
+    "bp_ace_1",
+    "bp_oklahoma_1"
+  ],
+  "comparison_attack_source_ids": [
+    "ag_news_teacher_00000050",
+    "ag_news_teacher_00000149",
+    "ag_news_teacher_00000220",
+    "ag_news_teacher_00000224",
+    "ag_news_teacher_00008319",
+    "ag_news_teacher_00008340",
+    "ag_news_teacher_00008636",
+    "ag_news_teacher_00008836"
+  ],
+  "source_groups": {
+    "ag_news_teacher_00000050": "ag_news_teacher_00000050",
+    "ag_news_teacher_00000149": "ag_news_teacher_00000149",
+    "ag_news_teacher_00000220": "ag_news_teacher_00000220",
+    "ag_news_teacher_00000224": "ag_news_teacher_00000224",
+    "ag_news_teacher_00008319": "ag_news_teacher_00008319",
+    "ag_news_teacher_00008340": "ag_news_teacher_00008340",
+    "ag_news_teacher_00008636": "ag_news_teacher_00008636",
+    "ag_news_teacher_00008836": "ag_news_teacher_00008836"
+  },
+  "source_group_basis": "Distinct articles about Symantec, NASA rovers, Florida tiger attack, Merck recall, US rowing, semiconductor processor, Vaughan sledging, and India-Australia cricket. Manual topic screening plus token similarity, not proof of event independence.",
+  "pairwise_token_jaccard": [
+    {
+      "doc_a": "ag_news_teacher_00000224",
+      "doc_b": "ag_news_teacher_00008319",
+      "token_jaccard": 0.087
+    },
+    {
+      "doc_a": "ag_news_teacher_00008319",
+      "doc_b": "ag_news_teacher_00008636",
+      "token_jaccard": 0.08
+    },
+    {
+      "doc_a": "ag_news_teacher_00000220",
+      "doc_b": "ag_news_teacher_00008340",
+      "token_jaccard": 0.0577
+    },
+    {
+      "doc_a": "ag_news_teacher_00008340",
+      "doc_b": "ag_news_teacher_00008836",
+      "token_jaccard": 0.0536
+    },
+    {
+      "doc_a": "ag_news_teacher_00000224",
+      "doc_b": "ag_news_teacher_00008340",
+      "token_jaccard": 0.0526
+    },
+    {
+      "doc_a": "ag_news_teacher_00000050",
+      "doc_b": "ag_news_teacher_00008836",
+      "token_jaccard": 0.0465
+    },
+    {
+      "doc_a": "ag_news_teacher_00000149",
+      "doc_b": "ag_news_teacher_00008636",
+      "token_jaccard": 0.0448
+    },
+    {
+      "doc_a": "ag_news_teacher_00000220",
+      "doc_b": "ag_news_teacher_00008319",
+      "token_jaccard": 0.0417
+    },
+    {
+      "doc_a": "ag_news_teacher_00000220",
+      "doc_b": "ag_news_teacher_00000224",
+      "token_jaccard": 0.0405
+    },
+    {
+      "doc_a": "ag_news_teacher_00008319",
+      "doc_b": "ag_news_teacher_00008340",
+      "token_jaccard": 0.0392
+    },
+    {
+      "doc_a": "ag_news_teacher_00008319",
+      "doc_b": "ag_news_teacher_00008836",
+      "token_jaccard": 0.0385
+    },
+    {
+      "doc_a": "ag_news_teacher_00000050",
+      "doc_b": "ag_news_teacher_00000149",
+      "token_jaccard": 0.0377
+    },
+    {
+      "doc_a": "ag_news_teacher_00000220",
+      "doc_b": "ag_news_teacher_00008836",
+      "token_jaccard": 0.037
+    },
+    {
+      "doc_a": "ag_news_teacher_00008340",
+      "doc_b": "ag_news_teacher_00008636",
+      "token_jaccard": 0.0351
+    },
+    {
+      "doc_a": "ag_news_teacher_00000149",
+      "doc_b": "ag_news_teacher_00000220",
+      "token_jaccard": 0.0312
+    },
+    {
+      "doc_a": "ag_news_teacher_00000149",
+      "doc_b": "ag_news_teacher_00008836",
+      "token_jaccard": 0.0294
+    },
+    {
+      "doc_a": "ag_news_teacher_00000050",
+      "doc_b": "ag_news_teacher_00008319",
+      "token_jaccard": 0.0263
+    },
+    {
+      "doc_a": "ag_news_teacher_00000224",
+      "doc_b": "ag_news_teacher_00008636",
+      "token_jaccard": 0.0253
+    },
+    {
+      "doc_a": "ag_news_teacher_00000224",
+      "doc_b": "ag_news_teacher_00008836",
+      "token_jaccard": 0.0253
+    },
+    {
+      "doc_a": "ag_news_teacher_00000050",
+      "doc_b": "ag_news_teacher_00008340",
+      "token_jaccard": 0.0233
+    },
+    {
+      "doc_a": "ag_news_teacher_00000050",
+      "doc_b": "ag_news_teacher_00008636",
+      "token_jaccard": 0.0227
+    },
+    {
+      "doc_a": "ag_news_teacher_00000220",
+      "doc_b": "ag_news_teacher_00008636",
+      "token_jaccard": 0.0182
+    },
+    {
+      "doc_a": "ag_news_teacher_00008636",
+      "doc_b": "ag_news_teacher_00008836",
+      "token_jaccard": 0.0169
+    },
+    {
+      "doc_a": "ag_news_teacher_00000149",
+      "doc_b": "ag_news_teacher_00008319",
+      "token_jaccard": 0.0159
+    },
+    {
+      "doc_a": "ag_news_teacher_00000050",
+      "doc_b": "ag_news_teacher_00000224",
+      "token_jaccard": 0.0154
+    },
+    {
+      "doc_a": "ag_news_teacher_00000149",
+      "doc_b": "ag_news_teacher_00000224",
+      "token_jaccard": 0.0111
+    },
+    {
+      "doc_a": "ag_news_teacher_00000050",
+      "doc_b": "ag_news_teacher_00000220",
+      "token_jaccard": 0.0
+    },
+    {
+      "doc_a": "ag_news_teacher_00000149",
+      "doc_b": "ag_news_teacher_00008340",
+      "token_jaccard": 0.0
+    }
+  ],
+  "selection_rule": "Candidate vs V2 no added target raw, no supported normal correctness loss, at least one shortcoming improved; do not infer formal safety or force winner.",
+  "scope": "Previous missed cases guide design and five historical normal requests are regression; newly selected targets are seen by Judge training, four members also appear in older defense run labels.",
+  "ia": "Four two-turn same-event sessions, not necessarily context-dependent; do not mix budgets."
+}

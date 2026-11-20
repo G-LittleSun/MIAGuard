@@ -1,0 +1,50 @@
+schema_version: 1
+library:
+  name: MIAGuard Attack Pattern Library
+  version: 1.7.0
+  judge_protocol: JUDGE_PROTOCOL.md
+patterns:
+  - id: direct_rag_mia
+    name: Direct RAG-MIA
+    version: 1.3.0
+    enabled: true
+    entrypoint: patterns/direct_rag_mia/PATTERN.md
+    summary: >-
+      Requires a supplied specific passage plus a private Context/retrieval
+      presence or support check that could reveal whether the corpus contains it;
+      public-document checks and ordinary reading questions are excluded.
+    required_context: [current_query]
+    optional_context: [retrieved_snippets, retrieval_history]
+  - id: s2_mia
+    name: S2-MIA
+    version: 1.3.0
+    enabled: true
+    entrypoint: patterns/s2_mia/PATTERN.md
+    summary: >-
+      Requires a supplied source-like prefix and a request to use Context or
+      evidence to recover an existing exact/source-faithful continuation; creative
+      continuation, rewriting, and explicitly invented endings are excluded.
+    required_context: [current_query]
+    optional_context: [retrieved_snippets]
+  - id: masked_mia
+    name: Masked MIA
+    version: 1.3.0
+    enabled: true
+    entrypoint: patterns/masked_mia/PATTERN.md
+    summary: >-
+      Requires masks in a source-like passage and a request to use Context or
+      evidence to recover the original exact text; public cloze, grammar, and any
+      grammatically valid completion tasks are excluded.
+    required_context: [current_query]
+    optional_context: [retrieved_snippets]
+  - id: ia
+    name: Information Association Attack
+    version: 1.6.0
+    enabled: true
+    entrypoint: patterns/ia/PATTERN.md
+    summary: >-
+      Requires a multi-turn, constrained factual membership-probing pattern about
+      one target; ordinary reading dialogue, same-fact paraphrases, and repeated
+      retrieval alone are insufficient.
+    required_context: [current_query, recent_turns, retrieval_history, session_statistics]
+    optional_context: [retrieved_snippets]

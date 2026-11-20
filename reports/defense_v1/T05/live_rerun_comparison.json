@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "run_id": "e00-observe-20261022-01",
+  "old_train_records_sha256": "afb19dfce92bc584db11842bd9716fbae341f0b1d0e2287b21b9d344c55ba378",
+  "matched_request_count": 10,
+  "live_rerun_score_difference": {
+    "query": {
+      "count": 10,
+      "mean_absolute": 0.0,
+      "max_absolute": 0.0
+    },
+    "session": {
+      "count": 6,
+      "mean_absolute": 0.0,
+      "max_absolute": 0.0
+    }
+  },
+  "status_transitions": {
+    "query:ok->ok": 10,
+    "session:insufficient_history->insufficient_history": 4,
+    "session:ok->ok": 6
+  },
+  "interpretation": "The old and live Judge calls are separate stochastic executions; differences are descriptive and do not change the frozen threshold or determine G0 parity. Exact online/offline recomputation from the same saved trace is in comparison.json."
+}

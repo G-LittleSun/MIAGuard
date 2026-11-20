@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "In the sports commentary about Sarunas Jasikevicius, who is described as \"too slow and too anchored to the floor to play in the NBA\"?",
+    "contexts": [
+      "NBA could use this reject Sarunas Jasikevicius is just another international nobody who is too slow and too anchored to the floor to play in the NBA. He is not what we want, not our style.",
+      "=== Mashburn to sit out 2004-05 campaign === New Orleans, LA (Sports Network) - New Orleans Hornets forward Jamal Mashburn will sit out the 2004-05 season due to a patella femoral irritation of his right knee.",
+      "Open-Henin-Hardenne happy to be healthy again Justine Henin-Hardenne says she has finally emerged from a dark tunnel and is ready to defend her US Open title. The world number one and top seed here was struck ",
+      "Daly-Donofrio bolts ahead at Tournament of Champions MOBILE, Ala. (SportsTicker) - After having the door opened for her, Heather Daly-Donofrio is walking right in. Ineligible to participate in the past, Daly-Donofrio carded an 8-under-par 64 in Saturday #39;s "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"NBA could use this reject Sarunas Jasikevicius is just another international nobody who is too slow and too anchored to the floor to play in the NBA. He is not what we want, not our style.\"\n\"=== Mashburn to sit out 2004-05 campaign === New Orleans, LA (Sports Network) - New Orleans Hornets forward Jamal Mashburn will sit out the 2004-05 season due to a patella femoral irritation of his right knee.\"\n\"Open-Henin-Hardenne happy to be healthy again Justine Henin-Hardenne says she has finally emerged from a dark tunnel and is ready to defend her US Open title. The world number one and top seed here was struck \"\n\"Daly-Donofrio bolts ahead at Tournament of Champions MOBILE, Ala. (SportsTicker) - After having the door opened for her, Heather Daly-Donofrio is walking right in. Ineligible to participate in the past, Daly-Donofrio carded an 8-under-par 64 in Saturday #39;s \"\n\nQuestion:\nIn the sports commentary about Sarunas Jasikevicius, who is described as \"too slow and too anchored to the floor to play in the NBA\"?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

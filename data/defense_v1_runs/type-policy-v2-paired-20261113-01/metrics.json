@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-type-policy-v2-paired-retest",
+  "run_id": "type-policy-v2-paired-20261113-01",
+  "identity_sha256": "1b89316ddb4351e35b840dd4cd2e797e0f481359f8230dab77f3058dcc5428fd",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 54,
+  "completed": 54,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 23,
+  "method_count": 2,
+  "attack_target_count": 9,
+  "benign_request_count": 24
+}

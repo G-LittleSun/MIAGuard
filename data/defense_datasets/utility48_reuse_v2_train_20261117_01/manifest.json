@@ -1,0 +1,38 @@
+{
+  "version_id": "utility48_reuse_v2_train_20261117_01",
+  "partition": "train",
+  "analysis_role": "engineering_only",
+  "request_count": 48,
+  "expected_events": 96,
+  "methods": [
+    "B0",
+    "B_TYPE_V2"
+  ],
+  "human_gold_complete": false,
+  "formal_effect_eligible": false,
+  "lineage_counts": {
+    "verbatim_previous_development": 4,
+    "verbatim_v2_train": 9,
+    "new_agent_authored": 35
+  },
+  "input_sha256": {
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\utility48_v2_train_20261117_01\\manifest.json": "73750c729bb5942ae51c47568d6dac4ea84bd1853b254fcfa48abfb22180edbb",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\utility48_direct_reuse_candidates_20261117.jsonl": "b290f31b481dbd0282d5d4a1f7e51f2f11b7c271ef63dec42c71745ff1d0726a",
+    "D:\\Project\\MIAGuard\\data\\query_banks\\ag_news_queries_v2\\ag_news\\queries.jsonl": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\next_goal_v2_train_20261117_01\\requests.jsonl": "e17bb9c5b4757403ed966b19f59b4c4daa8dcd709a1fbe4529024ad5b9bf4fe1",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\freeze_utility48_reuse_20261117.py": "673e830e5ae53ffb83324f87d278d478ff256dd765d09118026d9e2f293ebcee"
+  },
+  "output_sha256": {
+    "experiment_spec.json": "95afc7023af0ff88c9235b2fc9fc3f0b232c45ebfb3ace8944e222ccd37edd97",
+    "labels.jsonl": "960ce9078645478fe186495268ef2cb99796aa4d07884b1f1194bcc298b47a87",
+    "lineage.jsonl": "5fbad766bc5295b6a327de7745393079288bf384351e51cc654c73a07768f265",
+    "normal_rubric.jsonl": "7a3df9cbf4991bcb00d20353884d88f6a3880d7e10f1e1d147a1cb96fcfdcae6",
+    "requests.jsonl": "d32fe97a682fe31671d0255d4c24832fbdca6393783f141653fb65531c3b8267",
+    "scoring_protocol_zh.md": "2add4b5e820addf48d837cf2251573b58be194ca7fb8ac052627943a9b6d6bed"
+  },
+  "limits": [
+    "Agent annotations, simulated per-question allowlists, repeated event sources.",
+    "Supplementary index sources for alternative cases outside query split.",
+    "New agent-authored questions retained where candidate coverage remains incomplete."
+  ]
+}

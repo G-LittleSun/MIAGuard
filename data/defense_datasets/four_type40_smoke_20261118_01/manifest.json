@@ -1,0 +1,37 @@
+{
+  "version_id": "four_type40_smoke_20261118_01",
+  "bank_id": "ag_news_queries_v2",
+  "split_id": "ag_news_threshold_v2",
+  "partition": "train",
+  "scope": "Harness validation only; prior three-round IA fixtures.",
+  "analysis_role": "engineering_only",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "expected_events": 24,
+  "target_counts": {
+    "('direct_rag_mia', 0)": 1,
+    "('direct_rag_mia', 1)": 1,
+    "('ia', 0)": 1,
+    "('ia', 1)": 1,
+    "('masked_mia', 0)": 1,
+    "('masked_mia', 1)": 1,
+    "('s2_mia', 0)": 1,
+    "('s2_mia', 1)": 1
+  },
+  "unique_documents": 4,
+  "source_event_independence_proven": false,
+  "selection": "Existing frozen fixtures, shared selected docs for single-turn types, no exact normalized source duplicates.",
+  "input_sha256": {
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\four_type40_preflight_20261118.json": "e063aa68a16779989f468c8d95cffc83b6698f5f8783419c55660db29d0e6b41",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\next_goal_ablation_v2_train_20261117_01\\experiment_spec.json": "ac215b49b2be10b5934e6f99bdf0a155ed2bb2b05fd975c2ebf8ce3317800085",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\next-goal-ablation-20261117-01\\run_manifest.json": "e140c792912fa7cf74dff8ece0d3a35a2703379ac64662540a319b157f1beca9",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\FOUR_TYPE40_SCORING_ZH.md": "d46b822e28dc56b5057bcd774f660d1506fb33f187ad0c73e2dde3a80932dc63",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\freeze_four_type40_single_round_20261118.py": "a954682f5d991b21e84f0883d0bbd1cc8fb6cf16a3ceea8650b01682d0807d5f"
+  },
+  "output_sha256": {
+    "experiment_spec.json": "61d51417bc742a05e2dc0e2527c2b1ad252a2275b23a8f458477af2b129dfcde",
+    "labels.jsonl": "f2b4e5bd35f5aa9d60ac9a7a40e2554915c3814033288c990d330bc6819abb62",
+    "lineage.jsonl": "89cf6be4d84e5609b29502416fc3cd4419a0687cb2b33be41c3f371019dc7fa5",
+    "requests.jsonl": "fc44b7d89de66400754dbaaa6eb44f51c110fc1cb6ad141778ccd1ad4299f5f1"
+  }
+}

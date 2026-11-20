@@ -1,0 +1,155 @@
+{
+  "registry": "2026-11-09-r06",
+  "role": "engineering_only",
+  "formal_effect_eligible": false,
+  "results": [
+    {
+      "manifest": "data/defense_datasets/legacy_v2_fast_pilot_20261105_01/manifest.json",
+      "manifest_sha256": "8e27a20838f5b1d237e16afb887a995cf43bdf46eb2d92b3141b6e8eb9ec74f6",
+      "checks": [
+        {
+          "path": "reports/defense_v1/T10/legacy_reuse_selection_20261104.json",
+          "ok": true,
+          "sha256": "af7a5a686245aaa0a1ae995fa54924899281b11a60ac10df4a49e7b8cd5f4285"
+        },
+        {
+          "path": "data/query_banks/ag_news_queries_v2/ag_news/queries.jsonl",
+          "ok": true,
+          "sha256": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972"
+        },
+        {
+          "path": "data/query_bank_splits/ag_news_threshold_v2.json",
+          "ok": true,
+          "sha256": "96977e550be6c0e42ab0b7609f2c73af261a99474b459778ae46fd123c7b80ef"
+        },
+        {
+          "path": "data/runs/20260717-ag-news-four-medium/ag_news/target_docs.jsonl",
+          "ok": true,
+          "sha256": "f7f604ce3acde220998ab2bd93186441119ba0074ae2e7fdf8fcdcde79f11eb1"
+        },
+        {
+          "path": "data/vector_stores/20260717-ag-news-four-medium/ag_news/documents.jsonl",
+          "ok": true,
+          "sha256": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9"
+        },
+        {
+          "path": "data/defense_datasets/legacy_v2_reuse_overlay_20261105_01/requests.jsonl",
+          "ok": true,
+          "sha256": "cbb9ad003ed693dd56f9da6536da0e396348c081586dff4aeba52c5e82b711ce"
+        },
+        {
+          "path": "data/defense_datasets/legacy_v2_reuse_overlay_20261105_01/labels.jsonl",
+          "ok": true,
+          "sha256": "091daf489311f4aadd401ccc39da11339a42ae27cee5cae52824b509b3439f84"
+        },
+        {
+          "path": "data/defense_datasets/legacy_v2_fast_pilot_20261105_01/builder_snapshot.py",
+          "ok": true,
+          "sha256": "bd36a48594881840eb945831bcbfd9c4851cc89f6be36dcbb70a554af808608a"
+        },
+        {
+          "path": "data/defense_datasets/legacy_v2_fast_pilot_20261105_01/experiment_spec.json",
+          "ok": true,
+          "sha256": "0d4085bf35f1a7819af8b882bc5fef3aac65384a7d82bf00b6c3864b42336aee"
+        },
+        {
+          "path": "data/defense_datasets/legacy_v2_fast_pilot_20261105_01/labels.jsonl",
+          "ok": true,
+          "sha256": "ac026781e4266bca5d935e68b6150fc39a95b028c42e9b76ace1f431ab076d86"
+        },
+        {
+          "path": "data/defense_datasets/legacy_v2_fast_pilot_20261105_01/lineage.jsonl",
+          "ok": true,
+          "sha256": "5c13a1a2cea75fe6145d9c6e3190b31a020b9bb793107f84c7c55babda944858"
+        },
+        {
+          "path": "data/defense_datasets/legacy_v2_fast_pilot_20261105_01/normal_rubric.jsonl",
+          "ok": true,
+          "sha256": "1e91765920dc6450a415572c93b81323a6ff9abe906e46669f404cbe5e51073d"
+        },
+        {
+          "path": "data/defense_datasets/legacy_v2_fast_pilot_20261105_01/requests.jsonl",
+          "ok": true,
+          "sha256": "251476d785f2d535ee13ec7ea10e4c52833c1d3ebae1af32e2325019822aed31"
+        }
+      ]
+    },
+    {
+      "manifest": "data/defense_datasets/legacy_v2_rank_stress_20261109_01/manifest.json",
+      "manifest_sha256": "7dde3298754ad9476117457a13a053b64aa846cd2b695b5d1eb0851d16ad4c5a",
+      "checks": [
+        {
+          "path": "reports/defense_v1/T10/rank_stress_20261109_01/retrieval_screen.jsonl",
+          "ok": true,
+          "sha256": "6ef3d812937c9af0601fabf5142d19cb7c2f4bb0f50bf21f356d32f369c41e35"
+        },
+        {
+          "path": "data/vector_stores/20260717-ag-news-four-medium/ag_news/documents.jsonl",
+          "ok": true,
+          "sha256": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9"
+        },
+        {
+          "path": "reports/defense_v1/planning/current_versions_snapshot_20261105_05.json",
+          "ok": true,
+          "sha256": "e5fecfe717335a58ee69e7f47fc09f543969acd602c7beb4564333820a3a9d28"
+        },
+        {
+          "path": "reports/defense_v1/T10/build_rank_stress_20261109.py",
+          "ok": true,
+          "sha256": "ac613d0ab59c0c1e022eb875d9f9dc7d2c951f01dafb6b24963cd4be2411ad45"
+        },
+        {
+          "path": "data/defense_datasets/legacy_v2_rank_stress_20261109_01/experiment_spec.json",
+          "ok": true,
+          "sha256": "38dfa381aaa96b809cc03c017efc8b3f9e88659342c7a378d380e820b8e4d447"
+        },
+        {
+          "path": "data/defense_datasets/legacy_v2_rank_stress_20261109_01/labels.jsonl",
+          "ok": true,
+          "sha256": "ced7a8b8a995fabff76f68003d049e768f8ec98f291860f074d7a3570db2177e"
+        },
+        {
+          "path": "data/defense_datasets/legacy_v2_rank_stress_20261109_01/lineage.jsonl",
+          "ok": true,
+          "sha256": "2c179bac9dc22b710ea8d2b89e645a25f6b67077dcaa9ee3b92255586ea4b50a"
+        },
+        {
+          "path": "data/defense_datasets/legacy_v2_rank_stress_20261109_01/normal_rubric.jsonl",
+          "ok": true,
+          "sha256": "9ebc6fa063af473aeddbec4090d2a460f7ef10f5f69571fa3f1f51cf2f6c05ff"
+        },
+        {
+          "path": "data/defense_datasets/legacy_v2_rank_stress_20261109_01/requests.jsonl",
+          "ok": true,
+          "sha256": "a727525e3d9c39cf7d2b130a16424f1ec19c6c84f175229859076d63876c0ee4"
+        }
+      ]
+    },
+    {
+      "manifest": "reports/defense_v1/T10/session_length_dev_cohort_20261102_01/manifest.json",
+      "manifest_sha256": "bba5799df0d49ace072dab0b163c2239200fdd42395a24bd5f7ffe937c444115",
+      "checks": [
+        {
+          "path": "reports/defense_v1/T10/session_length_dev_cohort_20261102_01/cohort.jsonl",
+          "ok": true,
+          "sha256": "241d90be4156826d9e6a7ed803ad141e3fd89235f40f3d04c1c67251279eb366"
+        },
+        {
+          "path": "reports/defense_v1/T10/session_length_dev_cohort_20261102_01/source_evidence.jsonl",
+          "ok": true,
+          "sha256": "8c5d82b39264ad3e786dcd295b9c7983baf9736246393b84bfb9e00c471ae1e9"
+        },
+        {
+          "path": "reports/defense_v1/T10/session_length_dev_cohort_20261102_01/excluded_variants.jsonl",
+          "ok": true,
+          "sha256": "fc32f79bfc7fbd7575e98cd36d73453061514321226c5db0730afebe7d82333a"
+        },
+        {
+          "path": "reports/defense_v1/T10/session_length_dev_cohort_20261102_01/dependency_groups.json",
+          "ok": true,
+          "sha256": "107d8cc95531ce1addde01e418fe1eca4ba3284ea0828b5483516edaa59ec332"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "generation_input": {
+    "query": "Which sector witnessed an upturn in the report?",
+    "contexts": [
+      "Continued growth in US services sector NEW YORK, November 3 (newratings.com) - The US services sector witnessed a continued upturn for the nineteenth consecutive month in October this year, the Institute of Supply Management (ISM) reported today."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Continued growth in US services sector NEW YORK, November 3 (newratings.com) - The US services sector witnessed a continued upturn for the nineteenth consecutive month in October this year, the Institute of Supply Management (ISM) reported today.\"\n\nQuestion:\nWhich sector witnessed an upturn in the report?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

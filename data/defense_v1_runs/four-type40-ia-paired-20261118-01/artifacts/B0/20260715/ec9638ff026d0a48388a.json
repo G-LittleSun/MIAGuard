@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Martha Stewart getting a daily syndicated show after prison. Will Martha Stewart's show have a syndicated format? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Nun enjoys prison meals with Martha DENVER - The food at the Federal Corrections Camp in Alderson, W.Va., apparently is nothing to write home about - unless one is eating it with Martha Stewart.",
+      "Blogging the Story Alive Bloggers force CBS News to admit to a serious mistake, and journalists recoil from the thought of so much scrutiny of their work. But isn't this exactly what we need to get better-quality news? Commentary by Adam L. Penenberg.",
+      "Panel Moves Against Spyware, Net Piracy People who illegally share copyrighted music and movies over the Internet could be jailed for up to five years under a bill approved by a powerful congressional panel Wednesday.\\&lt;FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\"\\ color=\"#666666\"&gt;&lt;B&gt;-washingtonpost.com&lt;/B&gt;&lt;/FONT&gt;",
+      "TV to the rescue Cell phone executives say new data-oriented services such as TV will help bolster an industry in a precarious state."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Nun enjoys prison meals with Martha DENVER - The food at the Federal Corrections Camp in Alderson, W.Va., apparently is nothing to write home about - unless one is eating it with Martha Stewart.\"\n\"Blogging the Story Alive Bloggers force CBS News to admit to a serious mistake, and journalists recoil from the thought of so much scrutiny of their work. But isn't this exactly what we need to get better-quality news? Commentary by Adam L. Penenberg.\"\n\"Panel Moves Against Spyware, Net Piracy People who illegally share copyrighted music and movies over the Internet could be jailed for up to five years under a bill approved by a powerful congressional panel Wednesday.\\&lt;FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\"\\ color=\"#666666\"&gt;&lt;B&gt;-washingtonpost.com&lt;/B&gt;&lt;/FONT&gt;\"\n\"TV to the rescue Cell phone executives say new data-oriented services such as TV will help bolster an industry in a precarious state.\"\n\nQuestion:\nI am inquiring about a Martha Stewart getting a daily syndicated show after prison. Will Martha Stewart's show have a syndicated format? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

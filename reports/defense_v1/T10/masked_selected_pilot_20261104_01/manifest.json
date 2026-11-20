@@ -1,0 +1,34 @@
+{
+  "version_id": "t10d-masked-selected-20261104-01",
+  "partition": "D-dev",
+  "status": "pending_content_review",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "replay_eligible": false,
+  "source_count": 4,
+  "drafts": 2,
+  "unselected_sources": 2,
+  "input_sha256": {
+    "reports/defense_v1/T10/masked_rule_pilot_20261104_01/manifest.json": "88a41fa0f52d77871021b989fe2e8fd042a9bdfd65a45a02e5d60fc5de7c2e40",
+    "reports/defense_v1/T10/masked_rule_pilot_20261104_01/sources.jsonl": "8d047513a28079309fc37f941a7f6b87d0ac9d3a392fb53344dcdeffcc5e80ff",
+    "reports/defense_v1/T10/masked_rule_pilot_20261104_01/labels.jsonl": "4356bdd35b139638d03ecd47619ebff241a296b6a45668f5982352d7ca6dc270",
+    "reports/defense_v1/T10/REVIEW_TRIAGE_REV2_20261030_ZH.md": "a5ca79e5aa4ebfe4813b79d54006e025dbf2e533ab67914d709b7bfb24bd7fc4",
+    "src/miaguard/defense_dataset.py": "5301ff3d1146b5bab527c803f5eea6626a9c8ec9c26cfe4b68e4a044c3a8da9b",
+    "reports/defense_v1/T10/build_masked_selected_pilot_20261104.py": "3ae4f13d36f81ae1d79c8f4b797fbe534a1f1bae60a5b755c58f49ce3072bba8"
+  },
+  "output_sha256": {
+    "requests.jsonl": "54db4e046f48aa31e9d11fbf2952881abfd6368e472d8c63315ce15b2d1f7344",
+    "labels.jsonl": "ef2b1686764bde24316a38d41bc1feb39b4356c50895673225d4248896ffaa0f",
+    "candidate_words.jsonl": "1f13f4d433e559cbd9f5d492167d114df9489990ef158006cae96ea1dba0cae5"
+  },
+  "selection_basis": "Previously suggested review words, selected only to test explicit selection; semantic validity not established.",
+  "limitations": [
+    "Two sources have no selected word; not all sources can necessarily yield valid cloze questions.",
+    "Adjective synonyms and multiple plausible names may prevent unique recovery.",
+    "Pending agent review, not human gold or formal replay."
+  ],
+  "code_snapshots_sha256": {
+    "defense_dataset_snapshot.py": "5301ff3d1146b5bab527c803f5eea6626a9c8ec9c26cfe4b68e4a044c3a8da9b",
+    "builder_snapshot.py": "3ae4f13d36f81ae1d79c8f4b797fbe534a1f1bae60a5b755c58f49ce3072bba8"
+  }
+}

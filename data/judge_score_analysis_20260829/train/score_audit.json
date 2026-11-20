@@ -1,0 +1,42 @@
+{
+  "attack_counts": {
+    "benign": 300,
+    "direct_rag_mia": 300,
+    "ia": 2375,
+    "masked_mia": 300,
+    "s2_mia": 300
+  },
+  "default_session_scores_excluded": 2936,
+  "heads": [
+    "rubric",
+    "logprob"
+  ],
+  "invalid_record_count": 0,
+  "long_form_row_count": 7150,
+  "partition": "train",
+  "schema_version": 1,
+  "scoring_identity_sha256": "dbf219b37377e6be70baa2cd082c25567947ed877dd65e63046094eda3b02e4f",
+  "session_score_availability_by_turn": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 1.0,
+    "4": 1.0,
+    "5": 1.0
+  },
+  "source_record_count": 3575,
+  "traffic_counts": {
+    "attack": 3275,
+    "benign": 300
+  },
+  "unavailable_raw_score_frequencies": {
+    "logprob": {
+      "0.1": 1468
+    },
+    "rubric": {
+      "0": 1468
+    }
+  },
+  "unique_document_count": 60,
+  "unique_query_count": 3575,
+  "unique_session_count": 734
+}

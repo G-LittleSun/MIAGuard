@@ -1,0 +1,26 @@
+{
+  "version_id": "locator_new_sources_20261111_01",
+  "analysis_role": "engineering_only",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "selection": "Two rank-one member examples per type on distinct source document IDs, deterministic hash order; excluded both previous pilot source sets; no generation outcomes consulted.",
+  "limitations": [
+    "Distinct document IDs do not establish event independence.",
+    "All target documents rank first; not a rank stress test.",
+    "No normal or nonmember samples in this batch.",
+    "Pending model review and human gold."
+  ],
+  "input_sha256": {
+    "reports/defense_v1/T10/rank_stress_20261109_01/retrieval_screen.jsonl": "6ef3d812937c9af0601fabf5142d19cb7c2f4bb0f50bf21f356d32f369c41e35",
+    "data/vector_stores/20260717-ag-news-four-medium/ag_news/documents.jsonl": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9",
+    "data/defense_datasets/legacy_v2_fast_pilot_20261105_01/manifest.json": "8e27a20838f5b1d237e16afb887a995cf43bdf46eb2d92b3141b6e8eb9ec74f6",
+    "data/defense_datasets/legacy_v2_rank_stress_20261109_01/manifest.json": "7dde3298754ad9476117457a13a053b64aa846cd2b695b5d1eb0851d16ad4c5a",
+    "reports/defense_v1/T10/build_locator_sources_20261111.py": "fcb0bd7ba698b941c00cc6a591159663362820250c205d5e076850ceb8b70f4e"
+  },
+  "output_sha256": {
+    "experiment_spec.json": "ff145d2e80c0a50c6e188a4090e41822fb597c9c82bdf345ece5bbab4bf50ba4",
+    "labels.jsonl": "10b2e65576d784baf5deaf53dc77fb31a2319c47a673f023742f937a5842bcf3",
+    "lineage.jsonl": "5d3562e8ad3ebd3884b981c5e7b56031b563ce716d5aeb1383ad19556bdd9c5b",
+    "requests.jsonl": "20a42407f21cdc22cca0fd9825a43776de5e05f669a1a5578c20bec9412474e6"
+  }
+}

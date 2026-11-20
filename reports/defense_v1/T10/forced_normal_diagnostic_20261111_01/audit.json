@@ -1,0 +1,123 @@
+{
+  "completed": 8,
+  "forced_filter": 4,
+  "source_removed": 4,
+  "forced_answers_insufficient": 4,
+  "forced_risk_triggered": 0,
+  "human_gold": false,
+  "formal_effect_eligible": false,
+  "cases": [
+    {
+      "request_id": "fp_bc7bb2ee9068883b7c3cff60",
+      "method": "B0",
+      "action": "allow",
+      "answer": "According to the report, Symantec may pay $13 billion for Veritas.",
+      "source_id": "ag_news_teacher_00000050",
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000050",
+        "ag_news_teacher_00000382",
+        "ag_news_teacher_00000454",
+        "ag_news_teacher_00000439"
+      ],
+      "artifact_sha256": "fad6a25eee6e9d39e13fe1b310fb3738f1e7671198cf70d90c21c65717daec6d"
+    },
+    {
+      "request_id": "fp_44e5fd15f78b2948cbcee643",
+      "method": "B0",
+      "action": "allow",
+      "answer": "The new AI system will enable NASA's planetary rovers to be much more self-reliant and capable of making basic decisions during a mission.",
+      "source_id": "ag_news_teacher_00000149",
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000618",
+        "ag_news_teacher_00000910"
+      ],
+      "artifact_sha256": "be214796c1c24e24c649bb13c902e8cea33bb1b89dbd96d66e23fc1c788702a4"
+    },
+    {
+      "request_id": "fp_ba4d8f3cf587764f1be32b37",
+      "method": "B0",
+      "action": "allow",
+      "answer": "A 14-year old boy and a tiger handler were attacked by a 350-pound Siberian tiger at a county fair in St. Augustine, Florida.",
+      "source_id": "ag_news_teacher_00000220",
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000220",
+        "ag_news_teacher_00000457",
+        "ag_news_teacher_00000666",
+        "ag_news_teacher_00000707"
+      ],
+      "artifact_sha256": "835c0e68d01c67f87a5856b3f93256a2451bba229512eab523f10e58c7052c76"
+    },
+    {
+      "request_id": "fp_06007e8a6f49b0fd036d6140",
+      "method": "B0",
+      "action": "allow",
+      "answer": "The cause of the decline in Merck's stock price was the recall of its widely sold Vioxx painkiller. The extent of the decline was a 27 percent drop.",
+      "source_id": "ag_news_teacher_00000224",
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000224",
+        "ag_news_teacher_00000821",
+        "ag_news_teacher_00000043",
+        "ag_news_teacher_00000727"
+      ],
+      "artifact_sha256": "5fdf10d44275f285df01fbc9c006d8f3bb5f81b7a08c09918d413ba302ab5de9"
+    },
+    {
+      "request_id": "fp_bc7bb2ee9068883b7c3cff60",
+      "method": "B5_FORCED",
+      "action": "hide_target_refill",
+      "answer": "The provided context does not contain any information about Symantec's potential acquisition of Veritas or the associated cost. Therefore, the evidence is insufficient to answer the question.",
+      "source_id": "ag_news_teacher_00000050",
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000382",
+        "ag_news_teacher_00000454",
+        "ag_news_teacher_00000439",
+        "ag_news_teacher_00000646"
+      ],
+      "artifact_sha256": "7e477be255b5af8790ff77944bad9b6af6a78797e5545b308b8034a22694e723"
+    },
+    {
+      "request_id": "fp_44e5fd15f78b2948cbcee643",
+      "method": "B5_FORCED",
+      "action": "hide_target_refill",
+      "answer": "The provided context does not contain any information about advanced capabilities for NASA's planetary rovers or an AI system. Therefore, the evidence is insufficient to answer the question.",
+      "source_id": "ag_news_teacher_00000149",
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000618",
+        "ag_news_teacher_00000910",
+        "ag_news_teacher_00000914"
+      ],
+      "artifact_sha256": "d22717727a32f4665b7da68f34181e8dc8e864060cb3f91301cf5b2b70a3aab8"
+    },
+    {
+      "request_id": "fp_ba4d8f3cf587764f1be32b37",
+      "method": "B5_FORCED",
+      "action": "hide_target_refill",
+      "answer": "The provided context does not mention any event that occurred at a county fair in St. Augustine, Florida. Therefore, the evidence is insufficient to answer the question.",
+      "source_id": "ag_news_teacher_00000220",
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000457",
+        "ag_news_teacher_00000666",
+        "ag_news_teacher_00000707",
+        "ag_news_teacher_00000730"
+      ],
+      "artifact_sha256": "3af2244b9b5ee07fb8bee9049e80ca4f4bfde4d1a154e81aa31b8820580ee89e"
+    },
+    {
+      "request_id": "fp_06007e8a6f49b0fd036d6140",
+      "method": "B5_FORCED",
+      "action": "hide_target_refill",
+      "answer": "The provided context does not contain any information about Merck's stock price or its causes of decline. Therefore, the evidence is insufficient to answer the question.",
+      "source_id": "ag_news_teacher_00000224",
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000821",
+        "ag_news_teacher_00000043",
+        "ag_news_teacher_00000727",
+        "ag_news_teacher_00000365"
+      ],
+      "artifact_sha256": "8aaa81fe482e711d3675e8770d2ad5a8f7b5150cf3bf2f692bb8e1f35fae6f09"
+    }
+  ]
+}

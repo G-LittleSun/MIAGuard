@@ -1,0 +1,16 @@
+profile: formal
+dataset_selection:
+  mode: single
+  include:
+    - t2ranking
+attacks:
+  - masked_mia
+  - ia
+target_counts:
+  masked_mia:
+    members: 1000
+    nonmembers: 1000
+  ia:
+    members: 200
+    nonmembers: 200
+runs_dir: data/runs

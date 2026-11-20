@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Semiconductor Breakthrough: Processor 24 times faster Your processor can now......\" based on the Context.",
+    "contexts": [
+      "Intel nuances Itanium; Microsoft ignores it It #39;s no longer Sun Microsystems and IBM working to undermine the Itanium processor. Both the chip #39;s maker - Intel - and close software partner Microsoft are doing the dirty work now.",
+      "Intel dual-core chips are cool Doubled-up processors were the big news at this year?s Intel Developer Forum. They boost performance without frying your chips ? and are coming your way soon.",
+      "Intel devising chip line for consumer electronics com November 3, 2004, 12:14 PM PT. Organizations are replacing aging servers with newer more-powerful boxes, often Linux--based, and theyre also investing in storage.",
+      "Intel Launches Next-Gen Chip After 10 years in the making and multiple delays, Intel released its state-of-the-art 64-bit Itanium microprocessor on Tuesday. The microprocessor, which is designed for servers and workstations, is based "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Intel nuances Itanium; Microsoft ignores it It #39;s no longer Sun Microsystems and IBM working to undermine the Itanium processor. Both the chip #39;s maker - Intel - and close software partner Microsoft are doing the dirty work now.\"\n\"Intel dual-core chips are cool Doubled-up processors were the big news at this year?s Intel Developer Forum. They boost performance without frying your chips ? and are coming your way soon.\"\n\"Intel devising chip line for consumer electronics com November 3, 2004, 12:14 PM PT. Organizations are replacing aging servers with newer more-powerful boxes, often Linux--based, and theyre also investing in storage.\"\n\"Intel Launches Next-Gen Chip After 10 years in the making and multiple delays, Intel released its state-of-the-art 64-bit Itanium microprocessor on Tuesday. The microprocessor, which is designed for servers and workstations, is based \"\n\nQuestion:\nComplete this sentence \"Semiconductor Breakthrough: Processor 24 times faster Your processor can now......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

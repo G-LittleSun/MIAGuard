@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "errors": [],
+  "counts": {
+    "normal_requests.jsonl": 70,
+    "normal_tasks.jsonl": 70,
+    "attack_requests.jsonl": 16,
+    "attack_labels.jsonl": 16
+  },
+  "output_files_sha256": {
+    "normal_requests.jsonl": "9b7022dde8fea8fb7bf86f37b104ebd88853a7419275d4e12ab58c9ad2d4ab99",
+    "normal_tasks.jsonl": "5e3588c7d360084bf4cf010e9930b52423440a19883580416ed23990701d15bd",
+    "attack_requests.jsonl": "500e2239e24ddfc9d7e98c8a39215e51e728ec3045114c5a581d294657084431",
+    "attack_labels.jsonl": "a0f164f945edbd4193fa7bb61a17a39c929396a36f04310443c9fd252fd05745"
+  },
+  "source_candidate_manifest_sha256": "359ed9f4b375a8a1f5a644f1c6815150f09f6ffdce86c3bc4e3fec3271498f27",
+  "review_manifest_sha256": "69e87e181648df0d67adcfc30e9f8b518733a1b66fee1440a6e777e84efef2f5",
+  "scope": "structure and selected constraints; no human factual review, RAG execution, or defense-effect evaluation"
+}

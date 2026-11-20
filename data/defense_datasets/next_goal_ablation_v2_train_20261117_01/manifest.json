@@ -1,0 +1,35 @@
+{
+  "version_id": "next_goal_ablation_v2_train_20261117_01",
+  "bank_id": "ag_news_queries_v2",
+  "split_id": "ag_news_threshold_v2",
+  "partition": "train",
+  "analysis_role": "engineering_only",
+  "human_gold_complete": false,
+  "formal_effect_eligible": false,
+  "request_count": 8,
+  "expected_events": 32,
+  "methods": [
+    "B_TYPE_V2",
+    "B_NEXT_GOAL",
+    "B_NEXT_CUE_ONLY",
+    "B_NEXT_IA_ONLY"
+  ],
+  "input_sha256": {
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\next_goal_v2_train_20261117_01\\manifest.json": "5aa8bc8c2a47d5cf39da30867d7c367e68217ae4958a1d737590e04df7e91b0b",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\next_goal_ia_style_normal_20261117_01\\manifest.json": "c8f96b3e1b0c0894b94d81ae661b8f4912d65ce82a582d5182bc398f9c1f402f",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\multi_action_sources_v2_train_20261117_01\\manifest.json": "d7a7f1bdbc46e1ee5b3b6e671cb76672417dc0ed68bc442708572e4ddfd1e49b"
+  },
+  "output_sha256": {
+    "experiment_spec.json": "ac215b49b2be10b5934e6f99bdf0a155ed2bb2b05fd975c2ebf8ce3317800085",
+    "labels.jsonl": "a4397340e8c5b1388896e11c719715eca180ef1b73e6217af4b99a843de36c59",
+    "lineage.jsonl": "ce208c6774568f07137502f49b0865e5e5f2e36e058d827d65fa4bc3dff73ee3",
+    "normal_rubric.jsonl": "631319fbdc79736890c2b2825e00db0fc7540130ec30391411b7014ded22dd78",
+    "requests.jsonl": "93e859b4b2f555a12e554ca368c3c534565a742ac6dd9d2efa14315f6e2fff7b"
+  },
+  "selection": "Four already observed missed attacks and four preselected ordinary yes/no reading controls; fixed before full-candidate outputs.",
+  "limits": [
+    "Prior attack cases deliberately selected from known failures; not an unbiased test.",
+    "Normal intent and references are agent assessments and require human review.",
+    "One-turn ablation isolates rule components but not multi-turn history effects."
+  ]
+}

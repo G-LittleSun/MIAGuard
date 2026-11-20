@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "The passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nReport: [Mask_1] May Buy Veritas [Mask_2] [Mask_3] may pay \\$13 [Mask_4] for the storage [Mask_5] company.",
+    "contexts": [
+      "Report: Symantec May Buy Veritas Antivirus vendor may pay \\$13 billion for the storage software company.",
+      "Sexson Agrees to  #36;50M Deal With Mariners (AP) AP - The Seattle Mariners added power to one of the weakest lineups in baseball Wednesday, agreeing to a  #36;50 million, four-year contract with free agent first baseman Richie Sexson.",
+      "Hospitality Properties to buy 13 InterContinental Hotels Hospitality Properties Trust is purchasing 13 hotels for 450 million dollars from InterContinental Hotels Group. Newton-based Hospitality has also signed 25-year ",
+      "At Wal-Mart, the New Word Is Compromise n an apparent mea culpa, the chief executive of Wal-Mart Stores said yesterday that the company #39;s  quot;message has not in fact gotten out quot; and called it  quot;management #39;s failure."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Report: Symantec May Buy Veritas Antivirus vendor may pay \\$13 billion for the storage software company.\"\n\"Sexson Agrees to  #36;50M Deal With Mariners (AP) AP - The Seattle Mariners added power to one of the weakest lineups in baseball Wednesday, agreeing to a  #36;50 million, four-year contract with free agent first baseman Richie Sexson.\"\n\"Hospitality Properties to buy 13 InterContinental Hotels Hospitality Properties Trust is purchasing 13 hotels for 450 million dollars from InterContinental Hotels Group. Newton-based Hospitality has also signed 25-year \"\n\"At Wal-Mart, the New Word Is Compromise n an apparent mea culpa, the chief executive of Wal-Mart Stores said yesterday that the company #39;s  quot;message has not in fact gotten out quot; and called it  quot;management #39;s failure.\"\n\nQuestion:\nThe passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nReport: [Mask_1] May Buy Veritas [Mask_2] [Mask_3] may pay \\$13 [Mask_4] for the storage [Mask_5] company.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

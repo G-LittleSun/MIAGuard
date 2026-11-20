@@ -1,0 +1,29 @@
+{
+  "status": "pending_semantic_review",
+  "documents": 60,
+  "distinct_query_candidates": 2234,
+  "withheld_original_external_decisions": {
+    "rewrite": 67,
+    "reject": 115,
+    "uncertain": 24
+  },
+  "prior_exact_three_round_document_count": 4,
+  "review_requirements": [
+    "Only fixed existing items can be selected, and the reference must agree with the full source.",
+    "Read the actual wording and verify three distinct checkable propositions with supporting spans.",
+    "Do not count the same proposition under different wording. Record unresolved items and per-document gaps."
+  ],
+  "input_sha256": {
+    "reports\\defense_v1\\T10\\four_type40_preflight_20261118.json": "e063aa68a16779989f468c8d95cffc83b6698f5f8783419c55660db29d0e6b41",
+    "data\\runs\\20260717-ag-news-four-medium\\ag_news\\target_docs.jsonl": "f7f604ce3acde220998ab2bd93186441119ba0074ae2e7fdf8fcdcde79f11eb1",
+    "reports\\defense_v1\\T10\\external_review\\v2_reuse_deepseek-v4.1-flash_20261105_01\\ia_review.jsonl": "d282bcde642fc855a3007e1f0989e6ae52453ac557f63531a4516c94bd9b4e3b",
+    "data\\query_banks\\ag_news_queries_v2\\ag_news\\queries.jsonl": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972",
+    "data\\defense_datasets\\legacy_v2_reuse_overlay_20261105_01\\manifest.json": "d4b6625ad3431f7bbc7f551c190897330f4caede116ab50370c6d294883095df",
+    "data\\defense_datasets\\multiturn_ia_session_v2_train_20261113_01\\manifest.json": "51940d20a9bd8647b51d2f08ee3bdc0c8d01b215486ffd524163f9212aab96df"
+  },
+  "output_sha256": {
+    "four_type40_ia_review_packet_20261118.jsonl": "d62dacbc31f61c6e9ab656695b9f5881e8ec306701f969c1e397eea5fdb57fc4"
+  },
+  "human_reviewed": false,
+  "formal_effect_eligible": false
+}

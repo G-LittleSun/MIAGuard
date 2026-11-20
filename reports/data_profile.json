@@ -1,0 +1,529 @@
+{
+  "components": {
+    "corpus": true,
+    "qrels_or_relevance": true,
+    "queries": true
+  },
+  "corpus": {
+    "char_length_distribution": {
+      "count": 2303643,
+      "max": 312861,
+      "mean": 591.0849979792876,
+      "min": 0,
+      "p25": 193.0,
+      "p50": 341.0,
+      "p75": 706.0,
+      "p95": 1616.0,
+      "p99": 4605.0
+    },
+    "duplicate_ids": 0,
+    "empty_ids": 0,
+    "empty_texts": 0,
+    "exact_duplicate_ratio": 0.004706892517634026,
+    "exact_duplicate_texts": 10843,
+    "record_count": 2303643
+  },
+  "dataset_name": "T2Ranking",
+  "dataset_path": "DataSet/T2Ranking",
+  "files": [
+    {
+      "compression": "none",
+      "delimiter": "tab",
+      "encoding": "utf-8",
+      "extension": ".tsv",
+      "field_types": {
+        "pid": "integer",
+        "text": "string"
+      },
+      "fields": [
+        "pid",
+        "text"
+      ],
+      "modified_at": "2026-04-22T12:05:35.886435+00:00",
+      "path": "DataSet/T2Ranking/collection.tsv",
+      "reading_method": "streaming binary lines with strict UTF-8 decoding",
+      "record_count": 2303643,
+      "samples": [
+        {
+          "pid": "0",
+          "text": "找寄件人改号码"
+        },
+        {
+          "pid": "1",
+          "text": "<br><img><br>凡是生过孩子的必会留下痕迹”,相信许多年轻妈咪对这句话感同身受。而产后肚子大就是女性生没生孩子的重要标志,今天我们讲了为什么女性生完孩子肚子还是很大的原因,也说了新妈妈们产后如何快速恢复肚子,让我们远离“妈妈肚”,生完孩子还是小姐姐。产后半年是恢复身材的关键时间,新妈妈时间这么紧,时间哪里找!!赶紧行动吧!!下一位辣妈就是你!!!zy(为什么产后肚子还很大?产后如何恢复肚"
+        },
+        {
+          "pid": "2",
+          "text": "让产后妈妈最烦恼的是什么?不用多想肯定是产后如何恢复肚子,都说生育是女人的分水岭一点也不错,生完孩子后我的肚子一层一层的像千层糕一样叠在肚皮上,松松垮垮,穿什么衣服都走形,而且怎么减都减不掉,即使因怀孕而发胖的其他部分都在逐渐恢复,但凸起的肚子似乎没有任何动摇。为此老公还调侃我肚子里还有一个,平时出门也有嘴欠的说我“孩子还这么小,肚子里又揣了一个了!”有碎嘴的还会问我肚子里的几个月了。产后五个月,"
+        },
+        {
+          "pid": "3",
+          "text": "本人大一新生 一枚<br>今天早上八点开始选宿舍,我手机上选到了心怡的宿舍和床位之后就洗碗去了。当时我填的时候宿舍里只有一个人已经选定了床位,我是第二个“入住”的。等我洗碗回来,发现我的QQ炸了<br>四个小姐姐轮流来消息发长文要我退出去,强行礼貌,信息轰炸,希望我去和别的专业的三个人拼宿舍,把位置让给她们 因为我的存在让她们不能住一个寝室了。<br>可是我事先并不知道她们已经商定好了宿舍。我也很"
+        },
+        {
+          "pid": "4",
+          "text": "哇这也有问着问题的。我答:“鱼卵可以在土里存活30~40年。"
+        }
+      ],
+      "sha256": "07b84e543e9ba696124a727c00629d5bce586631648c436c98dd6e9b146da212",
+      "size_bytes": 3659243528
+    },
+    {
+      "compression": "none",
+      "delimiter": null,
+      "encoding": "utf-8",
+      "extension": ".md",
+      "field_types": {},
+      "fields": [],
+      "modified_at": "2026-04-22T12:05:35.906934+00:00",
+      "path": "DataSet/T2Ranking/info.md",
+      "reading_method": "UTF-8 text",
+      "record_count": 1,
+      "samples": [
+        "test"
+      ],
+      "sha256": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+      "size_bytes": 4
+    },
+    {
+      "compression": "none",
+      "delimiter": "tab",
+      "encoding": "utf-8",
+      "extension": ".tsv",
+      "field_types": {
+        "-": "integer",
+        "pid": "integer",
+        "qid": "integer",
+        "rel": "integer"
+      },
+      "fields": [
+        "qid",
+        "-",
+        "pid",
+        "rel"
+      ],
+      "modified_at": "2026-04-22T12:05:35.946934+00:00",
+      "path": "DataSet/T2Ranking/qrels.dev.tsv",
+      "reading_method": "streaming binary lines with strict UTF-8 decoding",
+      "record_count": 400535,
+      "samples": [
+        {
+          "-": "0",
+          "pid": "159474",
+          "qid": "0",
+          "rel": "3"
+        },
+        {
+          "-": "0",
+          "pid": "159475",
+          "qid": "0",
+          "rel": "3"
+        },
+        {
+          "-": "0",
+          "pid": "219110",
+          "qid": "0",
+          "rel": "2"
+        },
+        {
+          "-": "0",
+          "pid": "45280",
+          "qid": "0",
+          "rel": "1"
+        },
+        {
+          "-": "0",
+          "pid": "269554",
+          "qid": "0",
+          "rel": "1"
+        }
+      ],
+      "sha256": "a0356bd3c6d72c532ca17a4d88d7765554857f321346cf0f9cb4ad480738b25a",
+      "size_bytes": 6537957
+    },
+    {
+      "compression": "none",
+      "delimiter": "tab",
+      "encoding": "utf-8",
+      "extension": ".tsv",
+      "field_types": {
+        "pid": "integer",
+        "qid": "integer"
+      },
+      "fields": [
+        "qid",
+        "pid"
+      ],
+      "modified_at": "2026-04-22T12:05:35.971436+00:00",
+      "path": "DataSet/T2Ranking/qrels.retrieval.dev.tsv",
+      "reading_method": "streaming binary lines with strict UTF-8 decoding",
+      "record_count": 118932,
+      "samples": [
+        {
+          "pid": "159474",
+          "qid": "0"
+        },
+        {
+          "pid": "159475",
+          "qid": "0"
+        },
+        {
+          "pid": "219110",
+          "qid": "0"
+        },
+        {
+          "pid": "221806",
+          "qid": "1"
+        },
+        {
+          "pid": "544453",
+          "qid": "1"
+        }
+      ],
+      "sha256": "17f31db546ce3a5f861c9139939a97c19b0082a0a864be35a7821770a0705a06",
+      "size_bytes": 1468343
+    },
+    {
+      "compression": "none",
+      "delimiter": "tab",
+      "encoding": "utf-8",
+      "extension": ".tsv",
+      "field_types": {
+        "pid": "integer",
+        "qid": "integer"
+      },
+      "fields": [
+        "qid",
+        "pid"
+      ],
+      "modified_at": "2026-04-22T12:05:36.025441+00:00",
+      "path": "DataSet/T2Ranking/qrels.retrieval.train.tsv",
+      "reading_method": "streaming binary lines with strict UTF-8 decoding",
+      "record_count": 744662,
+      "samples": [
+        {
+          "pid": "762244",
+          "qid": "50000"
+        },
+        {
+          "pid": "762246",
+          "qid": "50000"
+        },
+        {
+          "pid": "762247",
+          "qid": "50000"
+        },
+        {
+          "pid": "762249",
+          "qid": "50001"
+        },
+        {
+          "pid": "762250",
+          "qid": "50001"
+        }
+      ],
+      "sha256": "4a2c224021a39637873a2cd69d90a9e41cb117d0560e940399439dcc6af61cfa",
+      "size_bytes": 10845519
+    },
+    {
+      "compression": "none",
+      "delimiter": "tab",
+      "encoding": "utf-8",
+      "extension": ".tsv",
+      "field_types": {
+        "-": "integer",
+        "pid": "integer",
+        "qid": "integer",
+        "rel": "integer"
+      },
+      "fields": [
+        "qid",
+        "-",
+        "pid",
+        "rel"
+      ],
+      "modified_at": "2026-04-22T12:05:36.127934+00:00",
+      "path": "DataSet/T2Ranking/qrels.train.tsv",
+      "reading_method": "streaming binary lines with strict UTF-8 decoding",
+      "record_count": 1613421,
+      "samples": [
+        {
+          "-": "0",
+          "pid": "762239",
+          "qid": "50000",
+          "rel": "0"
+        },
+        {
+          "-": "0",
+          "pid": "762240",
+          "qid": "50000",
+          "rel": "0"
+        },
+        {
+          "-": "0",
+          "pid": "762241",
+          "qid": "50000",
+          "rel": "0"
+        },
+        {
+          "-": "0",
+          "pid": "762242",
+          "qid": "50000",
+          "rel": "0"
+        },
+        {
+          "-": "0",
+          "pid": "762243",
+          "qid": "50000",
+          "rel": "0"
+        }
+      ],
+      "sha256": "5da21371d1f2fa2700bc74a4fdc69b2389b5f304e864a42ac2fe555cad87c77e",
+      "size_bytes": 29881875
+    },
+    {
+      "compression": "none",
+      "delimiter": "tab",
+      "encoding": "utf-8",
+      "extension": ".tsv",
+      "field_types": {
+        "qid": "integer",
+        "text": "string"
+      },
+      "fields": [
+        "qid",
+        "text"
+      ],
+      "modified_at": "2026-04-22T12:05:36.147934+00:00",
+      "path": "DataSet/T2Ranking/queries.dev.tsv",
+      "reading_method": "streaming binary lines with strict UTF-8 decoding",
+      "record_count": 24831,
+      "samples": [
+        {
+          "qid": "0",
+          "text": "蜂巢取快递验证码摁错怎么办"
+        },
+        {
+          "qid": "1",
+          "text": "生产过后怎么还有一层肚子"
+        },
+        {
+          "qid": "2",
+          "text": "大学怎么网上选宿舍"
+        },
+        {
+          "qid": "3",
+          "text": "怎么判断鱼卵是否活着"
+        },
+        {
+          "qid": "4",
+          "text": "胆碱重要吗"
+        }
+      ],
+      "sha256": "1df544dd04bf9b6d0de0dd77e0f3a84a0d74fc4bb9a1ff67b7306de8169135ba",
+      "size_bytes": 939767
+    },
+    {
+      "compression": "none",
+      "delimiter": "tab",
+      "encoding": "utf-8",
+      "extension": ".tsv",
+      "field_types": {
+        "qid": "integer",
+        "text": "string"
+      },
+      "fields": [
+        "qid",
+        "text"
+      ],
+      "modified_at": "2026-04-22T12:05:36.168434+00:00",
+      "path": "DataSet/T2Ranking/queries.test.tsv",
+      "reading_method": "streaming binary lines with strict UTF-8 decoding",
+      "record_count": 24831,
+      "samples": [
+        {
+          "qid": "24996",
+          "text": "规划人员只能起到参谋的作用,他们不是决策者"
+        },
+        {
+          "qid": "24997",
+          "text": "蹦迪夜店中的术语"
+        },
+        {
+          "qid": "24998",
+          "text": "申请发展对象申请书"
+        },
+        {
+          "qid": "24999",
+          "text": "凌度行车记录仪电子狗模块怎么安装"
+        },
+        {
+          "qid": "25000",
+          "text": "比熊三个月了可以吃大人的面包吗"
+        }
+      ],
+      "sha256": "143b701f0bf4dfccee6ba3c6d08e620cf740a688ade02e7727beb7f5735ddbb1",
+      "size_bytes": 953406
+    },
+    {
+      "compression": "none",
+      "delimiter": "tab",
+      "encoding": "utf-8",
+      "extension": ".tsv",
+      "field_types": {
+        "qid": "integer",
+        "text": "string"
+      },
+      "fields": [
+        "qid",
+        "text"
+      ],
+      "modified_at": "2026-04-22T12:05:36.241934+00:00",
+      "path": "DataSet/T2Ranking/queries.train.tsv",
+      "reading_method": "streaming binary lines with strict UTF-8 decoding",
+      "record_count": 258042,
+      "samples": [
+        {
+          "qid": "50000",
+          "text": "鹦鹉吃自己的小鱼吗"
+        },
+        {
+          "qid": "50001",
+          "text": "鹦鹉的生活习性是什么"
+        },
+        {
+          "qid": "50002",
+          "text": "鹦鹉跳舞原因"
+        },
+        {
+          "qid": "50003",
+          "text": "鹦鹉用什么磨牙比较好"
+        },
+        {
+          "qid": "50004",
+          "text": "鹦鹉鱼产卵了怎么办"
+        }
+      ],
+      "sha256": "b9328c8a0be4980cb8860819285ff3da8c6976f5089e0a606ff003165c4b2c0e",
+      "size_bytes": 10210389
+    },
+    {
+      "compression": "none",
+      "delimiter": "tab",
+      "encoding": "utf-8",
+      "extension": ".tsv",
+      "field_types": {
+        "index": "integer",
+        "pid": "integer",
+        "qid": "integer"
+      },
+      "fields": [
+        "qid",
+        "pid",
+        "index"
+      ],
+      "modified_at": "2026-04-22T12:05:51.334935+00:00",
+      "path": "DataSet/T2Ranking/train.bm25.tsv",
+      "reading_method": "streaming binary lines with strict UTF-8 decoding",
+      "record_count": 200359730,
+      "samples": [
+        {
+          "index": "1",
+          "pid": "762244",
+          "qid": "50000"
+        },
+        {
+          "index": "2",
+          "pid": "2163684",
+          "qid": "50000"
+        },
+        {
+          "index": "3",
+          "pid": "762245",
+          "qid": "50000"
+        },
+        {
+          "index": "4",
+          "pid": "1239789",
+          "qid": "50000"
+        },
+        {
+          "index": "5",
+          "pid": "762246",
+          "qid": "50000"
+        }
+      ],
+      "sha256": "81b9a4da076d517eb904338a20c6099dd1ce73874e65e4a65a7a2e253605ddbd",
+      "size_bytes": 3650744848
+    },
+    {
+      "compression": "none",
+      "delimiter": "tab",
+      "encoding": "utf-8",
+      "extension": ".tsv",
+      "field_types": {
+        "index": "integer",
+        "pid": "integer",
+        "qid": "integer",
+        "score": "number"
+      },
+      "fields": [
+        "qid",
+        "pid",
+        "index",
+        "score"
+      ],
+      "modified_at": "2026-04-22T12:06:14.970433+00:00",
+      "path": "DataSet/T2Ranking/train.mined.tsv",
+      "reading_method": "streaming binary lines with strict UTF-8 decoding",
+      "record_count": 200376000,
+      "samples": [
+        {
+          "index": "1",
+          "pid": "762244",
+          "qid": "50000",
+          "score": "346.6772"
+        },
+        {
+          "index": "2",
+          "pid": "762246",
+          "qid": "50000",
+          "score": "346.36865"
+        },
+        {
+          "index": "3",
+          "pid": "762245",
+          "qid": "50000",
+          "score": "344.22745"
+        },
+        {
+          "index": "4",
+          "pid": "762247",
+          "qid": "50000",
+          "score": "343.8631"
+        },
+        {
+          "index": "5",
+          "pid": "160641",
+          "qid": "50000",
+          "score": "343.8366"
+        }
+      ],
+      "sha256": "5b9ae93b7ab30050d1bdf0f37f3bc0d02d0b7e0289eecf92e41a203ef3063f03",
+      "size_bytes": 5584965614
+    }
+  ],
+  "inspected_at": "2026-07-14T03:17:58.705440+00:00",
+  "license": "unknown",
+  "pipeline_statement": "The pipeline did not modify the raw dataset.",
+  "raw_data_modified": false,
+  "relations": {
+    "qrels_record_count": 2877550,
+    "qrels_unknown_document_ids": 0,
+    "qrels_unknown_query_ids": 0,
+    "queries_without_relevance": 58666,
+    "query_count": 307704
+  },
+  "revision": "unknown",
+  "source": "unknown"
+}

@@ -1,0 +1,13 @@
+{
+  "generation_input": {
+    "query": "Which football club is Mateja Kezman associated with?",
+    "contexts": [
+      "Kezman vows to hit the goal trail Mateja Kezman believes he can go on a goalscoring spree after finally opening his account for Chelsea. The former PSV Eindhoven striker scored the matchwinner in the 57th minute to give Chelsea victory over ",
+      "Robben One of Europe #39;s Best - Kezman Mateja Kezman today hailed Chelsea team-mate Arjen Robben as one of Europes leading players after his matchwinning performance in Moscow."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Kezman vows to hit the goal trail Mateja Kezman believes he can go on a goalscoring spree after finally opening his account for Chelsea. The former PSV Eindhoven striker scored the matchwinner in the 57th minute to give Chelsea victory over \"\n\"Robben One of Europe #39;s Best - Kezman Mateja Kezman today hailed Chelsea team-mate Arjen Robben as one of Europes leading players after his matchwinning performance in Moscow.\"\n\nQuestion:\nWhich football club is Mateja Kezman associated with?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

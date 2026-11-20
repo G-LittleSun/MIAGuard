@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Steelers' Polamalu Repects Carson Palmer (AP) AP - Steelers safety......\" based on the Context.",
+    "contexts": [
+      "Steelers' Polamalu Repects Carson Palmer (AP) AP - Steelers safety Troy Polamalu won't say if Bengals quarterback Carson Palmer owes him money from some unpaid dinner bill of long ago. Or if he left his unwashed socks in the middle of the floor, or snored so loudly it kept others awake.",
+      "Differences Emerge The owners disagree with NFL Players Association Executive Director Gene \\Upshaw about the league's future economic system says Commissioner Paul \\Tagliabue.",
+      "Hitting back Why does Patriots safety Rodney Harrison, a thoughtful, good-natured person off the field, play football with enough ferocity and virulence to make you wonder whether he got a hold of Dr. Jekyll's formula? Blame the people in his life -- coaches, opponents, college recruiters -- who he felt needed convincing that he was not meant to fit their concept of ...",
+      "Chargers Opening Eyes With 4-3 Start (AP) AP - Surprise, surprise. Look who's above .500 and talking about making a playoff push. None other than the San Diego Chargers."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Steelers' Polamalu Repects Carson Palmer (AP) AP - Steelers safety Troy Polamalu won't say if Bengals quarterback Carson Palmer owes him money from some unpaid dinner bill of long ago. Or if he left his unwashed socks in the middle of the floor, or snored so loudly it kept others awake.\"\n\"Differences Emerge The owners disagree with NFL Players Association Executive Director Gene \\Upshaw about the league's future economic system says Commissioner Paul \\Tagliabue.\"\n\"Hitting back Why does Patriots safety Rodney Harrison, a thoughtful, good-natured person off the field, play football with enough ferocity and virulence to make you wonder whether he got a hold of Dr. Jekyll's formula? Blame the people in his life -- coaches, opponents, college recruiters -- who he felt needed convincing that he was not meant to fit their concept of ...\"\n\"Chargers Opening Eyes With 4-3 Start (AP) AP - Surprise, surprise. Look who's above .500 and talking about making a playoff push. None other than the San Diego Chargers.\"\n\nQuestion:\nComplete this sentence \"Steelers' Polamalu Repects Carson Palmer (AP) AP - Steelers safety......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "analysis_role": "offline_structural_audit",
+  "registry_revision": "2026-11-05-r01",
+  "formal_effect_eligible": false,
+  "input_sha256": {
+    "reports/defense_v1/T10/legacy_reuse_selection_20261104.json": "af7a5a686245aaa0a1ae995fa54924899281b11a60ac10df4a49e7b8cd5f4285",
+    "data/query_banks/ag_news_queries_v2/ag_news/manifest.json": "1296d74cfdabeba6aba560d0c289c547db54fd582c76f77fdffc2d9a9300991a",
+    "data/query_banks/ag_news_queries_v2/ag_news/queries.jsonl": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972",
+    "data/query_banks/ag_news_queries_v2/ag_news/documents.jsonl": "84817349356801a6c002e102798d311815a4f39e79ee998b182fe951175c0d4b",
+    "data/query_bank_splits/ag_news_threshold_v2.json": "96977e550be6c0e42ab0b7609f2c73af261a99474b459778ae46fd123c7b80ef",
+    "data/runs/20260717-ag-news-four-medium/ag_news/target_docs.jsonl": "f7f604ce3acde220998ab2bd93186441119ba0074ae2e7fdf8fcdcde79f11eb1",
+    "data/vector_stores/20260717-ag-news-four-medium/ag_news/documents.jsonl": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9",
+    "src/miaguard/query_bank/schema.py": "1e57b33c2f49a258504df7a9070f20081404d927a594c43c713ded1409207e21",
+    "src/miaguard/query_bank/sessions.py": "4fe0b9fb0649a729301403f63d0ac45c2dc7a9d96aca4550d601e2c80a10d49d",
+    "src/miaguard/defense_benchmark.py": "bbeef5c9ed03086a15f84f0e7adc8d337ee003a9fa4d3f7d3db794dfc9219d6f",
+    "src/miaguard/defense_benchmark_live.py": "692d32233b2753bbfa2321e8d2c9de757f71c3eba55771b791915b3520af07c2",
+    "reports/defense_v1/T10/audit_v2_train_reuse_20261105.py": "76370742025caf76cec1747c7d4b2719167ffadf0dac759f7fa6abd7cb2c34f6"
+  },
+  "output_sha256": {
+    "query_reuse_audit.jsonl": "6e1b2e7f3b33c086e859990985ee881345982fafa546426dcd6f5eaff50029a4",
+    "summary.json": "589cd5ccab95e92f090c196a0f433b3884f2c056c90d48e67e4c4877ace17a7c",
+    "audit_script_snapshot.py": "76370742025caf76cec1747c7d4b2719167ffadf0dac759f7fa6abd7cb2c34f6"
+  }
+}

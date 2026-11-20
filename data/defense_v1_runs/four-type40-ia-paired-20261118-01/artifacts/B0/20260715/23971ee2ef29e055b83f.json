@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a CIA's clandestine service head and deputy resign. Did the deputy of the CIA's clandestine service resign? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "C.I.A. Churning Continues as 2 Top Officials Resign The head of the C.I.A.'s clandestine service and his deputy resigned their posts after clashes with advisers to Porter J. Goss.",
+      "Top Marsh exec resigns Jeffrey W. Greenberg yesterday resigned as chairman and chief executive of embattled Marsh  amp; McLennan Cos. and said that the firm will announce  quot;significant reforms quot; today, a move that avoids criminal prosecution of the insurance broker.",
+      "Bosnian Serb Premier Quits, Criticizing West The leader of the Bosnian Serb government, Dragan Mikerevic, resigned Friday to protest what he described as unconstitutional interference in his government #39;s affairs by the country #39;s Western administrator.",
+      "What Next for NASA? O'Keefe Leaves in Good Stead, But Agency Remains Troubled (SPACE.com) SPACE.com - The resignation Monday of NASA Administrator Sean \\O'Keefe comes at a time when the agency has a budgetary window of opportunity to \\flex its space exploration muscle, but must still deal with an agenda of thorny \\issues."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"C.I.A. Churning Continues as 2 Top Officials Resign The head of the C.I.A.'s clandestine service and his deputy resigned their posts after clashes with advisers to Porter J. Goss.\"\n\"Top Marsh exec resigns Jeffrey W. Greenberg yesterday resigned as chairman and chief executive of embattled Marsh  amp; McLennan Cos. and said that the firm will announce  quot;significant reforms quot; today, a move that avoids criminal prosecution of the insurance broker.\"\n\"Bosnian Serb Premier Quits, Criticizing West The leader of the Bosnian Serb government, Dragan Mikerevic, resigned Friday to protest what he described as unconstitutional interference in his government #39;s affairs by the country #39;s Western administrator.\"\n\"What Next for NASA? O'Keefe Leaves in Good Stead, But Agency Remains Troubled (SPACE.com) SPACE.com - The resignation Monday of NASA Administrator Sean \\O'Keefe comes at a time when the agency has a budgetary window of opportunity to \\flex its space exploration muscle, but must still deal with an agenda of thorny \\issues.\"\n\nQuestion:\nI am inquiring about a CIA's clandestine service head and deputy resign. Did the deputy of the CIA's clandestine service resign? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,5 @@
+{"request_id":"fake-direct","attack_type":"direct_rag_mia","membership_label":1,"doc_id":"fake-target"}
+{"request_id":"fake-s2","attack_type":"s2_mia","membership_label":1,"doc_id":"fake-target","target_text":"target story"}
+{"request_id":"fake-masked","attack_type":"masked_mia","membership_label":1,"doc_id":"fake-target","answers":["story"]}
+{"request_id":"fake-ia","attack_type":"ia","membership_label":1,"doc_id":"fake-target","ground_truth":"yes"}
+{"request_id":"fake-benign","attack_type":"benign","doc_id":"fake-safe","reference_answer":"Yes"}

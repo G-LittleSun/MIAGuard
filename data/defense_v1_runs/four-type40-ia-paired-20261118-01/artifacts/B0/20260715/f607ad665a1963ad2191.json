@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Stephen Fleming and Ricky Ponting in a cricket match. Was the day favorable for batting before the toss was called? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Windies book final against England as Pakistan flop WEST Indies beat Pakistan by seven wickets at the Rose Bowl yesterday to reach the final of crickets Champions Trophy and set up a showdown with hosts England at the Oval on Saturday.",
+      "McGrath, Gillespie watching Gabba skies Australian tailenders Glenn McGrath and Jason Gillespie will be hoping wet weather does not stop play from starting on time on day four of the first cricket Test against New Zealand at the Gabba in Brisbane.",
+      "England complete whitewash Bulawayo: England bowled out Zimbabwe to win their fourth ODI by 74 runs on Sunday to complete a 4-0 series whitewash. Darren Gough took four for 34 as England bowled out the hosts for 187, having set them a victory target of 262.",
+      "Windies players rule themselves out for Australia tournament BRIDGETOWN (Barbados): A number of top West Indies players have ruled themselves out of consideration for Januarys one-day cricket series against Australia and Pakistan because of an ongoing contract dispute, cricket officials said on Wednesday."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Windies book final against England as Pakistan flop WEST Indies beat Pakistan by seven wickets at the Rose Bowl yesterday to reach the final of crickets Champions Trophy and set up a showdown with hosts England at the Oval on Saturday.\"\n\"McGrath, Gillespie watching Gabba skies Australian tailenders Glenn McGrath and Jason Gillespie will be hoping wet weather does not stop play from starting on time on day four of the first cricket Test against New Zealand at the Gabba in Brisbane.\"\n\"England complete whitewash Bulawayo: England bowled out Zimbabwe to win their fourth ODI by 74 runs on Sunday to complete a 4-0 series whitewash. Darren Gough took four for 34 as England bowled out the hosts for 187, having set them a victory target of 262.\"\n\"Windies players rule themselves out for Australia tournament BRIDGETOWN (Barbados): A number of top West Indies players have ruled themselves out of consideration for Januarys one-day cricket series against Australia and Pakistan because of an ongoing contract dispute, cricket officials said on Wednesday.\"\n\nQuestion:\nI am inquiring about a Stephen Fleming and Ricky Ponting in a cricket match. Was the day favorable for batting before the toss was called? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

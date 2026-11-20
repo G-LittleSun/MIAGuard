@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am asking about the report about the next space station crew replacement. Does the report say a Soyuz spacecraft will be used for the launch? Answer Yes, No, or Unknown.",
+    "contexts": [
+      "Next Space Station Launch Set for Oct 11 The blast-off in a Soyuz spacecraft from Russia #39;s Baikonur cosmodrome in Kazakhstan will deploy a replacement crew for Russian cosmonaut Gennady Padalka and NASA astronaut Michael Fincke, who have manned the orbital platform since April.",
+      "A new crew arrives at the space station A Soyuz spacecraft with a replacement crew for the international space station docked safely with the orbiting complex early Saturday.",
+      "Space Station Crew Plans New Missions STAR CITY, Russia - The new crew to the international space station will conduct experiments to research new AIDS vaccines and plant growth, and work on new space vehicles that will help future missions to the moon and Mars, crew members said Thursday.",
+      "Crew prepares for launch to International Space Station A two-man crew launches to the International Space Station tonight, tasked with keeping the outpost running and ready for space shuttles that will arrive after the men leave."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Next Space Station Launch Set for Oct 11 The blast-off in a Soyuz spacecraft from Russia #39;s Baikonur cosmodrome in Kazakhstan will deploy a replacement crew for Russian cosmonaut Gennady Padalka and NASA astronaut Michael Fincke, who have manned the orbital platform since April.\"\n\"A new crew arrives at the space station A Soyuz spacecraft with a replacement crew for the international space station docked safely with the orbiting complex early Saturday.\"\n\"Space Station Crew Plans New Missions STAR CITY, Russia - The new crew to the international space station will conduct experiments to research new AIDS vaccines and plant growth, and work on new space vehicles that will help future missions to the moon and Mars, crew members said Thursday.\"\n\"Crew prepares for launch to International Space Station A two-man crew launches to the International Space Station tonight, tasked with keeping the outpost running and ready for space shuttles that will arrive after the men leave.\"\n\nQuestion:\nI am asking about the report about the next space station crew replacement. Does the report say a Soyuz spacecraft will be used for the launch? Answer Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

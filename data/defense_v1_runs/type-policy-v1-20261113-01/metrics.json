@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-type-policy-v1",
+  "run_id": "type-policy-v1-20261113-01",
+  "identity_sha256": "19d4015a8f3904179a4bf2fd7ddd4fd136adf2c0018c5a8aca08769b0bb97a74",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 108,
+  "completed": 108,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 23,
+  "method_count": 4,
+  "attack_target_count": 9,
+  "benign_request_count": 48
+}

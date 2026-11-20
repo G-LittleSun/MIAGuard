@@ -1,0 +1,9 @@
+{
+  "generation_input": {
+    "query": "Does target story appear in context?",
+    "contexts": [],
+    "prompt": "Answer using only the supplied Context.\n\nContext:\n\n\nQuestion:\nDoes target story appear in context?\n",
+    "template_version": "fake_rag_answer_v1"
+  },
+  "judge_traces": null
+}

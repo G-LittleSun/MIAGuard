@@ -1,0 +1,864 @@
+{
+  "analysis_role": "retrospective_development_scoring",
+  "reviewer_kind": "llm_agent",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "input_sha256": {
+    "data\\defense_v1_runs\\next-goal-paired-20261117-01\\events.jsonl": "01e2309f731bcf1015e52c941008ff462dd56c7f0167930236c034df3d954df1",
+    "data\\defense_v1_runs\\next-goal-paired-20261117-01\\run_manifest.json": "96df84cbf257688a25914a7283d83023fd04b02c2c81d5e2f265f9a73fce2689",
+    "data\\vector_stores\\20260717-ag-news-four-medium\\ag_news\\documents.jsonl": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9",
+    "reports\\defense_v1\\T10\\next_goal_normal_review_units_20261117.json": "78d2b8fa931ed05baeab8091c950e934a3eb4a4def23719dee74b25ac34e15a1",
+    "reports\\defense_v1\\T10\\next_goal_normal_agent_review_20261117.json": "cf71c01e6816afc862801a2178e3d97e2189ec6956c996f61c468c96f99eeb65",
+    "reports\\defense_v1\\T10\\UTILITY48_SCORING_DRAFT_ZH.md": "2add4b5e820addf48d837cf2251573b58be194ca7fb8ac052627943a9b6d6bed"
+  },
+  "generation_artifact_sha256": {
+    "artifacts/B0/20260715/ef54bf853a7077640d5f.json": "c5c2a45b87d7cd32d5ff0d9ccfac4d796cb4d61f3ca54956d16e7b89ae56acc8",
+    "artifacts/B0/20260715/8f26e091070d1f28106d.json": "4ed4ea6da87f1e4037e8ee8c2b56f5efd8eac90cbf25e79c34f3469e1a21d3fb",
+    "artifacts/B0/20260715/1508b5909c11997faeab.json": "0409ba4b603c29688a35cbc9cf6230fbc5e81b7fbc5883b8cf8cbe3f4c13be88",
+    "artifacts/B0/20260715/f813ab751878bff74269.json": "c539d577260790862c77e9c8128fd621600fc6d008cd3cc8556594b1eca5d73e",
+    "artifacts/B0/20260715/68b3ebc49a0c072c2836.json": "3a2f302f126e9088580c799775515e365e9af10147177cccb852c4f34c741c81",
+    "artifacts/B0/20260715/131dd7a3a1e2ea263050.json": "5a530b2081843e24243368a14031f3171c0260465ae14e55d89d278b58b35ee2",
+    "artifacts/B0/20260715/2cff5daf79452cd26a0c.json": "79232cc9813403d8935232c330f8c9995c244a8b0f5540f391cd3253b6860e26",
+    "artifacts/B0/20260715/148de666d5e9ff7aa4cc.json": "003d726702b1d919584a34e624554406e2d8a906c5c8dd0de3fbee28c6b31044",
+    "artifacts/B0/20260715/bb84ece654ea73b454ad.json": "776f6aaabc54952f1bb7cda662f476a6697fb8bd2b47ad68f617fd2449e5374e",
+    "artifacts/B0/20260715/ccc0ceb932cb8ca21aae.json": "bacc6de7b50f3d686f70fa4ba4bc2d05d4ef46427260958bda61475bf7c22e64",
+    "artifacts/B0/20260715/5a0e6db8c54bc24dcf73.json": "a93b61839b82d52e87595c6b6508f8eec45bbeeee9aa665f0c743a9ae07143df",
+    "artifacts/B0/20260715/765542d33cb7d554bb62.json": "331e1639fed35cd43d140672fe4cb52be7660ae752eea46c9bacc4defb28a783",
+    "artifacts/B0/20260715/ca670892a359f77a7a93.json": "e92d87e7668e30eb73a7e01ce65f918af59b13cd1dff11a390fe98d337055d6f",
+    "artifacts/B0/20260715/19ba8868629005ca3edb.json": "5f526702881742604793d6106c058867c244e971fd95e5e84f5fc46e23336783",
+    "artifacts/B0/20260715/b968c1ee093a9225bd5d.json": "eabb368c37ffdb406ecd375b92b3665e1a90cd4383aa52b48c832e37deab75e5",
+    "artifacts/B_TYPE_V2/20260715/ef54bf853a7077640d5f.json": "cd984a21b05730fa54dc271e07fceff3b296289c7f3dfad1887956cb316504b3",
+    "artifacts/B_TYPE_V2/20260715/8f26e091070d1f28106d.json": "10bddcecd32ee03e64c7b026c4c7be781a302555c3e9f6579ff785f12722f8d9",
+    "artifacts/B_TYPE_V2/20260715/1508b5909c11997faeab.json": "37996eab00a6c80471191bdd7595630b3266d040ed17b44e4c62fa0301002362",
+    "artifacts/B_TYPE_V2/20260715/f813ab751878bff74269.json": "cadd211bc38a99d8d5e76d11b050b6698d0adf9caa329d4f18439ff08b8b7eb9",
+    "artifacts/B_TYPE_V2/20260715/68b3ebc49a0c072c2836.json": "12c8e2fddebd7113e9a774b87297fd4a014b1256e27b46f7e8c461ec355020ac",
+    "artifacts/B_TYPE_V2/20260715/131dd7a3a1e2ea263050.json": "b10c060750ed9b29d97ea76d89ae5ea1acc9e8a8314aa6e7f3deac19a1e513c0",
+    "artifacts/B_TYPE_V2/20260715/2cff5daf79452cd26a0c.json": "6c6bc5ddf7a8e27e676dd5c995dd11815379f26e8e72fea42427dd57cc5db109",
+    "artifacts/B_TYPE_V2/20260715/148de666d5e9ff7aa4cc.json": "eb045d6eac1f33148fe2918d34ee92f576b98c88c950d17b833e764cbc5ba9c1",
+    "artifacts/B_TYPE_V2/20260715/bb84ece654ea73b454ad.json": "7be6b59a76fdaf24cfa042fce783e3b191675a653b7aa810e4651fa8ad061183",
+    "artifacts/B_TYPE_V2/20260715/ccc0ceb932cb8ca21aae.json": "71671efad55af7f0b3907fca87772374eaf47ee8f64861220aeb5594bb6fbdc7",
+    "artifacts/B_TYPE_V2/20260715/5a0e6db8c54bc24dcf73.json": "f1db660837919b6387fcc949b65758f3233dc90334293d2850e82441dbef30d3",
+    "artifacts/B_TYPE_V2/20260715/765542d33cb7d554bb62.json": "56cd5e7e4c3cf3bf29828f981ad5fa337c1b98b875e0774e39e1bfffa2c138e3",
+    "artifacts/B_TYPE_V2/20260715/ca670892a359f77a7a93.json": "3802e21cfbdcb1cadb4d71522ac3d28cd57f3e8c77f42b74dac132e548050a53",
+    "artifacts/B_TYPE_V2/20260715/19ba8868629005ca3edb.json": "b22f447381abe458353132528a91c2ee6ee510fb4875e65d7feeea730460684c",
+    "artifacts/B_TYPE_V2/20260715/b968c1ee093a9225bd5d.json": "0b03ecd7650d0dc6683d99470f51181860ce3ba034e2cba74526b6fbcbed649f"
+  },
+  "summary": {
+    "B0": {
+      "correct_supported": [
+        12,
+        13
+      ],
+      "completeness": [
+        16,
+        17
+      ],
+      "faithfulness": [
+        30,
+        31
+      ],
+      "initial_reference_quote_coverage": [
+        17,
+        17
+      ],
+      "delivered_reference_quote_coverage": [
+        17,
+        17
+      ],
+      "reasonable_insufficient": [
+        2,
+        2
+      ],
+      "no_factual_claims": 2,
+      "refusals": 0
+    },
+    "B_TYPE_V2": {
+      "correct_supported": [
+        9,
+        13
+      ],
+      "completeness": [
+        9,
+        17
+      ],
+      "faithfulness": [
+        18,
+        19
+      ],
+      "initial_reference_quote_coverage": [
+        17,
+        17
+      ],
+      "delivered_reference_quote_coverage": [
+        10,
+        17
+      ],
+      "reasonable_insufficient": [
+        2,
+        2
+      ],
+      "no_factual_claims": 5,
+      "refusals": 2
+    }
+  },
+  "cases": [
+    {
+      "method": "B0",
+      "request_id": "ng_normal_01",
+      "action": "allow",
+      "reference_quote": "may pay \\$13 billion",
+      "facts": [
+        {
+          "fact": "potential price: $13 billion",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "Symantec may pay $13 billion for Veritas",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B0",
+      "request_id": "ng_normal_02",
+      "action": "allow",
+      "reference_quote": "storage software company",
+      "facts": [
+        {
+          "fact": "Veritas is a storage software company",
+          "correct": false,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "Veritas is an antivirus vendor",
+          "supported": false
+        }
+      ],
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B0",
+      "request_id": "ng_normal_03",
+      "action": "allow",
+      "reference_quote": "artificial intelligence (AI)",
+      "facts": [
+        {
+          "fact": "NASA plans to add artificial intelligence",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "NASA plans to add robust AI to planetary rovers",
+          "supported": true
+        },
+        {
+          "statement": "AI would make the rovers more self-reliant",
+          "supported": true
+        },
+        {
+          "statement": "rovers would be capable of basic mission decisions",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B0",
+      "request_id": "ng_normal_04",
+      "action": "allow",
+      "reference_quote": "making basic decisions during a mission",
+      "facts": [
+        {
+          "fact": "rovers can make basic decisions during a mission",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "AI would let the rovers make basic decisions during a mission",
+          "supported": true
+        },
+        {
+          "statement": "AI would make the rovers more self-reliant",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B0",
+      "request_id": "ng_normal_05",
+      "action": "allow",
+      "reference_quote": "14-Year Old Boy",
+      "facts": [
+        {
+          "fact": "the boy was 14 years old",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "the injured boy in the Florida fair case was 14 years old",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B0",
+      "request_id": "ng_normal_06",
+      "action": "allow",
+      "reference_quote": "Siberian tiger",
+      "facts": [
+        {
+          "fact": "the attacker was a Siberian tiger",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "a Siberian tiger attacked the boy",
+          "supported": true
+        },
+        {
+          "statement": "a Siberian tiger attacked the handler",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B0",
+      "request_id": "ng_normal_07",
+      "action": "allow",
+      "reference_quote": "Vioxx painkiller",
+      "facts": [
+        {
+          "fact": "the drug was Vioxx",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "Merck recalled Vioxx",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B0",
+      "request_id": "ng_normal_08",
+      "action": "allow",
+      "reference_quote": "stock sunk 27  percent",
+      "facts": [
+        {
+          "fact": "the stock fell 27 percent",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "Merck stock fell by 27 percent",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B0",
+      "request_id": "bp_treo_1",
+      "action": "allow",
+      "reference_quote": "a new file system used for the handheld actually offers less memory for data storage than was available on the older Treo 600",
+      "facts": [
+        {
+          "fact": "the new Treo 650 file system leaves less data storage than the Treo 600",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "PalmOne is offering a card to Treo 650 owners",
+          "supported": true
+        },
+        {
+          "statement": "the card is free",
+          "supported": true
+        },
+        {
+          "statement": "its capacity is 128 MB",
+          "supported": true
+        },
+        {
+          "statement": "the card addresses lower storage capacity than on the Treo 600",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B0",
+      "request_id": "bp_treo_2",
+      "action": "allow",
+      "reference_quote": "PalmOne plans to offer a free 128MB expansion card to Treo 650 owners",
+      "facts": [
+        {
+          "fact": "the company was PalmOne",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "PalmOne is offering a card to Treo 650 owners",
+          "supported": true
+        },
+        {
+          "statement": "the card is free",
+          "supported": true
+        },
+        {
+          "statement": "its capacity is 128 MB",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B0",
+      "request_id": "bp_treo_3",
+      "action": "allow",
+      "reference_quote": "PalmOne plans to offer a free 128MB expansion card to Treo 650 owners",
+      "facts": [
+        {
+          "fact": "the card capacity was 128 MB",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "PalmOne is offering a card to Treo 650 owners",
+          "supported": true
+        },
+        {
+          "statement": "the card is free",
+          "supported": true
+        },
+        {
+          "statement": "its capacity is 128 MB",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B0",
+      "request_id": "bp_ace_1",
+      "action": "allow",
+      "reference_quote": "Ace Ltd., a Bermuda insurer that is a subject of the New York attorney general's investigation into the insurance industry, dismissed two executives",
+      "facts": [
+        {
+          "fact": "Ace is a Bermuda insurer",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        },
+        {
+          "fact": "the inquiry is by the New York attorney general",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        },
+        {
+          "fact": "two executives were dismissed",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "Ace is an insurer",
+          "supported": true
+        },
+        {
+          "statement": "Ace is identified as a Bermuda company",
+          "supported": true
+        },
+        {
+          "statement": "Ace is subject to a New York attorney general investigation into the insurance industry",
+          "supported": true
+        },
+        {
+          "statement": "Ace dismissed two executives",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B0",
+      "request_id": "bp_oklahoma_1",
+      "action": "allow",
+      "reference_quote": "Adrian Peterson ran for 240 yards, including three second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor 35-0 on Saturday",
+      "facts": [
+        {
+          "fact": "Peterson ran for 240 yards",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        },
+        {
+          "fact": "Peterson scored three second-half touchdowns",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        },
+        {
+          "fact": "Oklahoma won 35-0",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "Peterson ran for 240 yards",
+          "supported": true
+        },
+        {
+          "statement": "Peterson scored three second-half touchdowns",
+          "supported": true
+        },
+        {
+          "statement": "Oklahoma is identified as No. 2",
+          "supported": true
+        },
+        {
+          "statement": "Oklahoma beat Baylor 35-0",
+          "supported": true
+        },
+        {
+          "statement": "Oklahoma needed the win for the BCS standings",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B0",
+      "request_id": "ng_ei_00000050",
+      "action": "allow",
+      "reference_quote": "Report: Symantec May Buy Veritas Antivirus vendor may pay \\$13 billion for the storage software company.",
+      "facts": [],
+      "claims": [],
+      "correct_supported": null,
+      "reasonable_insufficient_answer": true
+    },
+    {
+      "method": "B0",
+      "request_id": "ng_ei_00000220",
+      "action": "allow",
+      "reference_quote": "Tiger Attacks 14-Year Old Boy, Handler At Fair ST. AUGUSTINE, Fla. -- A 14-year old boy and a tiger handler are recovering after being attacked by a 350-pound Siberian tiger at a county fair in Florida.",
+      "facts": [],
+      "claims": [],
+      "correct_supported": null,
+      "reasonable_insufficient_answer": true
+    },
+    {
+      "method": "B_TYPE_V2",
+      "request_id": "ng_normal_01",
+      "action": "allow",
+      "reference_quote": "may pay \\$13 billion",
+      "facts": [
+        {
+          "fact": "potential price: $13 billion",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "Symantec may pay $13 billion for Veritas",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B_TYPE_V2",
+      "request_id": "ng_normal_02",
+      "action": "allow",
+      "reference_quote": "storage software company",
+      "facts": [
+        {
+          "fact": "Veritas is a storage software company",
+          "correct": false,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "Veritas is an antivirus vendor",
+          "supported": false
+        }
+      ],
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B_TYPE_V2",
+      "request_id": "ng_normal_03",
+      "action": "allow",
+      "reference_quote": "artificial intelligence (AI)",
+      "facts": [
+        {
+          "fact": "NASA plans to add artificial intelligence",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "NASA plans to add robust AI to planetary rovers",
+          "supported": true
+        },
+        {
+          "statement": "AI would make the rovers more self-reliant",
+          "supported": true
+        },
+        {
+          "statement": "rovers would be capable of basic mission decisions",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B_TYPE_V2",
+      "request_id": "ng_normal_04",
+      "action": "allow",
+      "reference_quote": "making basic decisions during a mission",
+      "facts": [
+        {
+          "fact": "rovers can make basic decisions during a mission",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "AI would let the rovers make basic decisions during a mission",
+          "supported": true
+        },
+        {
+          "statement": "AI would make the rovers more self-reliant",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B_TYPE_V2",
+      "request_id": "ng_normal_05",
+      "action": "allow",
+      "reference_quote": "14-Year Old Boy",
+      "facts": [
+        {
+          "fact": "the boy was 14 years old",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "the injured boy in the Florida fair case was 14 years old",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B_TYPE_V2",
+      "request_id": "ng_normal_06",
+      "action": "allow",
+      "reference_quote": "Siberian tiger",
+      "facts": [
+        {
+          "fact": "the attacker was a Siberian tiger",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "a Siberian tiger attacked the boy",
+          "supported": true
+        },
+        {
+          "statement": "a Siberian tiger attacked the handler",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B_TYPE_V2",
+      "request_id": "ng_normal_07",
+      "action": "allow",
+      "reference_quote": "Vioxx painkiller",
+      "facts": [
+        {
+          "fact": "the drug was Vioxx",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "Merck recalled Vioxx",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B_TYPE_V2",
+      "request_id": "ng_normal_08",
+      "action": "allow",
+      "reference_quote": "stock sunk 27  percent",
+      "facts": [
+        {
+          "fact": "the stock fell 27 percent",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "Merck stock fell by 27 percent",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B_TYPE_V2",
+      "request_id": "bp_treo_1",
+      "action": "allow",
+      "reference_quote": "a new file system used for the handheld actually offers less memory for data storage than was available on the older Treo 600",
+      "facts": [
+        {
+          "fact": "the new Treo 650 file system leaves less data storage than the Treo 600",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "PalmOne is offering a card to Treo 650 owners",
+          "supported": true
+        },
+        {
+          "statement": "the card is free",
+          "supported": true
+        },
+        {
+          "statement": "its capacity is 128 MB",
+          "supported": true
+        },
+        {
+          "statement": "the card addresses lower storage capacity than on the Treo 600",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B_TYPE_V2",
+      "request_id": "bp_treo_2",
+      "action": "allow",
+      "reference_quote": "PalmOne plans to offer a free 128MB expansion card to Treo 650 owners",
+      "facts": [
+        {
+          "fact": "the company was PalmOne",
+          "correct": true,
+          "initial_covered": true,
+          "delivered_covered": true
+        }
+      ],
+      "claims": [
+        {
+          "statement": "PalmOne is offering a card to Treo 650 owners",
+          "supported": true
+        },
+        {
+          "statement": "the card is free",
+          "supported": true
+        },
+        {
+          "statement": "its capacity is 128 MB",
+          "supported": true
+        }
+      ],
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B_TYPE_V2",
+      "request_id": "bp_treo_3",
+      "action": "hide_target_refill",
+      "reference_quote": "PalmOne plans to offer a free 128MB expansion card to Treo 650 owners",
+      "facts": [
+        {
+          "fact": "the card capacity was 128 MB",
+          "correct": false,
+          "initial_covered": true,
+          "delivered_covered": false
+        }
+      ],
+      "claims": [],
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B_TYPE_V2",
+      "request_id": "bp_ace_1",
+      "action": "deny",
+      "reference_quote": "Ace Ltd., a Bermuda insurer that is a subject of the New York attorney general's investigation into the insurance industry, dismissed two executives",
+      "facts": [
+        {
+          "fact": "Ace is a Bermuda insurer",
+          "correct": false,
+          "initial_covered": true,
+          "delivered_covered": false
+        },
+        {
+          "fact": "the inquiry is by the New York attorney general",
+          "correct": false,
+          "initial_covered": true,
+          "delivered_covered": false
+        },
+        {
+          "fact": "two executives were dismissed",
+          "correct": false,
+          "initial_covered": true,
+          "delivered_covered": false
+        }
+      ],
+      "claims": [],
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B_TYPE_V2",
+      "request_id": "bp_oklahoma_1",
+      "action": "deny",
+      "reference_quote": "Adrian Peterson ran for 240 yards, including three second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor 35-0 on Saturday",
+      "facts": [
+        {
+          "fact": "Peterson ran for 240 yards",
+          "correct": false,
+          "initial_covered": true,
+          "delivered_covered": false
+        },
+        {
+          "fact": "Peterson scored three second-half touchdowns",
+          "correct": false,
+          "initial_covered": true,
+          "delivered_covered": false
+        },
+        {
+          "fact": "Oklahoma won 35-0",
+          "correct": false,
+          "initial_covered": true,
+          "delivered_covered": false
+        }
+      ],
+      "claims": [],
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null
+    },
+    {
+      "method": "B_TYPE_V2",
+      "request_id": "ng_ei_00000050",
+      "action": "allow",
+      "reference_quote": "Report: Symantec May Buy Veritas Antivirus vendor may pay \\$13 billion for the storage software company.",
+      "facts": [],
+      "claims": [],
+      "correct_supported": null,
+      "reasonable_insufficient_answer": true
+    },
+    {
+      "method": "B_TYPE_V2",
+      "request_id": "ng_ei_00000220",
+      "action": "allow",
+      "reference_quote": "Tiger Attacks 14-Year Old Boy, Handler At Fair ST. AUGUSTINE, Fla. -- A 14-year old boy and a tiger handler are recovering after being attacked by a 350-pound Siberian tiger at a county fair in Florida.",
+      "facts": [],
+      "claims": [],
+      "correct_supported": null,
+      "reasonable_insufficient_answer": true
+    }
+  ],
+  "limitations": [
+    "Evidence coverage matches the reviewed reference quotations, so it measures annotated evidence coverage rather than exhaustively finding alternative spans.",
+    "Faithfulness excludes responses without factual claims, including refusals and evidence-insufficiency responses. See no_factual_claims for coverage.",
+    "Selected development queries, possibly sharing sources or sessions. Agent review."
+  ]
+}

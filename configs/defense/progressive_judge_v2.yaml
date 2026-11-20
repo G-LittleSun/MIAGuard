@@ -1,0 +1,14 @@
+schema_version: 1
+progressive_judge:
+  manifest: attack_pattern_library/manifest.yaml
+  query_patterns: [direct_rag_mia, s2_mia, masked_mia, ia]
+  session_patterns: [direct_rag_mia, s2_mia, masked_mia, ia]
+  prompt_version: progressive_v2_direct_private_context_validated_codes_targeted_repair_possible_uncertainty_minimal_rubric_no_attack_cue_trusted_surface_empty_skip_ia_constrained_session_rubric_consistency_combined_repair_exclusion_sufficient_evidence_code_targeted_repair_structured_router_gate_constrained_json_single_candidate_verifier_closed_missing_codes_string_state_schema_complete_array_branches
+  max_candidate_patterns: 2
+  max_retries: 1
+  screening_max_tokens: 128
+  detail_max_tokens: 160
+  rubric_max_tokens: 128
+  logprob_labels: [A, B, C]
+  logprob_anchors: [0.1, 0.5, 0.9]
+  allowed_partitions: [train, validation]

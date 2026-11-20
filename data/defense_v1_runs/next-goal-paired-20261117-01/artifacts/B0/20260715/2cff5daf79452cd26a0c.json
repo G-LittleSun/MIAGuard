@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Which drug did Merck recall?",
+    "contexts": [
+      "Blue Chips End Down, Merck Recall Weighs  NEW YORK (Reuters) - The U.S. Dow Jones Industrial average  declined on Thursday after drug maker Merck   Co.&lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=MRK.N target=/stocks/quickinfo/fullquote\"&gt;MRK.N&lt;/A&gt;  recalled its widely sold Vioxx painkiller and its stock sunk 27  percent.",
+      "Merck could suffer from Vioxx lawsuits NEW YORK -- Already wounded by the withdrawal of its Vioxx pain reliever from the market, Merck  amp; Co. must now contend with hundreds of lawsuits over the drug's side effects -- lawsuits that threaten to further damage the company's finances and reputation.",
+      "After Vioxx recall, the FDA and Merck both claim that all other &lt;b&gt;...&lt;/b&gt;  quot;We were wrong about Vioxx, but you can trust us on all those other meds, quot; the FDA seems to be saying. If you enjoy this article, you may also be interested in an article entitled  #39;The FDA remains in state of denial about drug safety questions.",
+      "Celebrex Trial Stopped After Heart Attacks Pfizer Inc. on Friday said a government-sponsored cancer-prevention trial of its blockbuster arthritis drug Celebrex was halted after patients taking it had more than "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Blue Chips End Down, Merck Recall Weighs  NEW YORK (Reuters) - The U.S. Dow Jones Industrial average  declined on Thursday after drug maker Merck   Co.&lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=MRK.N target=/stocks/quickinfo/fullquote\"&gt;MRK.N&lt;/A&gt;  recalled its widely sold Vioxx painkiller and its stock sunk 27  percent.\"\n\"Merck could suffer from Vioxx lawsuits NEW YORK -- Already wounded by the withdrawal of its Vioxx pain reliever from the market, Merck  amp; Co. must now contend with hundreds of lawsuits over the drug's side effects -- lawsuits that threaten to further damage the company's finances and reputation.\"\n\"After Vioxx recall, the FDA and Merck both claim that all other &lt;b&gt;...&lt;/b&gt;  quot;We were wrong about Vioxx, but you can trust us on all those other meds, quot; the FDA seems to be saying. If you enjoy this article, you may also be interested in an article entitled  #39;The FDA remains in state of denial about drug safety questions.\"\n\"Celebrex Trial Stopped After Heart Attacks Pfizer Inc. on Friday said a government-sponsored cancer-prevention trial of its blockbuster arthritis drug Celebrex was halted after patients taking it had more than \"\n\nQuestion:\nWhich drug did Merck recall?\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

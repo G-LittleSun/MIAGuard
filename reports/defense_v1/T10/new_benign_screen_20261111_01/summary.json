@@ -1,0 +1,15 @@
+{
+  "completed": 8,
+  "valid_trace_status": 8,
+  "at_or_above_query_threshold": 0,
+  "threshold": 0.006692850924284855,
+  "role": "engineering_only",
+  "policy_action_observed": false,
+  "answerability_reviewed": false,
+  "formal_effect_eligible": false,
+  "limitations": [
+    "Eight deterministic source-distinct convenience candidates are not representative.",
+    "Scores do not establish actual online actions, session fusion, or answer quality.",
+    "Some candidate questions may lack source support."
+  ]
+}

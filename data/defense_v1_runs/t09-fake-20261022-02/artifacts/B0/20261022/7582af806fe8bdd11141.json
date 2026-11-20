@@ -1,0 +1,12 @@
+{
+  "generation_input": {
+    "query": "Is the target story present?",
+    "contexts": [
+      "target story",
+      "safe background"
+    ],
+    "prompt": "Answer using only the supplied Context.\n\nContext:\n\"target story\"\n\"safe background\"\n\nQuestion:\nIs the target story present?\n",
+    "template_version": "fake_rag_answer_v1"
+  },
+  "judge_traces": null
+}

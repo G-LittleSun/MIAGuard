@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a reported fact. Did P&O announce a plan to increase its ferry fleet? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "P amp;O to Cut 1,200 Jobs to Stem Losses at Ferry Unit (Update2) Peninsular  amp; Oriental Steam Navigation Co., the UK #39;s largest ferry and ports operator, will trim its ferries fleet and cut 1,200 jobs, or a fifth of the unit #39;s workforce, to stem losses.",
+      "News Corp. Acts to Block Bids (Reuters) Reuters - Rupert Murdoch's News Corp. Ltd. moved\\on Monday to prevent a hostile bid from U.S. cable company\\Liberty Media Corp., launching a plan to issue stock options\\that would dilute the stake of any predator.",
+      "VT Group says has no plans to buy BAE shipbuilding LONDON (CBS.MW) -- British shipbuilders VT Group (UK:VTG) said Monday it has no plans to acquire BAE Systems (UK:BA) shipbuilding activities, but added it  quot;remains focused... on assisting the UK government ",
+      "Ahold Confident #39; of EU2.5 Billion Asset Goal After Spain Sale Royal Ahold NV, owner of the Giant and Stop  amp; Shop supermarkets in the US, is confident #39; #39; the company can reach its goal of raising 2.5 billion euros (\\$3."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"P amp;O to Cut 1,200 Jobs to Stem Losses at Ferry Unit (Update2) Peninsular  amp; Oriental Steam Navigation Co., the UK #39;s largest ferry and ports operator, will trim its ferries fleet and cut 1,200 jobs, or a fifth of the unit #39;s workforce, to stem losses.\"\n\"News Corp. Acts to Block Bids (Reuters) Reuters - Rupert Murdoch's News Corp. Ltd. moved\\on Monday to prevent a hostile bid from U.S. cable company\\Liberty Media Corp., launching a plan to issue stock options\\that would dilute the stake of any predator.\"\n\"VT Group says has no plans to buy BAE shipbuilding LONDON (CBS.MW) -- British shipbuilders VT Group (UK:VTG) said Monday it has no plans to acquire BAE Systems (UK:BA) shipbuilding activities, but added it  quot;remains focused... on assisting the UK government \"\n\"Ahold Confident #39; of EU2.5 Billion Asset Goal After Spain Sale Royal Ahold NV, owner of the Giant and Stop  amp; Shop supermarkets in the US, is confident #39; #39; the company can reach its goal of raising 2.5 billion euros (\\$3.\"\n\nQuestion:\nI am inquiring about a reported fact. Did P&O announce a plan to increase its ferry fleet? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

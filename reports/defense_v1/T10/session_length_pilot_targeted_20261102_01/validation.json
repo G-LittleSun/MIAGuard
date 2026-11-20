@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "errors": [],
+  "reviewed_versions": 14,
+  "decisions": {
+    "provisional_accept": 5,
+    "rewrite": 9
+  },
+  "draft_versions": 10,
+  "turns": 25,
+  "source_documents": 9,
+  "scope": "Input/output hashes, review identity, ID uniqueness, paired prefixes, reference scopes and targeted numerical wording; semantic judgments remain agent review.",
+  "human_gold_complete": false,
+  "formal_effect_eligible": false
+}

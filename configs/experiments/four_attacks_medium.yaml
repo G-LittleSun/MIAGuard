@@ -1,0 +1,24 @@
+profile: formal
+dataset_selection:
+  mode: single
+  include:
+    - ag_news
+attacks:
+  - direct_rag_mia
+  - s2_mia
+  - masked_mia
+  - ia
+target_counts:
+  direct_rag_mia:
+    members: 1000
+    nonmembers: 1000
+  s2_mia:
+    members: 1000
+    nonmembers: 1000
+  masked_mia:
+    members: 500
+    nonmembers: 500
+  ia:
+    members: 200
+    nonmembers: 200
+runs_dir: data/runs

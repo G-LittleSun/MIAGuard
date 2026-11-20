@@ -1,0 +1,30 @@
+seed: 20260715
+models:
+  generation:
+    backend: transformers
+    model: LLM/mistralai/mistral-7b-instruct-v0-2
+  embedding:
+    backend: sentence_transformers
+    model: EmbeddingModel/sentence-transformers/all_minilm_l6_v2
+vector_store:
+  backend: faiss
+  embedding_batch_size: 10
+  top_k: 4
+masked_mia:
+  mask_count: 5
+  threshold: 0.2
+  threshold_source: ag_news_calibration_100_per_class
+  max_tokens: 128
+ia:
+  questions_per_document: 1
+  threshold: 0.5
+  unknown_penalty: 0.1
+  generation_max_tokens: 128
+direct_rag_mia:
+  threshold: 0.5
+  max_tokens: 12
+s2_mia:
+  threshold: 0.915322333574295
+  threshold_source: ag_news_calibration_100_per_class
+  max_tokens: 80
+  prefix_words: 10

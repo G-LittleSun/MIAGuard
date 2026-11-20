@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "proposal_id": "crossdoc_replacement_20261102_01",
+  "status": "draft_pending_independent_model_and_human_review",
+  "partition": "D-dev",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "replay_eligible": false,
+  "parent_revision_manifest_sha256": "041f32fe0bf7f10842feb93f3f366775df796d351344b362ca95fe544cbc9bcf",
+  "index_documents_sha256": "bfa05b9414ad3ca26b3fff9cbfa759790fd88fe97404ac9335950dffe2dbfaae",
+  "source_ids": [
+    "ag_news_teacher_00006603",
+    "ag_news_teacher_00007349"
+  ],
+  "source_count": 2,
+  "variant_count": 2,
+  "request_count": 5,
+  "source_selection": "Both reports relate record crude prices to U.S. equities; the questions do not assert they describe the same event or a common date.",
+  "simhash_algorithm": "normalized_word_trigram_simhash64_v1",
+  "simhash_max_hamming": 3,
+  "minimum_distance_from_existing_31": 24,
+  "file_sha256": {
+    "source_evidence.jsonl": "8b2566cf8a300dbdb36a8fde270e9a6c314047d0ce550c4a16a3d5061913684d",
+    "candidate_variants.jsonl": "e1f0e30e1ec5fe62041a40d952ce8f1a952327624e496878b26c079d4d6375b8"
+  },
+  "limitations": [
+    "Shared factor does not by itself prove a valid synthesis task; content review pending.",
+    "Existing SimHash does not rule out same-event or semantic dependence.",
+    "Three-turn reference dependency is not experimentally verified.",
+    "All answers are model suggestions, not formal gold."
+  ]
+}

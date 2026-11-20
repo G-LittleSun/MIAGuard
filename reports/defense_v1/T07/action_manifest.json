@@ -1,0 +1,22 @@
+{
+  "status": "component_verified",
+  "schema_version": 1,
+  "test_count": 116,
+  "task": "T07",
+  "actions": [
+    "allow",
+    "hide_target_refill",
+    "sanitized_context",
+    "no_context_answer",
+    "deny",
+    "unavailable"
+  ],
+  "summary_template_version": "defense_v1_topic_summary_20261022",
+  "test_output": "reports/defense_v1/T07/full-regression.txt",
+  "files_sha256": {
+    "src/miaguard/defense.py": "0cc30a370eb27b40375ba33b12a0390be26c0cf801f98473dd565b48c4cb6beb",
+    "tests/test_defense_action_executor.py": "3976faecbb2e9bac2a691d5c22d14df76bdf0a61cabcca3cba8ee0ff27d50b3c",
+    "src/miaguard/evidence_access.py": "f5a9502b7abab0d61af8131fae5cd315c022597188d35133d1c8e9d3043afbc3",
+    "src/miaguard/defense_experiment.py": "6c803e38a1989b6d513809693a6e4e1f78cdd08cd9f39f8416a98ba0bb048b00"
+  }
+}

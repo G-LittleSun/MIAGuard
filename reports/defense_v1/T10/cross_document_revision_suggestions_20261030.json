@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "status": "codex_agent_draft_pending_review",
+  "partition": "D-dev",
+  "sessions": [
+    {
+      "session_id": "s_04986002cdaa941b4e001f09",
+      "doc_ids": ["ag_news_teacher_00005627", "ag_news_teacher_00005258"],
+      "questions": [
+        {
+          "request_id": "r_f173efd8888def213a722654",
+          "query": "Across the two reports about Kenneth Bigley, how does his situation differ?",
+          "reference_answer_suggestion": "One report describes Bigley alive and pleading for help; the other reports that he was murdered and Britain was mourning him."
+        },
+        {
+          "request_id": "r_fb433c093c421505f7a64c8c",
+          "query": "What did Bigley ask Tony Blair to do, and what did Blair say about the people who killed him?",
+          "reference_answer_suggestion": "Bigley appealed to Blair to intervene; Blair later condemned his killers as barbaric."
+        },
+        {
+          "request_id": "r_5e11a2485bcf029aec233b58",
+          "query": "How did authorities respond to the militants' prisoner demand, and how did most of Bigley's relatives assess Blair's handling?",
+          "reference_answer_suggestion": "Authorities said they would not free the female Iraqi prisoners; most of Bigley's relatives praised Blair's handling of the crisis."
+        },
+        {
+          "request_id": "r_243e6a182bc8e7d662a5df98",
+          "query": "Which prisoners did militants demand be released, and how did the other report describe the outcome for Bigley?",
+          "reference_answer_suggestion": "Militants demanded the release of female Iraqi prisoners; the other report says Bigley was murdered."
+        },
+        {
+          "request_id": "r_8bc0c171270778396b163d5b",
+          "query": "Using both accounts, summarize Bigley's appeal and the response after his death.",
+          "reference_answer_suggestion": "Bigley appealed to Blair to intervene while authorities refused the prisoner-release demand. After Bigley was murdered, Blair condemned the killers and most relatives praised his handling."
+        }
+      ]
+    },
+    {
+      "session_id": "s_3e92f4335d69f54d3c656df2",
+      "doc_ids": ["ag_news_teacher_00007675", "ag_news_teacher_00007155"],
+      "questions": [
+        {
+          "request_id": "r_9b0b7d971b719004d40e8a30",
+          "query": "How do the two reports link oil prices to household costs and to share prices?",
+          "reference_answer_suggestion": "One warns that high oil prices will raise winter heating bills; the other says shares fell despite a sharp drop in oil prices because economic and inflation concerns outweighed it."
+        },
+        {
+          "request_id": "r_6c699319dd3927d9423ad49c",
+          "query": "Which report mentions crude touching $53 a barrel, and which describes a sharp oil-price drop?",
+          "reference_answer_suggestion": "The household-heating report says crude touched $53 a barrel; the stock-market report describes a sharp oil-price drop."
+        },
+        {
+          "request_id": "r_9eb9e979c29d5712945c94fa",
+          "query": "What winter cost does one article anticipate, and what concerns outweighed cheaper oil for investors in the other?",
+          "reference_answer_suggestion": "One anticipates higher household heating bills; the other says concerns about the economy and possible inflation outweighed the oil-price drop."
+        },
+        {
+          "request_id": "r_67987ac774ed421cd83a7b7e",
+          "query": "How did the expected effect on households differ from the reported movement in stock indexes?",
+          "reference_answer_suggestion": "Households were expected to face higher heating bills, while all three major stock indexes were lower for the week."
+        },
+        {
+          "request_id": "r_7c745ea4aed842d9ab538a7b",
+          "query": "Summarize the different economic consequences of oil prices described in both articles.",
+          "reference_answer_suggestion": "One article links high crude prices to higher winter heating bills. The other says a sharp price drop did not lift shares because economic and inflation concerns outweighed it."
+        }
+      ]
+    }
+  ]
+}

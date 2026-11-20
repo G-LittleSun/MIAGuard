@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008944",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q106",
+      "session_id": "ia_ag_news_teacher_00008944",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not mention electrical shock as a hazard. The context discusses typhoons, tremors, a train accident, and research on nanomaterial safety, but does not include any information about electrical shock hazards.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000203",
+        "ag_news_teacher_00000982",
+        "ag_news_teacher_00000608",
+        "ag_news_teacher_00000865"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000203",
+        "ag_news_teacher_00000982",
+        "ag_news_teacher_00000608",
+        "ag_news_teacher_00000865"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000203",
+            "ag_news_teacher_00000982",
+            "ag_news_teacher_00000608",
+            "ag_news_teacher_00000865"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000203",
+            "ag_news_teacher_00000982",
+            "ag_news_teacher_00000608",
+            "ag_news_teacher_00000865"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1573.3494004234672,
+      "ledger_event": {
+        "request_id": "q106",
+        "session_id": "ia_ag_news_teacher_00008944",
+        "input_sha256": "1476a37c729d8e7aecab2aa4cc003cf61dbc227c277da733119002a92320f124",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000203",
+          "ag_news_teacher_00000982",
+          "ag_news_teacher_00000608",
+          "ag_news_teacher_00000865"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000203",
+            "parent_doc_id": "ag_news_teacher_00000203",
+            "kind": "raw",
+            "score": 0.3252286911010742,
+            "text_sha256": "2747d5a46cd495330804c5dbdf0f5571945c7b80349d400c9ee1a889419c75cd"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000982",
+            "parent_doc_id": "ag_news_teacher_00000982",
+            "kind": "raw",
+            "score": 0.3034960925579071,
+            "text_sha256": "8f81923acdd36011682784260cd3a6b937fadd6f7b0cf2caf9f6b486a3cea91d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000608",
+            "parent_doc_id": "ag_news_teacher_00000608",
+            "kind": "raw",
+            "score": 0.30297112464904785,
+            "text_sha256": "8842c956fdf6073e23bf718fcadf761843e2abac8a2d0470241dd280eb6e6a76"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000865",
+            "parent_doc_id": "ag_news_teacher_00000865",
+            "kind": "raw",
+            "score": 0.29753583669662476,
+            "text_sha256": "d8d75fe0310649d10f62f16d86b5123bc6e67e586ad06a305b8462a6e68565d7"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not mention electrical shock as a hazard. The context discusses typhoons, tremors, a train accident, and research on nanomaterial safety, but does not include any information about electrical shock hazards.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006875.1138234,
+        "finished_at": 1795006876.6868234
+      },
+      "generation_input_ref": "artifacts/B0/20260715/9bac8f3af3489bf3d1ea.json",
+      "artifact_sha256": "cda0e62924c0571335a3569efa0de6146add66206e9c69dc61e42456f490f794"
+    },
+    {
+      "request_id": "q107",
+      "session_id": "ia_ag_news_teacher_00008944",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000706",
+        "ag_news_teacher_00000884",
+        "ag_news_teacher_00000224",
+        "ag_news_teacher_00000833"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000706",
+        "ag_news_teacher_00000884",
+        "ag_news_teacher_00000224",
+        "ag_news_teacher_00000833"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000706",
+            "ag_news_teacher_00000884",
+            "ag_news_teacher_00000224",
+            "ag_news_teacher_00000833"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000706",
+            "ag_news_teacher_00000884",
+            "ag_news_teacher_00000224",
+            "ag_news_teacher_00000833"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 210.32630000263453,
+      "ledger_event": {
+        "request_id": "q107",
+        "session_id": "ia_ag_news_teacher_00008944",
+        "input_sha256": "73ca867580926a37a64c7ad94499a430fe9ebdeac36fc851086e6d4d0eb5d48b",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000706",
+          "ag_news_teacher_00000884",
+          "ag_news_teacher_00000224",
+          "ag_news_teacher_00000833"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000706",
+            "parent_doc_id": "ag_news_teacher_00000706",
+            "kind": "raw",
+            "score": 0.31940484046936035,
+            "text_sha256": "1c9af91147329cfd27124f0911de37781051cdb36b547f40328912838501010a"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000884",
+            "parent_doc_id": "ag_news_teacher_00000884",
+            "kind": "raw",
+            "score": 0.29990097880363464,
+            "text_sha256": "ff32c4c8b142ed630b0fe81e5d9387ccf8b209e85d60c4654b076117c6a9039c"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000224",
+            "parent_doc_id": "ag_news_teacher_00000224",
+            "kind": "raw",
+            "score": 0.2817257046699524,
+            "text_sha256": "24bc456cbe79af92d41ee3e1266ff3f9cf717d74d28f55a2783a6e258933a874"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000833",
+            "parent_doc_id": "ag_news_teacher_00000833",
+            "kind": "raw",
+            "score": 0.28014546632766724,
+            "text_sha256": "7fc996e8e379fcfb866f51eec28224fe8daa4c109f56fb9ec5b66c5d9957d58e"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006876.6928222,
+        "finished_at": 1795006876.9028242
+      },
+      "generation_input_ref": "artifacts/B0/20260715/85f53b721d70f9f6ee94.json",
+      "artifact_sha256": "8c9780b677b7ee8e2f4dadcc8780c5e38460b9b95efad7fa3874770bfab70703"
+    },
+    {
+      "request_id": "q108",
+      "session_id": "ia_ag_news_teacher_00008944",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not contain any information regarding the number of recalled laptop adapters by Dell. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000884",
+        "ag_news_teacher_00000833",
+        "ag_news_teacher_00000224",
+        "ag_news_teacher_00000164"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000884",
+        "ag_news_teacher_00000833",
+        "ag_news_teacher_00000224",
+        "ag_news_teacher_00000164"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000884",
+            "ag_news_teacher_00000833",
+            "ag_news_teacher_00000224",
+            "ag_news_teacher_00000164"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000884",
+            "ag_news_teacher_00000833",
+            "ag_news_teacher_00000224",
+            "ag_news_teacher_00000164"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1134.732000529766,
+      "ledger_event": {
+        "request_id": "q108",
+        "session_id": "ia_ag_news_teacher_00008944",
+        "input_sha256": "ee7e1649974ae6a96309aa0c9b972764b37df88e6352ac8756399500c689155c",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000884",
+          "ag_news_teacher_00000833",
+          "ag_news_teacher_00000224",
+          "ag_news_teacher_00000164"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000884",
+            "parent_doc_id": "ag_news_teacher_00000884",
+            "kind": "raw",
+            "score": 0.451055645942688,
+            "text_sha256": "ff32c4c8b142ed630b0fe81e5d9387ccf8b209e85d60c4654b076117c6a9039c"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000833",
+            "parent_doc_id": "ag_news_teacher_00000833",
+            "kind": "raw",
+            "score": 0.3813082277774811,
+            "text_sha256": "7fc996e8e379fcfb866f51eec28224fe8daa4c109f56fb9ec5b66c5d9957d58e"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000224",
+            "parent_doc_id": "ag_news_teacher_00000224",
+            "kind": "raw",
+            "score": 0.36709216237068176,
+            "text_sha256": "24bc456cbe79af92d41ee3e1266ff3f9cf717d74d28f55a2783a6e258933a874"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000164",
+            "parent_doc_id": "ag_news_teacher_00000164",
+            "kind": "raw",
+            "score": 0.34399721026420593,
+            "text_sha256": "c4e8503c4a45a3eec72eb7a0ddd9df2606f77b503155fdfdfbeee43bfc1fa2b6"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not contain any information regarding the number of recalled laptop adapters by Dell. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006876.9093242,
+        "finished_at": 1795006878.0443227
+      },
+      "generation_input_ref": "artifacts/B0/20260715/0351d1cbc0b8f8004750.json",
+      "artifact_sha256": "044f3dee57edcb2a948b522ec2805d556426b511941f94b15a24270dc0ba8f09"
+    }
+  ]
+}

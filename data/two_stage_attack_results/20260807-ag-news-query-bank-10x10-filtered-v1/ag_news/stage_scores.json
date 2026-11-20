@@ -1,0 +1,192 @@
+{
+  "query_stage": {
+    "benign_detected_count": 19,
+    "benign_score_mean": 0.4035,
+    "by_attack": {
+      "direct_rag_mia": {
+        "detected_count": 20,
+        "detection_rate": 1.0,
+        "member_count": 10,
+        "member_score_mean": 0.7799999999999999,
+        "nonmember_count": 10,
+        "nonmember_score_mean": 0.7999999999999999,
+        "risk_class_counts": {
+          "STRONG": 19,
+          "WEAK": 1
+        },
+        "sample_count": 20,
+        "score_mean": 0.7900000000000003,
+        "status_counts": {
+          "ok": 20
+        }
+      },
+      "ia": {
+        "detected_count": 60,
+        "detection_rate": 1.0,
+        "member_count": 30,
+        "member_score_mean": 0.45400000000000007,
+        "nonmember_count": 30,
+        "nonmember_score_mean": 0.39466666666666683,
+        "risk_class_counts": {
+          "NONE": 6,
+          "WEAK": 54
+        },
+        "sample_count": 60,
+        "score_mean": 0.42433333333333295,
+        "status_counts": {
+          "ok": 60
+        }
+      },
+      "masked_mia": {
+        "detected_count": 20,
+        "detection_rate": 1.0,
+        "member_count": 10,
+        "member_score_mean": 0.7999999999999999,
+        "nonmember_count": 10,
+        "nonmember_score_mean": 0.7999999999999999,
+        "risk_class_counts": {
+          "STRONG": 20
+        },
+        "sample_count": 20,
+        "score_mean": 0.8000000000000002,
+        "status_counts": {
+          "ok": 20
+        }
+      },
+      "s2_mia": {
+        "detected_count": 20,
+        "detection_rate": 1.0,
+        "member_count": 10,
+        "member_score_mean": 0.5999999999999999,
+        "nonmember_count": 10,
+        "nonmember_score_mean": 0.5999999999999999,
+        "risk_class_counts": {
+          "WEAK": 20
+        },
+        "sample_count": 20,
+        "score_mean": 0.5999999999999999,
+        "status_counts": {
+          "ok": 20
+        }
+      }
+    },
+    "overall_detection_metrics": {
+      "accuracy": 0.8642857142857143,
+      "attack_count": 120,
+      "attack_score_mean": 0.5771666666666667,
+      "auprc": 0.9116600487215916,
+      "auroc": 0.7152083333333333,
+      "benign_count": 20,
+      "benign_score_mean": 0.4035,
+      "confusion_matrix": {
+        "fn": 0,
+        "fp": 19,
+        "tn": 1,
+        "tp": 120
+      },
+      "f1": 0.9266409266409267,
+      "false_negative_rate": 0.0,
+      "false_positive_rate": 0.95,
+      "precision": 0.8633093525179856,
+      "recall": 1.0,
+      "sample_count": 140,
+      "threshold": 0.1
+    },
+    "threshold": 0.1
+  },
+  "session_stage": {
+    "benign_detected_count": 0,
+    "benign_score_mean": 0.0,
+    "by_attack": {
+      "direct_rag_mia": {
+        "detected_count": 0,
+        "detection_rate": 0.0,
+        "member_count": 10,
+        "member_score_mean": 0.0,
+        "nonmember_count": 10,
+        "nonmember_score_mean": 0.0,
+        "risk_class_counts": {
+          "NONE": 20
+        },
+        "sample_count": 20,
+        "score_mean": 0.0,
+        "status_counts": {
+          "insufficient_history": 20
+        }
+      },
+      "ia": {
+        "detected_count": 20,
+        "detection_rate": 0.3333333333333333,
+        "member_count": 30,
+        "member_score_mean": 0.19999999999999998,
+        "nonmember_count": 30,
+        "nonmember_score_mean": 0.19999999999999998,
+        "risk_class_counts": {
+          "NONE": 40,
+          "WEAK": 20
+        },
+        "sample_count": 60,
+        "score_mean": 0.19999999999999993,
+        "status_counts": {
+          "insufficient_history": 40,
+          "ok": 20
+        }
+      },
+      "masked_mia": {
+        "detected_count": 0,
+        "detection_rate": 0.0,
+        "member_count": 10,
+        "member_score_mean": 0.0,
+        "nonmember_count": 10,
+        "nonmember_score_mean": 0.0,
+        "risk_class_counts": {
+          "NONE": 20
+        },
+        "sample_count": 20,
+        "score_mean": 0.0,
+        "status_counts": {
+          "insufficient_history": 20
+        }
+      },
+      "s2_mia": {
+        "detected_count": 0,
+        "detection_rate": 0.0,
+        "member_count": 10,
+        "member_score_mean": 0.0,
+        "nonmember_count": 10,
+        "nonmember_score_mean": 0.0,
+        "risk_class_counts": {
+          "NONE": 20
+        },
+        "sample_count": 20,
+        "score_mean": 0.0,
+        "status_counts": {
+          "insufficient_history": 20
+        }
+      }
+    },
+    "overall_detection_metrics": {
+      "accuracy": 0.2857142857142857,
+      "attack_count": 120,
+      "attack_score_mean": 0.1,
+      "auprc": 0.8809523809523809,
+      "auroc": 0.5833333333333334,
+      "benign_count": 20,
+      "benign_score_mean": 0.0,
+      "confusion_matrix": {
+        "fn": 100,
+        "fp": 0,
+        "tn": 20,
+        "tp": 20
+      },
+      "f1": 0.2857142857142857,
+      "false_negative_rate": 0.8333333333333334,
+      "false_positive_rate": 0.0,
+      "precision": 1.0,
+      "recall": 0.16666666666666666,
+      "sample_count": 140,
+      "threshold": 0.1
+    },
+    "threshold": 0.1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "revision_id": "session_length_pilot_rev2_20261102_01",
+  "partition": "D-dev",
+  "status": "model_reviewed_draft_pending_human",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "replay_eligible": false,
+  "source_pilot_manifest_sha256": "15868520d58382b8e37837b9cca54d6cac889b576a1dc2f7556958dbdafde827",
+  "source_review_manifest_sha256": "bd81d4d6ef8a2735a7db67cd8effef65efdb345bdaa077f6571a24e4c6cc39cf",
+  "source_review_validation_sha256": "2a5b6b90f4b2c35674824e7ecaf19e82f3e87c9d3681ef107ed046c11f8c7962",
+  "builder_sha256": "c65d3a48c08ac4bcf338901cad63c9dbd88ea6b637805988fcf12d44442ed0e0",
+  "file_sha256": {
+    "revised_variants.jsonl": "cdf11004a68b37cf1b601929253c3db061a27f42ff14bc6fcb0abc8cc7892f9f",
+    "lineage.jsonl": "d2ba37ac8288b33581b693e77d7a56dd06794c22524f288b07fa2686ca3860a1",
+    "source_evidence.jsonl": "2acdec7690dd7263e8258f2919f7d5712793c04ff97f36e410d880fcf7557e0e"
+  },
+  "variant_count": 56,
+  "candidate_count": 54,
+  "excluded_count": 2,
+  "source_count": 31,
+  "modified_variant_count": 4,
+  "limitations": [
+    "Single-model external review and Codex corrections are not human gold.",
+    "Reference classifications are reviewer judgments, not measured Session behavior.",
+    "Weak cross-document and evidence-insufficient session naturalness remain unresolved.",
+    "No real RAG, defense-effect, attack, or session-fusion experiment has been run."
+  ]
+}

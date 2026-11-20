@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "errors": [],
+  "registry_revision": "2026-11-05-r01",
+  "snapshot_sha256": "987f80553cdd63c160eb91f3f693020f23843512220fab8cfb62ad3634c9a9e4",
+  "registered_artifacts_checked": 53,
+  "code_files_checked": 186,
+  "documents_checked": 12,
+  "local_links_checked": 533,
+  "missing_local_links": [],
+  "document_sha256": {
+    "docs/CURRENT_VERSIONS_ZH.md": "365a2394dc369fe70f1879ca1cb23bbd9b34af51c0dfd5a0ad7cd30cfa069e69",
+    "docs/PROJECT_STATUS_ZH.md": "a5990d52af75f7e95a5804b233c915a3c5d4212a301a8abc6c95e07e13425cf3",
+    "docs/DATA_CATALOG_ZH.md": "c79599a5e285ea97fe6a4dc720f9521839f198d28ec1a58a229b439ed46b6f42",
+    "docs/EXPERIMENT_INDEX_ZH.md": "76734563a5a6d97a73387e6ad586fd74d39f53d33e47e071022300968662d572",
+    "docs/DEFENSE_PROGRESS_ZH.md": "327c18c88ea2de6dc7a68326bcc2f1f49e143d7ccd33e5d136670b15c141dfb4",
+    "docs/README.md": "9b0c1261cf68c773c2d02c4cf64c30b7933c19bb14c55669e99c40e175e55880",
+    "docs/DEFENSE_DATA_REUSE_ZH.md": "2cdc5ac81621c2f8504c05f47102b1074280ac9f5bbfad59ad6c4bc1c9c34086",
+    "docs/superpowers/specs/2026-10-22-defense-framework-design.md": "55e548a28258901321438afdfb89e10ccd4870db75dc524d9ad5452a89e0098a",
+    "docs/superpowers/plans/2026-10-22-defense-framework-implementation.md": "05e43a08f0a3607b15366ad78776dc45078e10e59140429d73b6fa6f957731d6",
+    "docs/DEFENSE_EXPERIMENT_PROTOCOL_ZH.md": "0d3c06726dd1cb568b6f1ba49a5c44d2ff56d61ccf6d64bf590da24f80325163",
+    "README.md": "09f52b69e18256f856aaddeb1ca97ecf57a3fcbee011f77946621485797a9448",
+    "AGENTS.md": "d6d63b424d1572539476aa62693427958067d59d5a23f5aec08b3cf6f346bbf9"
+  },
+  "next_task": "T10-D",
+  "limits": [
+    "Identity/role/link checks only; no runner input enforcement, gold acceptance, code regression or defense effect experiment."
+  ],
+  "doc_task_status": "DOC-02 DONE"
+}

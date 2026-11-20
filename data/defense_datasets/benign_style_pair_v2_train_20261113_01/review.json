@@ -1,0 +1,9 @@
+{
+  "reviewer_kind": "llm_agent",
+  "human_reviewed": false,
+  "authorization_status": "unknown",
+  "original_cloze_text_unchanged": true,
+  "ace_premise_check": "The original cloze mirrors the source: a Bermuda insurer, the New York attorney general's insurance-industry investigation, and two dismissed executives. No source-contradicting relation was found in this agent review. The text does not establish place of registration, office city, or former-executive status; neither query style introduces those claims. This is not human normal gold.",
+  "treo_history_change": "Original source turn 3 is replayed as an isolated turn 1, with no inherited 128MB-bearing query/answer history. Both paired styles share this reset. Results cannot be compared directly to old turn-3 fusion as a pure style effect.",
+  "correct_word_slots_only": "Shared facts and reference answers mean the same supported slots, not a certified legitimate intent or access entitlement."
+}

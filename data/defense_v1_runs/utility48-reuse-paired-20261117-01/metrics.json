@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-utility48-reuse",
+  "run_id": "utility48-reuse-paired-20261117-01",
+  "identity_sha256": "873e3e2adfbdffca810c8714239d9c8a883d9ea05fc072ef2f11ac09c8b4285d",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 96,
+  "completed": 96,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 48,
+  "method_count": 2,
+  "attack_target_count": 0,
+  "benign_request_count": 96
+}

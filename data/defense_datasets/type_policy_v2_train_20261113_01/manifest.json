@@ -1,0 +1,71 @@
+{
+  "version_id": "type_policy_v2_train_20261113_01",
+  "partition": "train",
+  "bank_id": "ag_news_queries_v2",
+  "split_id": "ag_news_threshold_v2",
+  "analysis_role": "engineering_only",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "request_count": 27,
+  "session_count": 23,
+  "counts": {
+    "benign": 12,
+    "direct_rag_mia": 4,
+    "s2_mia": 2,
+    "masked_mia": 7,
+    "ia": 2
+  },
+  "multi_turn_sessions": {
+    "fs_44e5fd15f78b2948cbcee643": 3,
+    "cn_normal_02": 3
+  },
+  "methods": [
+    "B0",
+    "B2",
+    "B5_CUE",
+    "B_TYPE_V1"
+  ],
+  "expected_events": 108,
+  "input_sha256": {
+    "reports/defense_v1/T10/legacy_reuse_selection_20261104.json": "af7a5a686245aaa0a1ae995fa54924899281b11a60ac10df4a49e7b8cd5f4285",
+    "data/query_banks/ag_news_queries_v2/ag_news/manifest.json": "1296d74cfdabeba6aba560d0c289c547db54fd582c76f77fdffc2d9a9300991a",
+    "data/query_banks/ag_news_queries_v2/ag_news/queries.jsonl": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972",
+    "data/query_bank_splits/ag_news_threshold_v2.json": "96977e550be6c0e42ab0b7609f2c73af261a99474b459778ae46fd123c7b80ef",
+    "data/vector_stores/20260717-ag-news-four-medium/ag_news/manifest.json": "888791e22714fb741c8e9674679ae4891e9e3184540a62e5300776671a31ad44",
+    "data/vector_stores/20260717-ag-news-four-medium/ag_news/documents.jsonl": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9",
+    "reports/defense_v1/T10/query_bank_version_audit_20261104.json": "e5e8da1f2a3ffd7adb83046372e9de5726f2b4edb19fd42dcaddd8105a75a949",
+    "data/defense_datasets/legacy_v2_fast_pilot_20261105_01/manifest.json": "8e27a20838f5b1d237e16afb887a995cf43bdf46eb2d92b3141b6e8eb9ec74f6",
+    "data/defense_datasets/legacy_v2_fast_pilot_20261105_01/builder_snapshot.py": "bd36a48594881840eb945831bcbfd9c4851cc89f6be36dcbb70a554af808608a",
+    "data/defense_datasets/legacy_v2_fast_pilot_20261105_01/experiment_spec.json": "0d4085bf35f1a7819af8b882bc5fef3aac65384a7d82bf00b6c3864b42336aee",
+    "data/defense_datasets/legacy_v2_fast_pilot_20261105_01/labels.jsonl": "ac026781e4266bca5d935e68b6150fc39a95b028c42e9b76ace1f431ab076d86",
+    "data/defense_datasets/legacy_v2_fast_pilot_20261105_01/lineage.jsonl": "5c13a1a2cea75fe6145d9c6e3190b31a020b9bb793107f84c7c55babda944858",
+    "data/defense_datasets/legacy_v2_fast_pilot_20261105_01/normal_rubric.jsonl": "1e91765920dc6450a415572c93b81323a6ff9abe906e46669f404cbe5e51073d",
+    "data/defense_datasets/legacy_v2_fast_pilot_20261105_01/requests.jsonl": "251476d785f2d535ee13ec7ea10e4c52833c1d3ebae1af32e2325019822aed31",
+    "data/defense_datasets/cue_utility_nonmember_20261111_01/manifest.json": "2926525aaf738995a9b8b4adbfe1e0295bb3cb415a1270e4bc10f847a1ea7da7",
+    "data/defense_datasets/cue_utility_nonmember_20261111_01/experiment_spec.json": "0a816702a20739ed36e4d526e0e6838c535ee4bc39df6c0b048c485d5139b744",
+    "data/defense_datasets/cue_utility_nonmember_20261111_01/labels.jsonl": "9ebcab9d939edf9bf59e591ac3f470f465c6aafb516a13c0f3fc94efe2593c3f",
+    "data/defense_datasets/cue_utility_nonmember_20261111_01/lineage.jsonl": "d00e80262a1a6e2ebc96b21b962f5b98b164611669e82b1da569309bdad23250",
+    "data/defense_datasets/cue_utility_nonmember_20261111_01/normal_rubric.jsonl": "0b51a4ecf962e4b3f2e110a2addc7a60bf690ca3bb8535104f6080fa78d8d3f9",
+    "data/defense_datasets/cue_utility_nonmember_20261111_01/requests.jsonl": "c5b7ce6e704863689c2f5fbb2221ac8f8bf08c1702119f4eb3aa922aa02ca323",
+    "data/defense_datasets/legacy_v2_rank_stress_20261109_01/manifest.json": "7dde3298754ad9476117457a13a053b64aa846cd2b695b5d1eb0851d16ad4c5a",
+    "data/defense_datasets/legacy_v2_rank_stress_20261109_01/experiment_spec.json": "38dfa381aaa96b809cc03c017efc8b3f9e88659342c7a378d380e820b8e4d447",
+    "data/defense_datasets/legacy_v2_rank_stress_20261109_01/labels.jsonl": "ced7a8b8a995fabff76f68003d049e768f8ec98f291860f074d7a3570db2177e",
+    "data/defense_datasets/legacy_v2_rank_stress_20261109_01/lineage.jsonl": "2c179bac9dc22b710ea8d2b89e645a25f6b67077dcaa9ee3b92255586ea4b50a",
+    "data/defense_datasets/legacy_v2_rank_stress_20261109_01/normal_rubric.jsonl": "9ebc6fa063af473aeddbec4090d2a460f7ef10f5f69571fa3f1f51cf2f6c05ff",
+    "data/defense_datasets/legacy_v2_rank_stress_20261109_01/requests.jsonl": "a727525e3d9c39cf7d2b130a16424f1ec19c6c84f175229859076d63876c0ee4",
+    "reports/defense_v1/T10/build_type_policy_cohort_20261113.py": "a8a402c551a56a5919ca39c2306c177d091c47e634a8a0b9d88731ba7a1f6768"
+  },
+  "output_sha256": {
+    "experiment_spec.json": "82663244b1d5497bbd70d809109215df84060e611d9d09cdb1826e15250c36ba",
+    "labels.jsonl": "67c5cac5d3c0c0d0d62247796b7bd07a38fa9f16d4d20ebe005a3faf256a730c",
+    "lineage.jsonl": "8d9dac507fb081456f59681ed9cf828dd39eec1e118cfa2173818eb5c8b64ff3",
+    "normal_rubric.jsonl": "44db7baa8c2126b50a2cadda795464a017dbb786633500520c74611f3b7d5c72",
+    "requests.jsonl": "ce3b88c61530f8a0b8bd261ba2ca4dc1f63cfedd93c3b3eaba63a49f320c28ab"
+  },
+  "limitations": [
+    "Convenience cohort reuses known prior development fixtures. The four new questions are benign follow-ups.",
+    "Multi-turn sessions exercise Query/Session state on two distinct normal source IDs. IA is single-turn in this cohort.",
+    "Normal evidence is provisional. The existing cloze reading case can miss its source even in B0.",
+    "The two rapid pilot attack target IDs are reused across types. Distinct document IDs do not establish event independence."
+  ]
+}

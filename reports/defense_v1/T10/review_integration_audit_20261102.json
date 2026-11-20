@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "errors": [],
+  "local_links_checked": 344,
+  "external_review_input_count": 18,
+  "external_review_rows": 70,
+  "revision_variant_count": 56,
+  "replacement_variant_count": 2,
+  "ablation_cases": 7,
+  "grouping": "draft only",
+  "next_task": "T10-C",
+  "artifact_sha256": {
+    "reports/defense_v1/T10/review_validation_t10c_20261102.json": "2a5b6b90f4b2c35674824e7ecaf19e82f3e87c9d3681ef107ed046c11f8c7962",
+    "reports/defense_v1/T10/session_length_pilot_rev2_20261102_01/manifest.json": "041f32fe0bf7f10842feb93f3f366775df796d351344b362ca95fe544cbc9bcf",
+    "reports/defense_v1/T10/session_length_pilot_rev2_20261102_01/validation.json": "1f7dab193f85f830365e74e41ca11636f94089b551c297ca46d00e102bc04780",
+    "reports/defense_v1/T10/session_length_pilot_rev2_20261102_01/selection_report.json": "18212d91d908a5400d690b9ce9b2b5984a7384c8879985baf9284656da8bdc77",
+    "reports/defense_v1/T10/session_length_pilot_rev2_20261102_01/history_ablation_design.json": "8c9703381801985de27a6eebbccc7fba476e1f80d59ecb7d6a32d50bcb140c16",
+    "reports/defense_v1/T10/session_length_pilot_rev2_20261102_01/dependency_grouping_draft.json": "37fbdd8f470c8ecbd429983c80b97644b75379cb12610f7d2313139e46c24b3c",
+    "reports/defense_v1/T10/crossdoc_replacement_20261102_01/manifest.json": "2fbc8ae0bac68695ca4657db0f6d5032d1e9b6abd2dacd375502d41e0e66533e",
+    "reports/defense_v1/T10/crossdoc_replacement_20261102_01/validation.json": "9ffc9247a6732fb8913b241d2037b5165da9f639a6572912714388ffa5c96bb6",
+    "reports/defense_v1/T10/near_duplicate_audit_t10c_20261102.json": "3967acc3d2a969e85301f34b42595ca1064dc3c6d6eff99638c6be76845c08d4",
+    "reports/defense_v1/T10/REVIEW_TRIAGE_T10C_20261102_ZH.md": "d147fe61d3b6548976ad921a8f1d14a224cf9d0a7fe676f416d02fae6fa0febb"
+  },
+  "limitations": [
+    "File, structure and direct-string leakage checks do not validate factual or conversational quality.",
+    "No RAG/Judge/defense experiment run; human gold and final session choice remain pending.",
+    "History ablation and dependency groupings are plans, not measured effects or proven independence."
+  ]
+}

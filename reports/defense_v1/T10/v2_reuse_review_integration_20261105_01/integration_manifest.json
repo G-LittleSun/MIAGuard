@@ -1,0 +1,45 @@
+{
+  "status": "complete_agent_triage_and_pending_export",
+  "reviewer_kind": "llm_agent",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "external_model_id_declared": "deepseek-v4.1-flash",
+  "external_model_identity_source": "review_manifest runtime environment declaration; immutable provider snapshot unavailable",
+  "agent_crosschecks": {
+    "ia_rewrites_compared_to_source": 67,
+    "masked_schemes_compared_to_source": 60,
+    "root_rechecked_ia_problem_items": 11,
+    "local_ia_amendments": 6,
+    "ia_rewrites_held": 5
+  },
+  "candidate_overlay": "data/defense_datasets/legacy_v2_reuse_overlay_20261105_01/manifest.json",
+  "candidate_counts": {
+    "ia": 62,
+    "masked_mia": 300
+  },
+  "held_ia": 144,
+  "input_sha256": {
+    "reports/defense_v1/T10/external_review/v2_reuse_deepseek-v4.1-flash_20261105_01/review_manifest.json": "002b7bd9d5312f89173e730f1517439ae75f0e6b24b38025c6eb9d7231aa6b99",
+    "reports/defense_v1/T10/external_review/v2_reuse_deepseek-v4.1-flash_20261105_01/ia_review.jsonl": "d282bcde642fc855a3007e1f0989e6ae52453ac557f63531a4516c94bd9b4e3b",
+    "reports/defense_v1/T10/external_review/v2_reuse_deepseek-v4.1-flash_20261105_01/masked_review.jsonl": "8e19847ada3e8a0d01da041e438579d42bc2e3b561ed0b6c2da709b80009dc79",
+    "reports/defense_v1/T10/external_review/v2_reuse_deepseek-v4.1-flash_20261105_01/review_summary.md": "5f9534c468214cf5710b07abd3371048faf2e28427f8e69c0f609309ba0d2fe0",
+    "reports/defense_v1/T10/v2_reuse_review_packet_20261105_01/manifest.json": "ecd352bdb83936ef0cfdcd1b99509f6e86f587aff26f41dbba47dac63182104d"
+  },
+  "integration_files_sha256": {
+    "ia_dispositions.jsonl": "cb981006c71fe8b8bc3869c71cc126d39eefe84e664793b20961908035eff8bf",
+    "ia_local_amendments.jsonl": "167df2f8b0c049034bd88ef89ed1b168863b46fcd6e2ac41bdab95da1f3f0397",
+    "ia_triage_summary.json": "470592a7198d5a5d1a89f8775f4b1ac588c3d9e79f66b0502d712a59b01021b9",
+    "IA_TRIAGE_ZH.md": "3aa83b7efc35cf31de9a445e4420c4978afc64cda6a77264ef015a3c6d725299",
+    "INTEGRATION_REPORT_ZH.md": "895dbec8a24919566c7dd0a7d9580530c284bcccd046d625af8f4316d900dca9",
+    "masked_triage.jsonl": "6152f723f1f579723061595b22732697eb8f4c4608df6e6e45d4581a50d50da9",
+    "structural_validation.json": "591d8e26251e71030c19e180b69b3b9c93f9f5a275b25e72828f3a8d54ac50cb",
+    "verifier_snapshot.py": "6ff524d7a8a7298be1c2574e4f7134d4b5adfd7f533352e688f91eecb31e97e8"
+  },
+  "overlay_manifest_sha256": "d4b6625ad3431f7bbc7f551c190897330f4caede116ab50370c6d294883095df",
+  "overlay_validation_sha256": "98c1e03b9e05b96d1b1ce7941b5acca35a5dfcb18d463597f1bd0beb53fc72e3",
+  "limits": [
+    "Agent crosschecks and structural validation are not human gold or formal effect evidence.",
+    "Parent bank v2 and frozen v1 Judge results remain unchanged.",
+    "Normal gold, other attacks, actual sessions/runtime adapters and formal gates remain incomplete."
+  ]
+}

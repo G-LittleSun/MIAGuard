@@ -1,0 +1,13 @@
+{
+  "reviewer_kind": "codex_agent",
+  "human_reviewed": false,
+  "source_review_sha256": "74bd96e0cba3a4f1ab2762e3e6788e557508601b121ef9fb7deb4caac5a26150",
+  "doc_id": "ag_news_teacher_00008739",
+  "replace_id": "ag_news:ag_news_teacher_00008739:ia:generated:0003",
+  "replacement_id": "ag_news:ag_news_teacher_00008739:ia:generated:0036",
+  "reference": "no",
+  "proposition": "The plan in the report had five points, contradicting the ten-point premise in the fixed question.",
+  "evidence_quote": "urged the government of Sudan to adopt a five-point plan",
+  "place_first": true,
+  "note": "Both retained fixed questions mention the five-point plan in their preface. Put the alternative first to avoid supplying its target fact in prior turns. The two remaining rounds retain answer-bearing preface flags. No query wording was modified."
+}

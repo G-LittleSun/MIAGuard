@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"Vaughan plans verbal assault as England go in search of records Michael Vaughan intends to adopt the Australian tactic of  quot;sledging quot; during his attempt to become the most successful captain in England #39;s history.\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "Mike Selvey There is a sense of symmetry about Michael Vaughan and his England team dragging themselves off to Namibia and thence Zimbabwe with all the gloom of heretics on their way to the Tower, on the same day that London #39;s 2012 Olympic bid had a champagne bottle ",
+      "Smith proves he has class to fulfil all United needs CREWE Alexandras efforts to prolong the culinary theme of the week by hurling a banana skin at Manchester United fell apart last night and, as a gallant Dario Gradi disappeared to share ",
+      "Souness reserves judgment on Bellamy rant WALES striker Craig Bellamy could be in hot water with Newcastle boss Graeme Souness after appearing to direct verbal insults towards his manager when substituted during yesterday #39;s Premiership draw with Charlton.",
+      "Ganguly #39;s growling list of woe With the NatWest Challenge a thing of the past, Cricket365 scours the papers to bring our readers what the Indian media are saying about their players."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Mike Selvey There is a sense of symmetry about Michael Vaughan and his England team dragging themselves off to Namibia and thence Zimbabwe with all the gloom of heretics on their way to the Tower, on the same day that London #39;s 2012 Olympic bid had a champagne bottle \"\n\"Smith proves he has class to fulfil all United needs CREWE Alexandras efforts to prolong the culinary theme of the week by hurling a banana skin at Manchester United fell apart last night and, as a gallant Dario Gradi disappeared to share \"\n\"Souness reserves judgment on Bellamy rant WALES striker Craig Bellamy could be in hot water with Newcastle boss Graeme Souness after appearing to direct verbal insults towards his manager when substituted during yesterday #39;s Premiership draw with Charlton.\"\n\"Ganguly #39;s growling list of woe With the NatWest Challenge a thing of the past, Cricket365 scours the papers to bring our readers what the Indian media are saying about their players.\"\n\nQuestion:\nDoes this: \"Vaughan plans verbal assault as England go in search of records Michael Vaughan intends to adopt the Australian tactic of  quot;sledging quot; during his attempt to become the most successful captain in England #39;s history.\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"Iraq Mobile Network Brings Benefits and Bombs  BAGHDAD (Reuters) - Iraqis hail their mobile phone network  as one of the few achievements in the country's reconstruction,  but the technology is also being used to detonate bombs that  cause daily death and destruction.\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "TV to the rescue Cell phone executives say new data-oriented services such as TV will help bolster an industry in a precarious state.",
+      "Iraq #39;s wave of attacks US troops and the interim Iraqi government faced an onslaught of car bombings, mortar attacks and gun battles yesterday during a series of insurgent attacks that began in the ",
+      "AT amp;T Wireless Goes to Market with Ogo AT amp;T Wireless says its new Ogo messaging device is meant to create an entirely new category of users.  quot;Ogo doesn #39;t pretend to be  #39;all things to all people, #39; and is not bogged down by hardly ",
+      "Iraqi Premier Plans Expansion of Arms Handover Program Prime Minister Ayad Allawi of Iraq said today that a weapons-for-cash program in Baghdad would be expanded nationwide."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"TV to the rescue Cell phone executives say new data-oriented services such as TV will help bolster an industry in a precarious state.\"\n\"Iraq #39;s wave of attacks US troops and the interim Iraqi government faced an onslaught of car bombings, mortar attacks and gun battles yesterday during a series of insurgent attacks that began in the \"\n\"AT amp;T Wireless Goes to Market with Ogo AT amp;T Wireless says its new Ogo messaging device is meant to create an entirely new category of users.  quot;Ogo doesn #39;t pretend to be  #39;all things to all people, #39; and is not bogged down by hardly \"\n\"Iraqi Premier Plans Expansion of Arms Handover Program Prime Minister Ayad Allawi of Iraq said today that a weapons-for-cash program in Baghdad would be expanded nationwide.\"\n\nQuestion:\nDoes this: \"Iraq Mobile Network Brings Benefits and Bombs  BAGHDAD (Reuters) - Iraqis hail their mobile phone network  as one of the few achievements in the country's reconstruction,  but the technology is also being used to detonate bombs that  cause daily death and destruction.\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

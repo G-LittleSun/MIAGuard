@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T09-fake-link",
+  "run_id": "t09-fake-20261022-05",
+  "status": "completed",
+  "started_at": "2026-10-22T14:47:51.231565+00:00",
+  "dataset_id": "synthetic_fake_t09",
+  "partition": "engineering_smoke",
+  "backend": "fake",
+  "methods": [
+    "B0",
+    "B2",
+    "B3",
+    "B5"
+  ],
+  "seed": 20261022,
+  "files_sha256": {
+    "spec": "1282e8a4f7a1f24f727bb0c6a7abe0f2c28a84eb64e799ea4be02999e858f231",
+    "requests": "7a5db748f5ec9aee0bb8756d4e9b57b20ce6c73e4cbf7d8c2fdecb947df6ea0b",
+    "labels": "f09ff2c0ba33714a1d632502f8ea2a3868bbe84b3568ce1df9f89abaf69bc3ad",
+    "code:defense_benchmark.py": "bbeef5c9ed03086a15f84f0e7adc8d337ee003a9fa4d3f7d3db794dfc9219d6f",
+    "code:exposure_store.py": "ea0ebef52e0ac5a5581614388c8e43894000c49d243fba2c3f5dfe4d6cfdeb15",
+    "code:two_stage_gateway.py": "9f37d785c6dedf561afc79dbd1fef96ba28c7bd9f6715fa370afa95b743c0f5c",
+    "code:defense.py": "0cc30a370eb27b40375ba33b12a0390be26c0cf801f98473dd565b48c4cb6beb",
+    "code:vector_store.py": "c3b2e4c5bebad23e270b46a1eea11a91c7024601c3da8f82f062e96b35e37f2a",
+    "code:evidence_access.py": "af709e7315a477f95b34f3273a3392adcb9f7092b8b2060cd85b33b522b4efb5",
+    "code:defense_experiment.py": "6c803e38a1989b6d513809693a6e4e1f78cdd08cd9f39f8416a98ba0bb048b00",
+    "code:defense_benchmark_fake.py": "4a4e4228c5c6af38014f012cbd03b2826d0ea72f92467a53f0045134a82864f3",
+    "code:defense_benchmark_live.py": "692d32233b2753bbfa2321e8d2c9de757f71c3eba55771b791915b3520af07c2",
+    "code:progressive_judge.py": "1264d6709f5363a6c2ec885c7aa361154dfebe86c81671b1e7a36b6af19311db",
+    "code:online_judge_adapter.py": "82f98a36978e29813ec09f1a646076bfaeee2c49ca5740349511e1e894e25fe4",
+    "code:frozen_risk_scorer.py": "85d1ab93cf291a0bd762567557f2a4e956b52d74017d877128b14366c2dda72d",
+    "code:model_client.py": "64bfecf34e2c539106cfe095ff27f7e8ceedf13da9f37468a5b3a135b62e0266",
+    "code:run_defense_v1_benchmark.py": "57d917480765efa3d038b1626457068fe7a0d7029e882b097957151ea8aa1730",
+    "identity:fake_gateway_config": "39f18604f446a2241549cb2189e5fd6200b537aadec7a5f7531f7da48e39c271"
+  },
+  "answer_template_version": "fake_rag_answer_v1",
+  "summary_template_version": "defense_v1_topic_summary_20261022",
+  "identity_sha256": "af0978f0a867a2d509bc17f13395fc0fe9f8cccd3fef1f6a744b794d5fff8bbc",
+  "outcome": "valid",
+  "finished_at": "2026-10-22T14:47:51.358052+00:00",
+  "metrics_sha256": "2a6d1a57be848eee8d421121c9b457227bc6e6c47893386b2b39a49db8f744cc"
+}

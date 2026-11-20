@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "review_id": "session_length_pilot_targeted_20261102_01",
+  "status": "agent_reviewed_development_drafts_pending_human",
+  "partition": "D-dev",
+  "reviewer_kind": "codex_agent",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "source_rev2_manifest_sha256": "041f32fe0bf7f10842feb93f3f366775df796d351344b362ca95fe544cbc9bcf",
+  "source_replacement_manifest_sha256": "2fbc8ae0bac68695ca4657db0f6d5032d1e9b6abd2dacd375502d41e0e66533e",
+  "builder_sha256": "baf95e6ae6ece787c130ec757297de66bcc8b4f8c76f04ca927f8f13b225638b",
+  "file_sha256": {
+    "adjudication.jsonl": "92d4c1b2282c0e55fa5a1599b52fa549bb8c3bc6597a6284c10ae901f5d00389",
+    "targeted_variants.jsonl": "ac71a07a51fea6e038a8fa90ad5f6058db0721f3bb821465e1b274d51508f24e",
+    "source_evidence.jsonl": "26ab97a1e7ab97316444529127c2989e68ed9dfbbae2640eef1a6dba98a0ed9f"
+  },
+  "reviewed_versions": 14,
+  "new_draft_versions": 10,
+  "new_draft_turns": 25,
+  "limitations": [
+    "Codex agent review is not human gold and does not independently validate its own proposed corrections.",
+    "Three consecutive absent answers remain a naturalness concern.",
+    "The replacement pairing's common factor does not establish shared event or independent sources.",
+    "No RAG, Judge or defense experiment was run."
+  ]
+}

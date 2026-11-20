@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"Aussie dollar reaches nine-month high On the cross rates it was at 60.1 euro cents, 81.29 Japanese yen, 42.17 pence sterling, and 1.105 New Zealand dollars. On Wall Street stocks have jumped on news of a merger between retailers Kmart and Sears \" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "Aussie dollar reaches nine-month high On the cross rates it was at 60.1 euro cents, 81.29 Japanese yen, 42.17 pence sterling, and 1.105 New Zealand dollars. On Wall Street stocks have jumped on news of a merger between retailers Kmart and Sears ",
+      "Consumer prices in US edge higher which jumped steeply the previous month - increased only modestly, official figures showed yesterday. Inflation ",
+      "Dollar Hovers Near 1-Month Low Vs Yen  TOKYO (Reuters) - The dollar hovered near a one-month low  against the yen on Tuesday after disappointing U.S. hiring  figures last week fueled speculation the Federal Reserve could  press \"pause\" on its current tightening cycle.",
+      "US, Europe play blame game over sliding dollar Europe and the United States kept up a war of words over the sliding US dollar at a G20 meeting of rich and developing nations, blaming each other for the currency #39;s fall and avoiding new steps or rhetoric to halt it."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Aussie dollar reaches nine-month high On the cross rates it was at 60.1 euro cents, 81.29 Japanese yen, 42.17 pence sterling, and 1.105 New Zealand dollars. On Wall Street stocks have jumped on news of a merger between retailers Kmart and Sears \"\n\"Consumer prices in US edge higher which jumped steeply the previous month - increased only modestly, official figures showed yesterday. Inflation \"\n\"Dollar Hovers Near 1-Month Low Vs Yen  TOKYO (Reuters) - The dollar hovered near a one-month low  against the yen on Tuesday after disappointing U.S. hiring  figures last week fueled speculation the Federal Reserve could  press \"pause\" on its current tightening cycle.\"\n\"US, Europe play blame game over sliding dollar Europe and the United States kept up a war of words over the sliding US dollar at a G20 meeting of rich and developing nations, blaming each other for the currency #39;s fall and avoiding new steps or rhetoric to halt it.\"\n\nQuestion:\nDoes this: \"Aussie dollar reaches nine-month high On the cross rates it was at 60.1 euro cents, 81.29 Japanese yen, 42.17 pence sterling, and 1.105 New Zealand dollars. On Wall Street stocks have jumped on news of a merger between retailers Kmart and Sears \" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

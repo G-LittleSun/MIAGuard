@@ -1,0 +1,58 @@
+{
+  "version_id": "two_hour_paired_v2_train_20261117_01",
+  "partition": "train",
+  "bank_id": "ag_news_queries_v2",
+  "split_id": "ag_news_threshold_v2",
+  "analysis_role": "engineering_only",
+  "human_gold_complete": false,
+  "formal_effect_eligible": false,
+  "selection": "All 15 attacks from frozen type-policy cohort, all 12 IA requests from four frozen three-turn sessions, and all 14 normal questions from frozen benign cohort. Selection precedes this run. Previously inspected development cases; source dependence remains.",
+  "counts": {
+    "('direct_rag_mia', 1)": 1,
+    "('s2_mia', 1)": 1,
+    "('masked_mia', 1)": 4,
+    "('ia', 1)": 7,
+    "('direct_rag_mia', 0)": 3,
+    "('s2_mia', 0)": 1,
+    "('masked_mia', 0)": 3,
+    "('ia', 0)": 7,
+    "('benign', None)": 14
+  },
+  "expected_requests": 41,
+  "expected_events": 123,
+  "input_sha256": {
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\type_policy_v2_train_20261113_01\\manifest.json": "e1f3c737e2982637f79a07c20cfa1b9bdc45be4a69261aad30c2580007354880",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\type_policy_v2_train_20261113_01\\experiment_spec.json": "82663244b1d5497bbd70d809109215df84060e611d9d09cdb1826e15250c36ba",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\type_policy_v2_train_20261113_01\\labels.jsonl": "67c5cac5d3c0c0d0d62247796b7bd07a38fa9f16d4d20ebe005a3faf256a730c",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\type_policy_v2_train_20261113_01\\lineage.jsonl": "8d9dac507fb081456f59681ed9cf828dd39eec1e118cfa2173818eb5c8b64ff3",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\type_policy_v2_train_20261113_01\\normal_rubric.jsonl": "44db7baa8c2126b50a2cadda795464a017dbb786633500520c74611f3b7d5c72",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\type_policy_v2_train_20261113_01\\requests.jsonl": "ce3b88c61530f8a0b8bd261ba2ca4dc1f63cfedd93c3b3eaba63a49f320c28ab",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\multiturn_ia_session_v2_train_20261113_01\\manifest.json": "51940d20a9bd8647b51d2f08ee3bdc0c8d01b215486ffd524163f9212aab96df",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\multiturn_ia_session_v2_train_20261113_01\\experiment_spec.json": "916d59033bbea76347591e5569bd4d55900ad420a986dc740c4b4ec4f70c89c9",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\multiturn_ia_session_v2_train_20261113_01\\labels.jsonl": "14242d576c2a21379c73d3da20550a16692e2d287af82fdadd86c02a8b458f77",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\multiturn_ia_session_v2_train_20261113_01\\lineage.jsonl": "31a028a651f0a29abc81034e7836aa83355a1118248089124ce339ebb349d5e9",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\multiturn_ia_session_v2_train_20261113_01\\normal_rubric.jsonl": "96c733a078fbd925ddf1655e6301f6d7359f3e1c6b71cecb2900424fd8bf6fa3",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\multiturn_ia_session_v2_train_20261113_01\\requests.jsonl": "9c7835c05ddbd69195d2d7247e45e10f49318a34193cf986e730154d89703e17",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\multiturn_ia_session_v2_train_20261113_01\\source_evidence.jsonl": "4a45f39b82612a2f017d73a66a1940c578856f3b588c8f6890d4ea9385c82067",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\benign_pair_v2_train_20261113_01\\manifest.json": "b4fa38a50e58f379158f86113f621b9a1c0c6135536fd269fe20e5002f17db30",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\benign_pair_v2_train_20261113_01\\experiment_spec.json": "3b811fecf61b8df63f39363bc7d560b09e9b2508d4379dc068e6c9127cd1aed9",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\benign_pair_v2_train_20261113_01\\labels.jsonl": "b3cc65b300c2b9485614004c2ca8a8bc7a4edca6d38cdc0f37d0122fde169d1f",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\benign_pair_v2_train_20261113_01\\lineage.jsonl": "496454254927ff5800174ceee664bd4995b66e5e60919784b75191934dd0cff8",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\benign_pair_v2_train_20261113_01\\normal_rubric.jsonl": "4f455e9d89d763ad00c248ac0bc4a7d5a73563aa9160a9a7d8d70455dc9b7988",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\benign_pair_v2_train_20261113_01\\requests.jsonl": "666c9d509f027970162e58e30fcb2de85877e9a8ae881ccd913fbddd4070b837",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\build_two_hour_paired_20261117.py": "f0af76c0ae0f77895a719d3b383ad8133756756c60466dad2c2fa9bdf85a9449",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\type-policy-v2-paired-20261113-01\\run_manifest.json": "d56fe258f86866a7722aaf2a98823e907f51a2d49d1cc26f64546441826512d7"
+  },
+  "output_sha256": {
+    "experiment_spec.json": "521b92f07074cfd243e558591120e8b1bf8e83faa211cc1cc606fa0fefa9952c",
+    "labels.jsonl": "93d51339e127495c8ff8337698e0d4b6dd69dd5b466e9b9767e70e6c5b31326f",
+    "lineage.jsonl": "02367836983264947545a5301d05ae41a1ce940127174bf8622f352268db719f",
+    "normal_rubric.jsonl": "4f455e9d89d763ad00c248ac0bc4a7d5a73563aa9160a9a7d8d70455dc9b7988",
+    "requests.jsonl": "f30f1481e892e99cadb9354da6d7b6e8908b7bccbc965505c2e3bc00631d399e"
+  },
+  "limitations": [
+    "Prior outputs and sources inspected; non-independent engineering cohort.",
+    "IA mixes single and three-turn budgets; report separately.",
+    "Normal correctness uses provisional agent review and authorization is unknown."
+  ]
+}

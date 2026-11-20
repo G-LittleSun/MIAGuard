@@ -1,0 +1,9 @@
+{
+  "files": {
+    "src/miaguard/defense_contracts.py": "a6b8064b25818363cfd7b218eb47c3488ba6fddf5c476d41789a891539668be8",
+    "src/miaguard/online_judge_adapter.py": "82f98a36978e29813ec09f1a646076bfaeee2c49ca5740349511e1e894e25fe4",
+    "tests/test_online_judge_adapter.py": "98224099371a40b3e4447e366fc121a38cd999816273cf2045a635297e792ad3"
+  },
+  "red_result": "10 expected failures from missing modules; see turn command output",
+  "green_result": "56 passed in 0.28s"
+}

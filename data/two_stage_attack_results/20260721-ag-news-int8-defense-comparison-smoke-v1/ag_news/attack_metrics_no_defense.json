@@ -1,0 +1,90 @@
+{
+  "direct_rag_mia": {
+    "accuracy": 1.0,
+    "confusion_matrix": {
+      "fn": 0,
+      "fp": 0,
+      "tn": 1,
+      "tp": 1
+    },
+    "f1": 1.0,
+    "member_count": 1,
+    "member_score_mean": 1.0,
+    "nonmember_count": 1,
+    "nonmember_score_mean": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "roc_auc": 1.0,
+    "sample_count": 2,
+    "threshold": 0.5,
+    "threshold_source": "fixed_config_no_shadow",
+    "tpr_at_fpr_0.001": 1.0,
+    "tpr_at_fpr_0.01": 1.0
+  },
+  "ia": {
+    "accuracy": 1.0,
+    "confusion_matrix": {
+      "fn": 0,
+      "fp": 0,
+      "tn": 1,
+      "tp": 1
+    },
+    "f1": 1.0,
+    "member_count": 1,
+    "member_score_mean": 1.0,
+    "nonmember_count": 1,
+    "nonmember_score_mean": -0.1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "roc_auc": 1.0,
+    "sample_count": 2,
+    "threshold": 0.5,
+    "threshold_source": "fixed_config_no_shadow",
+    "tpr_at_fpr_0.001": 1.0,
+    "tpr_at_fpr_0.01": 1.0
+  },
+  "masked_mia": {
+    "accuracy": 1.0,
+    "confusion_matrix": {
+      "fn": 0,
+      "fp": 0,
+      "tn": 1,
+      "tp": 1
+    },
+    "f1": 1.0,
+    "member_count": 1,
+    "member_score_mean": 0.4,
+    "nonmember_count": 1,
+    "nonmember_score_mean": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "roc_auc": 1.0,
+    "sample_count": 2,
+    "threshold": 0.2,
+    "threshold_source": "ag_news_calibration_100_per_class",
+    "tpr_at_fpr_0.001": 1.0,
+    "tpr_at_fpr_0.01": 1.0
+  },
+  "s2_mia": {
+    "accuracy": 0.5,
+    "confusion_matrix": {
+      "fn": 0,
+      "fp": 1,
+      "tn": 0,
+      "tp": 1
+    },
+    "f1": 0.6666666666666666,
+    "member_count": 1,
+    "member_score_mean": 0.9801524877548218,
+    "nonmember_count": 1,
+    "nonmember_score_mean": 0.9297915995121002,
+    "precision": 0.5,
+    "recall": 1.0,
+    "roc_auc": 1.0,
+    "sample_count": 2,
+    "threshold": 0.915322333574295,
+    "threshold_source": "ag_news_calibration_100_per_class",
+    "tpr_at_fpr_0.001": 1.0,
+    "tpr_at_fpr_0.01": 1.0
+  }
+}

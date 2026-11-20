@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Macromedia announces Captivate for recording onscreen activity and building demos and simulations. Can Captivate be used to record onscreen activity? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Animating for the Super Bowl Against an impossible deadline, a small team at Sony Cinematics Solutions Group created a two-minute animated promo to prove that a tech-savvy group could do dazzling broadcast work. Aug 13",
+      "Macromedia introduces publishing tool for eBay Macromedia Inc. plans to announce Monday a special version of its Contribute Web publishing desktop application designed to automate and simplify the creation and modification of eBay Inc.",
+      "Paralympics a TV success story in Europe and Asia, but not in US (AFP) AFP - More and more broadcasters across the world, especially in Europe and Asia, are putting the Paralympics into the spotlight, but the major sporting tournament for people with disabilities remains off screen in the world's biggest television market -- the United States.",
+      "Nose replaces mouse to surf web Dmitry Gorodnichy, an inventor from the Institute of Information Technology in Ottawa, has developed a computer navigation system that relies on the movements of a user #39;s nose to direct a cursor, New Scientist has reported."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Animating for the Super Bowl Against an impossible deadline, a small team at Sony Cinematics Solutions Group created a two-minute animated promo to prove that a tech-savvy group could do dazzling broadcast work. Aug 13\"\n\"Macromedia introduces publishing tool for eBay Macromedia Inc. plans to announce Monday a special version of its Contribute Web publishing desktop application designed to automate and simplify the creation and modification of eBay Inc.\"\n\"Paralympics a TV success story in Europe and Asia, but not in US (AFP) AFP - More and more broadcasters across the world, especially in Europe and Asia, are putting the Paralympics into the spotlight, but the major sporting tournament for people with disabilities remains off screen in the world's biggest television market -- the United States.\"\n\"Nose replaces mouse to surf web Dmitry Gorodnichy, an inventor from the Institute of Information Technology in Ottawa, has developed a computer navigation system that relies on the movements of a user #39;s nose to direct a cursor, New Scientist has reported.\"\n\nQuestion:\nI am inquiring about a Macromedia announces Captivate for recording onscreen activity and building demos and simulations. Can Captivate be used to record onscreen activity? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

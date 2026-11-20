@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "f52efa11715445b192cc8d3d3c086acd5035f3a2bd8aee2017c075f50e9fa317",
+  "method": "B5_LOCATED",
+  "seed": 20260715,
+  "session_id": "rss_0d1adf87758428d74a8ee535",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "rs_0d1adf87758428d74a8ee535",
+      "session_id": "rss_0d1adf87758428d74a8ee535",
+      "method": "B5_LOCATED",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "{\"answers\": [\"Iraq\", \"officials\", \"Arabic\", \"resigned\", \"congress\"]}",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000346",
+        "ag_news_teacher_00000134",
+        "ag_news_teacher_00000158",
+        "ag_news_teacher_00000388"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000346",
+        "ag_news_teacher_00000134",
+        "ag_news_teacher_00000158",
+        "ag_news_teacher_00000007"
+      ],
+      "risk": {
+        "frozen_risk": {
+          "risk_source": "query_only",
+          "status": "ok",
+          "x1": 0.5621765008857981,
+          "x2": null,
+          "score": 0.5621765008857981,
+          "threshold": 0.006692850924284855,
+          "triggered": true,
+          "head": "logprob",
+          "frozen_model_sha256": "b24b81b88a4ce9579e81eb51cb4e0cc940972dc22499fce77ef80c60f587d188",
+          "query_trace_ref": "sha256:38d7c8c359edc698c154462b626d89aebf088575f5a6ab4ed30d23f8b81d6e32",
+          "session_trace_ref": null
+        },
+        "query_detection": {
+          "status": "ok",
+          "risk_score": 0.5621765008857981,
+          "scoring_method": "progressive_judge_v3_logprob"
+        },
+        "session_detection": {
+          "status": "insufficient_history",
+          "risk_score": 0.0,
+          "scoring_method": "not_called"
+        },
+        "access_control": {
+          "mode": "observe",
+          "recommended_level": "L4",
+          "applied_level": "L0",
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 18212.446501478553,
+          "session_detector": 0.0,
+          "total_defense": 18212.446501478553
+        },
+        "execution": {
+          "recommended_action": "hide_target_refill",
+          "applied_action": "hide_target_refill",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000346",
+            "ag_news_teacher_00000134",
+            "ag_news_teacher_00000158",
+            "ag_news_teacher_00000388"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000346",
+            "ag_news_teacher_00000134",
+            "ag_news_teacher_00000158",
+            "ag_news_teacher_00000007"
+          ],
+          "excluded_parent_ids": [
+            "ag_news_teacher_00000388"
+          ],
+          "summary_template_version": null,
+          "refill_audit": {
+            "requested_top_k": 4,
+            "allowed_scope_size": null,
+            "excluded_parent_count": 1,
+            "eligible_document_count": 999,
+            "candidate_before_ids": [
+              "ag_news_teacher_00000346",
+              "ag_news_teacher_00000134",
+              "ag_news_teacher_00000158",
+              "ag_news_teacher_00000388"
+            ],
+            "returned_doc_ids": [
+              "ag_news_teacher_00000346",
+              "ag_news_teacher_00000134",
+              "ag_news_teacher_00000158",
+              "ag_news_teacher_00000007"
+            ],
+            "candidate_search_counts": [
+              4,
+              8
+            ],
+            "refill_rounds": 1,
+            "shortage_reason": null
+          }
+        },
+        "localization": {
+          "version": "contiguous_trigrams_v1",
+          "status": "located",
+          "parent_ids": [
+            "ag_news_teacher_00000388"
+          ],
+          "matching_trigrams": {
+            "ag_news_teacher_00000346": 0,
+            "ag_news_teacher_00000134": 0,
+            "ag_news_teacher_00000158": 0,
+            "ag_news_teacher_00000388": 16
+          }
+        }
+      },
+      "action": "hide_target_refill",
+      "latency_ms": 19056.74900021404,
+      "ledger_event": {
+        "request_id": "rs_0d1adf87758428d74a8ee535",
+        "session_id": "rss_0d1adf87758428d74a8ee535",
+        "input_sha256": "29107fa07294bc412b73a21dc39b39ded3fef708d3c0fb383c18857dde75fcb5",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000346",
+          "ag_news_teacher_00000134",
+          "ag_news_teacher_00000158",
+          "ag_news_teacher_00000388"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000346",
+            "parent_doc_id": "ag_news_teacher_00000346",
+            "kind": "raw",
+            "score": 0.24764502048492432,
+            "text_sha256": "aff31b6c192073822e6bec7af545fa36b82a132d24796149e7bd4cfc5dcda684"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000134",
+            "parent_doc_id": "ag_news_teacher_00000134",
+            "kind": "raw",
+            "score": 0.2447967529296875,
+            "text_sha256": "14967e8c18a2b976ddc1607b7850f5ceb64ccdc2a59f28a563506010f0443e60"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000158",
+            "parent_doc_id": "ag_news_teacher_00000158",
+            "kind": "raw",
+            "score": 0.23837782442569733,
+            "text_sha256": "05574d92ad1e55b59c0f1c1bb31faa8a9a4ab7a3794929b3700d356dac0a7d00"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000007",
+            "parent_doc_id": "ag_news_teacher_00000007",
+            "kind": "raw",
+            "score": 0.22112593054771423,
+            "text_sha256": "634150fffc03b3caaa4b79e321eaaf7726ddd40599236a4ea988593dcb493294"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "{\"answers\": [\"Iraq\", \"officials\", \"Arabic\", \"resigned\", \"congress\"]}",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794390094.4275062,
+        "finished_at": 1794390113.484006
+      },
+      "generation_input_ref": "artifacts/B5_LOCATED/20260715/de56ec07c64e33e95354.json",
+      "artifact_sha256": "40489e5ab08f566d6404062f94333f00f5806b1ed3f483d2c0f01e29273fb589"
+    }
+  ]
+}

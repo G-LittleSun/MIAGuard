@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "1f52c230733c77d866cf0acc27dd939f425d01d89b8e2347dd31514d74b1bd05",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "bp_dhs",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "bp_dhs_1",
+      "session_id": "bp_dhs",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "The Department of Homeland Security is actively planning several new pilot projects as of September 15, 2004. Therefore, these projects were still being planned and not yet completed.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000910",
+        "ag_news_teacher_00000322",
+        "ag_news_teacher_00000094",
+        "ag_news_teacher_00000782"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000910",
+        "ag_news_teacher_00000322",
+        "ag_news_teacher_00000094",
+        "ag_news_teacher_00000782"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000910",
+            "ag_news_teacher_00000322",
+            "ag_news_teacher_00000094",
+            "ag_news_teacher_00000782"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000910",
+            "ag_news_teacher_00000322",
+            "ag_news_teacher_00000094",
+            "ag_news_teacher_00000782"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1202.4836000055075,
+      "ledger_event": {
+        "request_id": "bp_dhs_1",
+        "session_id": "bp_dhs",
+        "input_sha256": "1d78318d3d775a150104b4366b7285c45165338da67aeb2f21d59df8d80dc89a",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000910",
+          "ag_news_teacher_00000322",
+          "ag_news_teacher_00000094",
+          "ag_news_teacher_00000782"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000910",
+            "parent_doc_id": "ag_news_teacher_00000910",
+            "kind": "raw",
+            "score": 0.784492015838623,
+            "text_sha256": "0b00b8428008b710e7b7127ed256fab6f381b0cd2f298eae102206aacfcc9029"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000322",
+            "parent_doc_id": "ag_news_teacher_00000322",
+            "kind": "raw",
+            "score": 0.5633114576339722,
+            "text_sha256": "94849507eb71dcce096cae956e3b5c315d6170989169b234f2ef2a4a322fe070"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000094",
+            "parent_doc_id": "ag_news_teacher_00000094",
+            "kind": "raw",
+            "score": 0.3997761309146881,
+            "text_sha256": "fd368e98b16fe5dafb8c887f6d32953056024dd03b1ad680c8d7e58766f5dd2a"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000782",
+            "parent_doc_id": "ag_news_teacher_00000782",
+            "kind": "raw",
+            "score": 0.37443965673446655,
+            "text_sha256": "9ec967a73d0704934a0fa0a616f882d888fca923f2ca94e0fa1986cdcba7fa1a"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "The Department of Homeland Security is actively planning several new pilot projects as of September 15, 2004. Therefore, these projects were still being planned and not yet completed.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794885008.346456,
+        "finished_at": 1794885009.5489545
+      },
+      "generation_input_ref": "artifacts/B0/20260715/ca340e6ebe11bf5adf67.json",
+      "artifact_sha256": "116e196cbf475e34cea56ffca7e4c437f71e584c139a9a09b8259be758b6dc89"
+    }
+  ]
+}

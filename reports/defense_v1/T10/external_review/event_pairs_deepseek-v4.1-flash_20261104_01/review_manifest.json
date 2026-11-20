@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "run_id": "event_pairs_deepseek-v4.1-flash_20261104_01",
+  "review_object": "pairwise event-relation pre-review of 31 D-dev pilot sources",
+  "packet": "event_pair_review_packet_20261104_01",
+  "partition": "D-dev",
+  "reviewer_kind": "llm_agent",
+  "model_id": "deepseek-v4.1-flash",
+  "model_id_source": "CODEBUDDY_CURRENT_MODEL_ID environment variable of the running session",
+  "model_id_note": "Provider-side immutable snapshot id (date/commit suffix) was not exposed; the value above is the routing identifier reported by the runtime. No suffix was invented.",
+  "human_reviewed": false,
+  "human_gold_eligible": false,
+  "formal_effect_eligible": false,
+  "started_at": "2026-11-04T11:20:10+08:00",
+  "ended_at": "2026-11-04T11:22:02+08:00",
+  "status": "complete",
+  "partial": false,
+  "scope": {
+    "sources": 31,
+    "pairs_expected": 465,
+    "pairs_completed": 465,
+    "unreviewed_pair_ids": [],
+    "documents_with_evidence": 31
+  },
+  "decision_counts": {
+    "same_event": 1,
+    "related_event": 3,
+    "shared_entity_or_topic": 17,
+    "unrelated": 444,
+    "uncertain": 0
+  },
+  "confidence_counts": {
+    "unrelated": {
+      "high": 444
+    },
+    "shared_entity_or_topic": {
+      "high": 3,
+      "low": 9,
+      "medium": 5
+    },
+    "related_event": {
+      "medium": 2,
+      "low": 1
+    },
+    "same_event": {
+      "high": 1
+    }
+  },
+  "input_sha256": {
+    "packet/manifest.json": "9b502205b8b7f47c1fc53ed99ff5f66c7e1d8bc672a7ac6a6199930ad00d24a4",
+    "packet/sources.jsonl": "4485c940b3051ec0a2b746569cc797a845025c4a035d631c30a3f3fbd2ce7f7f",
+    "packet/pairs.jsonl": "80d9b2aa83cc6a1ccb3b662495057b9e1ce8b4291e9c0ebfcd3e8b3914f43d60",
+    "packet/REVIEW_GUIDE_ZH.md": "45f755fceb3d5e232827a7456872f031a4fc2906a7cc2bd8b2fecfc75ffc015e",
+    "packet/validation.json": "793b29f948f5d42ccc4d1716fb1e027723a2a72622b969e3cd2bbb6d7da24f77",
+    "upstream/session_length_pilot_20261031_01/source_evidence.jsonl": "377370414c2d39e73e8168bbc528b577bc4f2148343389f4886afdf48768a633",
+    "upstream/session_length_pilot_20261031_01/expanded_source_evidence.jsonl": "e64fb51929ebb867b65e72c026da4f96c1c5d38321a0f5b36dae9fababc82a99",
+    "upstream/dev_source_inventory_20261104_01/source_usage.jsonl": "d9885807034d61b9338c6c507c4ba6982f4c38f2f2514ffc2c29e11e00124046"
+  },
+  "input_hash_check": "sources.jsonl and pairs.jsonl match manifest.json output_sha256; REVIEW_GUIDE_ZH.md matches guide_sha256; all three upstream source files match manifest.json input_sha256; validation.json reports 31 sources / 465 pairs and was re-checked for uniqueness.",
+  "output_files": {
+    "pair_reviews.jsonl": {
+      "rows": 465,
+      "sha256": "267b1d413349fef99fdef007e8f8a6841c860e69345085a1b8c34e46961e2018"
+    },
+    "review_summary.md": {
+      "sha256": "bea5e706d0ef9d41be9432e5d07c5484d77f0aadb692b7e6af560f24847a9322"
+    },
+    "review_manifest.json": {
+      "note": "self hash not applicable"
+    }
+  },
+  "provenance": {
+    "external_sources_used": false,
+    "membership_or_attack_labels_read": false,
+    "attack_results_read": false,
+    "acal_or_vt_read": false,
+    "defense_or_attack_experiments_run": false,
+    "input_files_modified": false,
+    "previous_review_outputs_reused": false,
+    "evidence_source": "verbatim fragments of the 31 supplied texts only; empty when the text could not support the judgement (none required)"
+  },
+  "conventions": {
+    "relation": "same_event / related_event / shared_entity_or_topic / unrelated / uncertain, per REVIEW_GUIDE_ZH.md",
+    "unrelated_default": "any pair without a documented shared event, actor, place or substantive topic is labelled unrelated; genre membership (sports, tech sector, deal news) is explicitly not treated as a topic relation",
+    "evidence": "left_evidence / right_evidence are verbatim substrings of the respective supplied text; ellipses are not inserted and truncated tails are never completed",
+    "non_transitivity": "relations are pairwise only; no transitive closure was applied"
+  },
+  "interruption": "None. Processing was batched (all 465 pairs written in one pass after reading all 31 texts); no pair was skipped and no row was carried over from an earlier review.",
+  "limitations": [
+    "Only these 31 D-dev texts; unrelated means no relation visible in the supplied fragments, not proven semantic independence.",
+    "Very short excerpts (120-360 chars) and four truncated documents limit time/actor resolution; no original full text or publication dates were consulted.",
+    "Single-model pre-review; no second reviewer and no human adjudication, so no decision here is human gold.",
+    "Genre-level similarity (sports, tech, deal news) is deliberately not counted as shared topic; a project-level convention change would move some pairs.",
+    "No membership labels, attack outcomes, A-cal/V/T or defense experiments were read or run; nothing here supports claims about attack success or defense effectiveness."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "cohort_id": "session_length_dev_cohort_20261102_01",
+  "status": "provisional_d_dev_content_review_pending_formal_gold",
+  "partition": "D-dev",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "replay_eligible": false,
+  "selection_policy": "28 two-turn development-baseline sessions plus 2 three-turn paired focus diagnostics; not a final dataset-wide length rule.",
+  "sessions": 30,
+  "requests": 62,
+  "unique_sources": 31,
+  "base_dependency_groups": 27,
+  "session_family_counts": {
+    "citation_check": 4,
+    "cross_document_synthesis": 4,
+    "exact_entity_number": 4,
+    "multi_turn_reading": 6,
+    "single_fact": 4,
+    "topic_summary": 4,
+    "evidence_insufficient": 4
+  },
+  "source_role_counts": {
+    "shared_background": 14,
+    "d_dev_target": 17
+  },
+  "input_manifest_sha256": {
+    "session_length_pilot_rev2_20261102_01": "041f32fe0bf7f10842feb93f3f366775df796d351344b362ca95fe544cbc9bcf",
+    "session_length_pilot_targeted_20261102_01": "55838e132cf282bdcb78e82387d18f625e58ea6b5a703f9831bb15525be035a1",
+    "context_focus_pilot_20261102_01": "fe2fc8e3457d3fa79ca4b122aa9bb60e65c55f84002edb5326dc650cb9a5813d",
+    "normal_source_usage_20261102_01": "253b5feab159a28dae7c60731da9d504cbc28affc163168966d9899979832ae9",
+    "crossdoc_replacement_20261102_01": "2fbc8ae0bac68695ca4657db0f6d5032d1e9b6abd2dacd375502d41e0e66533e"
+  },
+  "builder_sha256": "9ebc71df839e87277eacdc69de9c72fd8f130125fc770b71804e0e492812fc9a",
+  "files_sha256": {
+    "cohort.jsonl": "241d90be4156826d9e6a7ed803ad141e3fd89235f40f3d04c1c67251279eb366",
+    "source_evidence.jsonl": "8c5d82b39264ad3e786dcd295b9c7983baf9736246393b84bfb9e00c471ae1e9",
+    "excluded_variants.jsonl": "fc32f79bfc7fbd7575e98cd36d73453061514321226c5db0730afebe7d82333a",
+    "dependency_groups.json": "107d8cc95531ce1addde01e418fe1eca4ba3284ea0828b5483516edaa59ec332"
+  },
+  "limitations": [
+    "Candidate sessions remain pending and are not human gold.",
+    "Six multi-turn sessions vs four for other families; two extra three-turn sessions share one source group.",
+    "Two/three turns are not a controlled length comparison in this selected cohort; use original paired pilot for that question.",
+    "Exact/parent/duplicate groups do not prove semantic or event independence.",
+    "Shared-background articles cannot later be reused as A-cal/V/T normal question sources.",
+    "No full benchmark or actual Session/fusion policy effect is demonstrated."
+  ]
+}

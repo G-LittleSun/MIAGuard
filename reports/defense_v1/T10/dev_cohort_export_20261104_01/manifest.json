@@ -1,0 +1,33 @@
+{
+  "version_id": "t10d-dev-cohort-20261104-01",
+  "partition": "D-dev",
+  "status": "development_pending_review",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "replay_eligible": false,
+  "sessions": 30,
+  "requests": 62,
+  "input_sha256": {
+    "data/defense_datasets/defense_access_v1_candidate06/manifest.json": "359ed9f4b375a8a1f5a644f1c6815150f09f6ffdce86c3bc4e3fec3271498f27",
+    "data/defense_datasets/defense_access_v1_candidate06/documents.jsonl": "6b97aa1e7c31973011c6062d86d37e8d5d9c03a93b58fe75d8e2b4bae839a9d0",
+    "data/defense_datasets/defense_access_v1_candidate06/background_members.jsonl": "b67ee469aa4ef6d1729f04a9b720833eef4e946dfb704990c5ee005f71c0b08b",
+    "reports/defense_v1/T10/session_length_dev_cohort_20261102_01/manifest.json": "bba5799df0d49ace072dab0b163c2239200fdd42395a24bd5f7ffe937c444115",
+    "reports/defense_v1/T10/session_length_dev_cohort_20261102_01/cohort.jsonl": "241d90be4156826d9e6a7ed803ad141e3fd89235f40f3d04c1c67251279eb366",
+    "reports/defense_v1/T10/dev_source_inventory_20261104_01/manifest.json": "750fba8124a1be96ae069fb1ae4325f9cf22cd3a54688e53d79ddb69b75d857d",
+    "reports/defense_v1/T10/dev_source_inventory_20261104_01/source_usage.jsonl": "d9885807034d61b9338c6c507c4ba6982f4c38f2f2514ffc2c29e11e00124046",
+    "data/vector_stores/defense_access_v1_candidate06/D-dev/ag_news/manifest.json": "75820006efd1863d826bc2b858c869553e62c8eee224819e5a0a9de23fcc30e5",
+    "data/vector_stores/defense_access_v1_candidate06/D-dev/ag_news/documents.jsonl": "bfa05b9414ad3ca26b3fff9cbfa759790fd88fe97404ac9335950dffe2dbfaae",
+    "data/vector_stores/defense_access_v1_candidate06/D-dev/ag_news/index.faiss": "9ace4b1ceb1c8e39969baf99dedf22f0226beac05d0560130c26b6e38907157b",
+    "scripts/export_defense_dev_cohort.py": "1c1162589788c4225d9fb8f9adaff67cf8b4d77a188683c55768dbd7b0bffa6e",
+    "src/miaguard/defense_dataset.py": "4ef0dbdae8ba4394317ed41c540ae858db39dbe7a1ba47000b5477c5ca682a52"
+  },
+  "output_sha256": {
+    "normal_requests.jsonl": "78ef6f8867839330218673c106fc76e9c2e2b4832b9aa0037f8ff2c00b05491c",
+    "normal_tasks.jsonl": "4d8ad3310bdeb698014825bbe2b2b2b49fba603e45fe46a491869da2d14054cb"
+  },
+  "limitations": [
+    "Existing draft IDs and content preserved; no new query generation.",
+    "Caller supplies source history, metadata and index identities; history may be incomplete.",
+    "Source checks do not establish semantic independence or human gold."
+  ]
+}

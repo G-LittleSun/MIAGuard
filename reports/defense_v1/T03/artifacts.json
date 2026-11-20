@@ -1,0 +1,9 @@
+{
+  "files": {
+    "src/miaguard/frozen_risk_scorer.py": "91c254e57768a666d1bd44bb49c98125b74c3247d4b9b35c08fadd15a2e1347c",
+    "tests/test_frozen_risk_scorer.py": "985f31b9d504455ee2e5767424e59d97f325f9d6bc68e82ca216b26676aade25"
+  },
+  "frozen_logprob_sha256": "b24b81b88a4ce9579e81eb51cb4e0cc940972dc22499fce77ef80c60f587d188",
+  "red_result": "6 expected failures from missing scorer module",
+  "green_result": "9 passed in 1.18s"
+}

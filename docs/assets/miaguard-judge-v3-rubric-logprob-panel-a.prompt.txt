@@ -1,0 +1,12 @@
+Use case: scientific-educational. Design one publication-quality academic methods panel for a Chinese research paper on RAG security. This is a clean academic flowchart (NOT a plot). White background, landscape rectangle approximately 4:3, high-resolution crisp flat diagram, elegant printed-paper aesthetic. Dark charcoal simplified Chinese sans serif with high legibility at half-page scale. Subtle cool blue for the left branch, muted teal for the right branch, gray for shared material. Equal visual weight for both branches. No icons, gradient, shadow, decoration, fake results, numbers, chart, external logos or watermark. Use thin precise strokes, spacious alignment and clearly visible arrowheads.
+
+Make a compact top-to-bottom DAG: one shared input box at top center, immediately branching via one tidy T split to two parallel lanes of exactly equal widths. Each lane has a prominent header and a large method card, followed by a separate output box. Draw clear downward arrows within each lane. Both output boxes are the same size and baseline; no arrows between lanes and no merge at the bottom. The larger right card emphasizes the equation. Shown as a self-contained left panel, with small "(a)" in the top-left. Use exactly the following visible text only, typed with flawless characters, spelling and math:
+Top shared input box: "Judge v3 已验证的查询与会话证据"
+Left method card header: "LLM 直接评分（Rubric）"
+Left method card body: "按评分准则生成风险分数"
+Right method card header: "候选标签概率评分（Logprob）"
+Right method card first two text lines: "A = BENIGN，B = ATTACK" and "读取两个候选标签的下一 token 概率"
+Right method card centered math: "s = P(B) / [P(A) + P(B)]"  (math typography is welcome, keep the terms and their order exact; this is the normalized score for ATTACK).
+Separate left bottom box: "查询与会话分数融合" with a second small line "训练集确定的冻结阈值".
+Separate right bottom box: "查询与会话分数融合" with a second small line "训练集确定的冻结阈值".
+Do not add any other copy or fix the provided labels. Make the topology unambiguous: shared evidence feeds both score heads; each score head feeds its own fusion and threshold. Do not draw any border around the full canvas. Keep the diagram legible when placed beside a second panel.

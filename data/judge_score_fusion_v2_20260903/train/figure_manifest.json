@@ -1,0 +1,30 @@
+{
+  "calibration_curves": {
+    "dpi": 300,
+    "label_source": "frozen_ground_truth",
+    "pdf": "figures/calibration_curves.pdf",
+    "png": "figures/calibration_curves.png",
+    "style": "publication_v2"
+  },
+  "low_fpr_recall_frontier": {
+    "dpi": 300,
+    "label_source": "frozen_ground_truth",
+    "pdf": "figures/low_fpr_recall_frontier.pdf",
+    "png": "figures/low_fpr_recall_frontier.png",
+    "style": "publication_v2"
+  },
+  "precision_recall_curves": {
+    "dpi": 300,
+    "label_source": "frozen_ground_truth",
+    "pdf": "figures/precision_recall_curves.pdf",
+    "png": "figures/precision_recall_curves.png",
+    "style": "publication_v2"
+  },
+  "roc_curves": {
+    "dpi": 300,
+    "label_source": "frozen_ground_truth",
+    "pdf": "figures/roc_curves.pdf",
+    "png": "figures/roc_curves.png",
+    "style": "publication_v2"
+  }
+}

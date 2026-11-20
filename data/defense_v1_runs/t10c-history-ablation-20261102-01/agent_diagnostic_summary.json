@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "run_id": "t10c-history-ablation-20261102-01",
+  "analysis_role": "engineering_only",
+  "model_name": "qwen2.5:latest",
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "cases": 7,
+  "completed_requests": 14,
+  "failed_requests": 0,
+  "agent_supported_by_condition": {
+    "with_history": 7,
+    "without_history": 7
+  },
+  "agent_pairs_supported_both": 7,
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "interpretation": "In these seven source-fixed cases this Q4 model produced source-supported answers with and without teacher-forced history; this observation does not establish general context independence.",
+  "limitations": [
+    "Seven cases were selected for apparent references; they are not representative.",
+    "Same fixed source text in both conditions can itself resolve anaphora.",
+    "Teacher-forced prior answers are proposed answers, not real previous generated service responses.",
+    "Codex performed the answer assessment; it is not human gold or an independent human study.",
+    "No RAG retrieval, Judge Session/fusion, access policy, membership attack or defense effect was measured.",
+    "Qwen2.5 Q4_K_M Ollama model is not the original frozen BF16 Judge."
+  ]
+}

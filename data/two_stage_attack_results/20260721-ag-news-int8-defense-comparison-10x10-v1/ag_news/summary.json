@@ -1,0 +1,13 @@
+{
+  "benign_count": 20,
+  "benign_false_positive_rate": 0.0,
+  "detector_f1": 0.49056603773584906,
+  "macro_attack_accuracy_no_defense": 0.8499999999999999,
+  "macro_attack_accuracy_reduction": -0.025000000000000133,
+  "macro_attack_accuracy_with_defense": 0.875,
+  "output_path": "D:\\Project\\MIAGuard\\data\\two_stage_attack_results\\20260721-ag-news-int8-defense-comparison-10x10-v1\\ag_news",
+  "query_stage_f1": 0.49056603773584906,
+  "samples_per_attack": 20,
+  "session_stage_f1": 0.0,
+  "status": "completed"
+}

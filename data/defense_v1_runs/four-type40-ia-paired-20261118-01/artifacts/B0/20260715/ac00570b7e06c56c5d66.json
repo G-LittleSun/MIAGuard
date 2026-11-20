@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does the report say Australia bowled India out for 239? Answer Yes, No, or Unknown.",
+    "contexts": [
+      "Kiwis collapse has Aussies in command of second Test (AFP) AFP - New Zealand faced the likelihood of conceding a massive first innings deficit against Australia after a clutter of wickets late on the third day of the second cricket Test at the Adelaide Oval.",
+      "Ganguly #39;s growling list of woe With the NatWest Challenge a thing of the past, Cricket365 scours the papers to bring our readers what the Indian media are saying about their players.",
+      "England complete whitewash Bulawayo: England bowled out Zimbabwe to win their fourth ODI by 74 runs on Sunday to complete a 4-0 series whitewash. Darren Gough took four for 34 as England bowled out the hosts for 187, having set them a victory target of 262.",
+      "India end losing streak with thrilling win London: The hallowed turfs of Lord #39;s once again provided the inspiration for the Indian team who ended their five-match losing streak with a thrilling 23-run victory over England in the third and final NatWest Challenge one-day cricket international here "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Kiwis collapse has Aussies in command of second Test (AFP) AFP - New Zealand faced the likelihood of conceding a massive first innings deficit against Australia after a clutter of wickets late on the third day of the second cricket Test at the Adelaide Oval.\"\n\"Ganguly #39;s growling list of woe With the NatWest Challenge a thing of the past, Cricket365 scours the papers to bring our readers what the Indian media are saying about their players.\"\n\"England complete whitewash Bulawayo: England bowled out Zimbabwe to win their fourth ODI by 74 runs on Sunday to complete a 4-0 series whitewash. Darren Gough took four for 34 as England bowled out the hosts for 187, having set them a victory target of 262.\"\n\"India end losing streak with thrilling win London: The hallowed turfs of Lord #39;s once again provided the inspiration for the Indian team who ended their five-match losing streak with a thrilling 23-run victory over England in the third and final NatWest Challenge one-day cricket international here \"\n\nQuestion:\nDoes the report say Australia bowled India out for 239? Answer Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

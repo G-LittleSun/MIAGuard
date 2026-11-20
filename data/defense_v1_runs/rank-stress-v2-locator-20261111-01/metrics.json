@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-rank-stress-locator-20261111",
+  "run_id": "rank-stress-v2-locator-20261111-01",
+  "identity_sha256": "f52efa11715445b192cc8d3d3c086acd5035f3a2bd8aee2017c075f50e9fa317",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 6,
+  "completed": 6,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 6,
+  "method_count": 1,
+  "attack_target_count": 3,
+  "benign_request_count": 3
+}

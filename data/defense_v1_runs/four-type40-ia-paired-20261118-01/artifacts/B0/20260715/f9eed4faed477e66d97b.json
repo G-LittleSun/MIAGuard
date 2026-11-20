@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Murder case of Swedish Prime Minister Olof Palme. Did the man who died leave the case unsolved after almost 20 years? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Former Suspect in Swedish PM Murder Mystery Dies (Reuters) Reuters - The only man ever brought to trial\\for the 1986 murder of Swedish Prime Minister Olof Palme died\\on Wednesday, leaving the case an enduring mystery after almost\\20 years.",
+      "Air India trial ends after 19 months, judge to decide verdict March 16, 2005 (Canadian Press) Canadian Press - VANCOUVER (CP) - The Air India bombing trial concluded Friday, leaving only a judge to decide the verdict of two men accused of plotting Canada's worst mass murder and one of the world's worst acts of terrorism.",
+      "Iceman discoverer missing in snow The German man who found the remains of a 5,300-year-old frozen mummy in 1991 has gone missing in the Alps.",
+      "Sergeant  #39;committed suicide #39; A senior military policewoman found dead in Basra and named last night by the Ministry of Defence is understood to have killed herself."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Former Suspect in Swedish PM Murder Mystery Dies (Reuters) Reuters - The only man ever brought to trial\\for the 1986 murder of Swedish Prime Minister Olof Palme died\\on Wednesday, leaving the case an enduring mystery after almost\\20 years.\"\n\"Air India trial ends after 19 months, judge to decide verdict March 16, 2005 (Canadian Press) Canadian Press - VANCOUVER (CP) - The Air India bombing trial concluded Friday, leaving only a judge to decide the verdict of two men accused of plotting Canada's worst mass murder and one of the world's worst acts of terrorism.\"\n\"Iceman discoverer missing in snow The German man who found the remains of a 5,300-year-old frozen mummy in 1991 has gone missing in the Alps.\"\n\"Sergeant  #39;committed suicide #39; A senior military policewoman found dead in Basra and named last night by the Ministry of Defence is understood to have killed herself.\"\n\nQuestion:\nI am inquiring about a Murder case of Swedish Prime Minister Olof Palme. Did the man who died leave the case unsolved after almost 20 years? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

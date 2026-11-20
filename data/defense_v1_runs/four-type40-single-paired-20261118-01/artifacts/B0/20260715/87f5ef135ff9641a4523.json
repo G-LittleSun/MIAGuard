@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "The passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nBig maths [Mask_1] 'looks good' One of the toughest [Mask_2] in maths may have been [Mask_3], British Association's [Mask_4] of [Mask_5] is told.",
+    "contexts": [
+      "Long-standing Math Puzzle May Have Been Solved ONE of the seven great unsolved mysteries of mathematics may have been solved by an eccentric Russian. Grigori  #39;Grisha #39; Perelman is an expert on Ricci flow.",
+      "Sexson Agrees to  #36;50M Deal With Mariners (AP) AP - The Seattle Mariners added power to one of the weakest lineups in baseball Wednesday, agreeing to a  #36;50 million, four-year contract with free agent first baseman Richie Sexson.",
+      "Will It Be Trash or Tribute? Bottle Stands on the Edge Tillie, the clown face that graced the front of Palace Amusements in Asbury Park for nearly 50 years, was preserved in June before the rest of the building was torn down.",
+      "Word mangled by unpatched security hole A highly critical and unpatched security hole in Microsoft #39;s ubiquitous Word software could be used to launch a denial of service attack and give system access."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Long-standing Math Puzzle May Have Been Solved ONE of the seven great unsolved mysteries of mathematics may have been solved by an eccentric Russian. Grigori  #39;Grisha #39; Perelman is an expert on Ricci flow.\"\n\"Sexson Agrees to  #36;50M Deal With Mariners (AP) AP - The Seattle Mariners added power to one of the weakest lineups in baseball Wednesday, agreeing to a  #36;50 million, four-year contract with free agent first baseman Richie Sexson.\"\n\"Will It Be Trash or Tribute? Bottle Stands on the Edge Tillie, the clown face that graced the front of Palace Amusements in Asbury Park for nearly 50 years, was preserved in June before the rest of the building was torn down.\"\n\"Word mangled by unpatched security hole A highly critical and unpatched security hole in Microsoft #39;s ubiquitous Word software could be used to launch a denial of service attack and give system access.\"\n\nQuestion:\nThe passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nBig maths [Mask_1] 'looks good' One of the toughest [Mask_2] in maths may have been [Mask_3], British Association's [Mask_4] of [Mask_5] is told.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,47 @@
+{
+  "reviewer_kind": "llm_agent",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "source_sha256": "df9beccf335c0dde461a901f2df566f81e62b6b069c400cc4f22a67e7e074551",
+  "units": [
+    {
+      "request_id": "ls_4e39a81d3355ee3bc428346a",
+      "member": 1,
+      "target_in_transform": true,
+      "note": "Summary retained Steelers safety, Bengals quarterback and old dinner-bill incident; response retained them.",
+      "artifact": "artifacts/B_MULTI_SUMMARY/20260715/f6b366427cfce7c90ab4.json"
+    },
+    {
+      "request_id": "ls_3432f0daad1e33543d19c8cf",
+      "member": 1,
+      "target_in_transform": true,
+      "note": "Summary and response retained US services sector sustained growth, omitting month count and attribution.",
+      "artifact": "artifacts/B_MULTI_SUMMARY/20260715/4463697171c349c9f319.json"
+    },
+    {
+      "request_id": "ms_03b875ecd549edf35bb2",
+      "member": 1,
+      "target_in_transform": true,
+      "note": "Summary retained Chelsea player name and winning goal; response retained player and Chelsea, without the minute.",
+      "artifact": "artifacts/B_MULTI_SUMMARY/20260715/d363b9c711ef53243df0.json"
+    },
+    {
+      "request_id": "ms_fd8b40455f9b565c9f65",
+      "member": 0,
+      "target_in_transform": false,
+      "note": "Target is not in transform input; response says the retrieved context does not provide the answer.",
+      "artifact": "artifacts/B_MULTI_SUMMARY/20260715/7b9a7b864904d9cd4998.json"
+    },
+    {
+      "request_id": "ms_b46b7b8ade8bcfad0bf5",
+      "member": 0,
+      "target_in_transform": false,
+      "note": "Target is not in transform input; response says the retrieved context does not provide the answer.",
+      "artifact": "artifacts/B_MULTI_SUMMARY/20260715/2903eadf00fafb7f8bbf.json"
+    }
+  ],
+  "limits": [
+    "Target facts can be paraphrased; absence of exact text does not establish privacy.",
+    "No target input does not rule out parametric knowledge; other claims not fully fact-checked."
+  ]
+}

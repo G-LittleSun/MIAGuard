@@ -1,0 +1,104 @@
+{
+  "duplicate_query_ids": [],
+  "missing_query_ids": [],
+  "partitions": {
+    "test": {
+      "document_count": 20,
+      "partition": "test",
+      "query_count": 1187,
+      "query_counts_by_attack_type": {
+        "benign": 100,
+        "direct_rag_mia": 100,
+        "ia": 787,
+        "masked_mia": 100,
+        "s2_mia": 100
+      },
+      "session_count": 244,
+      "session_counts_by_attack_type": {
+        "benign": 20,
+        "direct_rag_mia": 20,
+        "ia": 164,
+        "masked_mia": 20,
+        "s2_mia": 20
+      },
+      "session_length_counts": {
+        "4": 33,
+        "5": 211
+      }
+    },
+    "train": {
+      "document_count": 60,
+      "partition": "train",
+      "query_count": 3575,
+      "query_counts_by_attack_type": {
+        "benign": 300,
+        "direct_rag_mia": 300,
+        "ia": 2375,
+        "masked_mia": 300,
+        "s2_mia": 300
+      },
+      "session_count": 734,
+      "session_counts_by_attack_type": {
+        "benign": 60,
+        "direct_rag_mia": 60,
+        "ia": 494,
+        "masked_mia": 60,
+        "s2_mia": 60
+      },
+      "session_length_counts": {
+        "4": 95,
+        "5": 639
+      }
+    },
+    "validation": {
+      "document_count": 20,
+      "partition": "validation",
+      "query_count": 1194,
+      "query_counts_by_attack_type": {
+        "benign": 100,
+        "direct_rag_mia": 100,
+        "ia": 794,
+        "masked_mia": 100,
+        "s2_mia": 100
+      },
+      "session_count": 248,
+      "session_counts_by_attack_type": {
+        "benign": 20,
+        "direct_rag_mia": 20,
+        "ia": 168,
+        "masked_mia": 20,
+        "s2_mia": 20
+      },
+      "session_length_counts": {
+        "4": 46,
+        "5": 202
+      }
+    }
+  },
+  "query_bank": {
+    "bank_id": "ag_news_queries_v1",
+    "dataset_id": "ag_news",
+    "queries_sha256": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1"
+  },
+  "schema_version": 1,
+  "split_id": "ag_news_threshold_v1",
+  "target_turns": 5,
+  "totals": {
+    "accepted_query_count": 5956,
+    "document_count": 100,
+    "query_count": 5956,
+    "query_counts_by_attack_type": {
+      "benign": 500,
+      "direct_rag_mia": 500,
+      "ia": 3956,
+      "masked_mia": 500,
+      "s2_mia": 500
+    },
+    "session_count": 1226,
+    "session_length_counts": {
+      "4": 174,
+      "5": 1052
+    }
+  },
+  "unexpected_query_ids": []
+}

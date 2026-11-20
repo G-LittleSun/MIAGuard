@@ -1,0 +1,79 @@
+{
+  "scope": "Metadata/field inventory for documentation; not per-query reuse approval or experiment.",
+  "bank_id": "ag_news_queries_v1",
+  "bank_manifest_query_count": 5956,
+  "train_documents": 60,
+  "train_accepted_queries": 3575,
+  "train_attack_type_counts": {
+    "benign": 300,
+    "direct_rag_mia": 300,
+    "ia": 2375,
+    "masked_mia": 300,
+    "s2_mia": 300
+  },
+  "train_benign_top_level_required_field_presence_counts": {
+    "answerable": 0,
+    "reference_answer": 0,
+    "gold_evidence_ids": 0,
+    "task_family": 0,
+    "review_status": 0,
+    "reviewed_by": 0
+  },
+  "train_payload_key_inventory": {
+    "benign": {
+      "rows": 300,
+      "payload_key_presence_counts": {
+        "category": 300
+      }
+    },
+    "direct_rag_mia": {
+      "rows": 300,
+      "payload_key_presence_counts": {
+        "target_text": 300
+      }
+    },
+    "ia": {
+      "rows": 2375,
+      "payload_key_presence_counts": {
+        "ground_truth": 2375,
+        "question": 2375,
+        "summary": 2375,
+        "anchor_question": 337,
+        "construction": 396
+      }
+    },
+    "masked_mia": {
+      "rows": 300,
+      "payload_key_presence_counts": {
+        "answers": 300,
+        "masked_text": 300,
+        "selection_sources": 300
+      }
+    },
+    "s2_mia": {
+      "rows": 300,
+      "payload_key_presence_counts": {
+        "prefix": 300
+      }
+    }
+  },
+  "train_benign_source_index_presence": {
+    "source_in_old_index": 150,
+    "source_not_in_old_index": 150,
+    "note": "Index presence is not an answerability label: another source might support the answer. No membership labels used for selection."
+  },
+  "input_sha256": {
+    "data/query_banks/ag_news_queries_v1/ag_news/manifest.json": "c091561df37903853b793765320ea2a3b60be8eb1d038f73b840b6ab69820c60",
+    "data/query_banks/ag_news_queries_v1/ag_news/queries.jsonl": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1",
+    "data/query_bank_splits/ag_news_threshold_v1.json": "c7f42950276f787bbc38862fad219b7c2436c8e562a9447c52388b0b809d8a93",
+    "data/vector_stores/20260717-ag-news-four-medium/ag_news/manifest.json": "888791e22714fb741c8e9674679ae4891e9e3184540a62e5300776671a31ad44",
+    "data/vector_stores/20260717-ag-news-four-medium/ag_news/documents.jsonl": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9"
+  },
+  "limitations": [
+    "Only accepted train rows were inventoried; no validation/test query contents or model scores reported.",
+    "Presence of payload keys or validation flags does not establish correct semantics, human review or gold.",
+    "No old query was mapped into new candidate06 indexes; membership is bound to original index.",
+    "Full per-query mechanism, target text, attack gold, normal evidence, source groups and evaluator compatibility checks remain pending."
+  ],
+  "formal_effect_eligible": false
+}

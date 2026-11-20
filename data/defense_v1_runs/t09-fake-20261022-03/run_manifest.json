@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T09-fake-link",
+  "run_id": "t09-fake-20261022-03",
+  "status": "completed",
+  "started_at": "2026-10-22T14:45:34.263991+00:00",
+  "dataset_id": "synthetic_fake_t09",
+  "partition": "engineering_smoke",
+  "backend": "fake",
+  "methods": [
+    "B0",
+    "B2",
+    "B3",
+    "B5"
+  ],
+  "seed": 20261022,
+  "files_sha256": {
+    "spec": "1282e8a4f7a1f24f727bb0c6a7abe0f2c28a84eb64e799ea4be02999e858f231",
+    "requests": "7a5db748f5ec9aee0bb8756d4e9b57b20ce6c73e4cbf7d8c2fdecb947df6ea0b",
+    "labels": "f09ff2c0ba33714a1d632502f8ea2a3868bbe84b3568ce1df9f89abaf69bc3ad",
+    "code:defense_benchmark.py": "efdade2cc48449a94d0e99f3bc57a89043bc731a817695fcd4d11988361a8e48",
+    "code:exposure_store.py": "ea0ebef52e0ac5a5581614388c8e43894000c49d243fba2c3f5dfe4d6cfdeb15",
+    "code:two_stage_gateway.py": "9f37d785c6dedf561afc79dbd1fef96ba28c7bd9f6715fa370afa95b743c0f5c",
+    "code:defense.py": "0cc30a370eb27b40375ba33b12a0390be26c0cf801f98473dd565b48c4cb6beb",
+    "code:vector_store.py": "c3b2e4c5bebad23e270b46a1eea11a91c7024601c3da8f82f062e96b35e37f2a",
+    "code:evidence_access.py": "af709e7315a477f95b34f3273a3392adcb9f7092b8b2060cd85b33b522b4efb5",
+    "code:defense_experiment.py": "6c803e38a1989b6d513809693a6e4e1f78cdd08cd9f39f8416a98ba0bb048b00",
+    "code:defense_benchmark_fake.py": "4a4e4228c5c6af38014f012cbd03b2826d0ea72f92467a53f0045134a82864f3",
+    "code:defense_benchmark_live.py": "692d32233b2753bbfa2321e8d2c9de757f71c3eba55771b791915b3520af07c2",
+    "identity:fake_gateway_config": "39f18604f446a2241549cb2189e5fd6200b537aadec7a5f7531f7da48e39c271"
+  },
+  "identity_sha256": "f10be8c15ebaa48c539677f8e2fc3af1f3e2fd7ce9ba04a9e2c87870f43fea03",
+  "outcome": "valid",
+  "finished_at": "2026-10-22T14:45:34.406491+00:00",
+  "metrics_sha256": "bd1fa1c6fcc2be3e1ceb5f41934554fe36a9ebc9f46a392ead2aa2a37345b8fe"
+}

@@ -1,0 +1,95 @@
+{
+  "run_id": "rank-stress-v2-b2-b3-20261111-01",
+  "rows": [
+    {
+      "method": "B2",
+      "request_id": "rs_74a0fbf915de026d83e29d3f",
+      "doc_id": "ag_news_teacher_00000992",
+      "action": "deny",
+      "strict_score": 0.0,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "denied",
+        "format": null,
+        "matched": 0,
+        "total": 5
+      }
+    },
+    {
+      "method": "B2",
+      "request_id": "rs_957da14e1b7964a4ec021ab3",
+      "doc_id": "ag_news_teacher_00000479",
+      "action": "deny",
+      "strict_score": 0.0,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "denied",
+        "format": null,
+        "matched": 0,
+        "total": 5
+      }
+    },
+    {
+      "method": "B2",
+      "request_id": "rs_0d1adf87758428d74a8ee535",
+      "doc_id": "ag_news_teacher_00000388",
+      "action": "deny",
+      "strict_score": 0.0,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "denied",
+        "format": null,
+        "matched": 0,
+        "total": 5
+      }
+    },
+    {
+      "method": "B3",
+      "request_id": "rs_74a0fbf915de026d83e29d3f",
+      "doc_id": "ag_news_teacher_00000992",
+      "action": "no_context_answer",
+      "strict_score": 0.2,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "parsed",
+        "format": "object_answers",
+        "matched": 1,
+        "total": 5
+      }
+    },
+    {
+      "method": "B3",
+      "request_id": "rs_957da14e1b7964a4ec021ab3",
+      "doc_id": "ag_news_teacher_00000479",
+      "action": "no_context_answer",
+      "strict_score": 0.2,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "parsed",
+        "format": "object_answers",
+        "matched": 1,
+        "total": 5
+      }
+    },
+    {
+      "method": "B3",
+      "request_id": "rs_0d1adf87758428d74a8ee535",
+      "doc_id": "ag_news_teacher_00000388",
+      "action": "no_context_answer",
+      "strict_score": 0.2,
+      "diagnostic_only": true,
+      "diagnostic": {
+        "status": "parsed",
+        "format": "object_answers",
+        "matched": 1,
+        "total": 5
+      }
+    }
+  ],
+  "input_sha256": {
+    "events.jsonl": "bb574d4cae03d82dc8ba4c96fefe0b8d92013413653b83befd40088a4cb1cad2",
+    "labels.jsonl": "ced7a8b8a995fabff76f68003d049e768f8ec98f291860f074d7a3570db2177e",
+    "attack_scores.jsonl": "547c562116cbb24f22fb5f75c1f7fb957603458cb8910a126f4466814c15903a"
+  },
+  "formal_effect_eligible": false
+}

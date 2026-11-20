@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "f10be8c15ebaa48c539677f8e2fc3af1f3e2fd7ce9ba04a9e2c87870f43fea03",
+  "method": "B0",
+  "seed": 20261022,
+  "session_id": "fake-direct-session",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "fake-direct",
+      "session_id": "fake-direct-session",
+      "method": "B0",
+      "seed": 20261022,
+      "status": "complete",
+      "response": "Yes",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "target",
+        "safe"
+      ],
+      "delivered_doc_ids": [
+        "target",
+        "safe"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "two_stage_policy_v1"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "target",
+            "safe"
+          ],
+          "delivered_doc_ids": [
+            "target",
+            "safe"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 0.09230012074112892,
+      "ledger_event": null,
+      "generation_input_ref": "artifacts/B0/20261022/5a398e0dd567c3f36991.json",
+      "artifact_sha256": "71abc0fb808b6ad299fbcc92de3e637f8946a0081f28ea5e75f7f4ac24ba8fa7"
+    }
+  ]
+}

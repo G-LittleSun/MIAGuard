@@ -1,0 +1,38 @@
+{
+  "status": "partial_conservative_inventory",
+  "records": 216,
+  "d_dev_targets": 200,
+  "shared_background": 16,
+  "input_sha256": {
+    "data/defense_datasets/defense_access_v1_candidate06/documents.jsonl": "6b97aa1e7c31973011c6062d86d37e8d5d9c03a93b58fe75d8e2b4bae839a9d0",
+    "data/defense_datasets/defense_access_v1_candidate06/background_members.jsonl": "b67ee469aa4ef6d1729f04a9b720833eef4e946dfb704990c5ee005f71c0b08b",
+    "reports/defense_v1/T10/normal_source_usage_20261102_01/source_usage.jsonl": "ad32510f98495032db617f6b49a6d0f0e08ed2a830fe711d6bf81f4130872ca7",
+    "reports/defense_v1/T10/review_attack_source_usage_20261102_01/source_usage.jsonl": "f85232c2f3775b7c747fdb725683f26a9e43ff87e3f04753efd547112c2f6d7a",
+    "reports/defense_v1/T10/context_focus_pilot_20261102_01/source_evidence.jsonl": "8b2566cf8a300dbdb36a8fde270e9a6c314047d0ce550c4a16a3d5061913684d",
+    "reports/defense_v1/T10/context_focus_pilot_20261102_01/variants.jsonl": "e09b4814de9e16a4e0273d57a512d80a40cac8a2accda34e30a84de9344de58d",
+    "reports/defense_v1/T10/crossdoc_replacement_20261102_01/candidate_variants.jsonl": "e1f0e30e1ec5fe62041a40d952ce8f1a952327624e496878b26c079d4d6375b8",
+    "reports/defense_v1/T10/crossdoc_replacement_20261102_01/source_evidence.jsonl": "8b2566cf8a300dbdb36a8fde270e9a6c314047d0ce550c4a16a3d5061913684d",
+    "reports/defense_v1/T10/pilot_revision_20261030_01/review_packet_d_dev_normal_evidence.jsonl": "2446d46b15106d10c64f3854a51e8c19469871a80c56100e631d1f4c0a4d3cdf",
+    "reports/defense_v1/T10/review_packet_d_dev_normal_evidence.jsonl": "ef5948da23e80f742a442397bbe25f88bf40651d361fe4f39f830ea79184511d",
+    "reports/defense_v1/T10/session_length_dev_cohort_20261102_01/cohort.jsonl": "241d90be4156826d9e6a7ed803ad141e3fd89235f40f3d04c1c67251279eb366",
+    "reports/defense_v1/T10/session_length_dev_cohort_20261102_01/source_evidence.jsonl": "8c5d82b39264ad3e786dcd295b9c7983baf9736246393b84bfb9e00c471ae1e9",
+    "reports/defense_v1/T10/session_length_pilot_20261031_01/expanded_source_evidence.jsonl": "e64fb51929ebb867b65e72c026da4f96c1c5d38321a0f5b36dae9fababc82a99",
+    "reports/defense_v1/T10/session_length_pilot_20261031_01/expanded_source_selection.jsonl": "9f57d3aecec77ce863fa03140fa9cbe7316a2974b9749e1e950d9e673b89d95f",
+    "reports/defense_v1/T10/session_length_pilot_20261031_01/expanded_variants.jsonl": "48c51f9399f034637106b44d1787d0a48b29de6b8620e703a3f09470cfbef716",
+    "reports/defense_v1/T10/session_length_pilot_20261031_01/normal_variants.jsonl": "2890f4823f601db1b033199ca8b0447386a3bb91c642d80aa87207de51dc729a",
+    "reports/defense_v1/T10/session_length_pilot_20261031_01/session_inventory.jsonl": "4b2c4eddc193204a4de3843f369adb4b48ef42ee73450937c04489efeb10774c",
+    "reports/defense_v1/T10/session_length_pilot_20261031_01/source_evidence.jsonl": "377370414c2d39e73e8168bbc528b577bc4f2148343389f4886afdf48768a633",
+    "reports/defense_v1/T10/session_length_pilot_rev2_20261102_01/revised_variants.jsonl": "cdf11004a68b37cf1b601929253c3db061a27f42ff14bc6fcb0abc8cc7892f9f",
+    "reports/defense_v1/T10/session_length_pilot_rev2_20261102_01/source_evidence.jsonl": "2acdec7690dd7263e8258f2919f7d5712793c04ff97f36e410d880fcf7557e0e",
+    "reports/defense_v1/T10/session_length_pilot_targeted_20261102_01/source_evidence.jsonl": "26ab97a1e7ab97316444529127c2989e68ed9dfbbae2640eef1a6dba98a0ed9f",
+    "reports/defense_v1/T10/session_length_pilot_targeted_20261102_01/targeted_variants.jsonl": "ac71a07a51fea6e038a8fa90ad5f6058db0721f3bb821465e1b274d51508f24e"
+  },
+  "output_sha256": "d9885807034d61b9338c6c507c4ba6982f4c38f2f2514ffc2c29e11e00124046",
+  "formal_effect_eligible": false,
+  "limitations": [
+    "Conservative candidate inclusion does not mean individual review or exposure to a person.",
+    "Explicitly listed T10 source artifacts only; other historical prompts and semantic/event overlap remain unaudited.",
+    "Same parent/duplicate group must also be excluded using complete source metadata.",
+    "Shared background remains in existing retrieval indexes."
+  ]
+}

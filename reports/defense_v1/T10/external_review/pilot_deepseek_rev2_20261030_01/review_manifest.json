@@ -1,0 +1,115 @@
+{
+  "run_id": "pilot_deepseek_rev2_20261030_01",
+  "reviewer_kind": "llm_agent",
+  "review_round": 2,
+  "model_id": "deepseek-v4.1-flash",
+  "model_display_name": "DeepSeek V4.1 Flash",
+  "model_id_source": "CODEBUDDY_CURRENT_MODEL_ID environment variable of the running session (runtime-reported identifier; no provider API response body was available)",
+  "model_id_note": "未取得供应商侧的完整快照 ID，故不写推测的日期后缀。",
+  "reviewer_type_note": "模型预审，不是人工复核；不得记为 human_reviewed，也不构成论文所需人工 gold。",
+  "revision_id": "pilot_revision_20261030_01",
+  "prompt_version": "pilot_revision_20261030_01/REVIEW_GUIDE_ZH.md + AGENT_REVIEW_HANDOFF_ZH.md §2-5 + 用户本轮指令",
+  "prompt_sha256": "f6b132a48e5b0c97655ab451f442e130d7e158f50bf4e3646f93650ba372bf9c",
+  "prompt_sha256_target": "REVIEW_GUIDE_ZH.md",
+  "handoff_sha256": "210b093f04318066ed16bbc2c83d2d2fa620671dd192c9bc6a72dc6ece0d311a",
+  "started_at_bjt": "2026-10-30T19:37:23+08:00",
+  "finished_at_bjt": "2026-10-30T19:42:36+08:00",
+  "inputs": [
+    {
+      "file": "revision_manifest.json",
+      "sha256": "d8805d1a4d07ecb7b3c8a10a18266950436d7795d8cb7191ae7f6a51b5794d31",
+      "rows": 1
+    },
+    {
+      "file": "review_packet_d_dev_normal.jsonl",
+      "sha256": "081408c421016823af93c635a2d4a33c7831270d9fe46ce838a424e2755157c1",
+      "rows": 70
+    },
+    {
+      "file": "review_packet_d_dev_normal_evidence.jsonl",
+      "sha256": "2446d46b15106d10c64f3854a51e8c19469871a80c56100e631d1f4c0a4d3cdf",
+      "rows": 70
+    },
+    {
+      "file": "review_packet_d_dev_attack.jsonl",
+      "sha256": "21e09046343372c9f2c967cd77926c695a155c3d847b929049ea7e48dd4d39c4",
+      "rows": 16
+    }
+  ],
+  "input_hash_check": "three JSONL hashes recomputed locally and matched revision_manifest.json files_sha256",
+  "partition": "D-dev",
+  "normal_expected": 70,
+  "attack_expected": 16,
+  "normal_completed": 70,
+  "attack_completed": 16,
+  "status": "completed",
+  "partial": false,
+  "unreviewed_ids": [],
+  "external_sources_used": false,
+  "membership_labels_read": false,
+  "first_round_results_read_before_review": false,
+  "vt_results_viewed": false,
+  "defense_experiment_run": false,
+  "original_packet_modified": false,
+  "context_truncation": false,
+  "interruptions": [],
+  "decision_counts": {
+    "normal_by_family": {
+      "citation_check": {
+        "accept": 9,
+        "rewrite": 1
+      },
+      "cross_document_synthesis": {
+        "accept": 7,
+        "rewrite": 3
+      },
+      "evidence_insufficient": {
+        "accept": 10
+      },
+      "exact_entity_number": {
+        "accept": 8,
+        "rewrite": 2
+      },
+      "multi_turn_reading": {
+        "accept": 10
+      },
+      "single_fact": {
+        "accept": 10
+      },
+      "topic_summary": {
+        "accept": 7,
+        "rewrite": 3
+      }
+    },
+    "attack_by_type": {
+      "direct_rag_mia": {
+        "accept": 4
+      },
+      "ia": {
+        "accept": 3,
+        "rewrite": 1
+      },
+      "masked_mia": {
+        "accept": 4
+      },
+      "s2_mia": {
+        "accept": 4
+      }
+    },
+    "normal_overall": {
+      "accept": 61,
+      "rewrite": 9
+    },
+    "attack_overall": {
+      "accept": 15,
+      "rewrite": 1
+    }
+  },
+  "limitations": [
+    "模型预审，未经真人复核；不替代 T10 人工 gold 与 E07 人评。",
+    "只审本修订包 86 条；candidate06 其余草稿未审，不能外推全数据质量。",
+    "修订包的 replay_eligible 与答案同步状态由上游决定；本轮不改变其 false 状态。",
+    "参考答案仅依据随附原文核对，未使用外部搜索；原文截断处按截断范围给答案。",
+    "攻击条目只判断机制、泄漏与可执行性，未运行攻击，不推断成员标签，不报告攻击成功率。"
+  ]
+}

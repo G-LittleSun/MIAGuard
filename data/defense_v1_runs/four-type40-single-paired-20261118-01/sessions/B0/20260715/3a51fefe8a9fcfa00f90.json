@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "3e7b8f17823b2e885fb846c285761b92e68b47d9284f459e773271082971376a",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "q048",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "q048",
+      "session_id": "q048",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "{\"answers\": [\"Philippine\", \"landslides\", \"northern\", \"Philippines\", \"missing\"]}",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000479",
+        "ag_news_teacher_00000985",
+        "ag_news_teacher_00000394",
+        "ag_news_teacher_00000204"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000479",
+        "ag_news_teacher_00000985",
+        "ag_news_teacher_00000394",
+        "ag_news_teacher_00000204"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000479",
+            "ag_news_teacher_00000985",
+            "ag_news_teacher_00000394",
+            "ag_news_teacher_00000204"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000479",
+            "ag_news_teacher_00000985",
+            "ag_news_teacher_00000394",
+            "ag_news_teacher_00000204"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 947.6634999737144,
+      "ledger_event": {
+        "request_id": "q048",
+        "session_id": "q048",
+        "input_sha256": "e58e5b96ce14b61715a880f1b1fae47f6ba2b479116e2756c03cd702e6320943",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000479",
+          "ag_news_teacher_00000985",
+          "ag_news_teacher_00000394",
+          "ag_news_teacher_00000204"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000479",
+            "parent_doc_id": "ag_news_teacher_00000479",
+            "kind": "raw",
+            "score": 0.35158735513687134,
+            "text_sha256": "e14efc2b0794853310d1b02ff1ef65ca4ad2c6cfdbc300323da39a4eedf43271"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000985",
+            "parent_doc_id": "ag_news_teacher_00000985",
+            "kind": "raw",
+            "score": 0.3375675678253174,
+            "text_sha256": "03838dfdd2ca00efe4ecc6e6c3f450210df4bf693b3eebb5fe07f0ff63f84b9e"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000394",
+            "parent_doc_id": "ag_news_teacher_00000394",
+            "kind": "raw",
+            "score": 0.28615424036979675,
+            "text_sha256": "326fdadc2b32b10abdc054ccad4243181bd767fb866a6465c236158e8623b23c"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000204",
+            "parent_doc_id": "ag_news_teacher_00000204",
+            "kind": "raw",
+            "score": 0.27052485942840576,
+            "text_sha256": "e5b8ef7e4ae9849ffb13102905b291fb81091aac105c89cc2e2ee1dba2f68962"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "{\"answers\": [\"Philippine\", \"landslides\", \"northern\", \"Philippines\", \"missing\"]}",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795004525.9672039,
+        "finished_at": 1795004526.9147043
+      },
+      "generation_input_ref": "artifacts/B0/20260715/3a51fefe8a9fcfa00f90.json",
+      "artifact_sha256": "eaed7af482cb002d23ecfb3ac0f454b67db0865a4e0c8b0ddd316f9230b1ad5a"
+    }
+  ]
+}

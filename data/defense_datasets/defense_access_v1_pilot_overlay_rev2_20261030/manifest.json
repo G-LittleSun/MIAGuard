@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "version": "defense_access_v1_pilot_overlay_rev2_20261030",
+  "partition": "D-dev",
+  "purpose": "engineering_pilot_overlay_only",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "review_status": "pending",
+  "source_candidate_manifest_sha256": "359ed9f4b375a8a1f5a644f1c6815150f09f6ffdce86c3bc4e3fec3271498f27",
+  "source_candidate_id": "defense_access_v1",
+  "source_review_manifest_sha256": "69e87e181648df0d67adcfc30e9f8b518733a1b66fee1440a6e777e84efef2f5",
+  "source_review_run_id": "pilot_deepseek_rev2_20261030_01",
+  "source_review_validation_sha256": "ddc341ea3b0170a3c4ebc1657ab5cf958805707b71579f19e43590054fbe8ec5",
+  "source_files_sha256": {
+    "normal_requests.jsonl": "1d473b18859c88a2104eb6577bce78c06a16a6b7abcebe7e1ba793f12ebfec31",
+    "normal_tasks.jsonl": "2d7867a5b4e9f07a1b1e8858987146e30f05ba2adba6b455e1aa74c4e694f109",
+    "attack_requests.jsonl": "44eeea7f71f875e5f73609922ec7d63413f8c8b379b1ea0a45125e590c8c594d",
+    "attack_labels.jsonl": "198d2638667a7a5e6588d7cd1a6e36e145ab9a670cd492fe646b7d96ea09ee25",
+    "documents.jsonl": "6b97aa1e7c31973011c6062d86d37e8d5d9c03a93b58fe75d8e2b4bae839a9d0"
+  },
+  "pilot_evidence_sha256": "2446d46b15106d10c64f3854a51e8c19469871a80c56100e631d1f4c0a4d3cdf",
+  "review_files_sha256": {
+    "normal_review.jsonl": "e691304c972db7f6a74814335b5e2a2f6dc8bd2d1b4cd46d1191b49bed0d0f0e",
+    "attack_review.jsonl": "7540b395cdc2efd96c25504cc653f43ec166f21257ef2baaab3abc4e7867d39f"
+  },
+  "output_files_sha256": {
+    "normal_requests.jsonl": "9b7022dde8fea8fb7bf86f37b104ebd88853a7419275d4e12ab58c9ad2d4ab99",
+    "normal_tasks.jsonl": "5e3588c7d360084bf4cf010e9930b52423440a19883580416ed23990701d15bd",
+    "attack_requests.jsonl": "500e2239e24ddfc9d7e98c8a39215e51e728ec3045114c5a581d294657084431",
+    "attack_labels.jsonl": "a0f164f945edbd4193fa7bb61a17a39c929396a36f04310443c9fd252fd05745"
+  },
+  "counts": {
+    "normal_requests.jsonl": 70,
+    "normal_tasks.jsonl": 70,
+    "attack_requests.jsonl": 16,
+    "attack_labels.jsonl": 16
+  },
+  "normal_family_counts": {
+    "citation_check": 10,
+    "cross_document_synthesis": 10,
+    "evidence_insufficient": 10,
+    "exact_entity_number": 10,
+    "multi_turn_reading": 10,
+    "single_fact": 10,
+    "topic_summary": 10
+  },
+  "attack_type_counts": {
+    "direct_rag_mia": 4,
+    "ia": 4,
+    "masked_mia": 4,
+    "s2_mia": 4
+  },
+  "cross_document_evidence_repairs": [
+    "r_fb433c093c421505f7a64c8c",
+    "r_5e11a2485bcf029aec233b58",
+    "r_8bc0c171270778396b163d5b"
+  ],
+  "masked_answer_changes_from_candidate06": [
+    "r_1f9d323024df6bef5ff05a7e",
+    "r_ff5aedec7730877adfdc9ebb"
+  ],
+  "limitations": [
+    "Model pre-review is not human gold.",
+    "Several accepted five-turn sessions remain semantically repetitive.",
+    "All source articles are short snippets; content quality needs further revision.",
+    "IA yes/no prompts require nonmember false-positive calibration.",
+    "This overlay does not replace the full candidate06 dataset or its frozen indexes."
+  ]
+}

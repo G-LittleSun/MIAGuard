@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "c53e8bae983dd1c13c7a66ff0a7c4fecfe4ec545d81eae23557a9861b35a9384",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ng_380a05c6873d5e39375a",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "ng_380a05c6873d5e39375a",
+      "session_id": "ng_380a05c6873d5e39375a",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is planning to add a strong dose of artificial intelligence (AI) to planetary rovers to make them much more self-reliant, capable of making basic decisions during a mission. Scientists are developing very complex AI software that enables a higher level of robotic intelligence.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000062",
+        "ag_news_teacher_00000559"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000062",
+        "ag_news_teacher_00000559"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000470",
+            "ag_news_teacher_00000062",
+            "ag_news_teacher_00000559"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000470",
+            "ag_news_teacher_00000062",
+            "ag_news_teacher_00000559"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1931.2754003331065,
+      "ledger_event": {
+        "request_id": "ng_380a05c6873d5e39375a",
+        "session_id": "ng_380a05c6873d5e39375a",
+        "input_sha256": "57821db262ca39605515427ef8512d1ba281bacaebbeb8f8f6c63cead6c80456",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000149",
+          "ag_news_teacher_00000470",
+          "ag_news_teacher_00000062",
+          "ag_news_teacher_00000559"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000149",
+            "parent_doc_id": "ag_news_teacher_00000149",
+            "kind": "raw",
+            "score": 0.7319578528404236,
+            "text_sha256": "95c627355672d7db756b82153bffa5c7ec69b5bac2a6cb761a51614f749091b5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000470",
+            "parent_doc_id": "ag_news_teacher_00000470",
+            "kind": "raw",
+            "score": 0.3636000156402588,
+            "text_sha256": "9cec78befa3c65c68b22ae82d2f399ba546a3daceaa033046bc194de6f4851c5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000062",
+            "parent_doc_id": "ag_news_teacher_00000062",
+            "kind": "raw",
+            "score": 0.2922534942626953,
+            "text_sha256": "b693deba3f5d1086f966f440d58a6fe085604f0c6a745f5f75d6657914624938"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000559",
+            "parent_doc_id": "ag_news_teacher_00000559",
+            "kind": "raw",
+            "score": 0.26739299297332764,
+            "text_sha256": "ea1a67af90f54724df47c05f9e4cd04c0f35da31ef36c1e91c3282ff375637de"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is planning to add a strong dose of artificial intelligence (AI) to planetary rovers to make them much more self-reliant, capable of making basic decisions during a mission. Scientists are developing very complex AI software that enables a higher level of robotic intelligence.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794899180.5098429,
+        "finished_at": 1794899182.4408417
+      },
+      "generation_input_ref": "artifacts/B0/20260715/f60a5f60f4f840d8d494.json",
+      "artifact_sha256": "e4621a332b3cd8ddc5d24e79c7c28f89da9e488bab35bce2b3b672ad2ac4f0c8"
+    }
+  ]
+}

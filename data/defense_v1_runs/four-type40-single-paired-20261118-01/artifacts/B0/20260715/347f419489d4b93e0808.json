@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"iMac G5: The all-in-one computer redefined OCTOBER 05, 2004 (COMPUTERWORLD)......\" based on the Context.",
+    "contexts": [
+      "Apple #39;s New iMac Computer Is All Display Apple Computer unveiled, after a two-month delay, its new iMac desktop computer on Tuesday which integrates disk drives and processors into a flat display less than two inches thick.",
+      "IBM Community to address social issues New York: The US-based software major IBM, along with representatives of the world #39;s leading science, education and philanthropic outfits, has launched a global effort aimed at harnessing the vast computing power of individuals and business computers and ",
+      "Intel nuances Itanium; Microsoft ignores it It #39;s no longer Sun Microsystems and IBM working to undermine the Itanium processor. Both the chip #39;s maker - Intel - and close software partner Microsoft are doing the dirty work now.",
+      "A notebook with muscles to flex Embracing a new gadget indubitably means parting with some hard earned dinero. But eMachines, purchased by Gateway Inc. , is offering next-generation technology at this-generation prices."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Apple #39;s New iMac Computer Is All Display Apple Computer unveiled, after a two-month delay, its new iMac desktop computer on Tuesday which integrates disk drives and processors into a flat display less than two inches thick.\"\n\"IBM Community to address social issues New York: The US-based software major IBM, along with representatives of the world #39;s leading science, education and philanthropic outfits, has launched a global effort aimed at harnessing the vast computing power of individuals and business computers and \"\n\"Intel nuances Itanium; Microsoft ignores it It #39;s no longer Sun Microsystems and IBM working to undermine the Itanium processor. Both the chip #39;s maker - Intel - and close software partner Microsoft are doing the dirty work now.\"\n\"A notebook with muscles to flex Embracing a new gadget indubitably means parting with some hard earned dinero. But eMachines, purchased by Gateway Inc. , is offering next-generation technology at this-generation prices.\"\n\nQuestion:\nComplete this sentence \"iMac G5: The all-in-one computer redefined OCTOBER 05, 2004 (COMPUTERWORLD)......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

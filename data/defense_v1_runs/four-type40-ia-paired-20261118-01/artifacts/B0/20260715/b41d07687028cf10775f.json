@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Mars rovers Spirit and Opportunity going strong after 10 months on Mars. Has the Mars rover Spirit been operational for 10 months? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is planning to add a strong dose of artificial intelligence (AI) to planetary rovers to make them much more self-reliant, capable of making basic decisions during a mission. Scientists are developing very complex AI software that enables a higher level of robotic intelligence.",
+      "NASA head steps down Since June 2003, NASA has been investigating the possibility of using a robotic spacecraft to service Hubble. Such a mission would not put the lives of astronauts in jeopardy.",
+      "Continued growth in US services sector NEW YORK, November 3 (newratings.com) - The US services sector witnessed a continued upturn for the nineteenth consecutive month in October this year, the Institute of Supply Management (ISM) reported today.",
+      "Security Council members arrive in Nairobi ahead of session on &lt;b&gt;...&lt;/b&gt; 17 November 2004 - Members of the United Nations Security Council arrived today in Nairobi ahead of a two-day meeting devoted to the civil conflicts engulfing Sudan, including the crisis in the western region of Darfur and the long-running war in the "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is planning to add a strong dose of artificial intelligence (AI) to planetary rovers to make them much more self-reliant, capable of making basic decisions during a mission. Scientists are developing very complex AI software that enables a higher level of robotic intelligence.\"\n\"NASA head steps down Since June 2003, NASA has been investigating the possibility of using a robotic spacecraft to service Hubble. Such a mission would not put the lives of astronauts in jeopardy.\"\n\"Continued growth in US services sector NEW YORK, November 3 (newratings.com) - The US services sector witnessed a continued upturn for the nineteenth consecutive month in October this year, the Institute of Supply Management (ISM) reported today.\"\n\"Security Council members arrive in Nairobi ahead of session on &lt;b&gt;...&lt;/b&gt; 17 November 2004 - Members of the United Nations Security Council arrived today in Nairobi ahead of a two-day meeting devoted to the civil conflicts engulfing Sudan, including the crisis in the western region of Darfur and the long-running war in the \"\n\nQuestion:\nI am inquiring about a Mars rovers Spirit and Opportunity going strong after 10 months on Mars. Has the Mars rover Spirit been operational for 10 months? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

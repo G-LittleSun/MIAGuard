@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Fox to announce deal to air Fiesta, Orange, Sugar bowls......\" based on the Context.",
+    "contexts": [
+      "Animating for the Super Bowl Against an impossible deadline, a small team at Sony Cinematics Solutions Group created a two-minute animated promo to prove that a tech-savvy group could do dazzling broadcast work. Aug 13",
+      "AdWatch: Bush Touts Job Creation in TV Ad (AP) AP - Details of a new television ad from President Bush that begins airing this week:",
+      "At Wal-Mart, the New Word Is Compromise n an apparent mea culpa, the chief executive of Wal-Mart Stores said yesterday that the company #39;s  quot;message has not in fact gotten out quot; and called it  quot;management #39;s failure.",
+      "ESPN dials a cell deal Listen up sports fans, ESPN #39;s about to bring its news, stats, scores, and video - to cell phones. The Disney-owned cable TV powerhouse has inked a deal with Sprint to launch the first ESPN-branded cell phone."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Animating for the Super Bowl Against an impossible deadline, a small team at Sony Cinematics Solutions Group created a two-minute animated promo to prove that a tech-savvy group could do dazzling broadcast work. Aug 13\"\n\"AdWatch: Bush Touts Job Creation in TV Ad (AP) AP - Details of a new television ad from President Bush that begins airing this week:\"\n\"At Wal-Mart, the New Word Is Compromise n an apparent mea culpa, the chief executive of Wal-Mart Stores said yesterday that the company #39;s  quot;message has not in fact gotten out quot; and called it  quot;management #39;s failure.\"\n\"ESPN dials a cell deal Listen up sports fans, ESPN #39;s about to bring its news, stats, scores, and video - to cell phones. The Disney-owned cable TV powerhouse has inked a deal with Sprint to launch the first ESPN-branded cell phone.\"\n\nQuestion:\nComplete this sentence \"Fox to announce deal to air Fiesta, Orange, Sugar bowls......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

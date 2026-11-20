@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008692",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q118",
+      "session_id": "ia_ag_news_teacher_00008692",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe provided context does not contain specific information about the operational status of the Mars rovers Spirit and Opportunity after 10 months. Therefore, there is insufficient evidence to answer the question definitively.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000979",
+        "ag_news_teacher_00000866"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000979",
+        "ag_news_teacher_00000866"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000470",
+            "ag_news_teacher_00000979",
+            "ag_news_teacher_00000866"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000470",
+            "ag_news_teacher_00000979",
+            "ag_news_teacher_00000866"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1617.2003000974655,
+      "ledger_event": {
+        "request_id": "q118",
+        "session_id": "ia_ag_news_teacher_00008692",
+        "input_sha256": "cc5aac4889273f88334ed93613df8719c21bb56e93b1f1ca6dd710f9c93e16db",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000149",
+          "ag_news_teacher_00000470",
+          "ag_news_teacher_00000979",
+          "ag_news_teacher_00000866"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000149",
+            "parent_doc_id": "ag_news_teacher_00000149",
+            "kind": "raw",
+            "score": 0.30569881200790405,
+            "text_sha256": "95c627355672d7db756b82153bffa5c7ec69b5bac2a6cb761a51614f749091b5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000470",
+            "parent_doc_id": "ag_news_teacher_00000470",
+            "kind": "raw",
+            "score": 0.2980276942253113,
+            "text_sha256": "9cec78befa3c65c68b22ae82d2f399ba546a3daceaa033046bc194de6f4851c5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000979",
+            "parent_doc_id": "ag_news_teacher_00000979",
+            "kind": "raw",
+            "score": 0.26023125648498535,
+            "text_sha256": "616dbe60fc44c2b09347218c3eb5654d40b22fc2237cf6e86074713b1e74dfe4"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000866",
+            "parent_doc_id": "ag_news_teacher_00000866",
+            "kind": "raw",
+            "score": 0.25078362226486206,
+            "text_sha256": "ff4cf1f6a803c66bc03afd788a9abc414cc3f02c766cb37933d600992a49af83"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe provided context does not contain specific information about the operational status of the Mars rovers Spirit and Opportunity after 10 months. Therefore, there is insufficient evidence to answer the question definitively.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006891.5278242,
+        "finished_at": 1795006893.1448226
+      },
+      "generation_input_ref": "artifacts/B0/20260715/b41d07687028cf10775f.json",
+      "artifact_sha256": "f6bd4b73d9ec78e2856782f81b89a12a834938e190117f93cb826cca5d33605c"
+    },
+    {
+      "request_id": "q119",
+      "session_id": "ia_ag_news_teacher_00008692",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe provided context does not contain specific information about the operational status of the Mars rovers Spirit and Opportunity after 10 months on Mars. Therefore, there is insufficient evidence to answer the question definitively.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000979",
+        "ag_news_teacher_00000618"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000979",
+        "ag_news_teacher_00000618"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000470",
+            "ag_news_teacher_00000979",
+            "ag_news_teacher_00000618"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000470",
+            "ag_news_teacher_00000979",
+            "ag_news_teacher_00000618"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1673.4695006161928,
+      "ledger_event": {
+        "request_id": "q119",
+        "session_id": "ia_ag_news_teacher_00008692",
+        "input_sha256": "78db819e58a46735fdd43cbcd0157e3b988472424cd12ca6c6ac7add4365f193",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000149",
+          "ag_news_teacher_00000470",
+          "ag_news_teacher_00000979",
+          "ag_news_teacher_00000618"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000149",
+            "parent_doc_id": "ag_news_teacher_00000149",
+            "kind": "raw",
+            "score": 0.3252231180667877,
+            "text_sha256": "95c627355672d7db756b82153bffa5c7ec69b5bac2a6cb761a51614f749091b5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000470",
+            "parent_doc_id": "ag_news_teacher_00000470",
+            "kind": "raw",
+            "score": 0.3016732335090637,
+            "text_sha256": "9cec78befa3c65c68b22ae82d2f399ba546a3daceaa033046bc194de6f4851c5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000979",
+            "parent_doc_id": "ag_news_teacher_00000979",
+            "kind": "raw",
+            "score": 0.2554807662963867,
+            "text_sha256": "616dbe60fc44c2b09347218c3eb5654d40b22fc2237cf6e86074713b1e74dfe4"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000618",
+            "parent_doc_id": "ag_news_teacher_00000618",
+            "kind": "raw",
+            "score": 0.251480370759964,
+            "text_sha256": "ae6172e8f5542db11da1f11316efbec899e1385e913032ee7a87eb91042adaf5"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe provided context does not contain specific information about the operational status of the Mars rovers Spirit and Opportunity after 10 months on Mars. Therefore, there is insufficient evidence to answer the question definitively.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006893.1498227,
+        "finished_at": 1795006894.8233228
+      },
+      "generation_input_ref": "artifacts/B0/20260715/f9eae3baea0141216162.json",
+      "artifact_sha256": "58aa9a3317de10c1f28462464061de68fbda5b543c7fa2eb17da1c472714db24"
+    },
+    {
+      "request_id": "q120",
+      "session_id": "ia_ag_news_teacher_00008692",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown\n\nThe provided context does not contain specific information about the duration of the Spirit and Opportunity missions or their geological studies on Mars. Therefore, there is insufficient evidence to confirm or deny whether these studies have been ongoing for 10 months.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000866",
+        "ag_news_teacher_00000563"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000149",
+        "ag_news_teacher_00000470",
+        "ag_news_teacher_00000866",
+        "ag_news_teacher_00000563"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000470",
+            "ag_news_teacher_00000866",
+            "ag_news_teacher_00000563"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000149",
+            "ag_news_teacher_00000470",
+            "ag_news_teacher_00000866",
+            "ag_news_teacher_00000563"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1697.7222003042698,
+      "ledger_event": {
+        "request_id": "q120",
+        "session_id": "ia_ag_news_teacher_00008692",
+        "input_sha256": "3183a3fae3ff7a79aee6dd344ad6bbc559b36496dc7b24200b9a3a0e46a7eeb1",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000149",
+          "ag_news_teacher_00000470",
+          "ag_news_teacher_00000866",
+          "ag_news_teacher_00000563"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000149",
+            "parent_doc_id": "ag_news_teacher_00000149",
+            "kind": "raw",
+            "score": 0.3241010904312134,
+            "text_sha256": "95c627355672d7db756b82153bffa5c7ec69b5bac2a6cb761a51614f749091b5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000470",
+            "parent_doc_id": "ag_news_teacher_00000470",
+            "kind": "raw",
+            "score": 0.28515303134918213,
+            "text_sha256": "9cec78befa3c65c68b22ae82d2f399ba546a3daceaa033046bc194de6f4851c5"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000866",
+            "parent_doc_id": "ag_news_teacher_00000866",
+            "kind": "raw",
+            "score": 0.24560247361660004,
+            "text_sha256": "ff4cf1f6a803c66bc03afd788a9abc414cc3f02c766cb37933d600992a49af83"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000563",
+            "parent_doc_id": "ag_news_teacher_00000563",
+            "kind": "raw",
+            "score": 0.240820050239563,
+            "text_sha256": "825799be5d176e45cf452673bf5e367dedda81b5f8f2ec05ae71c887fe262e74"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown\n\nThe provided context does not contain specific information about the duration of the Spirit and Opportunity missions or their geological studies on Mars. Therefore, there is insufficient evidence to confirm or deny whether these studies have been ongoing for 10 months.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006894.8288226,
+        "finished_at": 1795006896.5263226
+      },
+      "generation_input_ref": "artifacts/B0/20260715/e57261da8db1d82d10ba.json",
+      "artifact_sha256": "d286546b56ec02b6a81d696d5cd7e3b5847f10208ecfc1f266bafc87741a3ac1"
+    }
+  ]
+}

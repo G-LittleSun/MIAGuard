@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "status": "exploratory_grouping_not_final",
+  "source_revision_manifest_sha256": "041f32fe0bf7f10842feb93f3f366775df796d351344b362ca95fe544cbc9bcf",
+  "d_dev_index_documents_sha256": "bfa05b9414ad3ca26b3fff9cbfa759790fd88fe97404ac9335950dffe2dbfaae",
+  "source_sessions": 28,
+  "source_documents": 31,
+  "base_rule": "Connect sessions sharing doc_id, parent_doc_id, or pre-existing duplicate_group_id; group 2/3 versions of same source session.",
+  "base_groups": [
+    [
+      "expanded_citation_check_01"
+    ],
+    [
+      "expanded_citation_check_02"
+    ],
+    [
+      "expanded_cross_document_synthesis_13"
+    ],
+    [
+      "expanded_cross_document_synthesis_14"
+    ],
+    [
+      "expanded_evidence_insufficient_09"
+    ],
+    [
+      "expanded_evidence_insufficient_10"
+    ],
+    [
+      "expanded_exact_entity_number_03"
+    ],
+    [
+      "expanded_exact_entity_number_04"
+    ],
+    [
+      "expanded_multi_turn_reading_05"
+    ],
+    [
+      "expanded_multi_turn_reading_06"
+    ],
+    [
+      "expanded_single_fact_07"
+    ],
+    [
+      "expanded_single_fact_08"
+    ],
+    [
+      "expanded_topic_summary_11"
+    ],
+    [
+      "expanded_topic_summary_12"
+    ],
+    [
+      "s_0036417c86948330e11bae92_same"
+    ],
+    [
+      "s_018315d1c2b3844d065f3271_same"
+    ],
+    [
+      "s_04986002cdaa941b4e001f09_same",
+      "s_08e8938c350e35aa9a8fa6fb_same"
+    ],
+    [
+      "s_09006cbd05dd713ca18ac43b_same"
+    ],
+    [
+      "s_153a5ba7fed9ffda622c892d_same"
+    ],
+    [
+      "s_1709052c2c393baf1346bd1f_same"
+    ],
+    [
+      "s_1719eb75e00dd29b35bc741b_same"
+    ],
+    [
+      "s_173b030fcf5fd3dcd095227b_same"
+    ],
+    [
+      "s_1d0d4cac7b5f8389d38dd6cc_same"
+    ],
+    [
+      "s_35f642a015443be4b6938941_same"
+    ],
+    [
+      "s_399af0c268f41f6b4588a0ef_same"
+    ],
+    [
+      "s_3e92f4335d69f54d3c656df2_same"
+    ],
+    [
+      "s_437a104284d832b1cd5f0849_same"
+    ]
+  ],
+  "base_group_count": 27,
+  "conservative_rule": "Additionally connect the three candidate sessions concerning oil prices/markets or energy supply/heating as a sensitivity group, without asserting that their documents describe the same event.",
+  "conservative_groups": [
+    [
+      "expanded_citation_check_01"
+    ],
+    [
+      "expanded_citation_check_02"
+    ],
+    [
+      "expanded_cross_document_synthesis_13",
+      "expanded_cross_document_synthesis_14",
+      "s_3e92f4335d69f54d3c656df2_same"
+    ],
+    [
+      "expanded_evidence_insufficient_09"
+    ],
+    [
+      "expanded_evidence_insufficient_10"
+    ],
+    [
+      "expanded_exact_entity_number_03"
+    ],
+    [
+      "expanded_exact_entity_number_04"
+    ],
+    [
+      "expanded_multi_turn_reading_05"
+    ],
+    [
+      "expanded_multi_turn_reading_06"
+    ],
+    [
+      "expanded_single_fact_07"
+    ],
+    [
+      "expanded_single_fact_08"
+    ],
+    [
+      "expanded_topic_summary_11"
+    ],
+    [
+      "expanded_topic_summary_12"
+    ],
+    [
+      "s_0036417c86948330e11bae92_same"
+    ],
+    [
+      "s_018315d1c2b3844d065f3271_same"
+    ],
+    [
+      "s_04986002cdaa941b4e001f09_same",
+      "s_08e8938c350e35aa9a8fa6fb_same"
+    ],
+    [
+      "s_09006cbd05dd713ca18ac43b_same"
+    ],
+    [
+      "s_153a5ba7fed9ffda622c892d_same"
+    ],
+    [
+      "s_1709052c2c393baf1346bd1f_same"
+    ],
+    [
+      "s_1719eb75e00dd29b35bc741b_same"
+    ],
+    [
+      "s_173b030fcf5fd3dcd095227b_same"
+    ],
+    [
+      "s_1d0d4cac7b5f8389d38dd6cc_same"
+    ],
+    [
+      "s_35f642a015443be4b6938941_same"
+    ],
+    [
+      "s_399af0c268f41f6b4588a0ef_same"
+    ],
+    [
+      "s_437a104284d832b1cd5f0849_same"
+    ]
+  ],
+  "conservative_group_count": 25,
+  "theme_affected_sessions": [
+    "s_3e92f4335d69f54d3c656df2_same",
+    "expanded_cross_document_synthesis_13",
+    "expanded_cross_document_synthesis_14"
+  ],
+  "limitations": [
+    "This rule does not detect all semantic or same-event dependencies.",
+    "Shared theme does not prove same event; conservative grouping is not a final sampling rule.",
+    "Review other shared entities and source provenance before formal bootstrap; report both group definitions when justified.",
+    "Pairwise 2/3 versions never count as independent sessions."
+  ]
+}

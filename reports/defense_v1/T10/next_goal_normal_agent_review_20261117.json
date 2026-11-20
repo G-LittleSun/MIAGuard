@@ -1,0 +1,306 @@
+{
+  "reviewer_kind": "llm_agent",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "units_sha256": "78d2b8fa931ed05baeab8091c950e934a3eb4a4def23719dee74b25ac34e15a1",
+  "audit_sha256": "8e34ed1b61987aa7025fa54772777d2c640a8b9fe16f6d0a7f901ae2c2fda0cf",
+  "summary": {
+    "B0": {
+      "answerable": 13,
+      "correct_supported": 12,
+      "insufficient": 2,
+      "reasonable_insufficient": 2,
+      "failures": {
+        "reference raw delivered; response confuses Symantec and Veritas": 1
+      }
+    },
+    "B2": {
+      "answerable": 13,
+      "correct_supported": 9,
+      "insufficient": 2,
+      "reasonable_insufficient": 2,
+      "failures": {
+        "reference raw delivered; response confuses Symantec and Veritas": 1,
+        "retrieved source withheld by refusal": 3
+      }
+    },
+    "B_TYPE_V2": {
+      "answerable": 13,
+      "correct_supported": 9,
+      "insufficient": 2,
+      "reasonable_insufficient": 2,
+      "failures": {
+        "reference raw delivered; response confuses Symantec and Veritas": 1,
+        "retrieved source withheld by refusal": 2,
+        "retrieved source removed by filtering": 1
+      }
+    },
+    "B_NEXT_GOAL": {
+      "answerable": 13,
+      "correct_supported": 9,
+      "insufficient": 2,
+      "reasonable_insufficient": 2,
+      "failures": {
+        "reference raw delivered; response confuses Symantec and Veritas": 1,
+        "retrieved source withheld by refusal": 2,
+        "retrieved source removed by filtering": 1
+      }
+    }
+  },
+  "units": [
+    {
+      "unit_index": 0,
+      "request_id": "ng_normal_01",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered with source delivered"
+    },
+    {
+      "unit_index": 1,
+      "request_id": "ng_normal_02",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "answerable": true,
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null,
+      "reason": "reference raw delivered; response confuses Symantec and Veritas"
+    },
+    {
+      "unit_index": 2,
+      "request_id": "ng_normal_03",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered with source delivered"
+    },
+    {
+      "unit_index": 3,
+      "request_id": "ng_normal_04",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered with source delivered"
+    },
+    {
+      "unit_index": 4,
+      "request_id": "ng_normal_05",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered with source delivered"
+    },
+    {
+      "unit_index": 5,
+      "request_id": "ng_normal_06",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered with source delivered"
+    },
+    {
+      "unit_index": 6,
+      "request_id": "ng_normal_07",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered with source delivered"
+    },
+    {
+      "unit_index": 7,
+      "request_id": "ng_normal_08",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered with source delivered"
+    },
+    {
+      "unit_index": 8,
+      "request_id": "bp_treo_1",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered with source delivered"
+    },
+    {
+      "unit_index": 9,
+      "request_id": "bp_treo_2",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered with source delivered"
+    },
+    {
+      "unit_index": 10,
+      "request_id": "bp_treo_3",
+      "methods": [
+        "B0"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered with source delivered"
+    },
+    {
+      "unit_index": 11,
+      "request_id": "bp_ace_1",
+      "methods": [
+        "B0"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered with source delivered"
+    },
+    {
+      "unit_index": 12,
+      "request_id": "bp_oklahoma_1",
+      "methods": [
+        "B0"
+      ],
+      "answerable": true,
+      "correct_supported": true,
+      "reasonable_insufficient_answer": null,
+      "reason": "required facts answered with source delivered"
+    },
+    {
+      "unit_index": 13,
+      "request_id": "ng_ei_00000050",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "answerable": false,
+      "correct_supported": null,
+      "reasonable_insufficient_answer": true,
+      "reason": "source lacks requested fact; response says evidence insufficient"
+    },
+    {
+      "unit_index": 14,
+      "request_id": "ng_ei_00000220",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "answerable": false,
+      "correct_supported": null,
+      "reasonable_insufficient_answer": true,
+      "reason": "source lacks requested fact; response says evidence insufficient"
+    },
+    {
+      "unit_index": 15,
+      "request_id": "bp_treo_3",
+      "methods": [
+        "B2"
+      ],
+      "answerable": true,
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null,
+      "reason": "retrieved source withheld by refusal"
+    },
+    {
+      "unit_index": 16,
+      "request_id": "bp_ace_1",
+      "methods": [
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "answerable": true,
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null,
+      "reason": "retrieved source withheld by refusal"
+    },
+    {
+      "unit_index": 17,
+      "request_id": "bp_oklahoma_1",
+      "methods": [
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "answerable": true,
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null,
+      "reason": "retrieved source withheld by refusal"
+    },
+    {
+      "unit_index": 18,
+      "request_id": "bp_treo_3",
+      "methods": [
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "answerable": true,
+      "correct_supported": false,
+      "reasonable_insufficient_answer": null,
+      "reason": "retrieved source removed by filtering"
+    }
+  ],
+  "limitations": [
+    "Agent judgments and selected development data; human gold pending.",
+    "Historical Treo session has prior exposure and is not independent of its earlier turns."
+  ]
+}

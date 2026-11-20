@@ -1,0 +1,326 @@
+{
+  "attacks": [
+    "masked_mia",
+    "ia"
+  ],
+  "created_at": "2026-07-15T12:53:58.337090+00:00",
+  "dataset_runs": {
+    "ag_news": {
+      "attacks": {
+        "ia": {
+          "member_ids": [
+            "ag_news_teacher_00000000",
+            "ag_news_teacher_00000001",
+            "ag_news_teacher_00000002",
+            "ag_news_teacher_00000003",
+            "ag_news_teacher_00000004",
+            "ag_news_teacher_00000005",
+            "ag_news_teacher_00000006",
+            "ag_news_teacher_00000007",
+            "ag_news_teacher_00000008",
+            "ag_news_teacher_00000009"
+          ],
+          "nonmember_ids": [
+            "ag_news_teacher_00008000",
+            "ag_news_teacher_00008001",
+            "ag_news_teacher_00008002",
+            "ag_news_teacher_00008003",
+            "ag_news_teacher_00008004",
+            "ag_news_teacher_00008005",
+            "ag_news_teacher_00008006",
+            "ag_news_teacher_00008007",
+            "ag_news_teacher_00008008",
+            "ag_news_teacher_00008009"
+          ]
+        },
+        "masked_mia": {
+          "member_ids": [
+            "ag_news_teacher_00000000",
+            "ag_news_teacher_00000001",
+            "ag_news_teacher_00000002",
+            "ag_news_teacher_00000003",
+            "ag_news_teacher_00000004",
+            "ag_news_teacher_00000005",
+            "ag_news_teacher_00000006",
+            "ag_news_teacher_00000007",
+            "ag_news_teacher_00000008",
+            "ag_news_teacher_00000009"
+          ],
+          "nonmember_ids": [
+            "ag_news_teacher_00008000",
+            "ag_news_teacher_00008001",
+            "ag_news_teacher_00008002",
+            "ag_news_teacher_00008003",
+            "ag_news_teacher_00008004",
+            "ag_news_teacher_00008005",
+            "ag_news_teacher_00008006",
+            "ag_news_teacher_00008007",
+            "ag_news_teacher_00008008",
+            "ag_news_teacher_00008009"
+          ]
+        }
+      },
+      "target_docs_path": "ag_news/target_docs.jsonl",
+      "validation_manifest_path": "data/manifests/datasets/ag_news.validation.json"
+    },
+    "healthcare_magic": {
+      "attacks": {
+        "ia": {
+          "member_ids": [
+            "healthcare_magic_teacher_00000000",
+            "healthcare_magic_teacher_00000001",
+            "healthcare_magic_teacher_00000002",
+            "healthcare_magic_teacher_00000003",
+            "healthcare_magic_teacher_00000004",
+            "healthcare_magic_teacher_00000005",
+            "healthcare_magic_teacher_00000006",
+            "healthcare_magic_teacher_00000007",
+            "healthcare_magic_teacher_00000008",
+            "healthcare_magic_teacher_00000009"
+          ],
+          "nonmember_ids": [
+            "healthcare_magic_teacher_00008000",
+            "healthcare_magic_teacher_00008001",
+            "healthcare_magic_teacher_00008002",
+            "healthcare_magic_teacher_00008003",
+            "healthcare_magic_teacher_00008004",
+            "healthcare_magic_teacher_00008005",
+            "healthcare_magic_teacher_00008006",
+            "healthcare_magic_teacher_00008007",
+            "healthcare_magic_teacher_00008008",
+            "healthcare_magic_teacher_00008009"
+          ]
+        },
+        "masked_mia": {
+          "member_ids": [
+            "healthcare_magic_teacher_00000000",
+            "healthcare_magic_teacher_00000001",
+            "healthcare_magic_teacher_00000002",
+            "healthcare_magic_teacher_00000003",
+            "healthcare_magic_teacher_00000004",
+            "healthcare_magic_teacher_00000005",
+            "healthcare_magic_teacher_00000006",
+            "healthcare_magic_teacher_00000007",
+            "healthcare_magic_teacher_00000008",
+            "healthcare_magic_teacher_00000009"
+          ],
+          "nonmember_ids": [
+            "healthcare_magic_teacher_00008000",
+            "healthcare_magic_teacher_00008001",
+            "healthcare_magic_teacher_00008002",
+            "healthcare_magic_teacher_00008003",
+            "healthcare_magic_teacher_00008004",
+            "healthcare_magic_teacher_00008005",
+            "healthcare_magic_teacher_00008006",
+            "healthcare_magic_teacher_00008007",
+            "healthcare_magic_teacher_00008008",
+            "healthcare_magic_teacher_00008009"
+          ]
+        }
+      },
+      "target_docs_path": "healthcare_magic/target_docs.jsonl",
+      "validation_manifest_path": "data/manifests/datasets/healthcare_magic.validation.json"
+    },
+    "ms_marco": {
+      "attacks": {
+        "ia": {
+          "member_ids": [
+            "ms_marco_teacher_00000000",
+            "ms_marco_teacher_00000001",
+            "ms_marco_teacher_00000002",
+            "ms_marco_teacher_00000003",
+            "ms_marco_teacher_00000004",
+            "ms_marco_teacher_00000005",
+            "ms_marco_teacher_00000006",
+            "ms_marco_teacher_00000007",
+            "ms_marco_teacher_00000008",
+            "ms_marco_teacher_00000009"
+          ],
+          "nonmember_ids": [
+            "ms_marco_teacher_00008000",
+            "ms_marco_teacher_00008001",
+            "ms_marco_teacher_00008002",
+            "ms_marco_teacher_00008003",
+            "ms_marco_teacher_00008004",
+            "ms_marco_teacher_00008005",
+            "ms_marco_teacher_00008006",
+            "ms_marco_teacher_00008007",
+            "ms_marco_teacher_00008008",
+            "ms_marco_teacher_00008009"
+          ]
+        },
+        "masked_mia": {
+          "member_ids": [
+            "ms_marco_teacher_00000000",
+            "ms_marco_teacher_00000001",
+            "ms_marco_teacher_00000002",
+            "ms_marco_teacher_00000003",
+            "ms_marco_teacher_00000004",
+            "ms_marco_teacher_00000005",
+            "ms_marco_teacher_00000006",
+            "ms_marco_teacher_00000007",
+            "ms_marco_teacher_00000008",
+            "ms_marco_teacher_00000009"
+          ],
+          "nonmember_ids": [
+            "ms_marco_teacher_00008000",
+            "ms_marco_teacher_00008001",
+            "ms_marco_teacher_00008002",
+            "ms_marco_teacher_00008003",
+            "ms_marco_teacher_00008004",
+            "ms_marco_teacher_00008005",
+            "ms_marco_teacher_00008006",
+            "ms_marco_teacher_00008007",
+            "ms_marco_teacher_00008008",
+            "ms_marco_teacher_00008009"
+          ]
+        }
+      },
+      "target_docs_path": "ms_marco/target_docs.jsonl",
+      "validation_manifest_path": "data/manifests/datasets/ms_marco.validation.json"
+    },
+    "nq": {
+      "attacks": {
+        "ia": {
+          "member_ids": [
+            "nq_teacher_00000000",
+            "nq_teacher_00000001",
+            "nq_teacher_00000002",
+            "nq_teacher_00000003",
+            "nq_teacher_00000004",
+            "nq_teacher_00000005",
+            "nq_teacher_00000006",
+            "nq_teacher_00000007",
+            "nq_teacher_00000008",
+            "nq_teacher_00000009"
+          ],
+          "nonmember_ids": [
+            "nq_teacher_00008000",
+            "nq_teacher_00008001",
+            "nq_teacher_00008002",
+            "nq_teacher_00008003",
+            "nq_teacher_00008004",
+            "nq_teacher_00008005",
+            "nq_teacher_00008006",
+            "nq_teacher_00008007",
+            "nq_teacher_00008008",
+            "nq_teacher_00008009"
+          ]
+        },
+        "masked_mia": {
+          "member_ids": [
+            "nq_teacher_00000000",
+            "nq_teacher_00000001",
+            "nq_teacher_00000002",
+            "nq_teacher_00000003",
+            "nq_teacher_00000004",
+            "nq_teacher_00000005",
+            "nq_teacher_00000006",
+            "nq_teacher_00000007",
+            "nq_teacher_00000008",
+            "nq_teacher_00000009"
+          ],
+          "nonmember_ids": [
+            "nq_teacher_00008000",
+            "nq_teacher_00008001",
+            "nq_teacher_00008002",
+            "nq_teacher_00008003",
+            "nq_teacher_00008004",
+            "nq_teacher_00008005",
+            "nq_teacher_00008006",
+            "nq_teacher_00008007",
+            "nq_teacher_00008008",
+            "nq_teacher_00008009"
+          ]
+        }
+      },
+      "target_docs_path": "nq/target_docs.jsonl",
+      "validation_manifest_path": "data/manifests/datasets/nq.validation.json"
+    },
+    "t2ranking": {
+      "attacks": {
+        "ia": {
+          "member_ids": [
+            "t2rank_00000628",
+            "t2rank_00001373",
+            "t2rank_00003250",
+            "t2rank_00004492",
+            "t2rank_00005079",
+            "t2rank_00005264",
+            "t2rank_00005335",
+            "t2rank_00005843",
+            "t2rank_00005892",
+            "t2rank_00006267"
+          ],
+          "nonmember_ids": [
+            "t2rank_00001243",
+            "t2rank_00001436",
+            "t2rank_00002098",
+            "t2rank_00002148",
+            "t2rank_00002721",
+            "t2rank_00002826",
+            "t2rank_00002976",
+            "t2rank_00003048",
+            "t2rank_00003410",
+            "t2rank_00004514"
+          ]
+        },
+        "masked_mia": {
+          "member_ids": [
+            "t2rank_00000628",
+            "t2rank_00001373",
+            "t2rank_00003250",
+            "t2rank_00004492",
+            "t2rank_00005079",
+            "t2rank_00005264",
+            "t2rank_00005335",
+            "t2rank_00005843",
+            "t2rank_00005892",
+            "t2rank_00006267"
+          ],
+          "nonmember_ids": [
+            "t2rank_00001243",
+            "t2rank_00001436",
+            "t2rank_00002098",
+            "t2rank_00002148",
+            "t2rank_00002721",
+            "t2rank_00002826",
+            "t2rank_00002976",
+            "t2rank_00003048",
+            "t2rank_00003410",
+            "t2rank_00004514"
+          ]
+        }
+      },
+      "target_docs_path": "t2ranking/target_docs.jsonl",
+      "validation_manifest_path": "data/manifests/datasets/t2ranking.validation.json"
+    }
+  },
+  "datasets": [
+    "t2ranking",
+    "ag_news",
+    "healthcare_magic",
+    "ms_marco",
+    "nq"
+  ],
+  "profile": "smoke",
+  "run_id": "20260715-all-smoke-repeat",
+  "status": "prepared",
+  "target_counts": {
+    "ia": {
+      "members": 10,
+      "nonmembers": 10
+    },
+    "masked_mia": {
+      "members": 10,
+      "nonmembers": 10
+    }
+  },
+  "validation_manifests": {
+    "ag_news": "data/manifests/datasets/ag_news.validation.json",
+    "healthcare_magic": "data/manifests/datasets/healthcare_magic.validation.json",
+    "ms_marco": "data/manifests/datasets/ms_marco.validation.json",
+    "nq": "data/manifests/datasets/nq.validation.json",
+    "t2ranking": "data/manifests/datasets/t2ranking.validation.json"
+  }
+}

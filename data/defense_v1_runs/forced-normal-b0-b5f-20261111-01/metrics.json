@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-forced-normal-diagnostic",
+  "run_id": "forced-normal-b0-b5f-20261111-01",
+  "identity_sha256": "8814787962c6608a48416dc2c49395a76bbf382422bfb9cbbdbdc7b8c8ee7a52",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 8,
+  "completed": 8,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 4,
+  "method_count": 2,
+  "attack_target_count": 0,
+  "benign_request_count": 8
+}

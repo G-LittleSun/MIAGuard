@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008834",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q073",
+      "session_id": "ia_ag_news_teacher_00008834",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown. The provided context does not contain any information related to a Calvin Murphy sexual abuse trial or its conclusion.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000558",
+        "ag_news_teacher_00000198",
+        "ag_news_teacher_00000036",
+        "ag_news_teacher_00000551"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000558",
+        "ag_news_teacher_00000198",
+        "ag_news_teacher_00000036",
+        "ag_news_teacher_00000551"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000558",
+            "ag_news_teacher_00000198",
+            "ag_news_teacher_00000036",
+            "ag_news_teacher_00000551"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000558",
+            "ag_news_teacher_00000198",
+            "ag_news_teacher_00000036",
+            "ag_news_teacher_00000551"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 763.4967993944883,
+      "ledger_event": {
+        "request_id": "q073",
+        "session_id": "ia_ag_news_teacher_00008834",
+        "input_sha256": "f8ffd53f2f70bb2d040306b6621cc6a71e626cd7de2193c23d7414e321e0e739",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000558",
+          "ag_news_teacher_00000198",
+          "ag_news_teacher_00000036",
+          "ag_news_teacher_00000551"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000558",
+            "parent_doc_id": "ag_news_teacher_00000558",
+            "kind": "raw",
+            "score": 0.2978304326534271,
+            "text_sha256": "cf5997c3b6dc10e45f3ead98b588868ba20a900634c7aba66649a6f1e78d5e3c"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000198",
+            "parent_doc_id": "ag_news_teacher_00000198",
+            "kind": "raw",
+            "score": 0.28603726625442505,
+            "text_sha256": "c1fa7d66f4aa003cce1a29eb465cd94b77bc1aaad0b1192360206fa4f2edd95d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000036",
+            "parent_doc_id": "ag_news_teacher_00000036",
+            "kind": "raw",
+            "score": 0.25780969858169556,
+            "text_sha256": "88e988227311766af3d10523ed7cf5db2641a651c43daf57113892135251dd17"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000551",
+            "parent_doc_id": "ag_news_teacher_00000551",
+            "kind": "raw",
+            "score": 0.2528633773326874,
+            "text_sha256": "c2b64bfc224db7fc9308d3f681f5185e3d962f86c38b8916eef105672bccc4a3"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown. The provided context does not contain any information related to a Calvin Murphy sexual abuse trial or its conclusion.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006828.7613225,
+        "finished_at": 1795006829.5248225
+      },
+      "generation_input_ref": "artifacts/B0/20260715/4cf6cc9f77466603ed26.json",
+      "artifact_sha256": "4e8bd8fabbbc29aea4066bb99e3867c0b16d784557fe49227fa16529cd6e1232"
+    },
+    {
+      "request_id": "q074",
+      "session_id": "ia_ag_news_teacher_00008834",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not contain any information related to a Calvin Murphy sexual abuse trial or its proceedings, including details about the conclusion of testimony before closing arguments. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000558",
+        "ag_news_teacher_00000198",
+        "ag_news_teacher_00000551",
+        "ag_news_teacher_00000036"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000558",
+        "ag_news_teacher_00000198",
+        "ag_news_teacher_00000551",
+        "ag_news_teacher_00000036"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000558",
+            "ag_news_teacher_00000198",
+            "ag_news_teacher_00000551",
+            "ag_news_teacher_00000036"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000558",
+            "ag_news_teacher_00000198",
+            "ag_news_teacher_00000551",
+            "ag_news_teacher_00000036"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1419.3924004212022,
+      "ledger_event": {
+        "request_id": "q074",
+        "session_id": "ia_ag_news_teacher_00008834",
+        "input_sha256": "f524aeb86c7c2efdf8bed19c2734fdafddf4d230078685932bf67a4850532ba6",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000558",
+          "ag_news_teacher_00000198",
+          "ag_news_teacher_00000551",
+          "ag_news_teacher_00000036"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000558",
+            "parent_doc_id": "ag_news_teacher_00000558",
+            "kind": "raw",
+            "score": 0.36881762742996216,
+            "text_sha256": "cf5997c3b6dc10e45f3ead98b588868ba20a900634c7aba66649a6f1e78d5e3c"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000198",
+            "parent_doc_id": "ag_news_teacher_00000198",
+            "kind": "raw",
+            "score": 0.2885940670967102,
+            "text_sha256": "c1fa7d66f4aa003cce1a29eb465cd94b77bc1aaad0b1192360206fa4f2edd95d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000551",
+            "parent_doc_id": "ag_news_teacher_00000551",
+            "kind": "raw",
+            "score": 0.27935683727264404,
+            "text_sha256": "c2b64bfc224db7fc9308d3f681f5185e3d962f86c38b8916eef105672bccc4a3"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000036",
+            "parent_doc_id": "ag_news_teacher_00000036",
+            "kind": "raw",
+            "score": 0.2566608786582947,
+            "text_sha256": "88e988227311766af3d10523ed7cf5db2641a651c43daf57113892135251dd17"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not contain any information related to a Calvin Murphy sexual abuse trial or its proceedings, including details about the conclusion of testimony before closing arguments. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006829.530322,
+        "finished_at": 1795006830.9493225
+      },
+      "generation_input_ref": "artifacts/B0/20260715/68f60cc8e8b463b8e9e7.json",
+      "artifact_sha256": "629ad0afe9ff8a7850da9f08632f4947c7354ae4a9b0c4062975cae9b465ab44"
+    },
+    {
+      "request_id": "q075",
+      "session_id": "ia_ag_news_teacher_00008834",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000558",
+        "ag_news_teacher_00000069",
+        "ag_news_teacher_00000036",
+        "ag_news_teacher_00000198"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000558",
+        "ag_news_teacher_00000069",
+        "ag_news_teacher_00000036",
+        "ag_news_teacher_00000198"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000558",
+            "ag_news_teacher_00000069",
+            "ag_news_teacher_00000036",
+            "ag_news_teacher_00000198"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000558",
+            "ag_news_teacher_00000069",
+            "ag_news_teacher_00000036",
+            "ag_news_teacher_00000198"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 135.87290048599243,
+      "ledger_event": {
+        "request_id": "q075",
+        "session_id": "ia_ag_news_teacher_00008834",
+        "input_sha256": "8e6e7d147c143fdfac4301bba40c0570ac12bfb6612cf1687565ebde9f0af82f",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000558",
+          "ag_news_teacher_00000069",
+          "ag_news_teacher_00000036",
+          "ag_news_teacher_00000198"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000558",
+            "parent_doc_id": "ag_news_teacher_00000558",
+            "kind": "raw",
+            "score": 0.35897308588027954,
+            "text_sha256": "cf5997c3b6dc10e45f3ead98b588868ba20a900634c7aba66649a6f1e78d5e3c"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000069",
+            "parent_doc_id": "ag_news_teacher_00000069",
+            "kind": "raw",
+            "score": 0.34467196464538574,
+            "text_sha256": "6c9d9bf38115f967521d0a589ded761a399b8ec56c4b341c22e832a522d1cc8f"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000036",
+            "parent_doc_id": "ag_news_teacher_00000036",
+            "kind": "raw",
+            "score": 0.3003690242767334,
+            "text_sha256": "88e988227311766af3d10523ed7cf5db2641a651c43daf57113892135251dd17"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000198",
+            "parent_doc_id": "ag_news_teacher_00000198",
+            "kind": "raw",
+            "score": 0.28947150707244873,
+            "text_sha256": "c1fa7d66f4aa003cce1a29eb465cd94b77bc1aaad0b1192360206fa4f2edd95d"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006830.9548304,
+        "finished_at": 1795006831.09083
+      },
+      "generation_input_ref": "artifacts/B0/20260715/87f5ef135ff9641a4523.json",
+      "artifact_sha256": "23a0f04bf175a018dc9465ec48cecbaefc925e9142456db0e752360c6dc7aa96"
+    }
+  ]
+}

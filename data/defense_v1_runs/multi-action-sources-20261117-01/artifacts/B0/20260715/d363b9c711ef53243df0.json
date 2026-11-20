@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Kezman vows to hit the goal trail Mateja Kezman believes......\" based on the Context.",
+    "contexts": [
+      "Kezman vows to hit the goal trail Mateja Kezman believes he can go on a goalscoring spree after finally opening his account for Chelsea. The former PSV Eindhoven striker scored the matchwinner in the 57th minute to give Chelsea victory over ",
+      "Robben One of Europe #39;s Best - Kezman Mateja Kezman today hailed Chelsea team-mate Arjen Robben as one of Europes leading players after his matchwinning performance in Moscow.",
+      "Bayern urge Klinsmann to end Kahn-Lehmann battle Bayern Munich have pleaded with Germany trainer Juergen Klinsmann to put an end to the bitter dispute between goalkeepers Oliver Kahn and Arsenal #39;s Jens Lehmann.",
+      "Stunning Real dazzle with 6-1 win Real Madrid have made a sparkling return to their top form with a rousing 6-1 Primera Liga victory over an out-classed Albacete. Ronaldo, Zidane and Raul found the net on Sunday in a dramatic "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Kezman vows to hit the goal trail Mateja Kezman believes he can go on a goalscoring spree after finally opening his account for Chelsea. The former PSV Eindhoven striker scored the matchwinner in the 57th minute to give Chelsea victory over \"\n\"Robben One of Europe #39;s Best - Kezman Mateja Kezman today hailed Chelsea team-mate Arjen Robben as one of Europes leading players after his matchwinning performance in Moscow.\"\n\"Bayern urge Klinsmann to end Kahn-Lehmann battle Bayern Munich have pleaded with Germany trainer Juergen Klinsmann to put an end to the bitter dispute between goalkeepers Oliver Kahn and Arsenal #39;s Jens Lehmann.\"\n\"Stunning Real dazzle with 6-1 win Real Madrid have made a sparkling return to their top form with a rousing 6-1 Primera Liga victory over an out-classed Albacete. Ronaldo, Zidane and Raul found the net on Sunday in a dramatic \"\n\nQuestion:\nComplete this sentence \"Kezman vows to hit the goal trail Mateja Kezman believes......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

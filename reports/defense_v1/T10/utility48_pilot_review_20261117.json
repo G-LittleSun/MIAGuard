@@ -1,0 +1,15 @@
+{
+  "status": "retrospective_documentation",
+  "reviewer_kind": "llm_agent",
+  "human_reviewed": false,
+  "input_sha256": "3b9b5210da91a14aefafe07608e9cbba7652446e589e0f310738abc1854454d5",
+  "method": "Original twelve draft questions were read against full source texts and quotations. Semantic references on the spaceship are deliberately broad to accommodate two reports without imposing temporal order. Insufficient answers refer only to specified allowlists. Four items were live smoke-tested before main freezing.",
+  "counts": {
+    "source_quote_checked": 9,
+    "insufficient_scope_checked": 3
+  },
+  "limits": [
+    "This documents existing review retrospectively; it is not evidence of independent human review.",
+    "Original pilot records are not final question identities; replacements are in final lineage."
+  ]
+}

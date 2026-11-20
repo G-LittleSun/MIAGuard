@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "c6cd0eda53840834c23c082a679edf5ef00d96bbe2f25d0cf74c0d09c2157ea2",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "rss_dfe75210cf2ed289b7408da9",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "rs_dfe75210cf2ed289b7408da9",
+      "session_id": "rss_dfe75210cf2ed289b7408da9",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "No. 2 refers to Oklahoma's ranking as the second-ranked team in the BCS standings.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000191",
+        "ag_news_teacher_00000843",
+        "ag_news_teacher_00000628",
+        "ag_news_teacher_00000262"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000191",
+        "ag_news_teacher_00000843",
+        "ag_news_teacher_00000628",
+        "ag_news_teacher_00000262"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000191",
+            "ag_news_teacher_00000843",
+            "ag_news_teacher_00000628",
+            "ag_news_teacher_00000262"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000191",
+            "ag_news_teacher_00000843",
+            "ag_news_teacher_00000628",
+            "ag_news_teacher_00000262"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 665.6184000894427,
+      "ledger_event": {
+        "request_id": "rs_dfe75210cf2ed289b7408da9",
+        "session_id": "rss_dfe75210cf2ed289b7408da9",
+        "input_sha256": "633c92ffb45abe7f6b1187d6d59236acf44426b47f680f174a1fb5cada18a62d",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000191",
+          "ag_news_teacher_00000843",
+          "ag_news_teacher_00000628",
+          "ag_news_teacher_00000262"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000191",
+            "parent_doc_id": "ag_news_teacher_00000191",
+            "kind": "raw",
+            "score": 0.46595436334609985,
+            "text_sha256": "77c068905b3de2ab547b6f3a97111c8889294ff10a0e84d6fa04fcb059f50b25"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000843",
+            "parent_doc_id": "ag_news_teacher_00000843",
+            "kind": "raw",
+            "score": 0.43561774492263794,
+            "text_sha256": "6cf582f815bf6b75aad89845c57e44214cf9e2e2a8075d4022560de937c5bdd0"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000628",
+            "parent_doc_id": "ag_news_teacher_00000628",
+            "kind": "raw",
+            "score": 0.31743210554122925,
+            "text_sha256": "51ad5652ec7c88a420843df11c55740575f77133e5faaf8ead98d0e2ec29c398"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000262",
+            "parent_doc_id": "ag_news_teacher_00000262",
+            "kind": "raw",
+            "score": 0.3010121285915375,
+            "text_sha256": "78a105c4fc3dfd7b720aa7a2448697e3ae0fc7cda150eabdf79e61fbc7314152"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "No. 2 refers to Oklahoma's ranking as the second-ranked team in the BCS standings.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794209693.4282181,
+        "finished_at": 1794209694.0937178
+      },
+      "generation_input_ref": "artifacts/B0/20260715/bb4c1ea5109972666429.json",
+      "artifact_sha256": "f3a463ef2b80624c72ce38845a75ec3a6ba5b2ea9f1ca1e59ea80b714f6827ef"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "complete_provisional_assessment",
+  "reviewer_kind": "llm_agent",
+  "reviewer_name": "Codex",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "semantic_scope": "Seven selected cases only; all 4579 rows retain pending semantic review.",
+  "files_sha256": {
+    "manifest.json": "927be57bda3a40dd689e03e015ea6ead14f2664639ff082916b466ef7489ef17",
+    "diagnostics.json": "d158ed114c241169e127c959c73793d7344c3582be924fe0f9171178fde0e7b0",
+    "validation.json": "8f5b60f033f594c0176ef1bc496a9ca060265aa8735928f80d72c16a0e6ea368",
+    "format_contract_check.json": "107592ddc341cc9f66bac1c2a9f444418201865b0adcb4b2bd8a3311bc23d28e",
+    "small_agent_case_review.jsonl": "4716e47f4750fa495e42e81858a2e4118176b91f50d527b442ecc014ab8adacd",
+    "REUSE_REPORT_ZH.md": "605ca03aba528cd3e97f777041b50d57e5c465169b7e32eeee163d0b1d012dd1"
+  }
+}

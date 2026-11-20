@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Fresh Philippine Flooding Kills at Least 26 (Reuters) Reuters -......\" based on the Context.",
+    "contexts": [
+      "Fresh Philippine Flooding Kills at Least 26 (Reuters) Reuters - Floods and landslides caused\\by heavy rains killed at least 26 people in the northern\\Philippines, disaster officials said Tuesday, a week after\\storms left about 160 dead or missing.",
+      "Market bomb kills 13 in Philippines At least 13 people were killed and dozens injured yesterday when a large explosion ripped through a Christmas market in the southern Philippine city of General Santos.",
+      "Haiti Flood Death Toll Rising, Hundreds Missing  GONAIVES, Haiti (Reuters) - Survivors of devastating  flooding in Haiti wandered mud-clogged streets in search of  food on Tuesday as officials said 662 people had been killed  and more than 1,000 were missing.",
+      "Crime Spurs South Africa's Inventors to Action (Reuters) Reuters - Want a computer that screams when\\a thief strikes? Or a personal tracking unit in case you get\\kidnapped?"
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Fresh Philippine Flooding Kills at Least 26 (Reuters) Reuters - Floods and landslides caused\\by heavy rains killed at least 26 people in the northern\\Philippines, disaster officials said Tuesday, a week after\\storms left about 160 dead or missing.\"\n\"Market bomb kills 13 in Philippines At least 13 people were killed and dozens injured yesterday when a large explosion ripped through a Christmas market in the southern Philippine city of General Santos.\"\n\"Haiti Flood Death Toll Rising, Hundreds Missing  GONAIVES, Haiti (Reuters) - Survivors of devastating  flooding in Haiti wandered mud-clogged streets in search of  food on Tuesday as officials said 662 people had been killed  and more than 1,000 were missing.\"\n\"Crime Spurs South Africa's Inventors to Action (Reuters) Reuters - Want a computer that screams when\\a thief strikes? Or a personal tracking unit in case you get\\kidnapped?\"\n\nQuestion:\nComplete this sentence \"Fresh Philippine Flooding Kills at Least 26 (Reuters) Reuters -......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

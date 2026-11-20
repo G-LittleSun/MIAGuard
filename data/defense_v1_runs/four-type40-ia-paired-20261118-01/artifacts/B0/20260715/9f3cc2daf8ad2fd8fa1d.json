@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Protests against Pacific Rim leaders led by President Bush in Chile. Did hundreds of protesters throw rocks during the demonstration? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Protests Target Bush at Summit in Chile Riot police used water cannons and tear gas Friday to break up a demonstration by hundreds of rock-throwing protesters before more than 20,000 people marched to vent their anger at Pacific Rim leaders, particularly President Bush.",
+      "Protesters Heed Calls for Widespread Civil Disobedience Some anti-war demonstrators prepared to symbolically \"die\" as near as possible to the site of the Republican National Convention.",
+      "Thousands March in London to Protest Iraq War Thousands of anti-war activists marched through central London, Sunday, October 17, 2004, to protest the US-led occupation of Iraq.",
+      "Bangladesh opposition in 900-km human chain protest (Reuters) Reuters - Thousands of Bangladesh opposition activists have gathered on Saturday in cities and urban centres to form an unprecedented 900-km \"human chain\" to demonstrate no-confidence in the government."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Protests Target Bush at Summit in Chile Riot police used water cannons and tear gas Friday to break up a demonstration by hundreds of rock-throwing protesters before more than 20,000 people marched to vent their anger at Pacific Rim leaders, particularly President Bush.\"\n\"Protesters Heed Calls for Widespread Civil Disobedience Some anti-war demonstrators prepared to symbolically \"die\" as near as possible to the site of the Republican National Convention.\"\n\"Thousands March in London to Protest Iraq War Thousands of anti-war activists marched through central London, Sunday, October 17, 2004, to protest the US-led occupation of Iraq.\"\n\"Bangladesh opposition in 900-km human chain protest (Reuters) Reuters - Thousands of Bangladesh opposition activists have gathered on Saturday in cities and urban centres to form an unprecedented 900-km \"human chain\" to demonstrate no-confidence in the government.\"\n\nQuestion:\nI am inquiring about a Protests against Pacific Rim leaders led by President Bush in Chile. Did hundreds of protesters throw rocks during the demonstration? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

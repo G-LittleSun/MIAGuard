@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a New Treo 650 file system reduces storage capacity. Is the new file system used in the Treo 650 offering less memory than the older Treo 600? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "New Treo 650 file system cuts storage capacity PalmOne plans to offer a free 128MB expansion card to Treo 650 owners because a new file system used for the handheld actually offers less memory for data storage than was available on the older Treo 600.",
+      "Christmas comes early with Treo 650 I have been anticipating this day like a child waits for Christmas. Today, PalmOne introduces the Treo 650, the answer to my  quot;what smart phone will I buy?",
+      "HP and Hitachi offer 300GB disk drives Hitachi Global Storage Technologies and Hewlett Packard yesterday announced availability of what they claim are the industry #39;s first storage and server systems offering 300GB Fibre Channel and small computer system interface (SCSI) disk drive capacity.",
+      "Hitachi Ups High-End Storage Ante The new HDS storage platform and software enables extensive virtualization, heterogeneous management and universal storage-agnostic replication, Hitachi said."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"New Treo 650 file system cuts storage capacity PalmOne plans to offer a free 128MB expansion card to Treo 650 owners because a new file system used for the handheld actually offers less memory for data storage than was available on the older Treo 600.\"\n\"Christmas comes early with Treo 650 I have been anticipating this day like a child waits for Christmas. Today, PalmOne introduces the Treo 650, the answer to my  quot;what smart phone will I buy?\"\n\"HP and Hitachi offer 300GB disk drives Hitachi Global Storage Technologies and Hewlett Packard yesterday announced availability of what they claim are the industry #39;s first storage and server systems offering 300GB Fibre Channel and small computer system interface (SCSI) disk drive capacity.\"\n\"Hitachi Ups High-End Storage Ante The new HDS storage platform and software enables extensive virtualization, heterogeneous management and universal storage-agnostic replication, Hitachi said.\"\n\nQuestion:\nI am inquiring about a New Treo 650 file system reduces storage capacity. Is the new file system used in the Treo 650 offering less memory than the older Treo 600? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,48 @@
+{
+  "version_id": "multi_action_sources_v2_train_20261117_01",
+  "bank_id": "ag_news_queries_v2",
+  "split_id": "ag_news_threshold_v2",
+  "partition": "train",
+  "analysis_role": "engineering_only",
+  "formal_effect_eligible": false,
+  "human_gold_complete": false,
+  "request_count": 19,
+  "expected_events": 95,
+  "methods": [
+    "B0",
+    "B2",
+    "B_TYPE_V2",
+    "B_MULTI_SUMMARY",
+    "B_MULTI_NO_CONTEXT"
+  ],
+  "counts": {
+    "('direct_rag_mia', 1)": 3,
+    "('s2_mia', 1)": 3,
+    "('masked_mia', 1)": 3,
+    "('direct_rag_mia', 0)": 2,
+    "('s2_mia', 0)": 2,
+    "('masked_mia', 0)": 2,
+    "('ia', 1)": 2,
+    "('ia', 0)": 2
+  },
+  "input_sha256": {
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\multi_action_v2_train_20261117_01\\manifest.json": "a9a7579b8babbfb1ac916d78bb131655f40221ebac4618d303ae682206de58b8",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\locator_new_sources_20261111_01\\manifest.json": "0d4ba9241b7be0d945d1defc606db43535e9b973c22c0d1d174b49c47736caef",
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\legacy_v2_reuse_overlay_20261105_01\\manifest.json": "d4b6625ad3431f7bbc7f551c190897330f4caede116ab50370c6d294883095df",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\build_multi_action_sources_20261117.py": "1f26edf4edb36b72801fd6717fd98787e517b91aaee6df3763da18fab3d1a446"
+  },
+  "output_sha256": {
+    "experiment_spec.json": "8ae7cf764854235d12a1d9a7f81143ff043a718db14ea3de2db3547ebfac978b",
+    "labels.jsonl": "1cf830ceaec376546fa6a96f4fa091eb53a85f774a0fb0907f85ad8f68376cd3",
+    "lineage.jsonl": "720c1beaca137cd69e5dd37c7b1a4d4327c2877fda9b46639381a15dec393980",
+    "normal_rubric.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "requests.jsonl": "a1c3ffbfe51ad76921923cbdf04f120048136e4ae3ddad70390a6a6072fcb801"
+  },
+  "selection": "Six previous locator member examples; three sources outside current parent target IDs with canonical Direct/S2 and first overlay Masked; four pre-reviewed overlay IA queries on four sources outside current parent. Fixed before current candidate outcomes.",
+  "limitations": [
+    "All sources are v2 train known to the frozen Judge; six member examples previously used in defense development.",
+    "Distinct IDs are not independent events; do not claim fresh test or statistical significance.",
+    "Overlay pending review; IA questions lack a topic anchor and may not retrieve the intended article.",
+    "Attack-only supplement; normal quality and budget comparisons use the main cohort."
+  ]
+}

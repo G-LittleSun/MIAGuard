@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "scope": "31 D-dev pilot source texts only, normalized word trigram SimHash exact or Hamming <=3; not semantic independence",
+  "algorithm": "normalized_word_trigram_simhash64_v1",
+  "max_hamming": 3,
+  "source_file_sha256": "2acdec7690dd7263e8258f2919f7d5712793c04ff97f36e410d880fcf7557e0e",
+  "document_count": 31,
+  "pair_count": 465,
+  "computed_duplicate_groups": 31,
+  "groups_with_multiple_docs": [],
+  "min_pair_hamming": 20,
+  "near_pairs_hamming_le_12": [],
+  "limitations": [
+    "SimHash misses semantically related news and reports of the same event.",
+    "Pairing across documents, shared parent and event dependencies must still be adjudicated and grouped before statistical analysis.",
+    "No final independent sample count is asserted."
+  ]
+}

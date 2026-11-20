@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Halo 2 - Microsoft's highly anticipated video game. Was Halo 2 marketed heavily by Microsoft? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "Sony's Smaller PS2 to Debut in U.S., Europe on Nov 1 (Reuters) Reuters - Japan's Sony Corp. said on Tuesday it\\would launch a new version of its popular PlayStation 2 game\\console in the United States and Europe on Nov. 1 at a price of\\ #36;149 and 149 euros ( #36;181) respectively.",
+      "Microsoft pact with Air Force could be model for DOD An enterprisewide software and services agreement the Air Force has signed with Microsoft promises to save the service more than \\$100 million in direct costs and an undefined but significant amount through indirect costs, according to Air Force CIO John ",
+      "Intel nuances Itanium; Microsoft ignores it It #39;s no longer Sun Microsystems and IBM working to undermine the Itanium processor. Both the chip #39;s maker - Intel - and close software partner Microsoft are doing the dirty work now.",
+      "Violent Video Games Not Meant For Children, But Parents Buy Them &lt;b&gt;...&lt;/b&gt; Shoppers in America spend more than \\$6 billion a year on video games according to a Software Association survey. Holiday sales bring an extra boost to game "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Sony's Smaller PS2 to Debut in U.S., Europe on Nov 1 (Reuters) Reuters - Japan's Sony Corp. said on Tuesday it\\would launch a new version of its popular PlayStation 2 game\\console in the United States and Europe on Nov. 1 at a price of\\ #36;149 and 149 euros ( #36;181) respectively.\"\n\"Microsoft pact with Air Force could be model for DOD An enterprisewide software and services agreement the Air Force has signed with Microsoft promises to save the service more than \\$100 million in direct costs and an undefined but significant amount through indirect costs, according to Air Force CIO John \"\n\"Intel nuances Itanium; Microsoft ignores it It #39;s no longer Sun Microsystems and IBM working to undermine the Itanium processor. Both the chip #39;s maker - Intel - and close software partner Microsoft are doing the dirty work now.\"\n\"Violent Video Games Not Meant For Children, But Parents Buy Them &lt;b&gt;...&lt;/b&gt; Shoppers in America spend more than \\$6 billion a year on video games according to a Software Association survey. Holiday sales bring an extra boost to game \"\n\nQuestion:\nI am inquiring about a Halo 2 - Microsoft's highly anticipated video game. Was Halo 2 marketed heavily by Microsoft? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "review_run_id": "pilot_t10c_deepseek_20261102_01",
+  "status": "passed",
+  "errors": [],
+  "scope": "Input/output identity, UTF-8, IDs/order, per-turn coverage, scoped evidence and proposed-answer contract; not proof of factual correctness, review independence, or provider snapshot.",
+  "model_id_claim": "deepseek-v4.1-flash",
+  "model_id_source": "CODEBUDDY_CURRENT_MODEL_ID environment variable of the running session",
+  "reviewer_kind": "llm_agent",
+  "input_file_count": 18,
+  "rows": 70,
+  "turn_reviews": 204,
+  "suggested_turns": 55,
+  "decisions": {
+    "accept": 50,
+    "rewrite": 18,
+    "reject": 2
+  },
+  "cohort_decisions": {
+    "same_source_2": {
+      "accept": 13,
+      "rewrite": 1
+    },
+    "same_source_3": {
+      "accept": 11,
+      "rewrite": 1,
+      "reject": 2
+    },
+    "expanded_sources_2": {
+      "accept": 13,
+      "rewrite": 1
+    },
+    "expanded_sources_3": {
+      "accept": 13,
+      "rewrite": 1
+    },
+    "baseline_5": {
+      "rewrite": 14
+    }
+  },
+  "unsupported_turns": [
+    {
+      "variant_id": "s_153a5ba7fed9ffda622c892d_baseline_5",
+      "turn": 1
+    },
+    {
+      "variant_id": "s_153a5ba7fed9ffda622c892d_baseline_5",
+      "turn": 3
+    }
+  ],
+  "input_file_sha256": {
+    "pilot_pkg/session_inventory.jsonl": "4b2c4eddc193204a4de3843f369adb4b48ef42ee73450937c04489efeb10774c",
+    "pilot_pkg/source_evidence.jsonl": "377370414c2d39e73e8168bbc528b577bc4f2148343389f4886afdf48768a633",
+    "pilot_pkg/normal_variants.jsonl": "2890f4823f601db1b033199ca8b0447386a3bb91c642d80aa87207de51dc729a",
+    "pilot_pkg/session_review.jsonl": "ebc8efb9aef4e7b3ba83d54c4313f74ef5db5b70b1a140a5d456a77f1ca69ba8",
+    "pilot_pkg/expanded_source_evidence.jsonl": "e64fb51929ebb867b65e72c026da4f96c1c5d38321a0f5b36dae9fababc82a99",
+    "pilot_pkg/expanded_source_selection.jsonl": "9f57d3aecec77ce863fa03140fa9cbe7316a2974b9749e1e950d9e673b89d95f",
+    "pilot_pkg/expanded_variants.jsonl": "48c51f9399f034637106b44d1787d0a48b29de6b8620e703a3f09470cfbef716",
+    "pilot_pkg/expanded_review.jsonl": "66b27aa94b20789c6058e3b39a8bcefd407c3174b771374b90efa6dacd099052",
+    "pilot_pkg/baseline_review.jsonl": "c8c81943e89ca3433eddbb088bdc7693af3e40e262512c591dd8df4e9eb96c1a",
+    "pilot_pkg/draft_same_source.py": "fa6ad851b6cd5b9f34cefc1e2cd968fe2235037c580964c5836f7ffbb0dc91c2",
+    "pilot_pkg/draft_expanded.py": "4b8e24eeb5cf6811037105b2fb8269c82e0c6c0aa3070e776aff84d6386e7e3b",
+    "pilot_pkg/review_baseline.py": "399b5877f4305ab4bda403f40717a0765e8918073354ae99a37bc82cbeb8184f",
+    "pilot_pkg/verify_and_summarize.py": "8bb581bc512c1def0136eddbf3a7c4fb10bd0e1d5abf93ccf5bb353f134148bd",
+    "pilot_pkg/selection_report.json": "bd38e19b8c416f518453b2bea933e1ef5fb3bb63449b5c2ba0445556e83cec80",
+    "pilot_pkg/DECISION_ZH.md": "69a81842e691e513cf7b1eea195614af12e86e7048abf3d430bfbd6e90ee2ed5",
+    "pilot_pkg/REVIEW_GUIDE_ZH.md": "3fbcaf70ccb33ee0957af1040644b6a918f2ef4717f5c068ca1d15cf41864cd9",
+    "pilot_pkg/validation.json": "33532569f971b999408121cca42fa69be97b075fb65ef17d96fb7bb39b1ee44f",
+    "pilot_pkg/pilot_manifest.json": "15868520d58382b8e37837b9cca54d6cac889b576a1dc2f7556958dbdafde827"
+  },
+  "review_file_sha256": {
+    "review_manifest.json": "bd81d4d6ef8a2735a7db67cd8effef65efdb345bdaa077f6571a24e4c6cc39cf",
+    "session_review.jsonl": "7cac8895e66a3560971a691b198398d97a9cde57a7ce267279fc5d25fd18aef1",
+    "review_summary.md": "59e2007587f6a7dd696b7094bac13ab6669e36f08a6ec0d345e78a101a08bf35"
+  },
+  "limitations": [
+    "Runtime model ID is not an immutable provider snapshot.",
+    "Reviewer findings and self-declared process are not independently attested.",
+    "Evidence ID scope does not prove entailment."
+  ]
+}

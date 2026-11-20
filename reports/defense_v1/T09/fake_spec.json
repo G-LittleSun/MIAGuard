@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T09-fake-link",
+  "backend": "fake",
+  "dataset_id": "synthetic_fake_t09",
+  "partition": "engineering_smoke",
+  "seed": 20261022,
+  "methods": ["B0", "B2", "B3", "B5"],
+  "requests_path": "reports/defense_v1/T09/requests.jsonl",
+  "labels_path": "reports/defense_v1/T09/labels.jsonl",
+  "skip_request_ids": [],
+  "embedding_model": "fake_score_embedding_v1",
+  "ia_unknown_penalty": 0.1,
+  "identity_files": {
+    "fake_gateway_config": "configs/defense/two_stage_disabled.yaml"
+  }
+}

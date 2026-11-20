@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "The passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\n[Mask_1] Target Bush at Summit in Chile Riot police used water [Mask_2] and tear gas Friday to break up a [Mask_3] by hundreds of rock-throwing protesters before more than 20,000 people [Mask_4] to vent their anger at Pacific Rim leaders, [Mask_5] President Bush.",
+    "contexts": [
+      "Protests Target Bush at Summit in Chile Riot police used water cannons and tear gas Friday to break up a demonstration by hundreds of rock-throwing protesters before more than 20,000 people marched to vent their anger at Pacific Rim leaders, particularly President Bush.",
+      "Will It Be Trash or Tribute? Bottle Stands on the Edge Tillie, the clown face that graced the front of Palace Amusements in Asbury Park for nearly 50 years, was preserved in June before the rest of the building was torn down.",
+      "Market bomb kills 13 in Philippines At least 13 people were killed and dozens injured yesterday when a large explosion ripped through a Christmas market in the southern Philippine city of General Santos.",
+      "US condemns Pak blast, calls it  #39;despicable #39; United States has strongly condemned a car bomb attack in Multan city of Pakistan that killed more than 41 people and wounded 100 at a prayer vigil."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Protests Target Bush at Summit in Chile Riot police used water cannons and tear gas Friday to break up a demonstration by hundreds of rock-throwing protesters before more than 20,000 people marched to vent their anger at Pacific Rim leaders, particularly President Bush.\"\n\"Will It Be Trash or Tribute? Bottle Stands on the Edge Tillie, the clown face that graced the front of Palace Amusements in Asbury Park for nearly 50 years, was preserved in June before the rest of the building was torn down.\"\n\"Market bomb kills 13 in Philippines At least 13 people were killed and dozens injured yesterday when a large explosion ripped through a Christmas market in the southern Philippine city of General Santos.\"\n\"US condemns Pak blast, calls it  #39;despicable #39; United States has strongly condemned a car bomb attack in Multan city of Pakistan that killed more than 41 people and wounded 100 at a prayer vigil.\"\n\nQuestion:\nThe passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\n[Mask_1] Target Bush at Summit in Chile Riot police used water [Mask_2] and tear gas Friday to break up a [Mask_3] by hundreds of rock-throwing protesters before more than 20,000 people [Mask_4] to vent their anger at Pacific Rim leaders, [Mask_5] President Bush.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

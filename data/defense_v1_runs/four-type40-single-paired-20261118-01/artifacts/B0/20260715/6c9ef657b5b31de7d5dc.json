@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Google Targets 370,000 More Advertisers -- Newspaper (Reuters) Reuters -......\" based on the Context.",
+    "contexts": [
+      "Google Targets 370,000 More Advertisers -- Newspaper (Reuters) Reuters - Google Inc. , the No. 1\\Web search company that recently went public and said it will\\not issue financial forecasts, expects to add 372,050\\advertiser accounts by 2008, the San Francisco Chronicle\\reported on Wednesday.",
+      "News Corp. Acts to Block Bids (Reuters) Reuters - Rupert Murdoch's News Corp. Ltd. moved\\on Monday to prevent a hostile bid from U.S. cable company\\Liberty Media Corp., launching a plan to issue stock options\\that would dilute the stake of any predator.",
+      "Crime Spurs South Africa's Inventors to Action (Reuters) Reuters - Want a computer that screams when\\a thief strikes? Or a personal tracking unit in case you get\\kidnapped?",
+      "FindWhat and BizJournals Ink Search Advertising Deal FindWhat and BizJournals Ink Search Advertising Deal\\\\FindWhat.com today announced an exclusive search engine advertising relationship with Bizjournals, the nation's largest publisher of metropolitan business newspapers and popular business news website publisher.\\\\Under the terms of the exclusive search advertising distribution agreement, FindWhat.com will supply Bizjournals.com and each of its 41 local ..."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Google Targets 370,000 More Advertisers -- Newspaper (Reuters) Reuters - Google Inc. , the No. 1\\Web search company that recently went public and said it will\\not issue financial forecasts, expects to add 372,050\\advertiser accounts by 2008, the San Francisco Chronicle\\reported on Wednesday.\"\n\"News Corp. Acts to Block Bids (Reuters) Reuters - Rupert Murdoch's News Corp. Ltd. moved\\on Monday to prevent a hostile bid from U.S. cable company\\Liberty Media Corp., launching a plan to issue stock options\\that would dilute the stake of any predator.\"\n\"Crime Spurs South Africa's Inventors to Action (Reuters) Reuters - Want a computer that screams when\\a thief strikes? Or a personal tracking unit in case you get\\kidnapped?\"\n\"FindWhat and BizJournals Ink Search Advertising Deal FindWhat and BizJournals Ink Search Advertising Deal\\\\FindWhat.com today announced an exclusive search engine advertising relationship with Bizjournals, the nation's largest publisher of metropolitan business newspapers and popular business news website publisher.\\\\Under the terms of the exclusive search advertising distribution agreement, FindWhat.com will supply Bizjournals.com and each of its 41 local ...\"\n\nQuestion:\nComplete this sentence \"Google Targets 370,000 More Advertisers -- Newspaper (Reuters) Reuters -......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

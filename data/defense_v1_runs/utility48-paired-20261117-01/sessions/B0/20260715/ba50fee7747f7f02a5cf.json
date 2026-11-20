@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "3a7dde81f26328f01b293d6bdf90ae11eb04dd0d4e800c5ced47794e0ce173d5",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "utility48_pilot_42_main",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "utility48_pilot_42_main",
+      "session_id": "utility48_pilot_42_main",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "President Bush",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000665",
+        "ag_news_teacher_00000801"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000665",
+        "ag_news_teacher_00000801"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000665",
+            "ag_news_teacher_00000801"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000665",
+            "ag_news_teacher_00000801"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 142.1310007572174,
+      "ledger_event": {
+        "request_id": "utility48_pilot_42_main",
+        "session_id": "utility48_pilot_42_main",
+        "input_sha256": "ff21e75515ad040cefadeae99a31c709e7b7d881c28131611e38914599e36a1b",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000665",
+          "ag_news_teacher_00000801"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000665",
+            "parent_doc_id": "ag_news_teacher_00000665",
+            "kind": "raw",
+            "score": 0.5317312479019165,
+            "text_sha256": "57f5f335d0e24a08053d5f2ed10c5d9c8f438340b380ee8c9193b3195daf8277"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000801",
+            "parent_doc_id": "ag_news_teacher_00000801",
+            "kind": "raw",
+            "score": 0.4738515019416809,
+            "text_sha256": "8cbb032b2c4ec2f51593a45eb975c8fb62653cf02b98613786ed4108611937e7"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "President Bush",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794921942.0721002,
+        "finished_at": 1794921942.2141001
+      },
+      "generation_input_ref": "artifacts/B0/20260715/ba50fee7747f7f02a5cf.json",
+      "artifact_sha256": "59f7d9705fedd607958b88b8d43f5acf0b0b4f04373c33f9647b492fdf7de5be"
+    }
+  ]
+}

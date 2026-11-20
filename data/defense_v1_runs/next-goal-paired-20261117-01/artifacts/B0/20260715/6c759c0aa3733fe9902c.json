@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"U.S. Men End 40-Year Rowing Drought ATHENS (Reuters) - The......\" based on the Context.",
+    "contexts": [
+      "Doping and debts aside, it was all worth it What doping scandals? What debts? Drunk with pride for successfully pulling off a great homecoming Olympics, most Greeks said they would happily do it all over again.",
+      "Men #39;s 400 a sweep for the US ATHENS, Greece - As Bruce Springsteen #39;s  quot;Born in the USA quot; blared over the Olympic Stadium loudspeaker Monday night, three athletes in red, white and blue began a slow victory lap.",
+      "Ooohs follow boos This was supposed to be a night to remember. For Greeks all over, this was going to be the highlight of the Olympics in Athens. Because this would have been the night that belonged to Kostas Kenteris.",
+      "Greek sprinter Kenteris quits Games ATHENS (Reuters) - Greek Olympic 200 metres champion Costas Kenteris and his fellow Greek Olympic silver medallist Katerina Thanou say they are withdrawing from the Athens Games. "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Doping and debts aside, it was all worth it What doping scandals? What debts? Drunk with pride for successfully pulling off a great homecoming Olympics, most Greeks said they would happily do it all over again.\"\n\"Men #39;s 400 a sweep for the US ATHENS, Greece - As Bruce Springsteen #39;s  quot;Born in the USA quot; blared over the Olympic Stadium loudspeaker Monday night, three athletes in red, white and blue began a slow victory lap.\"\n\"Ooohs follow boos This was supposed to be a night to remember. For Greeks all over, this was going to be the highlight of the Olympics in Athens. Because this would have been the night that belonged to Kostas Kenteris.\"\n\"Greek sprinter Kenteris quits Games ATHENS (Reuters) - Greek Olympic 200 metres champion Costas Kenteris and his fellow Greek Olympic silver medallist Katerina Thanou say they are withdrawing from the Athens Games. \"\n\nQuestion:\nComplete this sentence \"U.S. Men End 40-Year Rowing Drought ATHENS (Reuters) - The......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

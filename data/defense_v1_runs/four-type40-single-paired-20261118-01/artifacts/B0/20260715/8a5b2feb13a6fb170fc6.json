@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"Tanker #39;s hull was pierced twice US Coast Guard officials......\" based on the Context.",
+    "contexts": [
+      "Fishing Just for Fun Damages Stocks, Study Finds People fishing for sport are doing far more damage to US marine fish stocks than anyone thought, accounting for nearly a quarter of the ",
+      "Translator hired by Titan beheaded by insurgents A translator employed by San Diego #39;s Titan Corp. was beheaded in Iraq yesterday by insurgents who also beheaded a Turkish contractor working at a US air base.",
+      "More Protection Urged for Rare Toothfish at CITES (Reuters) Reuters - Environmentalists urged fishing nations\\Thursday to do more to protect the rare Patagonian toothfish,\\dubbed the \"white gold\" of the sea which is being driven to\\extinction by rampant poaching.",
+      "Tanker deal nears OK WASHINGTON - Legislation that would allow the Air Force to buy outright 100 new aerial refueling tankers was expected to be approved by the House on Friday, and a Washington state congressman said language in the bill would ensure the deal would involve "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Fishing Just for Fun Damages Stocks, Study Finds People fishing for sport are doing far more damage to US marine fish stocks than anyone thought, accounting for nearly a quarter of the \"\n\"Translator hired by Titan beheaded by insurgents A translator employed by San Diego #39;s Titan Corp. was beheaded in Iraq yesterday by insurgents who also beheaded a Turkish contractor working at a US air base.\"\n\"More Protection Urged for Rare Toothfish at CITES (Reuters) Reuters - Environmentalists urged fishing nations\\Thursday to do more to protect the rare Patagonian toothfish,\\dubbed the \"white gold\" of the sea which is being driven to\\extinction by rampant poaching.\"\n\"Tanker deal nears OK WASHINGTON - Legislation that would allow the Air Force to buy outright 100 new aerial refueling tankers was expected to be approved by the House on Friday, and a Washington state congressman said language in the bill would ensure the deal would involve \"\n\nQuestion:\nComplete this sentence \"Tanker #39;s hull was pierced twice US Coast Guard officials......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

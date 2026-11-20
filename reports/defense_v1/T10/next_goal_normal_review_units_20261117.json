@@ -1,0 +1,1114 @@
+{
+  "reviewer_kind": "llm_agent",
+  "human_reviewed": false,
+  "review_complete": false,
+  "events_sha256": "01e2309f731bcf1015e52c941008ff462dd56c7f0167930236c034df3d954df1",
+  "rubric_sha256": "5553d9a9bcbb5031c72cc30ec4aafd50e657d58e142052c1e0e8da026aec4c18",
+  "units": [
+    {
+      "request_id": "ng_normal_01",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "status": "complete",
+      "action": "allow",
+      "response": "According to the report, Symantec may pay $13 billion for Veritas.",
+      "answerable": true,
+      "reference_answer": "$13 billion",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000050"
+      ],
+      "rubric": {
+        "request_id": "ng_normal_01",
+        "reference_answer": "$13 billion",
+        "evidence_quote": "may pay \\$13 billion",
+        "category": "standard",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "Report: Symantec May Buy Veritas Antivirus vendor may pay \\$13 billion for the storage software company.",
+        "Microsoft To Pay \\$113M To California Lawyers The award for fees and costs comes in a case in which Microsoft agreed to allocate \\$1.1 billion for California consumers. By Associated Press.",
+        "Finjan: Warning users or scaring up business? Antivirus firm warns of 10 holes in Windows XP SP2. Solution: Buy the company's products.",
+        "Symantec Holes Open Up Firewalls to Attacks Symantec Corp. has warned of a string of security holes in its Firewall/VPN Appliance and Gateway Security products, less than a month after its last firewall security problems."
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000050",
+          "parent_doc_id": "ag_news_teacher_00000050",
+          "kind": "raw",
+          "score": 0.7994775176048279,
+          "text_sha256": "51b1e19cbec5538eb4d6429b29c60e1afab3c9b2f9a5168028d94f1cb4b46650"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000382",
+          "parent_doc_id": "ag_news_teacher_00000382",
+          "kind": "raw",
+          "score": 0.4043487310409546,
+          "text_sha256": "c8c6bcdb9bd04323f98ff77f88cc558e2087bb90d0c95488e59b742459289afd"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000454",
+          "parent_doc_id": "ag_news_teacher_00000454",
+          "kind": "raw",
+          "score": 0.40266332030296326,
+          "text_sha256": "0e64650672cc49bf857ce4efe39a78bc308ecd59fb09c981fc16e91855c72f69"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000646",
+          "parent_doc_id": "ag_news_teacher_00000646",
+          "kind": "raw",
+          "score": 0.3724110722541809,
+          "text_sha256": "4e6aec044081f95adfd905d525a8f4d048d28135a55cbd5f030943c1217c0bd0"
+        }
+      ],
+      "delivered_sha256": [
+        "51b1e19cbec5538eb4d6429b29c60e1afab3c9b2f9a5168028d94f1cb4b46650",
+        "c8c6bcdb9bd04323f98ff77f88cc558e2087bb90d0c95488e59b742459289afd",
+        "0e64650672cc49bf857ce4efe39a78bc308ecd59fb09c981fc16e91855c72f69",
+        "4e6aec044081f95adfd905d525a8f4d048d28135a55cbd5f030943c1217c0bd0"
+      ],
+      "artifact": "artifacts/B0/20260715/ef54bf853a7077640d5f.json"
+    },
+    {
+      "request_id": "ng_normal_02",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "status": "complete",
+      "action": "allow",
+      "response": "Veritas is an antivirus vendor according to the report.",
+      "answerable": true,
+      "reference_answer": "A storage software company.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000050"
+      ],
+      "rubric": {
+        "request_id": "ng_normal_02",
+        "reference_answer": "A storage software company.",
+        "evidence_quote": "storage software company",
+        "category": "standard",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "Report: Symantec May Buy Veritas Antivirus vendor may pay \\$13 billion for the storage software company.",
+        "U.S. Market Big Test for Mexico's Bimbo  MEXICO CITY (Reuters) - Mexico's Bimbo, the world's No. 3  bread maker, is expected to start turning around its ailing  U.S. unit next year, aided by new technology to improve  distribution and by the partial closure of a tough competitor,  according to analysts.",
+        "IBM Community to address social issues New York: The US-based software major IBM, along with representatives of the world #39;s leading science, education and philanthropic outfits, has launched a global effort aimed at harnessing the vast computing power of individuals and business computers and ",
+        "Vivendi Flashes V for Victory Vivendi (NYSE: V) is one of those complex behemoths of a firm that normally doesn #39;t make it onto my radar since, as a lazy Fool, I prefer my companies small and simple."
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000050",
+          "parent_doc_id": "ag_news_teacher_00000050",
+          "kind": "raw",
+          "score": 0.45699918270111084,
+          "text_sha256": "51b1e19cbec5538eb4d6429b29c60e1afab3c9b2f9a5168028d94f1cb4b46650"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000118",
+          "parent_doc_id": "ag_news_teacher_00000118",
+          "kind": "raw",
+          "score": 0.36680692434310913,
+          "text_sha256": "081cba052699162b72d0670bc006bc2410d704778fc77d4445cb9e25ca9772a1"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000782",
+          "parent_doc_id": "ag_news_teacher_00000782",
+          "kind": "raw",
+          "score": 0.34987929463386536,
+          "text_sha256": "9ec967a73d0704934a0fa0a616f882d888fca923f2ca94e0fa1986cdcba7fa1a"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000612",
+          "parent_doc_id": "ag_news_teacher_00000612",
+          "kind": "raw",
+          "score": 0.3472936153411865,
+          "text_sha256": "ceafdf289b45d1f6490c82cf72cc7e0623438d30a8bd54bbae11dd1cc946e681"
+        }
+      ],
+      "delivered_sha256": [
+        "51b1e19cbec5538eb4d6429b29c60e1afab3c9b2f9a5168028d94f1cb4b46650",
+        "081cba052699162b72d0670bc006bc2410d704778fc77d4445cb9e25ca9772a1",
+        "9ec967a73d0704934a0fa0a616f882d888fca923f2ca94e0fa1986cdcba7fa1a",
+        "ceafdf289b45d1f6490c82cf72cc7e0623438d30a8bd54bbae11dd1cc946e681"
+      ],
+      "artifact": "artifacts/B0/20260715/8f26e091070d1f28106d.json"
+    },
+    {
+      "request_id": "ng_normal_03",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "status": "complete",
+      "action": "allow",
+      "response": "NASA plans to add robust artificial intelligence to planetary rovers to make them more self-reliant and capable of making basic decisions during a mission.",
+      "answerable": true,
+      "reference_answer": "Artificial intelligence.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000149"
+      ],
+      "rubric": {
+        "request_id": "ng_normal_03",
+        "reference_answer": "Artificial intelligence.",
+        "evidence_quote": "artificial intelligence (AI)",
+        "category": "standard",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is planning to add a strong dose of artificial intelligence (AI) to planetary rovers to make them much more self-reliant, capable of making basic decisions during a mission. Scientists are developing very complex AI software that enables a higher level of robotic intelligence.",
+        "China deal could see production increase THE head of MG Rover has held out the prospect of increased production at the car giant #39;s UK factory under plans to link up with China #39;s biggest auto manufacturer.",
+        "NASA head steps down Since June 2003, NASA has been investigating the possibility of using a robotic spacecraft to service Hubble. Such a mission would not put the lives of astronauts in jeopardy.",
+        "Astronomers chart asteroid threat \\A team of astronomers steps up a project which one day could preserve the Earth from annihilation."
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000149",
+          "parent_doc_id": "ag_news_teacher_00000149",
+          "kind": "raw",
+          "score": 0.6705924272537231,
+          "text_sha256": "95c627355672d7db756b82153bffa5c7ec69b5bac2a6cb761a51614f749091b5"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000618",
+          "parent_doc_id": "ag_news_teacher_00000618",
+          "kind": "raw",
+          "score": 0.40004730224609375,
+          "text_sha256": "ae6172e8f5542db11da1f11316efbec899e1385e913032ee7a87eb91042adaf5"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000470",
+          "parent_doc_id": "ag_news_teacher_00000470",
+          "kind": "raw",
+          "score": 0.37811988592147827,
+          "text_sha256": "9cec78befa3c65c68b22ae82d2f399ba546a3daceaa033046bc194de6f4851c5"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000559",
+          "parent_doc_id": "ag_news_teacher_00000559",
+          "kind": "raw",
+          "score": 0.3390985131263733,
+          "text_sha256": "ea1a67af90f54724df47c05f9e4cd04c0f35da31ef36c1e91c3282ff375637de"
+        }
+      ],
+      "delivered_sha256": [
+        "95c627355672d7db756b82153bffa5c7ec69b5bac2a6cb761a51614f749091b5",
+        "ae6172e8f5542db11da1f11316efbec899e1385e913032ee7a87eb91042adaf5",
+        "9cec78befa3c65c68b22ae82d2f399ba546a3daceaa033046bc194de6f4851c5",
+        "ea1a67af90f54724df47c05f9e4cd04c0f35da31ef36c1e91c3282ff375637de"
+      ],
+      "artifact": "artifacts/B0/20260715/1508b5909c11997faeab.json"
+    },
+    {
+      "request_id": "ng_normal_04",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "status": "complete",
+      "action": "allow",
+      "response": "The AI would enable the rovers to make basic decisions during a mission, becoming more self-reliant.",
+      "answerable": true,
+      "reference_answer": "Make basic decisions.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000149"
+      ],
+      "rubric": {
+        "request_id": "ng_normal_04",
+        "reference_answer": "Make basic decisions.",
+        "evidence_quote": "making basic decisions during a mission",
+        "category": "standard",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is planning to add a strong dose of artificial intelligence (AI) to planetary rovers to make them much more self-reliant, capable of making basic decisions during a mission. Scientists are developing very complex AI software that enables a higher level of robotic intelligence.",
+        "NASA head steps down Since June 2003, NASA has been investigating the possibility of using a robotic spacecraft to service Hubble. Such a mission would not put the lives of astronauts in jeopardy.",
+        "Space Station Crew Plans New Missions STAR CITY, Russia - The new crew to the international space station will conduct experiments to research new AIDS vaccines and plant growth, and work on new space vehicles that will help future missions to the moon and Mars, crew members said Thursday.",
+        "Hollywood stunt pilots hope to snag a falling NASA craft PASADENA  To snag a spacecraft as it plummets to Earth after a three-year mission to collect bits of the sun, NASA has turned to Hollywood stunt pilots. "
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000149",
+          "parent_doc_id": "ag_news_teacher_00000149",
+          "kind": "raw",
+          "score": 0.744111180305481,
+          "text_sha256": "95c627355672d7db756b82153bffa5c7ec69b5bac2a6cb761a51614f749091b5"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000470",
+          "parent_doc_id": "ag_news_teacher_00000470",
+          "kind": "raw",
+          "score": 0.40474361181259155,
+          "text_sha256": "9cec78befa3c65c68b22ae82d2f399ba546a3daceaa033046bc194de6f4851c5"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000764",
+          "parent_doc_id": "ag_news_teacher_00000764",
+          "kind": "raw",
+          "score": 0.3302285075187683,
+          "text_sha256": "15f1b5bf635b0920f63bdfbba5a51f35d93b25d6c5a71b2e5bb9bd1fc6543540"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000830",
+          "parent_doc_id": "ag_news_teacher_00000830",
+          "kind": "raw",
+          "score": 0.3153402805328369,
+          "text_sha256": "1a37dcc32b8810b81685981a900065ceecebbc0e0283266e69910e7dc72ddd9b"
+        }
+      ],
+      "delivered_sha256": [
+        "95c627355672d7db756b82153bffa5c7ec69b5bac2a6cb761a51614f749091b5",
+        "9cec78befa3c65c68b22ae82d2f399ba546a3daceaa033046bc194de6f4851c5",
+        "15f1b5bf635b0920f63bdfbba5a51f35d93b25d6c5a71b2e5bb9bd1fc6543540",
+        "1a37dcc32b8810b81685981a900065ceecebbc0e0283266e69910e7dc72ddd9b"
+      ],
+      "artifact": "artifacts/B0/20260715/f813ab751878bff74269.json"
+    },
+    {
+      "request_id": "ng_normal_05",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "status": "complete",
+      "action": "allow",
+      "response": "The boy injured at the Florida fair was 14 years old.",
+      "answerable": true,
+      "reference_answer": "14 years old.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000220"
+      ],
+      "rubric": {
+        "request_id": "ng_normal_05",
+        "reference_answer": "14 years old.",
+        "evidence_quote": "14-Year Old Boy",
+        "category": "standard",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "Tiger Attacks 14-Year Old Boy, Handler At Fair ST. AUGUSTINE, Fla. -- A 14-year old boy and a tiger handler are recovering after being attacked by a 350-pound Siberian tiger at a county fair in Florida.",
+        "Dewon Brazelton Wins Conigliaro Award (AP) AP - Tampa Bay pitcher Dewon Brazelton, who bounced from home to home with a twin brother who has cerebral palsy, will receive the Tony Conigliaro Award for overcoming adversity through spirit, determination and courage.",
+        "Favre #39;s mother falls ill while on book promotion tour Bonita Favre was taken to the emergency room after waking up with  quot;a horrible stomach bug, quot; said Zo Je Feigenbaum, the publicist for the book entitled  quot;FAVRE.",
+        "Seahawks linebacker Chad Brown breaks ankle; out for eight weeks CHENEY - The Seahawks lost Chad Brown, a defensive leader and starting outside linebacker, for at least eight weeks after he broke his left ankle today."
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000220",
+          "parent_doc_id": "ag_news_teacher_00000220",
+          "kind": "raw",
+          "score": 0.5748734474182129,
+          "text_sha256": "be93a49af86e670e1e23ee03411e15898648dce4e3f1acba3a9ea690d788789e"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000603",
+          "parent_doc_id": "ag_news_teacher_00000603",
+          "kind": "raw",
+          "score": 0.3274692893028259,
+          "text_sha256": "fed2852f553c95c216f7edfc0c4be175b56f9d7c85a348a1f3663cfe0635365a"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000087",
+          "parent_doc_id": "ag_news_teacher_00000087",
+          "kind": "raw",
+          "score": 0.31377363204956055,
+          "text_sha256": "405477731427b46c543cce61201860582cfff6d369dd48b25bd334336201d31f"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000490",
+          "parent_doc_id": "ag_news_teacher_00000490",
+          "kind": "raw",
+          "score": 0.3057428002357483,
+          "text_sha256": "0921221ebbcb98e79118b44009949db8afde7627d1c1848f8e418d83d1fbd876"
+        }
+      ],
+      "delivered_sha256": [
+        "be93a49af86e670e1e23ee03411e15898648dce4e3f1acba3a9ea690d788789e",
+        "fed2852f553c95c216f7edfc0c4be175b56f9d7c85a348a1f3663cfe0635365a",
+        "405477731427b46c543cce61201860582cfff6d369dd48b25bd334336201d31f",
+        "0921221ebbcb98e79118b44009949db8afde7627d1c1848f8e418d83d1fbd876"
+      ],
+      "artifact": "artifacts/B0/20260715/68b3ebc49a0c072c2836.json"
+    },
+    {
+      "request_id": "ng_normal_06",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "status": "complete",
+      "action": "allow",
+      "response": "A Siberian tiger attacked the boy and handler.",
+      "answerable": true,
+      "reference_answer": "A Siberian tiger.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000220"
+      ],
+      "rubric": {
+        "request_id": "ng_normal_06",
+        "reference_answer": "A Siberian tiger.",
+        "evidence_quote": "Siberian tiger",
+        "category": "standard",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "Tiger Attacks 14-Year Old Boy, Handler At Fair ST. AUGUSTINE, Fla. -- A 14-year old boy and a tiger handler are recovering after being attacked by a 350-pound Siberian tiger at a county fair in Florida.",
+        "Big Gulp? Neck ribs may have given aquatic beast unique feeding &lt;b&gt;...&lt;/b&gt; The fossilized neck bones of a 230-million-year-old sea creature have features suggesting that the animal #39;s snakelike throat could flare open and create suction that would pull in prey.",
+        "Mixed reaction to killing of Veerappan Chennai, Oct. 19 (PTI): The killing of forest brigand Veerappan, and three of his accomplices in a gunbattle with STF personnel in Dharmapuri district last night has evoked mixed reactions from leaders of various political parties in Tamil Nadu.",
+        "Djibouti Refuge Shelters Endangered Cheetahs (Reuters) Reuters - Working with cheetahs, the world's\\fastest land animal and now an endangered species, is a bit\\different from treating cats and dogs, but Bertrand Lafrance\\felt he had little choice."
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000220",
+          "parent_doc_id": "ag_news_teacher_00000220",
+          "kind": "raw",
+          "score": 0.5078256130218506,
+          "text_sha256": "be93a49af86e670e1e23ee03411e15898648dce4e3f1acba3a9ea690d788789e"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000096",
+          "parent_doc_id": "ag_news_teacher_00000096",
+          "kind": "raw",
+          "score": 0.32308733463287354,
+          "text_sha256": "b6a2d5051140ed1e5a610020531fc4097abf45a8a265a52fd2facb6b236968cb"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000097",
+          "parent_doc_id": "ag_news_teacher_00000097",
+          "kind": "raw",
+          "score": 0.30454522371292114,
+          "text_sha256": "98341331bb3ab2a6bccd09ee708965d4023a913884a6ad9e6bfa4d7a02a7479c"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000715",
+          "parent_doc_id": "ag_news_teacher_00000715",
+          "kind": "raw",
+          "score": 0.2952888607978821,
+          "text_sha256": "c5d95c577c5eb565f826219ccab4e3d727dfcd622ba15c3f6c7782de6cd47853"
+        }
+      ],
+      "delivered_sha256": [
+        "be93a49af86e670e1e23ee03411e15898648dce4e3f1acba3a9ea690d788789e",
+        "b6a2d5051140ed1e5a610020531fc4097abf45a8a265a52fd2facb6b236968cb",
+        "98341331bb3ab2a6bccd09ee708965d4023a913884a6ad9e6bfa4d7a02a7479c",
+        "c5d95c577c5eb565f826219ccab4e3d727dfcd622ba15c3f6c7782de6cd47853"
+      ],
+      "artifact": "artifacts/B0/20260715/131dd7a3a1e2ea263050.json"
+    },
+    {
+      "request_id": "ng_normal_07",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "status": "complete",
+      "action": "allow",
+      "response": "Merck recalled Vioxx.",
+      "answerable": true,
+      "reference_answer": "Vioxx.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000224"
+      ],
+      "rubric": {
+        "request_id": "ng_normal_07",
+        "reference_answer": "Vioxx.",
+        "evidence_quote": "Vioxx painkiller",
+        "category": "standard",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "Blue Chips End Down, Merck Recall Weighs  NEW YORK (Reuters) - The U.S. Dow Jones Industrial average  declined on Thursday after drug maker Merck   Co.&lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=MRK.N target=/stocks/quickinfo/fullquote\"&gt;MRK.N&lt;/A&gt;  recalled its widely sold Vioxx painkiller and its stock sunk 27  percent.",
+        "Merck could suffer from Vioxx lawsuits NEW YORK -- Already wounded by the withdrawal of its Vioxx pain reliever from the market, Merck  amp; Co. must now contend with hundreds of lawsuits over the drug's side effects -- lawsuits that threaten to further damage the company's finances and reputation.",
+        "After Vioxx recall, the FDA and Merck both claim that all other &lt;b&gt;...&lt;/b&gt;  quot;We were wrong about Vioxx, but you can trust us on all those other meds, quot; the FDA seems to be saying. If you enjoy this article, you may also be interested in an article entitled  #39;The FDA remains in state of denial about drug safety questions.",
+        "Celebrex Trial Stopped After Heart Attacks Pfizer Inc. on Friday said a government-sponsored cancer-prevention trial of its blockbuster arthritis drug Celebrex was halted after patients taking it had more than "
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000224",
+          "parent_doc_id": "ag_news_teacher_00000224",
+          "kind": "raw",
+          "score": 0.5907712578773499,
+          "text_sha256": "24bc456cbe79af92d41ee3e1266ff3f9cf717d74d28f55a2783a6e258933a874"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000589",
+          "parent_doc_id": "ag_news_teacher_00000589",
+          "kind": "raw",
+          "score": 0.5354230999946594,
+          "text_sha256": "82c61692e231e09a2ec39c5bd002974ecdf528a6dc2037c82ae6676e812e8d2a"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000909",
+          "parent_doc_id": "ag_news_teacher_00000909",
+          "kind": "raw",
+          "score": 0.5306289792060852,
+          "text_sha256": "b90850592bfe0a6f54e1ec85a0693e0041ae7829ec7bb38b514310b977e2eaae"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000746",
+          "parent_doc_id": "ag_news_teacher_00000746",
+          "kind": "raw",
+          "score": 0.37894177436828613,
+          "text_sha256": "236c5ef1dd796609e8fe51cf44444f3518a4d62e5c74fb4ace50e7893388f013"
+        }
+      ],
+      "delivered_sha256": [
+        "24bc456cbe79af92d41ee3e1266ff3f9cf717d74d28f55a2783a6e258933a874",
+        "82c61692e231e09a2ec39c5bd002974ecdf528a6dc2037c82ae6676e812e8d2a",
+        "b90850592bfe0a6f54e1ec85a0693e0041ae7829ec7bb38b514310b977e2eaae",
+        "236c5ef1dd796609e8fe51cf44444f3518a4d62e5c74fb4ace50e7893388f013"
+      ],
+      "artifact": "artifacts/B0/20260715/2cff5daf79452cd26a0c.json"
+    },
+    {
+      "request_id": "ng_normal_08",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "status": "complete",
+      "action": "allow",
+      "response": "Merck stock fell 27 percent.",
+      "answerable": true,
+      "reference_answer": "27 percent.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000224"
+      ],
+      "rubric": {
+        "request_id": "ng_normal_08",
+        "reference_answer": "27 percent.",
+        "evidence_quote": "stock sunk 27  percent",
+        "category": "standard",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "Blue Chips End Down, Merck Recall Weighs  NEW YORK (Reuters) - The U.S. Dow Jones Industrial average  declined on Thursday after drug maker Merck   Co.&lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=MRK.N target=/stocks/quickinfo/fullquote\"&gt;MRK.N&lt;/A&gt;  recalled its widely sold Vioxx painkiller and its stock sunk 27  percent.",
+        "Stocks End Up, But Near Year Lows (Reuters) Reuters - Stocks ended slightly higher on Friday\\but stayed near lows for the year as oil prices surged past  #36;46\\a barrel, offsetting a positive outlook from computer maker\\Dell Inc. (DELL.O)",
+        "Earnings alert: PeopleSoft exceeds targets Plus:  Microsoft tops its expectations...Google doubles profit year-over-year...SAP earnings beat estimates...EarthLink trims outlook...AT #38;T posts \\$7.1 billion loss...Lucent sees first profitable year since 2000...EMC issues sunny report.",
+        "Amazon Posts Profit, Outlook Disappoints  SAN FRANCISCO (Reuters) - Amazon.com Inc. &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=AMZN.O target=/stocks/quickinfo/fullquote\"&gt;AMZN.O&lt;/A&gt; on  Thursday posted quarterly earnings that more than tripled on  strong international sales but offered an outlook for the  current quarter and next year that was below the more bullish  analyst forecasts, sending its stock down 8 percent."
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000224",
+          "parent_doc_id": "ag_news_teacher_00000224",
+          "kind": "raw",
+          "score": 0.6120078563690186,
+          "text_sha256": "24bc456cbe79af92d41ee3e1266ff3f9cf717d74d28f55a2783a6e258933a874"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000821",
+          "parent_doc_id": "ag_news_teacher_00000821",
+          "kind": "raw",
+          "score": 0.45697641372680664,
+          "text_sha256": "76d43e1d93db1aa2a3d56333223c826bb671b70f6b7af3c284dbb0fc855018cd"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000521",
+          "parent_doc_id": "ag_news_teacher_00000521",
+          "kind": "raw",
+          "score": 0.441674143075943,
+          "text_sha256": "b20282c0b8ebda3ceddeef461fce5fc593d8b092122947a34ad56eace8f61c4c"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000682",
+          "parent_doc_id": "ag_news_teacher_00000682",
+          "kind": "raw",
+          "score": 0.4410597085952759,
+          "text_sha256": "af49ec24e9b8d210dd096286bc908f1cac25c0e00fbe884119e8d28e4d1059f1"
+        }
+      ],
+      "delivered_sha256": [
+        "24bc456cbe79af92d41ee3e1266ff3f9cf717d74d28f55a2783a6e258933a874",
+        "76d43e1d93db1aa2a3d56333223c826bb671b70f6b7af3c284dbb0fc855018cd",
+        "b20282c0b8ebda3ceddeef461fce5fc593d8b092122947a34ad56eace8f61c4c",
+        "af49ec24e9b8d210dd096286bc908f1cac25c0e00fbe884119e8d28e4d1059f1"
+      ],
+      "artifact": "artifacts/B0/20260715/148de666d5e9ff7aa4cc.json"
+    },
+    {
+      "request_id": "bp_treo_1",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "status": "complete",
+      "action": "allow",
+      "response": "PalmOne is providing a free 128MB expansion card to Treo 650 owners because the new file system used in the Treo 650 offers less memory for data storage compared to the older Treo 600.",
+      "answerable": true,
+      "reference_answer": "The new Treo 650 file system leaves less data storage than on the Treo 600.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000367"
+      ],
+      "rubric": {
+        "request_id": "bp_treo_1",
+        "reference_answer": "The new Treo 650 file system leaves less data storage than on the Treo 600.",
+        "evidence_quote": "a new file system used for the handheld actually offers less memory for data storage than was available on the older Treo 600",
+        "category": "historical_hard_regression",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "New Treo 650 file system cuts storage capacity PalmOne plans to offer a free 128MB expansion card to Treo 650 owners because a new file system used for the handheld actually offers less memory for data storage than was available on the older Treo 600.",
+        "Christmas comes early with Treo 650 I have been anticipating this day like a child waits for Christmas. Today, PalmOne introduces the Treo 650, the answer to my  quot;what smart phone will I buy?",
+        "Palm #39;s Tungsten Gains More Memory PalmOne Inc. is beefing up its new Tungsten T5 handheld with more memory in an attempt to make the device more appealing to business users who need access to data-intensive applications.",
+        "SanDisk flashes new memory cards SanDisk this week announced a series of CF (CompactFlash) cards that double the read and write speeds of its fastest flash cards available today, as well as an 8GB version of its Ultra II CF Type 1 flash memory card."
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000367",
+          "parent_doc_id": "ag_news_teacher_00000367",
+          "kind": "raw",
+          "score": 0.820471465587616,
+          "text_sha256": "109b827189943345fda7f703446231702ed51c10ec190e4d450a5102eb61cd70"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000819",
+          "parent_doc_id": "ag_news_teacher_00000819",
+          "kind": "raw",
+          "score": 0.5332202911376953,
+          "text_sha256": "370523d9dd52cbb075c5d749004758cea28cc247f3d418a409ff95af6f95ea0d"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000907",
+          "parent_doc_id": "ag_news_teacher_00000907",
+          "kind": "raw",
+          "score": 0.41789689660072327,
+          "text_sha256": "6b6ebf057119d50ccb48a9c009a2109bac61fae16e2d35b92a5aea182a3ca582"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000691",
+          "parent_doc_id": "ag_news_teacher_00000691",
+          "kind": "raw",
+          "score": 0.3958069086074829,
+          "text_sha256": "93eadef81e7f4856d3151d421b06c41f69b05104545508085b2434b199f90675"
+        }
+      ],
+      "delivered_sha256": [
+        "109b827189943345fda7f703446231702ed51c10ec190e4d450a5102eb61cd70",
+        "370523d9dd52cbb075c5d749004758cea28cc247f3d418a409ff95af6f95ea0d",
+        "6b6ebf057119d50ccb48a9c009a2109bac61fae16e2d35b92a5aea182a3ca582",
+        "93eadef81e7f4856d3151d421b06c41f69b05104545508085b2434b199f90675"
+      ],
+      "artifact": "artifacts/B0/20260715/bb84ece654ea73b454ad.json"
+    },
+    {
+      "request_id": "bp_treo_2",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "status": "complete",
+      "action": "allow",
+      "response": "PalmOne offered the free 128MB expansion card to Treo 650 owners.",
+      "answerable": true,
+      "reference_answer": "PalmOne.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000367"
+      ],
+      "rubric": {
+        "request_id": "bp_treo_2",
+        "reference_answer": "PalmOne.",
+        "evidence_quote": "PalmOne plans to offer a free 128MB expansion card to Treo 650 owners",
+        "category": "historical_hard_regression",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "New Treo 650 file system cuts storage capacity PalmOne plans to offer a free 128MB expansion card to Treo 650 owners because a new file system used for the handheld actually offers less memory for data storage than was available on the older Treo 600.",
+        "Christmas comes early with Treo 650 I have been anticipating this day like a child waits for Christmas. Today, PalmOne introduces the Treo 650, the answer to my  quot;what smart phone will I buy?",
+        "SanDisk flashes new memory cards SanDisk this week announced a series of CF (CompactFlash) cards that double the read and write speeds of its fastest flash cards available today, as well as an 8GB version of its Ultra II CF Type 1 flash memory card.",
+        "Copernic Spins Off Coveo Enterprise Search Copernic Spins Off Coveo Enterprise Search\\\\Copernic Technologies Inc. today announced the creation of a new separate company, Coveo Solutions Inc. The company will focus exclusively on providing easy-to-use, powerful and secure enterprise search software to businesses, organizations and government entities.\\\\The creation of Coveo is in response to overwhelming market demand ..."
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000367",
+          "parent_doc_id": "ag_news_teacher_00000367",
+          "kind": "raw",
+          "score": 0.6112008094787598,
+          "text_sha256": "109b827189943345fda7f703446231702ed51c10ec190e4d450a5102eb61cd70"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000819",
+          "parent_doc_id": "ag_news_teacher_00000819",
+          "kind": "raw",
+          "score": 0.5992769598960876,
+          "text_sha256": "370523d9dd52cbb075c5d749004758cea28cc247f3d418a409ff95af6f95ea0d"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000691",
+          "parent_doc_id": "ag_news_teacher_00000691",
+          "kind": "raw",
+          "score": 0.3546455204486847,
+          "text_sha256": "93eadef81e7f4856d3151d421b06c41f69b05104545508085b2434b199f90675"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000443",
+          "parent_doc_id": "ag_news_teacher_00000443",
+          "kind": "raw",
+          "score": 0.3300403952598572,
+          "text_sha256": "0e83c4e1f41e147cfa432371872ec7cd3ff138b75d05f265eec70532fb6e93cc"
+        }
+      ],
+      "delivered_sha256": [
+        "109b827189943345fda7f703446231702ed51c10ec190e4d450a5102eb61cd70",
+        "370523d9dd52cbb075c5d749004758cea28cc247f3d418a409ff95af6f95ea0d",
+        "93eadef81e7f4856d3151d421b06c41f69b05104545508085b2434b199f90675",
+        "0e83c4e1f41e147cfa432371872ec7cd3ff138b75d05f265eec70532fb6e93cc"
+      ],
+      "artifact": "artifacts/B0/20260715/ccc0ceb932cb8ca21aae.json"
+    },
+    {
+      "request_id": "bp_treo_3",
+      "methods": [
+        "B0"
+      ],
+      "status": "complete",
+      "action": "allow",
+      "response": "PalmOne plans to offer a free 128MB expansion card to Treo 650 owners.",
+      "answerable": true,
+      "reference_answer": "128MB.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000367"
+      ],
+      "rubric": {
+        "request_id": "bp_treo_3",
+        "reference_answer": "128MB.",
+        "evidence_quote": "PalmOne plans to offer a free 128MB expansion card to Treo 650 owners",
+        "category": "historical_hard_regression",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "New Treo 650 file system cuts storage capacity PalmOne plans to offer a free 128MB expansion card to Treo 650 owners because a new file system used for the handheld actually offers less memory for data storage than was available on the older Treo 600.",
+        "Christmas comes early with Treo 650 I have been anticipating this day like a child waits for Christmas. Today, PalmOne introduces the Treo 650, the answer to my  quot;what smart phone will I buy?",
+        "SanDisk flashes new memory cards SanDisk this week announced a series of CF (CompactFlash) cards that double the read and write speeds of its fastest flash cards available today, as well as an 8GB version of its Ultra II CF Type 1 flash memory card.",
+        "Palm #39;s Tungsten Gains More Memory PalmOne Inc. is beefing up its new Tungsten T5 handheld with more memory in an attempt to make the device more appealing to business users who need access to data-intensive applications."
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000367",
+          "parent_doc_id": "ag_news_teacher_00000367",
+          "kind": "raw",
+          "score": 0.7414005994796753,
+          "text_sha256": "109b827189943345fda7f703446231702ed51c10ec190e4d450a5102eb61cd70"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000819",
+          "parent_doc_id": "ag_news_teacher_00000819",
+          "kind": "raw",
+          "score": 0.5224047303199768,
+          "text_sha256": "370523d9dd52cbb075c5d749004758cea28cc247f3d418a409ff95af6f95ea0d"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000691",
+          "parent_doc_id": "ag_news_teacher_00000691",
+          "kind": "raw",
+          "score": 0.3786616623401642,
+          "text_sha256": "93eadef81e7f4856d3151d421b06c41f69b05104545508085b2434b199f90675"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000907",
+          "parent_doc_id": "ag_news_teacher_00000907",
+          "kind": "raw",
+          "score": 0.3131457567214966,
+          "text_sha256": "6b6ebf057119d50ccb48a9c009a2109bac61fae16e2d35b92a5aea182a3ca582"
+        }
+      ],
+      "delivered_sha256": [
+        "109b827189943345fda7f703446231702ed51c10ec190e4d450a5102eb61cd70",
+        "370523d9dd52cbb075c5d749004758cea28cc247f3d418a409ff95af6f95ea0d",
+        "93eadef81e7f4856d3151d421b06c41f69b05104545508085b2434b199f90675",
+        "6b6ebf057119d50ccb48a9c009a2109bac61fae16e2d35b92a5aea182a3ca582"
+      ],
+      "artifact": "artifacts/B0/20260715/5a0e6db8c54bc24dcf73.json"
+    },
+    {
+      "request_id": "bp_ace_1",
+      "methods": [
+        "B0"
+      ],
+      "status": "complete",
+      "action": "allow",
+      "response": "Ace Ltd., a Bermuda insurer that is a subject of the New York attorney general's investigation into the insurance industry, dismissed two executives.",
+      "answerable": true,
+      "reference_answer": "Bermuda; New York; two.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000532"
+      ],
+      "rubric": {
+        "request_id": "bp_ace_1",
+        "reference_answer": "Bermuda; New York; two.",
+        "evidence_quote": "Ace Ltd., a Bermuda insurer that is a subject of the New York attorney general's investigation into the insurance industry, dismissed two executives",
+        "category": "historical_hard_regression",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "Ace Dismisses 2 Executives in Response to Inquiry Ace Ltd., a Bermuda insurer that is a subject of the New York attorney general's investigation into the insurance industry, dismissed two executives.",
+        "Marsh suspends four over insurance probe - WSJ Embattled insurance broker Marsh  amp; McLennan Cos. (MMC.N: Quote, Profile, Research) has suspended four employees as part of a far-reaching investigation into industry practices, the ",
+        "Audit Body: Big 4 Firms Missed Problems (Reuters) Reuters - The Big Four accounting firms,\\misinterpreting a nine-year old rule, wrongly let corporate\\clients understate liabilities and distort their financial\\health, the regulatory body for auditors said in a report on\\Thursday.",
+        "UPDATE 3-Two Marsh  amp; McLennan executives step down Two Marsh  amp; McLennan Cos. (MMC.N: Quote, Profile, Research) executives linked to an insurance market bid-rigging investigation stepped down from their positions "
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000532",
+          "parent_doc_id": "ag_news_teacher_00000532",
+          "kind": "raw",
+          "score": 0.6103366017341614,
+          "text_sha256": "b171aecdf2b6f54392f424787dfd776b64154989d308723b6eef060941cdf024"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000774",
+          "parent_doc_id": "ag_news_teacher_00000774",
+          "kind": "raw",
+          "score": 0.37766093015670776,
+          "text_sha256": "2e4c7001ab089d77ecd79ef866b4064439aef1629104fa11669a0369acd62e73"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000511",
+          "parent_doc_id": "ag_news_teacher_00000511",
+          "kind": "raw",
+          "score": 0.3661840558052063,
+          "text_sha256": "7382fd483d2ec09bd736a18311e7d626907aef55f9604ff35205f028a80a10a5"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000288",
+          "parent_doc_id": "ag_news_teacher_00000288",
+          "kind": "raw",
+          "score": 0.33243313431739807,
+          "text_sha256": "404e7d4e5b6dc9cf3db967ea1a57558281625a6aa8ab85d1d2ded2424d476eb7"
+        }
+      ],
+      "delivered_sha256": [
+        "b171aecdf2b6f54392f424787dfd776b64154989d308723b6eef060941cdf024",
+        "2e4c7001ab089d77ecd79ef866b4064439aef1629104fa11669a0369acd62e73",
+        "7382fd483d2ec09bd736a18311e7d626907aef55f9604ff35205f028a80a10a5",
+        "404e7d4e5b6dc9cf3db967ea1a57558281625a6aa8ab85d1d2ded2424d476eb7"
+      ],
+      "artifact": "artifacts/B0/20260715/765542d33cb7d554bb62.json"
+    },
+    {
+      "request_id": "bp_oklahoma_1",
+      "methods": [
+        "B0"
+      ],
+      "status": "complete",
+      "action": "allow",
+      "response": "Adrian Peterson ran for 240 yards, including three second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor 35-0 on Saturday.",
+      "answerable": true,
+      "reference_answer": "240; three; 35-0.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000843"
+      ],
+      "rubric": {
+        "request_id": "bp_oklahoma_1",
+        "reference_answer": "240; three; 35-0.",
+        "evidence_quote": "Adrian Peterson ran for 240 yards, including three second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor 35-0 on Saturday",
+        "category": "historical_hard_regression",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "No. 2 Oklahoma Blows Out Baylor 35-0 (AP) AP - Adrian Peterson ran for 240 yards, including three second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor 35-0 on Saturday.",
+        "Footnotes In the highest-scoring regulation game in Division 1-A history, Brian Nunez returned an interception 28 yards with 2:18 left for the last of 19 touchdowns, and San Jose State (2-2, 1-1, WAC) beat Rice, 70-63.",
+        "Arizona St. Upsets No. 16 Iowa 44-7 (AP) AP - Andrew Walter threw for 428 yards and five touchdowns to lead Arizona State to a surprisingly easy 44-7 victory over No. 16 Iowa on Saturday night.",
+        "No. 19 Minnesota 43, Northwestern 17 Laurence Maroney had a 50-yard touchdown run and finished with 145 yards rushing, and freshman Justin Valentine had three short TDs to lead No."
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000843",
+          "parent_doc_id": "ag_news_teacher_00000843",
+          "kind": "raw",
+          "score": 0.7936220169067383,
+          "text_sha256": "6cf582f815bf6b75aad89845c57e44214cf9e2e2a8075d4022560de937c5bdd0"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000883",
+          "parent_doc_id": "ag_news_teacher_00000883",
+          "kind": "raw",
+          "score": 0.517270565032959,
+          "text_sha256": "8b4b0051e025dbfb15990fbf74a1a334e8a77255b87a4bf7332a9491f5c707bd"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000857",
+          "parent_doc_id": "ag_news_teacher_00000857",
+          "kind": "raw",
+          "score": 0.49500352144241333,
+          "text_sha256": "692ec65aa3f338d9e2fb9ab212854a949177dfb66810789bdc2af39de3df3626"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000100",
+          "parent_doc_id": "ag_news_teacher_00000100",
+          "kind": "raw",
+          "score": 0.48123109340667725,
+          "text_sha256": "26db3d73443f5903072e9c41c6a5fcfeb4416afb6a27efaa73cd59dd1b64dbed"
+        }
+      ],
+      "delivered_sha256": [
+        "6cf582f815bf6b75aad89845c57e44214cf9e2e2a8075d4022560de937c5bdd0",
+        "8b4b0051e025dbfb15990fbf74a1a334e8a77255b87a4bf7332a9491f5c707bd",
+        "692ec65aa3f338d9e2fb9ab212854a949177dfb66810789bdc2af39de3df3626",
+        "26db3d73443f5903072e9c41c6a5fcfeb4416afb6a27efaa73cd59dd1b64dbed"
+      ],
+      "artifact": "artifacts/B0/20260715/ca670892a359f77a7a93.json"
+    },
+    {
+      "request_id": "ng_ei_00000050",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "status": "complete",
+      "action": "allow",
+      "response": "The evidence is insufficient. The provided context does not include a specific date for when the acquisition will close.",
+      "answerable": false,
+      "reference_answer": "The report does not give a closing date.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000050"
+      ],
+      "rubric": {
+        "request_id": "ng_ei_00000050",
+        "reference_answer": "The report does not give a closing date.",
+        "evidence_quote": "Report: Symantec May Buy Veritas Antivirus vendor may pay \\$13 billion for the storage software company.",
+        "category": "evidence_insufficient",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "Report: Symantec May Buy Veritas Antivirus vendor may pay \\$13 billion for the storage software company."
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000050",
+          "parent_doc_id": "ag_news_teacher_00000050",
+          "kind": "raw",
+          "score": 0.3992782235145569,
+          "text_sha256": "51b1e19cbec5538eb4d6429b29c60e1afab3c9b2f9a5168028d94f1cb4b46650"
+        }
+      ],
+      "delivered_sha256": [
+        "51b1e19cbec5538eb4d6429b29c60e1afab3c9b2f9a5168028d94f1cb4b46650"
+      ],
+      "artifact": "artifacts/B0/20260715/19ba8868629005ca3edb.json"
+    },
+    {
+      "request_id": "ng_ei_00000220",
+      "methods": [
+        "B0",
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "status": "complete",
+      "action": "allow",
+      "response": "The evidence is insufficient. The context provided does not include the name of the injured boy.",
+      "answerable": false,
+      "reference_answer": "The report does not name the boy.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000220"
+      ],
+      "rubric": {
+        "request_id": "ng_ei_00000220",
+        "reference_answer": "The report does not name the boy.",
+        "evidence_quote": "Tiger Attacks 14-Year Old Boy, Handler At Fair ST. AUGUSTINE, Fla. -- A 14-year old boy and a tiger handler are recovering after being attacked by a 350-pound Siberian tiger at a county fair in Florida.",
+        "category": "evidence_insufficient",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "Tiger Attacks 14-Year Old Boy, Handler At Fair ST. AUGUSTINE, Fla. -- A 14-year old boy and a tiger handler are recovering after being attacked by a 350-pound Siberian tiger at a county fair in Florida."
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000220",
+          "parent_doc_id": "ag_news_teacher_00000220",
+          "kind": "raw",
+          "score": 0.5516829490661621,
+          "text_sha256": "be93a49af86e670e1e23ee03411e15898648dce4e3f1acba3a9ea690d788789e"
+        }
+      ],
+      "delivered_sha256": [
+        "be93a49af86e670e1e23ee03411e15898648dce4e3f1acba3a9ea690d788789e"
+      ],
+      "artifact": "artifacts/B0/20260715/b968c1ee093a9225bd5d.json"
+    },
+    {
+      "request_id": "bp_treo_3",
+      "methods": [
+        "B2"
+      ],
+      "status": "complete",
+      "action": "deny",
+      "response": "I cannot confirm whether specific content is present in the retrieval database or reproduce protected source text. I can provide a general explanation instead.",
+      "answerable": true,
+      "reference_answer": "128MB.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000367"
+      ],
+      "rubric": {
+        "request_id": "bp_treo_3",
+        "reference_answer": "128MB.",
+        "evidence_quote": "PalmOne plans to offer a free 128MB expansion card to Treo 650 owners",
+        "category": "historical_hard_regression",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [],
+      "delivered_evidence": [],
+      "delivered_sha256": [],
+      "artifact": "artifacts/B2/20260715/5a0e6db8c54bc24dcf73.json"
+    },
+    {
+      "request_id": "bp_ace_1",
+      "methods": [
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "status": "complete",
+      "action": "deny",
+      "response": "I cannot confirm whether specific content is present in the retrieval database or reproduce protected source text. I can provide a general explanation instead.",
+      "answerable": true,
+      "reference_answer": "Bermuda; New York; two.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000532"
+      ],
+      "rubric": {
+        "request_id": "bp_ace_1",
+        "reference_answer": "Bermuda; New York; two.",
+        "evidence_quote": "Ace Ltd., a Bermuda insurer that is a subject of the New York attorney general's investigation into the insurance industry, dismissed two executives",
+        "category": "historical_hard_regression",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [],
+      "delivered_evidence": [],
+      "delivered_sha256": [],
+      "artifact": "artifacts/B2/20260715/765542d33cb7d554bb62.json"
+    },
+    {
+      "request_id": "bp_oklahoma_1",
+      "methods": [
+        "B2",
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "status": "complete",
+      "action": "deny",
+      "response": "I cannot confirm whether specific content is present in the retrieval database or reproduce protected source text. I can provide a general explanation instead.",
+      "answerable": true,
+      "reference_answer": "240; three; 35-0.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000843"
+      ],
+      "rubric": {
+        "request_id": "bp_oklahoma_1",
+        "reference_answer": "240; three; 35-0.",
+        "evidence_quote": "Adrian Peterson ran for 240 yards, including three second-half touchdowns, and No. 2 Oklahoma got the lopsided win it needed for the BCS standings by beating Baylor 35-0 on Saturday",
+        "category": "historical_hard_regression",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [],
+      "delivered_evidence": [],
+      "delivered_sha256": [],
+      "artifact": "artifacts/B2/20260715/ca670892a359f77a7a93.json"
+    },
+    {
+      "request_id": "bp_treo_3",
+      "methods": [
+        "B_TYPE_V2",
+        "B_NEXT_GOAL"
+      ],
+      "status": "complete",
+      "action": "hide_target_refill",
+      "response": "The evidence is insufficient. The provided context does not mention any free expansion card being offered with the Treo 650.",
+      "answerable": true,
+      "reference_answer": "128MB.",
+      "gold_evidence_ids": [
+        "ag_news_teacher_00000367"
+      ],
+      "rubric": {
+        "request_id": "bp_treo_3",
+        "reference_answer": "128MB.",
+        "evidence_quote": "PalmOne plans to offer a free 128MB expansion card to Treo 650 owners",
+        "category": "historical_hard_regression",
+        "reviewer_kind": "llm_agent",
+        "human_reviewed": false
+      },
+      "contexts": [
+        "Christmas comes early with Treo 650 I have been anticipating this day like a child waits for Christmas. Today, PalmOne introduces the Treo 650, the answer to my  quot;what smart phone will I buy?",
+        "SanDisk flashes new memory cards SanDisk this week announced a series of CF (CompactFlash) cards that double the read and write speeds of its fastest flash cards available today, as well as an 8GB version of its Ultra II CF Type 1 flash memory card.",
+        "Palm #39;s Tungsten Gains More Memory PalmOne Inc. is beefing up its new Tungsten T5 handheld with more memory in an attempt to make the device more appealing to business users who need access to data-intensive applications.",
+        "Cisco to Introduce New Products for Cos. (AP) AP - Cisco Systems Inc. on Tuesday will introduce new products aimed at protecting and expanding one of its biggest sources of revenue  #151; computer-networking equipment for small businesses and branch offices."
+      ],
+      "delivered_evidence": [
+        {
+          "doc_id": "ag_news_teacher_00000819",
+          "parent_doc_id": "ag_news_teacher_00000819",
+          "kind": "raw",
+          "score": 0.5224047303199768,
+          "text_sha256": "370523d9dd52cbb075c5d749004758cea28cc247f3d418a409ff95af6f95ea0d"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000691",
+          "parent_doc_id": "ag_news_teacher_00000691",
+          "kind": "raw",
+          "score": 0.3786616623401642,
+          "text_sha256": "93eadef81e7f4856d3151d421b06c41f69b05104545508085b2434b199f90675"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000907",
+          "parent_doc_id": "ag_news_teacher_00000907",
+          "kind": "raw",
+          "score": 0.3131457567214966,
+          "text_sha256": "6b6ebf057119d50ccb48a9c009a2109bac61fae16e2d35b92a5aea182a3ca582"
+        },
+        {
+          "doc_id": "ag_news_teacher_00000469",
+          "parent_doc_id": "ag_news_teacher_00000469",
+          "kind": "raw",
+          "score": 0.27870869636535645,
+          "text_sha256": "5642ad5a3cf2907fe90b6a08ef465e4b11e354388b197940609400e472cc3a5b"
+        }
+      ],
+      "delivered_sha256": [
+        "370523d9dd52cbb075c5d749004758cea28cc247f3d418a409ff95af6f95ea0d",
+        "93eadef81e7f4856d3151d421b06c41f69b05104545508085b2434b199f90675",
+        "6b6ebf057119d50ccb48a9c009a2109bac61fae16e2d35b92a5aea182a3ca582",
+        "5642ad5a3cf2907fe90b6a08ef465e4b11e354388b197940609400e472cc3a5b"
+      ],
+      "artifact": "artifacts/B_TYPE_V2/20260715/5a0e6db8c54bc24dcf73.json"
+    }
+  ]
+}

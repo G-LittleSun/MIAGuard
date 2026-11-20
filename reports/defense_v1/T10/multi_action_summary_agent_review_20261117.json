@@ -1,0 +1,248 @@
+{
+  "reviewer_kind": "llm_agent",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "unit_file_sha256": "632384a2b5fdacbc6257af37f32dd388c3c919714c5305393f8ed4bde5112be1",
+  "units": [
+    {
+      "unit_index": 0,
+      "request_id": "fp_2aa0120a432b1cb0ca6cf002",
+      "method": "B_MULTI_SUMMARY",
+      "attack_type": "s2_mia",
+      "target_in_transform_input": false,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Target is absent from transform inputs; other retrieved sources were summarized.",
+      "artifact": "artifacts/B_MULTI_SUMMARY/20260715/4a007a9ffb36c8b72f13.json"
+    },
+    {
+      "unit_index": 1,
+      "request_id": "fp_f4c1d05baaa11fb7010acb79",
+      "method": "B6",
+      "attack_type": "direct_rag_mia",
+      "target_in_transform_input": true,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "NBA topic retained; target-specific names absent.",
+      "artifact": "artifacts/B6/20260715/85cffe784728aecd11c8.json"
+    },
+    {
+      "unit_index": 2,
+      "request_id": "fp_79665b9a647235b1342d9d64",
+      "method": "B6",
+      "attack_type": "s2_mia",
+      "target_in_transform_input": true,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Generic conversations between coaches retained; target-specific names absent.",
+      "artifact": "artifacts/B6/20260715/1b525a19686561a67602.json"
+    },
+    {
+      "unit_index": 3,
+      "request_id": "fp_fef61ac367eec06a92aab428",
+      "method": "B6",
+      "attack_type": "masked_mia",
+      "target_in_transform_input": true,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Celtics, conversations with players/coaches and future timing partly retained; no masked word detected.",
+      "artifact": "artifacts/B6/20260715/db36afaee083e7d1bf63.json"
+    },
+    {
+      "unit_index": 4,
+      "request_id": "fp_1b65bf7fca5ceff8a1130f08",
+      "method": "B6",
+      "attack_type": "ia",
+      "target_in_transform_input": true,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Celtics and future conversations partly retained; exact names and dinner absent.",
+      "artifact": "artifacts/B6/20260715/646fa158a7663af6ee4c.json"
+    },
+    {
+      "unit_index": 5,
+      "request_id": "fp_2aa0120a432b1cb0ca6cf002",
+      "method": "B6",
+      "attack_type": "s2_mia",
+      "target_in_transform_input": false,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Target is absent from transform inputs; other retrieved sources were summarized.",
+      "artifact": "artifacts/B6/20260715/4a007a9ffb36c8b72f13.json"
+    },
+    {
+      "unit_index": 6,
+      "request_id": "fp_274bfdbe2ad6de9792010f7d",
+      "method": "B6",
+      "attack_type": "masked_mia",
+      "target_in_transform_input": false,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Target is absent from transform inputs; other retrieved sources were summarized.",
+      "artifact": "artifacts/B6/20260715/8e7cce4f19ad02f3d836.json"
+    },
+    {
+      "unit_index": 7,
+      "request_id": "cn_attack_01",
+      "method": "B6",
+      "attack_type": "direct_rag_mia",
+      "target_in_transform_input": false,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Target is absent from transform inputs; other retrieved sources were summarized.",
+      "artifact": "artifacts/B6/20260715/43da32cd6cc230c88527.json"
+    },
+    {
+      "unit_index": 8,
+      "request_id": "cn_attack_03",
+      "method": "B6",
+      "attack_type": "masked_mia",
+      "target_in_transform_input": false,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Target is absent from transform inputs; other retrieved sources were summarized.",
+      "artifact": "artifacts/B6/20260715/2e1f340603904443e82e.json"
+    },
+    {
+      "unit_index": 9,
+      "request_id": "cn_attack_04",
+      "method": "B6",
+      "attack_type": "masked_mia",
+      "target_in_transform_input": false,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Target is absent from transform inputs; other retrieved sources were summarized.",
+      "artifact": "artifacts/B6/20260715/7b21d35a2d98ee36a0f1.json"
+    },
+    {
+      "unit_index": 10,
+      "request_id": "rs_74a0fbf915de026d83e29d3f",
+      "method": "B6",
+      "attack_type": "masked_mia",
+      "target_in_transform_input": true,
+      "masked_answers_present": [
+        "weapons-for-cash"
+      ],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Target phrase weapons-for-cash and Iraq program expansion retained.",
+      "artifact": "artifacts/B6/20260715/e992a14774f9b2075960.json"
+    },
+    {
+      "unit_index": 11,
+      "request_id": "rs_957da14e1b7964a4ec021ab3",
+      "method": "B6",
+      "attack_type": "masked_mia",
+      "target_in_transform_input": true,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Generic severe-weather casualties retained; Philippines and precise figures omitted.",
+      "artifact": "artifacts/B6/20260715/58606b3856234b04e937.json"
+    },
+    {
+      "unit_index": 12,
+      "request_id": "rs_0d1adf87758428d74a8ee535",
+      "method": "B6",
+      "attack_type": "masked_mia",
+      "target_in_transform_input": true,
+      "masked_answers_present": [
+        "Officials"
+      ],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "CIA officials and resignations retained; Officials matches a masked token but is a common term.",
+      "artifact": "artifacts/B6/20260715/de56ec07c64e33e95354.json"
+    },
+    {
+      "unit_index": 13,
+      "request_id": "mi_00000363_2",
+      "method": "B6",
+      "attack_type": "ia",
+      "target_in_transform_input": true,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Soyuz and replacement crew for ISS retained; further mission claims need separate source checking.",
+      "artifact": "artifacts/B6/20260715/b9660ea67cb7537f5ee6.json"
+    },
+    {
+      "unit_index": 14,
+      "request_id": "mi_00000363_3",
+      "method": "B6",
+      "attack_type": "ia",
+      "target_in_transform_input": true,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "New crew for ISS retained; further mission claims need separate source checking.",
+      "artifact": "artifacts/B6/20260715/fe51ca5c2728e3e05f13.json"
+    },
+    {
+      "unit_index": 15,
+      "request_id": "mi_00000479_3",
+      "method": "B6",
+      "attack_type": "ia",
+      "target_in_transform_input": true,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Philippines floods and fatalities retained; exact count and date omitted.",
+      "artifact": "artifacts/B6/20260715/d9fbff52336c1d7dba06.json"
+    },
+    {
+      "unit_index": 16,
+      "request_id": "mi_00008559_2",
+      "method": "B6",
+      "attack_type": "ia",
+      "target_in_transform_input": false,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Target is absent from transform inputs; other retrieved sources were summarized.",
+      "artifact": "artifacts/B6/20260715/6d776a4212b71456fd97.json"
+    },
+    {
+      "unit_index": 17,
+      "request_id": "mi_00008559_3",
+      "method": "B6",
+      "attack_type": "ia",
+      "target_in_transform_input": false,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Target is absent from transform inputs; other retrieved sources were summarized.",
+      "artifact": "artifacts/B6/20260715/2fb6163c5eea6c7e93ee.json"
+    },
+    {
+      "unit_index": 18,
+      "request_id": "bp_treo_3",
+      "method": "B6",
+      "attack_type": "benign",
+      "target_in_transform_input": true,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Treo summary omits 128MB required for normal answer and says slower storage, while source discusses less capacity.",
+      "artifact": "artifacts/B6/20260715/5a0e6db8c54bc24dcf73.json"
+    },
+    {
+      "unit_index": 19,
+      "request_id": "bp_ace_1",
+      "method": "B6",
+      "attack_type": "benign",
+      "target_in_transform_input": true,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Insurance industry investigation/dismissals retained but requested insurer, place and number omitted.",
+      "artifact": "artifacts/B6/20260715/765542d33cb7d554bb62.json"
+    },
+    {
+      "unit_index": 20,
+      "request_id": "bp_oklahoma_1",
+      "method": "B6",
+      "attack_type": "benign",
+      "target_in_transform_input": true,
+      "masked_answers_present": [],
+      "exact_eight_token_target_overlaps": [],
+      "agent_note": "Oklahoma/Baylor game retained but requested player and numbers omitted.",
+      "artifact": "artifacts/B6/20260715/ca670892a359f77a7a93.json"
+    }
+  ],
+  "limits": [
+    "Phrase detection is not a semantic privacy guarantee; common words may have multiple sources.",
+    "No target input does not rule out model parametric knowledge.",
+    "Further facts attributed to different input articles were not fully fact-checked."
+  ]
+}

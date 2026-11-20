@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"Macromedia readies Captivate for demos and simulations Macromedia on Monday is announcing Captivate, formerly known as RoboDemo, for recording onscreen activity and building software demonstrations and interactive simulations.\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "Macromedia introduces publishing tool for eBay Macromedia Inc. plans to announce Monday a special version of its Contribute Web publishing desktop application designed to automate and simplify the creation and modification of eBay Inc.",
+      "PalmOne, Microsoft Set E-Mail Software Pact (Reuters) Reuters - PalmOne Inc. , the leading\\maker of handheld computers on Tuesday said it licensed\\Microsoft Corp.  software that enables secure delivery\\of corporate e-mail to portable devices.",
+      "Animating for the Super Bowl Against an impossible deadline, a small team at Sony Cinematics Solutions Group created a two-minute animated promo to prove that a tech-savvy group could do dazzling broadcast work. Aug 13",
+      "Nose replaces mouse to surf web Dmitry Gorodnichy, an inventor from the Institute of Information Technology in Ottawa, has developed a computer navigation system that relies on the movements of a user #39;s nose to direct a cursor, New Scientist has reported."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Macromedia introduces publishing tool for eBay Macromedia Inc. plans to announce Monday a special version of its Contribute Web publishing desktop application designed to automate and simplify the creation and modification of eBay Inc.\"\n\"PalmOne, Microsoft Set E-Mail Software Pact (Reuters) Reuters - PalmOne Inc. , the leading\\maker of handheld computers on Tuesday said it licensed\\Microsoft Corp.  software that enables secure delivery\\of corporate e-mail to portable devices.\"\n\"Animating for the Super Bowl Against an impossible deadline, a small team at Sony Cinematics Solutions Group created a two-minute animated promo to prove that a tech-savvy group could do dazzling broadcast work. Aug 13\"\n\"Nose replaces mouse to surf web Dmitry Gorodnichy, an inventor from the Institute of Information Technology in Ottawa, has developed a computer navigation system that relies on the movements of a user #39;s nose to direct a cursor, New Scientist has reported.\"\n\nQuestion:\nDoes this: \"Macromedia readies Captivate for demos and simulations Macromedia on Monday is announcing Captivate, formerly known as RoboDemo, for recording onscreen activity and building software demonstrations and interactive simulations.\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

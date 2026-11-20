@@ -1,0 +1,171 @@
+{
+  "fast-v2-b0-b2-20261105-01": {
+    "status": "completed",
+    "method": "B2",
+    "by_truth": {
+      "benign": {
+        "requests": 4,
+        "triggered": 0,
+        "query_trace": 4,
+        "query_ok": 4,
+        "query_typed": 0,
+        "query_correct_type": 0,
+        "query_evidence": 0,
+        "query_multi_type": 0
+      },
+      "direct_rag_mia": {
+        "requests": 2,
+        "triggered": 1,
+        "query_trace": 2,
+        "query_ok": 2,
+        "query_typed": 1,
+        "query_correct_type": 1,
+        "query_evidence": 1,
+        "query_multi_type": 0,
+        "query_pred:direct_rag_mia": 1
+      },
+      "s2_mia": {
+        "requests": 2,
+        "triggered": 2,
+        "query_trace": 2,
+        "query_ok": 2,
+        "query_typed": 2,
+        "query_correct_type": 1,
+        "query_evidence": 2,
+        "query_multi_type": 0,
+        "query_pred:masked_mia": 1,
+        "query_pred:s2_mia": 1
+      },
+      "masked_mia": {
+        "requests": 2,
+        "triggered": 2,
+        "query_trace": 2,
+        "query_ok": 2,
+        "query_typed": 2,
+        "query_correct_type": 2,
+        "query_evidence": 2,
+        "query_multi_type": 0,
+        "query_pred:masked_mia": 2
+      },
+      "ia": {
+        "requests": 2,
+        "triggered": 1,
+        "query_trace": 2,
+        "query_ok": 2,
+        "query_typed": 1,
+        "query_correct_type": 1,
+        "query_evidence": 1,
+        "query_multi_type": 0,
+        "query_pred:ia": 1
+      }
+    }
+  },
+  "rank-stress-v2-locator-20261111-01": {
+    "status": "completed",
+    "method": "B5_LOCATED",
+    "by_truth": {
+      "benign": {
+        "requests": 3,
+        "triggered": 0,
+        "query_trace": 3,
+        "query_ok": 3,
+        "query_typed": 0,
+        "query_correct_type": 0,
+        "query_evidence": 0,
+        "query_multi_type": 0
+      },
+      "masked_mia": {
+        "requests": 3,
+        "triggered": 3,
+        "query_trace": 3,
+        "query_ok": 3,
+        "query_typed": 3,
+        "query_correct_type": 3,
+        "query_evidence": 3,
+        "query_multi_type": 0,
+        "query_pred:masked_mia": 3
+      }
+    }
+  },
+  "locator-new-sources-20261111-01": {
+    "status": "completed",
+    "method": "B5_LOCATED",
+    "by_truth": {
+      "direct_rag_mia": {
+        "requests": 2,
+        "triggered": 0,
+        "query_trace": 2,
+        "query_ok": 2,
+        "query_typed": 0,
+        "query_correct_type": 0,
+        "query_evidence": 0,
+        "query_multi_type": 0
+      },
+      "s2_mia": {
+        "requests": 2,
+        "triggered": 2,
+        "query_trace": 2,
+        "query_ok": 2,
+        "query_typed": 2,
+        "query_correct_type": 2,
+        "query_evidence": 2,
+        "query_multi_type": 0,
+        "query_pred:s2_mia": 2
+      },
+      "masked_mia": {
+        "requests": 2,
+        "triggered": 1,
+        "query_trace": 2,
+        "query_ok": 2,
+        "query_typed": 1,
+        "query_correct_type": 1,
+        "query_evidence": 1,
+        "query_multi_type": 0,
+        "query_pred:masked_mia": 1
+      }
+    }
+  },
+  "cue-utility-nonmember-20261111-01": {
+    "status": "completed",
+    "method": "B5_CUE",
+    "by_truth": {
+      "direct_rag_mia": {
+        "requests": 2,
+        "triggered": 1,
+        "query_trace": 2,
+        "query_ok": 2,
+        "query_typed": 1,
+        "query_correct_type": 1,
+        "query_evidence": 1,
+        "query_multi_type": 0,
+        "query_pred:direct_rag_mia": 1
+      },
+      "masked_mia": {
+        "requests": 2,
+        "triggered": 2,
+        "query_trace": 2,
+        "query_ok": 2,
+        "query_typed": 2,
+        "query_correct_type": 2,
+        "query_evidence": 2,
+        "query_multi_type": 0,
+        "query_pred:masked_mia": 2
+      },
+      "benign": {
+        "requests": 4,
+        "triggered": 1,
+        "query_trace": 4,
+        "query_ok": 4,
+        "query_typed": 1,
+        "query_correct_type": 0,
+        "query_evidence": 1,
+        "query_multi_type": 0,
+        "query_pred:masked_mia": 1
+      }
+    }
+  },
+  "e00-observe-20261022-01": {
+    "status": "complete",
+    "note": "Historical v1 E00, separate from v2 replay"
+  }
+}

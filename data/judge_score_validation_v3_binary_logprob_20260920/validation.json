@@ -1,0 +1,71 @@
+{
+  "frozen_model": {
+    "coefficient": [
+      0.12467715894312009,
+      0.1792509147102471
+    ],
+    "feature_order": [
+      "x1",
+      "x2_observed"
+    ],
+    "head": "logprob",
+    "intercept": -0.10300497867119779,
+    "model": "logistic_l2",
+    "schema_version": 1,
+    "thresholds": {
+      "0.01": {
+        "threshold": 0.4798231627374044
+      },
+      "0.05": {
+        "threshold": 0.4798231627374044
+      }
+    },
+    "train_documents": 60,
+    "train_rows": 2107
+  },
+  "validation": {
+    "documents": 20,
+    "operating_points": {
+      "0.01": {
+        "accuracy": 0.7851002865329513,
+        "attack_macro_recall": 0.9072598253275109,
+        "attack_recalls": {
+          "direct_rag_mia": 0.95,
+          "ia": 0.6790393013100436,
+          "masked_mia": 1.0,
+          "s2_mia": 1.0
+        },
+        "benign_fpr": 0.0,
+        "f1": 0.866785079928952,
+        "precision": 1.0,
+        "recall": 0.7648902821316614,
+        "threshold": 0.4798231627374044,
+        "weakest_attack_recall": 0.6790393013100436
+      },
+      "0.05": {
+        "accuracy": 0.7851002865329513,
+        "attack_macro_recall": 0.9072598253275109,
+        "attack_recalls": {
+          "direct_rag_mia": 0.95,
+          "ia": 0.6790393013100436,
+          "masked_mia": 1.0,
+          "s2_mia": 1.0
+        },
+        "benign_fpr": 0.0,
+        "f1": 0.866785079928952,
+        "precision": 1.0,
+        "recall": 0.7648902821316614,
+        "threshold": 0.4798231627374044,
+        "weakest_attack_recall": 0.6790393013100436
+      }
+    },
+    "partition": "validation",
+    "probability_metrics": {
+      "auroc": 0.8706896551724137,
+      "brier": 0.2404697522208434,
+      "pr_auc": 0.9797341208806594
+    },
+    "rows": 698,
+    "schema_version": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "The passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nNBA could use this [Mask_1] Sarunas Jasikevicius is just another international [Mask_2] who is too slow and too [Mask_3] to the floor to [Mask_4] in the NBA. He is not what we want, not our [Mask_5].",
+    "contexts": [
+      "NBA could use this reject Sarunas Jasikevicius is just another international nobody who is too slow and too anchored to the floor to play in the NBA. He is not what we want, not our style.",
+      "O #39;Neal Wants More From Team MIAMI -- Shaquille O #39;Neal thinks Miami #39;s opponents are rising to the challenge of playing against him and Dwyane Wade. And right now, the Heat aren #39;t responding the way their center would prefer.",
+      "Ganguly #39;s growling list of woe With the NatWest Challenge a thing of the past, Cricket365 scours the papers to bring our readers what the Indian media are saying about their players.",
+      "Clippers #39; Brand suspended one game New York, NY (Sports Network) - Los Angeles Clippers forward Elton Brand was suspended Tuesday for one game by the NBA for shoving Charlotte #39;s Emeka Okafor during the fourth quarter of Monday night #39;s game."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"NBA could use this reject Sarunas Jasikevicius is just another international nobody who is too slow and too anchored to the floor to play in the NBA. He is not what we want, not our style.\"\n\"O #39;Neal Wants More From Team MIAMI -- Shaquille O #39;Neal thinks Miami #39;s opponents are rising to the challenge of playing against him and Dwyane Wade. And right now, the Heat aren #39;t responding the way their center would prefer.\"\n\"Ganguly #39;s growling list of woe With the NatWest Challenge a thing of the past, Cricket365 scours the papers to bring our readers what the Indian media are saying about their players.\"\n\"Clippers #39; Brand suspended one game New York, NY (Sports Network) - Los Angeles Clippers forward Elton Brand was suspended Tuesday for one game by the NBA for shoving Charlotte #39;s Emeka Okafor during the fourth quarter of Monday night #39;s game.\"\n\nQuestion:\nThe passage below contains 5 numbered placeholders. Provide only a JSON object with an \"answers\" array of 5 strings, giving the original word for each placeholder in numeric order.\n\nPassage:\nNBA could use this [Mask_1] Sarunas Jasikevicius is just another international [Mask_2] who is too slow and too [Mask_3] to the floor to [Mask_4] in the NBA. He is not what we want, not our [Mask_5].\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

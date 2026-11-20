@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"NBA could use this reject Sarunas Jasikevicius is just another international nobody who is too slow and too anchored to the floor to play in the NBA. He is not what we want, not our style.\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "NBA could use this reject Sarunas Jasikevicius is just another international nobody who is too slow and too anchored to the floor to play in the NBA. He is not what we want, not our style.",
+      "O #39;Neal Wants More From Team MIAMI -- Shaquille O #39;Neal thinks Miami #39;s opponents are rising to the challenge of playing against him and Dwyane Wade. And right now, the Heat aren #39;t responding the way their center would prefer.",
+      "Ganguly #39;s growling list of woe With the NatWest Challenge a thing of the past, Cricket365 scours the papers to bring our readers what the Indian media are saying about their players.",
+      "Differences Emerge The owners disagree with NFL Players Association Executive Director Gene \\Upshaw about the league's future economic system says Commissioner Paul \\Tagliabue."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"NBA could use this reject Sarunas Jasikevicius is just another international nobody who is too slow and too anchored to the floor to play in the NBA. He is not what we want, not our style.\"\n\"O #39;Neal Wants More From Team MIAMI -- Shaquille O #39;Neal thinks Miami #39;s opponents are rising to the challenge of playing against him and Dwyane Wade. And right now, the Heat aren #39;t responding the way their center would prefer.\"\n\"Ganguly #39;s growling list of woe With the NatWest Challenge a thing of the past, Cricket365 scours the papers to bring our readers what the Indian media are saying about their players.\"\n\"Differences Emerge The owners disagree with NFL Players Association Executive Director Gene \\Upshaw about the league's future economic system says Commissioner Paul \\Tagliabue.\"\n\nQuestion:\nDoes this: \"NBA could use this reject Sarunas Jasikevicius is just another international nobody who is too slow and too anchored to the floor to play in the NBA. He is not what we want, not our style.\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

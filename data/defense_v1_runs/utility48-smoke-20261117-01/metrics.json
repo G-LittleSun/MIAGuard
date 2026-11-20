@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-utility48-smoke",
+  "run_id": "utility48-smoke-20261117-01",
+  "identity_sha256": "2a928dac6e429c18f1a08f05d585f1c36ebf67ea3806265204ed51744581add1",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 8,
+  "completed": 8,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 4,
+  "method_count": 2,
+  "attack_target_count": 0,
+  "benign_request_count": 8
+}

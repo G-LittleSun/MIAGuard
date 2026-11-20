@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"What Next for NASA? O'Keefe Leaves in Good Stead, But......\" based on the Context.",
+    "contexts": [
+      "What Next for NASA? O'Keefe Leaves in Good Stead, But Agency Remains Troubled (SPACE.com) SPACE.com - The resignation Monday of NASA Administrator Sean \\O'Keefe comes at a time when the agency has a budgetary window of opportunity to \\flex its space exploration muscle, but must still deal with an agenda of thorny \\issues.",
+      "NASA chief resigns, cites college costs CAPE CANAVERAL, Fla. -- The departure of NASA #39;s boss comes at a challenging time as the space agency struggles to ditch the mentality that lost Columbia and get its remaining shuttles flying again, while aiming for the moon and Mars.",
+      "Company Offers 'Space Memorial Services' (AP) AP - People interested in an out-of-this-world post-death experience can \"boldly go where no man has gone before\" with a space memorial service that blasts their ashes into space.",
+      "Hollywood stunt pilots hope to snag a falling NASA craft PASADENA  To snag a spacecraft as it plummets to Earth after a three-year mission to collect bits of the sun, NASA has turned to Hollywood stunt pilots. "
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"What Next for NASA? O'Keefe Leaves in Good Stead, But Agency Remains Troubled (SPACE.com) SPACE.com - The resignation Monday of NASA Administrator Sean \\O'Keefe comes at a time when the agency has a budgetary window of opportunity to \\flex its space exploration muscle, but must still deal with an agenda of thorny \\issues.\"\n\"NASA chief resigns, cites college costs CAPE CANAVERAL, Fla. -- The departure of NASA #39;s boss comes at a challenging time as the space agency struggles to ditch the mentality that lost Columbia and get its remaining shuttles flying again, while aiming for the moon and Mars.\"\n\"Company Offers 'Space Memorial Services' (AP) AP - People interested in an out-of-this-world post-death experience can \"boldly go where no man has gone before\" with a space memorial service that blasts their ashes into space.\"\n\"Hollywood stunt pilots hope to snag a falling NASA craft PASADENA  To snag a spacecraft as it plummets to Earth after a three-year mission to collect bits of the sun, NASA has turned to Hollywood stunt pilots. \"\n\nQuestion:\nComplete this sentence \"What Next for NASA? O'Keefe Leaves in Good Stead, But......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

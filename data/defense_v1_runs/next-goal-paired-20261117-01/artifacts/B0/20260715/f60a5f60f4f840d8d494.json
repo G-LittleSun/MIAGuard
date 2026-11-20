@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Complete this sentence \"NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is......\" based on the Context.",
+    "contexts": [
+      "NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is planning to add a strong dose of artificial intelligence (AI) to planetary rovers to make them much more self-reliant, capable of making basic decisions during a mission. Scientists are developing very complex AI software that enables a higher level of robotic intelligence.",
+      "NASA head steps down Since June 2003, NASA has been investigating the possibility of using a robotic spacecraft to service Hubble. Such a mission would not put the lives of astronauts in jeopardy.",
+      "Intel evaluating India as manufacturing destination Dr Craig Barrett, CEO, Intel Corporation, with a young learner from Kerala during the launch of the Intel Learn Programme in the Capital on Thursday.",
+      "Astronomers chart asteroid threat \\A team of astronomers steps up a project which one day could preserve the Earth from annihilation."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is planning to add a strong dose of artificial intelligence (AI) to planetary rovers to make them much more self-reliant, capable of making basic decisions during a mission. Scientists are developing very complex AI software that enables a higher level of robotic intelligence.\"\n\"NASA head steps down Since June 2003, NASA has been investigating the possibility of using a robotic spacecraft to service Hubble. Such a mission would not put the lives of astronauts in jeopardy.\"\n\"Intel evaluating India as manufacturing destination Dr Craig Barrett, CEO, Intel Corporation, with a young learner from Kerala during the launch of the Intel Learn Programme in the Capital on Thursday.\"\n\"Astronomers chart asteroid threat \\A team of astronomers steps up a project which one day could preserve the Earth from annihilation.\"\n\nQuestion:\nComplete this sentence \"NASA Develops Robust Artificial Intelligence for Planetary Rovers NASA is......\" based on the Context.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

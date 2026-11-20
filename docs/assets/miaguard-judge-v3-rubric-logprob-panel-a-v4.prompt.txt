@@ -1,0 +1,8 @@
+Use case: precise-object-edit. Edit the provided Chinese academic flowchart. Make exactly two text changes while preserving its geometry, design and every other part:
+1. In the left blue header replace “LLM 直接评分（Rubric）” with just “LLM 直接评分”, centered on the same line. Remove Rubric and both parentheses entirely.
+2. In the right teal card body, between its header and its two enclosed score boxes, replace the entire existing explanatory text and displayed math (including the A/B English assignments, the old token-probability line, the equation, and the fraction bar) with these two lines of simplified Chinese text, verbatim, evenly spaced and centered vertically in that area:
+“读取良性与攻击标签的下一 token 概率”
+“取攻击标签概率占两者之和的比例”
+Fit both lines within the teal frame without clipping. The two lines are uniform body text, comparable to the body text in the blue card. Do not use any formula, A/B assignments, examples, or extra labels in this body.
+
+All invariants are strict: top gray input box retains “风险评估证据” and “当前查询证据 / 会话窗口证据”, its arrows fan out to the method enclosures. Right header remains exactly “基于 Logprob 的风险评分”. Left body remains exactly “按评分准则分别生成风险分数”. The two method enclosures fully contain their own score boxes labeled “单查询风险 x₁” and “会话窗口风险 x₂”. There are no arrows above those internal score boxes. Retain the existing arrows from each pair of score boxes down to that method’s detached fusion box “查询与会话分数融合”. No cross-lane arrows. Preserve white canvas, pastel blue and teal, stroke weights, shape placements and scale, clear CJK typography, equal lanes and publication-style visuals. No panel marker, no thresholds, no additional text.

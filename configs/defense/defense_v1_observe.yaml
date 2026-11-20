@@ -1,0 +1,26 @@
+schema_version: 1
+mode: observe
+session:
+  window_size: 5
+  timeout_seconds: 1800
+  min_session_queries: 3
+  evaluation_interval: 1
+aggregation:
+  method: dynamic_window_coverage
+  query_weight: 0.4
+  session_weight: 0.6
+  query_critical_threshold: 0.85
+  session_critical_threshold: 0.85
+policy:
+  thresholds: [0.2, 0.4, 0.65, 0.85]
+access_control:
+  restrict_context_chars: 240
+versions:
+  policy: defense_v1_observe_frozen_logprob
+frozen:
+  head: logprob
+  model_path: data/judge_score_frozen_v3_binary_logprob_20260920/logistic_l2.json
+  model_sha256: b24b81b88a4ce9579e81eb51cb4e0cc940972dc22499fce77ef80c60f587d188
+  query_only_path: reports/defense_v1/T04/query_only_thresholds.json
+  query_only_sha256: a2b482352326a4e9154abeb1126169694df5c7c9ff70a87d9bc5a3ca07aa0759
+  fpr_cap: '0.01'

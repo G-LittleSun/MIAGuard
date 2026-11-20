@@ -1,0 +1,23 @@
+{
+  "baseline_run": "benign-triggered-pair-20261113-01",
+  "production_code_checks": {
+    "D:\\Project\\MIAGuard\\src\\miaguard\\defense_benchmark.py": true,
+    "D:\\Project\\MIAGuard\\src\\miaguard\\exposure_store.py": true,
+    "D:\\Project\\MIAGuard\\src\\miaguard\\two_stage_gateway.py": true,
+    "D:\\Project\\MIAGuard\\src\\miaguard\\defense.py": true,
+    "D:\\Project\\MIAGuard\\src\\miaguard\\vector_store.py": true,
+    "D:\\Project\\MIAGuard\\src\\miaguard\\evidence_access.py": true,
+    "D:\\Project\\MIAGuard\\src\\miaguard\\defense_experiment.py": true,
+    "D:\\Project\\MIAGuard\\src\\miaguard\\defense_benchmark_fake.py": true,
+    "D:\\Project\\MIAGuard\\src\\miaguard\\defense_benchmark_live.py": true,
+    "D:\\Project\\MIAGuard\\src\\miaguard\\evidence_locator.py": true,
+    "D:\\Project\\MIAGuard\\src\\miaguard\\query_cue.py": true,
+    "D:\\Project\\MIAGuard\\src\\miaguard\\progressive_judge.py": true,
+    "D:\\Project\\MIAGuard\\src\\miaguard\\online_judge_adapter.py": true,
+    "D:\\Project\\MIAGuard\\src\\miaguard\\frozen_risk_scorer.py": true,
+    "D:\\Project\\MIAGuard\\src\\miaguard\\model_client.py": true,
+    "D:\\Project\\MIAGuard\\scripts\\run_defense_v1_benchmark.py": true
+  },
+  "all_match": true,
+  "formal_effect_eligible": false
+}

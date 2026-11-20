@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "analysis_role": "engineering_only",
+  "human_reviewed": false,
+  "formal_effect_eligible": false,
+  "started_at": "2026-11-17T07:37:12.762535+00:00",
+  "input_sha256": {
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\next_goal_v2_train_20261117_01\\experiment_spec.json": "0005aeb58098bed174290c13ba74ba5245f0fe595ecf6ed4b30e6fa3b709c1e7",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\next_goal_alternate_evidence_prereg_20261117.json": "a0b0b66d9c1e082fa5bebcc18ea9679297787247aa55d7bdd0419369adca757e",
+    "D:\\Project\\MIAGuard\\data\\defense_v1_runs\\next-goal-paired-20261117-01\\run_manifest.json": "96df84cbf257688a25914a7283d83023fd04b02c2c81d5e2f265f9a73fce2689",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\run_next_goal_alternate_20261117.py": "982fe11948017ce531b47d451f70afd735773a6816af085a8d43e72b87712e7b"
+  },
+  "parent_identity_sha256": "c53e8bae983dd1c13c7a66ff0a7c4fecfe4ec545d81eae23557a9861b35a9384",
+  "expected": 2,
+  "scope": "Forced action experiment with simulated allowlist; not an online locator evaluation.",
+  "completed": 2,
+  "failed": 0,
+  "events_sha256": "f1d24405a33472706330e11e6beca9a288fdfbc27abe131861153d6d4204019a",
+  "finished_at": "2026-11-17T07:37:23.950035+00:00"
+}

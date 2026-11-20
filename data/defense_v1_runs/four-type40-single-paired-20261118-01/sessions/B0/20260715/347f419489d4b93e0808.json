@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "3e7b8f17823b2e885fb846c285761b92e68b47d9284f459e773271082971376a",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "q095",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "q095",
+      "session_id": "q095",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "iMac G5: The all-in-one computer redefined OCTOBER 05, 2004 (COMPUTERWORLD)...by integrating disk drives and processors into a flat display less than two inches thick, marking a significant shift in desktop computer design.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000353",
+        "ag_news_teacher_00000782",
+        "ag_news_teacher_00000924",
+        "ag_news_teacher_00000980"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000353",
+        "ag_news_teacher_00000782",
+        "ag_news_teacher_00000924",
+        "ag_news_teacher_00000980"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000353",
+            "ag_news_teacher_00000782",
+            "ag_news_teacher_00000924",
+            "ag_news_teacher_00000980"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000353",
+            "ag_news_teacher_00000782",
+            "ag_news_teacher_00000924",
+            "ag_news_teacher_00000980"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 2217.5977006554604,
+      "ledger_event": {
+        "request_id": "q095",
+        "session_id": "q095",
+        "input_sha256": "7325088fc579247d43644a03659b334b9eda08affd164ddc0b0575b027c34d9d",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000353",
+          "ag_news_teacher_00000782",
+          "ag_news_teacher_00000924",
+          "ag_news_teacher_00000980"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000353",
+            "parent_doc_id": "ag_news_teacher_00000353",
+            "kind": "raw",
+            "score": 0.49490270018577576,
+            "text_sha256": "bc2a885332216da93a95692387c2f9abe01894ad2ce549708a17a2a16dfeaff0"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000782",
+            "parent_doc_id": "ag_news_teacher_00000782",
+            "kind": "raw",
+            "score": 0.3971242606639862,
+            "text_sha256": "9ec967a73d0704934a0fa0a616f882d888fca923f2ca94e0fa1986cdcba7fa1a"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000924",
+            "parent_doc_id": "ag_news_teacher_00000924",
+            "kind": "raw",
+            "score": 0.3768099546432495,
+            "text_sha256": "0db33a5e62ad7c0ce3e38b5029b878c6e7e17232e040551db1ae72d3bd212395"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000980",
+            "parent_doc_id": "ag_news_teacher_00000980",
+            "kind": "raw",
+            "score": 0.3492313027381897,
+            "text_sha256": "b60e147cd353d74a35e728a9c248379c1221aa2ff542d9d4df44371bfc4c4877"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "iMac G5: The all-in-one computer redefined OCTOBER 05, 2004 (COMPUTERWORLD)...by integrating disk drives and processors into a flat display less than two inches thick, marking a significant shift in desktop computer design.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795004571.535754,
+        "finished_at": 1795004573.7532518
+      },
+      "generation_input_ref": "artifacts/B0/20260715/347f419489d4b93e0808.json",
+      "artifact_sha256": "b762e4c3311df3c24de2790864e77cc3c9d59ba8fa51cf5ab8a7746fc0b34af3"
+    }
+  ]
+}

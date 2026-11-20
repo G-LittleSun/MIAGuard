@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "c53e8bae983dd1c13c7a66ff0a7c4fecfe4ec545d81eae23557a9861b35a9384",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ng_78c530823da84eb31050",
+  "expected": 1,
+  "events": [
+    {
+      "request_id": "ng_78c530823da84eb31050",
+      "session_id": "ng_78c530823da84eb31050",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "U.S. Men End 40-Year Rowing Drought ATHENS (Reuters) - The American men's eight rowing team won gold, ending a 40-year drought for the United States in the event.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000769",
+        "ag_news_teacher_00000028",
+        "ag_news_teacher_00000457",
+        "ag_news_teacher_00000658"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000769",
+        "ag_news_teacher_00000028",
+        "ag_news_teacher_00000457",
+        "ag_news_teacher_00000658"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000769",
+            "ag_news_teacher_00000028",
+            "ag_news_teacher_00000457",
+            "ag_news_teacher_00000658"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000769",
+            "ag_news_teacher_00000028",
+            "ag_news_teacher_00000457",
+            "ag_news_teacher_00000658"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1396.009000018239,
+      "ledger_event": {
+        "request_id": "ng_78c530823da84eb31050",
+        "session_id": "ng_78c530823da84eb31050",
+        "input_sha256": "2dbcf764c2a7901f5c4d77e6b459ac9fdc5f65609ac031e6953cd78a8b826398",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000769",
+          "ag_news_teacher_00000028",
+          "ag_news_teacher_00000457",
+          "ag_news_teacher_00000658"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000769",
+            "parent_doc_id": "ag_news_teacher_00000769",
+            "kind": "raw",
+            "score": 0.400674045085907,
+            "text_sha256": "19fdedf75170372ff46c20c3c1361e4bb283e53731e61fb3c84d928a8b689716"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000028",
+            "parent_doc_id": "ag_news_teacher_00000028",
+            "kind": "raw",
+            "score": 0.38993406295776367,
+            "text_sha256": "fc7a06c595b662ce0c3248c83851a530b2dcd65ae7ddd4a61f408fa2354004c1"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000457",
+            "parent_doc_id": "ag_news_teacher_00000457",
+            "kind": "raw",
+            "score": 0.30989527702331543,
+            "text_sha256": "2265bded5be43362b98f3e80747001ffdcbbea2b2bed0bb38d969d385112069d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000658",
+            "parent_doc_id": "ag_news_teacher_00000658",
+            "kind": "raw",
+            "score": 0.29602107405662537,
+            "text_sha256": "b05ec7c4c9e7385723824eb90a015ee66c2199ed43cb7de500edb3f6c1494197"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "U.S. Men End 40-Year Rowing Drought ATHENS (Reuters) - The American men's eight rowing team won gold, ending a 40-year drought for the United States in the event.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1794899196.2323492,
+        "finished_at": 1794899197.628342
+      },
+      "generation_input_ref": "artifacts/B0/20260715/6c759c0aa3733fe9902c.json",
+      "artifact_sha256": "15ce92e92cdc43a134e381739c79fd6b2428f9efb27efbe267e94b9cf18f2f34"
+    }
+  ]
+}

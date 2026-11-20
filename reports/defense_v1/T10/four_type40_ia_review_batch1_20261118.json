@@ -1,0 +1,41 @@
+{
+  "status": "partial_agent_review",
+  "reviewer_kind": "codex_agent",
+  "human_reviewed": false,
+  "scope": "Source and fixed wording checked. No model output from the current defense experiment was used.",
+  "document_reviews": [
+    {
+      "doc_id": "ag_news_teacher_00000149",
+      "decisions": [
+        ["ag_news:ag_news_teacher_00000149:ia:generated:0001", "NASA plans AI for planetary rovers", "artificial intelligence (AI) to planetary rovers"],
+        ["ag_news:ag_news_teacher_00000149:ia:generated:0002", "The rovers can make basic mission decisions", "capable of making basic decisions during a mission"],
+        ["ag_news:ag_news_teacher_00000149:ia:generated:0004", "The AI software is complex", "very complex AI software"]
+      ]
+    },
+    {
+      "doc_id": "ag_news_teacher_00000220",
+      "decisions": [
+        ["ag_news:ag_news_teacher_00000220:ia:generated:0001", "A 14-year-old boy was attacked at a fair in Florida", "A 14-year old boy and a tiger handler are recovering after being attacked by a 350-pound Siberian tiger at a county fair in Florida"],
+        ["ag_news:ag_news_teacher_00000220:ia:generated:0002", "The tiger weighed 350 pounds", "350-pound Siberian tiger"],
+        ["ag_news:ag_news_teacher_00000220:ia:generated:0003", "The handler was also attacked", "a tiger handler are recovering after being attacked"]
+      ]
+    },
+    {
+      "doc_id": "ag_news_teacher_00008290",
+      "decisions": [
+        ["ag_news:ag_news_teacher_00008290:ia:generated:0001", "Fox plans a BCS deal starting after the 2006 regular season", "starting with bowls after the 2006 regular season"],
+        ["ag_news:ag_news_teacher_00008290:ia:generated:0007", "The deal lasts four years", "a four-year deal"],
+        ["ag_news:ag_news_teacher_00008290:ia:generated:0003", "The deal includes the Orange Bowl, as named in the headline", "deal to air Fiesta, Orange, Sugar bowls"]
+      ]
+    },
+    {
+      "doc_id": "ag_news_teacher_00008321",
+      "decisions": [
+        ["ag_news:ag_news_teacher_00008321:ia:generated:0001", "The difficult problem was discussed at the festival", "British Association's Festival of Science is told"],
+        ["ag_news:ag_news_teacher_00008321:ia:generated:0002", "The headline characterizes the solution as looking good", "Big maths solution 'looks good'"],
+        ["ag_news:ag_news_teacher_00008321:ia:generated:0017", "The outcome is uncertain", "may have been solved"]
+      ]
+    }
+  ],
+  "limits": ["Two documents rely on source headlines for one fact.", "This batch is an annotation input. It has not been frozen as a runnable IA cohort."]
+}

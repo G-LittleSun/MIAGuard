@@ -1,0 +1,1417 @@
+{
+  "status": "agent_source_grounding_review_complete",
+  "reviewer_kind": "codex_agent",
+  "human_reviewed": false,
+  "scope": "First 30 packet rows only, excluding prior batch document IDs and exactly-three existing_three_round sources. Audit of preexisting fixed candidate wording and reference labels against the provided source. No membership labels, live outcomes, generated queries, benchmarks or production files were used.",
+  "document_reviews": [
+    {
+      "doc_id": "ag_news_teacher_00000050",
+      "decisions": [
+        [
+          "vr_2885b4f931d6da70fdc9504b",
+          "The report presents a possible $13 billion Symantec purchase of Veritas.",
+          "Report: Symantec May Buy Veritas Antivirus vendor may pay \\$13 billion"
+        ],
+        [
+          "vr_41d93367260bf9733bca584c",
+          "Veritas is described as a storage software company.",
+          "the storage software company."
+        ],
+        [
+          "ag_news:ag_news_teacher_00000050:ia:generated:0006",
+          "Completion is not established: the report describes a possible purchase, so the existing Unknown reference is retained.",
+          "Report: Symantec May Buy Veritas"
+        ]
+      ],
+      "note": "Only two distinct supported Yes candidates. Completion remains Unknown under the provided may-buy wording. The original completion question introduces a potential acquisition itself; mark that cue rather than treating it as an independent inference.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "unknown"
+      ],
+      "selected_count": 3,
+      "candidate_checks": [
+        {
+          "candidate_id": "vr_2885b4f931d6da70fdc9504b",
+          "query": "According to the report, might Symantec pay $13 billion for Veritas? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 0,
+          "support_span_end": 70
+        },
+        {
+          "candidate_id": "vr_41d93367260bf9733bca584c",
+          "query": "According to the report, is Veritas a storage software company? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 75,
+          "support_span_end": 104
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000050:ia:generated:0006",
+          "query": "I am inquiring about a Symantec potential acquisition of Veritas for $13 billion. Was the acquisition of Veritas by Symantec finalized according to the report? Please answer with Yes, No, or Unknown.",
+          "reference": "unknown",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "source_insufficiency",
+          "support_span_start": 0,
+          "support_span_end": 32
+        }
+      ],
+      "answer_in_query_ids": [
+        "ag_news:ag_news_teacher_00000050:ia:generated:0006"
+      ],
+      "answer_in_query_reason": "The introductory potential-acquisition wording already supplies the uncertainty being queried about completion.",
+      "alternate_valid_candidates": [],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": true,
+      "usable_three_without_answer_in_query": false,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "51b1e19cbec5538eb4d6429b29c60e1afab3c9b2f9a5168028d94f1cb4b46650"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000102",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00000102:ia:generated:0005",
+          "The author says they are tired of bovine references.",
+          "I #39;m tired of the bovine references"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000102:ia:generated:0022",
+          "The provided excerpt does not name any specific features that will remain unchanged.",
+          "The long march to Longhorn It #39;s not just because I #39;m tired of the bovine references and the  quot;shorthorn quot; jokes. No, the problem is that the future version of Windows formerly known as Longhorn in many ways won #39;t resemble the Longhorn "
+        ],
+        [
+          "ag_news:ag_news_teacher_00000102:ia:generated:0024",
+          "The provided excerpt does not mention specific marketing considerations influencing the name change.",
+          "The long march to Longhorn It #39;s not just because I #39;m tired of the bovine references and the  quot;shorthorn quot; jokes. No, the problem is that the future version of Windows formerly known as Longhorn in many ways won #39;t resemble the Longhorn "
+        ]
+      ],
+      "note": "The two No decisions are closed-text absence checks over the entire provided excerpt, not claims about the full unpublished article or the real product. No specific unchanged feature or marketing consideration is listed.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes",
+        "no",
+        "no"
+      ],
+      "selected_count": 3,
+      "candidate_checks": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000102:ia:generated:0005",
+          "query": "I am inquiring about a The future version of Windows formerly known as Longhorn. Did the author express exhaustion with the bovine references related to Longhorn? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 53,
+          "support_span_end": 91
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000102:ia:generated:0022",
+          "query": "I am inquiring about a The future version of Windows formerly known as Longhorn. Did the author mention any specific features that will remain the same in the post-Longhorn version of Windows? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "closed_provided_text_absence",
+          "support_span_start": 0,
+          "support_span_end": 255
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000102:ia:generated:0024",
+          "query": "I am inquiring about a The future version of Windows formerly known as Longhorn. Did the author mention any specific marketing considerations that influenced the name change of Windows from Longhorn? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "closed_provided_text_absence",
+          "support_span_start": 0,
+          "support_span_end": 255
+        }
+      ],
+      "answer_in_query_ids": [],
+      "answer_in_query_reason": null,
+      "alternate_valid_candidates": [],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": true,
+      "usable_three_without_answer_in_query": true,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "9b1a358acffc53eb3e7cb67ffd97a33c134d0cfb0df21173e1d591925a2cb035"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000176",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00000176:ia:generated:0022",
+          "The budgetary opportunity was open at the time of the resignation.",
+          "comes at a time when the agency has a budgetary window of opportunity"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000176:ia:generated:0038",
+          "Unresolved issues remained at the time of the resignation.",
+          "but must still deal with an agenda of thorny \\issues."
+        ],
+        [
+          "ag_news:ag_news_teacher_00000176:ia:generated:0042",
+          "The claim that O'Keefe did not resign is contradicted by the reported resignation.",
+          "The resignation Monday of NASA Administrator Sean \\O'Keefe"
+        ]
+      ],
+      "note": "Three factual facets are open budget window, unresolved issues, and whether resignation occurred. The selected final query answers itself in its introductory phrase; a non-self-answering existing No alternative is listed.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "selected_count": 3,
+      "candidate_checks": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000176:ia:generated:0022",
+          "query": "I am inquiring about a NASA's budgetary opportunity and thorny issues under new administration. Did O'Keefe resign before the budgetary window for NASA's space exploration closed? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 161,
+          "support_span_end": 230
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000176:ia:generated:0038",
+          "query": "I am inquiring about a NASA's budgetary opportunity and Administrator O'Keefe's resignation. Did O'Keefe resign before the agency had addressed all its issues? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 270,
+          "support_span_end": 323
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000176:ia:generated:0042",
+          "query": "I am inquiring about a NASA's budgetary opportunity and Administrator O'Keefe's resignation. Did O'Keefe not resign at all from NASA? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 102,
+          "support_span_end": 160
+        }
+      ],
+      "answer_in_query_ids": [
+        "ag_news:ag_news_teacher_00000176:ia:generated:0042"
+      ],
+      "answer_in_query_reason": "The introduction states Administrator O'Keefe's resignation before asking whether he did not resign.",
+      "alternate_valid_candidates": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000176:ia:generated:0034",
+          "replaces_candidate_id": "ag_news:ag_news_teacher_00000176:ia:generated:0042",
+          "query": "I am inquiring about a reported fact. Did NASA Administrator Sean O'Keefe not resign at all and instead, the agency had to deal with an unsettled leadership during the budgetary window for space exploration? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "proposition": "The query's first conjunct denies the explicitly reported resignation.",
+          "evidence_quote": "The resignation Monday of NASA Administrator Sean \\O'Keefe",
+          "answer_in_query": false
+        }
+      ],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": true,
+      "usable_three_without_answer_in_query": false,
+      "usable_three_with_listed_alternative": true,
+      "source_text_sha256": "b99cd8f0f6ccb489faf318273b8091b253a60a4b9fc871ff31002f8eb14344f9"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000236",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00000236:ia:generated:0005",
+          "No numerical amount for the dinner bill appears in the provided source.",
+          "some unpaid dinner bill of long ago."
+        ],
+        [
+          "ag_news:ag_news_teacher_00000236:ia:generated:0009",
+          "The source does not report an accusation by Polamalu about a different loud noise; it describes his refusal to say whether Palmer snored.",
+          "Steelers' Polamalu Repects Carson Palmer (AP) AP - Steelers safety Troy Polamalu won't say if Bengals quarterback Carson Palmer owes him money from some unpaid dinner bill of long ago. Or if he left his unwashed socks in the middle of the floor, or snored so loudly it kept others awake."
+        ],
+        [
+          "ag_news:ag_news_teacher_00000236:ia:generated:0013",
+          "The source does not report any denial spoken by Palmer.",
+          "Steelers' Polamalu Repects Carson Palmer (AP) AP - Steelers safety Troy Polamalu won't say if Bengals quarterback Carson Palmer owes him money from some unpaid dinner bill of long ago. Or if he left his unwashed socks in the middle of the floor, or snored so loudly it kept others awake."
+        ]
+      ],
+      "note": "All three No labels concern what this provided source reports. The passage withholds whether incidents happened; it does not establish that no bill, noise or denial ever existed in the real world. Yes candidates either misstate an accusation, add unsupported acknowledgements, or repeat almost the entire source.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "no",
+        "no",
+        "no"
+      ],
+      "selected_count": 3,
+      "candidate_checks": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000236:ia:generated:0005",
+          "query": "I am inquiring about a Steelers safety Troy Polamalu refuses to discuss past issues with Bengals quarterback Carson Palmer. Was the unpaid dinner bill a specific amount mentioned in the source document? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "closed_provided_text_absence",
+          "support_span_start": 148,
+          "support_span_end": 184
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000236:ia:generated:0009",
+          "query": "I am inquiring about a Steelers safety Troy Polamalu refuses to discuss past issues with Bengals quarterback Carson Palmer. Did Troy Polamalu accuse Carson Palmer of making a loud noise other than snoring in the source document? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "closed_provided_text_absence",
+          "support_span_start": 0,
+          "support_span_end": 287
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000236:ia:generated:0013",
+          "query": "I am inquiring about a Steelers safety Troy Polamalu refuses to discuss past issues with Bengals quarterback Carson Palmer. Did Carson Palmer deny the unpaid dinner bill allegation made by Troy Polamalu in the source document? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "closed_provided_text_absence",
+          "support_span_start": 0,
+          "support_span_end": 287
+        }
+      ],
+      "answer_in_query_ids": [],
+      "answer_in_query_reason": null,
+      "alternate_valid_candidates": [],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": true,
+      "usable_three_without_answer_in_query": true,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "91377d35382d6ebecb4ad8c6b0217150aa1a8c32b383ab69cc0541a8cef855bf"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000307",
+      "decisions": [
+        [
+          "vr_50d26d25caf725ee2d1d631f",
+          "The article portrays Jasikevicius as too slow to play in the NBA.",
+          "too slow and too anchored to the floor to play in the NBA"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000307:ia:generated:0005",
+          "The article portrays him as too anchored to the floor for NBA play.",
+          "too anchored to the floor to play in the NBA"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000307:ia:generated:0003",
+          "The article's NBA-style portrayal says he is not the desired style.",
+          "He is not what we want, not our style."
+        ]
+      ],
+      "note": "Source-grounded as the article's rhetorical portrayal of NBA attitudes. This does not verify actual player ability or an official NBA statement. The headline suggests irony, so do not report these as independently established real-world assertions.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "selected_count": 3,
+      "candidate_checks": [
+        {
+          "candidate_id": "vr_50d26d25caf725ee2d1d631f",
+          "query": "According to the article, was Jasikevicius described as too slow to play in the NBA? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 91,
+          "support_span_end": 148
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000307:ia:generated:0005",
+          "query": "I am inquiring about a NBA's rejection of Sarunas Jasikevicius. Was Sarunas Jasikevicius considered too anchored to the floor for the NBA? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 104,
+          "support_span_end": 148
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000307:ia:generated:0003",
+          "query": "I am inquiring about a NBA's rejection of Sarunas Jasikevicius. Was Sarunas Jasikevicius considered to fit the NBA's style? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 150,
+          "support_span_end": 188
+        }
+      ],
+      "answer_in_query_ids": [],
+      "answer_in_query_reason": null,
+      "alternate_valid_candidates": [],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": true,
+      "usable_three_without_answer_in_query": true,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "09ade153a88ad359b93dcaa797ae9ae66a27b3e4b383d57c05c0ad6a91baa806"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000367",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00000367:ia:generated:0001",
+          "PalmOne plans a free 128MB expansion card for Treo 650 owners.",
+          "PalmOne plans to offer a free 128MB expansion card to Treo 650 owners"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000367:ia:generated:0002",
+          "The new file system offers less storage than the older Treo 600.",
+          "a new file system used for the handheld actually offers less memory for data storage than was available on the older Treo 600"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000367:ia:generated:0003",
+          "The card offer is linked causally to the reduction in available storage.",
+          "PalmOne plans to offer a free 128MB expansion card to Treo 650 owners because a new file system used for the handheld actually offers less memory for data storage"
+        ]
+      ],
+      "note": "Three targets are offer, comparative capacity and causal compensation. Preserve the order: the expansion card in the third query refers to the card introduced by the first. The common prefix supplies reduced-storage context but not the complete comparison or causal card relation.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "selected_count": 3,
+      "candidate_checks": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000367:ia:generated:0001",
+          "query": "I am inquiring about a New Treo 650 file system reduces storage capacity. Did PalmOne announce a free 128MB expansion card for Treo 650 owners? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 47,
+          "support_span_end": 116
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000367:ia:generated:0002",
+          "query": "I am inquiring about a New Treo 650 file system reduces storage capacity. Is the new file system used in the Treo 650 offering less memory than the older Treo 600? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 125,
+          "support_span_end": 250
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000367:ia:generated:0003",
+          "query": "I am inquiring about a New Treo 650 file system reduces storage capacity. Is the expansion card a compensatory measure for the reduced storage capacity in the Treo 650? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 47,
+          "support_span_end": 209
+        }
+      ],
+      "answer_in_query_ids": [],
+      "answer_in_query_reason": null,
+      "alternate_valid_candidates": [],
+      "turn_order_material": true,
+      "turn_order_note": "Keep 0001 before 0003: the third query says the expansion card without independently identifying the card.",
+      "grounded_three_propositions": true,
+      "usable_three_without_answer_in_query": true,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "109b827189943345fda7f703446231702ed51c10ec190e4d450a5102eb61cd70"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000532",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00000532:ia:generated:0001",
+          "Ace is subject to the New York attorney general's investigation.",
+          "Ace Ltd., a Bermuda insurer that is a subject of the New York attorney general's investigation"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000532:ia:generated:0002",
+          "The headline connects the executive dismissals to the inquiry.",
+          "Ace Dismisses 2 Executives in Response to Inquiry"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000532:ia:generated:0038",
+          "Two executives were dismissed, contradicting three.",
+          "dismissed two executives."
+        ]
+      ],
+      "note": "The response-to-inquiry causal claim is supported by the headline, not by the body alone. Distinct slots are investigating authority, response relationship and dismissal count. The first query prefix gives investigation status but not the tested New York attorney general identity.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "selected_count": 3,
+      "candidate_checks": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000532:ia:generated:0001",
+          "query": "I am inquiring about a Ace Ltd., a Bermuda insurer under investigation, dismissed two executives. Was Ace Ltd., a Bermuda insurer, the subject of an investigation by the New York attorney general? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 50,
+          "support_span_end": 144
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000532:ia:generated:0002",
+          "query": "I am inquiring about a Ace Ltd., a Bermuda insurer under investigation, dismissed two executives. Was the dismissal of the executives a direct response to the investigation? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 0,
+          "support_span_end": 49
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000532:ia:generated:0038",
+          "query": "I am inquiring about a reported fact. Were 3 executives dismissed by Ace Ltd.? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 174,
+          "support_span_end": 199
+        }
+      ],
+      "answer_in_query_ids": [],
+      "answer_in_query_reason": null,
+      "alternate_valid_candidates": [],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": true,
+      "usable_three_without_answer_in_query": true,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "b171aecdf2b6f54392f424787dfd776b64154989d308723b6eef060941cdf024"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000544",
+      "decisions": [
+        [
+          "vr_8f7c13ac13ed6115ecd81919",
+          "Google expects to add 372,050 advertiser accounts by 2008.",
+          "expects to add 372,050\\advertiser accounts by 2008"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000544:ia:generated:0002",
+          "The account target is attributed to the San Francisco Chronicle.",
+          "the San Francisco Chronicle\\reported on Wednesday"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000544:ia:generated:0027",
+          "The only named company, Google, says it will not issue financial forecasts.",
+          "said it will\\not issue financial forecasts"
+        ]
+      ],
+      "note": "Keep expects as the source modality; the article attributes the projection to the Chronicle. The No concerns the explicit will-not-issue-financial-forecasts statement, not a claim that an advertiser count is itself a financial forecast. Two overlay count questions are duplicates.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "selected_count": 3,
+      "candidate_checks": [
+        {
+          "candidate_id": "vr_8f7c13ac13ed6115ecd81919",
+          "query": "Does the report say Google expects to add 372,050 advertiser accounts by 2008? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 190,
+          "support_span_end": 240
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000544:ia:generated:0002",
+          "query": "I am inquiring about a Google expects to add 372,050 new advertiser accounts by 2008. Is the San Francisco Chronicle the source of the report that Google will add 372,050 new advertiser accounts? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 242,
+          "support_span_end": 291
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000544:ia:generated:0027",
+          "query": "I am inquiring about a Google expects to add 372,050 new advertiser accounts by 2008. Is a company mentioned in the article that will issue financial forecasts while adding new advertiser accounts? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 146,
+          "support_span_end": 188
+        }
+      ],
+      "answer_in_query_ids": [],
+      "answer_in_query_reason": null,
+      "alternate_valid_candidates": [],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": true,
+      "usable_three_without_answer_in_query": true,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "848d374c2368bd5ea5ff264499e23795f9af708a378f43c6c049c58169dad9a5"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000551",
+      "decisions": [
+        [
+          "vr_a08f8a2d5a3f7944dba77887",
+          "The man was tried for the 1986 murder of Olof Palme.",
+          "the 1986 murder of Swedish Prime Minister Olof Palme"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000551:ia:generated:0002",
+          "The man who died Wednesday is identified as the only man ever brought to trial for that murder.",
+          "The only man ever brought to trial\\for the 1986 murder of Swedish Prime Minister Olof Palme died\\on Wednesday"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000551:ia:generated:0004",
+          "The case remained an enduring mystery after almost twenty years.",
+          "leaving the case an enduring mystery after almost\\20 years"
+        ]
+      ],
+      "note": "The first two queries share trial identity but add a distinct death-event link in the second; the third tests unresolved-case status/duration. The third query's the man who died relies on the source or the preceding death question. No claim about conviction, acquittal, citizenship or confession is supported.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "selected_count": 3,
+      "candidate_checks": [
+        {
+          "candidate_id": "vr_a08f8a2d5a3f7944dba77887",
+          "query": "Does the report say the man was tried for the 1986 murder of Olof Palme? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 108,
+          "support_span_end": 160
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000551:ia:generated:0002",
+          "query": "I am inquiring about a Murder case of Swedish Prime Minister Olof Palme. Was the man who died on Wednesday the same person who was brought to trial for the 1986 murder of Swedish Prime Minister Olof Palme? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 69,
+          "support_span_end": 178
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000551:ia:generated:0004",
+          "query": "I am inquiring about a Murder case of Swedish Prime Minister Olof Palme. Did the man who died leave the case unsolved after almost 20 years? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 180,
+          "support_span_end": 238
+        }
+      ],
+      "answer_in_query_ids": [],
+      "answer_in_query_reason": null,
+      "alternate_valid_candidates": [],
+      "turn_order_material": true,
+      "turn_order_note": "Keep 0002 before 0004: the latter uses the man who died; source anchoring is also needed for the first overlay's the man.",
+      "grounded_three_propositions": true,
+      "usable_three_without_answer_in_query": true,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "c2b64bfc224db7fc9308d3f681f5185e3d962f86c38b8916eef105672bccc4a3"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000639",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00000639:ia:generated:0040",
+          "The inquiry placed much blame on Continental Airlines, not British Airways in its place.",
+          "placed much of the blame on the American carrier, Continental Airlines."
+        ],
+        [
+          "ag_news:ag_news_teacher_00000639:ia:generated:0037",
+          "The crash is dated July 2000, contradicting January 2000.",
+          "the July 2000 Concorde crash"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000639:ia:generated:0003",
+          "The excerpt names Continental but does not establish whether it was the only American carrier implicated.",
+          "placed much of the blame on the American carrier, Continental Airlines."
+        ]
+      ],
+      "note": "No labels use explicit carrier substitution and crash-month contradiction. Unknown is a source-insufficiency judgement about exclusivity, not a positive claim about a second carrier. Primarily blamed is stronger than much of the blame, and repeated whole-source copies are not selected.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "no",
+        "no",
+        "unknown"
+      ],
+      "selected_count": 3,
+      "candidate_checks": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000639:ia:generated:0040",
+          "query": "I am inquiring about a reported fact. Does the claim that Concorde crash 'due to US firm' place much of the blame on British Airways instead of Continental Airlines? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 112,
+          "support_span_end": 183
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000639:ia:generated:0037",
+          "query": "I am inquiring about a reported fact. Did the French inquiry find any evidence suggesting that the Concorde crash occurred in January 2000 instead of July 2000? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 68,
+          "support_span_end": 96
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000639:ia:generated:0003",
+          "query": "I am inquiring about a July 2000 Concorde crash near Paris. Was Continental Airlines the only American carrier implicated in the July 2000 Concorde crash? Please answer with Yes, No, or Unknown.",
+          "reference": "unknown",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "source_insufficiency",
+          "support_span_start": 112,
+          "support_span_end": 183
+        }
+      ],
+      "answer_in_query_ids": [],
+      "answer_in_query_reason": null,
+      "alternate_valid_candidates": [],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": true,
+      "usable_three_without_answer_in_query": true,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "6717775df279182c54709c0cd96c63693900a5a77db5659b798088829cdd83bb"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000843",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00000843:ia:generated:0002",
+          "Oklahoma beat Baylor with a shutout.",
+          "beating Baylor 35-0"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000843:ia:generated:0003",
+          "Peterson scored three second-half touchdowns.",
+          "including three second-half touchdowns"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000843:ia:generated:0024",
+          "The fewer-than-240-yard claim is contradicted by the stated 240 yards.",
+          "Adrian Peterson ran for 240 yards"
+        ]
+      ],
+      "note": "Distinct targets are shutout, touchdown timing/count and rushing yards. The selected rushing-yard No answers itself through the 240-yard introductory phrase. No clean alternative for that third numerical fact was found: the over-240 Yes is mislabeled; other No choices repeat the shutout or touchdown-time fact.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "selected_count": 3,
+      "candidate_checks": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000843:ia:generated:0002",
+          "query": "I am inquiring about a Oklahoma's win over Baylor with Adrian Peterson's 240-yard performance. Did No. 2 Oklahoma win against Baylor with a shutout? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 197,
+          "support_span_end": 216
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000843:ia:generated:0003",
+          "query": "I am inquiring about a Oklahoma's win over Baylor with Adrian Peterson's 240-yard performance. Did Adrian Peterson score three touchdowns in the second half against Baylor? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 82,
+          "support_span_end": 120
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000843:ia:generated:0024",
+          "query": "I am inquiring about a Oklahoma's win over Baylor with Adrian Peterson's 240-yard performance. Did Adrian Peterson score all three of his touchdowns in the second half with less than 240 rushing yards? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 47,
+          "support_span_end": 80
+        }
+      ],
+      "answer_in_query_ids": [
+        "ag_news:ag_news_teacher_00000843:ia:generated:0024"
+      ],
+      "answer_in_query_reason": "The introduction explicitly supplies 240 yards before asking whether the total was less than 240.",
+      "alternate_valid_candidates": [],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": true,
+      "usable_three_without_answer_in_query": false,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "6cf582f815bf6b75aad89845c57e44214cf9e2e2a8075d4022560de937c5bdd0"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000854",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00000854:ia:generated:0008",
+          "Lee's Taiwan visit preceded China's later signal that the row may have blown over.",
+          "China signaled on Thursday its row with  Singapore over a visit by Prime Minister Lee Hsien Loong to  Taiwan last month may have blown over"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000854:ia:generated:0034",
+          "The unscheduled traveller was Taiwan's premier, contradicting the president substitution.",
+          "an  unscheduled stop by Taiwan's premier"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000854:ia:generated:0038",
+          "The unscheduled traveller was Taiwan's premier, contradicting the South Korean substitution.",
+          "an  unscheduled stop by Taiwan's premier"
+        ]
+      ],
+      "note": "The first question is accepted only as a temporal ordering of last-month visit before Thursday's tentative signal, not proof of a definitively ended dispute. The No questions test distinct traveller attributes, office and jurisdiction. They share one evidence span but are not polarity duplicates. Avoid mistaken Japan/Singapore premier and unsupported specific-sanction claims.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes",
+        "no",
+        "no"
+      ],
+      "selected_count": 3,
+      "candidate_checks": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000854:ia:generated:0008",
+          "query": "I am inquiring about a China's row with Singapore and warning to Japan. Did Singapore's Prime Minister visit Taiwan before China signaled the end of the row? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 70,
+          "support_span_end": 209
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000854:ia:generated:0034",
+          "query": "I am inquiring about a reported fact. Did China warn Japan over an unscheduled stop by Taiwan's president instead of the prime minister? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 233,
+          "support_span_end": 273
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000854:ia:generated:0038",
+          "query": "I am inquiring about a reported fact. Did China warn Japan over an unscheduled stop by South Korea's premier instead of Taiwan's premier? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 233,
+          "support_span_end": 273
+        }
+      ],
+      "answer_in_query_ids": [],
+      "answer_in_query_reason": null,
+      "alternate_valid_candidates": [],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": true,
+      "usable_three_without_answer_in_query": true,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "f1fa6c06aa36644f4d5ecc364d5118a45af57f7c0c30d3376355dfc2be7b7897"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000988",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00000988:ia:generated:0031",
+          "PayPal was experiencing intermittent service outages.",
+          "intermittent service outages at the online payment service PayPal"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000988:ia:generated:0029",
+          "Log-ins were affected on the fifth consecutive outage day.",
+          "continued Tuesday for the fifth consecutive day, affecting payments, log-ins and account creations."
+        ],
+        [
+          "ag_news:ag_news_teacher_00000988:ia:generated:0001",
+          "Tuesday was the fifth consecutive outage day, not the first outage in those five days.",
+          "continued Tuesday for the fifth consecutive day"
+        ]
+      ],
+      "note": "Distinct targets are intermittent outages, login impact, and duration. The duration query answers itself in the five-consecutive-days prefix. An existing non-self-answering No conjunction is listed as an alternative; its six-day and only-login assertions are both contradicted.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "selected_count": 3,
+      "candidate_checks": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000988:ia:generated:0031",
+          "query": "I am inquiring about a reported fact. Is it true that PayPal is experiencing intermittent service outages? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 57,
+          "support_span_end": 122
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000988:ia:generated:0029",
+          "query": "I am inquiring about a PayPal service disruptions for five consecutive days. Were there any issues with account log-ins at PayPal on the fifth day of outages? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 123,
+          "support_span_end": 222
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000988:ia:generated:0001",
+          "query": "I am inquiring about a PayPal service disruptions for five consecutive days. Was PayPal's service disrupted on Tuesday for the first time in the last five days? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 123,
+          "support_span_end": 170
+        }
+      ],
+      "answer_in_query_ids": [
+        "ag_news:ag_news_teacher_00000988:ia:generated:0001"
+      ],
+      "answer_in_query_reason": "The introduction explicitly states five consecutive days before asking whether Tuesday was the first outage in that period.",
+      "alternate_valid_candidates": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000988:ia:generated:0036",
+          "replaces_candidate_id": "ag_news:ag_news_teacher_00000988:ia:generated:0001",
+          "query": "I am inquiring about a reported fact. Was PayPal's service disrupted for six consecutive days, but the outages only affected log-ins? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "proposition": "Both six days and only log-ins are contradicted by the report.",
+          "evidence_quote": "continued Tuesday for the fifth consecutive day, affecting payments, log-ins and account creations.",
+          "answer_in_query": false
+        }
+      ],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": true,
+      "usable_three_without_answer_in_query": false,
+      "usable_three_with_listed_alternative": true,
+      "source_text_sha256": "efd85fce9d6c15d1633e4e32a6a407ef34764dae31cef89cc82ccf61fafb481f"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000992",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00000992:ia:generated:0001",
+          "Allawi announced expansion of the Baghdad weapons-for-cash program.",
+          "Prime Minister Ayad Allawi of Iraq said today that a weapons-for-cash program in Baghdad would be expanded nationwide."
+        ],
+        [
+          "ag_news:ag_news_teacher_00000992:ia:generated:0003",
+          "Nationwide expansion extends the Baghdad program to other Iraqi cities.",
+          "a weapons-for-cash program in Baghdad would be expanded nationwide"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000992:ia:generated:0036",
+          "The reported existing program is in Baghdad, not Basra in place of Baghdad.",
+          "a weapons-for-cash program in Baghdad"
+        ]
+      ],
+      "note": "Distinct targeted slots are Allawi's expansion decision, extension to other Iraqi cities, and the original Baghdad location versus Basra. Do not turn nationwide into an unsupported promise of every individual city; no timeline, eligibility or weapon-category details are supplied.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "selected_count": 3,
+      "candidate_checks": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000992:ia:generated:0001",
+          "query": "I am inquiring about a Iraqi Premier's plan to expand weapons-for-cash program. Did Prime Minister Ayad Allawi announce plans to expand a weapons-for-cash program in Baghdad? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 55,
+          "support_span_end": 173
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000992:ia:generated:0003",
+          "query": "I am inquiring about a Iraqi Premier's plan to expand weapons-for-cash program. Will the weapons-for-cash program in Baghdad be implemented in other Iraqi cities? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 106,
+          "support_span_end": 172
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000992:ia:generated:0036",
+          "query": "I am inquiring about a reported fact. Was the weapons-for-cash program in Iraq planned to be implemented in Basra instead of Baghdad? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 106,
+          "support_span_end": 143
+        }
+      ],
+      "answer_in_query_ids": [],
+      "answer_in_query_reason": null,
+      "alternate_valid_candidates": [],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": true,
+      "usable_three_without_answer_in_query": true,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "d9157c7784165fb782509b5ec8d1a96dfb598c5bade17cdad8748b589ccbe8f2"
+    },
+    {
+      "doc_id": "ag_news_teacher_00000997",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00000997:ia:generated:0001",
+          "P&O planned to reduce its ferry fleet.",
+          "will trim its ferries fleet"
+        ],
+        [
+          "vr_da6a2259a0bfdd6f8a4fb665",
+          "The number of job cuts is 1,200.",
+          "cut 1,200 jobs"
+        ],
+        [
+          "vr_05be81054ae17566a7d90ea7",
+          "The 1,200 job cuts equal a fifth of the unit's workforce.",
+          "cut 1,200 jobs, or a fifth of the unit #39;s workforce"
+        ]
+      ],
+      "note": "Selected all-Yes targets are fleet reduction, job count and workforce fraction. The first query repeats its answer in the prefix. An existing No fleet-growth alternative avoids that problem. Keep the P&O-specific question first because later report/job-cut references rely on that source anchor.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "selected_count": 3,
+      "candidate_checks": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000997:ia:generated:0001",
+          "query": "I am inquiring about a P&O's ferry unit to cut jobs and fleet to stem losses. Did P&O announce a plan to reduce its ferry fleet? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 160,
+          "support_span_end": 187
+        },
+        {
+          "candidate_id": "vr_da6a2259a0bfdd6f8a4fb665",
+          "query": "Does the report put the number of job cuts at 1,200? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 192,
+          "support_span_end": 206
+        },
+        {
+          "candidate_id": "vr_05be81054ae17566a7d90ea7",
+          "query": "Does the report say the 1,200 job cuts equal a fifth of the ferry unit's workforce? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 192,
+          "support_span_end": 246
+        }
+      ],
+      "answer_in_query_ids": [
+        "ag_news:ag_news_teacher_00000997:ia:generated:0001"
+      ],
+      "answer_in_query_reason": "The introduction explicitly says P&O is to cut jobs and fleet before asking whether the fleet would be reduced.",
+      "alternate_valid_candidates": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000997:ia:generated:0031",
+          "replaces_candidate_id": "ag_news:ag_news_teacher_00000997:ia:generated:0001",
+          "query": "I am inquiring about a reported fact. Did P&O announce a plan to increase its ferry fleet? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "proposition": "Fleet increase contradicts the reported planned fleet trimming.",
+          "evidence_quote": "will trim its ferries fleet",
+          "answer_in_query": false
+        }
+      ],
+      "turn_order_material": true,
+      "turn_order_note": "Keep the P&O-specific fleet question, or its listed P&O-specific alternative, before generic report/job-cut overlays.",
+      "grounded_three_propositions": true,
+      "usable_three_without_answer_in_query": false,
+      "usable_three_with_listed_alternative": true,
+      "source_text_sha256": "086f3f41c888ed869ff6179e81e126154ed4ff55f647d419ba3e8c86b1fff2a3"
+    }
+  ],
+  "rejected_documents": [
+    {
+      "doc_id": "ag_news_teacher_00000250",
+      "decisions": [
+        [
+          "vr_1eb7d1b566b501cd86079a17",
+          "The article anticipates a dinner next summer involving Rivers, Davis, Garrity and Hill.",
+          "When Doc Rivers has dinner with Orlando coach Johnny Davis and Magic players Pat Garrity and Grant Hill sometime next summer"
+        ]
+      ],
+      "note": "One precise future-oriented overlay is supported. Past-tense dinner attendance and completed discussions are not established by an anticipated next-summer dinner; scheduled is stronger than the source. Full-source repetitions and changed-team copies do not supply additional distinct narrow facts.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes"
+      ],
+      "selected_count": 1,
+      "candidate_checks": [
+        {
+          "candidate_id": "vr_1eb7d1b566b501cd86079a17",
+          "query": "Does the article mention a dinner involving Doc Rivers, Johnny Davis, Pat Garrity and Grant Hill sometime next summer? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 22,
+          "support_span_end": 146
+        }
+      ],
+      "answer_in_query_ids": [],
+      "answer_in_query_reason": null,
+      "alternate_valid_candidates": [],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": false,
+      "usable_three_without_answer_in_query": false,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "b04d510506be3b33e5640d2a6624ac464daab989d93c53e3428d45cf57460c74",
+      "best_available_count": 1,
+      "reason": "One precise future-oriented overlay is supported. Past-tense dinner attendance and completed discussions are not established by an anticipated next-summer dinner; scheduled is stronger than the source. Full-source repetitions and changed-team copies do not supply additional distinct narrow facts."
+    },
+    {
+      "doc_id": "ag_news_teacher_00000284",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00000284:ia:generated:0038",
+          "The generic street-repair passage affirms that potholes get filled and the street gets repaved; the queried negation is false.",
+          "The potholes get filled, and the street gets repaved."
+        ]
+      ],
+      "note": "Shakedown street is a headline for a generic streets-repair vignette, not an established named street. The selected No evaluates the actual generic source assertion. Named-street, other-street and invented Whether-street claims are unsupported; the remaining generic No variants duplicate the same proposition.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "no"
+      ],
+      "selected_count": 1,
+      "candidate_checks": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000284:ia:generated:0038",
+          "query": "I am inquiring about a reported fact. Is it false that The potholes get filled and the street gets repaved? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 173,
+          "support_span_end": 226
+        }
+      ],
+      "answer_in_query_ids": [],
+      "answer_in_query_reason": null,
+      "alternate_valid_candidates": [],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": false,
+      "usable_three_without_answer_in_query": false,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "ce4fd6c9002d6302344e81c52fcd4d0051514bce6132243ef14a67ccf7a7d19e",
+      "best_available_count": 1,
+      "reason": "Shakedown street is a headline for a generic streets-repair vignette, not an established named street. The selected No evaluates the actual generic source assertion. Named-street, other-street and invented Whether-street claims are unsupported; the remaining generic No variants duplicate the same proposition."
+    },
+    {
+      "doc_id": "ag_news_teacher_00000313",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00000313:ia:generated:0001",
+          "Kezman scored Chelsea's match-winning goal.",
+          "scored the matchwinner in the 57th minute to give Chelsea victory"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000313:ia:generated:0007",
+          "The match-winning goal was in the 57th minute.",
+          "scored the matchwinner in the 57th minute"
+        ]
+      ],
+      "note": "Only match result and minute provide distinct narrowly tested attributes in acceptable existing wording. Second-half variants reuse the time fact; first goal for Chelsea this season can mean the team's first goal and is ambiguous. Other variants contain answer tags, unrelated-match scope, wrong labels or a misspelled player. First selected query directly supplies its own answer; existing No alternative below avoids that cue but does not create a third fact.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes",
+        "yes"
+      ],
+      "selected_count": 2,
+      "candidate_checks": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000313:ia:generated:0001",
+          "query": "I am inquiring about a Mateja Kezman scored the match-winning goal for Chelsea. Did Mateja Kezman score the winning goal for Chelsea? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 170,
+          "support_span_end": 235
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000313:ia:generated:0007",
+          "query": "I am inquiring about a Mateja Kezman scored the match-winning goal for Chelsea. Did Mateja Kezman score the winning goal in the 57th minute for Chelsea? Please answer with Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 170,
+          "support_span_end": 211
+        }
+      ],
+      "answer_in_query_ids": [
+        "ag_news:ag_news_teacher_00000313:ia:generated:0001"
+      ],
+      "answer_in_query_reason": "The introduction states that Kezman scored Chelsea's match-winning goal before asking the same fact.",
+      "alternate_valid_candidates": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000313:ia:generated:0032",
+          "replaces_candidate_id": "ag_news:ag_news_teacher_00000313:ia:generated:0001",
+          "query": "I am inquiring about a reported fact. Did Mateja Kezman score the losing goal for Chelsea? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "proposition": "The proposed losing goal contradicts the source's matchwinner.",
+          "evidence_quote": "scored the matchwinner in the 57th minute to give Chelsea victory",
+          "answer_in_query": false
+        }
+      ],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": false,
+      "usable_three_without_answer_in_query": false,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "4a7766c36d8d853be9d8c3ff5600e161ba2747dc148fb3c2f65b44a8bcb8ca23",
+      "best_available_count": 2,
+      "reason": "Only match result and minute provide distinct narrowly tested attributes in acceptable existing wording. Second-half variants reuse the time fact; first goal for Chelsea this season can mean the team's first goal and is ambiguous. Other variants contain answer tags, unrelated-match scope, wrong labels or a misspelled player. First selected query directly supplies its own answer; existing No alternative below avoids that cue but does not create a third fact."
+    },
+    {
+      "doc_id": "ag_news_teacher_00000406",
+      "decisions": [
+        [
+          "vr_d827cb68d8893a8cbf31a862",
+          "O'Neal wanted to be the first man to win both an NBA championship and an Oscar.",
+          "his goal in life was to become the first man to win an NBA championship and an Oscar"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000406:ia:generated:0003",
+          "An aspiration is reported; the excerpt does not establish whether O'Neal won an Oscar.",
+          "his goal in life was to become the first man to win an NBA championship and an Oscar"
+        ]
+      ],
+      "note": "The two overlay Yes questions express the same combined-award aspiration, with the first-man qualifier refining that same goal; do not count both as independent facts. Movie candidates add unsupported NBA-career/retirement timing or causal claims. Unknown is retained for Oscar achievement because only aspiration is stated.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "yes",
+        "unknown"
+      ],
+      "selected_count": 2,
+      "candidate_checks": [
+        {
+          "candidate_id": "vr_d827cb68d8893a8cbf31a862",
+          "query": "Does the article say O'Neal wanted to be the first man to win both an NBA championship and an Oscar? Answer Yes, No, or Unknown.",
+          "reference": "yes",
+          "origin": "pending_overlay",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 73,
+          "support_span_end": 157
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000406:ia:generated:0003",
+          "query": "I am inquiring about a Shaquille O'Neal's goal to win NBA championship and Oscar. Did Shaquille O'Neal achieve his goal of winning an Oscar? Please answer with Yes, No, or Unknown.",
+          "reference": "unknown",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "source_insufficiency",
+          "support_span_start": 73,
+          "support_span_end": 157
+        }
+      ],
+      "answer_in_query_ids": [],
+      "answer_in_query_reason": null,
+      "alternate_valid_candidates": [],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": false,
+      "usable_three_without_answer_in_query": false,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "e7023c7a635eb27cc0b067a05dbae3c185e38b7f9050290cefd946b4879397f2",
+      "best_available_count": 2,
+      "reason": "The two overlay Yes questions express the same combined-award aspiration, with the first-man qualifier refining that same goal; do not count both as independent facts. Movie candidates add unsupported NBA-career/retirement timing or causal claims. Unknown is retained for Oscar achievement because only aspiration is stated."
+    },
+    {
+      "doc_id": "ag_news_teacher_00000433",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00000433:ia:generated:0036",
+          "The quoted yen cross-rate is 81.29, contradicting the proposed 81.30.",
+          "81.29 Japanese yen"
+        ]
+      ],
+      "note": "Only the explicit 81.29/81.30 yen-rate contrast is accepted. The headline does not establish a nine-month high against each listed cross-currency. Same-day, causal and ordering additions, individual stock rises and numerical comparisons across different currency units are not supported. The 82.39 contrast would repeat the same yen-rate fact.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "no"
+      ],
+      "selected_count": 1,
+      "candidate_checks": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000433:ia:generated:0036",
+          "query": "I am inquiring about a reported fact. Was the Aussie dollar at a value of 81.30 Japanese yen instead of 81.29 on the day it reached its nine-month high? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 84,
+          "support_span_end": 102
+        }
+      ],
+      "answer_in_query_ids": [],
+      "answer_in_query_reason": null,
+      "alternate_valid_candidates": [],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": false,
+      "usable_three_without_answer_in_query": false,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "258023f831e8b7838594bf15b8ae6b555d28f8241225e58399a8137e9e9c2f22",
+      "best_available_count": 1,
+      "reason": "Only the explicit 81.29/81.30 yen-rate contrast is accepted. The headline does not establish a nine-month high against each listed cross-currency. Same-day, causal and ordering additions, individual stock rises and numerical comparisons across different currency units are not supported. The 82.39 contrast would repeat the same yen-rate fact."
+    },
+    {
+      "doc_id": "ag_news_teacher_00000910",
+      "decisions": [
+        [
+          "ag_news:ag_news_teacher_00000910:ia:generated:0041",
+          "DHS was planning new pilot projects, contradicting old projects.",
+          "The Department of Homeland Security is actively planning several new pilot projects"
+        ],
+        [
+          "ag_news:ag_news_teacher_00000910:ia:generated:0045",
+          "The projects concern cybersecurity, contradicting a different field.",
+          "DHS moves ahead with cybersecurity R amp;D efforts"
+        ]
+      ],
+      "note": "Two direct contrasts are new versus old projects and cybersecurity versus another field. The December-15 No is not accepted: a September-15 publication dateline does not rule out continuing activity in December. Positive headless is-actively-planning questions lack a subject, and agency-involvement questions lack supporting evidence.",
+      "human_reviewed": false,
+      "reference_pattern": [
+        "no",
+        "no"
+      ],
+      "selected_count": 2,
+      "candidate_checks": [
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000910:ia:generated:0041",
+          "query": "I am inquiring about a reported fact. Does the Department of Homeland Security plan several old pilot projects? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 109,
+          "support_span_end": 192
+        },
+        {
+          "candidate_id": "ag_news:ag_news_teacher_00000910:ia:generated:0045",
+          "query": "I am inquiring about a reported fact. Is the Department of Homeland Security planning several new pilot projects in the field of something other than cybersecurity? Please answer with Yes, No, or Unknown.",
+          "reference": "no",
+          "origin": "original_bank_not_externally_rejected",
+          "support_kind": "direct_entailment_or_contradiction",
+          "support_span_start": 0,
+          "support_span_end": 50
+        }
+      ],
+      "answer_in_query_ids": [],
+      "answer_in_query_reason": null,
+      "alternate_valid_candidates": [],
+      "turn_order_material": false,
+      "turn_order_note": null,
+      "grounded_three_propositions": false,
+      "usable_three_without_answer_in_query": false,
+      "usable_three_with_listed_alternative": false,
+      "source_text_sha256": "0b00b8428008b710e7b7127ed256fab6f381b0cd2f298eae102206aacfcc9029",
+      "best_available_count": 2,
+      "reason": "Two direct contrasts are new versus old projects and cybersecurity versus another field. The December-15 No is not accepted: a September-15 publication dateline does not rule out continuing activity in December. Positive headless is-actively-planning questions lack a subject, and agency-involvement questions lack supporting evidence."
+    }
+  ],
+  "skipped_documents": [
+    {
+      "row_1_based": 3,
+      "doc_id": "ag_news_teacher_00000149",
+      "reason": "present_in_existing_review_batch"
+    },
+    {
+      "row_1_based": 5,
+      "doc_id": "ag_news_teacher_00000220",
+      "reason": "present_in_existing_review_batch"
+    },
+    {
+      "row_1_based": 6,
+      "doc_id": "ag_news_teacher_00000224",
+      "reason": "present_in_existing_review_batch"
+    },
+    {
+      "row_1_based": 12,
+      "doc_id": "ag_news_teacher_00000363",
+      "reason": "three_existing_three_round_candidates"
+    },
+    {
+      "row_1_based": 14,
+      "doc_id": "ag_news_teacher_00000388",
+      "reason": "present_in_existing_review_batch"
+    },
+    {
+      "row_1_based": 17,
+      "doc_id": "ag_news_teacher_00000440",
+      "reason": "present_in_existing_review_batch"
+    },
+    {
+      "row_1_based": 18,
+      "doc_id": "ag_news_teacher_00000479",
+      "reason": "three_existing_three_round_candidates"
+    },
+    {
+      "row_1_based": 23,
+      "doc_id": "ag_news_teacher_00000665",
+      "reason": "present_in_existing_review_batch"
+    },
+    {
+      "row_1_based": 27,
+      "doc_id": "ag_news_teacher_00000979",
+      "reason": "present_in_existing_review_batch"
+    }
+  ],
+  "summary": {
+    "assigned_packet_rows": 30,
+    "skipped_documents": 9,
+    "reviewed_documents": 21,
+    "reviewed_candidate_count": 812,
+    "grounded_triples": 15,
+    "fewer_than_three_documents": 6,
+    "selected_propositions": 54,
+    "selected_reference_counts": {
+      "yes": 31,
+      "unknown": 3,
+      "no": 20
+    },
+    "triple_reference_patterns": {
+      "yes/yes/unknown": 1,
+      "yes/no/no": 2,
+      "yes/yes/no": 7,
+      "no/no/no": 1,
+      "yes/yes/yes": 3,
+      "no/no/unknown": 1
+    },
+    "triples_without_answer_in_query": 10,
+    "additional_triples_with_listed_no_leak_alternative": 3,
+    "selected_answer_in_query_count": 6
+  },
+  "verification": {
+    "packet_sha256": "d62dacbc31f61c6e9ab656695b9f5881e8ec306701f969c1e397eea5fdb57fc4",
+    "prior_batch_sha256": {
+      "four_type40_ia_review_batch1_20261118.json": "3aa0f246dfd41b4f9602af27452cca179e07fdbff1ba3baaffcd4503420c2e9d",
+      "four_type40_ia_review_batch2_20261118.json": "2f26dbeed71538064aa02b4978e98317fa45f897177cac940af1237cffaf06b8"
+    },
+    "all_selected_and_alternate_ids_in_assigned_source_candidates": true,
+    "all_selected_queries_copied_verbatim": true,
+    "all_selected_references_unchanged": true,
+    "all_selected_support_spans_exact_substrings": true,
+    "all_remaining_sources_accounted_for": true
+  },
+  "limits": [
+    "Source grounding is not human gold, independent final evaluation, or proof of a valid/effective IA mechanism.",
+    "No labels were repaired. Unsupported, malformed, answer-tagged, copied-source repetitive and redundant candidates were not rewritten to fill shortages.",
+    "Explicit closed-text absence questions are distinguished from absence of a real-world event. Unknown references express source insufficiency; they are not Yes/No-stratum replacements.",
+    "Distinct slots may share source spans or contain overlap; notes disclose trial/death, visitor-role/country and other overlap. They are not claimed statistically independent.",
+    "Answer-in-query flags identify wording that already supplies the tested answer, beyond ordinary presentation of a candidate yes/no proposition. Partial contextual cues are discussed in notes.",
+    "All stored queries and references are exact existing packet values. Selected propositions are review annotations, not replacement online queries."
+  ]
+}

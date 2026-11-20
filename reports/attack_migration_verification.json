@@ -1,0 +1,112 @@
+{
+  "completed_at": "2026-07-15T13:48:04.929054+00:00",
+  "conda_environment": "MIAGuard",
+  "dataset_id": "ag_news",
+  "doctor": {
+    "base_url": "http://127.0.0.1:11434",
+    "embedding_dimension": 768,
+    "embedding_model": "nomic-embed-text:latest",
+    "generation_model": "qwen2.5:3b",
+    "generation_response": "OK",
+    "status": "ok"
+  },
+  "ia": {
+    "manifest": {
+      "attack": "ia",
+      "completed_at": "2026-07-15T13:48:04.928553+00:00",
+      "dataset_id": "ag_news",
+      "generation_model": "qwen2.5:3b",
+      "questions_per_document": 3,
+      "run_id": "20260715-ag-news-smoke",
+      "sample_count": 2,
+      "shadow_data_used": false,
+      "teacher_reference": [
+        "IAplusBigLLM/IA_QueryGeneration.py",
+        "IAplusBigLLM/IA_GroundTruthAnswerGen.py",
+        "IAplusBigLLM/IA_extract_summary.py",
+        "IAplusBigLLM/IA_ConstructAdversarialQuery.py",
+        "IAplusBigLLM/IA_QueryRAG.py",
+        "IAplusBigLLM/IA_Attack.py"
+      ]
+    },
+    "metrics": {
+      "accuracy": 1.0,
+      "confusion_matrix": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 1,
+        "tp": 1
+      },
+      "f1": 1.0,
+      "member_count": 1,
+      "member_score_mean": 0.6333333333333333,
+      "nonmember_count": 1,
+      "nonmember_score_mean": 0.26666666666666666,
+      "precision": 1.0,
+      "recall": 1.0,
+      "roc_auc": 1.0,
+      "sample_count": 2,
+      "threshold": 0.5,
+      "threshold_source": "fixed_config_no_shadow",
+      "tpr_at_fpr_0.001": 1.0,
+      "tpr_at_fpr_0.01": 1.0
+    },
+    "output_path": "D:\\Project\\MIAGuard\\data\\attack_results\\20260715-ag-news-smoke\\ag_news\\ia"
+  },
+  "limit_per_class": 1,
+  "masked_mia": {
+    "manifest": {
+      "attack": "masked_mia",
+      "completed_at": "2026-07-15T13:47:58.616327+00:00",
+      "dataset_id": "ag_news",
+      "generation_model": "qwen2.5:3b",
+      "mask_count": 5,
+      "run_id": "20260715-ag-news-smoke",
+      "sample_count": 2,
+      "shadow_data_used": false,
+      "teacher_reference": [
+        "MaskBasedMIA/MaskDocsWithProxyLLMv8.py",
+        "MaskBasedMIA/QueryRAG_Target.py",
+        "MaskBasedMIA/Attack.py"
+      ]
+    },
+    "metrics": {
+      "accuracy": 1.0,
+      "confusion_matrix": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 1,
+        "tp": 1
+      },
+      "f1": 1.0,
+      "member_count": 1,
+      "member_score_mean": 0.6,
+      "nonmember_count": 1,
+      "nonmember_score_mean": 0.2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "roc_auc": 1.0,
+      "sample_count": 2,
+      "threshold": 0.5,
+      "threshold_source": "fixed_config_no_shadow",
+      "tpr_at_fpr_0.001": 1.0,
+      "tpr_at_fpr_0.01": 1.0
+    },
+    "output_path": "D:\\Project\\MIAGuard\\data\\attack_results\\20260715-ag-news-smoke\\ag_news\\masked_mia"
+  },
+  "run_id": "20260715-ag-news-smoke",
+  "status": "passed",
+  "vector_store": {
+    "backend": "faiss.IndexFlatIP",
+    "created_at": "2026-07-15T13:47:56.336829+00:00",
+    "dataset_id": "ag_news",
+    "dimension": 768,
+    "document_count": 10,
+    "embedding_model": "nomic-embed-text:latest",
+    "exact_retrieval_doc_id": "ag_news_teacher_00000000",
+    "exact_retrieval_score": 1.000000238418579,
+    "path": "D:\\Project\\MIAGuard\\data\\vector_stores\\20260715-ag-news-smoke\\ag_news",
+    "run_id": "20260715-ag-news-smoke",
+    "source_membership_label": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "T10D-fast-live-b5-b6",
+  "run_id": "fast-v2-b5-b6-20261105-01",
+  "identity_sha256": "24005f1ba635c2da807463276c0853d51eac437fbe5fd81149258429c4b5ff00",
+  "analysis_role": "engineering_only",
+  "status": "completed",
+  "outcome": "valid",
+  "expected": 24,
+  "completed": 24,
+  "failed": 0,
+  "skipped": 0,
+  "coverage": 1.0,
+  "missing_attack_scores": 0,
+  "session_count": 12,
+  "method_count": 2,
+  "attack_target_count": 2,
+  "benign_request_count": 8
+}

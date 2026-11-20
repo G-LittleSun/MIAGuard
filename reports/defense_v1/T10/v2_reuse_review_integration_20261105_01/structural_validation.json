@@ -1,0 +1,799 @@
+{
+  "status": "passed",
+  "errors": [],
+  "decision_counts": {
+    "ia": {
+      "rewrite": 67,
+      "reject": 115,
+      "uncertain": 24
+    },
+    "masked": {
+      "rewrite": 60
+    }
+  },
+  "review_manifest_sha256": "002b7bd9d5312f89173e730f1517439ae75f0e6b24b38025c6eb9d7231aa6b99",
+  "input_hashes_checked": 10,
+  "output_hashes_checked": 3,
+  "warnings": [
+    {
+      "kind": "masked_repeated_answer_value",
+      "id": "masked_source_ag_news_teacher_00000149"
+    },
+    {
+      "kind": "masked_repeated_answer_value",
+      "id": "masked_source_ag_news_teacher_00000532"
+    },
+    {
+      "kind": "masked_repeated_answer_value",
+      "id": "masked_source_ag_news_teacher_00000910"
+    },
+    {
+      "kind": "masked_nonascending_number_order",
+      "id": "masked_source_ag_news_teacher_00000997"
+    },
+    {
+      "kind": "masked_answer_contains_digits",
+      "id": "masked_source_ag_news_teacher_00008001"
+    },
+    {
+      "kind": "masked_answer_contains_digits",
+      "id": "masked_source_ag_news_teacher_00008319"
+    },
+    {
+      "kind": "masked_answer_contains_digits",
+      "id": "masked_source_ag_news_teacher_00008361"
+    },
+    {
+      "kind": "masked_repeated_answer_value",
+      "id": "masked_source_ag_news_teacher_00008559"
+    },
+    {
+      "kind": "masked_repeated_answer_value",
+      "id": "masked_source_ag_news_teacher_00008603"
+    },
+    {
+      "kind": "masked_repeated_answer_value",
+      "id": "masked_source_ag_news_teacher_00008739"
+    },
+    {
+      "kind": "masked_repeated_answer_value",
+      "id": "masked_source_ag_news_teacher_00008927"
+    }
+  ],
+  "warning_counts": {
+    "masked_repeated_answer_value": 7,
+    "masked_nonascending_number_order": 1,
+    "masked_answer_contains_digits": 3
+  },
+  "masked_checks": [
+    {
+      "review_id": "masked_source_ag_news_teacher_00000050",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000102",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000149",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000176",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000220",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000224",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000236",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000250",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000284",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000307",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000313",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000363",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000367",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000388",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000406",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000433",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000440",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000479",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000532",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000544",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000551",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000639",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000665",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000843",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000854",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000910",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000979",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000988",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000992",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00000997",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        2,
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008001",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008074",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008191",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008234",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008290",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008302",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008319",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008321",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008340",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008361",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008366",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008409",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008437",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008547",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008559",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008603",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008622",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008636",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008656",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008681",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008692",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008739",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008757",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008787",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008792",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008834",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008836",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008927",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008944",
+      "payload_changed": true,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "review_id": "masked_source_ag_news_teacher_00008988",
+      "payload_changed": false,
+      "instruction_leaks": [],
+      "mask_number_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "ia_ground_truth_counts": {
+    "yes": 66,
+    "no": 1
+  },
+  "limits": [
+    "Structural contract/quoted evidence only; not semantic gold or attack effectiveness.",
+    "Instruction word overlap is a flagged concern; common instruction words need manual handling.",
+    "Actual provider runtime model identity cannot be independently established from submitted metadata."
+  ]
+}

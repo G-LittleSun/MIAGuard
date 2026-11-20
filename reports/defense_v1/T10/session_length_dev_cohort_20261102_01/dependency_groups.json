@@ -1,0 +1,94 @@
+{
+  "base_group_count": 27,
+  "groups": [
+    [
+      "ds_38f26c88b67705df22bffae1"
+    ],
+    [
+      "ds_13288759f00913cffe7922f8"
+    ],
+    [
+      "ds_0f3664e60e2e2525646aa47d",
+      "ds_20bef2f0ed7e8b2f64aa6566"
+    ],
+    [
+      "ds_5ba0c5e0dd6ef1d273fe9ef7"
+    ],
+    [
+      "ds_e77c11fb3208724f562c8d58"
+    ],
+    [
+      "ds_676950d482b143fe19371b63"
+    ],
+    [
+      "ds_5698e93ac7b40b942bc5edbb"
+    ],
+    [
+      "ds_7e3d35d4f9179370afb5cadc"
+    ],
+    [
+      "ds_07b7bc1ad5388f63ce28b5c1"
+    ],
+    [
+      "ds_0a7e3bdff07b952a25507156"
+    ],
+    [
+      "ds_46c4af0cf6e274c0c33a32b9"
+    ],
+    [
+      "ds_ab003acd7d6bad2abedde0ed"
+    ],
+    [
+      "ds_b38331f885f66f800c7c3843"
+    ],
+    [
+      "ds_c2c9661a99efa01acbc3264a"
+    ],
+    [
+      "ds_02b3d5149aa3aa8141d8f555"
+    ],
+    [
+      "ds_a6809a6a022fab2c12d49057"
+    ],
+    [
+      "ds_5bf9bf7b6956988a7dfd37fe"
+    ],
+    [
+      "ds_c120b0a8185dd223ec0f3226"
+    ],
+    [
+      "ds_97837fa8dcc554a86e4a96db"
+    ],
+    [
+      "ds_06d7df0716300797dc1086cb"
+    ],
+    [
+      "ds_dccf06695bb5e61daeb2cff7"
+    ],
+    [
+      "ds_6d9b87189d85d64ed96d88cf"
+    ],
+    [
+      "ds_df8dfcb82795f7c95ea120a8"
+    ],
+    [
+      "ds_3ba717d5e039bb725c1c15fc"
+    ],
+    [
+      "ds_3876fae596b908becf1ad723"
+    ],
+    [
+      "ds_06829e05b502e0648fb3009b"
+    ],
+    [
+      "ds_1554d74e1c08cdcfd85cb060",
+      "ds_3dc3e014b8c16ced527dcb05",
+      "ds_62b3817ec2ac7b3603b95e40"
+    ]
+  ],
+  "rule": "connect source session on shared doc, parent or pre-existing duplicate group",
+  "limitations": [
+    "Same event/semantic relations beyond existing groups remain unreviewed.",
+    "Two focus variants share one source group and do not supply independent documents."
+  ]
+}

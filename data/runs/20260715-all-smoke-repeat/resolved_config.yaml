@@ -1,0 +1,20 @@
+profile: smoke
+dataset_selection:
+  mode: all
+  include:
+  - t2ranking
+  - ag_news
+  - healthcare_magic
+  - ms_marco
+  - nq
+attacks:
+- masked_mia
+- ia
+target_counts:
+  masked_mia:
+    members: 10
+    nonmembers: 10
+  ia:
+    members: 10
+    nonmembers: 10
+runs_dir: data/runs

@@ -1,0 +1,52 @@
+{
+  "version_id": "next_goal_v2_train_20261117_01",
+  "partition": "train",
+  "bank_id": "ag_news_queries_v2",
+  "split_id": "ag_news_threshold_v2",
+  "analysis_role": "engineering_only",
+  "human_gold_complete": false,
+  "formal_effect_eligible": false,
+  "request_count": 47,
+  "expected_events": 188,
+  "methods": [
+    "B0",
+    "B2",
+    "B_TYPE_V2",
+    "B_NEXT_GOAL"
+  ],
+  "counts": {
+    "('direct_rag_mia', 1)": 4,
+    "('s2_mia', 1)": 4,
+    "('masked_mia', 1)": 4,
+    "('direct_rag_mia', 0)": 4,
+    "('s2_mia', 0)": 4,
+    "('masked_mia', 0)": 4,
+    "('ia', 1)": 4,
+    "('ia', 0)": 4,
+    "('benign', None)": 15
+  },
+  "input_sha256": {
+    "D:\\Project\\MIAGuard\\data\\defense_datasets\\multi_action_v2_train_20261117_01\\manifest.json": "a9a7579b8babbfb1ac916d78bb131655f40221ebac4618d303ae682206de58b8",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\next_goal_mask_preflight_20261117.json": "5429b48e541bc88d642972d507f82361b3ae6606e2dc71ec16e25c0b32ffdd06",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\next_goal_source_inventory_20261117.json": "51444e6152cfea30832795a328c54081b4b31401b8820f14496c237f3e473708",
+    "D:\\Project\\MIAGuard\\data\\runs\\20260717-ag-news-four-medium\\ag_news\\target_docs.jsonl": "f7f604ce3acde220998ab2bd93186441119ba0074ae2e7fdf8fcdcde79f11eb1",
+    "D:\\Project\\MIAGuard\\reports\\defense_v1\\T10\\build_next_goal_cohort_20261117.py": "86a0bd40e9e0ac6f91d12c885de71b8455f4ca53844cc76fe10d2455975bbf47"
+  },
+  "output_sha256": {
+    "experiment_spec.json": "0005aeb58098bed174290c13ba74ba5245f0fe595ecf6ed4b30e6fa3b709c1e7",
+    "labels.jsonl": "82f2f53324abda1faa774193bd46dc7b601c3225945647aaab5c67b2eca7ef7f",
+    "lineage.jsonl": "bbd1882ea1659041dfd49fe504148b9320a18686ff2c5e4c31f18b1db5f4ea6e",
+    "normal_rubric.jsonl": "5553d9a9bcbb5031c72cc30ec4aafd50e657d58e142052c1e0e8da026aec4c18",
+    "requests.jsonl": "e17bb9c5b4757403ed966b19f59b4c4daa8dcd709a1fbe4529024ad5b9bf4fe1"
+  },
+  "selection": "Eight targets not in two most recent cohorts. First structurally valid overlay mask and first two yes IA questions; IA sessions are new and preserve no prior trace. Historical normal session includes all three original turns.",
+  "selection_rule": "Compared with V2 require at least one resolved shortcoming, no newly delivered target raw and no correct-supported normal regression. Any observable-output or semantic leak tradeoffs reported; no supported winner if evidence insufficient.",
+  "scoring": "Direct existing yes/no score; S2 existing semantic score with query-echo limitation; Masked position diagnostic, strict parsing tracked separately; IA output category and first raw/limit turn, no label-dependent AUC; normal agent evidence-based review.",
+  "limitations": [
+    "Four member sources appeared in older run labels. New IDs are not proof of independent events.",
+    "IA turns test repeated questions about the same event, not necessarily contextual reasoning.",
+    "Agent normal references and overlay questions are pending human gold.",
+    "Historical hard normal items and full Treo session are reused as regression.",
+    "Two insufficient tasks depend on trusted application supplied allowlists."
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "metrics": {
+    "attack_document_balanced_final_turn_detection_rate": {
+      "direct_rag_mia": 1.0,
+      "ia": 0.021111111111111112,
+      "masked_mia": 1.0,
+      "s2_mia": 0.0
+    },
+    "attack_document_balanced_query_recall": {
+      "direct_rag_mia": 0.47000000000000003,
+      "ia": 0.004499494438827098,
+      "masked_mia": 0.55,
+      "s2_mia": 0.0
+    },
+    "attack_document_balanced_session_recall": {
+      "direct_rag_mia": 1.0,
+      "ia": 0.021111111111111112,
+      "masked_mia": 1.0,
+      "s2_mia": 0.0
+    },
+    "attack_document_balanced_turn_3_detection_rate": {
+      "direct_rag_mia": 1.0,
+      "ia": 0.021111111111111112,
+      "masked_mia": 1.0,
+      "s2_mia": 0.0
+    },
+    "auprc": 0.9636037916995102,
+    "auroc": 0.759483546617916,
+    "balanced_accuracy": 0.5384460694698354,
+    "benign_document_balanced_session_fpr": 0.1,
+    "benign_query_fpr": 0.02,
+    "bootstrap": {
+      "confidence_level": 0.95,
+      "intervals": {
+        "benign_query_fpr": {
+          "lower": 0.0,
+          "upper": 0.05
+        },
+        "f1": {
+          "lower": 0.15722738799661878,
+          "upper": 0.19387311577984148
+        },
+        "macro_attack_recall": {
+          "lower": 0.23058044742163802,
+          "upper": 0.2811248736097068
+        },
+        "minimum_attack_recall": {
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        "precision": {
+          "lower": 0.9541178219503909,
+          "upper": 1.0
+        }
+      },
+      "replicates": 2000,
+      "seed": 20260818,
+      "unit": "doc_id"
+    },
+    "confusion_matrix": {
+      "fn": 988,
+      "fp": 2,
+      "tn": 98,
+      "tp": 106
+    },
+    "f1": 0.1763727121464226,
+    "first_detection_turn_histogram": {
+      "1": 40,
+      "2": 4,
+      "undetected": 184
+    },
+    "macro_attack_recall": 0.25612487360970676,
+    "minimum_attack_recall": 0.0,
+    "precision": 0.9814814814814815,
+    "recall": 0.09689213893967093,
+    "threshold": 0.8000000000000002
+  },
+  "partition": "validation",
+  "pass_criteria": {
+    "max_benign_query_fpr": 0.1,
+    "require_nonzero_recall_for_every_attack": true
+  },
+  "risk_records_sha256": "3a6b9eef9e868c98c01240daab1958a4168cfe3f7137b5de1e4711a581c0d0a1",
+  "schema_version": 1,
+  "source_identity": {
+    "attack_config": {
+      "base_url": "http://127.0.0.1:11434",
+      "direct_rag_mia_max_tokens": 12,
+      "direct_rag_mia_threshold": 0.5,
+      "direct_rag_mia_threshold_source": "fixed_config_no_shadow",
+      "embedding_backend": "sentence_transformers",
+      "embedding_batch_size": 10,
+      "embedding_model": "EmbeddingModel/sentence-transformers/all_minilm_l6_v2",
+      "generation_backend": "transformers",
+      "generation_load_mode": "int8",
+      "generation_model": "LLM/mistralai/mistral-7b-instruct-v0-2",
+      "ia_generation_max_tokens": 128,
+      "ia_threshold": 0.5,
+      "ia_threshold_source": "fixed_config_no_shadow",
+      "ia_unknown_penalty": 0.1,
+      "keep_alive": "10m",
+      "mask_count": 5,
+      "masked_max_tokens": 128,
+      "masked_threshold": 0.2,
+      "masked_threshold_source": "ag_news_calibration_100_per_class",
+      "questions_per_document": 1,
+      "s2_mia_max_tokens": 80,
+      "s2_mia_prefix_words": 10,
+      "s2_mia_threshold": 0.915322333574295,
+      "s2_mia_threshold_source": "ag_news_calibration_100_per_class",
+      "seed": 20260715,
+      "timeout_seconds": 300,
+      "top_k": 4
+    },
+    "gateway_config": {
+      "aggregation_method": "dynamic_window_coverage",
+      "attack_detection_threshold": null,
+      "l2_attack_actions": {},
+      "level_thresholds": [
+        0.2,
+        0.4,
+        0.65,
+        0.85
+      ],
+      "min_session_queries": 3,
+      "mode": "observe",
+      "policy_version": "two_stage_policy_v2_supervised_threshold",
+      "query_critical_threshold": 0.85,
+      "query_weight": 0.4,
+      "restrict_context_chars": 240,
+      "session_critical_threshold": 0.85,
+      "session_evaluation_interval": 1,
+      "session_timeout_seconds": 1800,
+      "session_weight": 0.6,
+      "window_size": 5
+    },
+    "partition": "validation",
+    "pattern_library_version": "1.5.0",
+    "query_bank": {
+      "bank_id": "ag_news_queries_v1",
+      "dataset_id": "ag_news",
+      "queries_sha256": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1"
+    },
+    "schema_version": 1,
+    "scorer_config": {
+      "manifest_path": "D:\\Project\\MIAGuard\\attack_pattern_library\\manifest.yaml",
+      "max_retries": 1,
+      "prompt_version": "direct_v3_anchored",
+      "query_max_tokens": 96,
+      "query_pattern_ids": [
+        "direct_rag_mia",
+        "s2_mia",
+        "masked_mia",
+        "ia"
+      ],
+      "session_max_tokens": 128,
+      "session_pattern_ids": [
+        "direct_rag_mia",
+        "s2_mia",
+        "masked_mia",
+        "ia"
+      ],
+      "strong_threshold": 0.7,
+      "weak_threshold": 0.4
+    },
+    "session_planning": {
+      "accepted_queries_only": true,
+      "grouping_fields": [
+        "partition",
+        "doc_id",
+        "traffic_type",
+        "attack_type"
+      ],
+      "minimum_turns": 3,
+      "target_turns": 5,
+      "version": "all_accepted_balanced_sessions_v1"
+    },
+    "source_run_id": "20260717-ag-news-four-medium",
+    "split_id": "ag_news_threshold_v1",
+    "split_manifest_sha256": "9323c4f66206b169c44f90096cb931147f2e2d186e1584a17cc06af5ff13a7f0",
+    "split_query_bank": {
+      "bank_id": "ag_news_queries_v1",
+      "dataset_id": "ag_news",
+      "queries_sha256": "93b0baf6d1e660cae31dc57cd7cd33c797f2f71b0f0f14f0b59a1d9db3f040e1"
+    }
+  },
+  "status": "failed",
+  "threshold": 0.8000000000000002,
+  "train_selection_sha256": "28c29600e8389849225dd1cca31be934732b1b48604571fab38abc73d7f20181"
+}

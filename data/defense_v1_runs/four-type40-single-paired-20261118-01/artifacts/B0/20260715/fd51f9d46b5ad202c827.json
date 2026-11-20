@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"Win bolsters Wildcats #39; confidence But there are only a handful of programs that consider themselves to be on the same level as Arizona, an elite basketball power that expects to be in contention for the Final Four every season.\" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "Win bolsters Wildcats #39; confidence But there are only a handful of programs that consider themselves to be on the same level as Arizona, an elite basketball power that expects to be in contention for the Final Four every season.",
+      "Feeling right at home in the ACC It hasn #39;t taken Miami and Virginia Tech long to start reaping the benefits of membership in the conference. BLACKSBURG -- It #39;s hard to overlook the irony.",
+      "Malaysia #39;s Anwar Confident of Courts Malaysia #39;s former deputy leader said Wednesday he is confident of victory when his country #39;s highest court reconsiders his conviction on corruption charges, arguing that his opponents have no case.",
+      "Chargers Opening Eyes With 4-3 Start (AP) AP - Surprise, surprise. Look who's above .500 and talking about making a playoff push. None other than the San Diego Chargers."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Win bolsters Wildcats #39; confidence But there are only a handful of programs that consider themselves to be on the same level as Arizona, an elite basketball power that expects to be in contention for the Final Four every season.\"\n\"Feeling right at home in the ACC It hasn #39;t taken Miami and Virginia Tech long to start reaping the benefits of membership in the conference. BLACKSBURG -- It #39;s hard to overlook the irony.\"\n\"Malaysia #39;s Anwar Confident of Courts Malaysia #39;s former deputy leader said Wednesday he is confident of victory when his country #39;s highest court reconsiders his conviction on corruption charges, arguing that his opponents have no case.\"\n\"Chargers Opening Eyes With 4-3 Start (AP) AP - Surprise, surprise. Look who's above .500 and talking about making a playoff push. None other than the San Diego Chargers.\"\n\nQuestion:\nDoes this: \"Win bolsters Wildcats #39; confidence But there are only a handful of programs that consider themselves to be on the same level as Arizona, an elite basketball power that expects to be in contention for the Final Four every season.\" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

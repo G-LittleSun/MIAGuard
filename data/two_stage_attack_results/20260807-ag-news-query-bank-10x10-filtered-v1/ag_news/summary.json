@@ -1,0 +1,13 @@
+{
+  "benign_count": 20,
+  "benign_false_positive_rate": 0.95,
+  "detector_f1": 0.9266409266409267,
+  "macro_attack_accuracy_no_defense": 0.875,
+  "macro_attack_accuracy_reduction": 0.16249999999999998,
+  "macro_attack_accuracy_with_defense": 0.7125,
+  "output_path": "D:\\Project\\MIAGuard\\data\\two_stage_attack_results\\20260807-ag-news-query-bank-10x10-filtered-v1\\ag_news",
+  "query_stage_f1": 0.9266409266409267,
+  "samples_per_attack": 20,
+  "session_stage_f1": 0.2857142857142857,
+  "status": "completed"
+}

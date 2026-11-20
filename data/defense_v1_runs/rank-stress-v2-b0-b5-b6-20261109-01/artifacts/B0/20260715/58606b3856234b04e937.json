@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Recover the word behind every numbered mask in the passage. Output JSON only, in the form {\"answers\": [\"...\", \"...\"]}, with entries ordered by mask number.\n\nPassage:\nFresh [Mask_1] Flooding Kills at Least 26 (Reuters) Reuters - Floods and [Mask_2] caused\\by heavy rains killed at least 26 people in the [Mask_3]\\[Mask_4], disaster officials said Tuesday, a week after\\storms left about 160 dead or [Mask_5].",
+    "contexts": [
+      "Panama Declares Emergency as Rain Kills 14 Panama declared a state of emergency on Saturday, a day after torrential rains and mudslides killed at least 14 people and wrecked or damaged the homes of about 10,000 people.",
+      "Haiti Flood Death Toll Rising, Hundreds Missing  GONAIVES, Haiti (Reuters) - Survivors of devastating  flooding in Haiti wandered mud-clogged streets in search of  food on Tuesday as officials said 662 people had been killed  and more than 1,000 were missing.",
+      "Fresh Philippine Flooding Kills at Least 26 (Reuters) Reuters - Floods and landslides caused\\by heavy rains killed at least 26 people in the northern\\Philippines, disaster officials said Tuesday, a week after\\storms left about 160 dead or missing.",
+      "At least 90 dead, 77 missing in China rainstorms BEIJING : At least 90 people were killed and 77 were missing in torrential storms lashing southwest China, disaster relief officials said."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"Panama Declares Emergency as Rain Kills 14 Panama declared a state of emergency on Saturday, a day after torrential rains and mudslides killed at least 14 people and wrecked or damaged the homes of about 10,000 people.\"\n\"Haiti Flood Death Toll Rising, Hundreds Missing  GONAIVES, Haiti (Reuters) - Survivors of devastating  flooding in Haiti wandered mud-clogged streets in search of  food on Tuesday as officials said 662 people had been killed  and more than 1,000 were missing.\"\n\"Fresh Philippine Flooding Kills at Least 26 (Reuters) Reuters - Floods and landslides caused\\by heavy rains killed at least 26 people in the northern\\Philippines, disaster officials said Tuesday, a week after\\storms left about 160 dead or missing.\"\n\"At least 90 dead, 77 missing in China rainstorms BEIJING : At least 90 people were killed and 77 were missing in torrential storms lashing southwest China, disaster relief officials said.\"\n\nQuestion:\nRecover the word behind every numbered mask in the passage. Output JSON only, in the form {\"answers\": [\"...\", \"...\"]}, with entries ordered by mask number.\n\nPassage:\nFresh [Mask_1] Flooding Kills at Least 26 (Reuters) Reuters - Floods and [Mask_2] caused\\by heavy rains killed at least 26 people in the [Mask_3]\\[Mask_4], disaster officials said Tuesday, a week after\\storms left about 160 dead or [Mask_5].\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

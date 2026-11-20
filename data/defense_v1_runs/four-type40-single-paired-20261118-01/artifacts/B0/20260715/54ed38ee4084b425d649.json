@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "Does this: \"The long march to Longhorn It #39;s not just because I #39;m tired of the bovine references and the  quot;shorthorn quot; jokes. No, the problem is that the future version of Windows formerly known as Longhorn in many ways won #39;t resemble the Longhorn \" appear in the context? Answer with Yes or No.",
+    "contexts": [
+      "The long march to Longhorn It #39;s not just because I #39;m tired of the bovine references and the  quot;shorthorn quot; jokes. No, the problem is that the future version of Windows formerly known as Longhorn in many ways won #39;t resemble the Longhorn ",
+      "AL East race now a chase Imagine the satisfaction around these parts if the chant suddenly is true. Maybe it's no longer just the jealous, seventh-grade,  quot;you're fat-you're ugly quot; taunting. Maybe it's reality. Finally.",
+      "Gamecocks finish at bottom of class CLEMSON, SC - It #39;s not too late, Steve Spurrier. Don #39;t sign any dotted lines until you see the film from the latest South Carolina debacle in Death Valley.",
+      "Notre Dame just doesn #39;t get it The school doesn #39;t get the top recruits, doesn #39;t get the major bowl games it believes is its birthright, and doesn #39;t get the fact that the football program is just not a major power anymore."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"The long march to Longhorn It #39;s not just because I #39;m tired of the bovine references and the  quot;shorthorn quot; jokes. No, the problem is that the future version of Windows formerly known as Longhorn in many ways won #39;t resemble the Longhorn \"\n\"AL East race now a chase Imagine the satisfaction around these parts if the chant suddenly is true. Maybe it's no longer just the jealous, seventh-grade,  quot;you're fat-you're ugly quot; taunting. Maybe it's reality. Finally.\"\n\"Gamecocks finish at bottom of class CLEMSON, SC - It #39;s not too late, Steve Spurrier. Don #39;t sign any dotted lines until you see the film from the latest South Carolina debacle in Death Valley.\"\n\"Notre Dame just doesn #39;t get it The school doesn #39;t get the top recruits, doesn #39;t get the major bowl games it believes is its birthright, and doesn #39;t get the fact that the football program is just not a major power anymore.\"\n\nQuestion:\nDoes this: \"The long march to Longhorn It #39;s not just because I #39;m tired of the bovine references and the  quot;shorthorn quot; jokes. No, the problem is that the future version of Windows formerly known as Longhorn in many ways won #39;t resemble the Longhorn \" appear in the context? Answer with Yes or No.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

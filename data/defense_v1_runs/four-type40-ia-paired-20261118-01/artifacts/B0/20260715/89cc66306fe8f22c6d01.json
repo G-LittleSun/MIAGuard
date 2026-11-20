@@ -1,0 +1,15 @@
+{
+  "generation_input": {
+    "query": "I am inquiring about a Neiman Marcus Christmas Book with expensive gifts. Is there a jeweled Mr. something mentioned in the Neiman Marcus Christmas Book? Please answer with Yes, No, or Unknown.",
+    "contexts": [
+      "A pitch for presents of peace With only 30 shopping days till Christmas, there #39;s no time to lose. So here are some nifty gift ideas for the youngsters on your list: - JFK Reloaded.",
+      "Christmas comes early with Treo 650 I have been anticipating this day like a child waits for Christmas. Today, PalmOne introduces the Treo 650, the answer to my  quot;what smart phone will I buy?",
+      "Shoppers offer retailers cheer Retailers generally had a good showing as the Christmas shopping season began last weekend, but Wal-Mart Stores Inc. dampened the holiday mood with a lump of coal as it reduced its projected sales.",
+      "Mervyn #39;s Welcomes Back Salvation Army Bell Ringers Mervyns announced Thursday it is lifting its ban on Salvation Army bell ringers and is making an exception to its no solicitation policy for the Armys annual Christmas Kettle Drive."
+    ],
+    "prompt": "Answer the question using only the supplied Context. If the Context does not support an answer, say that the evidence is insufficient.\n\nContext:\n\"A pitch for presents of peace With only 30 shopping days till Christmas, there #39;s no time to lose. So here are some nifty gift ideas for the youngsters on your list: - JFK Reloaded.\"\n\"Christmas comes early with Treo 650 I have been anticipating this day like a child waits for Christmas. Today, PalmOne introduces the Treo 650, the answer to my  quot;what smart phone will I buy?\"\n\"Shoppers offer retailers cheer Retailers generally had a good showing as the Christmas shopping season began last weekend, but Wal-Mart Stores Inc. dampened the holiday mood with a lump of coal as it reduced its projected sales.\"\n\"Mervyn #39;s Welcomes Back Salvation Army Bell Ringers Mervyns announced Thursday it is lifting its ban on Salvation Army bell ringers and is making an exception to its no solicitation policy for the Armys annual Christmas Kettle Drive.\"\n\nQuestion:\nI am inquiring about a Neiman Marcus Christmas Book with expensive gifts. Is there a jeweled Mr. something mentioned in the Neiman Marcus Christmas Book? Please answer with Yes, No, or Unknown.\n",
+    "template_version": "defense_v1_shared_answer_20261022",
+    "summary_template_version": null
+  },
+  "judge_traces": []
+}

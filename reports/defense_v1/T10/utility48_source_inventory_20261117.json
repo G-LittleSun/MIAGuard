@@ -1,0 +1,181 @@
+{
+  "analysis_role": "source_inventory_not_annotation",
+  "train_doc_ids": 60,
+  "indexed_train_docs": 30,
+  "indexed_train_docs_with_benign_queries": 30,
+  "benign_categories": {
+    "topic": 300,
+    "entity": 293,
+    "summary": 237,
+    "follow_up": 240,
+    "event": 234
+  },
+  "candidate_pairs": [
+    {
+      "doc_ids": [
+        "ag_news_teacher_00000854",
+        "ag_news_teacher_00000992"
+      ],
+      "shared_words": [
+        "minister",
+        "premier",
+        "prime"
+      ],
+      "score": 0.07692307692307693
+    },
+    {
+      "doc_ids": [
+        "ag_news_teacher_00000551",
+        "ag_news_teacher_00000854"
+      ],
+      "shared_words": [
+        "minister",
+        "prime",
+        "reuters"
+      ],
+      "score": 0.06976744186046512
+    },
+    {
+      "doc_ids": [
+        "ag_news_teacher_00000250",
+        "ag_news_teacher_00000406"
+      ],
+      "shared_words": [
+        "some",
+        "when"
+      ],
+      "score": 0.05714285714285714
+    },
+    {
+      "doc_ids": [
+        "ag_news_teacher_00000176",
+        "ag_news_teacher_00000363"
+      ],
+      "shared_words": [
+        "nasa",
+        "next",
+        "space"
+      ],
+      "score": 0.05555555555555555
+    },
+    {
+      "doc_ids": [
+        "ag_news_teacher_00000979",
+        "ag_news_teacher_00000988"
+      ],
+      "shared_words": [
+        "consecutive",
+        "continued"
+      ],
+      "score": 0.05555555555555555
+    },
+    {
+      "doc_ids": [
+        "ag_news_teacher_00000551",
+        "ag_news_teacher_00000992"
+      ],
+      "shared_words": [
+        "minister",
+        "prime"
+      ],
+      "score": 0.05263157894736842
+    },
+    {
+      "doc_ids": [
+        "ag_news_teacher_00000284",
+        "ag_news_teacher_00000406"
+      ],
+      "shared_words": [
+        "some",
+        "when"
+      ],
+      "score": 0.05128205128205128
+    },
+    {
+      "doc_ids": [
+        "ag_news_teacher_00000367",
+        "ag_news_teacher_00000992"
+      ],
+      "shared_words": [
+        "expansion",
+        "plans"
+      ],
+      "score": 0.05128205128205128
+    },
+    {
+      "doc_ids": [
+        "ag_news_teacher_00000544",
+        "ag_news_teacher_00000551"
+      ],
+      "shared_words": [
+        "reuters",
+        "wednesday"
+      ],
+      "score": 0.05
+    },
+    {
+      "doc_ids": [
+        "ag_news_teacher_00000236",
+        "ag_news_teacher_00000250"
+      ],
+      "shared_words": [
+        "dinner",
+        "some"
+      ],
+      "score": 0.0425531914893617
+    },
+    {
+      "doc_ids": [
+        "ag_news_teacher_00000250",
+        "ag_news_teacher_00000284"
+      ],
+      "shared_words": [
+        "some",
+        "when"
+      ],
+      "score": 0.041666666666666664
+    },
+    {
+      "doc_ids": [
+        "ag_news_teacher_00000176",
+        "ag_news_teacher_00000250"
+      ],
+      "shared_words": [
+        "next",
+        "when"
+      ],
+      "score": 0.0392156862745098
+    },
+    {
+      "doc_ids": [
+        "ag_news_teacher_00000224",
+        "ag_news_teacher_00000854"
+      ],
+      "shared_words": [
+        "reuters",
+        "thursday"
+      ],
+      "score": 0.037037037037037035
+    },
+    {
+      "doc_ids": [
+        "ag_news_teacher_00000176",
+        "ag_news_teacher_00000284"
+      ],
+      "shared_words": [
+        "good",
+        "when"
+      ],
+      "score": 0.03636363636363636
+    }
+  ],
+  "input_sha256": {
+    "D:\\Project\\MIAGuard\\data\\query_banks\\ag_news_queries_v2\\ag_news\\queries.jsonl": "7d44945635a768ec9e107b516040364b934a6c11e33525654727012f71134972",
+    "D:\\Project\\MIAGuard\\data\\query_bank_splits\\ag_news_threshold_v2.json": "96977e550be6c0e42ab0b7609f2c73af261a99474b459778ae46fd123c7b80ef",
+    "D:\\Project\\MIAGuard\\data\\vector_stores\\20260717-ag-news-four-medium\\ag_news\\documents.jsonl": "34219fce98ddb53b317fda03b105b5c304d589fac1d37a66f9cfb2c45e0a53d9"
+  },
+  "limits": [
+    "Lexical overlap does not establish shared event or alternative factual support.",
+    "Dataset partition is train; source text and question evidence require review."
+  ]
+}

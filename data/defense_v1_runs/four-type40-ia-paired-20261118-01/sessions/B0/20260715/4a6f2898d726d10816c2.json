@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "identity_sha256": "0ce5a61557d905ef41ff91750897ed79952bb34432287a7a5915b01f8fcf5932",
+  "method": "B0",
+  "seed": 20260715,
+  "session_id": "ia_ag_news_teacher_00008001",
+  "expected": 3,
+  "events": [
+    {
+      "request_id": "q061",
+      "session_id": "ia_ag_news_teacher_00008001",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not contain any information related to a Neiman Marcus Christmas Book or a 12-seater personal zeppelin. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000358",
+        "ag_news_teacher_00000279",
+        "ag_news_teacher_00000893",
+        "ag_news_teacher_00000577"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000358",
+        "ag_news_teacher_00000279",
+        "ag_news_teacher_00000893",
+        "ag_news_teacher_00000577"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000358",
+            "ag_news_teacher_00000279",
+            "ag_news_teacher_00000893",
+            "ag_news_teacher_00000577"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000358",
+            "ag_news_teacher_00000279",
+            "ag_news_teacher_00000893",
+            "ag_news_teacher_00000577"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1294.5715999230742,
+      "ledger_event": {
+        "request_id": "q061",
+        "session_id": "ia_ag_news_teacher_00008001",
+        "input_sha256": "85962e9fb2215a5565efd377ecc4f9b7d43cd181ce9d6681d88972db7c81ad30",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000358",
+          "ag_news_teacher_00000279",
+          "ag_news_teacher_00000893",
+          "ag_news_teacher_00000577"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000358",
+            "parent_doc_id": "ag_news_teacher_00000358",
+            "kind": "raw",
+            "score": 0.31197434663772583,
+            "text_sha256": "7e2de66dd429be7a0db0c663e82495d5f1cf3edb3d4ffe3e2a9d20f017c29504"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000279",
+            "parent_doc_id": "ag_news_teacher_00000279",
+            "kind": "raw",
+            "score": 0.28484535217285156,
+            "text_sha256": "968d41b203b572b2810027acda52312d2efecd99f7b1be078b269df4994c27f0"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000893",
+            "parent_doc_id": "ag_news_teacher_00000893",
+            "kind": "raw",
+            "score": 0.27063554525375366,
+            "text_sha256": "4905c3e4c28dbce4a74eba118889e1c856146dbf97bda8d79728c91f5080c6bb"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000577",
+            "parent_doc_id": "ag_news_teacher_00000577",
+            "kind": "raw",
+            "score": 0.2661445438861847,
+            "text_sha256": "f228c5901d227dd6f5919a448abd1f48ed99ebfb81845ae788af4c06affbb8b2"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not contain any information related to a Neiman Marcus Christmas Book or a 12-seater personal zeppelin. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006816.2083242,
+        "finished_at": 1795006817.5028229
+      },
+      "generation_input_ref": "artifacts/B0/20260715/2190fc65345d3c443bc5.json",
+      "artifact_sha256": "5fe7c6d33e0fdbc8a8fd3ecad72f71d5285ceab74d24d91ee11be8efe01a76ac"
+    },
+    {
+      "request_id": "q062",
+      "session_id": "ia_ag_news_teacher_00008001",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000534",
+        "ag_news_teacher_00000279",
+        "ag_news_teacher_00000358",
+        "ag_news_teacher_00000805"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000534",
+        "ag_news_teacher_00000279",
+        "ag_news_teacher_00000358",
+        "ag_news_teacher_00000805"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000534",
+            "ag_news_teacher_00000279",
+            "ag_news_teacher_00000358",
+            "ag_news_teacher_00000805"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000534",
+            "ag_news_teacher_00000279",
+            "ag_news_teacher_00000358",
+            "ag_news_teacher_00000805"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 133.12430027872324,
+      "ledger_event": {
+        "request_id": "q062",
+        "session_id": "ia_ag_news_teacher_00008001",
+        "input_sha256": "f900df6a37e71cd23c45d646a2e2f14b64ddfc86374a3c33b387c51264d787ae",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000534",
+          "ag_news_teacher_00000279",
+          "ag_news_teacher_00000358",
+          "ag_news_teacher_00000805"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000534",
+            "parent_doc_id": "ag_news_teacher_00000534",
+            "kind": "raw",
+            "score": 0.3132645785808563,
+            "text_sha256": "79bab1d6a6419398edac112c7d90008980f8beec77532ac51c80ba10e6496a94"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000279",
+            "parent_doc_id": "ag_news_teacher_00000279",
+            "kind": "raw",
+            "score": 0.29386311769485474,
+            "text_sha256": "968d41b203b572b2810027acda52312d2efecd99f7b1be078b269df4994c27f0"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000358",
+            "parent_doc_id": "ag_news_teacher_00000358",
+            "kind": "raw",
+            "score": 0.2843661308288574,
+            "text_sha256": "7e2de66dd429be7a0db0c663e82495d5f1cf3edb3d4ffe3e2a9d20f017c29504"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000805",
+            "parent_doc_id": "ag_news_teacher_00000805",
+            "kind": "raw",
+            "score": 0.25990188121795654,
+            "text_sha256": "3170205aacf6f9b3672b8dd10cf010b3beb24abf4c42bd8eca17288f9106c6de"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006817.5083222,
+        "finished_at": 1795006817.6413226
+      },
+      "generation_input_ref": "artifacts/B0/20260715/8a5b2feb13a6fb170fc6.json",
+      "artifact_sha256": "9e36e14739d3fde955e393138e18e88a3f48d1d0f163af7282c60e56ffc315fb"
+    },
+    {
+      "request_id": "q063",
+      "session_id": "ia_ag_news_teacher_00008001",
+      "method": "B0",
+      "seed": 20260715,
+      "status": "complete",
+      "response": "Unknown.\n\nThe provided context does not mention any information about a Neiman Marcus Christmas Book or a jeweled Mr. something. Therefore, there is insufficient evidence to answer the question.",
+      "reason": null,
+      "retrieved_doc_ids": [
+        "ag_news_teacher_00000279",
+        "ag_news_teacher_00000819",
+        "ag_news_teacher_00000091",
+        "ag_news_teacher_00000759"
+      ],
+      "delivered_doc_ids": [
+        "ag_news_teacher_00000279",
+        "ag_news_teacher_00000819",
+        "ag_news_teacher_00000091",
+        "ag_news_teacher_00000759"
+      ],
+      "risk": {
+        "query_detection": {
+          "stage": "query",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "session_detection": {
+          "stage": "session",
+          "risk_score": 0.0,
+          "risk_class": "NONE",
+          "scoring_method": "noop",
+          "suspected_attack_types": [],
+          "evidence_codes": [],
+          "status": "ok"
+        },
+        "aggregation": {
+          "method": "dynamic_window_coverage",
+          "query_weight": 0.4,
+          "session_weight": 0.6,
+          "window_coverage": 0.0,
+          "total_risk_score": 0.0
+        },
+        "access_control": {
+          "mode": "disabled",
+          "recommended_level": "L0",
+          "applied_level": "L0",
+          "recommended_actions": [
+            "FULL_ACCESS"
+          ],
+          "applied_actions": [
+            "FULL_ACCESS"
+          ],
+          "access_action": "allow"
+        },
+        "latency_ms": {
+          "query_detector": 0.0,
+          "session_detector": 0.0,
+          "total_defense": 0.0
+        },
+        "versions": {
+          "query_scorer": "noop",
+          "session_scorer": "noop",
+          "policy": "defense_v1_observe_frozen_logprob"
+        },
+        "execution": {
+          "recommended_action": "allow",
+          "applied_action": "allow",
+          "status": "ok",
+          "reason_codes": [],
+          "candidate_doc_ids": [
+            "ag_news_teacher_00000279",
+            "ag_news_teacher_00000819",
+            "ag_news_teacher_00000091",
+            "ag_news_teacher_00000759"
+          ],
+          "delivered_doc_ids": [
+            "ag_news_teacher_00000279",
+            "ag_news_teacher_00000819",
+            "ag_news_teacher_00000091",
+            "ag_news_teacher_00000759"
+          ],
+          "excluded_parent_ids": [],
+          "summary_template_version": null,
+          "refill_audit": null
+        }
+      },
+      "action": "allow",
+      "latency_ms": 1176.1414995417,
+      "ledger_event": {
+        "request_id": "q063",
+        "session_id": "ia_ag_news_teacher_00008001",
+        "input_sha256": "66f91faa51134a1553f246b9bd3c340c94450cc05b93750a3ee5f8fdd2c6974e",
+        "status": "complete",
+        "retrieved_doc_ids": [
+          "ag_news_teacher_00000279",
+          "ag_news_teacher_00000819",
+          "ag_news_teacher_00000091",
+          "ag_news_teacher_00000759"
+        ],
+        "transform_input_evidence": [],
+        "delivered_evidence": [
+          {
+            "doc_id": "ag_news_teacher_00000279",
+            "parent_doc_id": "ag_news_teacher_00000279",
+            "kind": "raw",
+            "score": 0.32964611053466797,
+            "text_sha256": "968d41b203b572b2810027acda52312d2efecd99f7b1be078b269df4994c27f0"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000819",
+            "parent_doc_id": "ag_news_teacher_00000819",
+            "kind": "raw",
+            "score": 0.29107362031936646,
+            "text_sha256": "370523d9dd52cbb075c5d749004758cea28cc247f3d418a409ff95af6f95ea0d"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000091",
+            "parent_doc_id": "ag_news_teacher_00000091",
+            "kind": "raw",
+            "score": 0.24538379907608032,
+            "text_sha256": "029119ee03f2fc7200a06bb54592e395b6d0e94061f14b75c85e5ebf0d29e43e"
+          },
+          {
+            "doc_id": "ag_news_teacher_00000759",
+            "parent_doc_id": "ag_news_teacher_00000759",
+            "kind": "raw",
+            "score": 0.22174963355064392,
+            "text_sha256": "70ff489be4521c8b696f71e5483b3ae65b4db0446354b5cb6d30f59512e409f1"
+          }
+        ],
+        "delivered_exposure": "raw",
+        "delivery_attempted": true,
+        "response": "Unknown.\n\nThe provided context does not mention any information about a Neiman Marcus Christmas Book or a jeweled Mr. something. Therefore, there is insufficient evidence to answer the question.",
+        "failure_reason": null,
+        "referenced_parent_ids": [],
+        "created_at": 1795006817.6473236,
+        "finished_at": 1795006818.8233228
+      },
+      "generation_input_ref": "artifacts/B0/20260715/89cc66306fe8f22c6d01.json",
+      "artifact_sha256": "ab7b44ee2f2f4325eaeb6f9946cc7606512c51bc8572136b60d7df049c1c3e91"
+    }
+  ]
+}
