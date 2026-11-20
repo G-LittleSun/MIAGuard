@@ -51,4 +51,5 @@ git status
 
 - 本地已执行 `git init -b main`、添加 `origin` 并配置当前仓库的作者。作者使用 GitHub 账号 `G-LittleSun` 和对应的 GitHub 隐私邮箱，配置保存在本项目的 `.git/config`。
 - 首次提交前检查远端为空、忽略范围、待提交文件大小及凭据特征。5,350 个文件的 Git 暂存对象与本地原字节逐项一致，两批四类对照运行各 240 次的核验通过，61 项相关测试通过。旧 `.gitignore` 的本地副本保存在 `.codex_tmp/git-initialization-20261120/gitignore.before`。
-- 首次提交与推送的完成状态，以本地 `git log -1`、`git status -sb` 和远端 `main` 分支的实际提交 ID 核对。
+- 已创建首次提交 `9a74ec0`，提交说明为 `Initialize MIAGuard research framework and experiment archive`。执行 `git push --set-upstream origin main` 成功，本地 `main` 已跟踪 `origin/main`。
+- 日后同步完成后，可用本地 `git log -1`、`git status -sb` 和 `git ls-remote --heads origin main` 核对实际提交 ID。

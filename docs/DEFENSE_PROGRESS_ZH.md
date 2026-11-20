@@ -1779,3 +1779,8 @@ A–E 为 T10 的内部步骤，完整操作、计划文件和验收写在[主�
 - 已执行 `git init -b main`、`git remote add origin https://github.com/G-LittleSun/MIAGuard.git`，并为本仓库设置账号名与该账号对应的 GitHub 隐私邮箱。`.gitignore` 覆盖本地权重、原始数据、索引、缓存及日志，显式保留冻结查询库、划分、题单、评分和防御运行归档。`.gitattributes` 保留原字节换行以支持 manifest 摘要核验。
 - 使用 `git ls-files --others --exclude-standard -z` 结合 `python -B -X utf8 -` 盘点首次提交候选，约 5,350 个文件、140 MiB，单文件最大约 8 MiB，凭据特征扫描无匹配。新增 Git 操作说明并连接根 README、文档索引和工程目录。首次提交和推送待验证。next_task=T10-D。
 - 执行 `git add -A`，5,350 个文件暂存。用 `python -B -X utf8 -` 逐项比较 Git blob 和本地字节，全部一致，冻结选样清单及两批各 240 次实验核验通过。执行 `python -B -m pytest -q -p no:cacheprovider --basetemp D:/Project/MIAGuard/.codex_tmp/git-initialization-20261120/pytest tests/test_cli.py tests/test_defense_benchmark.py tests/test_defense_v1_observe.py tests/test_frozen_risk_scorer.py`，61 passed，3 条底层 SWIG 弃用警告。230 个本地文档链接存在。待创建首次提交和推送。
+
+### L315 — 2026-11-20 — REPOSITORY_INITIAL_PUSH
+
+- 执行 `git commit -q -m "Initialize MIAGuard research framework and experiment archive"`，首次提交为 `9a74ec0`。执行 `git -c credential.interactive=never push --set-upstream origin main` 成功，GitHub 建立 main 分支，本地跟踪 origin/main。
+- 执行 `git fsck --full` 通过，3 个已被后续暂存内容替代的未引用 blob 属本地暂存过程。已写入 [Git 版本管理与同步](GIT_WORKFLOW_ZH.md)，记录提交范围及模型、原始数据、索引的本地备份范围，项目状态已同步。后续按 Git 历史记录代码变更，研究任务仍为 T10-D。
